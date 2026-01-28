@@ -2,7 +2,6 @@
 
 ## Summary
 
-- **Duration**: 0m 2s
 - **Total Pages**: 79
 - **Fetched**: 79
 - **Fetch Failed**: 0
