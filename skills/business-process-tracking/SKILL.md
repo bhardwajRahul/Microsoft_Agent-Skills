@@ -31,13 +31,13 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
+### Integrations & Coding Patterns
+| Topic | URL |
+|-------|-----|
+| Map business processes to Logic Apps workflows | https://learn.microsoft.com/en-us/azure/business-process-tracking/map-business-process-workflow |
+
 ### Deployment
 | Topic | URL |
 |-------|-----|
 | Deploy business processes and tracking profiles to Azure | https://learn.microsoft.com/en-us/azure/business-process-tracking/deploy-business-process |
 | Create CI/CD pipelines for Business Process Tracking | https://learn.microsoft.com/en-us/azure/business-process-tracking/set-up-continuous-integration-deployment |
-
-### Integrations & Coding Patterns
-| Topic | URL |
-|-------|-----|
-| Map business processes to Logic Apps workflows | https://learn.microsoft.com/en-us/azure/business-process-tracking/map-business-process-workflow |

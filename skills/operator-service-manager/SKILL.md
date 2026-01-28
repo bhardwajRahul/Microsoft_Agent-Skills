@@ -31,16 +31,11 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Best Practices
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Apply onboarding and deployment practices for AOSM NFs | https://learn.microsoft.com/en-us/azure/operator-service-manager/best-practices-onboard-deploy |
-| Design and operate AOSM configuration groups effectively | https://learn.microsoft.com/en-us/azure/operator-service-manager/configuration-guide |
-| Implement Helm chart best practices for AOSM publishers | https://learn.microsoft.com/en-us/azure/operator-service-manager/helm-requirements |
-| Manage AOSM publisher artifact cleanup efficiently | https://learn.microsoft.com/en-us/azure/operator-service-manager/resource-cleanup-management |
-| Apply safe upgrade practices for AOSM CNF workloads | https://learn.microsoft.com/en-us/azure/operator-service-manager/safe-upgrade-practices |
-| Run Helm-based tests during AOSM NF installs and upgrades | https://learn.microsoft.com/en-us/azure/operator-service-manager/safe-upgrades-helm-test |
-| Control AOSM network function upgrade failure behavior | https://learn.microsoft.com/en-us/azure/operator-service-manager/safe-upgrades-nf-level-rollback |
+| Troubleshoot Azure CLI AOSM extension onboarding issues | https://learn.microsoft.com/en-us/azure/operator-service-manager/troubleshoot-cli-common-issues |
+| Diagnose Helm install failures in AOSM CNF deployments | https://learn.microsoft.com/en-us/azure/operator-service-manager/troubleshoot-helm-install-failures |
 
 ### Configuration
 | Topic | URL |
@@ -76,8 +71,13 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Assign custom AOSM role for site network service deployment | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-assign-custom-role |
 | Create custom RBAC role for AOSM service operators | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-create-custom-role |
 
-### Troubleshooting
+### Best Practices
 | Topic | URL |
 |-------|-----|
-| Troubleshoot Azure CLI AOSM extension onboarding issues | https://learn.microsoft.com/en-us/azure/operator-service-manager/troubleshoot-cli-common-issues |
-| Diagnose Helm install failures in AOSM CNF deployments | https://learn.microsoft.com/en-us/azure/operator-service-manager/troubleshoot-helm-install-failures |
+| Apply onboarding and deployment practices for AOSM NFs | https://learn.microsoft.com/en-us/azure/operator-service-manager/best-practices-onboard-deploy |
+| Design and operate AOSM configuration groups effectively | https://learn.microsoft.com/en-us/azure/operator-service-manager/configuration-guide |
+| Implement Helm chart best practices for AOSM publishers | https://learn.microsoft.com/en-us/azure/operator-service-manager/helm-requirements |
+| Manage AOSM publisher artifact cleanup efficiently | https://learn.microsoft.com/en-us/azure/operator-service-manager/resource-cleanup-management |
+| Apply safe upgrade practices for AOSM CNF workloads | https://learn.microsoft.com/en-us/azure/operator-service-manager/safe-upgrade-practices |
+| Run Helm-based tests during AOSM NF installs and upgrades | https://learn.microsoft.com/en-us/azure/operator-service-manager/safe-upgrades-helm-test |
+| Control AOSM network function upgrade failure behavior | https://learn.microsoft.com/en-us/azure/operator-service-manager/safe-upgrades-nf-level-rollback |

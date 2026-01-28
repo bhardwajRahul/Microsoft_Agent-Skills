@@ -31,11 +31,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
-| Topic | URL |
-|-------|-----|
-| Enterprise push notification architecture with Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-enterprise-push-notification-architecture |
-
 ### Configuration
 | Topic | URL |
 |-------|-----|
@@ -46,12 +41,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure routing and tag expressions in Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-tags-segment-push-message |
 | Use Notification Hubs templates for cross-platform payloads | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-templates-cross-platform-push-messages |
 | Update Notification Hubs iOS settings for iOS 13 | https://learn.microsoft.com/en-us/azure/notification-hubs/push-notification-updates-ios-13 |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Change Azure Notification Hubs pricing tier safely | https://learn.microsoft.com/en-us/azure/notification-hubs/change-pricing-tier |
-| Provision Notification Hubs using Terraform | https://learn.microsoft.com/en-us/azure/notification-hubs/create-notification-hub-terraform |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -83,3 +72,14 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Understand EU data boundary behavior in Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/eu-data-boundary |
 | Security model and access control in Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-security |
 | TLS version requirements for Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-tls12 |
+
+### Deployment
+| Topic | URL |
+|-------|-----|
+| Change Azure Notification Hubs pricing tier safely | https://learn.microsoft.com/en-us/azure/notification-hubs/change-pricing-tier |
+| Provision Notification Hubs using Terraform | https://learn.microsoft.com/en-us/azure/notification-hubs/create-notification-hub-terraform |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Enterprise push notification architecture with Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-enterprise-push-notification-architecture |

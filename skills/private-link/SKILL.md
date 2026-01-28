@@ -31,11 +31,11 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Best Practices
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Apply DNS integration best practices for Azure Private Endpoints | https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-dns-integration |
-| Optimize Azure Private Link costs securely | https://learn.microsoft.com/en-us/azure/private-link/private-link-cost-optimization |
+| Troubleshoot Azure Private Endpoint connectivity issues | https://learn.microsoft.com/en-us/azure/private-link/troubleshoot-private-endpoint-connectivity |
+| Troubleshoot Azure Private Link Service connectivity | https://learn.microsoft.com/en-us/azure/private-link/troubleshoot-private-link-connectivity |
 
 ### Configuration
 | Topic | URL |
@@ -71,8 +71,8 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | RBAC permissions required for Azure Network Security Perimeter | https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-role-based-access-control-requirements |
 | Azure RBAC roles and permissions for Private Link resources | https://learn.microsoft.com/en-us/azure/private-link/rbac-permissions |
 
-### Troubleshooting
+### Best Practices
 | Topic | URL |
 |-------|-----|
-| Troubleshoot Azure Private Endpoint connectivity issues | https://learn.microsoft.com/en-us/azure/private-link/troubleshoot-private-endpoint-connectivity |
-| Troubleshoot Azure Private Link Service connectivity | https://learn.microsoft.com/en-us/azure/private-link/troubleshoot-private-link-connectivity |
+| Apply DNS integration best practices for Azure Private Endpoints | https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-dns-integration |
+| Optimize Azure Private Link costs securely | https://learn.microsoft.com/en-us/azure/private-link/private-link-cost-optimization |

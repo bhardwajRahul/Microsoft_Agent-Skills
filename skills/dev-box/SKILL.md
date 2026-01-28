@@ -31,11 +31,13 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Best Practices
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Best practices and troubleshooting for Dev Box image definitions | https://learn.microsoft.com/en-us/azure/dev-box/concept-authoring-troubleshooting-guide-team-customizations |
-| Pre-generate Visual Studio caches in Dev Box images | https://learn.microsoft.com/en-us/azure/dev-box/how-to-generate-visual-studio-caches |
+| Troubleshoot Microsoft Dev Box connection problems | https://learn.microsoft.com/en-us/azure/dev-box/how-to-resolve-dev-box-connectivity-issues |
+| Fix stale Dev Box entries in Windows Task view | https://learn.microsoft.com/en-us/azure/dev-box/how-to-troubleshoot-dev-box-task-view |
+| Resolve known Microsoft Dev Box connectivity issues | https://learn.microsoft.com/en-us/azure/dev-box/how-to-troubleshoot-remote-desktop-connectivity |
+| Use Troubleshoot and Repair for Dev Box connectivity | https://learn.microsoft.com/en-us/azure/dev-box/how-to-troubleshoot-repair-dev-box |
 
 ### Configuration
 | Topic | URL |
@@ -67,11 +69,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure Dev Box resources with Get Started template | https://learn.microsoft.com/en-us/azure/dev-box/quickstart-get-started-template |
 | Reference for Dev Box imagedefinition.yaml and task.yaml schemas | https://learn.microsoft.com/en-us/azure/dev-box/reference-dev-box-customizations |
 
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Plan and implement a Microsoft Dev Box deployment | https://learn.microsoft.com/en-us/azure/dev-box/concept-dev-box-deployment-guide |
-
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
@@ -97,10 +94,13 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Enable single sign-on for Microsoft Dev Box | https://learn.microsoft.com/en-us/azure/dev-box/how-to-enable-single-sign-on |
 | Assign Dev Box access with Azure RBAC roles | https://learn.microsoft.com/en-us/azure/dev-box/how-to-manage-dev-box-access |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Troubleshoot Microsoft Dev Box connection problems | https://learn.microsoft.com/en-us/azure/dev-box/how-to-resolve-dev-box-connectivity-issues |
-| Fix stale Dev Box entries in Windows Task view | https://learn.microsoft.com/en-us/azure/dev-box/how-to-troubleshoot-dev-box-task-view |
-| Resolve known Microsoft Dev Box connectivity issues | https://learn.microsoft.com/en-us/azure/dev-box/how-to-troubleshoot-remote-desktop-connectivity |
-| Use Troubleshoot and Repair for Dev Box connectivity | https://learn.microsoft.com/en-us/azure/dev-box/how-to-troubleshoot-repair-dev-box |
+| Plan and implement a Microsoft Dev Box deployment | https://learn.microsoft.com/en-us/azure/dev-box/concept-dev-box-deployment-guide |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Best practices and troubleshooting for Dev Box image definitions | https://learn.microsoft.com/en-us/azure/dev-box/concept-authoring-troubleshooting-guide-team-customizations |
+| Pre-generate Visual Studio caches in Dev Box images | https://learn.microsoft.com/en-us/azure/dev-box/how-to-generate-visual-studio-caches |

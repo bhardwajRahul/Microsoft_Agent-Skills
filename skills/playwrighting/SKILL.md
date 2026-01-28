@@ -31,11 +31,11 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Best Practices
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Optimize Playwright Testing suite configuration for speed | https://learn.microsoft.com/en-us/azure/playwright-testing/concept-determine-optimal-configuration |
-| Configure Playwright visual comparison tests for cloud runs | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-configure-visual-comparisons |
+| Troubleshoot Microsoft Playwright Testing run failures | https://learn.microsoft.com/en-us/azure/playwright-testing/troubleshoot-test-run-failures |
+| Fix AADSTS7000112 sign-in errors in Playwright portal | https://learn.microsoft.com/en-us/azure/playwright-testing/troubleshoot-unable-sign-into-playwright-portal |
 
 ### Configuration
 | Topic | URL |
@@ -46,11 +46,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Use Microsoft Playwright Testing service features effectively | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-use-service-features |
 | Access and interpret monitoring data for Playwright Testing | https://learn.microsoft.com/en-us/azure/playwright-testing/monitor-playwright-testing |
 | Use Azure Monitor data schema for Microsoft Playwright Testing | https://learn.microsoft.com/en-us/azure/playwright-testing/monitor-playwright-testing-reference |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Set up CI-based Playwright Testing in Azure | https://learn.microsoft.com/en-us/azure/playwright-testing/quickstart-automate-end-to-end-testing |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -71,8 +66,13 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure authentication and authorization for Playwright Testing | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-manage-authentication |
 | Configure RBAC access for Playwright Testing workspaces | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-manage-workspace-access |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Troubleshoot Microsoft Playwright Testing run failures | https://learn.microsoft.com/en-us/azure/playwright-testing/troubleshoot-test-run-failures |
-| Fix AADSTS7000112 sign-in errors in Playwright portal | https://learn.microsoft.com/en-us/azure/playwright-testing/troubleshoot-unable-sign-into-playwright-portal |
+| Set up CI-based Playwright Testing in Azure | https://learn.microsoft.com/en-us/azure/playwright-testing/quickstart-automate-end-to-end-testing |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Optimize Playwright Testing suite configuration for speed | https://learn.microsoft.com/en-us/azure/playwright-testing/concept-determine-optimal-configuration |
+| Configure Playwright visual comparison tests for cloud runs | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-configure-visual-comparisons |

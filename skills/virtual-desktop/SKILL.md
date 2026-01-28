@@ -31,35 +31,20 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Use ephemeral OS disks for stateless Azure Virtual Desktop workloads | https://learn.microsoft.com/en-us/azure/virtual-desktop/deploy/session-hosts/ephemeral-os-disks |
-| Choose Azure Virtual Desktop host pool management approach | https://learn.microsoft.com/en-us/azure/virtual-desktop/host-pool-management-approaches |
-| Choose Azure Virtual Desktop deployment models | https://learn.microsoft.com/en-us/azure/virtual-desktop/organization-internal-external-commercial-purposes-recommendations |
-| Understand RDP Shortpath transport behavior in Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/rdp-shortpath |
-| Understand and use Azure Virtual Desktop regional host pools | https://learn.microsoft.com/en-us/azure/virtual-desktop/regional-host-pools |
-| Scale AVD session hosts using Automation and Logic Apps | https://learn.microsoft.com/en-us/azure/virtual-desktop/scaling-automation-logic-apps |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Use autoscale FAQ and best practices for Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/autoscale-faq |
-| Apply autoscale scaling plan scenarios for Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/autoscale-scenarios |
-| Analyze and optimize Azure Virtual Desktop connection latency | https://learn.microsoft.com/en-us/azure/virtual-desktop/connection-latency |
-| Apply Azure Virtual Desktop FAQs and best practices | https://learn.microsoft.com/en-us/azure/virtual-desktop/faq |
-| Manage AVD user profiles with FSLogix containers | https://learn.microsoft.com/en-us/azure/virtual-desktop/fslogix-profile-containers |
-| Apply Azure Virtual Desktop Insights use cases and scenarios | https://learn.microsoft.com/en-us/azure/virtual-desktop/insights-use-cases |
-| Apply proxy server guidelines for Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/proxy-server-support |
-| Use RDP Multipath to improve Azure Virtual Desktop session reliability | https://learn.microsoft.com/en-us/azure/virtual-desktop/rdp-multipath |
-| Apply security best practices to Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/security-recommendations |
-| Best practices and FAQ for Start VM on Connect | https://learn.microsoft.com/en-us/azure/virtual-desktop/start-virtual-machine-connect-faq |
-| Apply Windows multi-session best practices on AVD | https://learn.microsoft.com/en-us/azure/virtual-desktop/windows-multisession-faq |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Choose Azure storage for FSLogix AVD profiles | https://learn.microsoft.com/en-us/azure/virtual-desktop/store-fslogix-profile |
+| Diagnose and manage Azure Virtual Desktop agent issues | https://learn.microsoft.com/en-us/azure/virtual-desktop/agent-overview |
+| Test and troubleshoot MSIX App Attach packages for AVD | https://learn.microsoft.com/en-us/azure/virtual-desktop/app-attach-test-msix-packages |
+| Monitor and diagnose AVD autoscale operations with Insights | https://learn.microsoft.com/en-us/azure/virtual-desktop/autoscale-monitor-operations-insights |
+| Resolve Azure Advisor recommendations for Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/azure-advisor-recommendations |
+| Collect and query Azure Virtual Desktop connection quality logs | https://learn.microsoft.com/en-us/azure/virtual-desktop/connection-quality-monitoring |
+| Use Log Analytics with Azure Virtual Desktop diagnostics | https://learn.microsoft.com/en-us/azure/virtual-desktop/diagnostics-log-analytics |
+| Diagnose RemoteFX graphics performance in Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/remotefx-graphics-performance-counters |
+| Interpret and fix Azure Virtual Desktop session host health checks | https://learn.microsoft.com/en-us/azure/virtual-desktop/session-host-status-health-checks |
+| Interpret and fix Azure Virtual Desktop session host health checks | https://learn.microsoft.com/en-us/azure/virtual-desktop/session-host-status-health-checks |
+| Run Log Analytics diagnostic queries for AVD session host updates | https://learn.microsoft.com/en-us/azure/virtual-desktop/session-host-update-diagnostics |
+| Troubleshoot Microsoft Teams issues on Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/troubleshoot-teams |
 
 ### Configuration
 | Topic | URL |
@@ -123,16 +108,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Use URI schemes with the Azure Virtual Desktop client | https://learn.microsoft.com/en-us/azure/virtual-desktop/uri-scheme |
 | Configure Windows 11 language packs on Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/windows-11-language-packs |
 
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Automatically migrate from AVD classic to current AVD | https://learn.microsoft.com/en-us/azure/virtual-desktop/automatic-migration |
-| Run Azure Virtual Desktop on Azure Extended Zones | https://learn.microsoft.com/en-us/azure/virtual-desktop/azure-extended-zones |
-| Deploy Azure Virtual Desktop on Azure Local | https://learn.microsoft.com/en-us/azure/virtual-desktop/azure-local-overview |
-| Manually migrate from AVD classic to Azure-integrated AVD | https://learn.microsoft.com/en-us/azure/virtual-desktop/manual-migration |
-| Recreate Azure Virtual Desktop resources in a new region | https://learn.microsoft.com/en-us/azure/virtual-desktop/move-resources |
-| Deploy Remote Desktop client per-user via Intune or Configuration Manager | https://learn.microsoft.com/en-us/azure/virtual-desktop/remote-desktop-client/install-windows-client-per-user |
-
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
@@ -166,17 +141,42 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Enforce Entra multifactor authentication for Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/set-up-mfa |
 | Configure watermarking protection in Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/watermarking |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Diagnose and manage Azure Virtual Desktop agent issues | https://learn.microsoft.com/en-us/azure/virtual-desktop/agent-overview |
-| Test and troubleshoot MSIX App Attach packages for AVD | https://learn.microsoft.com/en-us/azure/virtual-desktop/app-attach-test-msix-packages |
-| Monitor and diagnose AVD autoscale operations with Insights | https://learn.microsoft.com/en-us/azure/virtual-desktop/autoscale-monitor-operations-insights |
-| Resolve Azure Advisor recommendations for Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/azure-advisor-recommendations |
-| Collect and query Azure Virtual Desktop connection quality logs | https://learn.microsoft.com/en-us/azure/virtual-desktop/connection-quality-monitoring |
-| Use Log Analytics with Azure Virtual Desktop diagnostics | https://learn.microsoft.com/en-us/azure/virtual-desktop/diagnostics-log-analytics |
-| Diagnose RemoteFX graphics performance in Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/remotefx-graphics-performance-counters |
-| Interpret and fix Azure Virtual Desktop session host health checks | https://learn.microsoft.com/en-us/azure/virtual-desktop/session-host-status-health-checks |
-| Interpret and fix Azure Virtual Desktop session host health checks | https://learn.microsoft.com/en-us/azure/virtual-desktop/session-host-status-health-checks |
-| Run Log Analytics diagnostic queries for AVD session host updates | https://learn.microsoft.com/en-us/azure/virtual-desktop/session-host-update-diagnostics |
-| Troubleshoot Microsoft Teams issues on Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/troubleshoot-teams |
+| Automatically migrate from AVD classic to current AVD | https://learn.microsoft.com/en-us/azure/virtual-desktop/automatic-migration |
+| Run Azure Virtual Desktop on Azure Extended Zones | https://learn.microsoft.com/en-us/azure/virtual-desktop/azure-extended-zones |
+| Deploy Azure Virtual Desktop on Azure Local | https://learn.microsoft.com/en-us/azure/virtual-desktop/azure-local-overview |
+| Manually migrate from AVD classic to Azure-integrated AVD | https://learn.microsoft.com/en-us/azure/virtual-desktop/manual-migration |
+| Recreate Azure Virtual Desktop resources in a new region | https://learn.microsoft.com/en-us/azure/virtual-desktop/move-resources |
+| Deploy Remote Desktop client per-user via Intune or Configuration Manager | https://learn.microsoft.com/en-us/azure/virtual-desktop/remote-desktop-client/install-windows-client-per-user |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Use autoscale FAQ and best practices for Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/autoscale-faq |
+| Apply autoscale scaling plan scenarios for Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/autoscale-scenarios |
+| Analyze and optimize Azure Virtual Desktop connection latency | https://learn.microsoft.com/en-us/azure/virtual-desktop/connection-latency |
+| Apply Azure Virtual Desktop FAQs and best practices | https://learn.microsoft.com/en-us/azure/virtual-desktop/faq |
+| Manage AVD user profiles with FSLogix containers | https://learn.microsoft.com/en-us/azure/virtual-desktop/fslogix-profile-containers |
+| Apply Azure Virtual Desktop Insights use cases and scenarios | https://learn.microsoft.com/en-us/azure/virtual-desktop/insights-use-cases |
+| Apply proxy server guidelines for Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/proxy-server-support |
+| Use RDP Multipath to improve Azure Virtual Desktop session reliability | https://learn.microsoft.com/en-us/azure/virtual-desktop/rdp-multipath |
+| Apply security best practices to Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/security-recommendations |
+| Best practices and FAQ for Start VM on Connect | https://learn.microsoft.com/en-us/azure/virtual-desktop/start-virtual-machine-connect-faq |
+| Apply Windows multi-session best practices on AVD | https://learn.microsoft.com/en-us/azure/virtual-desktop/windows-multisession-faq |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Choose Azure storage for FSLogix AVD profiles | https://learn.microsoft.com/en-us/azure/virtual-desktop/store-fslogix-profile |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Use ephemeral OS disks for stateless Azure Virtual Desktop workloads | https://learn.microsoft.com/en-us/azure/virtual-desktop/deploy/session-hosts/ephemeral-os-disks |
+| Choose Azure Virtual Desktop host pool management approach | https://learn.microsoft.com/en-us/azure/virtual-desktop/host-pool-management-approaches |
+| Choose Azure Virtual Desktop deployment models | https://learn.microsoft.com/en-us/azure/virtual-desktop/organization-internal-external-commercial-purposes-recommendations |
+| Understand RDP Shortpath transport behavior in Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/rdp-shortpath |
+| Understand and use Azure Virtual Desktop regional host pools | https://learn.microsoft.com/en-us/azure/virtual-desktop/regional-host-pools |
+| Scale AVD session hosts using Automation and Logic Apps | https://learn.microsoft.com/en-us/azure/virtual-desktop/scaling-automation-logic-apps |

@@ -31,20 +31,13 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Choose the right Azure SignalR service mode | https://learn.microsoft.com/en-us/azure/azure-signalr/concept-service-mode |
-| Design Azure SignalR for resiliency and disaster recovery | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-concept-disaster-recovery |
-| Understand Azure SignalR Service internal architecture and flows | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-concept-internals |
-| Integrate Azure SignalR with reverse proxies | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-reverse-proxy-overview |
-| Scale Azure SignalR with multiple instances and sharding | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-scale-multi-instances |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Gracefully shut down Azure SignalR app servers | https://learn.microsoft.com/en-us/azure/azure-signalr/server-graceful-shutdown |
-| Handle client disconnections and reconnections in Azure SignalR | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-concept-client-disconnections |
+| Analyze Azure SignalR diagnostic logs with Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-diagnostic-logs |
+| Troubleshoot common Azure SignalR Service issues | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-troubleshoot-guide |
+| Practice diagnosing Azure SignalR connectivity problems | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-troubleshoot-method |
+| Azure SignalR Service FAQ and troubleshooting answers | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-resource-faq |
 
 ### Configuration
 | Topic | URL |
@@ -61,12 +54,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure Azure SignalR Service via ARM templates | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-quickstart-azure-signalr-service-arm-template |
 | Define Azure SignalR resources using Bicep templates | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-quickstart-azure-signalr-service-bicep |
 | Manage Azure SignalR using Azure CLI command samples | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-reference-cli |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Replicate Azure SignalR resources across regions with ARM | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-move-across-regions |
-| Scale Azure SignalR instances up and out | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-scale-signalr |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -114,10 +101,23 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Rotate Azure SignalR access keys securely | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-key-rotation |
 | Authenticate Azure SignalR clients with Azure Functions bindings | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-tutorial-authenticate-azure-functions |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Analyze Azure SignalR diagnostic logs with Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-diagnostic-logs |
-| Troubleshoot common Azure SignalR Service issues | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-troubleshoot-guide |
-| Practice diagnosing Azure SignalR connectivity problems | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-troubleshoot-method |
-| Azure SignalR Service FAQ and troubleshooting answers | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-resource-faq |
+| Replicate Azure SignalR resources across regions with ARM | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-move-across-regions |
+| Scale Azure SignalR instances up and out | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-scale-signalr |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Gracefully shut down Azure SignalR app servers | https://learn.microsoft.com/en-us/azure/azure-signalr/server-graceful-shutdown |
+| Handle client disconnections and reconnections in Azure SignalR | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-concept-client-disconnections |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Choose the right Azure SignalR service mode | https://learn.microsoft.com/en-us/azure/azure-signalr/concept-service-mode |
+| Design Azure SignalR for resiliency and disaster recovery | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-concept-disaster-recovery |
+| Understand Azure SignalR Service internal architecture and flows | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-concept-internals |
+| Integrate Azure SignalR with reverse proxies | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-reverse-proxy-overview |
+| Scale Azure SignalR with multiple instances and sharding | https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-scale-multi-instances |

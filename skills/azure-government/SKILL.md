@@ -31,16 +31,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Name Azure resources without exposing sensitive data | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-concept-naming-resources |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Compare Azure Government vs global Azure capabilities | https://learn.microsoft.com/en-us/azure/azure-government/compare-azure-government-global-azure |
-
 ### Configuration
 | Topic | URL |
 |-------|-----|
@@ -52,12 +42,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure Azure CLI to connect to Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-get-started-connect-with-cli |
 | Configure PowerShell to access Azure Government subscriptions | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-get-started-connect-with-ps |
 | Use Azure Government Marketplace image gallery and custom VHDs | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-image-gallery |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Set up Azure Pipelines CI/CD to Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/connect-with-azure-pipelines |
-| Deploy Azure App Service apps to Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-howto-deploy-webandmobile |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -75,3 +59,19 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure Azure Government isolation for DoD IL5 | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-impact-level-5 |
 | Plan identity architecture for Azure Government tenants | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-plan-identity |
 | Secure Azure Government workloads with platform features | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-plan-security |
+
+### Deployment
+| Topic | URL |
+|-------|-----|
+| Set up Azure Pipelines CI/CD to Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/connect-with-azure-pipelines |
+| Deploy Azure App Service apps to Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-howto-deploy-webandmobile |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Name Azure resources without exposing sensitive data | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-concept-naming-resources |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Compare Azure Government vs global Azure capabilities | https://learn.microsoft.com/en-us/azure/azure-government/compare-azure-government-global-azure |

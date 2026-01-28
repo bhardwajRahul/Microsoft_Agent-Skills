@@ -31,31 +31,16 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Apply Azure Security Benchmark blueprint architecture | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/azure-security-benchmark-foundation/ |
-| Understand CAF Foundation blueprint architecture in Azure | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/caf-foundation/ |
-| Review CAF migration landing zone blueprint architecture | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/caf-migrate-landing-zone/ |
-| Architect ISO 27001 ASE/SQL workload in Azure | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/iso27001-ase-sql-workload/ |
-| Design ISO 27001 shared services architecture in Azure | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/iso27001-shared/ |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Evaluate impact before deploying new Azure policies | https://learn.microsoft.com/en-us/azure/governance/policy/concepts/evaluate-impact |
-| Author Azure Policy rules for array properties | https://learn.microsoft.com/en-us/azure/governance/policy/how-to/author-policies-for-arrays |
-| Apply the count operator in Azure Policy rules | https://learn.microsoft.com/en-us/azure/governance/policy/samples/pattern-count-operator |
-| Deploy resources with deployIfNotExists Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/pattern-deploy-resources |
-| Group Azure Policy definitions into initiatives | https://learn.microsoft.com/en-us/azure/governance/policy/samples/pattern-group-with-initiative |
-| Implement Azure Policy patterns for resource tags | https://learn.microsoft.com/en-us/azure/governance/policy/samples/pattern-tags |
-| Use the value operator in Azure Policy definitions | https://learn.microsoft.com/en-us/azure/governance/policy/samples/pattern-value-operator |
-| Optimize Azure Resource Graph queries to avoid throttling | https://learn.microsoft.com/en-us/azure/governance/resource-graph/concepts/guidance-for-throttled-requests |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Compare ARG GET/LIST API with ARG Query service | https://learn.microsoft.com/en-us/azure/governance/resource-graph/concepts/get-list-query-service-differences |
+| Troubleshoot common Azure Blueprints errors and failures | https://learn.microsoft.com/en-us/azure/governance/blueprints/troubleshoot/general |
+| Troubleshoot Azure management group SDK errors | https://learn.microsoft.com/en-us/azure/governance/management-groups/troubleshoot/general |
+| Diagnose causes of Azure Policy non-compliance | https://learn.microsoft.com/en-us/azure/governance/policy/how-to/determine-non-compliance |
+| Troubleshoot common Azure Policy and Kubernetes add-on errors | https://learn.microsoft.com/en-us/azure/governance/policy/troubleshoot/general |
+| Troubleshoot Azure Resource Graph alert queries with Log Analytics | https://learn.microsoft.com/en-us/azure/governance/resource-graph/troubleshoot/alerts |
+| Resolve common Azure Resource Graph query errors | https://learn.microsoft.com/en-us/azure/governance/resource-graph/troubleshoot/general |
+| Troubleshoot Azure Resource Graph Power BI data connector | https://learn.microsoft.com/en-us/azure/governance/resource-graph/troubleshoot/power-bi-connector |
 
 ### Configuration
 | Topic | URL |
@@ -107,19 +92,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Deploy Resource Graph shared queries using Bicep | https://learn.microsoft.com/en-us/azure/governance/resource-graph/shared-query-bicep |
 | Define Resource Graph shared queries with ARM templates | https://learn.microsoft.com/en-us/azure/governance/resource-graph/shared-query-template |
 | Manage and share Resource Graph queries in Azure portal | https://learn.microsoft.com/en-us/azure/governance/resource-graph/tutorials/create-share-query |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Deploy CAF Foundation blueprint sample in Azure | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/caf-foundation/deploy |
-| Deploy CAF migration landing zone blueprint in Azure | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/caf-migrate-landing-zone/deploy |
-| Deploy ISO 27001 ASE/SQL blueprint sample in Azure | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/iso27001-ase-sql-workload/deploy |
-| Deploy SWIFT CSP-CSCF 2020 Azure blueprint sample | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/swift-2020/deploy |
-| Design Azure Policy as Code deployment workflows | https://learn.microsoft.com/en-us/azure/governance/policy/concepts/policy-as-code |
-| Export Azure Policy resources to GitHub and scripts | https://learn.microsoft.com/en-us/azure/governance/policy/how-to/export-resources |
-| Plan migration from Automanage Best Practices to Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/how-to/migrate-from-automanage-best-practices |
-| Apply safe deployment practices to Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/how-to/policy-safe-deployment-practices |
-| Integrate Azure Policy checks into Azure DevOps pipelines | https://learn.microsoft.com/en-us/azure/governance/policy/tutorials/policy-devops-pipelines |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -215,13 +187,41 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Align UK OFFICIAL and UK NHS controls with Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/ukofficial-uknhs |
 | Self-enforce multifactor authentication using Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/tutorials/mfa-enforcement |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Troubleshoot common Azure Blueprints errors and failures | https://learn.microsoft.com/en-us/azure/governance/blueprints/troubleshoot/general |
-| Troubleshoot Azure management group SDK errors | https://learn.microsoft.com/en-us/azure/governance/management-groups/troubleshoot/general |
-| Diagnose causes of Azure Policy non-compliance | https://learn.microsoft.com/en-us/azure/governance/policy/how-to/determine-non-compliance |
-| Troubleshoot common Azure Policy and Kubernetes add-on errors | https://learn.microsoft.com/en-us/azure/governance/policy/troubleshoot/general |
-| Troubleshoot Azure Resource Graph alert queries with Log Analytics | https://learn.microsoft.com/en-us/azure/governance/resource-graph/troubleshoot/alerts |
-| Resolve common Azure Resource Graph query errors | https://learn.microsoft.com/en-us/azure/governance/resource-graph/troubleshoot/general |
-| Troubleshoot Azure Resource Graph Power BI data connector | https://learn.microsoft.com/en-us/azure/governance/resource-graph/troubleshoot/power-bi-connector |
+| Deploy CAF Foundation blueprint sample in Azure | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/caf-foundation/deploy |
+| Deploy CAF migration landing zone blueprint in Azure | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/caf-migrate-landing-zone/deploy |
+| Deploy ISO 27001 ASE/SQL blueprint sample in Azure | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/iso27001-ase-sql-workload/deploy |
+| Deploy SWIFT CSP-CSCF 2020 Azure blueprint sample | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/swift-2020/deploy |
+| Design Azure Policy as Code deployment workflows | https://learn.microsoft.com/en-us/azure/governance/policy/concepts/policy-as-code |
+| Export Azure Policy resources to GitHub and scripts | https://learn.microsoft.com/en-us/azure/governance/policy/how-to/export-resources |
+| Plan migration from Automanage Best Practices to Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/how-to/migrate-from-automanage-best-practices |
+| Apply safe deployment practices to Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/how-to/policy-safe-deployment-practices |
+| Integrate Azure Policy checks into Azure DevOps pipelines | https://learn.microsoft.com/en-us/azure/governance/policy/tutorials/policy-devops-pipelines |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Evaluate impact before deploying new Azure policies | https://learn.microsoft.com/en-us/azure/governance/policy/concepts/evaluate-impact |
+| Author Azure Policy rules for array properties | https://learn.microsoft.com/en-us/azure/governance/policy/how-to/author-policies-for-arrays |
+| Apply the count operator in Azure Policy rules | https://learn.microsoft.com/en-us/azure/governance/policy/samples/pattern-count-operator |
+| Deploy resources with deployIfNotExists Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/pattern-deploy-resources |
+| Group Azure Policy definitions into initiatives | https://learn.microsoft.com/en-us/azure/governance/policy/samples/pattern-group-with-initiative |
+| Implement Azure Policy patterns for resource tags | https://learn.microsoft.com/en-us/azure/governance/policy/samples/pattern-tags |
+| Use the value operator in Azure Policy definitions | https://learn.microsoft.com/en-us/azure/governance/policy/samples/pattern-value-operator |
+| Optimize Azure Resource Graph queries to avoid throttling | https://learn.microsoft.com/en-us/azure/governance/resource-graph/concepts/guidance-for-throttled-requests |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Compare ARG GET/LIST API with ARG Query service | https://learn.microsoft.com/en-us/azure/governance/resource-graph/concepts/get-list-query-service-differences |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Apply Azure Security Benchmark blueprint architecture | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/azure-security-benchmark-foundation/ |
+| Understand CAF Foundation blueprint architecture in Azure | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/caf-foundation/ |
+| Review CAF migration landing zone blueprint architecture | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/caf-migrate-landing-zone/ |
+| Architect ISO 27001 ASE/SQL workload in Azure | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/iso27001-ase-sql-workload/ |
+| Design ISO 27001 shared services architecture in Azure | https://learn.microsoft.com/en-us/azure/governance/blueprints/samples/iso27001-shared/ |

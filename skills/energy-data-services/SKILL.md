@@ -31,6 +31,11 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
+### Troubleshooting
+| Topic | URL |
+|-------|-----|
+| Troubleshoot manifest ingestion in Azure Data Manager for Energy using Airflow logs | https://learn.microsoft.com/en-us/azure/energy-data-services/troubleshoot-manifest-ingestion |
+
 ### Configuration
 | Topic | URL |
 |-------|-----|
@@ -38,12 +43,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Enable Reservoir DDMS on Azure Data Manager tiers | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-enable-reservoir-ddms |
 | Configure and use audit logs in Azure Data Manager for Energy | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-manage-audit-logs |
 | Register external OSDU data sources with Azure Data Manager | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-register-external-data-sources |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Deploy Geospatial Consumption Zone on Azure Data Manager | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-deploy-gcz |
-| Deploy OSDU Admin UI for Azure Data Manager administration | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-deploy-osdu-admin-ui |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -73,7 +72,8 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Create private endpoints for Azure Data Manager with Private Link | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-set-up-private-links |
 | Use managed identities to access Azure Data Manager APIs | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-use-managed-identity |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Troubleshoot manifest ingestion in Azure Data Manager for Energy using Airflow logs | https://learn.microsoft.com/en-us/azure/energy-data-services/troubleshoot-manifest-ingestion |
+| Deploy Geospatial Consumption Zone on Azure Data Manager | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-deploy-gcz |
+| Deploy OSDU Admin UI for Azure Data Manager administration | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-deploy-osdu-admin-ui |

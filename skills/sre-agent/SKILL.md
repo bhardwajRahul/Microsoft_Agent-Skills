@@ -31,10 +31,12 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Best Practices
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Optimize incident management workflows with Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/incident-management |
+| Troubleshoot common Azure SRE Agent issues and errors | https://learn.microsoft.com/en-us/azure/sre-agent/faq |
+| Troubleshoot Azure App Service apps with SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/troubleshoot-azure-app-service |
+| Troubleshoot Azure Container Apps with SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/troubleshoot-azure-container-apps |
 
 ### Configuration
 | Topic | URL |
@@ -62,9 +64,7 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure roles, permissions, and RBAC for Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/roles-permissions-overview |
 | Configure RBAC user access roles for Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/user-access-roles |
 
-### Troubleshooting
+### Best Practices
 | Topic | URL |
 |-------|-----|
-| Troubleshoot common Azure SRE Agent issues and errors | https://learn.microsoft.com/en-us/azure/sre-agent/faq |
-| Troubleshoot Azure App Service apps with SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/troubleshoot-azure-app-service |
-| Troubleshoot Azure Container Apps with SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/troubleshoot-azure-container-apps |
+| Optimize incident management workflows with Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/incident-management |

@@ -31,40 +31,72 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Design event management platforms with Teams, Graph, and ACS | https://learn.microsoft.com/en-us/azure/communication-services/tutorials/events-playbook |
-| Integrate ACS with Azure ExpressRoute for private media | https://learn.microsoft.com/en-us/azure/communication-services/tutorials/integrate-express-route |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Apply best practices for Azure Communication Services Calling SDKs | https://learn.microsoft.com/en-us/azure/communication-services/concepts/best-practices |
-| Apply best practices for Communication Services user access tokens | https://learn.microsoft.com/en-us/azure/communication-services/concepts/credentials-best-practices |
-| Manage email opt-outs in ACS | https://learn.microsoft.com/en-us/azure/communication-services/concepts/email/email-optout-management |
-| Improve sender reputation for ACS email | https://learn.microsoft.com/en-us/azure/communication-services/concepts/email/sender-reputation-managed-suppression-list |
-| Govern Teams meeting experience for ACS virtual visits | https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/virtual-visits/govern-meeting-experience |
-| Design user experience for ACS–Teams virtual appointments | https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/virtual-visits/plan-user-experience |
-| Choose and use Raw ID string identifiers in Communication Services | https://learn.microsoft.com/en-us/azure/communication-services/concepts/raw-id-use-cases |
-| Apply ACS SMS messaging policy requirements | https://learn.microsoft.com/en-us/azure/communication-services/concepts/sms/messaging-policy |
-| Avoid spam labeling for ACS business phone numbers | https://learn.microsoft.com/en-us/azure/communication-services/concepts/telephony/prevent-spam-flag |
-| Handle known Call Automation limitations and behaviors | https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/known-issues-call-automation |
-| Manage and improve call quality in Azure Communication Services | https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/manage-call-quality |
-| Optimize network for ACS voice and video quality | https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/network-requirements |
-| Apply ACS-specific UX best practices for calling | https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/user-experience |
-| Optimize ACS video layout and resolution on web | https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/optimizing-video-placement |
-| Implement a trusted auth service for ACS tokens | https://learn.microsoft.com/en-us/azure/communication-services/samples/trusted-auth-sample |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Understand pricing components for ACS Advanced Messaging | https://learn.microsoft.com/en-us/azure/communication-services/concepts/advanced-messaging/whatsapp/pricing |
-| Compare Twilio Video vs Azure Communication Services Calling SDK | https://learn.microsoft.com/en-us/azure/communication-services/concepts/migrate-to-azure-communication-services |
-| Understand pricing model for ACS Teams interoperability | https://learn.microsoft.com/en-us/azure/communication-services/concepts/pricing/teams-interop-pricing |
-| Understand ACS SMS pricing model details | https://learn.microsoft.com/en-us/azure/communication-services/concepts/sms-pricing |
-| Migrate Twilio Video apps to ACS Calling SDK | https://learn.microsoft.com/en-us/azure/communication-services/tutorials/migrating-to-azure-communication-services-calling |
-| Migrate Twilio Conversations Chat to ACS Chat SDK | https://learn.microsoft.com/en-us/azure/communication-services/tutorials/migrating-to-azure-communication-services-chat |
+| Troubleshoot Azure Email custom domain configuration | https://learn.microsoft.com/en-us/azure/communication-services/concepts/email/email-domain-configuration-troubleshooting |
+| Monitor logs and metrics for Teams external users | https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/guest/monitor-logs-metrics |
+| Troubleshoot common Teams Phone extensibility issues | https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/tpe/teams-phone-extensibility-troubleshooting |
+| Resolve common ACS SMS questions and issues | https://learn.microsoft.com/en-us/azure/communication-services/concepts/sms/sms-faq |
+| Resolve outbound call failures in Azure direct routing | https://learn.microsoft.com/en-us/azure/communication-services/concepts/telephony/monitoring-troubleshooting-telephony/troubleshoot-outbound-calls |
+| Troubleshoot TLS and SIP OPTIONS issues in direct routing | https://learn.microsoft.com/en-us/azure/communication-services/concepts/telephony/monitoring-troubleshooting-telephony/troubleshoot-tls-certificate-sip-options |
+| Diagnose Azure Communication Services PSTN call failures | https://learn.microsoft.com/en-us/azure/communication-services/concepts/telephony/troubleshooting-pstn-call-failures |
+| Collect diagnostics to troubleshoot Azure Communication Services | https://learn.microsoft.com/en-us/azure/communication-services/concepts/troubleshooting-info |
+| Diagnose call quality issues with ACS Call Diagnostics | https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/call-diagnostics |
+| Diagnose call quality issues with ACS Call Diagnostics | https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/call-diagnostics |
+| Diagnose call issues using User Facing Diagnostics in ACS | https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/user-facing-diagnostics |
+| Troubleshoot Azure Communication Services UI Library calls | https://learn.microsoft.com/en-us/azure/communication-services/how-tos/ui-library-sdk/troubleshooting |
+| Troubleshoot Azure ACS WhatsApp Business account issues | https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/advanced-messaging/whatsapp/whatsapp-business-account-faq |
+| Diagnose audio delay issues in ACS calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/audio-issues/delay-issue |
+| Resolve echo problems in ACS audio calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/audio-issues/echo-issue |
+| Fix low incoming audio volume in ACS calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/audio-issues/incoming-audio-low-volume |
+| Resolve one-way audio from faulty microphones in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/audio-issues/microphone-issue |
+| Fix one-way audio when microphone permission is denied | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/audio-issues/microphone-permission |
+| Handle temporary one-way audio from network reconnections | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/audio-issues/network-issue |
+| Diagnose poor audio quality in ACS voice calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/audio-issues/poor-quality |
+| Troubleshoot one-way audio from speaker issues in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/audio-issues/speaker-issue |
+| Fix ACS calls ending with 410/3112 network errors | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/call-setup-issues/call-ends-with-410-3112 |
+| Diagnose slow call setup in Azure Communication Services | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/call-setup-issues/call-setup-takes-too-long |
+| Fix failed CallAgent creation in ACS WebJS SDK | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/call-setup-issues/failed-to-create-call-agent |
+| Resolve missing incoming call notifications in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/call-setup-issues/no-incoming-call-notifications |
+| Diagnose slow askDevicePermission responses in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/device-issues/ask-device-permission-api-takes-too-long |
+| Troubleshoot ACS getMicrophones returning generic microphone list | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/device-issues/no-enumerated-microphone-list |
+| Fix ACS getSpeakers not returning detailed speaker list | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/device-issues/no-enumerated-speaker-list |
+| Resolve missing device permission prompts in ACS calling | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/device-issues/no-permission-prompt |
+| Apply general troubleshooting strategies for ACS calling issues | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/general-troubleshooting-strategies/overview |
+| Interpret Azure Communication Services calling error messages and codes | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/general-troubleshooting-strategies/understanding-error-codes |
+| Collect verbose browser logs for ACS troubleshooting | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/how-to-collect-browser-verbose-log |
+| Collect ACS call information for support diagnostics | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/how-to-collect-call-info |
+| Capture ACS WebJS client logs using @azure/logger | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/how-to-collect-client-logs |
+| Record diagnostic audio for ACS WebRTC issues | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/how-to-collect-diagnostic-audio-recordings |
+| Gather Windows audio event logs for ACS issues | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/how-to-collect-windows-audio-event-log |
+| Fix cameraFreeze issues in ACS video calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/camera-freeze |
+| Resolve cameraPermissionDenied in ACS calling | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/camera-permission-denied |
+| Resolve cameraStartFailed errors in ACS calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/camera-start-failed |
+| Handle cameraStartTimedOut in ACS video setup | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/camera-start-timed-out |
+| Investigate cameraStoppedUnexpectedly events in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/camera-stopped-unexpectedly |
+| Resolve capturerStartFailed for ACS screen sharing | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/capturer-start-failed |
+| Handle capturerStoppedUnexpectedly in ACS screen share | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/capturer-stopped-unexpectedly |
+| Investigate microphoneMuteUnexpectedly events in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/microphone-mute-unexpectedly |
+| Troubleshoot microphoneNotFunctioning in ACS calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/microphone-not-functioning |
+| Resolve microphonePermissionDenied in ACS calling | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/microphone-permission-denied |
+| Diagnose networkReceiveQuality issues in ACS calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/network-receive-quality |
+| Interpret networkReconnect UFD events for ACS calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/network-reconnect |
+| Interpret networkRelaysNotReachable diagnostics in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/network-relays-not-reachable |
+| Diagnose networkSendQuality issues in ACS calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/network-send-quality |
+| Fix noMicrophoneDevicesEnumerated in ACS calling | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/no-microphone-devices-enumerated |
+| Interpret noNetwork user-facing diagnostics in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/no-network |
+| Resolve noSpeakerDevicesEnumerated issues in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/no-speaker-devices-enumerated |
+| Fix screenshareRecordingDisabled in ACS on macOS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/screenshare-recording-disabled |
+| Handle speakingWhileMicrophoneIsMuted alerts in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/speaking-while-microphone-is-muted |
+| Troubleshoot call end response codes in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/troubleshooting-codes |
+| Troubleshoot createView errors from disposed video renderer | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/video-issues/application-disposes-video-renderer |
+| Diagnose ACS createView timeout video errors | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/video-issues/create-view-timeout |
+| Mitigate poor video quality on bad networks in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/video-issues/network-poor |
+| Recover from remote video becoming unavailable in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/video-issues/remote-video-becomes-unavailable |
+| Handle unavailable video subscription errors in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/video-issues/subscribing-video-not-available |
+| Fix frozen sender video in ACS calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/video-issues/video-is-frozen |
+| Address high CPU impact on ACS video quality | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/video-issues/video-sender-has-high-cpu-load |
 
 ### Configuration
 | Topic | URL |
@@ -135,15 +167,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Migrate ACS Android push from legacy FCM to FCM v1 | https://learn.microsoft.com/en-us/azure/communication-services/tutorials/call-chat-migrate-android-push-fcm-v1 |
 | Register ACS Android push notifications using FCM v1 | https://learn.microsoft.com/en-us/azure/communication-services/tutorials/call-chat-register-android-push-fcm-v1 |
 | Configure custom TURN proxy for ACS calling traffic | https://learn.microsoft.com/en-us/azure/communication-services/tutorials/proxy-calling-support-tutorial |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Use Teams interop in government cloud environments | https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/guest/government-cloud |
-| Use Teams interop for Teams users in government clouds | https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/teams-user/government-cloud |
-| Use certified Session Border Controllers for direct routing | https://learn.microsoft.com/en-us/azure/communication-services/concepts/telephony/certified-session-border-controllers |
-| Plan Azure direct routing infrastructure and connectivity | https://learn.microsoft.com/en-us/azure/communication-services/concepts/telephony/direct-routing-infrastructure |
-| Quickstart deploying Teams Phone extensibility with ACS | https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/tpe/teams-phone-extensibility-quickstart |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -381,69 +404,46 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Integrate Microsoft Entra ID authentication with Communication Services | https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/identity/microsoft-entra-id-authentication-integration |
 | Sign Azure Communication Services HTTP requests with HMAC | https://learn.microsoft.com/en-us/azure/communication-services/tutorials/hmac-header-tutorial |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Troubleshoot Azure Email custom domain configuration | https://learn.microsoft.com/en-us/azure/communication-services/concepts/email/email-domain-configuration-troubleshooting |
-| Monitor logs and metrics for Teams external users | https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/guest/monitor-logs-metrics |
-| Troubleshoot common Teams Phone extensibility issues | https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/tpe/teams-phone-extensibility-troubleshooting |
-| Resolve common ACS SMS questions and issues | https://learn.microsoft.com/en-us/azure/communication-services/concepts/sms/sms-faq |
-| Resolve outbound call failures in Azure direct routing | https://learn.microsoft.com/en-us/azure/communication-services/concepts/telephony/monitoring-troubleshooting-telephony/troubleshoot-outbound-calls |
-| Troubleshoot TLS and SIP OPTIONS issues in direct routing | https://learn.microsoft.com/en-us/azure/communication-services/concepts/telephony/monitoring-troubleshooting-telephony/troubleshoot-tls-certificate-sip-options |
-| Diagnose Azure Communication Services PSTN call failures | https://learn.microsoft.com/en-us/azure/communication-services/concepts/telephony/troubleshooting-pstn-call-failures |
-| Collect diagnostics to troubleshoot Azure Communication Services | https://learn.microsoft.com/en-us/azure/communication-services/concepts/troubleshooting-info |
-| Diagnose call quality issues with ACS Call Diagnostics | https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/call-diagnostics |
-| Diagnose call quality issues with ACS Call Diagnostics | https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/call-diagnostics |
-| Diagnose call issues using User Facing Diagnostics in ACS | https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/user-facing-diagnostics |
-| Troubleshoot Azure Communication Services UI Library calls | https://learn.microsoft.com/en-us/azure/communication-services/how-tos/ui-library-sdk/troubleshooting |
-| Troubleshoot Azure ACS WhatsApp Business account issues | https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/advanced-messaging/whatsapp/whatsapp-business-account-faq |
-| Diagnose audio delay issues in ACS calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/audio-issues/delay-issue |
-| Resolve echo problems in ACS audio calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/audio-issues/echo-issue |
-| Fix low incoming audio volume in ACS calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/audio-issues/incoming-audio-low-volume |
-| Resolve one-way audio from faulty microphones in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/audio-issues/microphone-issue |
-| Fix one-way audio when microphone permission is denied | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/audio-issues/microphone-permission |
-| Handle temporary one-way audio from network reconnections | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/audio-issues/network-issue |
-| Diagnose poor audio quality in ACS voice calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/audio-issues/poor-quality |
-| Troubleshoot one-way audio from speaker issues in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/audio-issues/speaker-issue |
-| Fix ACS calls ending with 410/3112 network errors | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/call-setup-issues/call-ends-with-410-3112 |
-| Diagnose slow call setup in Azure Communication Services | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/call-setup-issues/call-setup-takes-too-long |
-| Fix failed CallAgent creation in ACS WebJS SDK | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/call-setup-issues/failed-to-create-call-agent |
-| Resolve missing incoming call notifications in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/call-setup-issues/no-incoming-call-notifications |
-| Diagnose slow askDevicePermission responses in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/device-issues/ask-device-permission-api-takes-too-long |
-| Troubleshoot ACS getMicrophones returning generic microphone list | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/device-issues/no-enumerated-microphone-list |
-| Fix ACS getSpeakers not returning detailed speaker list | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/device-issues/no-enumerated-speaker-list |
-| Resolve missing device permission prompts in ACS calling | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/device-issues/no-permission-prompt |
-| Apply general troubleshooting strategies for ACS calling issues | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/general-troubleshooting-strategies/overview |
-| Interpret Azure Communication Services calling error messages and codes | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/general-troubleshooting-strategies/understanding-error-codes |
-| Collect verbose browser logs for ACS troubleshooting | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/how-to-collect-browser-verbose-log |
-| Collect ACS call information for support diagnostics | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/how-to-collect-call-info |
-| Capture ACS WebJS client logs using @azure/logger | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/how-to-collect-client-logs |
-| Record diagnostic audio for ACS WebRTC issues | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/how-to-collect-diagnostic-audio-recordings |
-| Gather Windows audio event logs for ACS issues | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/how-to-collect-windows-audio-event-log |
-| Fix cameraFreeze issues in ACS video calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/camera-freeze |
-| Resolve cameraPermissionDenied in ACS calling | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/camera-permission-denied |
-| Resolve cameraStartFailed errors in ACS calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/camera-start-failed |
-| Handle cameraStartTimedOut in ACS video setup | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/camera-start-timed-out |
-| Investigate cameraStoppedUnexpectedly events in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/camera-stopped-unexpectedly |
-| Resolve capturerStartFailed for ACS screen sharing | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/capturer-start-failed |
-| Handle capturerStoppedUnexpectedly in ACS screen share | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/capturer-stopped-unexpectedly |
-| Investigate microphoneMuteUnexpectedly events in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/microphone-mute-unexpectedly |
-| Troubleshoot microphoneNotFunctioning in ACS calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/microphone-not-functioning |
-| Resolve microphonePermissionDenied in ACS calling | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/microphone-permission-denied |
-| Diagnose networkReceiveQuality issues in ACS calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/network-receive-quality |
-| Interpret networkReconnect UFD events for ACS calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/network-reconnect |
-| Interpret networkRelaysNotReachable diagnostics in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/network-relays-not-reachable |
-| Diagnose networkSendQuality issues in ACS calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/network-send-quality |
-| Fix noMicrophoneDevicesEnumerated in ACS calling | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/no-microphone-devices-enumerated |
-| Interpret noNetwork user-facing diagnostics in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/no-network |
-| Resolve noSpeakerDevicesEnumerated issues in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/no-speaker-devices-enumerated |
-| Fix screenshareRecordingDisabled in ACS on macOS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/screenshare-recording-disabled |
-| Handle speakingWhileMicrophoneIsMuted alerts in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/references/ufd/speaking-while-microphone-is-muted |
-| Troubleshoot call end response codes in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/troubleshooting-codes |
-| Troubleshoot createView errors from disposed video renderer | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/video-issues/application-disposes-video-renderer |
-| Diagnose ACS createView timeout video errors | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/video-issues/create-view-timeout |
-| Mitigate poor video quality on bad networks in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/video-issues/network-poor |
-| Recover from remote video becoming unavailable in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/video-issues/remote-video-becomes-unavailable |
-| Handle unavailable video subscription errors in ACS | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/video-issues/subscribing-video-not-available |
-| Fix frozen sender video in ACS calls | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/video-issues/video-is-frozen |
-| Address high CPU impact on ACS video quality | https://learn.microsoft.com/en-us/azure/communication-services/resources/troubleshooting/voice-video-calling/video-issues/video-sender-has-high-cpu-load |
+| Use Teams interop in government cloud environments | https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/guest/government-cloud |
+| Use Teams interop for Teams users in government clouds | https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/teams-user/government-cloud |
+| Use certified Session Border Controllers for direct routing | https://learn.microsoft.com/en-us/azure/communication-services/concepts/telephony/certified-session-border-controllers |
+| Plan Azure direct routing infrastructure and connectivity | https://learn.microsoft.com/en-us/azure/communication-services/concepts/telephony/direct-routing-infrastructure |
+| Quickstart deploying Teams Phone extensibility with ACS | https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/tpe/teams-phone-extensibility-quickstart |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Apply best practices for Azure Communication Services Calling SDKs | https://learn.microsoft.com/en-us/azure/communication-services/concepts/best-practices |
+| Apply best practices for Communication Services user access tokens | https://learn.microsoft.com/en-us/azure/communication-services/concepts/credentials-best-practices |
+| Manage email opt-outs in ACS | https://learn.microsoft.com/en-us/azure/communication-services/concepts/email/email-optout-management |
+| Improve sender reputation for ACS email | https://learn.microsoft.com/en-us/azure/communication-services/concepts/email/sender-reputation-managed-suppression-list |
+| Govern Teams meeting experience for ACS virtual visits | https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/virtual-visits/govern-meeting-experience |
+| Design user experience for ACS–Teams virtual appointments | https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/virtual-visits/plan-user-experience |
+| Choose and use Raw ID string identifiers in Communication Services | https://learn.microsoft.com/en-us/azure/communication-services/concepts/raw-id-use-cases |
+| Apply ACS SMS messaging policy requirements | https://learn.microsoft.com/en-us/azure/communication-services/concepts/sms/messaging-policy |
+| Avoid spam labeling for ACS business phone numbers | https://learn.microsoft.com/en-us/azure/communication-services/concepts/telephony/prevent-spam-flag |
+| Handle known Call Automation limitations and behaviors | https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/known-issues-call-automation |
+| Manage and improve call quality in Azure Communication Services | https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/manage-call-quality |
+| Optimize network for ACS voice and video quality | https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/network-requirements |
+| Apply ACS-specific UX best practices for calling | https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/user-experience |
+| Optimize ACS video layout and resolution on web | https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/optimizing-video-placement |
+| Implement a trusted auth service for ACS tokens | https://learn.microsoft.com/en-us/azure/communication-services/samples/trusted-auth-sample |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Understand pricing components for ACS Advanced Messaging | https://learn.microsoft.com/en-us/azure/communication-services/concepts/advanced-messaging/whatsapp/pricing |
+| Compare Twilio Video vs Azure Communication Services Calling SDK | https://learn.microsoft.com/en-us/azure/communication-services/concepts/migrate-to-azure-communication-services |
+| Understand pricing model for ACS Teams interoperability | https://learn.microsoft.com/en-us/azure/communication-services/concepts/pricing/teams-interop-pricing |
+| Understand ACS SMS pricing model details | https://learn.microsoft.com/en-us/azure/communication-services/concepts/sms-pricing |
+| Migrate Twilio Video apps to ACS Calling SDK | https://learn.microsoft.com/en-us/azure/communication-services/tutorials/migrating-to-azure-communication-services-calling |
+| Migrate Twilio Conversations Chat to ACS Chat SDK | https://learn.microsoft.com/en-us/azure/communication-services/tutorials/migrating-to-azure-communication-services-chat |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Design event management platforms with Teams, Graph, and ACS | https://learn.microsoft.com/en-us/azure/communication-services/tutorials/events-playbook |
+| Integrate ACS with Azure ExpressRoute for private media | https://learn.microsoft.com/en-us/azure/communication-services/tutorials/integrate-express-route |

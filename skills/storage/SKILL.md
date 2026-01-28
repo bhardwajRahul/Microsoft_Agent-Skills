@@ -31,77 +31,12 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Implement data lake capture pattern with Databricks | https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-events |
-| Design event-driven reactions to Azure Blob events | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-event-overview |
-| Plan Azure Elastic SAN capacity and redundancy | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-planning |
-| Use clustered applications with Azure Elastic SAN shared volumes | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-shared-volumes |
-| Plan Azure File Sync deployment architecture and options | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-planning |
-| Plan Azure Files deployment and access patterns | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-planning |
-| Replace Windows file servers with Azure Files and Sync | https://learn.microsoft.com/en-us/azure/storage/files/windows-server-to-azure-files |
-| Design scalable, performant Azure Table storage schemas | https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-design |
-| Design Azure Table storage for data modification | https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-design-for-modification |
-| Design Azure Table storage for efficient queries | https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-design-for-query |
-| Apply design guidelines for Azure Table storage | https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-design-guidelines |
-| Model relationships in Azure Table storage schemas | https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-design-modeling |
-| Use Azure Table storage design patterns and anti-patterns | https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-design-patterns |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Apply Azure Blob access tier best practices | https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-best-practices |
-| Optimize Azure blob inventory performance and configuration | https://learn.microsoft.com/en-us/azure/storage/blobs/blob-inventory-performance-characteristics |
-| Apply monitoring best practices for Azure Blob Storage | https://learn.microsoft.com/en-us/azure/storage/blobs/blob-storage-monitoring-scenarios |
-| Implement optimistic and pessimistic concurrency in Blob Storage | https://learn.microsoft.com/en-us/azure/storage/blobs/concurrency-manage |
-| Apply best practices for Azure Data Lake Storage | https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-best-practices |
-| Optimize Azure Blob lifecycle policy performance | https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-performance-characteristics |
-| Run NFS 3.0 performance benchmarks on Azure Blob | https://learn.microsoft.com/en-us/azure/storage/blobs/network-file-system-protocol-performance-benchmark |
-| Optimize NFS 3.0 performance in Azure Blob Storage | https://learn.microsoft.com/en-us/azure/storage/blobs/network-file-system-protocol-support-performance |
-| Tune SFTP performance for Azure Blob Storage | https://learn.microsoft.com/en-us/azure/storage/blobs/secure-file-transfer-protocol-performance |
-| Choose between blob soft delete and versioning | https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-vs-versioning-options |
-| Manage Azure Blob Storage client instances effectively | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-client-management |
-| Design low-latency applications with Azure Blob Storage | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-latency |
-| Tune .NET Azure Blob upload and download performance | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-tune-upload-download |
-| Tune Azure Blob upload and download performance in Go | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-tune-upload-download-go |
-| Tune Java Azure Blob upload and download performance | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-tune-upload-download-java |
-| Tune JavaScript blob uploads and downloads for performance | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-tune-upload-download-javascript |
-| Tune Azure blob upload and download performance in Python | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-tune-upload-download-python |
-| Optimize Azure Blob Storage partitions with naming strategies | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-performance-blob-partitions |
-| Apply Azure Blob Storage performance optimization checklist | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-performance-checklist |
-| Apply Azure Blob Storage performance checklist | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-performance-checklist-developers |
-| Configure retry policies for Azure Blob .NET client | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-retry-policy |
-| Configure retry policies for Azure Blob Storage in Go | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-retry-policy-go |
-| Implement resilient retry policies for Java Blob SDK | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-retry-policy-java |
-| Implement resilient retry policies for Blob Storage in JavaScript | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-retry-policy-javascript |
-| Implement resilient retry policies for Azure blobs in Python | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-retry-policy-python |
-| Optimize Azure Elastic SAN configuration and performance | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-best-practices |
-| Use and manage Azure Elastic SAN volume snapshots | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-snapshots |
-| Choose effective Azure File Sync tiering policies | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-choose-cloud-tiering-policies |
-| Disaster recovery best practices for Azure File Sync | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-disaster-recovery-best-practices |
-| Modify Azure File Sync topology without data loss | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-modify-sync-topology |
-| Replace drives hosting Azure File Sync endpoints | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-replace-drive |
-| Replace an Azure File Sync server correctly | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-replace-server |
-| Deprovision Azure File Sync server endpoints safely | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-server-endpoint-delete |
-| Recover an Azure File Sync server after failure | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-server-recovery |
-| Migrate between Azure file shares using File Sync | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-share-to-share-migration |
-| Work efficiently with large directories on Azure file shares | https://learn.microsoft.com/en-us/azure/storage/files/nfs-large-directories |
-| Tune NFS Azure file share performance at scale | https://learn.microsoft.com/en-us/azure/storage/files/nfs-performance |
-| Improve SMB performance for premium Azure file shares | https://learn.microsoft.com/en-us/azure/storage/files/smb-performance |
-| Optimize Azure Files performance for your workloads | https://learn.microsoft.com/en-us/azure/storage/files/understand-performance |
-| Optimize Azure Files for virtual desktop workloads | https://learn.microsoft.com/en-us/azure/storage/files/virtual-desktop-workloads |
-| Best practices for monitoring Azure Queue Storage | https://learn.microsoft.com/en-us/azure/storage/queues/queues-storage-monitoring-scenarios |
-| Performance and scalability best practices for Queue Storage | https://learn.microsoft.com/en-us/azure/storage/queues/storage-performance-checklist |
-| Optimize Azure Table storage performance and scalability | https://learn.microsoft.com/en-us/azure/storage/tables/storage-performance-checklist |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Choose Elastic SAN integration options for AKS | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-aks-options |
-| Choose between Microsoft.FileShares and classic Azure file shares | https://learn.microsoft.com/en-us/azure/storage/files/create-file-share |
-| Migrate Linux file servers to NFS Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-nfs |
-| Choose between Azure Files and Azure NetApp Files | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-netapp-comparison |
+| Diagnose and fix common BlobFuse2 issues | https://learn.microsoft.com/en-us/azure/storage/blobs/blobfuse2-troubleshooting |
+| Diagnose and fix Azure Container Storage v1 issues | https://learn.microsoft.com/en-us/azure/storage/container-storage/troubleshoot-container-storage |
+| Diagnose and fix common Azure Elastic SAN issues | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-troubleshoot |
 
 ### Configuration
 | Topic | URL |
@@ -188,23 +123,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Monitoring data reference for Azure Queue Storage | https://learn.microsoft.com/en-us/azure/storage/queues/monitor-queue-storage-reference |
 | Configure monitoring for Azure Table Storage with Azure Monitor | https://learn.microsoft.com/en-us/azure/storage/tables/monitor-table-storage |
 | Reference for Azure Table Storage monitoring metrics and logs | https://learn.microsoft.com/en-us/azure/storage/tables/monitor-table-storage-reference |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Migrate on-premises HDFS data to Azure Storage with Data Box | https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster |
-| Deploy static website to Blob Storage with GitHub Actions | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions |
-| Check Blob Storage feature support by account type | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-feature-support-in-storage-accounts |
-| Deploy static website on Blob Storage with Terraform | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-static-website-terraform |
-| Upgrade Blob Storage to Data Lake with ARM templates | https://learn.microsoft.com/en-us/azure/storage/blobs/upgrade-to-data-lake-storage-gen2-how-to |
-| Deploy and configure Azure Elastic SAN via portal, PowerShell, CLI | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-create |
-| Deploy Azure File Sync with portal, PowerShell, or CLI | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-deployment-guide |
-| Migrate GlusterFS volumes to Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/glusterfs-migration-guide |
-| Migrate on-premises SMB/NFS shares with Azure Storage Mover | https://learn.microsoft.com/en-us/azure/storage/files/migrate-files-storage-mover |
-| Migrate Linux servers to Azure File Sync hybrid deployment | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-linux-hybrid |
-| Migrate on-premises NAS to Azure Files with Data Box | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-nas-cloud-databox |
-| Migrate on-premises NAS SMB shares to Azure File Sync | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-nas-hybrid |
-| Migrate NAS to Azure File Sync via Azure Data Box | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-nas-hybrid-databox |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -463,9 +381,91 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Assign Azure RBAC roles for Azure Table data access | https://learn.microsoft.com/en-us/azure/storage/tables/assign-azure-role-data-access |
 | Authorize Azure Table access with Microsoft Entra ID | https://learn.microsoft.com/en-us/azure/storage/tables/authorize-access-azure-active-directory |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Diagnose and fix common BlobFuse2 issues | https://learn.microsoft.com/en-us/azure/storage/blobs/blobfuse2-troubleshooting |
-| Diagnose and fix Azure Container Storage v1 issues | https://learn.microsoft.com/en-us/azure/storage/container-storage/troubleshoot-container-storage |
-| Diagnose and fix common Azure Elastic SAN issues | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-troubleshoot |
+| Migrate on-premises HDFS data to Azure Storage with Data Box | https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster |
+| Deploy static website to Blob Storage with GitHub Actions | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions |
+| Check Blob Storage feature support by account type | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-feature-support-in-storage-accounts |
+| Deploy static website on Blob Storage with Terraform | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-static-website-terraform |
+| Upgrade Blob Storage to Data Lake with ARM templates | https://learn.microsoft.com/en-us/azure/storage/blobs/upgrade-to-data-lake-storage-gen2-how-to |
+| Deploy and configure Azure Elastic SAN via portal, PowerShell, CLI | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-create |
+| Deploy Azure File Sync with portal, PowerShell, or CLI | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-deployment-guide |
+| Migrate GlusterFS volumes to Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/glusterfs-migration-guide |
+| Migrate on-premises SMB/NFS shares with Azure Storage Mover | https://learn.microsoft.com/en-us/azure/storage/files/migrate-files-storage-mover |
+| Migrate Linux servers to Azure File Sync hybrid deployment | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-linux-hybrid |
+| Migrate on-premises NAS to Azure Files with Data Box | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-nas-cloud-databox |
+| Migrate on-premises NAS SMB shares to Azure File Sync | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-nas-hybrid |
+| Migrate NAS to Azure File Sync via Azure Data Box | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-nas-hybrid-databox |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Apply Azure Blob access tier best practices | https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-best-practices |
+| Optimize Azure blob inventory performance and configuration | https://learn.microsoft.com/en-us/azure/storage/blobs/blob-inventory-performance-characteristics |
+| Apply monitoring best practices for Azure Blob Storage | https://learn.microsoft.com/en-us/azure/storage/blobs/blob-storage-monitoring-scenarios |
+| Implement optimistic and pessimistic concurrency in Blob Storage | https://learn.microsoft.com/en-us/azure/storage/blobs/concurrency-manage |
+| Apply best practices for Azure Data Lake Storage | https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-best-practices |
+| Optimize Azure Blob lifecycle policy performance | https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-performance-characteristics |
+| Run NFS 3.0 performance benchmarks on Azure Blob | https://learn.microsoft.com/en-us/azure/storage/blobs/network-file-system-protocol-performance-benchmark |
+| Optimize NFS 3.0 performance in Azure Blob Storage | https://learn.microsoft.com/en-us/azure/storage/blobs/network-file-system-protocol-support-performance |
+| Tune SFTP performance for Azure Blob Storage | https://learn.microsoft.com/en-us/azure/storage/blobs/secure-file-transfer-protocol-performance |
+| Choose between blob soft delete and versioning | https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-vs-versioning-options |
+| Manage Azure Blob Storage client instances effectively | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-client-management |
+| Design low-latency applications with Azure Blob Storage | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-latency |
+| Tune .NET Azure Blob upload and download performance | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-tune-upload-download |
+| Tune Azure Blob upload and download performance in Go | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-tune-upload-download-go |
+| Tune Java Azure Blob upload and download performance | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-tune-upload-download-java |
+| Tune JavaScript blob uploads and downloads for performance | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-tune-upload-download-javascript |
+| Tune Azure blob upload and download performance in Python | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-tune-upload-download-python |
+| Optimize Azure Blob Storage partitions with naming strategies | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-performance-blob-partitions |
+| Apply Azure Blob Storage performance optimization checklist | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-performance-checklist |
+| Apply Azure Blob Storage performance checklist | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-performance-checklist-developers |
+| Configure retry policies for Azure Blob .NET client | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-retry-policy |
+| Configure retry policies for Azure Blob Storage in Go | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-retry-policy-go |
+| Implement resilient retry policies for Java Blob SDK | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-retry-policy-java |
+| Implement resilient retry policies for Blob Storage in JavaScript | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-retry-policy-javascript |
+| Implement resilient retry policies for Azure blobs in Python | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-retry-policy-python |
+| Optimize Azure Elastic SAN configuration and performance | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-best-practices |
+| Use and manage Azure Elastic SAN volume snapshots | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-snapshots |
+| Choose effective Azure File Sync tiering policies | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-choose-cloud-tiering-policies |
+| Disaster recovery best practices for Azure File Sync | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-disaster-recovery-best-practices |
+| Modify Azure File Sync topology without data loss | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-modify-sync-topology |
+| Replace drives hosting Azure File Sync endpoints | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-replace-drive |
+| Replace an Azure File Sync server correctly | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-replace-server |
+| Deprovision Azure File Sync server endpoints safely | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-server-endpoint-delete |
+| Recover an Azure File Sync server after failure | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-server-recovery |
+| Migrate between Azure file shares using File Sync | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-share-to-share-migration |
+| Work efficiently with large directories on Azure file shares | https://learn.microsoft.com/en-us/azure/storage/files/nfs-large-directories |
+| Tune NFS Azure file share performance at scale | https://learn.microsoft.com/en-us/azure/storage/files/nfs-performance |
+| Improve SMB performance for premium Azure file shares | https://learn.microsoft.com/en-us/azure/storage/files/smb-performance |
+| Optimize Azure Files performance for your workloads | https://learn.microsoft.com/en-us/azure/storage/files/understand-performance |
+| Optimize Azure Files for virtual desktop workloads | https://learn.microsoft.com/en-us/azure/storage/files/virtual-desktop-workloads |
+| Best practices for monitoring Azure Queue Storage | https://learn.microsoft.com/en-us/azure/storage/queues/queues-storage-monitoring-scenarios |
+| Performance and scalability best practices for Queue Storage | https://learn.microsoft.com/en-us/azure/storage/queues/storage-performance-checklist |
+| Optimize Azure Table storage performance and scalability | https://learn.microsoft.com/en-us/azure/storage/tables/storage-performance-checklist |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Choose Elastic SAN integration options for AKS | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-aks-options |
+| Choose between Microsoft.FileShares and classic Azure file shares | https://learn.microsoft.com/en-us/azure/storage/files/create-file-share |
+| Migrate Linux file servers to NFS Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-nfs |
+| Choose between Azure Files and Azure NetApp Files | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-netapp-comparison |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Implement data lake capture pattern with Databricks | https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-events |
+| Design event-driven reactions to Azure Blob events | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-event-overview |
+| Plan Azure Elastic SAN capacity and redundancy | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-planning |
+| Use clustered applications with Azure Elastic SAN shared volumes | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-shared-volumes |
+| Plan Azure File Sync deployment architecture and options | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-planning |
+| Plan Azure Files deployment and access patterns | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-planning |
+| Replace Windows file servers with Azure Files and Sync | https://learn.microsoft.com/en-us/azure/storage/files/windows-server-to-azure-files |
+| Design scalable, performant Azure Table storage schemas | https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-design |
+| Design Azure Table storage for data modification | https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-design-for-modification |
+| Design Azure Table storage for efficient queries | https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-design-for-query |
+| Apply design guidelines for Azure Table storage | https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-design-guidelines |
+| Model relationships in Azure Table storage schemas | https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-design-modeling |
+| Use Azure Table storage design patterns and anti-patterns | https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-design-patterns |

@@ -31,22 +31,13 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Govern Azure DevTest Labs resources in enterprises | https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-guidance-governance-resources |
-| Plan and scale Azure DevTest Labs for enterprises | https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-guidance-scale |
-| Enterprise reference architecture for Azure DevTest Labs | https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-reference-architecture |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Best practices for distributed DevTest Labs resource development | https://learn.microsoft.com/en-us/azure/devtest-labs/best-practices-distributive-collaborative-development-environment |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Choose between custom images and formulas in DevTest Labs | https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-comparing-vm-base-image-types |
+| Fix DevTest Labs VM connectivity by redeploying | https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-redeploy-vm |
+| Troubleshoot DevTest Labs artifact application failures | https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-troubleshoot-apply-artifacts |
+| Resolve DevTest Labs VM deployment failures | https://learn.microsoft.com/en-us/azure/devtest-labs/troubleshoot-vm-deployment-failures |
+| Troubleshoot DevTest Labs VM and environment creation | https://learn.microsoft.com/en-us/azure/devtest-labs/troubleshoot-vm-environment-creation-failures |
 
 ### Configuration
 | Topic | URL |
@@ -79,14 +70,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure ARM templates for DevTest Labs VMs | https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-use-resource-manager-template |
 | Report DevTest Labs usage across subscriptions | https://learn.microsoft.com/en-us/azure/devtest-labs/report-usage-across-multiple-labs-subscriptions |
 | Configure resource groups for DevTest Labs VMs | https://learn.microsoft.com/en-us/azure/devtest-labs/resource-group-control |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Automate adding DevTest Labs users with ARM, PowerShell, CLI | https://learn.microsoft.com/en-us/azure/devtest-labs/automate-add-lab-user |
-| Integrate DevTest Labs with CI/CD pipelines | https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-dev-ops |
-| Move Azure DevTest Labs to another region | https://learn.microsoft.com/en-us/azure/devtest-labs/how-to-move-labs |
-| Use DevTest Labs resources in Azure Pipelines | https://learn.microsoft.com/en-us/azure/devtest-labs/use-devtest-labs-build-release-pipelines |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -134,10 +117,27 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure network-isolated labs in Azure DevTest Labs | https://learn.microsoft.com/en-us/azure/devtest-labs/network-isolation |
 | Use managed identities to deploy DevTest Labs environments | https://learn.microsoft.com/en-us/azure/devtest-labs/use-managed-identities-environments |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Fix DevTest Labs VM connectivity by redeploying | https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-redeploy-vm |
-| Troubleshoot DevTest Labs artifact application failures | https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-troubleshoot-apply-artifacts |
-| Resolve DevTest Labs VM deployment failures | https://learn.microsoft.com/en-us/azure/devtest-labs/troubleshoot-vm-deployment-failures |
-| Troubleshoot DevTest Labs VM and environment creation | https://learn.microsoft.com/en-us/azure/devtest-labs/troubleshoot-vm-environment-creation-failures |
+| Automate adding DevTest Labs users with ARM, PowerShell, CLI | https://learn.microsoft.com/en-us/azure/devtest-labs/automate-add-lab-user |
+| Integrate DevTest Labs with CI/CD pipelines | https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-dev-ops |
+| Move Azure DevTest Labs to another region | https://learn.microsoft.com/en-us/azure/devtest-labs/how-to-move-labs |
+| Use DevTest Labs resources in Azure Pipelines | https://learn.microsoft.com/en-us/azure/devtest-labs/use-devtest-labs-build-release-pipelines |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Best practices for distributed DevTest Labs resource development | https://learn.microsoft.com/en-us/azure/devtest-labs/best-practices-distributive-collaborative-development-environment |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Choose between custom images and formulas in DevTest Labs | https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-comparing-vm-base-image-types |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Govern Azure DevTest Labs resources in enterprises | https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-guidance-governance-resources |
+| Plan and scale Azure DevTest Labs for enterprises | https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-guidance-scale |
+| Enterprise reference architecture for Azure DevTest Labs | https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-reference-architecture |

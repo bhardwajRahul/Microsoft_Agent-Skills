@@ -31,25 +31,22 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Achieve zero-downtime deployments on Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/concept-zero-downtime-deployment |
-| Apply blue-green deployment strategies in Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/concepts-blue-green-deployment-strategies |
-| Integrate Azure Spring Apps with Azure load balancing options | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-integrate-azure-load-balancers |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Optimize observability for production Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/application-observability |
-| Configure JVM diagnostic options in Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-dump-jvm-options |
-| Monitor Azure Spring Apps with logs, metrics, and tracing | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/quickstart-logs-metrics-tracing |
-| Monitor Azure Spring Apps Enterprise workloads with Application Live View | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/monitor-apps-by-application-live-view |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Compare Azure Spring Apps Basic, Standard, Enterprise plans | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/plan-comparison |
+| Capture heap and thread dumps in Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-capture-dumps |
+| Connect to Azure Spring Apps instances for debugging | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-connect-to-app-instance-for-troubleshooting |
+| Diagnose and fix Azure Spring Apps OOM restarts | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-fix-app-restart-issues-caused-by-out-of-memory |
+| Enable remote debugging for Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-remote-debugging-app-instance |
+| Self-diagnose Azure Spring Apps in virtual networks | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-self-diagnose-running-in-vnet |
+| Self-diagnose and resolve Azure Spring Apps problems with diagnostics | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-self-diagnose-solve |
+| Troubleshoot Azure Spring Apps development issues | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/troubleshoot |
+| Resolve common exit code errors in Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/troubleshoot-exit-code |
+| Troubleshoot Azure Spring Apps virtual network issues | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/troubleshooting-vnet |
+| Stream Azure Spring Apps job logs in real time for troubleshooting | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/how-to-job-log-streaming |
+| Stream Azure Spring Apps managed component logs in real time | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/how-to-managed-component-log-streaming |
+| Troubleshoot VMware Spring Cloud Gateway on Azure Spring Apps Enterprise | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/how-to-troubleshoot-enterprise-spring-cloud-gateway |
+| Diagnose and fix Azure Spring Apps build failures | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/troubleshoot-build-exit-code |
 
 ### Configuration
 | Topic | URL |
@@ -88,20 +85,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure Application Live View for Azure Spring Apps Enterprise | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/how-to-use-application-live-view |
 | Configure Tanzu Dev Tools for Azure Spring Apps Enterprise | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/how-to-use-dev-tool-portal |
 | Configure Spring Cloud Gateway request rate limits in Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/quickstart-set-request-rate-limits-enterprise |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Automate Azure Spring Apps deployments with Azure Pipelines | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-cicd |
-| Deploy Azure Spring Apps into a virtual network | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-deploy-in-azure-virtual-network |
-| Build CI/CD workflows for Azure Spring Apps with GitHub Actions | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-github-actions |
-| Set up blue-green staging deployments in Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-staging-environment |
-| Deploy Azure Spring Apps into a VNet using ARM templates | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/quickstart-deploy-infrastructure-vnet |
-| Provision Azure Spring Apps in a VNet using Azure CLI | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/quickstart-deploy-infrastructure-vnet-azure-cli |
-| Deploy Azure Spring Apps into a VNet using Bicep | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/quickstart-deploy-infrastructure-vnet-bicep |
-| Provision Azure Spring Apps in a VNet using Terraform | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/quickstart-deploy-infrastructure-vnet-terraform |
-| Deploy polyglot applications using buildpacks on Azure Spring Apps Enterprise | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/how-to-enterprise-deploy-polyglot-apps |
-| Deploy static web files with Tanzu Web Servers buildpack on Azure Spring Apps Enterprise | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/how-to-enterprise-deploy-static-file |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -157,19 +140,36 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure Entra ID SSO for Spring Cloud Gateway and API Portal on Azure Spring Apps Enterprise | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/how-to-set-up-sso-with-azure-ad |
 | Secure end-to-end communications for Spring Boot apps on Azure in zero trust environments | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/secure-communications-end-to-end |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Capture heap and thread dumps in Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-capture-dumps |
-| Connect to Azure Spring Apps instances for debugging | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-connect-to-app-instance-for-troubleshooting |
-| Diagnose and fix Azure Spring Apps OOM restarts | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-fix-app-restart-issues-caused-by-out-of-memory |
-| Enable remote debugging for Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-remote-debugging-app-instance |
-| Self-diagnose Azure Spring Apps in virtual networks | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-self-diagnose-running-in-vnet |
-| Self-diagnose and resolve Azure Spring Apps problems with diagnostics | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-self-diagnose-solve |
-| Troubleshoot Azure Spring Apps development issues | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/troubleshoot |
-| Resolve common exit code errors in Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/troubleshoot-exit-code |
-| Troubleshoot Azure Spring Apps virtual network issues | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/troubleshooting-vnet |
-| Stream Azure Spring Apps job logs in real time for troubleshooting | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/how-to-job-log-streaming |
-| Stream Azure Spring Apps managed component logs in real time | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/how-to-managed-component-log-streaming |
-| Troubleshoot VMware Spring Cloud Gateway on Azure Spring Apps Enterprise | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/how-to-troubleshoot-enterprise-spring-cloud-gateway |
-| Diagnose and fix Azure Spring Apps build failures | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/troubleshoot-build-exit-code |
+| Automate Azure Spring Apps deployments with Azure Pipelines | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-cicd |
+| Deploy Azure Spring Apps into a virtual network | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-deploy-in-azure-virtual-network |
+| Build CI/CD workflows for Azure Spring Apps with GitHub Actions | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-github-actions |
+| Set up blue-green staging deployments in Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-staging-environment |
+| Deploy Azure Spring Apps into a VNet using ARM templates | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/quickstart-deploy-infrastructure-vnet |
+| Provision Azure Spring Apps in a VNet using Azure CLI | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/quickstart-deploy-infrastructure-vnet-azure-cli |
+| Deploy Azure Spring Apps into a VNet using Bicep | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/quickstart-deploy-infrastructure-vnet-bicep |
+| Provision Azure Spring Apps in a VNet using Terraform | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/quickstart-deploy-infrastructure-vnet-terraform |
+| Deploy polyglot applications using buildpacks on Azure Spring Apps Enterprise | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/how-to-enterprise-deploy-polyglot-apps |
+| Deploy static web files with Tanzu Web Servers buildpack on Azure Spring Apps Enterprise | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/how-to-enterprise-deploy-static-file |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Optimize observability for production Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/application-observability |
+| Configure JVM diagnostic options in Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-dump-jvm-options |
+| Monitor Azure Spring Apps with logs, metrics, and tracing | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/quickstart-logs-metrics-tracing |
+| Monitor Azure Spring Apps Enterprise workloads with Application Live View | https://learn.microsoft.com/en-us/azure/spring-apps/enterprise/monitor-apps-by-application-live-view |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Compare Azure Spring Apps Basic, Standard, Enterprise plans | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/plan-comparison |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Achieve zero-downtime deployments on Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/concept-zero-downtime-deployment |
+| Apply blue-green deployment strategies in Azure Spring Apps | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/concepts-blue-green-deployment-strategies |
+| Integrate Azure Spring Apps with Azure load balancing options | https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-integrate-azure-load-balancers |

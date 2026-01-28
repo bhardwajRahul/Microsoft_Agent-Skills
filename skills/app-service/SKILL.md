@@ -31,30 +31,11 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Design geo-distributed scaling with ASE and Traffic Manager | https://learn.microsoft.com/en-us/azure/app-service/environment/app-service-app-service-environment-geo-distributed-scale |
-| Migrate Docker Compose apps to App Service sidecars | https://learn.microsoft.com/en-us/azure/app-service/migrate-sidecar-multi-container-apps |
-| Choose Azure App Service networking features | https://learn.microsoft.com/en-us/azure/app-service/networking-features |
-| Use Azure NAT Gateway with App Service outbound traffic | https://learn.microsoft.com/en-us/azure/app-service/overview-nat-gateway-integration |
-| Apply recommended companion services for App Service apps | https://learn.microsoft.com/en-us/azure/app-service/recommended-services |
-| Choose secure connectivity patterns for App Service | https://learn.microsoft.com/en-us/azure/app-service/tutorial-connect-overview |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Apply best practices and troubleshooting for Azure App Service | https://learn.microsoft.com/en-us/azure/app-service/app-service-best-practices |
-| Migrate Azure App Service apps from Windows to Linux | https://learn.microsoft.com/en-us/azure/app-service/app-service-migration-windows-linux |
-| Apply deployment best practices for Azure App Service | https://learn.microsoft.com/en-us/azure/app-service/deploy-best-practices |
-| Choose authentication options for App Service scenarios | https://learn.microsoft.com/en-us/azure/app-service/identity-scenarios |
-| Apply security best practices to Azure App Service | https://learn.microsoft.com/en-us/azure/app-service/overview-security |
-| Apply Traffic Manager best practices for App Service | https://learn.microsoft.com/en-us/azure/app-service/web-sites-traffic-manager |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Compare ASE v3 with public multitenant App Service | https://learn.microsoft.com/en-us/azure/app-service/environment/ase-multi-tenant-comparison |
+| Use App Service diagnostics to troubleshoot apps | https://learn.microsoft.com/en-us/azure/app-service/overview-diagnostics |
+| Troubleshoot App Service apps using Azure Monitor | https://learn.microsoft.com/en-us/azure/app-service/tutorial-troubleshoot-monitor |
 
 ### Configuration
 | Topic | URL |
@@ -112,35 +93,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure sidecar containers for Linux App Service | https://learn.microsoft.com/en-us/azure/app-service/tutorial-sidecar |
 | Configure and run WebJobs in Azure App Service | https://learn.microsoft.com/en-us/azure/app-service/webjobs-create |
 | Understand and configure WebJobs execution behavior | https://learn.microsoft.com/en-us/azure/app-service/webjobs-execution |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Set up Azure Pipelines CI/CD for App Service | https://learn.microsoft.com/en-us/azure/app-service/deploy-azure-pipelines |
-| Set up CI/CD to custom containers in App Service | https://learn.microsoft.com/en-us/azure/app-service/deploy-ci-cd-custom-container |
-| Deploy Windows containers to App Service with Azure Pipelines | https://learn.microsoft.com/en-us/azure/app-service/deploy-container-azure-pipelines |
-| Deploy custom Linux containers via GitHub Actions | https://learn.microsoft.com/en-us/azure/app-service/deploy-container-github-action |
-| Configure continuous deployment to Azure App Service | https://learn.microsoft.com/en-us/azure/app-service/deploy-continuous-deployment |
-| Deploy to Azure App Service via FTP/FTPS | https://learn.microsoft.com/en-us/azure/app-service/deploy-ftp |
-| Deploy Azure App Service apps with GitHub Actions | https://learn.microsoft.com/en-us/azure/app-service/deploy-github-actions |
-| Deploy from local Git to Azure App Service | https://learn.microsoft.com/en-us/azure/app-service/deploy-local-git |
-| Run Azure App Service apps from ZIP package | https://learn.microsoft.com/en-us/azure/app-service/deploy-run-package |
-| Configure deployment slots for Azure App Service | https://learn.microsoft.com/en-us/azure/app-service/deploy-staging-slots |
-| Deploy code packages to Azure App Service | https://learn.microsoft.com/en-us/azure/app-service/deploy-zip |
-| Configure zone redundancy for ASE and Isolated v2 plans | https://learn.microsoft.com/en-us/azure/app-service/environment/configure-zone-redundancy-environment |
-| Deploy App Service Environment v3 using ARM templates | https://learn.microsoft.com/en-us/azure/app-service/environment/how-to-create-from-template |
-| Enable App Service, Functions, and Logic Apps on Arc | https://learn.microsoft.com/en-us/azure/app-service/manage-create-arc-environment |
-| Migrate App Service on Arc to Container Apps on Arc | https://learn.microsoft.com/en-us/azure/app-service/migrate-app-service-arc |
-| Migrate App Service from gateway to regional VNet integration | https://learn.microsoft.com/en-us/azure/app-service/migrate-gateway-based-vnet-integration |
-| Deploy Azure App Service app using Bicep | https://learn.microsoft.com/en-us/azure/app-service/provision-resource-bicep |
-| Provision Azure App Service app with Terraform | https://learn.microsoft.com/en-us/azure/app-service/provision-resource-terraform |
-| Quickstart deploying web app to Azure Arc App Service | https://learn.microsoft.com/en-us/azure/app-service/quickstart-arc |
-| Use Kudu engine features for App Service deployment | https://learn.microsoft.com/en-us/azure/app-service/resources-kudu |
-| Deploy App Service using Bicep templates | https://learn.microsoft.com/en-us/azure/app-service/samples-bicep |
-| Automate App Service with Azure CLI scripts | https://learn.microsoft.com/en-us/azure/app-service/samples-cli |
-| Automate App Service with PowerShell scripts | https://learn.microsoft.com/en-us/azure/app-service/samples-powershell |
-| Deploy App Service using ARM template samples | https://learn.microsoft.com/en-us/azure/app-service/samples-resource-manager-templates |
-| Provision App Service with Terraform samples | https://learn.microsoft.com/en-us/azure/app-service/samples-terraform |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -220,8 +172,56 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Isolate App Service backend traffic with VNet integration | https://learn.microsoft.com/en-us/azure/app-service/tutorial-networking-isolate-vnet |
 | Deploy a secure N-tier web app on App Service | https://learn.microsoft.com/en-us/azure/app-service/tutorial-secure-ntier-app |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Use App Service diagnostics to troubleshoot apps | https://learn.microsoft.com/en-us/azure/app-service/overview-diagnostics |
-| Troubleshoot App Service apps using Azure Monitor | https://learn.microsoft.com/en-us/azure/app-service/tutorial-troubleshoot-monitor |
+| Set up Azure Pipelines CI/CD for App Service | https://learn.microsoft.com/en-us/azure/app-service/deploy-azure-pipelines |
+| Set up CI/CD to custom containers in App Service | https://learn.microsoft.com/en-us/azure/app-service/deploy-ci-cd-custom-container |
+| Deploy Windows containers to App Service with Azure Pipelines | https://learn.microsoft.com/en-us/azure/app-service/deploy-container-azure-pipelines |
+| Deploy custom Linux containers via GitHub Actions | https://learn.microsoft.com/en-us/azure/app-service/deploy-container-github-action |
+| Configure continuous deployment to Azure App Service | https://learn.microsoft.com/en-us/azure/app-service/deploy-continuous-deployment |
+| Deploy to Azure App Service via FTP/FTPS | https://learn.microsoft.com/en-us/azure/app-service/deploy-ftp |
+| Deploy Azure App Service apps with GitHub Actions | https://learn.microsoft.com/en-us/azure/app-service/deploy-github-actions |
+| Deploy from local Git to Azure App Service | https://learn.microsoft.com/en-us/azure/app-service/deploy-local-git |
+| Run Azure App Service apps from ZIP package | https://learn.microsoft.com/en-us/azure/app-service/deploy-run-package |
+| Configure deployment slots for Azure App Service | https://learn.microsoft.com/en-us/azure/app-service/deploy-staging-slots |
+| Deploy code packages to Azure App Service | https://learn.microsoft.com/en-us/azure/app-service/deploy-zip |
+| Configure zone redundancy for ASE and Isolated v2 plans | https://learn.microsoft.com/en-us/azure/app-service/environment/configure-zone-redundancy-environment |
+| Deploy App Service Environment v3 using ARM templates | https://learn.microsoft.com/en-us/azure/app-service/environment/how-to-create-from-template |
+| Enable App Service, Functions, and Logic Apps on Arc | https://learn.microsoft.com/en-us/azure/app-service/manage-create-arc-environment |
+| Migrate App Service on Arc to Container Apps on Arc | https://learn.microsoft.com/en-us/azure/app-service/migrate-app-service-arc |
+| Migrate App Service from gateway to regional VNet integration | https://learn.microsoft.com/en-us/azure/app-service/migrate-gateway-based-vnet-integration |
+| Deploy Azure App Service app using Bicep | https://learn.microsoft.com/en-us/azure/app-service/provision-resource-bicep |
+| Provision Azure App Service app with Terraform | https://learn.microsoft.com/en-us/azure/app-service/provision-resource-terraform |
+| Quickstart deploying web app to Azure Arc App Service | https://learn.microsoft.com/en-us/azure/app-service/quickstart-arc |
+| Use Kudu engine features for App Service deployment | https://learn.microsoft.com/en-us/azure/app-service/resources-kudu |
+| Deploy App Service using Bicep templates | https://learn.microsoft.com/en-us/azure/app-service/samples-bicep |
+| Automate App Service with Azure CLI scripts | https://learn.microsoft.com/en-us/azure/app-service/samples-cli |
+| Automate App Service with PowerShell scripts | https://learn.microsoft.com/en-us/azure/app-service/samples-powershell |
+| Deploy App Service using ARM template samples | https://learn.microsoft.com/en-us/azure/app-service/samples-resource-manager-templates |
+| Provision App Service with Terraform samples | https://learn.microsoft.com/en-us/azure/app-service/samples-terraform |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Apply best practices and troubleshooting for Azure App Service | https://learn.microsoft.com/en-us/azure/app-service/app-service-best-practices |
+| Migrate Azure App Service apps from Windows to Linux | https://learn.microsoft.com/en-us/azure/app-service/app-service-migration-windows-linux |
+| Apply deployment best practices for Azure App Service | https://learn.microsoft.com/en-us/azure/app-service/deploy-best-practices |
+| Choose authentication options for App Service scenarios | https://learn.microsoft.com/en-us/azure/app-service/identity-scenarios |
+| Apply security best practices to Azure App Service | https://learn.microsoft.com/en-us/azure/app-service/overview-security |
+| Apply Traffic Manager best practices for App Service | https://learn.microsoft.com/en-us/azure/app-service/web-sites-traffic-manager |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Compare ASE v3 with public multitenant App Service | https://learn.microsoft.com/en-us/azure/app-service/environment/ase-multi-tenant-comparison |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Design geo-distributed scaling with ASE and Traffic Manager | https://learn.microsoft.com/en-us/azure/app-service/environment/app-service-app-service-environment-geo-distributed-scale |
+| Migrate Docker Compose apps to App Service sidecars | https://learn.microsoft.com/en-us/azure/app-service/migrate-sidecar-multi-container-apps |
+| Choose Azure App Service networking features | https://learn.microsoft.com/en-us/azure/app-service/networking-features |
+| Use Azure NAT Gateway with App Service outbound traffic | https://learn.microsoft.com/en-us/azure/app-service/overview-nat-gateway-integration |
+| Apply recommended companion services for App Service apps | https://learn.microsoft.com/en-us/azure/app-service/recommended-services |
+| Choose secure connectivity patterns for App Service | https://learn.microsoft.com/en-us/azure/app-service/tutorial-connect-overview |

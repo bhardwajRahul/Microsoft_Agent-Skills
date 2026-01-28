@@ -31,34 +31,24 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Design geo-redundant Azure Stream Analytics architectures | https://learn.microsoft.com/en-us/azure/stream-analytics/geo-redundancy |
-| Apply Azure Stream Analytics solution patterns | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-solution-patterns |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Implement geofencing and geospatial aggregation in Stream Analytics | https://learn.microsoft.com/en-us/azure/stream-analytics/geospatial-scenarios |
-| Implement input validation for resilient Stream Analytics jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/input-validation |
-| Optimize Stream Analytics query performance with Job Simulation | https://learn.microsoft.com/en-us/azure/stream-analytics/optimize-query-using-job-diagram-simulator |
-| Optimize non-parallelizable Stream Analytics jobs with repartitioning | https://learn.microsoft.com/en-us/azure/stream-analytics/repartition |
-| Resize and plan capacity for Stream Analytics clusters | https://learn.microsoft.com/en-us/azure/stream-analytics/scale-cluster |
-| Apply best practices for Stream Analytics to Cosmos DB output | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-documentdb-output |
-| Improve reliability of Azure Stream Analytics jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job-reliability |
-| Use query parallelization to scale Stream Analytics jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-parallelization |
-| Scale up and out Azure Stream Analytics jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-scale-jobs |
-| Scale ML Studio functions in Stream Analytics jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-scale-with-machine-learning-functions |
-| Optimize Azure SQL output throughput from Stream Analytics | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-sql-output-perf |
-| Design configurable threshold-based alerting with Stream Analytics | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-threshold-based-rules |
-| Use reference data effectively in Stream Analytics | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-use-reference-data |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Compare tools for building Stream Analytics jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/feature-comparison |
-| Choose Azure real-time and stream processing services | https://learn.microsoft.com/en-us/azure/stream-analytics/streaming-technologies |
+| Resolve Azure Stream Analytics configuration error codes | https://learn.microsoft.com/en-us/azure/stream-analytics/configuration-error-codes |
+| Resolve Azure Stream Analytics data error codes | https://learn.microsoft.com/en-us/azure/stream-analytics/data-error-codes |
+| Diagnose Azure Stream Analytics input and output data errors | https://learn.microsoft.com/en-us/azure/stream-analytics/data-errors |
+| Debug Stream Analytics queries using Visual Studio job diagrams | https://learn.microsoft.com/en-us/azure/stream-analytics/debug-locally-using-job-diagram |
+| Debug Stream Analytics queries locally using job diagrams in VS Code | https://learn.microsoft.com/en-us/azure/stream-analytics/debug-locally-using-job-diagram-vs-code |
+| Debug user-defined functions in Azure Stream Analytics | https://learn.microsoft.com/en-us/azure/stream-analytics/debug-user-defined-functions |
+| Fix Azure Stream Analytics external availability error codes | https://learn.microsoft.com/en-us/azure/stream-analytics/external-availability-error-codes |
+| Interpret Azure Stream Analytics external error codes | https://learn.microsoft.com/en-us/azure/stream-analytics/external-error-codes |
+| Troubleshoot Azure Stream Analytics internal error codes | https://learn.microsoft.com/en-us/azure/stream-analytics/internal-error-codes |
+| Troubleshoot Stream Analytics jobs using resource logs | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job-diagnostic-logs |
+| Debug Stream Analytics jobs with logical job diagram in Azure portal | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job-logical-diagram-with-metrics |
+| Troubleshoot Stream Analytics jobs using physical job diagram metrics | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job-physical-diagram-with-metrics |
+| Troubleshoot Azure Stream Analytics input connection issues | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-troubleshoot-input |
+| Troubleshoot Azure Stream Analytics output connection problems | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-troubleshoot-output |
+| Troubleshoot Azure Stream Analytics query issues | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-troubleshoot-query |
 
 ### Configuration
 | Topic | URL |
@@ -91,17 +81,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Run and validate Stream Analytics queries locally with VS Code | https://learn.microsoft.com/en-us/azure/stream-analytics/visual-studio-code-local-run-all |
 | Test Stream Analytics queries locally against live input in VS Code | https://learn.microsoft.com/en-us/azure/stream-analytics/visual-studio-code-local-run-live-input |
 | Use IntelliSense for Stream Analytics query language in VS Code | https://learn.microsoft.com/en-us/azure/stream-analytics/vs-code-intellisense |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Generate and deploy Stream Analytics jobs with Bicep in CI/CD | https://learn.microsoft.com/en-us/azure/stream-analytics/cicd-deploy-with-bicep |
-| Deploy Stream Analytics jobs using GitHub Actions workflows | https://learn.microsoft.com/en-us/azure/stream-analytics/cicd-github-actions |
-| Use Azure Stream Analytics CI/CD npm tools to build, test, and deploy jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/cicd-tools |
-| Export Stream Analytics jobs as Azure Resource Manager templates | https://learn.microsoft.com/en-us/azure/stream-analytics/resource-manager-export |
-| Create Azure DevOps CI/CD pipelines for Stream Analytics jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/set-up-cicd-pipeline |
-| Implement CI/CD for Stream Analytics on IoT Edge using REST APIs | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-cicd-api |
-| Set up CI/CD for Azure Stream Analytics with the CICD NuGet package | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-tools-for-visual-studio-cicd |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -153,21 +132,42 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Use managed identities with Azure Stream Analytics jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-managed-identities-overview |
 | Configure user-assigned managed identities for Stream Analytics | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-user-assigned-managed-identity-overview |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Resolve Azure Stream Analytics configuration error codes | https://learn.microsoft.com/en-us/azure/stream-analytics/configuration-error-codes |
-| Resolve Azure Stream Analytics data error codes | https://learn.microsoft.com/en-us/azure/stream-analytics/data-error-codes |
-| Diagnose Azure Stream Analytics input and output data errors | https://learn.microsoft.com/en-us/azure/stream-analytics/data-errors |
-| Debug Stream Analytics queries using Visual Studio job diagrams | https://learn.microsoft.com/en-us/azure/stream-analytics/debug-locally-using-job-diagram |
-| Debug Stream Analytics queries locally using job diagrams in VS Code | https://learn.microsoft.com/en-us/azure/stream-analytics/debug-locally-using-job-diagram-vs-code |
-| Debug user-defined functions in Azure Stream Analytics | https://learn.microsoft.com/en-us/azure/stream-analytics/debug-user-defined-functions |
-| Fix Azure Stream Analytics external availability error codes | https://learn.microsoft.com/en-us/azure/stream-analytics/external-availability-error-codes |
-| Interpret Azure Stream Analytics external error codes | https://learn.microsoft.com/en-us/azure/stream-analytics/external-error-codes |
-| Troubleshoot Azure Stream Analytics internal error codes | https://learn.microsoft.com/en-us/azure/stream-analytics/internal-error-codes |
-| Troubleshoot Stream Analytics jobs using resource logs | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job-diagnostic-logs |
-| Debug Stream Analytics jobs with logical job diagram in Azure portal | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job-logical-diagram-with-metrics |
-| Troubleshoot Stream Analytics jobs using physical job diagram metrics | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job-physical-diagram-with-metrics |
-| Troubleshoot Azure Stream Analytics input connection issues | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-troubleshoot-input |
-| Troubleshoot Azure Stream Analytics output connection problems | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-troubleshoot-output |
-| Troubleshoot Azure Stream Analytics query issues | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-troubleshoot-query |
+| Generate and deploy Stream Analytics jobs with Bicep in CI/CD | https://learn.microsoft.com/en-us/azure/stream-analytics/cicd-deploy-with-bicep |
+| Deploy Stream Analytics jobs using GitHub Actions workflows | https://learn.microsoft.com/en-us/azure/stream-analytics/cicd-github-actions |
+| Use Azure Stream Analytics CI/CD npm tools to build, test, and deploy jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/cicd-tools |
+| Export Stream Analytics jobs as Azure Resource Manager templates | https://learn.microsoft.com/en-us/azure/stream-analytics/resource-manager-export |
+| Create Azure DevOps CI/CD pipelines for Stream Analytics jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/set-up-cicd-pipeline |
+| Implement CI/CD for Stream Analytics on IoT Edge using REST APIs | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-cicd-api |
+| Set up CI/CD for Azure Stream Analytics with the CICD NuGet package | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-tools-for-visual-studio-cicd |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Implement geofencing and geospatial aggregation in Stream Analytics | https://learn.microsoft.com/en-us/azure/stream-analytics/geospatial-scenarios |
+| Implement input validation for resilient Stream Analytics jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/input-validation |
+| Optimize Stream Analytics query performance with Job Simulation | https://learn.microsoft.com/en-us/azure/stream-analytics/optimize-query-using-job-diagram-simulator |
+| Optimize non-parallelizable Stream Analytics jobs with repartitioning | https://learn.microsoft.com/en-us/azure/stream-analytics/repartition |
+| Resize and plan capacity for Stream Analytics clusters | https://learn.microsoft.com/en-us/azure/stream-analytics/scale-cluster |
+| Apply best practices for Stream Analytics to Cosmos DB output | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-documentdb-output |
+| Improve reliability of Azure Stream Analytics jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job-reliability |
+| Use query parallelization to scale Stream Analytics jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-parallelization |
+| Scale up and out Azure Stream Analytics jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-scale-jobs |
+| Scale ML Studio functions in Stream Analytics jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-scale-with-machine-learning-functions |
+| Optimize Azure SQL output throughput from Stream Analytics | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-sql-output-perf |
+| Design configurable threshold-based alerting with Stream Analytics | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-threshold-based-rules |
+| Use reference data effectively in Stream Analytics | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-use-reference-data |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Compare tools for building Stream Analytics jobs | https://learn.microsoft.com/en-us/azure/stream-analytics/feature-comparison |
+| Choose Azure real-time and stream processing services | https://learn.microsoft.com/en-us/azure/stream-analytics/streaming-technologies |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Design geo-redundant Azure Stream Analytics architectures | https://learn.microsoft.com/en-us/azure/stream-analytics/geo-redundancy |
+| Apply Azure Stream Analytics solution patterns | https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-solution-patterns |

@@ -31,17 +31,13 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Design and deploy multi‑region Azure HPC clusters | https://learn.microsoft.com/en-us/azure/cyclecloud/concepts/multi-region-cluster-deployment?view=cyclecloud-8 |
-| Choose VM placement models for Azure CycleCloud clusters | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/availability-sets?view=cyclecloud-8 |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Optimize CycleCloud clusters on HB/HC VM series | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/hb-hc-best-practices?view=cyclecloud-8 |
-| Use Azure CycleCloud Spot VMs effectively | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/use-spot-instances?view=cyclecloud-8 |
+| Resolve common Azure CycleCloud error messages | https://learn.microsoft.com/en-us/azure/cyclecloud/error-messages?view=cyclecloud-8 |
+| Diagnose and report CycleCloud node startup issues | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/report-issues?view=cyclecloud-8 |
+| Locate Azure CycleCloud server and node log files | https://learn.microsoft.com/en-us/azure/cyclecloud/log-locations?view=cyclecloud-8 |
+| Resolve issues in CycleCloud Workspace for Slurm releases | https://learn.microsoft.com/en-us/azure/cyclecloud/release-notes/ccws/2025-12-01?view=cyclecloud-8 |
 
 ### Configuration
 | Topic | URL |
@@ -100,16 +96,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Use Slurm 3.0+ features with Azure CycleCloud | https://learn.microsoft.com/en-us/azure/cyclecloud/slurm-3?view=cyclecloud-8 |
 | Configure Slurm scheduler clusters in Azure CycleCloud | https://learn.microsoft.com/en-us/azure/cyclecloud/slurm?view=cyclecloud-8 |
 
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Deploy CycleCloud Workspace for Slurm using Azure CLI and UI | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/ccws/deploy-with-cli?view=cyclecloud-8 |
-| Plan CycleCloud Workspace for Slurm deployment and networking | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/ccws/plan-your-deployment?view=cyclecloud-8 |
-| Deploy Azure CycleCloud using ARM templates | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/install-arm?view=cyclecloud-8 |
-| Manually install and update Azure CycleCloud | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/install-manual?view=cyclecloud-8 |
-| Plan a production-grade Azure CycleCloud deployment | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/plan-prod-deployment?view=cyclecloud-8 |
-| Run Azure CycleCloud in Azure Container Instances | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/run-in-container?view=cyclecloud-8 |
-
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
@@ -136,10 +122,24 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure user authentication for Azure CycleCloud clusters | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/user-access?view=cyclecloud-8 |
 | Configure user authentication methods in Azure CycleCloud | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/user-authentication?view=cyclecloud-8 |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Resolve common Azure CycleCloud error messages | https://learn.microsoft.com/en-us/azure/cyclecloud/error-messages?view=cyclecloud-8 |
-| Diagnose and report CycleCloud node startup issues | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/report-issues?view=cyclecloud-8 |
-| Locate Azure CycleCloud server and node log files | https://learn.microsoft.com/en-us/azure/cyclecloud/log-locations?view=cyclecloud-8 |
-| Resolve issues in CycleCloud Workspace for Slurm releases | https://learn.microsoft.com/en-us/azure/cyclecloud/release-notes/ccws/2025-12-01?view=cyclecloud-8 |
+| Deploy CycleCloud Workspace for Slurm using Azure CLI and UI | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/ccws/deploy-with-cli?view=cyclecloud-8 |
+| Plan CycleCloud Workspace for Slurm deployment and networking | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/ccws/plan-your-deployment?view=cyclecloud-8 |
+| Deploy Azure CycleCloud using ARM templates | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/install-arm?view=cyclecloud-8 |
+| Manually install and update Azure CycleCloud | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/install-manual?view=cyclecloud-8 |
+| Plan a production-grade Azure CycleCloud deployment | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/plan-prod-deployment?view=cyclecloud-8 |
+| Run Azure CycleCloud in Azure Container Instances | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/run-in-container?view=cyclecloud-8 |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Optimize CycleCloud clusters on HB/HC VM series | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/hb-hc-best-practices?view=cyclecloud-8 |
+| Use Azure CycleCloud Spot VMs effectively | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/use-spot-instances?view=cyclecloud-8 |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Design and deploy multi‑region Azure HPC clusters | https://learn.microsoft.com/en-us/azure/cyclecloud/concepts/multi-region-cluster-deployment?view=cyclecloud-8 |
+| Choose VM placement models for Azure CycleCloud clusters | https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/availability-sets?view=cyclecloud-8 |

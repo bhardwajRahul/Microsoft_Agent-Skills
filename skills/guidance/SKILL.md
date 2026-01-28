@@ -31,6 +31,113 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
+### Troubleshooting
+| Topic | URL |
+|-------|-----|
+| Check AKS cluster and networking health during triage | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-triage-cluster-health |
+| Triage AKS container registry connectivity problems | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-triage-container-registry |
+| Triage AKS admission controller issues | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-triage-controllers |
+| Triage AKS workload deployments and DaemonSets | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-triage-deployment |
+| Diagnose and fix AKS node and pod health issues | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-triage-node-health |
+| Use top-down triage practices for AKS operations | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-triage-practices |
+| Plan AKS day-2 operations, triage, and maintenance | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/day-2-operations-guide |
+| Troubleshoot networking issues in AKS clusters | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/troubleshoot-network-aks |
+| Troubleshoot Azure hybrid VPN gateway connectivity issues | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/troubleshoot-vpn |
+
+### Security
+| Topic | URL |
+|-------|-----|
+| Secure AKS API access and private clusters | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/private-clusters |
+| Expose AKS microservices via Application Gateway WAF | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/aks-agic/aks-agic |
+| Secure AKS workloads with Azure Front Door and TLS | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/aks-front-door/aks-front-door |
+| Implement Zero Trust for web apps with Azure Firewall and Application Gateway | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gateway/application-gateway-before-azure-firewall |
+| Secure virtual networks with Azure Firewall and Application Gateway | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gateway/firewall-application-gateway |
+| Secure hybrid Outlook desktop access with Entra MFA | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/secure-hybrid-messaging-client |
+| Secure hybrid Outlook mobile access with Entra MFA | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/secure-hybrid-messaging-mobile |
+| Secure web-based hybrid messaging with Entra MFA | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/secure-hybrid-messaging-web |
+| Securely update Azure Windows VMs with WSUS in a DMZ | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/wsus/ |
+| Secure AKS with Azure Firewall in hub-spoke | https://learn.microsoft.com/en-us/azure/architecture/guide/aks/aks-firewall |
+| Apply Microsoft security controls to AWS | https://learn.microsoft.com/en-us/azure/architecture/guide/aws/aws-azure-security-solutions |
+| Use IDaaS platforms for Azure application identity | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/identity |
+| Apply DevSecOps practices to AKS workloads | https://learn.microsoft.com/en-us/azure/architecture/guide/devsecops/devsecops-on-aks |
+| Secure inbound and outbound internet access for SAP on Azure | https://learn.microsoft.com/en-us/azure/architecture/guide/sap/sap-internet-inbound-outbound |
+| Securely access AKS API server in various topologies | https://learn.microsoft.com/en-us/azure/architecture/guide/security/access-azure-kubernetes-service-cluster-api-server |
+| Secure AWS access with Microsoft Entra ID | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/aws/aws-azure-ad-security |
+| Secure mission-critical AKS workloads with Azure controls | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-security |
+| Secure Azure Functions consuming Event Hubs events | https://learn.microsoft.com/en-us/azure/architecture/serverless/event-hubs-functions/security |
+| Build first security layer with Azure security services | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/azure-security-build-first-layer-defense |
+| Map organizational threats using Azure security tooling | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/map-threats-it-environment |
+| Add second defense layer with Microsoft Defender XDR | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/microsoft-365-defender-build-second-layer-defense |
+| Integrate Azure and Microsoft Defender XDR security | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/microsoft-365-defender-security-integrate-azure |
+| Configure Microsoft Sentinel automated incident responses | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/microsoft-sentinel-automated-response |
+| Apply multilayered security to Azure virtual machines | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/multilayered-protection-azure-vm |
+
+### Deployment
+| Topic | URL |
+|-------|-----|
+| Operate AKS clusters using GitOps with Flux and Argo CD | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gitops-aks/gitops-blueprint-aks |
+| Implement AKS CI/CD using Azure Pipelines baseline | https://learn.microsoft.com/en-us/azure/architecture/guide/aks/aks-cicd-azure-pipelines |
+| Pause Azure deployments with Bicep deployment scripts | https://learn.microsoft.com/en-us/azure/architecture/guide/devops/deployment-scripts-property-check |
+| Deploy and automate Azure Governance Visualizer | https://learn.microsoft.com/en-us/azure/architecture/landing-zones/azure-governance-visualizer-accelerator |
+| Deploy Azure landing zones with supported options | https://learn.microsoft.com/en-us/azure/architecture/landing-zones/landing-zone-deploy |
+| Implement CI/CD pipelines for Azure microservices | https://learn.microsoft.com/en-us/azure/architecture/microservices/ci-cd |
+| Design CI/CD pipeline for AKS microservices with DevOps | https://learn.microsoft.com/en-us/azure/architecture/microservices/ci-cd-kubernetes |
+| Implement deployment and testing for mission-critical Azure workloads | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-deploy-test |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Preserve HTTP host headers with Azure reverse proxies | https://learn.microsoft.com/en-us/azure/architecture/best-practices/host-name-preservation |
+| Apply DR best practices to Azure data platforms | https://learn.microsoft.com/en-us/azure/architecture/data-guide/disaster-recovery/dr-for-azure-data-platform-recommendations |
+| Move Azure IoT Hub solutions from test to production | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/iot/iot-move-to-production |
+| Apply high-availability practices to multitier AKS apps | https://learn.microsoft.com/en-us/azure/architecture/guide/aks/aks-high-availability |
+| Align Azure solution design with business needs | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/build-for-business |
+| Design Azure applications for continuous evolution | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/design-for-evolution |
+| Design Azure solutions for effective operations | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/design-for-operations |
+| Improve Azure scalability by minimizing coordination | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/minimize-coordination |
+| Build redundancy into Azure application architectures | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/redundancy |
+| Design Azure applications for horizontal scale-out | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/scale-out |
+| Design self-healing Azure applications for resilience | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/self-healing |
+| Apply SAP landscape architecture best practices on Azure | https://learn.microsoft.com/en-us/azure/architecture/guide/sap/sap-whole-landscape |
+| Apply best practices for Azure Spot VM workloads | https://learn.microsoft.com/en-us/azure/architecture/guide/spot/spot-eviction |
+| Back up and recover AKS clusters and workloads | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-backup-and-recovery |
+| Patch and upgrade Azure Kubernetes Service clusters | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-upgrade-practices |
+| Model and monitor health for mission-critical Azure workloads | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-health-modeling |
+| Operate mission-critical workloads on Azure reliably | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-operations |
+| Apply best practices for Linux VMs on Azure | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/n-tier/linux-vm |
+| Apply best practices for Windows VMs on Azure | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/n-tier/windows-vm |
+| Design Event Hubs integrations with Azure Functions | https://learn.microsoft.com/en-us/azure/architecture/serverless/event-hubs-functions/event-hubs-functions |
+| Monitor Azure Functions and Event Hubs topologies | https://learn.microsoft.com/en-us/azure/architecture/serverless/event-hubs-functions/observability |
+| Optimize performance and scale for Event Hubs Functions | https://learn.microsoft.com/en-us/azure/architecture/serverless/event-hubs-functions/performance-scale |
+| Implement resilient Event Hubs-triggered Azure Functions | https://learn.microsoft.com/en-us/azure/architecture/serverless/event-hubs-functions/resilient-design |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Map AWS services and concepts to Azure platform | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/ |
+| Compare AWS and Azure account structures | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/accounts |
+| Compare AWS and Azure compute services | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/compute |
+| Compare Azure and AWS data and AI services | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/data-ai |
+| Compare AWS and Azure database technologies | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/databases |
+| Understand AKS for Amazon EKS professionals | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/ |
+| Manage and optimize AKS costs vs EKS | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/cost-management |
+| Govern Kubernetes clusters on AKS vs EKS | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/governance |
+| Compare and configure AKS vs EKS monitoring | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/monitoring |
+| Compare AKS and EKS node and pool options | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/node-pools |
+| Choose AKS storage options vs Amazon EKS | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/storage |
+| Compare workload identity in EKS and AKS | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/workload-identity |
+| Compare AWS and Azure messaging services | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/messaging |
+| Compare AWS and Azure networking options | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/networking |
+| Compare AWS and Azure regions and zones | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/regions-zones |
+| Compare AWS and Azure resource management models | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/resources |
+| Compare AWS and Azure identity management solutions | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/security-identity |
+| Compare AWS and Azure storage services | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/storage |
+| Map Google Cloud services to Azure equivalents | https://learn.microsoft.com/en-us/azure/architecture/gcp-professional/services |
+| Select Azure messaging services by message type | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/messaging |
+| Plan Java application hosting options on Azure | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/service-for-java-comparison |
+| Compare architectures for connecting on-premises networks to Azure | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/ |
+| Choose between VNet peering and VPN gateways in Azure | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/virtual-network-peering |
+
 ### Architecture & Design Patterns
 | Topic | URL |
 |-------|-----|
@@ -205,110 +312,3 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Run Solaris SPARC workloads on Azure with Charon-SSP | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/solaris-azure |
 | Design a baseline Azure VM reference architecture | https://learn.microsoft.com/en-us/azure/architecture/virtual-machines/baseline |
 | Apply VM baseline architecture in Azure landing zones | https://learn.microsoft.com/en-us/azure/architecture/virtual-machines/baseline-landing-zone |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Preserve HTTP host headers with Azure reverse proxies | https://learn.microsoft.com/en-us/azure/architecture/best-practices/host-name-preservation |
-| Apply DR best practices to Azure data platforms | https://learn.microsoft.com/en-us/azure/architecture/data-guide/disaster-recovery/dr-for-azure-data-platform-recommendations |
-| Move Azure IoT Hub solutions from test to production | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/iot/iot-move-to-production |
-| Apply high-availability practices to multitier AKS apps | https://learn.microsoft.com/en-us/azure/architecture/guide/aks/aks-high-availability |
-| Align Azure solution design with business needs | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/build-for-business |
-| Design Azure applications for continuous evolution | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/design-for-evolution |
-| Design Azure solutions for effective operations | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/design-for-operations |
-| Improve Azure scalability by minimizing coordination | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/minimize-coordination |
-| Build redundancy into Azure application architectures | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/redundancy |
-| Design Azure applications for horizontal scale-out | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/scale-out |
-| Design self-healing Azure applications for resilience | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/self-healing |
-| Apply SAP landscape architecture best practices on Azure | https://learn.microsoft.com/en-us/azure/architecture/guide/sap/sap-whole-landscape |
-| Apply best practices for Azure Spot VM workloads | https://learn.microsoft.com/en-us/azure/architecture/guide/spot/spot-eviction |
-| Back up and recover AKS clusters and workloads | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-backup-and-recovery |
-| Patch and upgrade Azure Kubernetes Service clusters | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-upgrade-practices |
-| Model and monitor health for mission-critical Azure workloads | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-health-modeling |
-| Operate mission-critical workloads on Azure reliably | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-operations |
-| Apply best practices for Linux VMs on Azure | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/n-tier/linux-vm |
-| Apply best practices for Windows VMs on Azure | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/n-tier/windows-vm |
-| Design Event Hubs integrations with Azure Functions | https://learn.microsoft.com/en-us/azure/architecture/serverless/event-hubs-functions/event-hubs-functions |
-| Monitor Azure Functions and Event Hubs topologies | https://learn.microsoft.com/en-us/azure/architecture/serverless/event-hubs-functions/observability |
-| Optimize performance and scale for Event Hubs Functions | https://learn.microsoft.com/en-us/azure/architecture/serverless/event-hubs-functions/performance-scale |
-| Implement resilient Event Hubs-triggered Azure Functions | https://learn.microsoft.com/en-us/azure/architecture/serverless/event-hubs-functions/resilient-design |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Map AWS services and concepts to Azure platform | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/ |
-| Compare AWS and Azure account structures | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/accounts |
-| Compare AWS and Azure compute services | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/compute |
-| Compare Azure and AWS data and AI services | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/data-ai |
-| Compare AWS and Azure database technologies | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/databases |
-| Understand AKS for Amazon EKS professionals | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/ |
-| Manage and optimize AKS costs vs EKS | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/cost-management |
-| Govern Kubernetes clusters on AKS vs EKS | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/governance |
-| Compare and configure AKS vs EKS monitoring | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/monitoring |
-| Compare AKS and EKS node and pool options | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/node-pools |
-| Choose AKS storage options vs Amazon EKS | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/storage |
-| Compare workload identity in EKS and AKS | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/workload-identity |
-| Compare AWS and Azure messaging services | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/messaging |
-| Compare AWS and Azure networking options | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/networking |
-| Compare AWS and Azure regions and zones | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/regions-zones |
-| Compare AWS and Azure resource management models | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/resources |
-| Compare AWS and Azure identity management solutions | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/security-identity |
-| Compare AWS and Azure storage services | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/storage |
-| Map Google Cloud services to Azure equivalents | https://learn.microsoft.com/en-us/azure/architecture/gcp-professional/services |
-| Select Azure messaging services by message type | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/messaging |
-| Plan Java application hosting options on Azure | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/service-for-java-comparison |
-| Compare architectures for connecting on-premises networks to Azure | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/ |
-| Choose between VNet peering and VPN gateways in Azure | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/virtual-network-peering |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Operate AKS clusters using GitOps with Flux and Argo CD | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gitops-aks/gitops-blueprint-aks |
-| Implement AKS CI/CD using Azure Pipelines baseline | https://learn.microsoft.com/en-us/azure/architecture/guide/aks/aks-cicd-azure-pipelines |
-| Pause Azure deployments with Bicep deployment scripts | https://learn.microsoft.com/en-us/azure/architecture/guide/devops/deployment-scripts-property-check |
-| Deploy and automate Azure Governance Visualizer | https://learn.microsoft.com/en-us/azure/architecture/landing-zones/azure-governance-visualizer-accelerator |
-| Deploy Azure landing zones with supported options | https://learn.microsoft.com/en-us/azure/architecture/landing-zones/landing-zone-deploy |
-| Implement CI/CD pipelines for Azure microservices | https://learn.microsoft.com/en-us/azure/architecture/microservices/ci-cd |
-| Design CI/CD pipeline for AKS microservices with DevOps | https://learn.microsoft.com/en-us/azure/architecture/microservices/ci-cd-kubernetes |
-| Implement deployment and testing for mission-critical Azure workloads | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-deploy-test |
-
-### Security
-| Topic | URL |
-|-------|-----|
-| Secure AKS API access and private clusters | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/private-clusters |
-| Expose AKS microservices via Application Gateway WAF | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/aks-agic/aks-agic |
-| Secure AKS workloads with Azure Front Door and TLS | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/aks-front-door/aks-front-door |
-| Implement Zero Trust for web apps with Azure Firewall and Application Gateway | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gateway/application-gateway-before-azure-firewall |
-| Secure virtual networks with Azure Firewall and Application Gateway | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gateway/firewall-application-gateway |
-| Secure hybrid Outlook desktop access with Entra MFA | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/secure-hybrid-messaging-client |
-| Secure hybrid Outlook mobile access with Entra MFA | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/secure-hybrid-messaging-mobile |
-| Secure web-based hybrid messaging with Entra MFA | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/hybrid/secure-hybrid-messaging-web |
-| Securely update Azure Windows VMs with WSUS in a DMZ | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/wsus/ |
-| Secure AKS with Azure Firewall in hub-spoke | https://learn.microsoft.com/en-us/azure/architecture/guide/aks/aks-firewall |
-| Apply Microsoft security controls to AWS | https://learn.microsoft.com/en-us/azure/architecture/guide/aws/aws-azure-security-solutions |
-| Use IDaaS platforms for Azure application identity | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/identity |
-| Apply DevSecOps practices to AKS workloads | https://learn.microsoft.com/en-us/azure/architecture/guide/devsecops/devsecops-on-aks |
-| Secure inbound and outbound internet access for SAP on Azure | https://learn.microsoft.com/en-us/azure/architecture/guide/sap/sap-internet-inbound-outbound |
-| Securely access AKS API server in various topologies | https://learn.microsoft.com/en-us/azure/architecture/guide/security/access-azure-kubernetes-service-cluster-api-server |
-| Secure AWS access with Microsoft Entra ID | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/aws/aws-azure-ad-security |
-| Secure mission-critical AKS workloads with Azure controls | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-security |
-| Secure Azure Functions consuming Event Hubs events | https://learn.microsoft.com/en-us/azure/architecture/serverless/event-hubs-functions/security |
-| Build first security layer with Azure security services | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/azure-security-build-first-layer-defense |
-| Map organizational threats using Azure security tooling | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/map-threats-it-environment |
-| Add second defense layer with Microsoft Defender XDR | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/microsoft-365-defender-build-second-layer-defense |
-| Integrate Azure and Microsoft Defender XDR security | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/microsoft-365-defender-security-integrate-azure |
-| Configure Microsoft Sentinel automated incident responses | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/microsoft-sentinel-automated-response |
-| Apply multilayered security to Azure virtual machines | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/multilayered-protection-azure-vm |
-
-### Troubleshooting
-| Topic | URL |
-|-------|-----|
-| Check AKS cluster and networking health during triage | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-triage-cluster-health |
-| Triage AKS container registry connectivity problems | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-triage-container-registry |
-| Triage AKS admission controller issues | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-triage-controllers |
-| Triage AKS workload deployments and DaemonSets | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-triage-deployment |
-| Diagnose and fix AKS node and pod health issues | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-triage-node-health |
-| Use top-down triage practices for AKS operations | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-triage-practices |
-| Plan AKS day-2 operations, triage, and maintenance | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/day-2-operations-guide |
-| Troubleshoot networking issues in AKS clusters | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/troubleshoot-network-aks |
-| Troubleshoot Azure hybrid VPN gateway connectivity issues | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/troubleshoot-vpn |

@@ -31,68 +31,98 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Connect HDInsight to on-premises networks via VPN | https://learn.microsoft.com/en-us/azure/hdinsight/connect-on-premises-network |
-| Plan HDInsight architecture with Enterprise Security Package | https://learn.microsoft.com/en-us/azure/hdinsight/domain-joined/apache-domain-joined-architecture |
-| Design large-scale ETL pipelines with HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-etl-at-scale |
-| Design HDInsight architecture for Hadoop migration | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-on-premises-migration-best-practices-architecture |
-| Choose and run custom MapReduce approaches on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-run-custom-programs |
-| Use Apache Hive on HDInsight as an ETL engine | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-using-apache-hive-as-an-etl-tool |
-| Design HDInsight business continuity architectures | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-business-continuity-architecture |
-| Evaluate HDInsight high-availability architecture options | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-high-availability-case-study |
-| Operationalize HDInsight data analytics pipelines with Oozie | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-operationalize-data-pipeline |
-| Plan Azure HDInsight virtual network architecture | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-plan-virtual-network-deployment |
-| Design an HDInsight-based ETL pipeline for sales analytics | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-sales-insights-etl |
-| Understand HDInsight virtual network architecture and resources | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-virtual-network-architecture |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Use Azure Monitor logs for HDInsight availability | https://learn.microsoft.com/en-us/azure/hdinsight/cluster-availability-monitor-logs |
-| Apply HDInsight cluster management best practices | https://learn.microsoft.com/en-us/azure/hdinsight/cluster-management-best-practices |
-| Reboot unresponsive HDInsight cluster VMs safely | https://learn.microsoft.com/en-us/azure/hdinsight/cluster-reboot-vm |
-| Apply general best practices for HDInsight ESP clusters | https://learn.microsoft.com/en-us/azure/hdinsight/domain-joined/general-guidelines |
-| Execute data migration to Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-on-premises-migration-best-practices-data-migration |
-| Manage HDInsight infrastructure for Hadoop migration | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-on-premises-migration-best-practices-infrastructure |
-| Plan HDInsight storage for Hadoop migration | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-on-premises-migration-best-practices-storage |
-| Optimize HBase write performance with Accelerated Writes on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-accelerated-writes |
-| Apply HDInsight HBase performance advisor recommendations | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-advisor |
-| Tune Apache Phoenix performance on Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-phoenix-performance |
-| Tune Apache HBase performance on Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/troubleshoot-hbase-performance-issues |
-| Monitor HDInsight availability with Apache Ambari | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-cluster-availability |
-| Apply Linux-specific tips for Hadoop on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-linux-information |
-| Optimize Apache Hive query performance on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-optimize-hive-query |
-| Monitor and optimize HDInsight cluster performance | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-key-scenarios-to-monitor |
-| Manage HDInsight logs, sizes, and retention policies | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-log-management |
-| Configure OS patching and updates for HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-os-patching |
-| Apply pre-creation best practices for HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-overview-before-you-start |
-| Manually scale HDInsight clusters for workload changes | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-scaling-best-practices |
-| Migrate Azure HDInsight clusters to newer versions | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-upgrade-cluster |
-| Optimize HDInsight gateway usage for Hive queries | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/gateway-best-practices |
-| Size HDInsight Interactive Query (LLAP) clusters correctly | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/hive-llap-sizing-guide |
-| Apply schedule-based autoscale best practices for LLAP | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/llap-schedule-based-autoscale-best-practices |
-| Configure Kafka partition replicas for high availability on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/kafka/apache-kafka-high-availability |
-| Tune Kafka performance on Azure HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/kafka/apache-kafka-performance-tuning |
-| Migrate HDInsight Log Analytics data to new tables | https://learn.microsoft.com/en-us/azure/hdinsight/log-analytics-migration |
-| Monitor Azure HDInsight with Azure Monitor | https://learn.microsoft.com/en-us/azure/hdinsight/monitor-hdinsight |
-| Optimize Spark job performance on Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-perf |
-| Customize Python environments for HDInsight Spark | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-python-package-installation |
-| Achieve exactly-once processing in Spark Streaming | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-streaming-exactly-once |
-| Configure high availability for Spark Streaming on YARN | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-streaming-high-availability |
-| Optimize data processing operations in HDInsight Spark | https://learn.microsoft.com/en-us/azure/hdinsight/spark/optimize-data-processing |
-| Optimize HDInsight Spark data storage layout | https://learn.microsoft.com/en-us/azure/hdinsight/spark/optimize-data-storage |
-| Tune memory usage for Spark on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/optimize-memory-usage |
-| Safely manage JAR dependencies on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/safely-manage-jar-dependency |
-| Apply performance and usage guidelines for Spark on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/spark-best-practices |
-| Use SparkCruise to optimize HDInsight Spark queries | https://learn.microsoft.com/en-us/azure/hdinsight/spark/spark-cruise |
-| Use speculative execution for Spark on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/what-is-speculative-execution-in-spark |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Compare Azure storage options for HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-compare-storage-options |
+| Address reliability issues in older HDInsight images | https://learn.microsoft.com/en-us/azure/hdinsight/cluster-reliability-issues |
+| Fix HDInsight ARM template component version errors | https://learn.microsoft.com/en-us/azure/hdinsight/component-version-validation-error-arm-templates |
+| Troubleshoot Azure HDInsight cluster creation errors | https://learn.microsoft.com/en-us/azure/hdinsight/create-cluster-error-dictionary |
+| Troubleshoot authentication failures in HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/domain-joined/domain-joined-authentication-issues |
+| Fix DomainNotFound errors during HDInsight cluster creation | https://learn.microsoft.com/en-us/azure/hdinsight/domain-joined/troubleshoot-domainnotfound |
+| Fix Apache Ambari directory alerts in Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-ambari-troubleshoot-directory-alerts |
+| Fix down hosts and services shown in Ambari UI on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-ambari-troubleshoot-down-hosts-services |
+| Resolve Apache Ambari UI 502 errors on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-ambari-troubleshoot-fivezerotwo-error |
+| Diagnose and fix Apache Ambari heartbeat issues in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues |
+| Troubleshoot Ambari Metrics Collector in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-ambari-troubleshoot-metricservice-issues |
+| Resolve Apache Ambari stale alerts in Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-ambari-troubleshoot-stale-alerts |
+| Fix local HDFS safe mode issues on HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-hdfs-troubleshoot-safe-mode |
+| Fix HDInsight cluster creation failures | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-cluster-creation-fails |
+| Convert service principal certificates to base-64 for HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-converting-service-principal-certificate |
+| Resolve Data Lake Storage file access issues in Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-data-lake-files |
+| Fix InvalidNetworkSecurityGroupSecurityRules when creating HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-invalidnetworksecuritygroupsecurityrules-cluster-creation-fails |
+| Resolve HDInsight cluster node disk space issues | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-out-disk-space |
+| Fix Watchdog BUG soft lockup CPU errors in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-soft-lockup-cpu |
+| Resolve node addition failures in Azure HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-unable-add-nodes |
+| Troubleshoot login failures to Azure HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-unable-log-in-cluster |
+| Diagnose and resolve HDInsight disk space issues | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/troubleshoot-disk-space |
+| Resolve InvalidNetworkConfigurationErrorCode during HDInsight cluster creation | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/troubleshoot-invalidnetworkconfigurationerrorcode-cluster-creation-fails |
+| Restore Key Vault access for disk-encrypted Azure HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/troubleshoot-lost-key-vault-access |
+| Fix port conflicts when starting services on Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/troubleshoot-port-conflict |
+| Fix 'account does not support http' storage errors in Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/troubleshoot-wasbs-storage-exception |
+| Fix invalid BCFile errors when reading YARN logs in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/troubleshoot-yarn-log-invalid-bcfile |
+| Fix BindException 'Address already in use' in Azure HDInsight HBase | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-bindexception-address-use |
+| Resolve HBase hbck inconsistency errors on Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-hbase-hbck-inconsistencies |
+| Troubleshoot pegged CPU on HBase region servers in Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-pegged-cpu-region-server |
+| Troubleshoot Apache Phoenix connectivity issues with HBase on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-phoenix-connectivity |
+| Resolve missing data in Phoenix views after HDP upgrade on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-phoenix-no-data |
+| Fix Apache HBase REST service not responding on Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-rest-not-spending |
+| Troubleshoot HBase Master startup failures on Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-start-fails |
+| Fix storage exceptions after connection reset in Azure HDInsight HBase | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-storage-exception-reset |
+| Troubleshoot 'hbase hbck' timeout issues in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-timeouts-hbase-hbck |
+| Resolve unassigned regions and region server issues in Azure HDInsight HBase | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-unassigned-regions |
+| Fix HBase TTL data retention issues on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/troubleshoot-data-retention-issues-expired-data |
+| Troubleshoot HBase REST API issues on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/troubleshoot-rest-api |
+| Access and interpret YARN application logs on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-access-yarn-app-logs-linux |
+| Enable and collect Hadoop heap dumps on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-collect-debug-heap-dump-linux |
+| Resolve Hive out-of-memory errors on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-hive-out-of-memory-error-oom |
+| Resolve Hadoop stack trace errors on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-stack-trace-error-messages |
+| Diagnose and fix WebHCat errors on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-templeton-webhcat-debug-errors |
+| Resolve common Azure HDInsight known issues | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-known-issues |
+| Resolve Ambari access failures after certificate rotation | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-known-issues-ambari-access-certificate-issue |
+| Work around Ambari user switch issue in HDInsight 5.1 | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-known-issues-ambari-users-cache |
+| Fix HDInsight headnode unresponsive due to /tmp leak | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-known-issues-cluster-head-node-unresponsive |
+| Mitigate HDInsight conda version regression issue | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-known-issues-conda-version-regression |
+| Resolve HDInsight ESP cluster creation failures from Ranger | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-known-issues-ranger-cluster-create-failure |
+| Troubleshoot slow or failing jobs on Azure HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-troubleshoot-failed-cluster |
+| Navigate HDInsight troubleshooting guides by service | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-troubleshoot-guide |
+| Troubleshoot common HDFS issues in Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-troubleshoot-hdfs |
+| Resolve common Apache Hive issues on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-troubleshoot-hive |
+| Troubleshoot Apache Hadoop YARN issues in Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-troubleshoot-yarn |
+| Diagnose missing Hive View error messages in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-error-message-hive-view |
+| Fix Hive logs filling head node disk in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-hive-logs-diskspace-full-headnodes |
+| Fix Hive View access issues from Zookeeper in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-inaccessible-hive-view |
+| Fix Hive join GC overhead OutOfMemory in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-outofmemory-overhead-exceeded |
+| Resolve permission denied errors creating Hive tables on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-permission-error-create-table |
+| Fix poor performance in Hive LLAP queries on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-query-performance |
+| Diagnose and fix slow reducers in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-slow-reducer |
+| Troubleshoot Apache Tez application hangs on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-tez-hangs |
+| Resolve slow Apache Ambari Tez View in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-tez-view-slow |
+| Fix Hive View query result timeouts on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-view-time-out |
+| Correct Zeppelin Hive JDBC interpreter URL in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-zookeeperhiveclientexception-hiveserver-configs |
+| Resolve exceptions running Hive queries from Ambari Hive View | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/troubleshoot-gateway-timeout |
+| Troubleshoot Hive LLAP workload management in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/troubleshoot-workload-management-issues |
+| Resolve HDInsight Kafka broker startup failures from full disks | https://learn.microsoft.com/en-us/azure/hdinsight/kafka/kafka-troubleshoot-full-disk |
+| Fix HDInsight Kafka error: insufficient fault domains | https://learn.microsoft.com/en-us/azure/hdinsight/kafka/kafka-troubleshoot-insufficient-domains |
+| Debug Spark apps using HDInsight History Server | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-azure-spark-history-server |
+| Debug HDInsight Spark jobs with IntelliJ Azure Toolkit | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-intellij-tool-failure-debug |
+| Known issues and workarounds for HDInsight Spark clusters | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-known-issues |
+| Address long-running Spark Streaming apps stopping on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-application-stops |
+| Fix Jupyter 404 Blocking Cross Origin in HDInsight Spark | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-blocking-cross-origin |
+| Troubleshoot RequestBodyTooLarge errors in HDInsight Spark | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-event-log-requestbodytoolarge |
+| Fix IllegalArgumentException in HDInsight Spark activities | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-illegalargumentexception |
+| Resolve InvalidClassException in HDInsight Spark jobs | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-job-fails-invalidclassexception |
+| Fix NoClassDefFoundError in Spark-Kafka on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-job-fails-noclassdeffounderror |
+| Improve Spark performance with many files in storage | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-job-slowness-container |
+| Resolve OutOfMemoryError in HDInsight Spark jobs | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-outofmemory |
+| Resolve RpcTimeoutException and 502s in Spark Thrift on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-rpctimeoutexception |
+| Resolve large JDBC/ODBC downloads with Thrift on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-sparkexception-kryo-serialization-failed |
+| Common Apache Spark issues and fixes on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-troubleshoot-spark |
+| Debug WASB file operations for HDInsight Hadoop/Spark | https://learn.microsoft.com/en-us/azure/hdinsight/spark/troubleshoot-debug-wasb |
+| Fix Jupyter Notebook creation issues on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/troubleshoot-jupyter-notebook-convert |
+| Troubleshoot Apache Oozie workflows on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/troubleshoot-oozie |
+| Fix HDInsight resource creation and capacity failures | https://learn.microsoft.com/en-us/azure/hdinsight/troubleshoot-resource-creation-fails |
+| Troubleshoot script action failures in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/troubleshoot-script-action |
+| Work around Sqoop import/export failures on ESP clusters | https://learn.microsoft.com/en-us/azure/hdinsight/troubleshoot-sqoop |
 
 ### Configuration
 | Topic | URL |
@@ -157,20 +187,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Run Spark jobs with Zeppelin on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-zeppelin-notebook |
 | Configure HDInsight Spark clusters for throughput | https://learn.microsoft.com/en-us/azure/hdinsight/spark/optimize-cluster-configuration |
 | Transfer files to HDInsight using SCP and SSH | https://learn.microsoft.com/en-us/azure/hdinsight/use-scp |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Migrate HBase cluster to HDInsight 5.1 | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-migrate-hdinsight-5-1 |
-| Migrate HBase to HDInsight 5.1 with new storage | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-migrate-hdinsight-5-1-new-storage-account |
-| Upgrade HBase cluster to newer HDInsight version | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-migrate-new-version |
-| Upgrade HBase and change HDInsight storage account | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-migrate-new-version-new-storage-account |
-| Deploy HBase clusters in Azure Virtual Networks with HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-provision-vnet |
-| Delete Azure HDInsight clusters via portal, CLI, PowerShell | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-delete-cluster |
-| Migrate Kafka workloads from HDInsight 4.0 to 5.1 | https://learn.microsoft.com/en-us/azure/hdinsight/kafka/migrate-5-1-versions |
-| Migrate Kafka workloads from HDInsight 3.6 to 4.0 | https://learn.microsoft.com/en-us/azure/hdinsight/kafka/migrate-versions |
-| Migrate HDInsight clusters to Standard Load Balancer | https://learn.microsoft.com/en-us/azure/hdinsight/load-balancer-migration-guidelines |
-| Provision and delete HDInsight clusters with Automation runbooks | https://learn.microsoft.com/en-us/azure/hdinsight/manage-clusters-runbooks |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -317,95 +333,79 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure TLS versions for Azure HDInsight gateways | https://learn.microsoft.com/en-us/azure/hdinsight/transport-layer-security |
 | Configure managed identity auth to SQL from HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/use-managed-identity-for-sql-database-authentication-in-azure-hdinsight |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Address reliability issues in older HDInsight images | https://learn.microsoft.com/en-us/azure/hdinsight/cluster-reliability-issues |
-| Fix HDInsight ARM template component version errors | https://learn.microsoft.com/en-us/azure/hdinsight/component-version-validation-error-arm-templates |
-| Troubleshoot Azure HDInsight cluster creation errors | https://learn.microsoft.com/en-us/azure/hdinsight/create-cluster-error-dictionary |
-| Troubleshoot authentication failures in HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/domain-joined/domain-joined-authentication-issues |
-| Fix DomainNotFound errors during HDInsight cluster creation | https://learn.microsoft.com/en-us/azure/hdinsight/domain-joined/troubleshoot-domainnotfound |
-| Fix Apache Ambari directory alerts in Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-ambari-troubleshoot-directory-alerts |
-| Fix down hosts and services shown in Ambari UI on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-ambari-troubleshoot-down-hosts-services |
-| Resolve Apache Ambari UI 502 errors on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-ambari-troubleshoot-fivezerotwo-error |
-| Diagnose and fix Apache Ambari heartbeat issues in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues |
-| Troubleshoot Ambari Metrics Collector in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-ambari-troubleshoot-metricservice-issues |
-| Resolve Apache Ambari stale alerts in Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-ambari-troubleshoot-stale-alerts |
-| Fix local HDFS safe mode issues on HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-hdfs-troubleshoot-safe-mode |
-| Fix HDInsight cluster creation failures | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-cluster-creation-fails |
-| Convert service principal certificates to base-64 for HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-converting-service-principal-certificate |
-| Resolve Data Lake Storage file access issues in Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-data-lake-files |
-| Fix InvalidNetworkSecurityGroupSecurityRules when creating HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-invalidnetworksecuritygroupsecurityrules-cluster-creation-fails |
-| Resolve HDInsight cluster node disk space issues | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-out-disk-space |
-| Fix Watchdog BUG soft lockup CPU errors in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-soft-lockup-cpu |
-| Resolve node addition failures in Azure HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-unable-add-nodes |
-| Troubleshoot login failures to Azure HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-unable-log-in-cluster |
-| Diagnose and resolve HDInsight disk space issues | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/troubleshoot-disk-space |
-| Resolve InvalidNetworkConfigurationErrorCode during HDInsight cluster creation | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/troubleshoot-invalidnetworkconfigurationerrorcode-cluster-creation-fails |
-| Restore Key Vault access for disk-encrypted Azure HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/troubleshoot-lost-key-vault-access |
-| Fix port conflicts when starting services on Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/troubleshoot-port-conflict |
-| Fix 'account does not support http' storage errors in Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/troubleshoot-wasbs-storage-exception |
-| Fix invalid BCFile errors when reading YARN logs in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/troubleshoot-yarn-log-invalid-bcfile |
-| Fix BindException 'Address already in use' in Azure HDInsight HBase | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-bindexception-address-use |
-| Resolve HBase hbck inconsistency errors on Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-hbase-hbck-inconsistencies |
-| Troubleshoot pegged CPU on HBase region servers in Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-pegged-cpu-region-server |
-| Troubleshoot Apache Phoenix connectivity issues with HBase on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-phoenix-connectivity |
-| Resolve missing data in Phoenix views after HDP upgrade on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-phoenix-no-data |
-| Fix Apache HBase REST service not responding on Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-rest-not-spending |
-| Troubleshoot HBase Master startup failures on Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-start-fails |
-| Fix storage exceptions after connection reset in Azure HDInsight HBase | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-storage-exception-reset |
-| Troubleshoot 'hbase hbck' timeout issues in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-timeouts-hbase-hbck |
-| Resolve unassigned regions and region server issues in Azure HDInsight HBase | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-unassigned-regions |
-| Fix HBase TTL data retention issues on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/troubleshoot-data-retention-issues-expired-data |
-| Troubleshoot HBase REST API issues on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/troubleshoot-rest-api |
-| Access and interpret YARN application logs on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-access-yarn-app-logs-linux |
-| Enable and collect Hadoop heap dumps on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-collect-debug-heap-dump-linux |
-| Resolve Hive out-of-memory errors on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-hive-out-of-memory-error-oom |
-| Resolve Hadoop stack trace errors on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-stack-trace-error-messages |
-| Diagnose and fix WebHCat errors on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-templeton-webhcat-debug-errors |
-| Resolve common Azure HDInsight known issues | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-known-issues |
-| Resolve Ambari access failures after certificate rotation | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-known-issues-ambari-access-certificate-issue |
-| Work around Ambari user switch issue in HDInsight 5.1 | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-known-issues-ambari-users-cache |
-| Fix HDInsight headnode unresponsive due to /tmp leak | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-known-issues-cluster-head-node-unresponsive |
-| Mitigate HDInsight conda version regression issue | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-known-issues-conda-version-regression |
-| Resolve HDInsight ESP cluster creation failures from Ranger | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-known-issues-ranger-cluster-create-failure |
-| Troubleshoot slow or failing jobs on Azure HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-troubleshoot-failed-cluster |
-| Navigate HDInsight troubleshooting guides by service | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-troubleshoot-guide |
-| Troubleshoot common HDFS issues in Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-troubleshoot-hdfs |
-| Resolve common Apache Hive issues on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-troubleshoot-hive |
-| Troubleshoot Apache Hadoop YARN issues in Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-troubleshoot-yarn |
-| Diagnose missing Hive View error messages in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-error-message-hive-view |
-| Fix Hive logs filling head node disk in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-hive-logs-diskspace-full-headnodes |
-| Fix Hive View access issues from Zookeeper in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-inaccessible-hive-view |
-| Fix Hive join GC overhead OutOfMemory in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-outofmemory-overhead-exceeded |
-| Resolve permission denied errors creating Hive tables on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-permission-error-create-table |
-| Fix poor performance in Hive LLAP queries on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-query-performance |
-| Diagnose and fix slow reducers in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-slow-reducer |
-| Troubleshoot Apache Tez application hangs on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-tez-hangs |
-| Resolve slow Apache Ambari Tez View in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-tez-view-slow |
-| Fix Hive View query result timeouts on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-view-time-out |
-| Correct Zeppelin Hive JDBC interpreter URL in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/interactive-query-troubleshoot-zookeeperhiveclientexception-hiveserver-configs |
-| Resolve exceptions running Hive queries from Ambari Hive View | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/troubleshoot-gateway-timeout |
-| Troubleshoot Hive LLAP workload management in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/troubleshoot-workload-management-issues |
-| Resolve HDInsight Kafka broker startup failures from full disks | https://learn.microsoft.com/en-us/azure/hdinsight/kafka/kafka-troubleshoot-full-disk |
-| Fix HDInsight Kafka error: insufficient fault domains | https://learn.microsoft.com/en-us/azure/hdinsight/kafka/kafka-troubleshoot-insufficient-domains |
-| Debug Spark apps using HDInsight History Server | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-azure-spark-history-server |
-| Debug HDInsight Spark jobs with IntelliJ Azure Toolkit | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-intellij-tool-failure-debug |
-| Known issues and workarounds for HDInsight Spark clusters | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-known-issues |
-| Address long-running Spark Streaming apps stopping on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-application-stops |
-| Fix Jupyter 404 Blocking Cross Origin in HDInsight Spark | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-blocking-cross-origin |
-| Troubleshoot RequestBodyTooLarge errors in HDInsight Spark | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-event-log-requestbodytoolarge |
-| Fix IllegalArgumentException in HDInsight Spark activities | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-illegalargumentexception |
-| Resolve InvalidClassException in HDInsight Spark jobs | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-job-fails-invalidclassexception |
-| Fix NoClassDefFoundError in Spark-Kafka on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-job-fails-noclassdeffounderror |
-| Improve Spark performance with many files in storage | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-job-slowness-container |
-| Resolve OutOfMemoryError in HDInsight Spark jobs | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-outofmemory |
-| Resolve RpcTimeoutException and 502s in Spark Thrift on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-rpctimeoutexception |
-| Resolve large JDBC/ODBC downloads with Thrift on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-troubleshoot-sparkexception-kryo-serialization-failed |
-| Common Apache Spark issues and fixes on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-troubleshoot-spark |
-| Debug WASB file operations for HDInsight Hadoop/Spark | https://learn.microsoft.com/en-us/azure/hdinsight/spark/troubleshoot-debug-wasb |
-| Fix Jupyter Notebook creation issues on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/troubleshoot-jupyter-notebook-convert |
-| Troubleshoot Apache Oozie workflows on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/troubleshoot-oozie |
-| Fix HDInsight resource creation and capacity failures | https://learn.microsoft.com/en-us/azure/hdinsight/troubleshoot-resource-creation-fails |
-| Troubleshoot script action failures in HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/troubleshoot-script-action |
-| Work around Sqoop import/export failures on ESP clusters | https://learn.microsoft.com/en-us/azure/hdinsight/troubleshoot-sqoop |
+| Migrate HBase cluster to HDInsight 5.1 | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-migrate-hdinsight-5-1 |
+| Migrate HBase to HDInsight 5.1 with new storage | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-migrate-hdinsight-5-1-new-storage-account |
+| Upgrade HBase cluster to newer HDInsight version | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-migrate-new-version |
+| Upgrade HBase and change HDInsight storage account | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-migrate-new-version-new-storage-account |
+| Deploy HBase clusters in Azure Virtual Networks with HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-provision-vnet |
+| Delete Azure HDInsight clusters via portal, CLI, PowerShell | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-delete-cluster |
+| Migrate Kafka workloads from HDInsight 4.0 to 5.1 | https://learn.microsoft.com/en-us/azure/hdinsight/kafka/migrate-5-1-versions |
+| Migrate Kafka workloads from HDInsight 3.6 to 4.0 | https://learn.microsoft.com/en-us/azure/hdinsight/kafka/migrate-versions |
+| Migrate HDInsight clusters to Standard Load Balancer | https://learn.microsoft.com/en-us/azure/hdinsight/load-balancer-migration-guidelines |
+| Provision and delete HDInsight clusters with Automation runbooks | https://learn.microsoft.com/en-us/azure/hdinsight/manage-clusters-runbooks |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Use Azure Monitor logs for HDInsight availability | https://learn.microsoft.com/en-us/azure/hdinsight/cluster-availability-monitor-logs |
+| Apply HDInsight cluster management best practices | https://learn.microsoft.com/en-us/azure/hdinsight/cluster-management-best-practices |
+| Reboot unresponsive HDInsight cluster VMs safely | https://learn.microsoft.com/en-us/azure/hdinsight/cluster-reboot-vm |
+| Apply general best practices for HDInsight ESP clusters | https://learn.microsoft.com/en-us/azure/hdinsight/domain-joined/general-guidelines |
+| Execute data migration to Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-on-premises-migration-best-practices-data-migration |
+| Manage HDInsight infrastructure for Hadoop migration | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-on-premises-migration-best-practices-infrastructure |
+| Plan HDInsight storage for Hadoop migration | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-on-premises-migration-best-practices-storage |
+| Optimize HBase write performance with Accelerated Writes on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-accelerated-writes |
+| Apply HDInsight HBase performance advisor recommendations | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-advisor |
+| Tune Apache Phoenix performance on Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-phoenix-performance |
+| Tune Apache HBase performance on Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hbase/troubleshoot-hbase-performance-issues |
+| Monitor HDInsight availability with Apache Ambari | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-cluster-availability |
+| Apply Linux-specific tips for Hadoop on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-linux-information |
+| Optimize Apache Hive query performance on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-optimize-hive-query |
+| Monitor and optimize HDInsight cluster performance | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-key-scenarios-to-monitor |
+| Manage HDInsight logs, sizes, and retention policies | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-log-management |
+| Configure OS patching and updates for HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-os-patching |
+| Apply pre-creation best practices for HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-overview-before-you-start |
+| Manually scale HDInsight clusters for workload changes | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-scaling-best-practices |
+| Migrate Azure HDInsight clusters to newer versions | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-upgrade-cluster |
+| Optimize HDInsight gateway usage for Hive queries | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/gateway-best-practices |
+| Size HDInsight Interactive Query (LLAP) clusters correctly | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/hive-llap-sizing-guide |
+| Apply schedule-based autoscale best practices for LLAP | https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/llap-schedule-based-autoscale-best-practices |
+| Configure Kafka partition replicas for high availability on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/kafka/apache-kafka-high-availability |
+| Tune Kafka performance on Azure HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/kafka/apache-kafka-performance-tuning |
+| Migrate HDInsight Log Analytics data to new tables | https://learn.microsoft.com/en-us/azure/hdinsight/log-analytics-migration |
+| Monitor Azure HDInsight with Azure Monitor | https://learn.microsoft.com/en-us/azure/hdinsight/monitor-hdinsight |
+| Optimize Spark job performance on Azure HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-perf |
+| Customize Python environments for HDInsight Spark | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-python-package-installation |
+| Achieve exactly-once processing in Spark Streaming | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-streaming-exactly-once |
+| Configure high availability for Spark Streaming on YARN | https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-streaming-high-availability |
+| Optimize data processing operations in HDInsight Spark | https://learn.microsoft.com/en-us/azure/hdinsight/spark/optimize-data-processing |
+| Optimize HDInsight Spark data storage layout | https://learn.microsoft.com/en-us/azure/hdinsight/spark/optimize-data-storage |
+| Tune memory usage for Spark on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/optimize-memory-usage |
+| Safely manage JAR dependencies on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/safely-manage-jar-dependency |
+| Apply performance and usage guidelines for Spark on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/spark-best-practices |
+| Use SparkCruise to optimize HDInsight Spark queries | https://learn.microsoft.com/en-us/azure/hdinsight/spark/spark-cruise |
+| Use speculative execution for Spark on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/spark/what-is-speculative-execution-in-spark |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Compare Azure storage options for HDInsight clusters | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-compare-storage-options |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Connect HDInsight to on-premises networks via VPN | https://learn.microsoft.com/en-us/azure/hdinsight/connect-on-premises-network |
+| Plan HDInsight architecture with Enterprise Security Package | https://learn.microsoft.com/en-us/azure/hdinsight/domain-joined/apache-domain-joined-architecture |
+| Design large-scale ETL pipelines with HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-etl-at-scale |
+| Design HDInsight architecture for Hadoop migration | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-on-premises-migration-best-practices-architecture |
+| Choose and run custom MapReduce approaches on HDInsight | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-run-custom-programs |
+| Use Apache Hive on HDInsight as an ETL engine | https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-using-apache-hive-as-an-etl-tool |
+| Design HDInsight business continuity architectures | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-business-continuity-architecture |
+| Evaluate HDInsight high-availability architecture options | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-high-availability-case-study |
+| Operationalize HDInsight data analytics pipelines with Oozie | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-operationalize-data-pipeline |
+| Plan Azure HDInsight virtual network architecture | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-plan-virtual-network-deployment |
+| Design an HDInsight-based ETL pipeline for sales analytics | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-sales-insights-etl |
+| Understand HDInsight virtual network architecture and resources | https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-virtual-network-architecture |

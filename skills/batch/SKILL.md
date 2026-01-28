@@ -31,26 +31,12 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Choose Azure Batch architectures for render bursting | https://learn.microsoft.com/en-us/azure/batch/batch-rendering-architectures |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Design efficient Azure Batch list queries for performance | https://learn.microsoft.com/en-us/azure/batch/batch-efficient-list-queries |
-| Use Azure Batch task and node count operations for monitoring | https://learn.microsoft.com/en-us/azure/batch/batch-get-resource-counts |
-| Schedule Azure Batch jobs for efficiency and priority | https://learn.microsoft.com/en-us/azure/batch/batch-job-schedule |
-| Run MPI workloads with Azure Batch multi-instance tasks | https://learn.microsoft.com/en-us/azure/batch/batch-mpi |
-| Run concurrent tasks per node in Azure Batch pools | https://learn.microsoft.com/en-us/azure/batch/batch-parallel-node-tasks |
-| Use compute-intensive and GPU VM sizes with Azure Batch | https://learn.microsoft.com/en-us/azure/batch/batch-pool-compute-intensive-sizes |
-| Use Azure Batch capabilities for rendering workloads | https://learn.microsoft.com/en-us/azure/batch/batch-rendering-functionality |
-| Choose storage and data movement options for Batch rendering | https://learn.microsoft.com/en-us/azure/batch/batch-rendering-storage-data-movement |
-| Run Azure Batch workloads on Spot virtual machines | https://learn.microsoft.com/en-us/azure/batch/batch-spot-vms |
-| Persist Azure Batch task output to durable storage | https://learn.microsoft.com/en-us/azure/batch/batch-task-output |
-| Optimize Azure Batch solutions with product-specific best practices | https://learn.microsoft.com/en-us/azure/batch/best-practices |
-| Optimize Azure Batch jobs with very large task counts | https://learn.microsoft.com/en-us/azure/batch/large-number-tasks |
+| Diagnose and handle Azure Batch job and task errors | https://learn.microsoft.com/en-us/azure/batch/batch-job-task-error-checking |
+| Troubleshoot Azure Batch pool and node errors | https://learn.microsoft.com/en-us/azure/batch/batch-pool-node-error-checking |
+| Diagnose and handle Azure Batch task and job errors | https://learn.microsoft.com/en-us/azure/batch/error-handling |
 
 ### Configuration
 | Topic | URL |
@@ -99,16 +85,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Enable simplified compute node communication in Azure Batch | https://learn.microsoft.com/en-us/azure/batch/simplified-compute-node-communication |
 | Create Azure Batch pools without public IP addresses | https://learn.microsoft.com/en-us/azure/batch/simplified-node-communication-pool-no-public-ip |
 
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Move an Azure Batch account to another region | https://learn.microsoft.com/en-us/azure/batch/account-move |
-| Deploy Azure Batch HPC solutions with Azure Pipelines | https://learn.microsoft.com/en-us/azure/batch/batch-ci-cd |
-| Run Azure Batch jobs end-to-end using CLI templates | https://learn.microsoft.com/en-us/azure/batch/batch-cli-templates |
-| Migrate Azure Batch custom image pools to Azure Compute Gallery | https://learn.microsoft.com/en-us/azure/batch/batch-custom-image-pools-to-azure-compute-gallery-migration-guide |
-| Migrate Azure Batch pools to simplified node communication | https://learn.microsoft.com/en-us/azure/batch/batch-pools-to-simplified-compute-node-communication-model-migration-guide |
-| Migrate Azure Batch low-priority VMs to Spot VMs | https://learn.microsoft.com/en-us/azure/batch/low-priority-vms-retirement-migration-guide |
-
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
@@ -146,9 +122,33 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Apply security best practices for Azure Batch | https://learn.microsoft.com/en-us/azure/batch/security-best-practices |
 | Map Azure Batch to Azure Policy compliance controls | https://learn.microsoft.com/en-us/azure/batch/security-controls-policy |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Diagnose and handle Azure Batch job and task errors | https://learn.microsoft.com/en-us/azure/batch/batch-job-task-error-checking |
-| Troubleshoot Azure Batch pool and node errors | https://learn.microsoft.com/en-us/azure/batch/batch-pool-node-error-checking |
-| Diagnose and handle Azure Batch task and job errors | https://learn.microsoft.com/en-us/azure/batch/error-handling |
+| Move an Azure Batch account to another region | https://learn.microsoft.com/en-us/azure/batch/account-move |
+| Deploy Azure Batch HPC solutions with Azure Pipelines | https://learn.microsoft.com/en-us/azure/batch/batch-ci-cd |
+| Run Azure Batch jobs end-to-end using CLI templates | https://learn.microsoft.com/en-us/azure/batch/batch-cli-templates |
+| Migrate Azure Batch custom image pools to Azure Compute Gallery | https://learn.microsoft.com/en-us/azure/batch/batch-custom-image-pools-to-azure-compute-gallery-migration-guide |
+| Migrate Azure Batch pools to simplified node communication | https://learn.microsoft.com/en-us/azure/batch/batch-pools-to-simplified-compute-node-communication-model-migration-guide |
+| Migrate Azure Batch low-priority VMs to Spot VMs | https://learn.microsoft.com/en-us/azure/batch/low-priority-vms-retirement-migration-guide |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Design efficient Azure Batch list queries for performance | https://learn.microsoft.com/en-us/azure/batch/batch-efficient-list-queries |
+| Use Azure Batch task and node count operations for monitoring | https://learn.microsoft.com/en-us/azure/batch/batch-get-resource-counts |
+| Schedule Azure Batch jobs for efficiency and priority | https://learn.microsoft.com/en-us/azure/batch/batch-job-schedule |
+| Run MPI workloads with Azure Batch multi-instance tasks | https://learn.microsoft.com/en-us/azure/batch/batch-mpi |
+| Run concurrent tasks per node in Azure Batch pools | https://learn.microsoft.com/en-us/azure/batch/batch-parallel-node-tasks |
+| Use compute-intensive and GPU VM sizes with Azure Batch | https://learn.microsoft.com/en-us/azure/batch/batch-pool-compute-intensive-sizes |
+| Use Azure Batch capabilities for rendering workloads | https://learn.microsoft.com/en-us/azure/batch/batch-rendering-functionality |
+| Choose storage and data movement options for Batch rendering | https://learn.microsoft.com/en-us/azure/batch/batch-rendering-storage-data-movement |
+| Run Azure Batch workloads on Spot virtual machines | https://learn.microsoft.com/en-us/azure/batch/batch-spot-vms |
+| Persist Azure Batch task output to durable storage | https://learn.microsoft.com/en-us/azure/batch/batch-task-output |
+| Optimize Azure Batch solutions with product-specific best practices | https://learn.microsoft.com/en-us/azure/batch/best-practices |
+| Optimize Azure Batch jobs with very large task counts | https://learn.microsoft.com/en-us/azure/batch/large-number-tasks |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Choose Azure Batch architectures for render bursting | https://learn.microsoft.com/en-us/azure/batch/batch-rendering-architectures |

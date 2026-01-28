@@ -31,27 +31,37 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Understand Azure Backup architecture for SAP HANA | https://learn.microsoft.com/en-us/azure/backup/azure-backup-architecture-for-sap-hana-backup |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Back up and restore Hyper-V VMs with MABS | https://learn.microsoft.com/en-us/azure/backup/back-up-hyper-v-virtual-machines-mabs |
-| Recover data from MABS via Recovery Services vault | https://learn.microsoft.com/en-us/azure/backup/backup-azure-alternate-dpm-server |
-| Configure DPM to back up Exchange to Azure | https://learn.microsoft.com/en-us/azure/backup/backup-azure-backup-exchange-server |
-| Back up SQL Server to Azure using DPM | https://learn.microsoft.com/en-us/azure/backup/backup-azure-backup-sql |
-| Prepare DPM server for Azure Backup workloads | https://learn.microsoft.com/en-us/azure/backup/backup-azure-dpm-introduction |
-| Apply best practices for Azure VM backups | https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-introduction |
-| Back up SQL Always On availability groups with Azure Backup | https://learn.microsoft.com/en-us/azure/backup/backup-sql-server-on-availability-groups |
-| Apply Azure Backup best practices for cloud workloads | https://learn.microsoft.com/en-us/azure/backup/guidance-best-practices |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Estimate and compare Azure Backup costs across workloads | https://learn.microsoft.com/en-us/azure/backup/azure-backup-pricing |
+| Resolve Azure Data Lake Storage backup issues with Azure Backup | https://learn.microsoft.com/en-us/azure/backup/azure-data-lake-storage-backup-troubleshoot |
+| Troubleshoot Azure Kubernetes Service backups with Azure Backup | https://learn.microsoft.com/en-us/azure/backup/azure-kubernetes-service-backup-troubleshoot |
+| Troubleshoot data recovery from Microsoft Azure Backup Server | https://learn.microsoft.com/en-us/azure/backup/backup-azure-alternate-dpm-server-troubleshoot |
+| Troubleshoot Azure Backup Vault management operations | https://learn.microsoft.com/en-us/azure/backup/backup-azure-backup-vault-troubleshoot |
+| Resolve Azure PostgreSQL Flexible Server backup and restore errors | https://learn.microsoft.com/en-us/azure/backup/backup-azure-database-postgresql-flex-troubleshoot |
+| Fix Azure Database for PostgreSQL backup issues with Azure Backup | https://learn.microsoft.com/en-us/azure/backup/backup-azure-database-postgresql-troubleshoot |
+| Troubleshoot encrypted Azure VM backup failures | https://learn.microsoft.com/en-us/azure/backup/backup-azure-encrypted-vm-troubleshoot |
+| Fix Azure Backup Server installation and workload protection errors | https://learn.microsoft.com/en-us/azure/backup/backup-azure-mabs-troubleshoot |
+| Troubleshoot Azure Backup agent installation and operations | https://learn.microsoft.com/en-us/azure/backup/backup-azure-mars-troubleshoot |
+| Resolve Azure Backup monitoring and alert issues | https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitor-alert-faq |
+| Resolve Azure Backup monitoring and protection alert issues | https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitor-troubleshoot |
+| Troubleshoot Azure MySQL Flexible Server backups with Azure Backup | https://learn.microsoft.com/en-us/azure/backup/backup-azure-mysql-flexible-server-troubleshoot |
+| Fix SAP HANA database backup errors on Azure VMs | https://learn.microsoft.com/en-us/azure/backup/backup-azure-sap-hana-database-troubleshoot |
+| Resolve System Center DPM backup and restore problems with Azure Backup | https://learn.microsoft.com/en-us/azure/backup/backup-azure-scdpm-troubleshooting |
+| Troubleshoot System State Backup for on-premises Windows servers | https://learn.microsoft.com/en-us/azure/backup/backup-azure-system-state-troubleshoot |
+| Diagnose and fix Azure Blob backup and restore failures | https://learn.microsoft.com/en-us/azure/backup/backup-azure-troubleshoot-blob-backup |
+| Troubleshoot slow Azure Backup for files and folders | https://learn.microsoft.com/en-us/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue |
+| Fix Azure Backup failures from agent and extension issues | https://learn.microsoft.com/en-us/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout |
+| Troubleshoot Azure VM file recovery from backups | https://learn.microsoft.com/en-us/azure/backup/backup-azure-vm-file-recovery-troubleshoot |
+| Troubleshoot Azure VM backup and restore errors | https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-troubleshoot |
+| Resolve known issues in MABS v3 | https://learn.microsoft.com/en-us/azure/backup/backup-mabs-release-notes-v3 |
+| Troubleshoot SQL Server backups on Azure VMs using Azure Backup | https://learn.microsoft.com/en-us/azure/backup/backup-sql-server-azure-troubleshoot |
+| Troubleshoot Backup vault management issues in Azure Backup | https://learn.microsoft.com/en-us/azure/backup/backup-vault-troubleshoot |
+| Diagnose Azure Disk Backup failures and restore issues | https://learn.microsoft.com/en-us/azure/backup/disk-backup-troubleshoot |
+| Troubleshoot SAP HANA database instance backups on Azure | https://learn.microsoft.com/en-us/azure/backup/sap-hana-database-instance-troubleshoot |
+| Fix Azure Backup archive tier errors when moving recovery points | https://learn.microsoft.com/en-us/azure/backup/troubleshoot-archive-tier |
+| Troubleshoot Azure Files backup and restore with Azure Backup | https://learn.microsoft.com/en-us/azure/backup/troubleshoot-azure-files |
+| Resolve SAP ASE (Sybase) backup issues using Azure Backup | https://learn.microsoft.com/en-us/azure/backup/troubleshoot-sap-ase-sybase-database-backup |
 
 ### Configuration
 | Topic | URL |
@@ -132,20 +142,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure selective disk backup and restore for Azure VMs | https://learn.microsoft.com/en-us/azure/backup/selective-disk-backup-restore |
 | Upgrade the Microsoft Azure Recovery Services agent | https://learn.microsoft.com/en-us/azure/backup/upgrade-mars-agent |
 | Configure Azure Backup to use Archive tier for long-term retention | https://learn.microsoft.com/en-us/azure/backup/use-archive-tier-support |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Identify VM SKUs supported by Azure Backup policy | https://learn.microsoft.com/en-us/azure/backup/backup-azure-policy-supported-skus |
-| Automate silent installation of MABS V4 | https://learn.microsoft.com/en-us/azure/backup/backup-mabs-unattended-install |
-| Review supported workloads for MABS V3 RTM | https://learn.microsoft.com/en-us/azure/backup/microsoft-azure-backup-server-protection-v3 |
-| Check supported workloads for MABS V3 UR1 | https://learn.microsoft.com/en-us/azure/backup/microsoft-azure-backup-server-protection-v3-ur1 |
-| Deploy Azure VM backup using Bicep files | https://learn.microsoft.com/en-us/azure/backup/quick-backup-vm-bicep-file |
-| Deploy VM backup resources via ARM template | https://learn.microsoft.com/en-us/azure/backup/quick-backup-vm-template |
-| Provision VM and configure Azure Backup with Terraform | https://learn.microsoft.com/en-us/azure/backup/quick-backup-vm-terraform |
-| Deploy AKS backup configuration via ARM templates | https://learn.microsoft.com/en-us/azure/backup/quick-kubernetes-backup-arm |
-| Deploy AKS backup configuration using Bicep | https://learn.microsoft.com/en-us/azure/backup/quick-kubernetes-backup-bicep |
-| Provision AKS and configure backup with Terraform | https://learn.microsoft.com/en-us/azure/backup/quick-kubernetes-backup-terraform |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -323,34 +319,38 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Enable threat detection for Azure VM backups | https://learn.microsoft.com/en-us/azure/backup/threat-detection-overview |
 | Enable TLS 1.2 for Azure Backup data transfer | https://learn.microsoft.com/en-us/azure/backup/transport-layer-security |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Resolve Azure Data Lake Storage backup issues with Azure Backup | https://learn.microsoft.com/en-us/azure/backup/azure-data-lake-storage-backup-troubleshoot |
-| Troubleshoot Azure Kubernetes Service backups with Azure Backup | https://learn.microsoft.com/en-us/azure/backup/azure-kubernetes-service-backup-troubleshoot |
-| Troubleshoot data recovery from Microsoft Azure Backup Server | https://learn.microsoft.com/en-us/azure/backup/backup-azure-alternate-dpm-server-troubleshoot |
-| Troubleshoot Azure Backup Vault management operations | https://learn.microsoft.com/en-us/azure/backup/backup-azure-backup-vault-troubleshoot |
-| Resolve Azure PostgreSQL Flexible Server backup and restore errors | https://learn.microsoft.com/en-us/azure/backup/backup-azure-database-postgresql-flex-troubleshoot |
-| Fix Azure Database for PostgreSQL backup issues with Azure Backup | https://learn.microsoft.com/en-us/azure/backup/backup-azure-database-postgresql-troubleshoot |
-| Troubleshoot encrypted Azure VM backup failures | https://learn.microsoft.com/en-us/azure/backup/backup-azure-encrypted-vm-troubleshoot |
-| Fix Azure Backup Server installation and workload protection errors | https://learn.microsoft.com/en-us/azure/backup/backup-azure-mabs-troubleshoot |
-| Troubleshoot Azure Backup agent installation and operations | https://learn.microsoft.com/en-us/azure/backup/backup-azure-mars-troubleshoot |
-| Resolve Azure Backup monitoring and alert issues | https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitor-alert-faq |
-| Resolve Azure Backup monitoring and protection alert issues | https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitor-troubleshoot |
-| Troubleshoot Azure MySQL Flexible Server backups with Azure Backup | https://learn.microsoft.com/en-us/azure/backup/backup-azure-mysql-flexible-server-troubleshoot |
-| Fix SAP HANA database backup errors on Azure VMs | https://learn.microsoft.com/en-us/azure/backup/backup-azure-sap-hana-database-troubleshoot |
-| Resolve System Center DPM backup and restore problems with Azure Backup | https://learn.microsoft.com/en-us/azure/backup/backup-azure-scdpm-troubleshooting |
-| Troubleshoot System State Backup for on-premises Windows servers | https://learn.microsoft.com/en-us/azure/backup/backup-azure-system-state-troubleshoot |
-| Diagnose and fix Azure Blob backup and restore failures | https://learn.microsoft.com/en-us/azure/backup/backup-azure-troubleshoot-blob-backup |
-| Troubleshoot slow Azure Backup for files and folders | https://learn.microsoft.com/en-us/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue |
-| Fix Azure Backup failures from agent and extension issues | https://learn.microsoft.com/en-us/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout |
-| Troubleshoot Azure VM file recovery from backups | https://learn.microsoft.com/en-us/azure/backup/backup-azure-vm-file-recovery-troubleshoot |
-| Troubleshoot Azure VM backup and restore errors | https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-troubleshoot |
-| Resolve known issues in MABS v3 | https://learn.microsoft.com/en-us/azure/backup/backup-mabs-release-notes-v3 |
-| Troubleshoot SQL Server backups on Azure VMs using Azure Backup | https://learn.microsoft.com/en-us/azure/backup/backup-sql-server-azure-troubleshoot |
-| Troubleshoot Backup vault management issues in Azure Backup | https://learn.microsoft.com/en-us/azure/backup/backup-vault-troubleshoot |
-| Diagnose Azure Disk Backup failures and restore issues | https://learn.microsoft.com/en-us/azure/backup/disk-backup-troubleshoot |
-| Troubleshoot SAP HANA database instance backups on Azure | https://learn.microsoft.com/en-us/azure/backup/sap-hana-database-instance-troubleshoot |
-| Fix Azure Backup archive tier errors when moving recovery points | https://learn.microsoft.com/en-us/azure/backup/troubleshoot-archive-tier |
-| Troubleshoot Azure Files backup and restore with Azure Backup | https://learn.microsoft.com/en-us/azure/backup/troubleshoot-azure-files |
-| Resolve SAP ASE (Sybase) backup issues using Azure Backup | https://learn.microsoft.com/en-us/azure/backup/troubleshoot-sap-ase-sybase-database-backup |
+| Identify VM SKUs supported by Azure Backup policy | https://learn.microsoft.com/en-us/azure/backup/backup-azure-policy-supported-skus |
+| Automate silent installation of MABS V4 | https://learn.microsoft.com/en-us/azure/backup/backup-mabs-unattended-install |
+| Review supported workloads for MABS V3 RTM | https://learn.microsoft.com/en-us/azure/backup/microsoft-azure-backup-server-protection-v3 |
+| Check supported workloads for MABS V3 UR1 | https://learn.microsoft.com/en-us/azure/backup/microsoft-azure-backup-server-protection-v3-ur1 |
+| Deploy Azure VM backup using Bicep files | https://learn.microsoft.com/en-us/azure/backup/quick-backup-vm-bicep-file |
+| Deploy VM backup resources via ARM template | https://learn.microsoft.com/en-us/azure/backup/quick-backup-vm-template |
+| Provision VM and configure Azure Backup with Terraform | https://learn.microsoft.com/en-us/azure/backup/quick-backup-vm-terraform |
+| Deploy AKS backup configuration via ARM templates | https://learn.microsoft.com/en-us/azure/backup/quick-kubernetes-backup-arm |
+| Deploy AKS backup configuration using Bicep | https://learn.microsoft.com/en-us/azure/backup/quick-kubernetes-backup-bicep |
+| Provision AKS and configure backup with Terraform | https://learn.microsoft.com/en-us/azure/backup/quick-kubernetes-backup-terraform |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Back up and restore Hyper-V VMs with MABS | https://learn.microsoft.com/en-us/azure/backup/back-up-hyper-v-virtual-machines-mabs |
+| Recover data from MABS via Recovery Services vault | https://learn.microsoft.com/en-us/azure/backup/backup-azure-alternate-dpm-server |
+| Configure DPM to back up Exchange to Azure | https://learn.microsoft.com/en-us/azure/backup/backup-azure-backup-exchange-server |
+| Back up SQL Server to Azure using DPM | https://learn.microsoft.com/en-us/azure/backup/backup-azure-backup-sql |
+| Prepare DPM server for Azure Backup workloads | https://learn.microsoft.com/en-us/azure/backup/backup-azure-dpm-introduction |
+| Apply best practices for Azure VM backups | https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-introduction |
+| Back up SQL Always On availability groups with Azure Backup | https://learn.microsoft.com/en-us/azure/backup/backup-sql-server-on-availability-groups |
+| Apply Azure Backup best practices for cloud workloads | https://learn.microsoft.com/en-us/azure/backup/guidance-best-practices |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Estimate and compare Azure Backup costs across workloads | https://learn.microsoft.com/en-us/azure/backup/azure-backup-pricing |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Understand Azure Backup architecture for SAP HANA | https://learn.microsoft.com/en-us/azure/backup/azure-backup-architecture-for-sap-hana-backup |

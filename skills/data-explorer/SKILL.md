@@ -31,37 +31,16 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Implement Azure Data Explorer disaster recovery solutions | https://learn.microsoft.com/en-us/azure/data-explorer/business-continuity-create-solution |
-| Design Azure Data Explorer business continuity architecture | https://learn.microsoft.com/en-us/azure/data-explorer/business-continuity-overview |
-| Use follower databases for cross-cluster Azure Data Explorer access | https://learn.microsoft.com/en-us/azure/data-explorer/follower |
-| Architect Event Grid-based storage ingestion into Azure Data Explorer | https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-event-grid-overview |
-| Design continuous ingestion from Event Hubs to Azure Data Explorer | https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-event-hub-overview |
-| Choose and configure streaming ingestion for Azure Data Explorer | https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-streaming |
-| Choose Azure Data Explorer multi-tenant architecture | https://learn.microsoft.com/en-us/azure/data-explorer/multi-tenant |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Apply Azure Advisor recommendations to optimize Azure Data Explorer clusters | https://learn.microsoft.com/en-us/azure/data-explorer/azure-advisor |
-| Monitor Azure Data Explorer cluster health metrics | https://learn.microsoft.com/en-us/azure/data-explorer/check-cluster-health |
-| Apply Azure Data Explorer duplicate data handling patterns | https://learn.microsoft.com/en-us/azure/data-explorer/dealing-with-duplicates |
-| Optimize Azure Data Explorer for high concurrency | https://learn.microsoft.com/en-us/azure/data-explorer/high-concurrency |
-| Use hot windows to query cold data efficiently | https://learn.microsoft.com/en-us/azure/data-explorer/hot-windows |
-| Handle invalid data during Azure Data Explorer ingestion | https://learn.microsoft.com/en-us/azure/data-explorer/ingest-invalid-data |
-| Ingest JSON into Azure Data Explorer with recommended patterns | https://learn.microsoft.com/en-us/azure/data-explorer/ingest-json-formats |
-| Monitor and tune queued ingestion in Azure Data Explorer | https://learn.microsoft.com/en-us/azure/data-explorer/monitor-queued-ingestion |
-| Apply Power BI best practices for Azure Data Explorer data | https://learn.microsoft.com/en-us/azure/data-explorer/power-bi-best-practices |
-| Optimize Azure Data Explorer cost per GB ingested | https://learn.microsoft.com/en-us/azure/data-explorer/pricing-cost-drivers |
-| Apply schema optimization best practices in Azure Data Explorer | https://learn.microsoft.com/en-us/azure/data-explorer/schema-best-practice |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Understand Azure Data Explorer reservation discount application | https://learn.microsoft.com/en-us/azure/data-explorer/pricing-reservation-discount |
-| Purchase Azure Data Explorer reserved capacity for savings | https://learn.microsoft.com/en-us/azure/data-explorer/pricing-reserved-capacity |
+| Interpret Azure Data Explorer ingestion error codes | https://learn.microsoft.com/en-us/azure/data-explorer/error-codes |
+| Resolve common Azure Data Explorer ingestion issues | https://learn.microsoft.com/en-us/azure/data-explorer/ingestion-faq |
+| Use Resource Health to diagnose Azure Data Explorer issues | https://learn.microsoft.com/en-us/azure/data-explorer/monitor-with-resource-health |
+| Troubleshoot Azure Data Explorer private endpoint connectivity | https://learn.microsoft.com/en-us/azure/data-explorer/security-network-private-endpoint-troubleshoot |
+| Fix Azure Data Explorer cluster connection issues | https://learn.microsoft.com/en-us/azure/data-explorer/troubleshoot-connect-cluster |
+| Troubleshoot Azure Data Explorer cluster creation failures | https://learn.microsoft.com/en-us/azure/data-explorer/troubleshoot-create-cluster |
+| Resolve Azure Data Explorer DB and table operation failures | https://learn.microsoft.com/en-us/azure/data-explorer/troubleshoot-database-table |
 
 ### Configuration
 | Topic | URL |
@@ -82,16 +61,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure Sync Kusto for ADX schema synchronization | https://learn.microsoft.com/en-us/azure/data-explorer/sync-kusto |
 | Customize Azure Data Explorer web UI environment settings | https://learn.microsoft.com/en-us/azure/data-explorer/web-customize-settings |
 | Sync Azure Data Explorer web UI profile across devices | https://learn.microsoft.com/en-us/azure/data-explorer/web-sync |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Automate Azure Data Explorer environment provisioning | https://learn.microsoft.com/en-us/azure/data-explorer/automated-deploy-overview |
-| Deploy Azure Data Explorer with confidential compute SKUs | https://learn.microsoft.com/en-us/azure/data-explorer/confidential-compute |
-| Deploy Azure Data Explorer schema via Azure DevOps | https://learn.microsoft.com/en-us/azure/data-explorer/devops |
-| Select isolated compute SKUs for Azure Data Explorer | https://learn.microsoft.com/en-us/azure/data-explorer/isolated-compute |
-| Use Azure Data Explorer pricing calculator for cluster planning | https://learn.microsoft.com/en-us/azure/data-explorer/pricing-calculator |
-| Migrate VNet-injected Azure Data Explorer clusters to private endpoints | https://learn.microsoft.com/en-us/azure/data-explorer/security-network-migrate-vnet-to-private-endpoint |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -204,13 +173,44 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Restrict outbound access from Azure Data Explorer clusters | https://learn.microsoft.com/en-us/azure/data-explorer/security-network-restrict-outbound-access |
 | Manage public network access to Azure Data Explorer | https://learn.microsoft.com/en-us/azure/data-explorer/security-network-restrict-public-access |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Interpret Azure Data Explorer ingestion error codes | https://learn.microsoft.com/en-us/azure/data-explorer/error-codes |
-| Resolve common Azure Data Explorer ingestion issues | https://learn.microsoft.com/en-us/azure/data-explorer/ingestion-faq |
-| Use Resource Health to diagnose Azure Data Explorer issues | https://learn.microsoft.com/en-us/azure/data-explorer/monitor-with-resource-health |
-| Troubleshoot Azure Data Explorer private endpoint connectivity | https://learn.microsoft.com/en-us/azure/data-explorer/security-network-private-endpoint-troubleshoot |
-| Fix Azure Data Explorer cluster connection issues | https://learn.microsoft.com/en-us/azure/data-explorer/troubleshoot-connect-cluster |
-| Troubleshoot Azure Data Explorer cluster creation failures | https://learn.microsoft.com/en-us/azure/data-explorer/troubleshoot-create-cluster |
-| Resolve Azure Data Explorer DB and table operation failures | https://learn.microsoft.com/en-us/azure/data-explorer/troubleshoot-database-table |
+| Automate Azure Data Explorer environment provisioning | https://learn.microsoft.com/en-us/azure/data-explorer/automated-deploy-overview |
+| Deploy Azure Data Explorer with confidential compute SKUs | https://learn.microsoft.com/en-us/azure/data-explorer/confidential-compute |
+| Deploy Azure Data Explorer schema via Azure DevOps | https://learn.microsoft.com/en-us/azure/data-explorer/devops |
+| Select isolated compute SKUs for Azure Data Explorer | https://learn.microsoft.com/en-us/azure/data-explorer/isolated-compute |
+| Use Azure Data Explorer pricing calculator for cluster planning | https://learn.microsoft.com/en-us/azure/data-explorer/pricing-calculator |
+| Migrate VNet-injected Azure Data Explorer clusters to private endpoints | https://learn.microsoft.com/en-us/azure/data-explorer/security-network-migrate-vnet-to-private-endpoint |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Apply Azure Advisor recommendations to optimize Azure Data Explorer clusters | https://learn.microsoft.com/en-us/azure/data-explorer/azure-advisor |
+| Monitor Azure Data Explorer cluster health metrics | https://learn.microsoft.com/en-us/azure/data-explorer/check-cluster-health |
+| Apply Azure Data Explorer duplicate data handling patterns | https://learn.microsoft.com/en-us/azure/data-explorer/dealing-with-duplicates |
+| Optimize Azure Data Explorer for high concurrency | https://learn.microsoft.com/en-us/azure/data-explorer/high-concurrency |
+| Use hot windows to query cold data efficiently | https://learn.microsoft.com/en-us/azure/data-explorer/hot-windows |
+| Handle invalid data during Azure Data Explorer ingestion | https://learn.microsoft.com/en-us/azure/data-explorer/ingest-invalid-data |
+| Ingest JSON into Azure Data Explorer with recommended patterns | https://learn.microsoft.com/en-us/azure/data-explorer/ingest-json-formats |
+| Monitor and tune queued ingestion in Azure Data Explorer | https://learn.microsoft.com/en-us/azure/data-explorer/monitor-queued-ingestion |
+| Apply Power BI best practices for Azure Data Explorer data | https://learn.microsoft.com/en-us/azure/data-explorer/power-bi-best-practices |
+| Optimize Azure Data Explorer cost per GB ingested | https://learn.microsoft.com/en-us/azure/data-explorer/pricing-cost-drivers |
+| Apply schema optimization best practices in Azure Data Explorer | https://learn.microsoft.com/en-us/azure/data-explorer/schema-best-practice |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Understand Azure Data Explorer reservation discount application | https://learn.microsoft.com/en-us/azure/data-explorer/pricing-reservation-discount |
+| Purchase Azure Data Explorer reserved capacity for savings | https://learn.microsoft.com/en-us/azure/data-explorer/pricing-reserved-capacity |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Implement Azure Data Explorer disaster recovery solutions | https://learn.microsoft.com/en-us/azure/data-explorer/business-continuity-create-solution |
+| Design Azure Data Explorer business continuity architecture | https://learn.microsoft.com/en-us/azure/data-explorer/business-continuity-overview |
+| Use follower databases for cross-cluster Azure Data Explorer access | https://learn.microsoft.com/en-us/azure/data-explorer/follower |
+| Architect Event Grid-based storage ingestion into Azure Data Explorer | https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-event-grid-overview |
+| Design continuous ingestion from Event Hubs to Azure Data Explorer | https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-event-hub-overview |
+| Choose and configure streaming ingestion for Azure Data Explorer | https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-streaming |
+| Choose Azure Data Explorer multi-tenant architecture | https://learn.microsoft.com/en-us/azure/data-explorer/multi-tenant |

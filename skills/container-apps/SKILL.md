@@ -31,30 +31,19 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Implement blue-green deployment with Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/blue-green-deployment |
-| Design and scope Azure Container Apps environments | https://learn.microsoft.com/en-us/azure/container-apps/environment |
-| Architect Azure Functions workloads on Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/functions-overview |
-| Design a highly available Eureka cluster on Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/java-eureka-server-highly-available |
-| Deploy Java microservices with managed components on Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/java-microservice-get-started |
-| Understand Java PetClinic AI architecture on Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/java-petclinic-ai-overview |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Apply cold-start reduction best practices in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/cold-start |
-| Optimize Java memory usage in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/java-memory-fit |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Calculate Azure Container Apps billing by plan type | https://learn.microsoft.com/en-us/azure/container-apps/billing |
-| Choose code-to-cloud deployment options for Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/code-to-cloud-options |
-| Choose between Azure container hosting options | https://learn.microsoft.com/en-us/azure/container-apps/compare-options |
-| Compare Nvidia GPU options in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/gpu-types |
-| Compare and select Azure Container Apps plan types | https://learn.microsoft.com/en-us/azure/container-apps/plans |
+| Use container debug console to troubleshoot Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/container-debug-console |
+| Use dynamic log levels to troubleshoot Java apps in Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/java-dynamic-log-level |
+| Diagnose container create failures in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/troubleshoot-container-create-failures |
+| Diagnose container start failures in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/troubleshoot-container-start-failures |
+| Fix health probe failures in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/troubleshoot-health-probe-failures |
+| Resolve image pull failures in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/troubleshoot-image-pull-failures |
+| Troubleshoot OCI runtime errors in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/troubleshoot-open-container-initiative-errors |
+| Troubleshoot storage mount failures in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/troubleshoot-storage-mount-failures |
+| Fix target port misconfigurations in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/troubleshoot-target-port-settings |
+| Troubleshoot Azure Container Apps using logs and config | https://learn.microsoft.com/en-us/azure/container-apps/troubleshooting |
 
 ### Configuration
 | Topic | URL |
@@ -101,19 +90,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Integrate Azure Container Apps environments with existing VNets | https://learn.microsoft.com/en-us/azure/container-apps/vnet-custom |
 | Manage workload profiles in Container Apps with Azure CLI | https://learn.microsoft.com/en-us/azure/container-apps/workload-profiles-manage-cli |
 | Manage workload profiles in Container Apps via Azure portal | https://learn.microsoft.com/en-us/azure/container-apps/workload-profiles-manage-portal |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Publish Container Apps revisions with Azure Pipelines | https://learn.microsoft.com/en-us/azure/container-apps/azure-pipelines |
-| Deploy Docker Compose agent apps to Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/compose-agent |
-| Deploy Container Apps using az containerapp up | https://learn.microsoft.com/en-us/azure/container-apps/containerapp-up |
-| Scale Dapr apps with KEDA in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/dapr-keda-scaling |
-| Publish Container Apps revisions with GitHub Actions | https://learn.microsoft.com/en-us/azure/container-apps/github-actions |
-| Generate Container Apps GitHub Actions workflows via CLI | https://learn.microsoft.com/en-us/azure/container-apps/github-actions-cli |
-| Create zone-redundant Azure Container Apps in a virtual network | https://learn.microsoft.com/en-us/azure/container-apps/how-to-zone-redundancy |
-| Run self-hosted CI/CD runners using Container Apps jobs | https://learn.microsoft.com/en-us/azure/container-apps/tutorial-ci-cd-runners-jobs |
-| Build and deploy microservices to Container Apps from source | https://learn.microsoft.com/en-us/azure/container-apps/tutorial-code-to-cloud |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -174,16 +150,40 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Control Container Apps outbound traffic with Azure Firewall UDRs | https://learn.microsoft.com/en-us/azure/container-apps/user-defined-routes |
 | Protect Container Apps with Application Gateway WAF | https://learn.microsoft.com/en-us/azure/container-apps/waf-app-gateway |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Use container debug console to troubleshoot Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/container-debug-console |
-| Use dynamic log levels to troubleshoot Java apps in Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/java-dynamic-log-level |
-| Diagnose container create failures in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/troubleshoot-container-create-failures |
-| Diagnose container start failures in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/troubleshoot-container-start-failures |
-| Fix health probe failures in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/troubleshoot-health-probe-failures |
-| Resolve image pull failures in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/troubleshoot-image-pull-failures |
-| Troubleshoot OCI runtime errors in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/troubleshoot-open-container-initiative-errors |
-| Troubleshoot storage mount failures in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/troubleshoot-storage-mount-failures |
-| Fix target port misconfigurations in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/troubleshoot-target-port-settings |
-| Troubleshoot Azure Container Apps using logs and config | https://learn.microsoft.com/en-us/azure/container-apps/troubleshooting |
+| Publish Container Apps revisions with Azure Pipelines | https://learn.microsoft.com/en-us/azure/container-apps/azure-pipelines |
+| Deploy Docker Compose agent apps to Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/compose-agent |
+| Deploy Container Apps using az containerapp up | https://learn.microsoft.com/en-us/azure/container-apps/containerapp-up |
+| Scale Dapr apps with KEDA in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/dapr-keda-scaling |
+| Publish Container Apps revisions with GitHub Actions | https://learn.microsoft.com/en-us/azure/container-apps/github-actions |
+| Generate Container Apps GitHub Actions workflows via CLI | https://learn.microsoft.com/en-us/azure/container-apps/github-actions-cli |
+| Create zone-redundant Azure Container Apps in a virtual network | https://learn.microsoft.com/en-us/azure/container-apps/how-to-zone-redundancy |
+| Run self-hosted CI/CD runners using Container Apps jobs | https://learn.microsoft.com/en-us/azure/container-apps/tutorial-ci-cd-runners-jobs |
+| Build and deploy microservices to Container Apps from source | https://learn.microsoft.com/en-us/azure/container-apps/tutorial-code-to-cloud |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Apply cold-start reduction best practices in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/cold-start |
+| Optimize Java memory usage in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/java-memory-fit |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Calculate Azure Container Apps billing by plan type | https://learn.microsoft.com/en-us/azure/container-apps/billing |
+| Choose code-to-cloud deployment options for Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/code-to-cloud-options |
+| Choose between Azure container hosting options | https://learn.microsoft.com/en-us/azure/container-apps/compare-options |
+| Compare Nvidia GPU options in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/gpu-types |
+| Compare and select Azure Container Apps plan types | https://learn.microsoft.com/en-us/azure/container-apps/plans |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Implement blue-green deployment with Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/blue-green-deployment |
+| Design and scope Azure Container Apps environments | https://learn.microsoft.com/en-us/azure/container-apps/environment |
+| Architect Azure Functions workloads on Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/functions-overview |
+| Design a highly available Eureka cluster on Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/java-eureka-server-highly-available |
+| Deploy Java microservices with managed components on Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/java-microservice-get-started |
+| Understand Java PetClinic AI architecture on Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/java-petclinic-ai-overview |

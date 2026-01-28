@@ -31,32 +31,15 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Use API Management capacity metrics for scaling decisions | https://learn.microsoft.com/en-us/azure/api-management/api-management-capacity |
-| Architect APIM with Application Gateway front end | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-integrate-internal-vnet-appgateway |
-| Architect API Management with AKS-based microservices | https://learn.microsoft.com/en-us/azure/api-management/api-management-kubernetes |
-| Choose alternative approaches for self-hosted developer portal | https://learn.microsoft.com/en-us/azure/api-management/developer-portal-alternative-processes-self-host |
-| Front Azure API Management with Azure Front Door | https://learn.microsoft.com/en-us/azure/api-management/front-door-api-management |
-| Use API Management features to support API monetization | https://learn.microsoft.com/en-us/azure/api-management/monetization-support |
-| Use sustainability features in Azure API Management gateways | https://learn.microsoft.com/en-us/azure/api-management/sustainability |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Configure response caching in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-cache |
-| Implement advanced throttling in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-sample-flexible-throttling |
-| Set up tests for self-hosted API Management portal | https://learn.microsoft.com/en-us/azure/api-management/developer-portal-testing |
-| Run API Management self-hosted gateway on Kubernetes in production | https://learn.microsoft.com/en-us/azure/api-management/how-to-self-hosted-gateway-on-kubernetes-in-production |
-| Configure server-sent events (SSE) APIs in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/how-to-server-sent-events |
-| Mitigate OWASP API Security Top 10 threats with Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/mitigate-owasp-api-threats |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Compare Azure API Management pricing tier features | https://learn.microsoft.com/en-us/azure/api-management/api-management-features |
-| Migrate from Amazon API Gateway to Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/migrate-amazon-api-gateway-to-api-management |
+| Handle errors in Azure API Management policies | https://learn.microsoft.com/en-us/azure/api-management/api-management-error-handling-policies |
+| Trace and debug Azure API Management requests | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-api-inspector |
+| Fix Key Vault certificate errors when adding custom domain in API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-troubleshoot-cannot-add-custom-domain |
+| Troubleshoot common Azure API Management developer portal issues | https://learn.microsoft.com/en-us/azure/api-management/developer-portal-faq |
+| Use Diagnose and Solve Problems for API Management issues | https://learn.microsoft.com/en-us/azure/api-management/diagnose-solve-problems |
+| Troubleshoot SNAT port exhaustion and timeouts in API Management | https://learn.microsoft.com/en-us/azure/api-management/troubleshoot-response-timeout-and-errors |
 
 ### Configuration
 | Topic | URL |
@@ -167,28 +150,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Convert XML to JSON with API Management xml-to-json policy | https://learn.microsoft.com/en-us/azure/api-management/xml-to-json-policy |
 | Apply XSL transformations with API Management xsl-transform policy | https://learn.microsoft.com/en-us/azure/api-management/xsl-transform-policy |
 
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Configure autoscale rules for Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-autoscale |
-| Deploy Azure API Management to multiple regions | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-deploy-multi-region |
-| Backup and restore Azure API Management for disaster recovery | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-disaster-recovery-backup-restore |
-| Migrate Azure API Management instances between regions | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-migrate |
-| Check regional availability of APIM v2 tiers and gateways | https://learn.microsoft.com/en-us/azure/api-management/api-management-region-availability |
-| Deploy Azure API Management to an external virtual network | https://learn.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet |
-| Automate deployment of API Management developer portal content | https://learn.microsoft.com/en-us/azure/api-management/automate-portal-deployments |
-| Self-host Azure API Management developer portal | https://learn.microsoft.com/en-us/azure/api-management/developer-portal-self-host |
-| Design DevOps and CI/CD pipelines for Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/devops-api-development-templates |
-| Enable availability zones for Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/enable-availability-zone-support |
-| Deploy API Management self-hosted gateway with Azure Arc | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-azure-arc |
-| Deploy self-hosted API Management gateway to AKS | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-azure-kubernetes-service |
-| Deploy API Management self-hosted gateway to Azure Container Apps | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-container-apps |
-| Deploy self-hosted API Management gateway to Docker | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-docker |
-| Deploy self-hosted API Management gateway to Kubernetes with YAML | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-kubernetes |
-| Deploy self-hosted API Management gateway to Kubernetes with Helm | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-kubernetes-helm |
-| Deploy self-hosted API Management gateway with OpenTelemetry | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-kubernetes-opentelemetry |
-| Upgrade and scale Azure API Management instances | https://learn.microsoft.com/en-us/azure/api-management/upgrade-and-scale |
-
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
@@ -273,12 +234,51 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure validate-jwt policy in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/validate-jwt-policy |
 | Secure API Management with Azure virtual network options | https://learn.microsoft.com/en-us/azure/api-management/virtual-network-concepts |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Handle errors in Azure API Management policies | https://learn.microsoft.com/en-us/azure/api-management/api-management-error-handling-policies |
-| Trace and debug Azure API Management requests | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-api-inspector |
-| Fix Key Vault certificate errors when adding custom domain in API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-troubleshoot-cannot-add-custom-domain |
-| Troubleshoot common Azure API Management developer portal issues | https://learn.microsoft.com/en-us/azure/api-management/developer-portal-faq |
-| Use Diagnose and Solve Problems for API Management issues | https://learn.microsoft.com/en-us/azure/api-management/diagnose-solve-problems |
-| Troubleshoot SNAT port exhaustion and timeouts in API Management | https://learn.microsoft.com/en-us/azure/api-management/troubleshoot-response-timeout-and-errors |
+| Configure autoscale rules for Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-autoscale |
+| Deploy Azure API Management to multiple regions | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-deploy-multi-region |
+| Backup and restore Azure API Management for disaster recovery | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-disaster-recovery-backup-restore |
+| Migrate Azure API Management instances between regions | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-migrate |
+| Check regional availability of APIM v2 tiers and gateways | https://learn.microsoft.com/en-us/azure/api-management/api-management-region-availability |
+| Deploy Azure API Management to an external virtual network | https://learn.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet |
+| Automate deployment of API Management developer portal content | https://learn.microsoft.com/en-us/azure/api-management/automate-portal-deployments |
+| Self-host Azure API Management developer portal | https://learn.microsoft.com/en-us/azure/api-management/developer-portal-self-host |
+| Design DevOps and CI/CD pipelines for Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/devops-api-development-templates |
+| Enable availability zones for Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/enable-availability-zone-support |
+| Deploy API Management self-hosted gateway with Azure Arc | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-azure-arc |
+| Deploy self-hosted API Management gateway to AKS | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-azure-kubernetes-service |
+| Deploy API Management self-hosted gateway to Azure Container Apps | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-container-apps |
+| Deploy self-hosted API Management gateway to Docker | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-docker |
+| Deploy self-hosted API Management gateway to Kubernetes with YAML | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-kubernetes |
+| Deploy self-hosted API Management gateway to Kubernetes with Helm | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-kubernetes-helm |
+| Deploy self-hosted API Management gateway with OpenTelemetry | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-kubernetes-opentelemetry |
+| Upgrade and scale Azure API Management instances | https://learn.microsoft.com/en-us/azure/api-management/upgrade-and-scale |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Configure response caching in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-cache |
+| Implement advanced throttling in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-sample-flexible-throttling |
+| Set up tests for self-hosted API Management portal | https://learn.microsoft.com/en-us/azure/api-management/developer-portal-testing |
+| Run API Management self-hosted gateway on Kubernetes in production | https://learn.microsoft.com/en-us/azure/api-management/how-to-self-hosted-gateway-on-kubernetes-in-production |
+| Configure server-sent events (SSE) APIs in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/how-to-server-sent-events |
+| Mitigate OWASP API Security Top 10 threats with Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/mitigate-owasp-api-threats |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Compare Azure API Management pricing tier features | https://learn.microsoft.com/en-us/azure/api-management/api-management-features |
+| Migrate from Amazon API Gateway to Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/migrate-amazon-api-gateway-to-api-management |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Use API Management capacity metrics for scaling decisions | https://learn.microsoft.com/en-us/azure/api-management/api-management-capacity |
+| Architect APIM with Application Gateway front end | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-integrate-internal-vnet-appgateway |
+| Architect API Management with AKS-based microservices | https://learn.microsoft.com/en-us/azure/api-management/api-management-kubernetes |
+| Choose alternative approaches for self-hosted developer portal | https://learn.microsoft.com/en-us/azure/api-management/developer-portal-alternative-processes-self-host |
+| Front Azure API Management with Azure Front Door | https://learn.microsoft.com/en-us/azure/api-management/front-door-api-management |
+| Use API Management features to support API monetization | https://learn.microsoft.com/en-us/azure/api-management/monetization-support |
+| Use sustainability features in Azure API Management gateways | https://learn.microsoft.com/en-us/azure/api-management/sustainability |

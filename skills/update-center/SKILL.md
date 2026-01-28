@@ -31,16 +31,10 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Best Practices
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Apply patching best practices for SQL Server on Azure VMs | https://learn.microsoft.com/en-us/azure/update-manager/guidance-patching-sql-server-azure-vm |
-| Handle Ubuntu security awareness and Pro support in Update Manager | https://learn.microsoft.com/en-us/azure/update-manager/security-awareness-ubuntu-support |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Map Configuration Manager patching to Azure Update Manager | https://learn.microsoft.com/en-us/azure/update-manager/guidance-migration-azure |
+| Troubleshoot errors and issues in Azure Update Manager | https://learn.microsoft.com/en-us/azure/update-manager/troubleshoot |
 
 ### Configuration
 | Topic | URL |
@@ -82,7 +76,13 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Enable secure cross-subscription patching with roles and CLI | https://learn.microsoft.com/en-us/azure/update-manager/enable-cross-subscription-patching |
 | Assign roles and permissions for Azure Update Manager | https://learn.microsoft.com/en-us/azure/update-manager/roles-permissions |
 
-### Troubleshooting
+### Best Practices
 | Topic | URL |
 |-------|-----|
-| Troubleshoot errors and issues in Azure Update Manager | https://learn.microsoft.com/en-us/azure/update-manager/troubleshoot |
+| Apply patching best practices for SQL Server on Azure VMs | https://learn.microsoft.com/en-us/azure/update-manager/guidance-patching-sql-server-azure-vm |
+| Handle Ubuntu security awareness and Pro support in Update Manager | https://learn.microsoft.com/en-us/azure/update-manager/security-awareness-ubuntu-support |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Map Configuration Manager patching to Azure Update Manager | https://learn.microsoft.com/en-us/azure/update-manager/guidance-migration-azure |

@@ -31,29 +31,11 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Design and deploy Microsoft Antimalware for Azure workloads | https://learn.microsoft.com/en-us/azure/security/fundamentals/antimalware |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Design Azure backup and restore plans against ransomware | https://learn.microsoft.com/en-us/azure/security/fundamentals/backup-plan-to-protect-against-ransomware |
-| Implement Azure data security and encryption best practices | https://learn.microsoft.com/en-us/azure/security/fundamentals/data-encryption-best-practices |
-| Apply Azure SQL database security checklist controls | https://learn.microsoft.com/en-us/azure/security/fundamentals/database-security-checklist |
-| Apply Azure IaaS VM security best practices | https://learn.microsoft.com/en-us/azure/security/fundamentals/iaas |
-| Apply Azure identity and access security best practices | https://learn.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices |
-| Apply Azure network security best practices | https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices |
-| Design and deploy secure Azure PaaS applications | https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-deployments |
-| Apply Azure best practices to prepare for ransomware | https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-prepare |
-| Use Azure Firewall Premium to mitigate ransomware | https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-protection-with-azure-firewall |
-| Protect secrets across Azure services and pipelines | https://learn.microsoft.com/en-us/azure/security/fundamentals/secrets-best-practices |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Choose between Azure key management offerings | https://learn.microsoft.com/en-us/azure/security/fundamentals/key-management-choose |
+| Resolve common Customer Lockbox for Azure issues | https://learn.microsoft.com/en-us/azure/security/fundamentals/customer-lockbox-faq |
+| Detect and respond to ransomware incidents in Azure | https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-detect-respond |
 
 ### Configuration
 | Topic | URL |
@@ -62,11 +44,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Get started configuring Microsoft Threat Modeling Tool | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-getting-started |
 | Reference Azure service and API endpoint domains | https://learn.microsoft.com/en-us/azure/security/fundamentals/azure-domains |
 | Configure Azure-native features for ransomware defense | https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-features-resources |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Check Azure vs. Azure Government security feature availability | https://learn.microsoft.com/en-us/azure/security/fundamentals/feature-availability |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -115,8 +92,31 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Mitigate Azure subdomain takeover risks with DNS and App Service | https://learn.microsoft.com/en-us/azure/security/fundamentals/subdomain-takeover |
 | Understand Trusted Hardware Identity Management in Azure | https://learn.microsoft.com/en-us/azure/security/fundamentals/trusted-hardware-identity-management |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Resolve common Customer Lockbox for Azure issues | https://learn.microsoft.com/en-us/azure/security/fundamentals/customer-lockbox-faq |
-| Detect and respond to ransomware incidents in Azure | https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-detect-respond |
+| Check Azure vs. Azure Government security feature availability | https://learn.microsoft.com/en-us/azure/security/fundamentals/feature-availability |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Design Azure backup and restore plans against ransomware | https://learn.microsoft.com/en-us/azure/security/fundamentals/backup-plan-to-protect-against-ransomware |
+| Implement Azure data security and encryption best practices | https://learn.microsoft.com/en-us/azure/security/fundamentals/data-encryption-best-practices |
+| Apply Azure SQL database security checklist controls | https://learn.microsoft.com/en-us/azure/security/fundamentals/database-security-checklist |
+| Apply Azure IaaS VM security best practices | https://learn.microsoft.com/en-us/azure/security/fundamentals/iaas |
+| Apply Azure identity and access security best practices | https://learn.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices |
+| Apply Azure network security best practices | https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices |
+| Design and deploy secure Azure PaaS applications | https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-deployments |
+| Apply Azure best practices to prepare for ransomware | https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-prepare |
+| Use Azure Firewall Premium to mitigate ransomware | https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-protection-with-azure-firewall |
+| Protect secrets across Azure services and pipelines | https://learn.microsoft.com/en-us/azure/security/fundamentals/secrets-best-practices |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Choose between Azure key management offerings | https://learn.microsoft.com/en-us/azure/security/fundamentals/key-management-choose |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Design and deploy Microsoft Antimalware for Azure workloads | https://learn.microsoft.com/en-us/azure/security/fundamentals/antimalware |

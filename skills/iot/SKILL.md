@@ -31,24 +31,10 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Use IoT Plug and Play models in solution architectures | https://learn.microsoft.com/en-us/azure/iot/concepts-model-discovery |
-| Design IoT Plug and Play device models with DTDL | https://learn.microsoft.com/en-us/azure/iot/concepts-modeling-guide |
-| Enable industrial dataspace architectures on Azure | https://learn.microsoft.com/en-us/azure/iot/howto-iot-industrial-dataspaces |
-| Implement Azure industrial IoT reference architecture | https://learn.microsoft.com/en-us/azure/iot/tutorial-iot-industrial-solution-architecture |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Implement resilient Azure IoT device reconnection strategies | https://learn.microsoft.com/en-us/azure/iot/concepts-manage-device-reconnections |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Select the right Azure IoT C-based device SDK | https://learn.microsoft.com/en-us/azure/iot/concepts-using-c-sdk-and-embedded-c-sdk |
-| Choose appropriate Azure IoT services for solutions | https://learn.microsoft.com/en-us/azure/iot/iot-services-and-technologies |
+| Troubleshoot Azure IoT embedded device tutorials | https://learn.microsoft.com/en-us/azure/iot/troubleshoot-embedded-device-tutorials |
 
 ### Configuration
 | Topic | URL |
@@ -71,7 +57,21 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 |-------|-----|
 | Apply Azure IoT security practices for devices and data | https://learn.microsoft.com/en-us/azure/iot/iot-overview-security |
 
-### Troubleshooting
+### Best Practices
 | Topic | URL |
 |-------|-----|
-| Troubleshoot Azure IoT embedded device tutorials | https://learn.microsoft.com/en-us/azure/iot/troubleshoot-embedded-device-tutorials |
+| Implement resilient Azure IoT device reconnection strategies | https://learn.microsoft.com/en-us/azure/iot/concepts-manage-device-reconnections |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Select the right Azure IoT C-based device SDK | https://learn.microsoft.com/en-us/azure/iot/concepts-using-c-sdk-and-embedded-c-sdk |
+| Choose appropriate Azure IoT services for solutions | https://learn.microsoft.com/en-us/azure/iot/iot-services-and-technologies |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Use IoT Plug and Play models in solution architectures | https://learn.microsoft.com/en-us/azure/iot/concepts-model-discovery |
+| Design IoT Plug and Play device models with DTDL | https://learn.microsoft.com/en-us/azure/iot/concepts-modeling-guide |
+| Enable industrial dataspace architectures on Azure | https://learn.microsoft.com/en-us/azure/iot/howto-iot-industrial-dataspaces |
+| Implement Azure industrial IoT reference architecture | https://learn.microsoft.com/en-us/azure/iot/tutorial-iot-industrial-solution-architecture |

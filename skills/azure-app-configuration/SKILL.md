@@ -31,16 +31,11 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Design resiliency and disaster recovery with Azure App Configuration | https://learn.microsoft.com/en-us/azure/azure-app-configuration/concept-disaster-recovery |
-| Design hyperscale client configuration with App Configuration and Front Door | https://learn.microsoft.com/en-us/azure/azure-app-configuration/concept-hyperscale-client-configuration |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Apply Azure App Configuration usage best practices | https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-best-practices |
+| Troubleshoot Azure App Configuration network access errors | https://learn.microsoft.com/en-us/azure/azure-app-configuration/network-access-errors |
+| Handle Azure App Configuration REST API version errors | https://learn.microsoft.com/en-us/azure/azure-app-configuration/rest-api-versioning |
 
 ### Configuration
 | Topic | URL |
@@ -71,16 +66,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure Azure App Configuration Kubernetes Provider properties | https://learn.microsoft.com/en-us/azure/azure-app-configuration/reference-kubernetes-provider |
 | Use synchronization tokens for App Configuration REST consistency | https://learn.microsoft.com/en-us/azure/azure-app-configuration/rest-api-consistency |
 | HTTP headers reference for App Configuration REST API | https://learn.microsoft.com/en-us/azure/azure-app-configuration/rest-api-headers |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Export App Configuration settings with Azure Pipelines | https://learn.microsoft.com/en-us/azure/azure-app-configuration/azure-pipeline-export-task |
-| Import configuration into App Configuration using Azure Pipelines | https://learn.microsoft.com/en-us/azure/azure-app-configuration/azure-pipeline-import-task |
-| Create App Configuration snapshots using Azure Pipelines | https://learn.microsoft.com/en-us/azure/azure-app-configuration/azure-pipeline-snapshot-task |
-| Integrate Azure App Configuration into CI/CD pipelines | https://learn.microsoft.com/en-us/azure/azure-app-configuration/integrate-ci-cd-pipeline |
-| Use Azure App Configuration with Kubernetes Helm deployments | https://learn.microsoft.com/en-us/azure/azure-app-configuration/integrate-kubernetes-deployment-helm |
-| Sync GitHub configuration files to App Configuration with GitHub Actions | https://learn.microsoft.com/en-us/azure/azure-app-configuration/push-kv-github-action |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -187,8 +172,23 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Authorization models for Azure App Configuration REST API | https://learn.microsoft.com/en-us/azure/azure-app-configuration/rest-api-authorization-index |
 | Azure Policy regulatory compliance mappings for App Configuration | https://learn.microsoft.com/en-us/azure/azure-app-configuration/security-controls-policy |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Troubleshoot Azure App Configuration network access errors | https://learn.microsoft.com/en-us/azure/azure-app-configuration/network-access-errors |
-| Handle Azure App Configuration REST API version errors | https://learn.microsoft.com/en-us/azure/azure-app-configuration/rest-api-versioning |
+| Export App Configuration settings with Azure Pipelines | https://learn.microsoft.com/en-us/azure/azure-app-configuration/azure-pipeline-export-task |
+| Import configuration into App Configuration using Azure Pipelines | https://learn.microsoft.com/en-us/azure/azure-app-configuration/azure-pipeline-import-task |
+| Create App Configuration snapshots using Azure Pipelines | https://learn.microsoft.com/en-us/azure/azure-app-configuration/azure-pipeline-snapshot-task |
+| Integrate Azure App Configuration into CI/CD pipelines | https://learn.microsoft.com/en-us/azure/azure-app-configuration/integrate-ci-cd-pipeline |
+| Use Azure App Configuration with Kubernetes Helm deployments | https://learn.microsoft.com/en-us/azure/azure-app-configuration/integrate-kubernetes-deployment-helm |
+| Sync GitHub configuration files to App Configuration with GitHub Actions | https://learn.microsoft.com/en-us/azure/azure-app-configuration/push-kv-github-action |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Apply Azure App Configuration usage best practices | https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-best-practices |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Design resiliency and disaster recovery with Azure App Configuration | https://learn.microsoft.com/en-us/azure/azure-app-configuration/concept-disaster-recovery |
+| Design hyperscale client configuration with App Configuration and Front Door | https://learn.microsoft.com/en-us/azure/azure-app-configuration/concept-hyperscale-client-configuration |

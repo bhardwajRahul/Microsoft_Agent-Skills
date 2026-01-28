@@ -31,11 +31,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Apply responsible integration practices for Trial Matcher | https://learn.microsoft.com/en-us/azure/azure-health-insights/trial-matcher/integration-and-responsible-use |
-
 ### Configuration
 | Topic | URL |
 |-------|-----|
@@ -61,3 +56,8 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Topic | URL |
 |-------|-----|
 | Understand data handling and security for Azure AI Health Insights | https://learn.microsoft.com/en-us/azure/azure-health-insights/responsible-ai/data-privacy-security |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Apply responsible integration practices for Trial Matcher | https://learn.microsoft.com/en-us/azure/azure-health-insights/trial-matcher/integration-and-responsible-use |

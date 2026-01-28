@@ -31,60 +31,48 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Enterprise monitoring reference architecture with Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/enterprise-monitoring-architecture |
-| Use availability zones for Log Analytics resilience | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/availability-zones |
-| Plan and use Azure Monitor Logs dedicated clusters | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters |
-| Design Azure Monitor Private Link architectures | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-design |
-| Design single vs multiple Log Analytics workspaces | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/workspace-design |
-| Design resilient logging with Log Analytics workspace replication | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/workspace-replication |
-| Migration patterns from self-hosted Prometheus to Azure Monitor managed service | https://learn.microsoft.com/en-us/azure/azure-monitor/metrics/prometheus-migrate |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Apply best practices for Copilot observability agent | https://learn.microsoft.com/en-us/azure/azure-monitor/aiops/observability-agent-best-practices |
-| Optimize Azure Monitor log alert queries | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-log-query |
-| Apply Azure Monitor alerting best practices | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/best-practices-alerts |
-| Apply autoscale best practices in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-best-practices |
-| Avoid autoscale flapping with Azure Monitor rules | https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-flapping |
-| Implement Well-Architected monitoring for AKS and Arc clusters | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/best-practices-containers |
-| Optimize Container insights monitoring costs in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-cost |
-| Monitor AKS network using Azure Monitor metrics and logs | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-network-monitoring |
-| Design cost-effective alerting for AKS in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/cost-effective-alerting |
-| Apply Kubernetes monitoring best practices with Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/monitor-kubernetes |
-| Plan high-scale Prometheus scraping performance in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/prometheus-metrics-scrape-scale |
-| Best practices for organizing and managing Azure Monitor DCRs | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-rule-best-practices |
-| Optimize Azure Monitor costs with configuration | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/best-practices-cost |
-| Best practices for multicloud monitoring with Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/best-practices-multicloud |
-| Configure Azure Monitor for operational excellence | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/best-practices-operation |
-| Improve Azure Monitor performance efficiency | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/best-practices-performance |
-| Apply reliability best practices in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/best-practices-reliability |
-| Analyze Log Analytics usage to control Azure Monitor costs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/analyze-usage |
-| Apply Well-Architected best practices to Azure Monitor Log Analytics workspaces | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/best-practices-logs |
-| Migrate from HTTP Data Collector API to Logs Ingestion API | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/custom-logs-migrate |
-| Monitor Log Analytics operational issues via Operation table | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/monitor-workspace |
-| Identify and manage personal data in Azure Monitor Logs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/personal-data-mgmt |
-| Optimize Azure Monitor log queries for performance | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/query-optimization |
-| Choose scope and time range for Log Analytics queries | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/scope |
-| Best practices for scaling Azure Monitor Prometheus workspaces | https://learn.microsoft.com/en-us/azure/azure-monitor/metrics/azure-monitor-workspace-scaling-best-practice |
-| Optimize Azure Monitor metrics usage and costs | https://learn.microsoft.com/en-us/azure/azure-monitor/metrics/metrics-usage-insights |
-| Apply PromQL best practices to OpenTelemetry metrics in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/metrics/prometheus-opentelemetry-best-practices |
-| Query OpenTelemetry system and Guest OS metrics with PromQL | https://learn.microsoft.com/en-us/azure/azure-monitor/metrics/prometheus-system-metrics-best-practices |
-| Use Code Optimizations and Profiler to improve .NET performance | https://learn.microsoft.com/en-us/azure/azure-monitor/optimization-insights/code-optimizations-profiler-overview |
-| Choose and apply Azure Monitor visualization tools | https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/best-practices-visualize |
-| Apply VM monitoring best practices in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/vm/best-practices-vm |
-| Design and configure alert rules for VM monitoring | https://learn.microsoft.com/en-us/azure/azure-monitor/vm/monitor-virtual-machine-alerts |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Choose between Azure Monitor metrics data plane API and metrics export | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-plane-versus-metrics-export |
-| Decide how to migrate from SCOM to Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/azure-monitor-operations-manager |
-| Choose parsing options for Azure Monitor logs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/parse-text |
-| Choose Grafana options to visualize Azure Monitor data | https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/visualize-grafana-overview |
+| Troubleshoot Log Analytics agent for Linux | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agent-linux-troubleshoot |
+| Troubleshoot Log Analytics agent for Windows | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agent-windows-troubleshoot |
+| Troubleshoot Azure Monitor Agent on Linux VMs and scale sets | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-troubleshoot-linux-vm |
+| Troubleshoot rsyslog integration with Azure Monitor Agent | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-troubleshoot-linux-vm-rsyslog |
+| Troubleshoot Azure Monitor Agent on Windows Arc servers | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-troubleshoot-windows-arc |
+| Troubleshoot Azure Monitor Agent on Windows VMs and scale sets | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-troubleshoot-windows-vm |
+| Troubleshoot Azure Diagnostics extension issues | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/diagnostics-extension-troubleshooting |
+| Run Linux AMA troubleshooter to diagnose agent issues | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/troubleshooter-ama-linux |
+| Run Windows AMA troubleshooter to diagnose agent issues | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/troubleshooter-ama-windows |
+| Troubleshoot Azure Log Analytics VM extension problems | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/vmext-troubleshoot |
+| Troubleshoot Azure Copilot observability investigations | https://learn.microsoft.com/en-us/azure/azure-monitor/aiops/observability-agent-troubleshooting |
+| Create and troubleshoot tenant-level service health alerts | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-tenant-level-service-heath-alerts |
+| Troubleshoot common Azure Monitor alert issues | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-troubleshoot |
+| Resolve issues with Azure Monitor log alerts | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-troubleshoot-log |
+| Diagnose and fix Azure metric alert problems | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-troubleshoot-metric |
+| Use the ITSMC dashboard to investigate connector errors | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-dashboard |
+| Resolve common ITSMC dashboard connector status errors | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-dashboard-errors |
+| Fix ServiceNow sync and token issues for ITSMC | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-resync-servicenow |
+| Troubleshoot Azure Monitor ITSM Connector issues | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-troubleshoot-overview |
+| Troubleshoot test action group notification errors | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/test-action-group-errors |
+| Troubleshoot and get support for OpenTelemetry in Application Insights | https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-help-support-feedback |
+| Troubleshoot telemetry loss using Application Insights SDK stats | https://learn.microsoft.com/en-us/azure/azure-monitor/app/sdk-stats |
+| Troubleshoot Azure Monitor autoscale issues and errors | https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-troubleshoot |
+| Use Live Data in Container insights for real-time troubleshooting | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-livedata-overview |
+| Troubleshoot Container insights Kubernetes log collection issues | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-troubleshoot |
+| Troubleshoot Prometheus metrics collection in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/prometheus-metrics-troubleshoot |
+| Monitor and troubleshoot DCR-based data collection in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-monitor |
+| Resolve Azure Monitor Log Analytics API errors | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/api/errors |
+| Troubleshoot stopped data collection in Azure Monitor Logs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-collection-troubleshoot |
+| Monitor and troubleshoot ingestion and query issues in Azure Monitor workspaces | https://learn.microsoft.com/en-us/azure/azure-monitor/metrics/azure-monitor-workspace-monitor-health |
+| Troubleshoot Azure Monitor metric chart issues | https://learn.microsoft.com/en-us/azure/azure-monitor/metrics/metrics-troubleshoot |
+| Troubleshoot Application Insights Code Optimizations | https://learn.microsoft.com/en-us/azure/azure-monitor/optimization-insights/code-optimizations-troubleshoot |
+| Troubleshoot Application Insights Profiler for .NET | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler-troubleshooting |
+| FAQ for migrating from Azure Monitor SCOM Managed Instance | https://learn.microsoft.com/en-us/azure/azure-monitor/scom-manage-instance/migration-faq-scom-manage-instance |
+| Troubleshoot Application Insights Snapshot Debugger | https://learn.microsoft.com/en-us/azure/azure-monitor/snapshot-debugger/snapshot-debugger-troubleshoot |
+| Troubleshoot Azure Monitor workbook-based insights issues | https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/troubleshoot-workbooks |
+| Diagnose Azure VM performance issues with Performance Diagnostics | https://learn.microsoft.com/en-us/azure/azure-monitor/vm/performance-diagnostics |
+| Interpret PerfInsights performance diagnostics reports for VMs | https://learn.microsoft.com/en-us/azure/azure-monitor/vm/performance-diagnostics-analyze |
+| Troubleshoot VM insights agent installation and usage issues | https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-troubleshoot |
 
 ### Configuration
 | Topic | URL |
@@ -267,36 +255,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Disable VM insights monitoring for Azure virtual machines | https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-optout |
 | Create and customize VM insights workbooks for reporting | https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-workbooks |
 
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Install, update, and manage Azure Monitor Agent on VMs | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-manage |
-| Verify Azure Monitor Agent requirements and prerequisites | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-requirements |
-| Check supported operating systems for Azure Monitor Agent | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-supported-operating-systems |
-| Install and manage Azure Monitor Agent on Windows clients | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-windows-client |
-| Deploy Azure Monitor agents using ARM template samples | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/resource-manager-agent |
-| Deploy Azure Monitor alert rules via CLI, PowerShell, ARM | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-rule-cli-powershell-arm |
-| Create Azure Monitor metric alerts via CLI | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/azure-cli-metrics-alert-sample |
-| Deploy Application Insights Agent for IIS-hosted ASP.NET apps | https://learn.microsoft.com/en-us/azure/azure-monitor/app/application-insights-asp-net-agent |
-| Deploy Application Insights monitoring to Azure VMs and VM scale sets | https://learn.microsoft.com/en-us/azure/azure-monitor/app/azure-vm-vmss-apps |
-| Enable Application Insights autoinstrumentation on Azure App Service | https://learn.microsoft.com/en-us/azure/azure-monitor/app/codeless-app-service |
-| Onboard AKS workloads to Application Insights with codeless monitoring | https://learn.microsoft.com/en-us/azure/azure-monitor/app/kubernetes-codeless |
-| Enable Azure Monitor features for AKS cluster monitoring | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/kubernetes-monitoring-enable |
-| Enable Azure Monitor monitoring for Arc-enabled Kubernetes | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/kubernetes-monitoring-enable-arc |
-| Migrate from batch and beta Log Analytics APIs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/api/migrate-batch-and-beta |
-| Move Log Analytics workspaces across subscriptions and resource groups | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/move-workspace |
-| Enable Application Insights Profiler for .NET on Azure App Service (Windows) | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler |
-| Enable .NET Profiler for ASP.NET Core apps on Linux App Service | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler-aspnetcore-linux |
-| Enable Application Insights Profiler for .NET on Azure Functions | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler-azure-functions |
-| Enable Application Insights Profiler for .NET in Azure containers | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler-containers |
-| Deploy Application Insights Profiler for .NET to Service Fabric clusters | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler-servicefabric |
-| Run Application Insights Profiler for .NET on Azure VMs and scale sets | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler-vm |
-| Migrate SCOM Managed Instance to Azure Monitor DCRs | https://learn.microsoft.com/en-us/azure/azure-monitor/scom-manage-instance/migrate-to-azure-monitor |
-| Deploy Azure Monitor workbooks with ARM templates | https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-automate |
-| Move Azure Monitor workbooks between regions | https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-move-region |
-| Deploy Azure Monitor agent to Azure and hybrid VMs | https://learn.microsoft.com/en-us/azure/azure-monitor/vm/monitor-virtual-machine-agent |
-| Deploy and manage PerfInsights VM extension on Windows | https://learn.microsoft.com/en-us/azure/azure-monitor/vm/performance-diagnostics-extension |
-
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
@@ -426,45 +384,87 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Securely call Grafana APIs with Microsoft Entra service principals | https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/visualize-call-grafana-api |
 | Secure workbook content with customer-managed storage | https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-bring-your-own-storage |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Troubleshoot Log Analytics agent for Linux | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agent-linux-troubleshoot |
-| Troubleshoot Log Analytics agent for Windows | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agent-windows-troubleshoot |
-| Troubleshoot Azure Monitor Agent on Linux VMs and scale sets | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-troubleshoot-linux-vm |
-| Troubleshoot rsyslog integration with Azure Monitor Agent | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-troubleshoot-linux-vm-rsyslog |
-| Troubleshoot Azure Monitor Agent on Windows Arc servers | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-troubleshoot-windows-arc |
-| Troubleshoot Azure Monitor Agent on Windows VMs and scale sets | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-troubleshoot-windows-vm |
-| Troubleshoot Azure Diagnostics extension issues | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/diagnostics-extension-troubleshooting |
-| Run Linux AMA troubleshooter to diagnose agent issues | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/troubleshooter-ama-linux |
-| Run Windows AMA troubleshooter to diagnose agent issues | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/troubleshooter-ama-windows |
-| Troubleshoot Azure Log Analytics VM extension problems | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/vmext-troubleshoot |
-| Troubleshoot Azure Copilot observability investigations | https://learn.microsoft.com/en-us/azure/azure-monitor/aiops/observability-agent-troubleshooting |
-| Create and troubleshoot tenant-level service health alerts | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-tenant-level-service-heath-alerts |
-| Troubleshoot common Azure Monitor alert issues | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-troubleshoot |
-| Resolve issues with Azure Monitor log alerts | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-troubleshoot-log |
-| Diagnose and fix Azure metric alert problems | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-troubleshoot-metric |
-| Use the ITSMC dashboard to investigate connector errors | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-dashboard |
-| Resolve common ITSMC dashboard connector status errors | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-dashboard-errors |
-| Fix ServiceNow sync and token issues for ITSMC | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-resync-servicenow |
-| Troubleshoot Azure Monitor ITSM Connector issues | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-troubleshoot-overview |
-| Troubleshoot test action group notification errors | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/test-action-group-errors |
-| Troubleshoot and get support for OpenTelemetry in Application Insights | https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-help-support-feedback |
-| Troubleshoot telemetry loss using Application Insights SDK stats | https://learn.microsoft.com/en-us/azure/azure-monitor/app/sdk-stats |
-| Troubleshoot Azure Monitor autoscale issues and errors | https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-troubleshoot |
-| Use Live Data in Container insights for real-time troubleshooting | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-livedata-overview |
-| Troubleshoot Container insights Kubernetes log collection issues | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-troubleshoot |
-| Troubleshoot Prometheus metrics collection in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/prometheus-metrics-troubleshoot |
-| Monitor and troubleshoot DCR-based data collection in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-monitor |
-| Resolve Azure Monitor Log Analytics API errors | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/api/errors |
-| Troubleshoot stopped data collection in Azure Monitor Logs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-collection-troubleshoot |
-| Monitor and troubleshoot ingestion and query issues in Azure Monitor workspaces | https://learn.microsoft.com/en-us/azure/azure-monitor/metrics/azure-monitor-workspace-monitor-health |
-| Troubleshoot Azure Monitor metric chart issues | https://learn.microsoft.com/en-us/azure/azure-monitor/metrics/metrics-troubleshoot |
-| Troubleshoot Application Insights Code Optimizations | https://learn.microsoft.com/en-us/azure/azure-monitor/optimization-insights/code-optimizations-troubleshoot |
-| Troubleshoot Application Insights Profiler for .NET | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler-troubleshooting |
-| FAQ for migrating from Azure Monitor SCOM Managed Instance | https://learn.microsoft.com/en-us/azure/azure-monitor/scom-manage-instance/migration-faq-scom-manage-instance |
-| Troubleshoot Application Insights Snapshot Debugger | https://learn.microsoft.com/en-us/azure/azure-monitor/snapshot-debugger/snapshot-debugger-troubleshoot |
-| Troubleshoot Azure Monitor workbook-based insights issues | https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/troubleshoot-workbooks |
-| Diagnose Azure VM performance issues with Performance Diagnostics | https://learn.microsoft.com/en-us/azure/azure-monitor/vm/performance-diagnostics |
-| Interpret PerfInsights performance diagnostics reports for VMs | https://learn.microsoft.com/en-us/azure/azure-monitor/vm/performance-diagnostics-analyze |
-| Troubleshoot VM insights agent installation and usage issues | https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-troubleshoot |
+| Install, update, and manage Azure Monitor Agent on VMs | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-manage |
+| Verify Azure Monitor Agent requirements and prerequisites | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-requirements |
+| Check supported operating systems for Azure Monitor Agent | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-supported-operating-systems |
+| Install and manage Azure Monitor Agent on Windows clients | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-windows-client |
+| Deploy Azure Monitor agents using ARM template samples | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/resource-manager-agent |
+| Deploy Azure Monitor alert rules via CLI, PowerShell, ARM | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-rule-cli-powershell-arm |
+| Create Azure Monitor metric alerts via CLI | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/azure-cli-metrics-alert-sample |
+| Deploy Application Insights Agent for IIS-hosted ASP.NET apps | https://learn.microsoft.com/en-us/azure/azure-monitor/app/application-insights-asp-net-agent |
+| Deploy Application Insights monitoring to Azure VMs and VM scale sets | https://learn.microsoft.com/en-us/azure/azure-monitor/app/azure-vm-vmss-apps |
+| Enable Application Insights autoinstrumentation on Azure App Service | https://learn.microsoft.com/en-us/azure/azure-monitor/app/codeless-app-service |
+| Onboard AKS workloads to Application Insights with codeless monitoring | https://learn.microsoft.com/en-us/azure/azure-monitor/app/kubernetes-codeless |
+| Enable Azure Monitor features for AKS cluster monitoring | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/kubernetes-monitoring-enable |
+| Enable Azure Monitor monitoring for Arc-enabled Kubernetes | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/kubernetes-monitoring-enable-arc |
+| Migrate from batch and beta Log Analytics APIs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/api/migrate-batch-and-beta |
+| Move Log Analytics workspaces across subscriptions and resource groups | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/move-workspace |
+| Enable Application Insights Profiler for .NET on Azure App Service (Windows) | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler |
+| Enable .NET Profiler for ASP.NET Core apps on Linux App Service | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler-aspnetcore-linux |
+| Enable Application Insights Profiler for .NET on Azure Functions | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler-azure-functions |
+| Enable Application Insights Profiler for .NET in Azure containers | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler-containers |
+| Deploy Application Insights Profiler for .NET to Service Fabric clusters | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler-servicefabric |
+| Run Application Insights Profiler for .NET on Azure VMs and scale sets | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler-vm |
+| Migrate SCOM Managed Instance to Azure Monitor DCRs | https://learn.microsoft.com/en-us/azure/azure-monitor/scom-manage-instance/migrate-to-azure-monitor |
+| Deploy Azure Monitor workbooks with ARM templates | https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-automate |
+| Move Azure Monitor workbooks between regions | https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-move-region |
+| Deploy Azure Monitor agent to Azure and hybrid VMs | https://learn.microsoft.com/en-us/azure/azure-monitor/vm/monitor-virtual-machine-agent |
+| Deploy and manage PerfInsights VM extension on Windows | https://learn.microsoft.com/en-us/azure/azure-monitor/vm/performance-diagnostics-extension |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Apply best practices for Copilot observability agent | https://learn.microsoft.com/en-us/azure/azure-monitor/aiops/observability-agent-best-practices |
+| Optimize Azure Monitor log alert queries | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-log-query |
+| Apply Azure Monitor alerting best practices | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/best-practices-alerts |
+| Apply autoscale best practices in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-best-practices |
+| Avoid autoscale flapping with Azure Monitor rules | https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-flapping |
+| Implement Well-Architected monitoring for AKS and Arc clusters | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/best-practices-containers |
+| Optimize Container insights monitoring costs in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-cost |
+| Monitor AKS network using Azure Monitor metrics and logs | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-network-monitoring |
+| Design cost-effective alerting for AKS in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/cost-effective-alerting |
+| Apply Kubernetes monitoring best practices with Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/monitor-kubernetes |
+| Plan high-scale Prometheus scraping performance in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/prometheus-metrics-scrape-scale |
+| Best practices for organizing and managing Azure Monitor DCRs | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-rule-best-practices |
+| Optimize Azure Monitor costs with configuration | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/best-practices-cost |
+| Best practices for multicloud monitoring with Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/best-practices-multicloud |
+| Configure Azure Monitor for operational excellence | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/best-practices-operation |
+| Improve Azure Monitor performance efficiency | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/best-practices-performance |
+| Apply reliability best practices in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/best-practices-reliability |
+| Analyze Log Analytics usage to control Azure Monitor costs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/analyze-usage |
+| Apply Well-Architected best practices to Azure Monitor Log Analytics workspaces | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/best-practices-logs |
+| Migrate from HTTP Data Collector API to Logs Ingestion API | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/custom-logs-migrate |
+| Monitor Log Analytics operational issues via Operation table | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/monitor-workspace |
+| Identify and manage personal data in Azure Monitor Logs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/personal-data-mgmt |
+| Optimize Azure Monitor log queries for performance | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/query-optimization |
+| Choose scope and time range for Log Analytics queries | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/scope |
+| Best practices for scaling Azure Monitor Prometheus workspaces | https://learn.microsoft.com/en-us/azure/azure-monitor/metrics/azure-monitor-workspace-scaling-best-practice |
+| Optimize Azure Monitor metrics usage and costs | https://learn.microsoft.com/en-us/azure/azure-monitor/metrics/metrics-usage-insights |
+| Apply PromQL best practices to OpenTelemetry metrics in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/metrics/prometheus-opentelemetry-best-practices |
+| Query OpenTelemetry system and Guest OS metrics with PromQL | https://learn.microsoft.com/en-us/azure/azure-monitor/metrics/prometheus-system-metrics-best-practices |
+| Use Code Optimizations and Profiler to improve .NET performance | https://learn.microsoft.com/en-us/azure/azure-monitor/optimization-insights/code-optimizations-profiler-overview |
+| Choose and apply Azure Monitor visualization tools | https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/best-practices-visualize |
+| Apply VM monitoring best practices in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/vm/best-practices-vm |
+| Design and configure alert rules for VM monitoring | https://learn.microsoft.com/en-us/azure/azure-monitor/vm/monitor-virtual-machine-alerts |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Choose between Azure Monitor metrics data plane API and metrics export | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-plane-versus-metrics-export |
+| Decide how to migrate from SCOM to Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/azure-monitor-operations-manager |
+| Choose parsing options for Azure Monitor logs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/parse-text |
+| Choose Grafana options to visualize Azure Monitor data | https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/visualize-grafana-overview |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Enterprise monitoring reference architecture with Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/enterprise-monitoring-architecture |
+| Use availability zones for Log Analytics resilience | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/availability-zones |
+| Plan and use Azure Monitor Logs dedicated clusters | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-dedicated-clusters |
+| Design Azure Monitor Private Link architectures | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-design |
+| Design single vs multiple Log Analytics workspaces | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/workspace-design |
+| Design resilient logging with Log Analytics workspace replication | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/workspace-replication |
+| Migration patterns from self-hosted Prometheus to Azure Monitor managed service | https://learn.microsoft.com/en-us/azure/azure-monitor/metrics/prometheus-migrate |

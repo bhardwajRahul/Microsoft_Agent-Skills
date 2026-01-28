@@ -31,34 +31,14 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Use API Management with Azure VMware Solution workloads | https://learn.microsoft.com/en-us/azure/azure-vmware/architecture-api-management |
-| Design internet connectivity patterns for Azure VMware Solution | https://learn.microsoft.com/en-us/azure/azure-vmware/architecture-design-public-internet-access |
-| Integrate Azure VMware Solution into hub-and-spoke networks | https://learn.microsoft.com/en-us/azure/azure-vmware/architecture-hub-and-spoke |
-| Choose VMware HCX migration options for Azure VMware Solution | https://learn.microsoft.com/en-us/azure/azure-vmware/architecture-migrate |
-| Plan network design for Azure VMware Solution deployments | https://learn.microsoft.com/en-us/azure/azure-vmware/architecture-network-design-considerations |
-| Architect networking and interconnectivity for Azure VMware Solution | https://learn.microsoft.com/en-us/azure/azure-vmware/architecture-networking |
-| Plan storage architecture and policies for Azure VMware Solution | https://learn.microsoft.com/en-us/azure/azure-vmware/architecture-storage |
-| Design vSAN stretched clusters for Azure VMware Solution | https://learn.microsoft.com/en-us/azure/azure-vmware/architecture-stretched-clusters |
-| Architect Citrix Virtual Apps on Azure VMware | https://learn.microsoft.com/en-us/azure/azure-vmware/azure-vmware-solution-citrix |
-| Design VMware Horizon deployments on Azure VMware | https://learn.microsoft.com/en-us/azure/azure-vmware/azure-vmware-solution-horizon |
-| Architect GitHub Enterprise Server on Azure VMware | https://learn.microsoft.com/en-us/azure/azure-vmware/configure-github-enterprise-server |
-| Choose external storage options for Azure VMware | https://learn.microsoft.com/en-us/azure/azure-vmware/ecosystem-external-storage-solutions |
-| Design networking for VMware Cloud Director tenants | https://learn.microsoft.com/en-us/azure/azure-vmware/enable-vmware-vcd-with-azure-network |
-| Connect multiple AVS Gen 2 private clouds | https://learn.microsoft.com/en-us/azure/azure-vmware/native-connect-multiple-private-clouds |
-| Connect AVS Gen 2 to on-premises networks | https://learn.microsoft.com/en-us/azure/azure-vmware/native-connect-on-premises |
-| Link AVS Gen 2 and Gen 1 private clouds | https://learn.microsoft.com/en-us/azure/azure-vmware/native-connect-private-cloud-previous-edition |
-| Design internet connectivity for AVS Gen 2 clouds | https://learn.microsoft.com/en-us/azure/azure-vmware/native-internet-connectivity-design-considerations |
-| Connect AVS Gen 2 private clouds to Azure VNets | https://learn.microsoft.com/en-us/azure/azure-vmware/native-network-connectivity |
-| Design Azure VMware Solution Gen 2 private clouds | https://learn.microsoft.com/en-us/azure/azure-vmware/native-network-design-consideration |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Optimize NSX scale and performance for HCX migrations | https://learn.microsoft.com/en-us/azure/azure-vmware/azure-vmware-solution-nsx-scale-and-performance-recommendations-for-vmware-hcx |
-| Apply HCX Mobility Optimized Networking guidance in AVS | https://learn.microsoft.com/en-us/azure/azure-vmware/vmware-hcx-mon-guidance |
+| Resolve Azure VMware Solution known issues and workarounds | https://learn.microsoft.com/en-us/azure/azure-vmware/azure-vmware-solution-known-issues |
+| Address known DR issues and constraints for AVS | https://learn.microsoft.com/en-us/azure/azure-vmware/ecosystem-disaster-recovery-vms |
+| Collect information and request support for AVS deployment failures | https://learn.microsoft.com/en-us/azure/azure-vmware/fix-deployment-failures |
+| Restore AVS VMs from Cloud Backup to vCenter | https://learn.microsoft.com/en-us/azure/azure-vmware/restore-azure-netapp-files-vms |
+| Restore guest files and folders from AVS VMDKs | https://learn.microsoft.com/en-us/azure/azure-vmware/restore-guest-files-folders |
 
 ### Configuration
 | Topic | URL |
@@ -100,14 +80,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Add NSX network segments for AVS virtual machines | https://learn.microsoft.com/en-us/azure/azure-vmware/tutorial-nsx-t-network-segment |
 | Create additional NSX Tier-1 gateways in AVS | https://learn.microsoft.com/en-us/azure/azure-vmware/tutorial-nsx-tier-1-gateway |
 | Use VMware HCX Run Commands on Azure VMware | https://learn.microsoft.com/en-us/azure/azure-vmware/use-hcx-run-commands |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Deploy JetStream DR for Azure VMware Solution workloads | https://learn.microsoft.com/en-us/azure/azure-vmware/deploy-disaster-recovery-using-jetstream |
-| Deploy Zerto disaster recovery for AVS and on-premises VMs | https://learn.microsoft.com/en-us/azure/azure-vmware/deploy-zerto-disaster-recovery |
-| Deploy VMware Site Recovery Manager for AVS disaster recovery | https://learn.microsoft.com/en-us/azure/azure-vmware/disaster-recovery-using-vmware-site-recovery-manager |
-| Configure networking prerequisites to deploy AVS private cloud | https://learn.microsoft.com/en-us/azure/azure-vmware/tutorial-configure-networking |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -152,11 +124,39 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Rotate Azure VMware Solution cloudadmin credentials | https://learn.microsoft.com/en-us/azure/azure-vmware/rotate-cloudadmin-credentials |
 | Apply security recommendations to Azure VMware Solution | https://learn.microsoft.com/en-us/azure/azure-vmware/security-recommendations |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Resolve Azure VMware Solution known issues and workarounds | https://learn.microsoft.com/en-us/azure/azure-vmware/azure-vmware-solution-known-issues |
-| Address known DR issues and constraints for AVS | https://learn.microsoft.com/en-us/azure/azure-vmware/ecosystem-disaster-recovery-vms |
-| Collect information and request support for AVS deployment failures | https://learn.microsoft.com/en-us/azure/azure-vmware/fix-deployment-failures |
-| Restore AVS VMs from Cloud Backup to vCenter | https://learn.microsoft.com/en-us/azure/azure-vmware/restore-azure-netapp-files-vms |
-| Restore guest files and folders from AVS VMDKs | https://learn.microsoft.com/en-us/azure/azure-vmware/restore-guest-files-folders |
+| Deploy JetStream DR for Azure VMware Solution workloads | https://learn.microsoft.com/en-us/azure/azure-vmware/deploy-disaster-recovery-using-jetstream |
+| Deploy Zerto disaster recovery for AVS and on-premises VMs | https://learn.microsoft.com/en-us/azure/azure-vmware/deploy-zerto-disaster-recovery |
+| Deploy VMware Site Recovery Manager for AVS disaster recovery | https://learn.microsoft.com/en-us/azure/azure-vmware/disaster-recovery-using-vmware-site-recovery-manager |
+| Configure networking prerequisites to deploy AVS private cloud | https://learn.microsoft.com/en-us/azure/azure-vmware/tutorial-configure-networking |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Optimize NSX scale and performance for HCX migrations | https://learn.microsoft.com/en-us/azure/azure-vmware/azure-vmware-solution-nsx-scale-and-performance-recommendations-for-vmware-hcx |
+| Apply HCX Mobility Optimized Networking guidance in AVS | https://learn.microsoft.com/en-us/azure/azure-vmware/vmware-hcx-mon-guidance |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Use API Management with Azure VMware Solution workloads | https://learn.microsoft.com/en-us/azure/azure-vmware/architecture-api-management |
+| Design internet connectivity patterns for Azure VMware Solution | https://learn.microsoft.com/en-us/azure/azure-vmware/architecture-design-public-internet-access |
+| Integrate Azure VMware Solution into hub-and-spoke networks | https://learn.microsoft.com/en-us/azure/azure-vmware/architecture-hub-and-spoke |
+| Choose VMware HCX migration options for Azure VMware Solution | https://learn.microsoft.com/en-us/azure/azure-vmware/architecture-migrate |
+| Plan network design for Azure VMware Solution deployments | https://learn.microsoft.com/en-us/azure/azure-vmware/architecture-network-design-considerations |
+| Architect networking and interconnectivity for Azure VMware Solution | https://learn.microsoft.com/en-us/azure/azure-vmware/architecture-networking |
+| Plan storage architecture and policies for Azure VMware Solution | https://learn.microsoft.com/en-us/azure/azure-vmware/architecture-storage |
+| Design vSAN stretched clusters for Azure VMware Solution | https://learn.microsoft.com/en-us/azure/azure-vmware/architecture-stretched-clusters |
+| Architect Citrix Virtual Apps on Azure VMware | https://learn.microsoft.com/en-us/azure/azure-vmware/azure-vmware-solution-citrix |
+| Design VMware Horizon deployments on Azure VMware | https://learn.microsoft.com/en-us/azure/azure-vmware/azure-vmware-solution-horizon |
+| Architect GitHub Enterprise Server on Azure VMware | https://learn.microsoft.com/en-us/azure/azure-vmware/configure-github-enterprise-server |
+| Choose external storage options for Azure VMware | https://learn.microsoft.com/en-us/azure/azure-vmware/ecosystem-external-storage-solutions |
+| Design networking for VMware Cloud Director tenants | https://learn.microsoft.com/en-us/azure/azure-vmware/enable-vmware-vcd-with-azure-network |
+| Connect multiple AVS Gen 2 private clouds | https://learn.microsoft.com/en-us/azure/azure-vmware/native-connect-multiple-private-clouds |
+| Connect AVS Gen 2 to on-premises networks | https://learn.microsoft.com/en-us/azure/azure-vmware/native-connect-on-premises |
+| Link AVS Gen 2 and Gen 1 private clouds | https://learn.microsoft.com/en-us/azure/azure-vmware/native-connect-private-cloud-previous-edition |
+| Design internet connectivity for AVS Gen 2 clouds | https://learn.microsoft.com/en-us/azure/azure-vmware/native-internet-connectivity-design-considerations |
+| Connect AVS Gen 2 private clouds to Azure VNets | https://learn.microsoft.com/en-us/azure/azure-vmware/native-network-connectivity |
+| Design Azure VMware Solution Gen 2 private clouds | https://learn.microsoft.com/en-us/azure/azure-vmware/native-network-design-consideration |

@@ -31,26 +31,13 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Understand Azure Lab Services architecture fundamentals | https://learn.microsoft.com/en-us/azure/lab-services/classroom-labs-fundamentals |
-| Choose supported networking architectures for Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/concept-lab-services-supported-networking-scenarios |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Recommended approaches for creating Lab Services custom images | https://learn.microsoft.com/en-us/azure/lab-services/approaches-for-custom-image-creation |
-| Plan migration from physical labs to Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/concept-migrating-physical-labs |
-| Configure nested virtualization in Azure Lab template VMs | https://learn.microsoft.com/en-us/azure/lab-services/concept-nested-virtualization-template-vm |
-| Optimize Linux lab remote desktop performance in Azure | https://learn.microsoft.com/en-us/azure/lab-services/how-to-enable-remote-desktop-linux |
-| Prepare Windows lab templates with recommended settings | https://learn.microsoft.com/en-us/azure/lab-services/how-to-prepare-windows-template |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Compare lab accounts and lab plans in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/concept-lab-accounts-versus-lab-plans |
-| Decide when to move from Azure Lab Services to DevTest Labs | https://learn.microsoft.com/en-us/azure/lab-services/transition-devtest-labs-guidance |
+| Troubleshoot Azure Lab VMs with redeploy and reimage | https://learn.microsoft.com/en-us/azure/lab-services/how-to-reset-and-redeploy-vm |
+| Diagnose and fix Azure Lab Services VM access issues | https://learn.microsoft.com/en-us/azure/lab-services/troubleshoot-access-lab-vm |
+| Resolve connectivity problems to Azure Lab Services VMs | https://learn.microsoft.com/en-us/azure/lab-services/troubleshoot-connect-lab-vm |
+| Troubleshoot Azure Lab Services lab creation issues | https://learn.microsoft.com/en-us/azure/lab-services/troubleshoot-lab-creation |
 
 ### Configuration
 | Topic | URL |
@@ -77,14 +64,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure allowed Azure Marketplace images for labs | https://learn.microsoft.com/en-us/azure/lab-services/specify-marketplace-images |
 | Restrict allowed Marketplace images in lab accounts | https://learn.microsoft.com/en-us/azure/lab-services/specify-marketplace-images-1 |
 | Configure advanced networking for Azure Lab Services labs | https://learn.microsoft.com/en-us/azure/lab-services/tutorial-create-lab-with-advanced-networking |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Bring Linux custom images from Azure VMs into Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-bring-custom-linux-image-azure-vm |
-| Import Linux custom images from physical labs into Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-bring-custom-linux-image-vhd |
-| Create Azure Lab Services labs from Windows VM images | https://learn.microsoft.com/en-us/azure/lab-services/how-to-bring-custom-windows-image-azure-vm |
-| Import Windows custom images from physical labs into Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/upload-custom-image-shared-image-gallery |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -122,10 +101,31 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Use Azure Policy to restrict Lab Services VM sizes | https://learn.microsoft.com/en-us/azure/lab-services/how-to-use-restrict-allowed-virtual-machine-sku-sizes-policy |
 | Apply Azure Policy built-ins for Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/policy-reference |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Troubleshoot Azure Lab VMs with redeploy and reimage | https://learn.microsoft.com/en-us/azure/lab-services/how-to-reset-and-redeploy-vm |
-| Diagnose and fix Azure Lab Services VM access issues | https://learn.microsoft.com/en-us/azure/lab-services/troubleshoot-access-lab-vm |
-| Resolve connectivity problems to Azure Lab Services VMs | https://learn.microsoft.com/en-us/azure/lab-services/troubleshoot-connect-lab-vm |
-| Troubleshoot Azure Lab Services lab creation issues | https://learn.microsoft.com/en-us/azure/lab-services/troubleshoot-lab-creation |
+| Bring Linux custom images from Azure VMs into Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-bring-custom-linux-image-azure-vm |
+| Import Linux custom images from physical labs into Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-bring-custom-linux-image-vhd |
+| Create Azure Lab Services labs from Windows VM images | https://learn.microsoft.com/en-us/azure/lab-services/how-to-bring-custom-windows-image-azure-vm |
+| Import Windows custom images from physical labs into Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/upload-custom-image-shared-image-gallery |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Recommended approaches for creating Lab Services custom images | https://learn.microsoft.com/en-us/azure/lab-services/approaches-for-custom-image-creation |
+| Plan migration from physical labs to Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/concept-migrating-physical-labs |
+| Configure nested virtualization in Azure Lab template VMs | https://learn.microsoft.com/en-us/azure/lab-services/concept-nested-virtualization-template-vm |
+| Optimize Linux lab remote desktop performance in Azure | https://learn.microsoft.com/en-us/azure/lab-services/how-to-enable-remote-desktop-linux |
+| Prepare Windows lab templates with recommended settings | https://learn.microsoft.com/en-us/azure/lab-services/how-to-prepare-windows-template |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Compare lab accounts and lab plans in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/concept-lab-accounts-versus-lab-plans |
+| Decide when to move from Azure Lab Services to DevTest Labs | https://learn.microsoft.com/en-us/azure/lab-services/transition-devtest-labs-guidance |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Understand Azure Lab Services architecture fundamentals | https://learn.microsoft.com/en-us/azure/lab-services/classroom-labs-fundamentals |
+| Choose supported networking architectures for Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/concept-lab-services-supported-networking-scenarios |

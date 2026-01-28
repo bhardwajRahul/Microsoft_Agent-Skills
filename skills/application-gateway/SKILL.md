@@ -31,10 +31,21 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Best Practices
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Tune Application Gateway for high traffic volume scenarios | https://learn.microsoft.com/en-us/azure/application-gateway/high-traffic-support |
+| Troubleshoot backend health problems in Application Gateway | https://learn.microsoft.com/en-us/azure/application-gateway/application-gateway-backend-health-troubleshooting |
+| Use Application Gateway diagnostic logs for troubleshooting | https://learn.microsoft.com/en-us/azure/application-gateway/application-gateway-diagnostics |
+| Resolve Azure Key Vault certificate errors in Application Gateway | https://learn.microsoft.com/en-us/azure/application-gateway/application-gateway-key-vault-common-errors |
+| Troubleshoot 502 Bad Gateway errors in Application Gateway | https://learn.microsoft.com/en-us/azure/application-gateway/application-gateway-troubleshooting-502 |
+| Troubleshoot ILB ASE certificate allowlist issues | https://learn.microsoft.com/en-us/azure/application-gateway/create-gateway-internal-load-balancer-app-service-environment |
+| Understand and fix disabled listeners in Application Gateway | https://learn.microsoft.com/en-us/azure/application-gateway/disabled-listeners |
+| Resolve session affinity problems in Azure Application Gateway | https://learn.microsoft.com/en-us/azure/application-gateway/how-to-troubleshoot-application-gateway-session-affinity-issues |
+| Diagnose Application Gateway HTTP response codes | https://learn.microsoft.com/en-us/azure/application-gateway/http-response-codes |
+| Troubleshoot Application Gateway Ingress Controller for AKS | https://learn.microsoft.com/en-us/azure/application-gateway/ingress-controller-troubleshoot |
+| Analyze Application Gateway WAF logs with Log Analytics | https://learn.microsoft.com/en-us/azure/application-gateway/log-analytics |
+| Troubleshoot mutual TLS authentication on Application Gateway | https://learn.microsoft.com/en-us/azure/application-gateway/mutual-authentication-troubleshooting |
+| Fix redirection to Azure App Service URL via Application Gateway | https://learn.microsoft.com/en-us/azure/application-gateway/troubleshoot-app-service-redirection-app-service-url |
 
 ### Configuration
 | Topic | URL |
@@ -82,14 +93,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Create Application Gateway and set header rewrite rules | https://learn.microsoft.com/en-us/azure/application-gateway/tutorial-http-header-rewrite-powershell |
 | Configure URL-based routing on Azure Application Gateway | https://learn.microsoft.com/en-us/azure/application-gateway/url-route-overview |
 
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Deploy Application Gateway Basic (Preview) using Azure portal | https://learn.microsoft.com/en-us/azure/application-gateway/deploy-basic-portal |
-| Upgrade Application Gateway Ingress Controller with Helm | https://learn.microsoft.com/en-us/azure/application-gateway/ingress-controller-update-ingress-controller |
-| Deploy IPv6-enabled Application Gateway via ARM template | https://learn.microsoft.com/en-us/azure/application-gateway/ipv6-application-gateway-arm-template |
-| Migrate Azure Application Gateway and WAF from V1 to V2 | https://learn.microsoft.com/en-us/azure/application-gateway/migrate-v1-v2 |
-
 ### Limits & Quotas
 | Topic | URL |
 |-------|-----|
@@ -122,18 +125,15 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure TLS termination on Application Gateway using CLI | https://learn.microsoft.com/en-us/azure/application-gateway/tutorial-ssl-cli |
 | Configure TLS termination on Application Gateway using PowerShell | https://learn.microsoft.com/en-us/azure/application-gateway/tutorial-ssl-powershell |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Troubleshoot backend health problems in Application Gateway | https://learn.microsoft.com/en-us/azure/application-gateway/application-gateway-backend-health-troubleshooting |
-| Use Application Gateway diagnostic logs for troubleshooting | https://learn.microsoft.com/en-us/azure/application-gateway/application-gateway-diagnostics |
-| Resolve Azure Key Vault certificate errors in Application Gateway | https://learn.microsoft.com/en-us/azure/application-gateway/application-gateway-key-vault-common-errors |
-| Troubleshoot 502 Bad Gateway errors in Application Gateway | https://learn.microsoft.com/en-us/azure/application-gateway/application-gateway-troubleshooting-502 |
-| Troubleshoot ILB ASE certificate allowlist issues | https://learn.microsoft.com/en-us/azure/application-gateway/create-gateway-internal-load-balancer-app-service-environment |
-| Understand and fix disabled listeners in Application Gateway | https://learn.microsoft.com/en-us/azure/application-gateway/disabled-listeners |
-| Resolve session affinity problems in Azure Application Gateway | https://learn.microsoft.com/en-us/azure/application-gateway/how-to-troubleshoot-application-gateway-session-affinity-issues |
-| Diagnose Application Gateway HTTP response codes | https://learn.microsoft.com/en-us/azure/application-gateway/http-response-codes |
-| Troubleshoot Application Gateway Ingress Controller for AKS | https://learn.microsoft.com/en-us/azure/application-gateway/ingress-controller-troubleshoot |
-| Analyze Application Gateway WAF logs with Log Analytics | https://learn.microsoft.com/en-us/azure/application-gateway/log-analytics |
-| Troubleshoot mutual TLS authentication on Application Gateway | https://learn.microsoft.com/en-us/azure/application-gateway/mutual-authentication-troubleshooting |
-| Fix redirection to Azure App Service URL via Application Gateway | https://learn.microsoft.com/en-us/azure/application-gateway/troubleshoot-app-service-redirection-app-service-url |
+| Deploy Application Gateway Basic (Preview) using Azure portal | https://learn.microsoft.com/en-us/azure/application-gateway/deploy-basic-portal |
+| Upgrade Application Gateway Ingress Controller with Helm | https://learn.microsoft.com/en-us/azure/application-gateway/ingress-controller-update-ingress-controller |
+| Deploy IPv6-enabled Application Gateway via ARM template | https://learn.microsoft.com/en-us/azure/application-gateway/ipv6-application-gateway-arm-template |
+| Migrate Azure Application Gateway and WAF from V1 to V2 | https://learn.microsoft.com/en-us/azure/application-gateway/migrate-v1-v2 |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Tune Application Gateway for high traffic volume scenarios | https://learn.microsoft.com/en-us/azure/application-gateway/high-traffic-support |

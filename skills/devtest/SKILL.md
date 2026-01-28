@@ -31,13 +31,13 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
+### Troubleshooting
+| Topic | URL |
+|-------|-----|
+| Troubleshoot and recover expired Visual Studio subscriptions | https://learn.microsoft.com/en-us/azure/devtest/offer/troubleshoot-expired-removed-subscription |
+
 ### Security
 | Topic | URL |
 |-------|-----|
 | Configure security and governance for Azure Dev/Test | https://learn.microsoft.com/en-us/azure/devtest/offer/concepts-security-governance-devtest |
 | Manage user access and roles in Azure Dev/Test | https://learn.microsoft.com/en-us/azure/devtest/offer/how-to-add-users-directory |
-
-### Troubleshooting
-| Topic | URL |
-|-------|-----|
-| Troubleshoot and recover expired Visual Studio subscriptions | https://learn.microsoft.com/en-us/azure/devtest/offer/troubleshoot-expired-removed-subscription |

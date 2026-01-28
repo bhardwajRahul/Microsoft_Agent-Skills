@@ -31,10 +31,11 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Understand reliability and availability for Managed Grafana | https://learn.microsoft.com/en-us/azure/managed-grafana/high-availability |
+| Troubleshoot common Azure Managed Grafana issues | https://learn.microsoft.com/en-us/azure/managed-grafana/troubleshoot-managed-grafana |
+| Troubleshoot Managed Private Endpoint connections for Grafana | https://learn.microsoft.com/en-us/azure/managed-grafana/troubleshoot-mpe-connection |
 
 ### Configuration
 | Topic | URL |
@@ -47,16 +48,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Monitor Azure Managed Grafana with Azure Monitor metrics | https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-monitor-managed-grafana-metrics |
 | Configure diagnostic settings for Azure Managed Grafana | https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-monitor-managed-grafana-workspace |
 | Configure SMTP email alerts in Azure Managed Grafana | https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-smtp-settings |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Set up deterministic outbound IPs for Managed Grafana | https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-deterministic-ip |
-| Enable zone redundancy for Azure Managed Grafana | https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-enable-zone-redundancy |
-| Migrate existing Grafana instances to Azure Managed Grafana | https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-migrate |
-| Migrate from Azure Managed Grafana Essential tier | https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-migrate-essential-service-tier |
-| Upgrade Azure Managed Grafana workspaces to Grafana 11 | https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-upgrade-grafana-11 |
-| Use Azure Monitor alerts with Azure Managed Grafana | https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-use-azure-monitor-alerts |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -85,8 +76,17 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure Grafana Team Sync with Entra groups | https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-sync-teams-with-entra-groups |
 | Apply security best practices to Azure Managed Grafana | https://learn.microsoft.com/en-us/azure/managed-grafana/secure-azure-managed-grafana |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Troubleshoot common Azure Managed Grafana issues | https://learn.microsoft.com/en-us/azure/managed-grafana/troubleshoot-managed-grafana |
-| Troubleshoot Managed Private Endpoint connections for Grafana | https://learn.microsoft.com/en-us/azure/managed-grafana/troubleshoot-mpe-connection |
+| Set up deterministic outbound IPs for Managed Grafana | https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-deterministic-ip |
+| Enable zone redundancy for Azure Managed Grafana | https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-enable-zone-redundancy |
+| Migrate existing Grafana instances to Azure Managed Grafana | https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-migrate |
+| Migrate from Azure Managed Grafana Essential tier | https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-migrate-essential-service-tier |
+| Upgrade Azure Managed Grafana workspaces to Grafana 11 | https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-upgrade-grafana-11 |
+| Use Azure Monitor alerts with Azure Managed Grafana | https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-use-azure-monitor-alerts |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Understand reliability and availability for Managed Grafana | https://learn.microsoft.com/en-us/azure/managed-grafana/high-availability |

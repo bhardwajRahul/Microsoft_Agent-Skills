@@ -31,10 +31,14 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Architect Cloud NGFW behind Azure Application Gateway | https://learn.microsoft.com/en-us/azure/partner-solutions/palo-alto/application-gateway |
+| Troubleshoot Apache Kafka & Flink on Confluent Cloud in Azure | https://learn.microsoft.com/en-us/azure/partner-solutions/apache-kafka-confluent-cloud/troubleshoot |
+| Troubleshoot Datadog Azure Native integration issues | https://learn.microsoft.com/en-us/azure/partner-solutions/datadog/troubleshoot |
+| Troubleshoot Azure Native Dynatrace Service problems | https://learn.microsoft.com/en-us/azure/partner-solutions/dynatrace/troubleshoot |
+| Troubleshoot Elastic Cloud Azure Native integration | https://learn.microsoft.com/en-us/azure/partner-solutions/elastic/troubleshoot |
+| Troubleshoot common Azure Native New Relic issues | https://learn.microsoft.com/en-us/azure/partner-solutions/new-relic/troubleshoot |
 
 ### Configuration
 | Topic | URL |
@@ -67,11 +71,7 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Set up Azure and Entra prerequisites for Dynatrace | https://learn.microsoft.com/en-us/azure/partner-solutions/dynatrace/configure-prerequisites |
 | Manage Informatica IDMC Azure deployment and SSO | https://learn.microsoft.com/en-us/azure/partner-solutions/informatica/manage |
 
-### Troubleshooting
+### Architecture & Design Patterns
 | Topic | URL |
 |-------|-----|
-| Troubleshoot Apache Kafka & Flink on Confluent Cloud in Azure | https://learn.microsoft.com/en-us/azure/partner-solutions/apache-kafka-confluent-cloud/troubleshoot |
-| Troubleshoot Datadog Azure Native integration issues | https://learn.microsoft.com/en-us/azure/partner-solutions/datadog/troubleshoot |
-| Troubleshoot Azure Native Dynatrace Service problems | https://learn.microsoft.com/en-us/azure/partner-solutions/dynatrace/troubleshoot |
-| Troubleshoot Elastic Cloud Azure Native integration | https://learn.microsoft.com/en-us/azure/partner-solutions/elastic/troubleshoot |
-| Troubleshoot common Azure Native New Relic issues | https://learn.microsoft.com/en-us/azure/partner-solutions/new-relic/troubleshoot |
+| Architect Cloud NGFW behind Azure Application Gateway | https://learn.microsoft.com/en-us/azure/partner-solutions/palo-alto/application-gateway |

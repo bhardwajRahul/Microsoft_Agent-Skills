@@ -31,10 +31,13 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Best Practices
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Apply best practices for secure Azure RBAC usage | https://learn.microsoft.com/en-us/azure/role-based-access-control/best-practices |
+| Audit Azure RBAC changes using Activity Log | https://learn.microsoft.com/en-us/azure/role-based-access-control/change-history-report |
+| Troubleshoot Azure role assignment condition issues | https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-troubleshoot |
+| Resolve Azure RBAC role assignment and custom role limits | https://learn.microsoft.com/en-us/azure/role-based-access-control/troubleshoot-limits |
+| Diagnose and fix common Azure RBAC access issues | https://learn.microsoft.com/en-us/azure/role-based-access-control/troubleshooting |
 
 ### Configuration
 | Topic | URL |
@@ -141,10 +144,7 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Use Azure Policy compliance controls for RBAC | https://learn.microsoft.com/en-us/azure/role-based-access-control/security-controls-policy |
 | Transfer Azure subscriptions between Entra directories securely | https://learn.microsoft.com/en-us/azure/role-based-access-control/transfer-subscription |
 
-### Troubleshooting
+### Best Practices
 | Topic | URL |
 |-------|-----|
-| Audit Azure RBAC changes using Activity Log | https://learn.microsoft.com/en-us/azure/role-based-access-control/change-history-report |
-| Troubleshoot Azure role assignment condition issues | https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-troubleshoot |
-| Resolve Azure RBAC role assignment and custom role limits | https://learn.microsoft.com/en-us/azure/role-based-access-control/troubleshoot-limits |
-| Diagnose and fix common Azure RBAC access issues | https://learn.microsoft.com/en-us/azure/role-based-access-control/troubleshooting |
+| Apply best practices for secure Azure RBAC usage | https://learn.microsoft.com/en-us/azure/role-based-access-control/best-practices |

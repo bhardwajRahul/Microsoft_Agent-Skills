@@ -31,64 +31,29 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Design backup and disaster recovery for Azure managed disks | https://learn.microsoft.com/en-us/azure/virtual-machines/backup-and-disaster-recovery-for-azure-iaas-disks |
-| Design low-latency architectures with proximity placement groups | https://learn.microsoft.com/en-us/azure/virtual-machines/co-location |
-| Choose DNS name resolution options for Linux VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/azure-dns |
-| Architect OpenShift deployments on Azure Stack Hub | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/openshift-azure-stack |
-| Migrate workloads from retiring Azure Dedicated Host SKUs | https://learn.microsoft.com/en-us/azure/virtual-machines/migration/dedicated-host-migration-guide |
-| Migrate retiring general purpose VM sizes to newer series | https://learn.microsoft.com/en-us/azure/virtual-machines/migration/sizes/d-ds-dv2-dsv2-ls-series-migration-guide |
-| Migrate NV-series GPU VMs to newer Azure GPU series | https://learn.microsoft.com/en-us/azure/virtual-machines/migration/sizes/nv-series-migration-guide |
-| Backup and disaster recovery patterns for unmanaged Azure disks | https://learn.microsoft.com/en-us/azure/virtual-machines/page-blobs-backup-and-disaster-recovery |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Apply scaling strategies for Azure HPC applications | https://learn.microsoft.com/en-us/azure/virtual-machines/compiling-scaling-applications |
-| Apply scaling best practices for Azure HPC applications | https://learn.microsoft.com/en-us/azure/virtual-machines/compiling-scaling-applications |
-| Optimize InfiniBand-enabled HB and N series VMs for HPC | https://learn.microsoft.com/en-us/azure/virtual-machines/configure |
-| Optimize InfiniBand-enabled HB and N-series VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/configure |
-| Apply best practices for Azure VM cost optimization | https://learn.microsoft.com/en-us/azure/virtual-machines/cost-optimization-best-practices |
-| Benchmark application performance on Azure Disk Storage | https://learn.microsoft.com/en-us/azure/virtual-machines/disks-benchmarks |
-| Apply high-availability best practices for Azure VMs and disks | https://learn.microsoft.com/en-us/azure/virtual-machines/disks-high-availability |
-| Use incremental snapshots for Azure managed disks | https://learn.microsoft.com/en-us/azure/virtual-machines/disks-incremental-snapshots |
-| Optimize VM and disk performance on Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/disks-performance |
-| Use VM extensions on Python 3-enabled Linux VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/issues-using-vm-extensions-python-3 |
-| Generalize or deprovision Azure VMs before imaging | https://learn.microsoft.com/en-us/azure/virtual-machines/generalize |
-| Interpret HBv2 VM performance benchmarks | https://learn.microsoft.com/en-us/azure/virtual-machines/hbv2-performance |
-| Optimize HBv2 NUMA topology for HPC workloads | https://learn.microsoft.com/en-us/azure/virtual-machines/hbv2-series-overview |
-| Evaluate HBv3 VM performance and scalability | https://learn.microsoft.com/en-us/azure/virtual-machines/hbv3-performance |
-| Understand HBv3 VM architecture and topology | https://learn.microsoft.com/en-us/azure/virtual-machines/hbv3-series-overview |
-| Assess HBv4 VM performance and scaling behavior | https://learn.microsoft.com/en-us/azure/virtual-machines/hbv4-performance |
-| Leverage HBv4 VM architecture for HPC tuning | https://learn.microsoft.com/en-us/azure/virtual-machines/hbv4-series-overview |
-| Use HBv5 performance benchmarks for capacity planning | https://learn.microsoft.com/en-us/azure/virtual-machines/hbv5-performance |
-| Understand HBv5 VM architecture and topology | https://learn.microsoft.com/en-us/azure/virtual-machines/hbv5-series-overview |
-| Optimize HC-series NUMA and core placement | https://learn.microsoft.com/en-us/azure/virtual-machines/hc-series-overview |
-| Interpret HC-series VM performance test results | https://learn.microsoft.com/en-us/azure/virtual-machines/hc-series-performance |
-| Leverage HX VM architecture and NUMA layout | https://learn.microsoft.com/en-us/azure/virtual-machines/hx-series-overview |
-| Apply best practices for Azure VM Image Builder | https://learn.microsoft.com/en-us/azure/virtual-machines/image-builder-best-practices |
-| Create and upload CentOS VHDs to Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/create-upload-centos |
-| Prepare Linux systems for Azure imaging | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/create-upload-generic |
-| Create and upload OpenBSD images to Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/create-upload-openbsd |
-| Create and upload Ubuntu VHDs for Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/create-upload-ubuntu |
-| Prepare Debian VHD images for Azure VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/debian-create-upload-vhd |
-| Create and upload Flatcar Linux VHDs to Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/flatcar-create-upload-vhd |
-| Create and upload Oracle Linux VHDs for Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/oracle-create-upload-vhd |
-| Prepare and upload RHEL VHDs for Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/redhat-create-upload-vhd |
-| Optimize Linux performance on Lsv3 and Lasv3 VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/storage-performance |
-| Create and upload SUSE Linux VHDs in Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/suse-create-upload-vhd |
-| Design high-performance apps with Azure premium SSDs | https://learn.microsoft.com/en-us/azure/virtual-machines/premium-storage-performance |
-| Optimize VM boot time using Image Builder | https://learn.microsoft.com/en-us/azure/virtual-machines/vm-boot-optimization |
-| Optimize Windows performance on Lsv3 and Lasv3 VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/windows/storage-performance |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Choose between Azure VM, VMSS, and Compute Fleet | https://learn.microsoft.com/en-us/azure/virtual-machines/compare-compute-products |
-| Choose new GPU VM sizes for NC/ND migration | https://learn.microsoft.com/en-us/azure/virtual-machines/migration/sizes/n-series-migration |
-| Select replacement sizes for retired NV-series VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/migration/sizes/nv-series-migration-guide |
+| Resolve Azure Spot VM and scale set error codes | https://learn.microsoft.com/en-us/azure/virtual-machines/error-codes-spot |
+| Diagnose and fix Windows VM extension failures | https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/troubleshoot |
+| Reset and troubleshoot access on Azure Linux VMs with VMAccess | https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/vmaccess-linux |
+| Reset and troubleshoot access on Azure Windows VMs with VMAccess | https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/vmaccess-windows |
+| Troubleshoot common issues on HB and N-series VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/hb-hc-known-issues |
+| Troubleshoot Azure VM hibernation issues | https://learn.microsoft.com/en-us/azure/virtual-machines/hibernate-resume-troubleshooting |
+| Troubleshoot Azure Linux VM provisioning with cloud-init | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/cloud-init-troubleshooting |
+| Troubleshoot Azure Disk Encryption on Linux VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/disk-encryption-troubleshooting |
+| Diagnose and fix Linux VM hibernation issues | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/hibernate-resume-troubleshooting-linux |
+| Connect to Azure Image Builder build VM for debugging | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/image-builder-connect-to-build-vm |
+| Troubleshoot Azure VM Image Builder failures | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/image-builder-troubleshoot |
+| Troubleshoot Metadata Security Protocol issues on Azure VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/metadata-security-protocol/troubleshoot-guide |
+| FAQ for moving VMs from regional to zonal availability | https://learn.microsoft.com/en-us/azure/virtual-machines/move-virtual-machines-regional-zonal-faq |
+| Troubleshoot Azure VM restore point failures | https://learn.microsoft.com/en-us/azure/virtual-machines/restore-point-troubleshooting |
+| Handle NVv4 retirement and resize operation errors | https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/nvv4-retirement |
+| Troubleshoot Azure VM maintenance configuration issues | https://learn.microsoft.com/en-us/azure/virtual-machines/troubleshoot-maintenance-configurations |
+| Troubleshoot Azure Compute Gallery shared image issues | https://learn.microsoft.com/en-us/azure/virtual-machines/troubleshooting-shared-images |
+| Troubleshoot and use Azure Trusted Launch VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/trusted-launch-faq |
+| Troubleshoot Azure Disk Encryption on Windows VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/windows/disk-encryption-troubleshooting |
+| Resolve Windows VM hibernation problems in Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/windows/hibernate-resume-troubleshooting-windows |
 
 ### Configuration
 | Topic | URL |
@@ -238,18 +203,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Define Azure virtual machines in ARM templates | https://learn.microsoft.com/en-us/azure/virtual-machines/windows/template-description |
 | Configure time synchronization for Azure Windows VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/windows/time-sync |
 | Configure in-place upgrade to Ubuntu Pro on Azure VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/workloads/canonical/ubuntu-pro-in-place-upgrade |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Handle deprecated Azure Marketplace images in deployments | https://learn.microsoft.com/en-us/azure/virtual-machines/deprecated-images |
-| Migrate Linux VMs to Premium Storage with Site Recovery | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/migrate-to-premium-storage-using-azure-site-recovery |
-| Migrate workloads from retiring Dedicated Host SKUs | https://learn.microsoft.com/en-us/azure/virtual-machines/migration/dedicated-host-migration-guide |
-| Migrate managed images to Azure Compute Gallery image versions | https://learn.microsoft.com/en-us/azure/virtual-machines/migration/migration-managed-image-to-compute-gallery |
-| Migrate Azure VMs from unmanaged to managed disks | https://learn.microsoft.com/en-us/azure/virtual-machines/windows/migrate-to-managed-disks |
-| Migrate Windows VMs to Premium Storage with Site Recovery | https://learn.microsoft.com/en-us/azure/virtual-machines/windows/migrate-to-premium-storage-using-azure-site-recovery |
-| Migrate VMs from AWS/on-premises to Azure managed disks | https://learn.microsoft.com/en-us/azure/virtual-machines/windows/on-prem-to-azure |
-| Set up blue-green deployments to Azure Linux VMs with Azure Pipelines | https://learn.microsoft.com/en-us/previous-versions/azure/virtual-machines/linux/tutorial-azure-devops-blue-green-strategy |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -572,26 +525,73 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Enable VM host encryption with Azure PowerShell | https://learn.microsoft.com/en-us/azure/virtual-machines/windows/disks-enable-host-based-encryption-powershell |
 | Configure Key Vault for Azure VMs using PowerShell | https://learn.microsoft.com/en-us/azure/virtual-machines/windows/key-vault-setup |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Resolve Azure Spot VM and scale set error codes | https://learn.microsoft.com/en-us/azure/virtual-machines/error-codes-spot |
-| Diagnose and fix Windows VM extension failures | https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/troubleshoot |
-| Reset and troubleshoot access on Azure Linux VMs with VMAccess | https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/vmaccess-linux |
-| Reset and troubleshoot access on Azure Windows VMs with VMAccess | https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/vmaccess-windows |
-| Troubleshoot common issues on HB and N-series VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/hb-hc-known-issues |
-| Troubleshoot Azure VM hibernation issues | https://learn.microsoft.com/en-us/azure/virtual-machines/hibernate-resume-troubleshooting |
-| Troubleshoot Azure Linux VM provisioning with cloud-init | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/cloud-init-troubleshooting |
-| Troubleshoot Azure Disk Encryption on Linux VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/disk-encryption-troubleshooting |
-| Diagnose and fix Linux VM hibernation issues | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/hibernate-resume-troubleshooting-linux |
-| Connect to Azure Image Builder build VM for debugging | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/image-builder-connect-to-build-vm |
-| Troubleshoot Azure VM Image Builder failures | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/image-builder-troubleshoot |
-| Troubleshoot Metadata Security Protocol issues on Azure VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/metadata-security-protocol/troubleshoot-guide |
-| FAQ for moving VMs from regional to zonal availability | https://learn.microsoft.com/en-us/azure/virtual-machines/move-virtual-machines-regional-zonal-faq |
-| Troubleshoot Azure VM restore point failures | https://learn.microsoft.com/en-us/azure/virtual-machines/restore-point-troubleshooting |
-| Handle NVv4 retirement and resize operation errors | https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/nvv4-retirement |
-| Troubleshoot Azure VM maintenance configuration issues | https://learn.microsoft.com/en-us/azure/virtual-machines/troubleshoot-maintenance-configurations |
-| Troubleshoot Azure Compute Gallery shared image issues | https://learn.microsoft.com/en-us/azure/virtual-machines/troubleshooting-shared-images |
-| Troubleshoot and use Azure Trusted Launch VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/trusted-launch-faq |
-| Troubleshoot Azure Disk Encryption on Windows VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/windows/disk-encryption-troubleshooting |
-| Resolve Windows VM hibernation problems in Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/windows/hibernate-resume-troubleshooting-windows |
+| Handle deprecated Azure Marketplace images in deployments | https://learn.microsoft.com/en-us/azure/virtual-machines/deprecated-images |
+| Migrate Linux VMs to Premium Storage with Site Recovery | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/migrate-to-premium-storage-using-azure-site-recovery |
+| Migrate workloads from retiring Dedicated Host SKUs | https://learn.microsoft.com/en-us/azure/virtual-machines/migration/dedicated-host-migration-guide |
+| Migrate managed images to Azure Compute Gallery image versions | https://learn.microsoft.com/en-us/azure/virtual-machines/migration/migration-managed-image-to-compute-gallery |
+| Migrate Azure VMs from unmanaged to managed disks | https://learn.microsoft.com/en-us/azure/virtual-machines/windows/migrate-to-managed-disks |
+| Migrate Windows VMs to Premium Storage with Site Recovery | https://learn.microsoft.com/en-us/azure/virtual-machines/windows/migrate-to-premium-storage-using-azure-site-recovery |
+| Migrate VMs from AWS/on-premises to Azure managed disks | https://learn.microsoft.com/en-us/azure/virtual-machines/windows/on-prem-to-azure |
+| Set up blue-green deployments to Azure Linux VMs with Azure Pipelines | https://learn.microsoft.com/en-us/previous-versions/azure/virtual-machines/linux/tutorial-azure-devops-blue-green-strategy |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Apply scaling strategies for Azure HPC applications | https://learn.microsoft.com/en-us/azure/virtual-machines/compiling-scaling-applications |
+| Apply scaling best practices for Azure HPC applications | https://learn.microsoft.com/en-us/azure/virtual-machines/compiling-scaling-applications |
+| Optimize InfiniBand-enabled HB and N series VMs for HPC | https://learn.microsoft.com/en-us/azure/virtual-machines/configure |
+| Optimize InfiniBand-enabled HB and N-series VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/configure |
+| Apply best practices for Azure VM cost optimization | https://learn.microsoft.com/en-us/azure/virtual-machines/cost-optimization-best-practices |
+| Benchmark application performance on Azure Disk Storage | https://learn.microsoft.com/en-us/azure/virtual-machines/disks-benchmarks |
+| Apply high-availability best practices for Azure VMs and disks | https://learn.microsoft.com/en-us/azure/virtual-machines/disks-high-availability |
+| Use incremental snapshots for Azure managed disks | https://learn.microsoft.com/en-us/azure/virtual-machines/disks-incremental-snapshots |
+| Optimize VM and disk performance on Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/disks-performance |
+| Use VM extensions on Python 3-enabled Linux VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/issues-using-vm-extensions-python-3 |
+| Generalize or deprovision Azure VMs before imaging | https://learn.microsoft.com/en-us/azure/virtual-machines/generalize |
+| Interpret HBv2 VM performance benchmarks | https://learn.microsoft.com/en-us/azure/virtual-machines/hbv2-performance |
+| Optimize HBv2 NUMA topology for HPC workloads | https://learn.microsoft.com/en-us/azure/virtual-machines/hbv2-series-overview |
+| Evaluate HBv3 VM performance and scalability | https://learn.microsoft.com/en-us/azure/virtual-machines/hbv3-performance |
+| Understand HBv3 VM architecture and topology | https://learn.microsoft.com/en-us/azure/virtual-machines/hbv3-series-overview |
+| Assess HBv4 VM performance and scaling behavior | https://learn.microsoft.com/en-us/azure/virtual-machines/hbv4-performance |
+| Leverage HBv4 VM architecture for HPC tuning | https://learn.microsoft.com/en-us/azure/virtual-machines/hbv4-series-overview |
+| Use HBv5 performance benchmarks for capacity planning | https://learn.microsoft.com/en-us/azure/virtual-machines/hbv5-performance |
+| Understand HBv5 VM architecture and topology | https://learn.microsoft.com/en-us/azure/virtual-machines/hbv5-series-overview |
+| Optimize HC-series NUMA and core placement | https://learn.microsoft.com/en-us/azure/virtual-machines/hc-series-overview |
+| Interpret HC-series VM performance test results | https://learn.microsoft.com/en-us/azure/virtual-machines/hc-series-performance |
+| Leverage HX VM architecture and NUMA layout | https://learn.microsoft.com/en-us/azure/virtual-machines/hx-series-overview |
+| Apply best practices for Azure VM Image Builder | https://learn.microsoft.com/en-us/azure/virtual-machines/image-builder-best-practices |
+| Create and upload CentOS VHDs to Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/create-upload-centos |
+| Prepare Linux systems for Azure imaging | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/create-upload-generic |
+| Create and upload OpenBSD images to Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/create-upload-openbsd |
+| Create and upload Ubuntu VHDs for Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/create-upload-ubuntu |
+| Prepare Debian VHD images for Azure VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/debian-create-upload-vhd |
+| Create and upload Flatcar Linux VHDs to Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/flatcar-create-upload-vhd |
+| Create and upload Oracle Linux VHDs for Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/oracle-create-upload-vhd |
+| Prepare and upload RHEL VHDs for Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/redhat-create-upload-vhd |
+| Optimize Linux performance on Lsv3 and Lasv3 VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/storage-performance |
+| Create and upload SUSE Linux VHDs in Azure | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/suse-create-upload-vhd |
+| Design high-performance apps with Azure premium SSDs | https://learn.microsoft.com/en-us/azure/virtual-machines/premium-storage-performance |
+| Optimize VM boot time using Image Builder | https://learn.microsoft.com/en-us/azure/virtual-machines/vm-boot-optimization |
+| Optimize Windows performance on Lsv3 and Lasv3 VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/windows/storage-performance |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Choose between Azure VM, VMSS, and Compute Fleet | https://learn.microsoft.com/en-us/azure/virtual-machines/compare-compute-products |
+| Choose new GPU VM sizes for NC/ND migration | https://learn.microsoft.com/en-us/azure/virtual-machines/migration/sizes/n-series-migration |
+| Select replacement sizes for retired NV-series VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/migration/sizes/nv-series-migration-guide |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Design backup and disaster recovery for Azure managed disks | https://learn.microsoft.com/en-us/azure/virtual-machines/backup-and-disaster-recovery-for-azure-iaas-disks |
+| Design low-latency architectures with proximity placement groups | https://learn.microsoft.com/en-us/azure/virtual-machines/co-location |
+| Choose DNS name resolution options for Linux VMs | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/azure-dns |
+| Architect OpenShift deployments on Azure Stack Hub | https://learn.microsoft.com/en-us/azure/virtual-machines/linux/openshift-azure-stack |
+| Migrate workloads from retiring Azure Dedicated Host SKUs | https://learn.microsoft.com/en-us/azure/virtual-machines/migration/dedicated-host-migration-guide |
+| Migrate retiring general purpose VM sizes to newer series | https://learn.microsoft.com/en-us/azure/virtual-machines/migration/sizes/d-ds-dv2-dsv2-ls-series-migration-guide |
+| Migrate NV-series GPU VMs to newer Azure GPU series | https://learn.microsoft.com/en-us/azure/virtual-machines/migration/sizes/nv-series-migration-guide |
+| Backup and disaster recovery patterns for unmanaged Azure disks | https://learn.microsoft.com/en-us/azure/virtual-machines/page-blobs-backup-and-disaster-recovery |

@@ -31,42 +31,60 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Choose the right integration runtime architecture | https://learn.microsoft.com/en-us/azure/data-factory/choose-the-right-integration-runtime-configuration |
-| Design efficient pipelines using mapping data flows | https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-performance-pipelines |
-| Design BCDR for Azure-SSIS IR with SQL failover groups | https://learn.microsoft.com/en-us/azure/data-factory/configure-bcdr-azure-ssis-integration-runtime |
-| Design metadata-driven large-scale copy pipelines | https://learn.microsoft.com/en-us/azure/data-factory/copy-data-tool-metadata-driven |
-| Design ADF pipelines to denormalize SQL data into Cosmos DB | https://learn.microsoft.com/en-us/azure/data-factory/how-to-sqldb-to-cosmosdb |
-| Decide when to join Azure-SSIS IR to a VNet | https://learn.microsoft.com/en-us/azure/data-factory/join-azure-ssis-integration-runtime-virtual-network |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Apply DataOps practices to Azure Data Factory projects | https://learn.microsoft.com/en-us/azure/data-factory/apply-dataops |
-| Use automatic connector upgrade in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/automatic-connector-upgrade |
-| Use column patterns in mapping data flows | https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-column-pattern |
-| Tune mapping data flow performance in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-performance |
-| Optimize sink performance in mapping data flows | https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-performance-sinks |
-| Optimize source performance in mapping data flows | https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-performance-sources |
-| Optimize transformation performance in mapping data flows | https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-performance-transformations |
-| Handle schema drift in mapping data flows | https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-schema-drift |
-| Optimize Azure Data Factory integration runtime performance | https://learn.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime-performance |
-| Tune Azure-SSIS IR performance configuration | https://learn.microsoft.com/en-us/azure/data-factory/configure-azure-ssis-integration-runtime-performance |
-| Use connector upgrade advisor for Data Factory and Synapse | https://learn.microsoft.com/en-us/azure/data-factory/connector-upgrade-advisor |
-| Follow guidance to upgrade Azure Data Factory connectors | https://learn.microsoft.com/en-us/azure/data-factory/connector-upgrade-guidance |
-| Optimize Azure Data Factory copy activity performance | https://learn.microsoft.com/en-us/azure/data-factory/copy-activity-performance |
-| Plan HDFS to Azure Storage migration using Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/data-migration-guidance-hdfs-azure-storage |
-| Migrate Netezza data to Azure with Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/data-migration-guidance-netezza-azure-sqldw |
-| Design large-scale S3 to Azure Storage migrations with ADF | https://learn.microsoft.com/en-us/azure/data-factory/data-migration-guidance-s3-azure-storage |
-| Use ADF data flow snippets for deduplication and null handling | https://learn.microsoft.com/en-us/azure/data-factory/how-to-data-flow-dedupe-nulls-snippets |
-| Implement BCDR for Azure Data Factory pipelines | https://learn.microsoft.com/en-us/azure/data-factory/pipelines-disaster-recovery |
-| Use advanced features and best practices for SAP CDC | https://learn.microsoft.com/en-us/azure/data-factory/sap-change-data-capture-advanced-topics |
-| Manage SAP CDC ETL processes in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/sap-change-data-capture-management |
-| Apply SSIS-to-ADF migration assessment rules | https://learn.microsoft.com/en-us/azure/data-factory/scenario-ssis-migration-rules |
-| Best practices for writing files to data lake with ADF data flows | https://learn.microsoft.com/en-us/azure/data-factory/tutorial-data-flow-write-to-lake |
-| Operationalize Azure Data Factory data pipelines | https://learn.microsoft.com/en-us/azure/data-factory/tutorial-operationalize-pipelines |
+| Diagnose Azure Data Factory change data capture issues | https://learn.microsoft.com/en-us/azure/data-factory/change-data-capture-troubleshoot |
+| Troubleshoot CI/CD, Azure DevOps, and GitHub integration for Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/ci-cd-github-troubleshoot-guide |
+| Resolve common issues in Azure Data Factory connector upgrades | https://learn.microsoft.com/en-us/azure/data-factory/connector-deprecation-frequently-asked-questions |
+| Fix Azure Data Factory Amazon S3 connector errors | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-amazon-simple-storage-service |
+| Troubleshoot Azure Blob Storage connector in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-azure-blob-storage |
+| Resolve Azure Cosmos DB connector issues in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-azure-cosmos-db |
+| Troubleshoot Azure Data Explorer connector for Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-azure-data-explorer |
+| Fix Azure Data Lake Storage connector problems in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-azure-data-lake |
+| Resolve Azure Files connector errors in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-azure-files |
+| Troubleshoot Azure Table Storage connector in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-azure-table-storage |
+| Resolve DB2 connector issues in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-db2 |
+| Fix delimited text format connector problems in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-delimited-text |
+| Troubleshoot Dynamics 365 and Dataverse connectors in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-dynamics-dataverse |
+| Resolve file system connector errors in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-file-system |
+| Fix FTP, SFTP, and HTTP connector issues in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-ftp-sftp-http |
+| Troubleshoot Google Ads connector in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-google-ads |
+| Resolve common Azure Data Factory connector failures | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide |
+| Resolve Hive connector problems in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-hive |
+| Troubleshoot Microsoft Fabric Lakehouse connector in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-microsoft-fabric-lakehouse |
+| Fix Microsoft Fabric Warehouse connector issues in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-microsoft-fabric-warehouse |
+| Diagnose and fix Azure Data Factory MongoDB connector errors | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-mongodb |
+| Resolve Azure Data Factory Oracle connector issues | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-oracle |
+| Troubleshoot ORC format connector problems in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-orc |
+| Fix Parquet format connector failures in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-parquet |
+| Troubleshoot Azure Database for PostgreSQL connector in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-postgresql |
+| Troubleshoot REST connector errors in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-rest |
+| Resolve Salesforce and Service Cloud connector issues in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-salesforce |
+| Troubleshoot SAP Table, BW Open Hub, and ODP connectors | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-sap |
+| Fix ServiceNow connector problems in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-servicenow |
+| Troubleshoot SharePoint Online list connector in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-sharepoint-online-list |
+| Resolve Snowflake connector failures in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-snowflake |
+| Fix SQL-based connectors (Synapse, Azure SQL, SQL Server) in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-synapse-sql |
+| Troubleshoot Teradata connector issues in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-teradata |
+| Fix XML format connector issues in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-xml |
+| Troubleshoot Azure Data Factory copy performance issues | https://learn.microsoft.com/en-us/azure/data-factory/copy-activity-performance-troubleshooting |
+| Troubleshoot external control activities in ADF | https://learn.microsoft.com/en-us/azure/data-factory/data-factory-troubleshoot-guide |
+| Troubleshoot Azure Data Factory Studio issues | https://learn.microsoft.com/en-us/azure/data-factory/data-factory-ux-troubleshoot-guide |
+| Troubleshoot connector and format problems in mapping data flows | https://learn.microsoft.com/en-us/azure/data-factory/data-flow-troubleshoot-connector-format |
+| Diagnose and resolve mapping data flow issues in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/data-flow-troubleshoot-guide |
+| Handle SQL truncation and error rows in ADF data flows | https://learn.microsoft.com/en-us/azure/data-factory/how-to-data-flow-error-rows |
+| Resolve Azure Data Factory known issues | https://learn.microsoft.com/en-us/azure/data-factory/known-issues-troubleshoot-guide |
+| Monitor Azure-SSIS operations with Azure Monitor | https://learn.microsoft.com/en-us/azure/data-factory/monitor-ssis |
+| Troubleshoot pipeline orchestration and trigger failures in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/pipeline-trigger-troubleshoot-guide |
+| Debug SAP CDC connector using SHIR logs | https://learn.microsoft.com/en-us/azure/data-factory/sap-change-data-capture-debug-shir-logs |
+| Resolve security and access control issues in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/security-and-access-control-troubleshoot-guide |
+| Use the self-hosted IR diagnostic tool for ADF | https://learn.microsoft.com/en-us/azure/data-factory/self-hosted-integration-runtime-diagnostic-tool |
+| Troubleshoot self-hosted integration runtime in Data Factory and Synapse | https://learn.microsoft.com/en-us/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide |
+| Diagnose SSIS integration runtime connectivity issues | https://learn.microsoft.com/en-us/azure/data-factory/ssis-integration-runtime-diagnose-connectivity-faq |
+| Fix SSIS Integration Runtime management issues in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/ssis-integration-runtime-management-troubleshoot |
+| Troubleshoot SSIS package execution in the Azure SSIS integration runtime | https://learn.microsoft.com/en-us/azure/data-factory/ssis-integration-runtime-ssis-activity-faq |
+| Interpret Azure Data Factory pipeline failures | https://learn.microsoft.com/en-us/azure/data-factory/tutorial-pipeline-failure-error-handling |
 
 ### Configuration
 | Topic | URL |
@@ -221,22 +239,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Use legacy supported file formats and compression | https://learn.microsoft.com/en-us/azure/data-factory/supported-file-formats-and-compression-codecs-legacy |
 | Set up dependencies between tumbling window triggers | https://learn.microsoft.com/en-us/azure/data-factory/tumbling-window-trigger-dependency |
 | Configure pipeline return values between ADF pipelines | https://learn.microsoft.com/en-us/azure/data-factory/tutorial-pipeline-return-value |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Implement CI/CD deployment patterns for ADF Airflow | https://learn.microsoft.com/en-us/azure/data-factory/ci-cd-pattern-with-airflow |
-| Implement CI/CD for Azure Data Factory environments | https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery |
-| Automate Azure Data Factory deployment with Azure Pipelines | https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-automate-azure-pipelines |
-| Set up a hotfix production environment for Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-hotfix-environment |
-| Configure automated publishing for Data Factory CI/CD | https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-improvements |
-| Deploy Data Factory with linked ARM templates at scale | https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-linked-templates |
-| Manually promote ARM templates for Data Factory CI/CD | https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-manual-promotion |
-| Use custom ARM template parameters in Data Factory CI/CD | https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-resource-manager-custom-parameters |
-| Use pre- and post-deployment scripts in Data Factory CI/CD | https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-sample-script |
-| Deploy linked ARM templates via Azure DevOps for Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/deploy-linked-arm-templates-with-vsts |
-| Run self-hosted integration runtime in Windows containers | https://learn.microsoft.com/en-us/azure/data-factory/how-to-run-self-hosted-integration-runtime-in-windows-container |
-| Automate self-hosted IR installation with PowerShell | https://learn.microsoft.com/en-us/azure/data-factory/self-hosted-integration-runtime-automation-scripts |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -444,57 +446,55 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Store Azure Data Factory credentials in Key Vault | https://learn.microsoft.com/en-us/azure/data-factory/store-credentials-in-key-vault |
 | Create ADF pipeline using private endpoints for secure copy | https://learn.microsoft.com/en-us/azure/data-factory/tutorial-copy-data-portal-private |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Diagnose Azure Data Factory change data capture issues | https://learn.microsoft.com/en-us/azure/data-factory/change-data-capture-troubleshoot |
-| Troubleshoot CI/CD, Azure DevOps, and GitHub integration for Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/ci-cd-github-troubleshoot-guide |
-| Resolve common issues in Azure Data Factory connector upgrades | https://learn.microsoft.com/en-us/azure/data-factory/connector-deprecation-frequently-asked-questions |
-| Fix Azure Data Factory Amazon S3 connector errors | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-amazon-simple-storage-service |
-| Troubleshoot Azure Blob Storage connector in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-azure-blob-storage |
-| Resolve Azure Cosmos DB connector issues in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-azure-cosmos-db |
-| Troubleshoot Azure Data Explorer connector for Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-azure-data-explorer |
-| Fix Azure Data Lake Storage connector problems in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-azure-data-lake |
-| Resolve Azure Files connector errors in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-azure-files |
-| Troubleshoot Azure Table Storage connector in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-azure-table-storage |
-| Resolve DB2 connector issues in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-db2 |
-| Fix delimited text format connector problems in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-delimited-text |
-| Troubleshoot Dynamics 365 and Dataverse connectors in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-dynamics-dataverse |
-| Resolve file system connector errors in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-file-system |
-| Fix FTP, SFTP, and HTTP connector issues in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-ftp-sftp-http |
-| Troubleshoot Google Ads connector in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-google-ads |
-| Resolve common Azure Data Factory connector failures | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide |
-| Resolve Hive connector problems in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-hive |
-| Troubleshoot Microsoft Fabric Lakehouse connector in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-microsoft-fabric-lakehouse |
-| Fix Microsoft Fabric Warehouse connector issues in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-microsoft-fabric-warehouse |
-| Diagnose and fix Azure Data Factory MongoDB connector errors | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-mongodb |
-| Resolve Azure Data Factory Oracle connector issues | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-oracle |
-| Troubleshoot ORC format connector problems in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-orc |
-| Fix Parquet format connector failures in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-parquet |
-| Troubleshoot Azure Database for PostgreSQL connector in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-postgresql |
-| Troubleshoot REST connector errors in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-rest |
-| Resolve Salesforce and Service Cloud connector issues in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-salesforce |
-| Troubleshoot SAP Table, BW Open Hub, and ODP connectors | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-sap |
-| Fix ServiceNow connector problems in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-servicenow |
-| Troubleshoot SharePoint Online list connector in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-sharepoint-online-list |
-| Resolve Snowflake connector failures in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-snowflake |
-| Fix SQL-based connectors (Synapse, Azure SQL, SQL Server) in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-synapse-sql |
-| Troubleshoot Teradata connector issues in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-teradata |
-| Fix XML format connector issues in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-xml |
-| Troubleshoot Azure Data Factory copy performance issues | https://learn.microsoft.com/en-us/azure/data-factory/copy-activity-performance-troubleshooting |
-| Troubleshoot external control activities in ADF | https://learn.microsoft.com/en-us/azure/data-factory/data-factory-troubleshoot-guide |
-| Troubleshoot Azure Data Factory Studio issues | https://learn.microsoft.com/en-us/azure/data-factory/data-factory-ux-troubleshoot-guide |
-| Troubleshoot connector and format problems in mapping data flows | https://learn.microsoft.com/en-us/azure/data-factory/data-flow-troubleshoot-connector-format |
-| Diagnose and resolve mapping data flow issues in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/data-flow-troubleshoot-guide |
-| Handle SQL truncation and error rows in ADF data flows | https://learn.microsoft.com/en-us/azure/data-factory/how-to-data-flow-error-rows |
-| Resolve Azure Data Factory known issues | https://learn.microsoft.com/en-us/azure/data-factory/known-issues-troubleshoot-guide |
-| Monitor Azure-SSIS operations with Azure Monitor | https://learn.microsoft.com/en-us/azure/data-factory/monitor-ssis |
-| Troubleshoot pipeline orchestration and trigger failures in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/pipeline-trigger-troubleshoot-guide |
-| Debug SAP CDC connector using SHIR logs | https://learn.microsoft.com/en-us/azure/data-factory/sap-change-data-capture-debug-shir-logs |
-| Resolve security and access control issues in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/security-and-access-control-troubleshoot-guide |
-| Use the self-hosted IR diagnostic tool for ADF | https://learn.microsoft.com/en-us/azure/data-factory/self-hosted-integration-runtime-diagnostic-tool |
-| Troubleshoot self-hosted integration runtime in Data Factory and Synapse | https://learn.microsoft.com/en-us/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide |
-| Diagnose SSIS integration runtime connectivity issues | https://learn.microsoft.com/en-us/azure/data-factory/ssis-integration-runtime-diagnose-connectivity-faq |
-| Fix SSIS Integration Runtime management issues in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/ssis-integration-runtime-management-troubleshoot |
-| Troubleshoot SSIS package execution in the Azure SSIS integration runtime | https://learn.microsoft.com/en-us/azure/data-factory/ssis-integration-runtime-ssis-activity-faq |
-| Interpret Azure Data Factory pipeline failures | https://learn.microsoft.com/en-us/azure/data-factory/tutorial-pipeline-failure-error-handling |
+| Implement CI/CD deployment patterns for ADF Airflow | https://learn.microsoft.com/en-us/azure/data-factory/ci-cd-pattern-with-airflow |
+| Implement CI/CD for Azure Data Factory environments | https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery |
+| Automate Azure Data Factory deployment with Azure Pipelines | https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-automate-azure-pipelines |
+| Set up a hotfix production environment for Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-hotfix-environment |
+| Configure automated publishing for Data Factory CI/CD | https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-improvements |
+| Deploy Data Factory with linked ARM templates at scale | https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-linked-templates |
+| Manually promote ARM templates for Data Factory CI/CD | https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-manual-promotion |
+| Use custom ARM template parameters in Data Factory CI/CD | https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-resource-manager-custom-parameters |
+| Use pre- and post-deployment scripts in Data Factory CI/CD | https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-sample-script |
+| Deploy linked ARM templates via Azure DevOps for Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/deploy-linked-arm-templates-with-vsts |
+| Run self-hosted integration runtime in Windows containers | https://learn.microsoft.com/en-us/azure/data-factory/how-to-run-self-hosted-integration-runtime-in-windows-container |
+| Automate self-hosted IR installation with PowerShell | https://learn.microsoft.com/en-us/azure/data-factory/self-hosted-integration-runtime-automation-scripts |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Apply DataOps practices to Azure Data Factory projects | https://learn.microsoft.com/en-us/azure/data-factory/apply-dataops |
+| Use automatic connector upgrade in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/automatic-connector-upgrade |
+| Use column patterns in mapping data flows | https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-column-pattern |
+| Tune mapping data flow performance in Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-performance |
+| Optimize sink performance in mapping data flows | https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-performance-sinks |
+| Optimize source performance in mapping data flows | https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-performance-sources |
+| Optimize transformation performance in mapping data flows | https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-performance-transformations |
+| Handle schema drift in mapping data flows | https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-schema-drift |
+| Optimize Azure Data Factory integration runtime performance | https://learn.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime-performance |
+| Tune Azure-SSIS IR performance configuration | https://learn.microsoft.com/en-us/azure/data-factory/configure-azure-ssis-integration-runtime-performance |
+| Use connector upgrade advisor for Data Factory and Synapse | https://learn.microsoft.com/en-us/azure/data-factory/connector-upgrade-advisor |
+| Follow guidance to upgrade Azure Data Factory connectors | https://learn.microsoft.com/en-us/azure/data-factory/connector-upgrade-guidance |
+| Optimize Azure Data Factory copy activity performance | https://learn.microsoft.com/en-us/azure/data-factory/copy-activity-performance |
+| Plan HDFS to Azure Storage migration using Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/data-migration-guidance-hdfs-azure-storage |
+| Migrate Netezza data to Azure with Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/data-migration-guidance-netezza-azure-sqldw |
+| Design large-scale S3 to Azure Storage migrations with ADF | https://learn.microsoft.com/en-us/azure/data-factory/data-migration-guidance-s3-azure-storage |
+| Use ADF data flow snippets for deduplication and null handling | https://learn.microsoft.com/en-us/azure/data-factory/how-to-data-flow-dedupe-nulls-snippets |
+| Implement BCDR for Azure Data Factory pipelines | https://learn.microsoft.com/en-us/azure/data-factory/pipelines-disaster-recovery |
+| Use advanced features and best practices for SAP CDC | https://learn.microsoft.com/en-us/azure/data-factory/sap-change-data-capture-advanced-topics |
+| Manage SAP CDC ETL processes in Azure Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/sap-change-data-capture-management |
+| Apply SSIS-to-ADF migration assessment rules | https://learn.microsoft.com/en-us/azure/data-factory/scenario-ssis-migration-rules |
+| Best practices for writing files to data lake with ADF data flows | https://learn.microsoft.com/en-us/azure/data-factory/tutorial-data-flow-write-to-lake |
+| Operationalize Azure Data Factory data pipelines | https://learn.microsoft.com/en-us/azure/data-factory/tutorial-operationalize-pipelines |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Choose the right integration runtime architecture | https://learn.microsoft.com/en-us/azure/data-factory/choose-the-right-integration-runtime-configuration |
+| Design efficient pipelines using mapping data flows | https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-performance-pipelines |
+| Design BCDR for Azure-SSIS IR with SQL failover groups | https://learn.microsoft.com/en-us/azure/data-factory/configure-bcdr-azure-ssis-integration-runtime |
+| Design metadata-driven large-scale copy pipelines | https://learn.microsoft.com/en-us/azure/data-factory/copy-data-tool-metadata-driven |
+| Design ADF pipelines to denormalize SQL data into Cosmos DB | https://learn.microsoft.com/en-us/azure/data-factory/how-to-sqldb-to-cosmosdb |
+| Decide when to join Azure-SSIS IR to a VNet | https://learn.microsoft.com/en-us/azure/data-factory/join-azure-ssis-integration-runtime-virtual-network |

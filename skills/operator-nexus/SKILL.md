@@ -31,17 +31,49 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Use placement hints for Nexus VM affinity rules | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-virtual-machine-placement-hints |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Best practices for Azure Operator Nexus bare metal operations | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-bare-metal-best-practices |
-| Manage Azure Operator Nexus credential rotation lifecycle | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-credential-rotation |
-| Run required and recommended checks before Nexus fabric upgrades | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-upgrade-nexus-fabric |
+| Troubleshoot Nexus Network Fabric with read-only commands | https://learn.microsoft.com/en-us/azure/operator-nexus/concepts-network-fabric-read-only-commands |
+| Diagnose and validate cabling for Nexus Network Fabric devices | https://learn.microsoft.com/en-us/azure/operator-nexus/how-to-validate-cables |
+| Collect diagnostic data from Nexus bare metal with run-data-extract | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-baremetal-run-data-extract |
+| Troubleshoot Nexus bare metal machines with run-read | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-baremetal-run-read |
+| Gather trace IDs for Nexus PersistentVolumeClaim failures | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-gather-pvc-trace-id |
+| Collect diagnostic data for Nexus VM console issues | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-gather-vm-console-data |
+| Run Nexus Kubernetes log collector for support | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-kubernetes-cluster-log-collector-script |
+| Run read-only diagnostics on Nexus storage appliances | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-storage-run-read |
+| Troubleshoot accepted cluster hydration issues in Operator Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-accepted-cluster-hydration |
+| Fix degraded status on Operator Nexus bare metal machines | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-bare-metal-machine-degraded |
+| Troubleshoot bare metal machine provisioning in Operator Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-bare-metal-machine-provisioning |
+| Resolve warning status messages on Nexus bare metal machines | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-bare-metal-machine-warning |
+| Fix Operator Nexus cluster heartbeat disconnected status | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-cluster-heartbeat-connection-status-disconnected |
+| Restore Operator Nexus control plane quorum after node loss | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-control-plane-quorum |
+| Resolve CSN storage pod containers stuck in creating | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-csn-storage-pod-container-stuck-in-creating |
+| Troubleshoot DNS issues in Nexus Network Fabric | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-dns-issues |
+| Resolve failed volume attachment alerts in Operator Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-failed-volume-attachments |
+| Resolve hardware validation failures for Nexus bare metal servers | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-hardware-validation-failure |
+| Troubleshoot CSN-connected internet host access in AKS hybrid | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-internet-host-virtual-machine |
+| Troubleshoot Operator Nexus isolation domain provisioning failures | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-isolation-domain |
+| Diagnose dual-stack Nexus Kubernetes cluster issues | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-kubernetes-cluster-dual-stack-configuration |
+| Uncordon Nexus Kubernetes nodes after runtime upgrade | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-kubernetes-cluster-node-cordoned |
+| Resolve stuck workloads after Nexus node power failure | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-kubernetes-cluster-stuck-workloads-due-to-power-failure |
+| Diagnose LACP bonding issues on Nexus physical hosts | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-lacp-bonding |
+| Resolve Nexus log disruption after 48-hour disconnection | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-logs-disrupted-post-prolonged-disconnection |
+| Troubleshoot Kubernetes container memory limits on Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-memory-limits |
+| Resolve common issues with multiple Nexus storage appliances | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-multiple-storage-appliances |
+| Fix Neighbor Group AuthorizationFailed creation errors | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-neighbor-group-creation-error |
+| Troubleshoot unhealthy NFS pods in Operator Nexus clusters | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-network-file-system-unhealthy |
+| Fix Nexus Kubernetes pods stuck in ContainerCreating | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-nexus-kubernetes-cluster-pods |
+| Troubleshoot KubernetesCluster node NotReady in Operator Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-not-ready-kubernetes-cluster-node |
+| Troubleshoot packet loss between NAKS worker nodes | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-packet-loss |
+| Troubleshoot Nexus bare metal servers with restart, reimage, replace | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-reboot-reimage-replace |
+| Interpret and act on Operator Nexus resource health alerts | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-resource-health-alerts |
+| Fix storage control plane connectivity issues in Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-storage-control-plane-disconnected |
+| Fix TWAMP over UDP failures with NAT in Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-twamp-udp-not-working |
+| Troubleshoot unhealthy CSI storage pods in Operator Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-unhealthy-container-storage-interface |
+| Diagnose unhealthy or degraded storage appliances in Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-unhealthy-degraded-storage-appliance |
+| Troubleshoot Arc enrollment for Nexus VMs with managed identity | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-virtual-machines-arc-enroll-with-managed-identities |
+| Fix VM errors after restarting bare-metal machines in Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-vm-error-after-reboot |
 
 ### Configuration
 | Topic | URL |
@@ -107,20 +139,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure neighbor groups in Azure Operator Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/reference-neighbor-group-configuration |
 | Configure Azure Operator Nexus route policies | https://learn.microsoft.com/en-us/azure/operator-nexus/reference-route-policy-configuration |
 
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Deploy an Azure Operator Nexus instance using templates | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-nexus-instance-deployment-template |
-| Replace Nexus network devices via RMA process | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-replace-network-devices |
-| Replace a terminal server in Nexus Network Fabric | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-replace-terminal-server |
-| Upgrade the terminal server OS in Nexus Fabric | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-upgrade-os-of-terminal-server |
-| Build container images for Nexus virtual machines | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-virtual-machine-image |
-| Align storage appliance software versions with Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/reference-near-edge-storage-supported-versions |
-| Select VM SKUs for Nexus Kubernetes node pools | https://learn.microsoft.com/en-us/azure/operator-nexus/reference-nexus-kubernetes-cluster-sku |
-| Manage supported Kubernetes versions in Nexus service | https://learn.microsoft.com/en-us/azure/operator-nexus/reference-nexus-kubernetes-cluster-supported-versions |
-| Plan Operator Nexus platform runtime upgrades | https://learn.microsoft.com/en-us/azure/operator-nexus/reference-nexus-platform-runtime-upgrades |
-| Use supported software versions in Azure Operator Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/reference-supported-software-versions |
-
 ### Limits & Quotas
 | Topic | URL |
 |-------|-----|
@@ -165,46 +183,28 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Enroll Nexus VMs in Azure Arc using managed identities | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-virtual-machines-arc-enroll-with-managed-identities |
 | Create Nexus VMs with managed identities and authenticate | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-virtual-machines-authenticate-with-managed-identities |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Troubleshoot Nexus Network Fabric with read-only commands | https://learn.microsoft.com/en-us/azure/operator-nexus/concepts-network-fabric-read-only-commands |
-| Diagnose and validate cabling for Nexus Network Fabric devices | https://learn.microsoft.com/en-us/azure/operator-nexus/how-to-validate-cables |
-| Collect diagnostic data from Nexus bare metal with run-data-extract | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-baremetal-run-data-extract |
-| Troubleshoot Nexus bare metal machines with run-read | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-baremetal-run-read |
-| Gather trace IDs for Nexus PersistentVolumeClaim failures | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-gather-pvc-trace-id |
-| Collect diagnostic data for Nexus VM console issues | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-gather-vm-console-data |
-| Run Nexus Kubernetes log collector for support | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-kubernetes-cluster-log-collector-script |
-| Run read-only diagnostics on Nexus storage appliances | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-storage-run-read |
-| Troubleshoot accepted cluster hydration issues in Operator Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-accepted-cluster-hydration |
-| Fix degraded status on Operator Nexus bare metal machines | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-bare-metal-machine-degraded |
-| Troubleshoot bare metal machine provisioning in Operator Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-bare-metal-machine-provisioning |
-| Resolve warning status messages on Nexus bare metal machines | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-bare-metal-machine-warning |
-| Fix Operator Nexus cluster heartbeat disconnected status | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-cluster-heartbeat-connection-status-disconnected |
-| Restore Operator Nexus control plane quorum after node loss | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-control-plane-quorum |
-| Resolve CSN storage pod containers stuck in creating | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-csn-storage-pod-container-stuck-in-creating |
-| Troubleshoot DNS issues in Nexus Network Fabric | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-dns-issues |
-| Resolve failed volume attachment alerts in Operator Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-failed-volume-attachments |
-| Resolve hardware validation failures for Nexus bare metal servers | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-hardware-validation-failure |
-| Troubleshoot CSN-connected internet host access in AKS hybrid | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-internet-host-virtual-machine |
-| Troubleshoot Operator Nexus isolation domain provisioning failures | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-isolation-domain |
-| Diagnose dual-stack Nexus Kubernetes cluster issues | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-kubernetes-cluster-dual-stack-configuration |
-| Uncordon Nexus Kubernetes nodes after runtime upgrade | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-kubernetes-cluster-node-cordoned |
-| Resolve stuck workloads after Nexus node power failure | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-kubernetes-cluster-stuck-workloads-due-to-power-failure |
-| Diagnose LACP bonding issues on Nexus physical hosts | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-lacp-bonding |
-| Resolve Nexus log disruption after 48-hour disconnection | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-logs-disrupted-post-prolonged-disconnection |
-| Troubleshoot Kubernetes container memory limits on Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-memory-limits |
-| Resolve common issues with multiple Nexus storage appliances | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-multiple-storage-appliances |
-| Fix Neighbor Group AuthorizationFailed creation errors | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-neighbor-group-creation-error |
-| Troubleshoot unhealthy NFS pods in Operator Nexus clusters | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-network-file-system-unhealthy |
-| Fix Nexus Kubernetes pods stuck in ContainerCreating | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-nexus-kubernetes-cluster-pods |
-| Troubleshoot KubernetesCluster node NotReady in Operator Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-not-ready-kubernetes-cluster-node |
-| Troubleshoot packet loss between NAKS worker nodes | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-packet-loss |
-| Troubleshoot Nexus bare metal servers with restart, reimage, replace | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-reboot-reimage-replace |
-| Interpret and act on Operator Nexus resource health alerts | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-resource-health-alerts |
-| Fix storage control plane connectivity issues in Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-storage-control-plane-disconnected |
-| Fix TWAMP over UDP failures with NAT in Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-twamp-udp-not-working |
-| Troubleshoot unhealthy CSI storage pods in Operator Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-unhealthy-container-storage-interface |
-| Diagnose unhealthy or degraded storage appliances in Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-unhealthy-degraded-storage-appliance |
-| Troubleshoot Arc enrollment for Nexus VMs with managed identity | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-virtual-machines-arc-enroll-with-managed-identities |
-| Fix VM errors after restarting bare-metal machines in Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-vm-error-after-reboot |
+| Deploy an Azure Operator Nexus instance using templates | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-nexus-instance-deployment-template |
+| Replace Nexus network devices via RMA process | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-replace-network-devices |
+| Replace a terminal server in Nexus Network Fabric | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-replace-terminal-server |
+| Upgrade the terminal server OS in Nexus Fabric | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-upgrade-os-of-terminal-server |
+| Build container images for Nexus virtual machines | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-virtual-machine-image |
+| Align storage appliance software versions with Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/reference-near-edge-storage-supported-versions |
+| Select VM SKUs for Nexus Kubernetes node pools | https://learn.microsoft.com/en-us/azure/operator-nexus/reference-nexus-kubernetes-cluster-sku |
+| Manage supported Kubernetes versions in Nexus service | https://learn.microsoft.com/en-us/azure/operator-nexus/reference-nexus-kubernetes-cluster-supported-versions |
+| Plan Operator Nexus platform runtime upgrades | https://learn.microsoft.com/en-us/azure/operator-nexus/reference-nexus-platform-runtime-upgrades |
+| Use supported software versions in Azure Operator Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/reference-supported-software-versions |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Best practices for Azure Operator Nexus bare metal operations | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-bare-metal-best-practices |
+| Manage Azure Operator Nexus credential rotation lifecycle | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-credential-rotation |
+| Run required and recommended checks before Nexus fabric upgrades | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-upgrade-nexus-fabric |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Use placement hints for Nexus VM affinity rules | https://learn.microsoft.com/en-us/azure/operator-nexus/howto-virtual-machine-placement-hints |

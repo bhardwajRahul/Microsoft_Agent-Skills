@@ -43,12 +43,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure and manage A2A agents in Azure API Center | https://learn.microsoft.com/en-us/azure/api-center/register-manage-agents |
 | Set up the Azure API Center managed portal | https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center-portal |
 
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Automate Azure API Center registration with GitHub Actions | https://learn.microsoft.com/en-us/azure/api-center/register-apis-github-actions |
-| Deploy and self-host the Azure API Center portal | https://learn.microsoft.com/en-us/azure/api-center/self-host-api-center-portal |
-
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
@@ -63,3 +57,9 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Topic | URL |
 |-------|-----|
 | Configure API key and OAuth2 access in Azure API Center | https://learn.microsoft.com/en-us/azure/api-center/authorize-api-access |
+
+### Deployment
+| Topic | URL |
+|-------|-----|
+| Automate Azure API Center registration with GitHub Actions | https://learn.microsoft.com/en-us/azure/api-center/register-apis-github-actions |
+| Deploy and self-host the Azure API Center portal | https://learn.microsoft.com/en-us/azure/api-center/self-host-api-center-portal |

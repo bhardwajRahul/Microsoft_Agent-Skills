@@ -31,21 +31,11 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Choose Azure HPC Cache usage models and policies | https://learn.microsoft.com/en-us/azure/hpc-cache/cache-usage-models |
-| Design DNS-based client load balancing for Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/client-load-balancing |
-| Design Azure HPC Cache aggregated namespace layout | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-namespace |
-| Design regional redundancy and failover for Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-region-recovery |
-| Decide when Azure HPC Cache fits your workload | https://learn.microsoft.com/en-us/azure/hpc-cache/usage-scenarios |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Optimize data movement to Blob for HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-ingest |
-| Use ADLS-NFS Blob storage effectively with Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/nfs-blob-considerations |
-| Preload and warm Azure HPC Cache with priming | https://learn.microsoft.com/en-us/azure/hpc-cache/prime-cache |
+| Work around Azure Blob firewall issues for HPC Cache targets | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-blob-firewall-fix |
+| Troubleshoot NFS storage target creation for Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/troubleshoot-nas |
 
 ### Configuration
 | Topic | URL |
@@ -59,11 +49,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Operate and update Azure HPC Cache instances | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-manage |
 | Manage lifecycle and allocation of HPC Cache storage targets | https://learn.microsoft.com/en-us/azure/hpc-cache/manage-storage-targets |
 | Monitor Azure HPC Cache metrics and client status | https://learn.microsoft.com/en-us/azure/hpc-cache/metrics |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Recreate or move Azure HPC Cache to another region | https://learn.microsoft.com/en-us/azure/hpc-cache/move-resource |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -87,8 +72,23 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure customer-managed encryption keys for Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/customer-keys |
 | Understand security configuration for Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-security-info |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Work around Azure Blob firewall issues for HPC Cache targets | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-blob-firewall-fix |
-| Troubleshoot NFS storage target creation for Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/troubleshoot-nas |
+| Recreate or move Azure HPC Cache to another region | https://learn.microsoft.com/en-us/azure/hpc-cache/move-resource |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Optimize data movement to Blob for HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-ingest |
+| Use ADLS-NFS Blob storage effectively with Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/nfs-blob-considerations |
+| Preload and warm Azure HPC Cache with priming | https://learn.microsoft.com/en-us/azure/hpc-cache/prime-cache |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Choose Azure HPC Cache usage models and policies | https://learn.microsoft.com/en-us/azure/hpc-cache/cache-usage-models |
+| Design DNS-based client load balancing for Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/client-load-balancing |
+| Design Azure HPC Cache aggregated namespace layout | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-namespace |
+| Design regional redundancy and failover for Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-region-recovery |
+| Decide when Azure HPC Cache fits your workload | https://learn.microsoft.com/en-us/azure/hpc-cache/usage-scenarios |

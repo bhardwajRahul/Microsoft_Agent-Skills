@@ -31,22 +31,10 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Apply confidential computing patterns to AI workloads on Azure | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-ai |
-| Choose Azure confidential computing deployment models | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-computing-deployment-models |
-| Select Azure confidential computing solution patterns | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-computing-solutions |
-| Understand Azure confidential container options | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-containers |
-| Plan workloads for Azure confidential containers | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-containers |
-| Use Intel SGX enclave nodes in AKS | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-nodes-aks-overview |
-| Design enclave-aware container applications on AKS | https://learn.microsoft.com/en-us/azure/confidential-computing/enclave-aware-containers |
-| Design multi-party data analytics on Azure confidential computing | https://learn.microsoft.com/en-us/azure/confidential-computing/multi-party-data |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Choose Azure confidential container offerings | https://learn.microsoft.com/en-us/azure/confidential-computing/choose-confidential-containers-offerings |
+| FAQ for AKS confidential computing nodes | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-nodes-aks-faq |
 
 ### Configuration
 | Topic | URL |
@@ -56,14 +44,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Use AKS Intel SGX device plugin for confidential VMs | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-nodes-aks-addon |
 | Configure and use virtual TPMs in Azure confidential VMs | https://learn.microsoft.com/en-us/azure/confidential-computing/how-to-leverage-virtual-tpms-in-azure-confidential-vms |
 | Use Virtual Machine Metablob Disk with confidential VMs | https://learn.microsoft.com/en-us/azure/confidential-computing/virtual-machine-metablob-disk |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Create custom images for Azure confidential VMs with CLI | https://learn.microsoft.com/en-us/azure/confidential-computing/how-to-create-custom-image-confidential-vm |
-| Migrate nested Azure confidential VMs across regions | https://learn.microsoft.com/en-us/azure/confidential-computing/migrate-nested-confidential-vms |
-| Deploy Azure confidential VMs using ARM templates | https://learn.microsoft.com/en-us/azure/confidential-computing/quick-create-confidential-vm-arm |
-| Deploy VM scale sets with hardened Linux images | https://learn.microsoft.com/en-us/azure/confidential-computing/vmss-deployment-from-hardened-linux-image |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -94,7 +74,27 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Author Secure Key Release policies for Azure confidential TEEs | https://learn.microsoft.com/en-us/azure/confidential-computing/skr-policy-examples |
 | Use virtual TPMs securely in Azure confidential VMs | https://learn.microsoft.com/en-us/azure/confidential-computing/virtual-tpms-in-azure-confidential-vm |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| FAQ for AKS confidential computing nodes | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-nodes-aks-faq |
+| Create custom images for Azure confidential VMs with CLI | https://learn.microsoft.com/en-us/azure/confidential-computing/how-to-create-custom-image-confidential-vm |
+| Migrate nested Azure confidential VMs across regions | https://learn.microsoft.com/en-us/azure/confidential-computing/migrate-nested-confidential-vms |
+| Deploy Azure confidential VMs using ARM templates | https://learn.microsoft.com/en-us/azure/confidential-computing/quick-create-confidential-vm-arm |
+| Deploy VM scale sets with hardened Linux images | https://learn.microsoft.com/en-us/azure/confidential-computing/vmss-deployment-from-hardened-linux-image |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Choose Azure confidential container offerings | https://learn.microsoft.com/en-us/azure/confidential-computing/choose-confidential-containers-offerings |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Apply confidential computing patterns to AI workloads on Azure | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-ai |
+| Choose Azure confidential computing deployment models | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-computing-deployment-models |
+| Select Azure confidential computing solution patterns | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-computing-solutions |
+| Understand Azure confidential container options | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-containers |
+| Plan workloads for Azure confidential containers | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-containers |
+| Use Intel SGX enclave nodes in AKS | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-nodes-aks-overview |
+| Design enclave-aware container applications on AKS | https://learn.microsoft.com/en-us/azure/confidential-computing/enclave-aware-containers |
+| Design multi-party data analytics on Azure confidential computing | https://learn.microsoft.com/en-us/azure/confidential-computing/multi-party-data |

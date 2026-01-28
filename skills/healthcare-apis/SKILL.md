@@ -31,25 +31,17 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Design disaster recovery for Azure API for FHIR | https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/disaster-recovery |
-| Architect DICOM service with Azure Data Lake Storage | https://learn.microsoft.com/en-us/azure/healthcare-apis/dicom/dicom-data-lake |
-| Implement digital pathology workflows with Azure DICOM service | https://learn.microsoft.com/en-us/azure/healthcare-apis/dicom/dicom-digital-pathology |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Apply CMK best practices for DICOM encryption | https://learn.microsoft.com/en-us/azure/healthcare-apis/dicom/customer-managed-keys |
-| Apply CMK best practices for Azure FHIR encryption | https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/customer-managed-keys |
-| Apply performance best practices for Azure FHIR service | https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-best-practices |
-| Perform safe bulk updates on Azure FHIR data | https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-bulk-update |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Review FHIR features supported by Azure FHIR service | https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-features-supported |
+| Validate and troubleshoot Azure API for FHIR access tokens | https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/azure-api-fhir-access-token-validation |
+| Troubleshoot Azure Health Data Services events issues | https://learn.microsoft.com/en-us/azure/healthcare-apis/events/events-troubleshooting-guide |
+| Troubleshoot $convert-data issues in Azure FHIR service | https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/convert-data-troubleshoot |
+| Troubleshoot identity provider issues in Azure FHIR | https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/troubleshoot-identity-provider-configuration |
+| Use MedTech monitoring and health checks for issues | https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/how-to-use-monitoring-and-health-checks-tabs |
+| Diagnose and fix MedTech service deployment errors | https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/troubleshoot-errors-deployment |
+| Troubleshoot MedTech service errors using logs | https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/troubleshoot-errors-logs |
+| Resolve Azure Health Data Services known issues and workarounds | https://learn.microsoft.com/en-us/azure/healthcare-apis/known-issues |
 
 ### Configuration
 | Topic | URL |
@@ -97,18 +89,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure CalculatedContent templates for MedTech mapping | https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/how-to-use-calculatedcontent-templates |
 | Configure IotJsonPathContent templates for MedTech mapping | https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/how-to-use-iotjsonpathcontent-templates |
 | Configure and interpret AuditLogs and DiagnosticLogs for Health Data Services | https://learn.microsoft.com/en-us/azure/healthcare-apis/logging |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Deploy Azure API for FHIR using ARM template | https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/azure-api-fhir-resource-manager-template |
-| Deploy Azure API for FHIR with Azure CLI | https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/fhir-paas-cli-quickstart |
-| Move Azure API for FHIR between subscriptions | https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/move-fhir-service |
-| Deploy Health Data Services with Azure Bicep templates | https://learn.microsoft.com/en-us/azure/healthcare-apis/deploy-healthcare-apis-using-bicep |
-| Deploy Azure DICOM service using the Azure portal | https://learn.microsoft.com/en-us/azure/healthcare-apis/dicom/deploy-dicom-services-in-azure |
-| Deploy DICOM service integrated with Azure Data Lake | https://learn.microsoft.com/en-us/azure/healthcare-apis/dicom/deploy-dicom-services-in-azure-data-lake |
-| Plan and execute migration from Azure API for FHIR to Health Data Services | https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/migration-strategies |
-| Select MedTech service deployment method in Azure | https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/deploy-choose-method |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -184,14 +164,34 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Register client applications for Azure Health Data Services | https://learn.microsoft.com/en-us/azure/healthcare-apis/register-application |
 | Register client apps via CLI and REST for Health Data Services | https://learn.microsoft.com/en-us/azure/healthcare-apis/register-application-cli-rest |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Validate and troubleshoot Azure API for FHIR access tokens | https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/azure-api-fhir-access-token-validation |
-| Troubleshoot Azure Health Data Services events issues | https://learn.microsoft.com/en-us/azure/healthcare-apis/events/events-troubleshooting-guide |
-| Troubleshoot $convert-data issues in Azure FHIR service | https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/convert-data-troubleshoot |
-| Troubleshoot identity provider issues in Azure FHIR | https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/troubleshoot-identity-provider-configuration |
-| Use MedTech monitoring and health checks for issues | https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/how-to-use-monitoring-and-health-checks-tabs |
-| Diagnose and fix MedTech service deployment errors | https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/troubleshoot-errors-deployment |
-| Troubleshoot MedTech service errors using logs | https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/troubleshoot-errors-logs |
-| Resolve Azure Health Data Services known issues and workarounds | https://learn.microsoft.com/en-us/azure/healthcare-apis/known-issues |
+| Deploy Azure API for FHIR using ARM template | https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/azure-api-fhir-resource-manager-template |
+| Deploy Azure API for FHIR with Azure CLI | https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/fhir-paas-cli-quickstart |
+| Move Azure API for FHIR between subscriptions | https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/move-fhir-service |
+| Deploy Health Data Services with Azure Bicep templates | https://learn.microsoft.com/en-us/azure/healthcare-apis/deploy-healthcare-apis-using-bicep |
+| Deploy Azure DICOM service using the Azure portal | https://learn.microsoft.com/en-us/azure/healthcare-apis/dicom/deploy-dicom-services-in-azure |
+| Deploy DICOM service integrated with Azure Data Lake | https://learn.microsoft.com/en-us/azure/healthcare-apis/dicom/deploy-dicom-services-in-azure-data-lake |
+| Plan and execute migration from Azure API for FHIR to Health Data Services | https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/migration-strategies |
+| Select MedTech service deployment method in Azure | https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/deploy-choose-method |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Apply CMK best practices for DICOM encryption | https://learn.microsoft.com/en-us/azure/healthcare-apis/dicom/customer-managed-keys |
+| Apply CMK best practices for Azure FHIR encryption | https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/customer-managed-keys |
+| Apply performance best practices for Azure FHIR service | https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-best-practices |
+| Perform safe bulk updates on Azure FHIR data | https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-bulk-update |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Review FHIR features supported by Azure FHIR service | https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-features-supported |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Design disaster recovery for Azure API for FHIR | https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/disaster-recovery |
+| Architect DICOM service with Azure Data Lake Storage | https://learn.microsoft.com/en-us/azure/healthcare-apis/dicom/dicom-data-lake |
+| Implement digital pathology workflows with Azure DICOM service | https://learn.microsoft.com/en-us/azure/healthcare-apis/dicom/dicom-digital-pathology |

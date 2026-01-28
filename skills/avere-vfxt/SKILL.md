@@ -31,14 +31,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Optimize data ingestion performance for Avere vFXT | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-data-ingest |
-| Plan and size an Avere vFXT cluster in Azure | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-deploy-plan |
-| Tune Avere vFXT cluster performance settings | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-tuning |
-| Implement disaster recovery for Avere vFXT workflows | https://learn.microsoft.com/en-us/azure/avere-vfxt/disaster-recovery |
-
 ### Configuration
 | Topic | URL |
 |-------|-----|
@@ -49,11 +41,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Manage Avere vFXT cluster lifecycle and nodes | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-manage-cluster |
 | Mount clients and load-balance Avere vFXT access | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-mount-clients |
 
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Deploy an Avere vFXT cluster from Azure Marketplace | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-deploy |
-
 ### Limits & Quotas
 | Topic | URL |
 |-------|-----|
@@ -63,3 +50,16 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Topic | URL |
 |-------|-----|
 | Create custom Azure roles to deploy Avere vFXT | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-non-owner |
+
+### Deployment
+| Topic | URL |
+|-------|-----|
+| Deploy an Avere vFXT cluster from Azure Marketplace | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-deploy |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Optimize data ingestion performance for Avere vFXT | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-data-ingest |
+| Plan and size an Avere vFXT cluster in Azure | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-deploy-plan |
+| Tune Avere vFXT cluster performance settings | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-tuning |
+| Implement disaster recovery for Avere vFXT workflows | https://learn.microsoft.com/en-us/azure/avere-vfxt/disaster-recovery |

@@ -31,16 +31,10 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Understand ADE extensibility model and workflow | https://learn.microsoft.com/en-us/azure/deployment-environments/concept-extensibility-model |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Structure Azure Deployment Environments catalogs efficiently | https://learn.microsoft.com/en-us/azure/deployment-environments/best-practice-catalog-structure |
-| Design resilient Azure Deployment Environments deployments | https://learn.microsoft.com/en-us/azure/deployment-environments/concept-reliability-deployment-environments |
+| Troubleshoot Azure Deployment Environments custom image errors | https://learn.microsoft.com/en-us/azure/deployment-environments/troubleshoot-custom-image-logs-errors |
 
 ### Configuration
 | Topic | URL |
@@ -52,12 +46,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure project-level environment types in ADE | https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-configure-project-environment-types |
 | Use ADE CLI commands for custom image management | https://learn.microsoft.com/en-us/azure/deployment-environments/reference-deployment-environment-cli |
 | Reference ADE CLI environment variables for custom images | https://learn.microsoft.com/en-us/azure/deployment-environments/reference-deployment-environment-variables |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Use Azure Pipelines to deploy Azure Deployment Environments | https://learn.microsoft.com/en-us/azure/deployment-environments/tutorial-deploy-environments-in-cicd-azure-devops |
-| Integrate Azure Deployment Environments with GitHub CI/CD | https://learn.microsoft.com/en-us/azure/deployment-environments/tutorial-deploy-environments-in-cicd-github |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -72,7 +60,19 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure managed identities for Azure Deployment Environments | https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-configure-managed-identity |
 | Assign RBAC roles for Azure Deployment Environments access | https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-manage-deployment-environments-access |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Troubleshoot Azure Deployment Environments custom image errors | https://learn.microsoft.com/en-us/azure/deployment-environments/troubleshoot-custom-image-logs-errors |
+| Use Azure Pipelines to deploy Azure Deployment Environments | https://learn.microsoft.com/en-us/azure/deployment-environments/tutorial-deploy-environments-in-cicd-azure-devops |
+| Integrate Azure Deployment Environments with GitHub CI/CD | https://learn.microsoft.com/en-us/azure/deployment-environments/tutorial-deploy-environments-in-cicd-github |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Structure Azure Deployment Environments catalogs efficiently | https://learn.microsoft.com/en-us/azure/deployment-environments/best-practice-catalog-structure |
+| Design resilient Azure Deployment Environments deployments | https://learn.microsoft.com/en-us/azure/deployment-environments/concept-reliability-deployment-environments |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Understand ADE extensibility model and workflow | https://learn.microsoft.com/en-us/azure/deployment-environments/concept-extensibility-model |

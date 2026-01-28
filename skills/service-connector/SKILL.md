@@ -31,10 +31,10 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Best Practices
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Operate and troubleshoot Service Connector with AKS workloads | https://learn.microsoft.com/en-us/azure/service-connector/how-to-use-service-connector-in-aks |
+| Resolve common Service Connector errors and failures | https://learn.microsoft.com/en-us/azure/service-connector/how-to-troubleshoot-front-end-error |
 
 ### Configuration
 | Topic | URL |
@@ -42,11 +42,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Retrieve and use Service Connector connection configurations | https://learn.microsoft.com/en-us/azure/service-connector/how-to-get-configurations |
 | Configure authentication options and env vars in Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-manage-authentication |
 | Provide correct CLI parameters for Service Connector connections | https://learn.microsoft.com/en-us/azure/service-connector/how-to-provide-correct-parameters |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Create Service Connector connections with IaC for CI/CD | https://learn.microsoft.com/en-us/azure/service-connector/how-to-build-connections-with-iac-tools |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -90,7 +85,12 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Understand Entra RBAC roles assigned by Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/concept-microsoft-entra-roles |
 | Verify required permissions for Service Connector connections | https://learn.microsoft.com/en-us/azure/service-connector/concept-permission |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Resolve common Service Connector errors and failures | https://learn.microsoft.com/en-us/azure/service-connector/how-to-troubleshoot-front-end-error |
+| Create Service Connector connections with IaC for CI/CD | https://learn.microsoft.com/en-us/azure/service-connector/how-to-build-connections-with-iac-tools |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Operate and troubleshoot Service Connector with AKS workloads | https://learn.microsoft.com/en-us/azure/service-connector/how-to-use-service-connector-in-aks |

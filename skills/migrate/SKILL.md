@@ -31,25 +31,24 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Choose appropriate Azure Migrate discovery methods | https://learn.microsoft.com/en-us/azure/migrate/discovery-methods-modes?view=migrate |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Apply PostgreSQL assessment rules for Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/assessment-rules-for-postgresql?view=migrate |
-| Apply security best practices to Azure Migrate appliances | https://learn.microsoft.com/en-us/azure/migrate/best-practices-security?view=migrate |
-| Import RVTools XLSX data into Azure Migrate correctly | https://learn.microsoft.com/en-us/azure/migrate/common-questions-import?view=migrate |
-| Test migrate replicating virtual machines in Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/how-to-test-replicating-virtual-machines?view=migrate |
-| Prepare on-premises machines for Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/prepare-for-migration?view=migrate |
-| Prepare Windows Server 2003 machines for Azure migration | https://learn.microsoft.com/en-us/azure/migrate/prepare-windows-server-2003-migration?view=migrate |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Compare agentless vs agent-based Azure Migrate methods | https://learn.microsoft.com/en-us/azure/migrate/server-migrate-overview?view=migrate |
+| Resolve common Azure Migrate assessment issues | https://learn.microsoft.com/en-us/azure/migrate/common-questions-discovery-assessment?view=migrate |
+| Troubleshoot Azure Migrate server migration tool | https://learn.microsoft.com/en-us/azure/migrate/common-questions-server-migration?view=migrate |
+| Troubleshoot common Azure Migrate wave planning issues | https://learn.microsoft.com/en-us/azure/migrate/common-questions-wave-planning?view=migrate |
+| Diagnose and fix Azure Migrate appliance issues | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-appliance-diagnostic?view=migrate |
+| Troubleshoot Azure Migrate appliance deployment issues | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-appliance?view=migrate |
+| Handle supported assessment troubleshooting scenarios | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-assessment-supported-scenarios?view=migrate |
+| Troubleshoot Azure Migrate assessment issues | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-assessment?view=migrate |
+| Troubleshoot agentless VMware replication failures | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-changed-block-tracking-replication?view=migrate |
+| Fix Azure Migrate dependency analysis problems | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-dependencies?view=migrate |
+| Resolve Azure Migrate discovery and inventory issues | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-discovery?view=migrate |
+| Troubleshoot Azure Migrate private endpoint connectivity | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-network-connectivity?view=migrate |
+| Diagnose and fix Azure Migrate project issues | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-project?view=migrate |
+| Resolve slow or stuck VMware VM replication | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-replication-vmware?view=migrate |
+| Address Windows OS upgrade issues in Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-upgrade?view=migrate |
+| Troubleshoot Azure Migrate web app migrations | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-webapps-migration?view=migrate |
 
 ### Configuration
 | Topic | URL |
@@ -73,14 +72,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure PostgreSQL assessment properties in Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/postgresql-assessment-properties?view=migrate |
 | Create Azure Migrate projects using ARM templates | https://learn.microsoft.com/en-us/azure/migrate/quickstart-create-migrate-project?view=migrate |
 | Configure Azure VM assessment properties in Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/vm-assessment-properties?view=migrate |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Assess large physical server estates with Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/scale-physical-assessment?view=migrate |
-| Assess large VMware server estates with Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/scale-vmware-assessment?view=migrate |
-| Redeploy servers to Azure using IaC with Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/server-redeploy?view=migrate |
-| Set up Azure DevOps pipelines for container deployment | https://learn.microsoft.com/en-us/azure/migrate/tutorial-app-containerization-azure-pipeline?view=migrate |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -120,21 +111,30 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure Azure RBAC roles for Azure Migrate projects | https://learn.microsoft.com/en-us/azure/migrate/prepare-azure-accounts?view=migrate |
 | Scope VMware discovery via vCenter permissions | https://learn.microsoft.com/en-us/azure/migrate/set-discovery-scope?view=migrate |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Resolve common Azure Migrate assessment issues | https://learn.microsoft.com/en-us/azure/migrate/common-questions-discovery-assessment?view=migrate |
-| Troubleshoot Azure Migrate server migration tool | https://learn.microsoft.com/en-us/azure/migrate/common-questions-server-migration?view=migrate |
-| Troubleshoot common Azure Migrate wave planning issues | https://learn.microsoft.com/en-us/azure/migrate/common-questions-wave-planning?view=migrate |
-| Diagnose and fix Azure Migrate appliance issues | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-appliance-diagnostic?view=migrate |
-| Troubleshoot Azure Migrate appliance deployment issues | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-appliance?view=migrate |
-| Handle supported assessment troubleshooting scenarios | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-assessment-supported-scenarios?view=migrate |
-| Troubleshoot Azure Migrate assessment issues | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-assessment?view=migrate |
-| Troubleshoot agentless VMware replication failures | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-changed-block-tracking-replication?view=migrate |
-| Fix Azure Migrate dependency analysis problems | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-dependencies?view=migrate |
-| Resolve Azure Migrate discovery and inventory issues | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-discovery?view=migrate |
-| Troubleshoot Azure Migrate private endpoint connectivity | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-network-connectivity?view=migrate |
-| Diagnose and fix Azure Migrate project issues | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-project?view=migrate |
-| Resolve slow or stuck VMware VM replication | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-replication-vmware?view=migrate |
-| Address Windows OS upgrade issues in Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-upgrade?view=migrate |
-| Troubleshoot Azure Migrate web app migrations | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-webapps-migration?view=migrate |
+| Assess large physical server estates with Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/scale-physical-assessment?view=migrate |
+| Assess large VMware server estates with Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/scale-vmware-assessment?view=migrate |
+| Redeploy servers to Azure using IaC with Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/server-redeploy?view=migrate |
+| Set up Azure DevOps pipelines for container deployment | https://learn.microsoft.com/en-us/azure/migrate/tutorial-app-containerization-azure-pipeline?view=migrate |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Apply PostgreSQL assessment rules for Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/assessment-rules-for-postgresql?view=migrate |
+| Apply security best practices to Azure Migrate appliances | https://learn.microsoft.com/en-us/azure/migrate/best-practices-security?view=migrate |
+| Import RVTools XLSX data into Azure Migrate correctly | https://learn.microsoft.com/en-us/azure/migrate/common-questions-import?view=migrate |
+| Test migrate replicating virtual machines in Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/how-to-test-replicating-virtual-machines?view=migrate |
+| Prepare on-premises machines for Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/prepare-for-migration?view=migrate |
+| Prepare Windows Server 2003 machines for Azure migration | https://learn.microsoft.com/en-us/azure/migrate/prepare-windows-server-2003-migration?view=migrate |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Compare agentless vs agent-based Azure Migrate methods | https://learn.microsoft.com/en-us/azure/migrate/server-migrate-overview?view=migrate |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Choose appropriate Azure Migrate discovery methods | https://learn.microsoft.com/en-us/azure/migrate/discovery-methods-modes?view=migrate |

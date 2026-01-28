@@ -31,29 +31,17 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Understand Azure Managed Redis architecture internals | https://learn.microsoft.com/en-us/azure/redis/architecture |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Apply client library best practices for Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/best-practices-client-libraries |
-| Design resilient connections to Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/best-practices-connection |
-| Implement development best practices for Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/best-practices-development |
-| Host Kubernetes client apps using Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/best-practices-kubernetes |
-| Optimize Azure Managed Redis memory usage and eviction | https://learn.microsoft.com/en-us/azure/redis/best-practices-memory-management |
-| Run performance benchmarking for Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/best-practices-performance |
-| Apply scaling best practices for Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/best-practices-scale |
-| Monitor and manage Azure Managed Redis server load | https://learn.microsoft.com/en-us/azure/redis/best-practices-server-load |
-| Understand failover and patching behavior in Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/failover |
-| FAQ and usage patterns for Azure Managed Redis and Azure Cache for Redis | https://learn.microsoft.com/en-us/azure/redis/faq |
-
-### Comparing X vs. Y
-| Topic | URL |
-|-------|-----|
-| Use reservations to reduce Azure Redis costs | https://learn.microsoft.com/en-us/azure/redis/reserved-pricing |
+| Resolve common Azure Managed Redis development issues | https://learn.microsoft.com/en-us/azure/redis/development-faq |
+| Use redis-cli to debug Azure Managed Redis instances | https://learn.microsoft.com/en-us/azure/redis/how-to-redis-cli-tool |
+| Common monitoring and error questions for Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/monitor-troubleshoot-faq |
+| Troubleshoot Azure Managed Redis client-side performance issues | https://learn.microsoft.com/en-us/azure/redis/troubleshoot-client |
+| Troubleshoot connectivity issues in Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/troubleshoot-connectivity |
+| Diagnose and resolve data loss in Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/troubleshoot-data-loss |
+| Troubleshoot Azure Managed Redis server-side issues | https://learn.microsoft.com/en-us/azure/redis/troubleshoot-server |
+| Troubleshoot latency and timeout issues in Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/troubleshoot-timeouts |
 
 ### Configuration
 | Topic | URL |
@@ -69,14 +57,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure Redis modules in Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/redis-modules |
 | Configure scheduled maintenance windows for Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/scheduled-maintenance |
 | Create and manage Azure Redis via Azure CLI | https://learn.microsoft.com/en-us/azure/redis/scripts/create-manage-cache |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Plan migration from Azure Cache for Redis tiers to Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/migrate/migrate-overview |
-| Migrate existing Redis caches to Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/migrate/migration-guide |
-| Deploy Azure Redis with ARM templates | https://learn.microsoft.com/en-us/azure/redis/redis-cache-arm-provision |
-| Deploy Azure Redis using Bicep templates | https://learn.microsoft.com/en-us/azure/redis/redis-cache-bicep-provision |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -104,14 +84,34 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Apply Azure Policy compliance controls to Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/security-controls-policy |
 | Configure TLS settings for Azure Managed Redis connections | https://learn.microsoft.com/en-us/azure/redis/tls-configuration |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Resolve common Azure Managed Redis development issues | https://learn.microsoft.com/en-us/azure/redis/development-faq |
-| Use redis-cli to debug Azure Managed Redis instances | https://learn.microsoft.com/en-us/azure/redis/how-to-redis-cli-tool |
-| Common monitoring and error questions for Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/monitor-troubleshoot-faq |
-| Troubleshoot Azure Managed Redis client-side performance issues | https://learn.microsoft.com/en-us/azure/redis/troubleshoot-client |
-| Troubleshoot connectivity issues in Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/troubleshoot-connectivity |
-| Diagnose and resolve data loss in Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/troubleshoot-data-loss |
-| Troubleshoot Azure Managed Redis server-side issues | https://learn.microsoft.com/en-us/azure/redis/troubleshoot-server |
-| Troubleshoot latency and timeout issues in Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/troubleshoot-timeouts |
+| Plan migration from Azure Cache for Redis tiers to Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/migrate/migrate-overview |
+| Migrate existing Redis caches to Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/migrate/migration-guide |
+| Deploy Azure Redis with ARM templates | https://learn.microsoft.com/en-us/azure/redis/redis-cache-arm-provision |
+| Deploy Azure Redis using Bicep templates | https://learn.microsoft.com/en-us/azure/redis/redis-cache-bicep-provision |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Apply client library best practices for Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/best-practices-client-libraries |
+| Design resilient connections to Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/best-practices-connection |
+| Implement development best practices for Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/best-practices-development |
+| Host Kubernetes client apps using Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/best-practices-kubernetes |
+| Optimize Azure Managed Redis memory usage and eviction | https://learn.microsoft.com/en-us/azure/redis/best-practices-memory-management |
+| Run performance benchmarking for Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/best-practices-performance |
+| Apply scaling best practices for Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/best-practices-scale |
+| Monitor and manage Azure Managed Redis server load | https://learn.microsoft.com/en-us/azure/redis/best-practices-server-load |
+| Understand failover and patching behavior in Azure Managed Redis | https://learn.microsoft.com/en-us/azure/redis/failover |
+| FAQ and usage patterns for Azure Managed Redis and Azure Cache for Redis | https://learn.microsoft.com/en-us/azure/redis/faq |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Use reservations to reduce Azure Redis costs | https://learn.microsoft.com/en-us/azure/redis/reserved-pricing |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Understand Azure Managed Redis architecture internals | https://learn.microsoft.com/en-us/azure/redis/architecture |

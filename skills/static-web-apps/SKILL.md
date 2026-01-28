@@ -31,6 +31,11 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
+### Troubleshooting
+| Topic | URL |
+|-------|-----|
+| Troubleshoot deployment and runtime issues in Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/troubleshooting |
+
 ### Configuration
 | Topic | URL |
 |-------|-----|
@@ -54,22 +59,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Use the Azure Static Web Apps CLI emulator | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-emulator |
 | Install Azure Static Web Apps CLI with required prerequisites | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-install |
 | Understand and use the Azure Static Web Apps CLI | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-overview |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Deploy Bitbucket repositories to Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/bitbucket |
-| Deploy hybrid Next.js apps on Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/deploy-nextjs-hybrid |
-| Deploy static-exported Next.js sites to Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/deploy-nextjs-static-export |
-| Deploy Nuxt 3 universal rendering apps to Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/deploy-nuxtjs |
-| Configure external CI/CD providers for Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/external-providers |
-| Deploy GitLab repositories to Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/gitlab |
-| Understand Next.js deployment models on Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/nextjs |
-| Choose Azure Static Web Apps Free vs Standard plans | https://learn.microsoft.com/en-us/azure/static-web-apps/plans |
-| Deploy Azure Static Web Apps using ARM templates | https://learn.microsoft.com/en-us/azure/static-web-apps/publish-azure-resource-manager |
-| Provision Azure Static Web Apps with Bicep | https://learn.microsoft.com/en-us/azure/static-web-apps/publish-bicep |
-| Use pre-production environments to review pull requests | https://learn.microsoft.com/en-us/azure/static-web-apps/review-publish-pull-requests |
-| Deploy Azure Static Web Apps using the SWA CLI | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-deploy |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -101,7 +90,18 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure private endpoint access for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/private-endpoint |
 | Access authenticated user information in Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/user-information |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Troubleshoot deployment and runtime issues in Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/troubleshooting |
+| Deploy Bitbucket repositories to Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/bitbucket |
+| Deploy hybrid Next.js apps on Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/deploy-nextjs-hybrid |
+| Deploy static-exported Next.js sites to Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/deploy-nextjs-static-export |
+| Deploy Nuxt 3 universal rendering apps to Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/deploy-nuxtjs |
+| Configure external CI/CD providers for Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/external-providers |
+| Deploy GitLab repositories to Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/gitlab |
+| Understand Next.js deployment models on Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/nextjs |
+| Choose Azure Static Web Apps Free vs Standard plans | https://learn.microsoft.com/en-us/azure/static-web-apps/plans |
+| Deploy Azure Static Web Apps using ARM templates | https://learn.microsoft.com/en-us/azure/static-web-apps/publish-azure-resource-manager |
+| Provision Azure Static Web Apps with Bicep | https://learn.microsoft.com/en-us/azure/static-web-apps/publish-bicep |
+| Use pre-production environments to review pull requests | https://learn.microsoft.com/en-us/azure/static-web-apps/review-publish-pull-requests |
+| Deploy Azure Static Web Apps using the SWA CLI | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-deploy |

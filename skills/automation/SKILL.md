@@ -31,21 +31,16 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
+### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Design disaster recovery strategy for Azure Automation accounts | https://learn.microsoft.com/en-us/azure/automation/automation-disaster-recovery |
-| Choose appropriate Azure Automation runbook types | https://learn.microsoft.com/en-us/azure/automation/automation-runbook-types |
-
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Design and use child runbooks in Azure Automation | https://learn.microsoft.com/en-us/azure/automation/automation-child-runbooks |
-| Remediate noncompliant servers with Azure Automation State Configuration | https://learn.microsoft.com/en-us/azure/automation/automation-dsc-remediate |
-| Implement error handling in graphical Automation runbooks | https://learn.microsoft.com/en-us/azure/automation/automation-runbook-graphical-error-handling |
-| Configure output and message streams in Automation runbooks | https://learn.microsoft.com/en-us/azure/automation/automation-runbook-output-and-messages |
-| Avoid context switching issues in Automation runbooks | https://learn.microsoft.com/en-us/azure/automation/context-switching |
-| Manage Azure Automation runbooks with recommended patterns | https://learn.microsoft.com/en-us/azure/automation/manage-runbooks |
+| Collect diagnostic data for Azure Automation support cases | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case |
+| Troubleshoot Azure Automation State Configuration errors | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/desired-state-configuration |
+| Troubleshoot extension-based Hybrid Runbook Worker issues | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/extension-based-hybrid-runbook-worker |
+| Troubleshoot agent-based Hybrid Runbook Worker problems | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/hybrid-runbook-worker |
+| Troubleshoot Azure Automation managed identity failures | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/managed-identity |
+| Troubleshoot Azure Automation runbook execution issues | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/runbooks |
+| Troubleshoot Azure Automation shared resource problems | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/shared-resources |
 
 ### Configuration
 | Topic | URL |
@@ -82,13 +77,6 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Configure source control integration for Azure Automation runbooks | https://learn.microsoft.com/en-us/azure/automation/source-control-integration |
 | Start Azure Automation runbooks using different methods | https://learn.microsoft.com/en-us/azure/automation/start-runbooks |
 | Remove DSC configurations and unregister nodes from Azure Automation | https://learn.microsoft.com/en-us/azure/automation/state-configuration/remove-node-and-configuration-package |
-
-### Deployment
-| Topic | URL |
-|-------|-----|
-| Use availability zones with Azure Automation for high availability | https://learn.microsoft.com/en-us/azure/automation/automation-availability-zones |
-| Migrate Change Tracking from Log Analytics agent to AMA | https://learn.microsoft.com/en-us/azure/automation/change-tracking/guidance-migration-log-analytics-monitoring-agent |
-| Deploy Azure Automation accounts using ARM templates | https://learn.microsoft.com/en-us/azure/automation/quickstart-create-automation-account-template |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -132,13 +120,25 @@ fetch_webpage({ urls: ["https://learn.microsoft.com/..."], query: "your query" }
 | Enable managed identities on Azure Automation accounts | https://learn.microsoft.com/en-us/azure/automation/quickstarts/enable-managed-identity |
 | Apply Azure Policy regulatory controls to Azure Automation | https://learn.microsoft.com/en-us/azure/automation/security-controls-policy |
 
-### Troubleshooting
+### Deployment
 | Topic | URL |
 |-------|-----|
-| Collect diagnostic data for Azure Automation support cases | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case |
-| Troubleshoot Azure Automation State Configuration errors | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/desired-state-configuration |
-| Troubleshoot extension-based Hybrid Runbook Worker issues | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/extension-based-hybrid-runbook-worker |
-| Troubleshoot agent-based Hybrid Runbook Worker problems | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/hybrid-runbook-worker |
-| Troubleshoot Azure Automation managed identity failures | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/managed-identity |
-| Troubleshoot Azure Automation runbook execution issues | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/runbooks |
-| Troubleshoot Azure Automation shared resource problems | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/shared-resources |
+| Use availability zones with Azure Automation for high availability | https://learn.microsoft.com/en-us/azure/automation/automation-availability-zones |
+| Migrate Change Tracking from Log Analytics agent to AMA | https://learn.microsoft.com/en-us/azure/automation/change-tracking/guidance-migration-log-analytics-monitoring-agent |
+| Deploy Azure Automation accounts using ARM templates | https://learn.microsoft.com/en-us/azure/automation/quickstart-create-automation-account-template |
+
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Design and use child runbooks in Azure Automation | https://learn.microsoft.com/en-us/azure/automation/automation-child-runbooks |
+| Remediate noncompliant servers with Azure Automation State Configuration | https://learn.microsoft.com/en-us/azure/automation/automation-dsc-remediate |
+| Implement error handling in graphical Automation runbooks | https://learn.microsoft.com/en-us/azure/automation/automation-runbook-graphical-error-handling |
+| Configure output and message streams in Automation runbooks | https://learn.microsoft.com/en-us/azure/automation/automation-runbook-output-and-messages |
+| Avoid context switching issues in Automation runbooks | https://learn.microsoft.com/en-us/azure/automation/context-switching |
+| Manage Azure Automation runbooks with recommended patterns | https://learn.microsoft.com/en-us/azure/automation/manage-runbooks |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Design disaster recovery strategy for Azure Automation accounts | https://learn.microsoft.com/en-us/azure/automation/automation-disaster-recovery |
+| Choose appropriate Azure Automation runbook types | https://learn.microsoft.com/en-us/azure/automation/automation-runbook-types |
