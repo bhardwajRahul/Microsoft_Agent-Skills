@@ -1,6 +1,6 @@
 ---
 name: resiliency
-description: Expert knowledge for Resiliency development including security, limits & quotas, and configuration. Use when building, debugging, or optimizing Resiliency applications.
+description: Expert knowledge for Resiliency development including configuration, limits & quotas, and security. Use when building, debugging, or optimizing Resiliency applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -36,17 +36,19 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 | Topic | URL |
 |-------|-----|
 | Configure backup and replication protection policies | https://learn.microsoft.com/en-us/azure/resiliency/backup-protection-policy |
+| Configure alerts and metrics in Resiliency | https://learn.microsoft.com/en-us/azure/resiliency/tutorial-monitor-alerts-metrics |
 
 ### Limits & Quotas
 | Topic | URL |
 |-------|-----|
-| Check Resiliency support scenarios and limitations | https://learn.microsoft.com/en-us/azure/resiliency/resiliency-support-matrix |
+| Resiliency support matrix and feature limitations | https://learn.microsoft.com/en-us/azure/resiliency/resiliency-support-matrix |
 
 ### Security
 | Topic | URL |
 |-------|-----|
-| Review and adjust Resiliency security levels | https://learn.microsoft.com/en-us/azure/resiliency/tutorial-review-security-posture |
 | Understand security levels in Azure Resiliency | https://learn.microsoft.com/en-us/azure/resiliency/security-levels-concept |
+| Govern and monitor Resiliency compliance state | https://learn.microsoft.com/en-us/azure/resiliency/tutorial-govern-monitor-compliance |
+| Review and adjust Resiliency security levels | https://learn.microsoft.com/en-us/azure/resiliency/tutorial-review-security-posture |
 
 ---
 

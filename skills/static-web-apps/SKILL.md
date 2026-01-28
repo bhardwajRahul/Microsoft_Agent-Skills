@@ -1,6 +1,6 @@
 ---
 name: static-web-apps
-description: Expert knowledge for Static Web Apps development including comparing x vs. y, security, configuration, deployment, integrations & coding patterns, limits & quotas, and troubleshooting. Use when building, debugging, or optimizing Static Web Apps applications.
+description: Expert knowledge for Static Web Apps development including security, integrations & coding patterns, configuration, deployment, troubleshooting, limits & quotas, architecture & design patterns, and comparing x vs. y. Use when building, debugging, or optimizing Static Web Apps applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -32,95 +32,94 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 
 ## Documentation Links by Category
 
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Choose Next.js deployment model on Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/nextjs |
+
 ### Comparing X vs. Y
 | Topic | URL |
 |-------|-----|
-| Use enterprise-grade edge with Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/enterprise-edge |
 | Compare Azure Static Web Apps Free vs Standard plans | https://learn.microsoft.com/en-us/azure/static-web-apps/plans |
 
 ### Configuration
 | Topic | URL |
 |-------|-----|
-| Azure Static Web Apps CLI command reference | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli |
+| Configure apex domains via Azure DNS for Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/apex-domain-azure-dns |
+| Configure apex/root domains for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/apex-domain-external |
+| Configure Azure Functions APIs in Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/apis-functions |
+| Set backend application settings in Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/application-settings |
+| Configure CI/CD build YAML for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/build-configuration |
+| Define staticwebapp.config.json for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/configuration |
 | Configure custom domains for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/custom-domain |
-| Configure backend application settings for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/application-settings |
-| Configure staticwebapp.config.json for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/configuration |
-| Configure GitHub Actions and Pipelines for Static Web Apps builds | https://learn.microsoft.com/en-us/azure/static-web-apps/build-configuration |
+| Use Azure DNS custom domains with Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/custom-domain-azure-dns |
+| Manage default domain routing in Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/custom-domain-default |
+| Set custom domains with external DNS for Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/custom-domain-external |
 | Configure database connections for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/database-configuration |
-| Configure Azure Static Web Apps CLI with swa-cli.config.json | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-configuration |
-| Inject runtime snippets into Static Web Apps pages | https://learn.microsoft.com/en-us/azure/static-web-apps/snippets |
-| Install Azure Static Web Apps CLI with supported runtimes | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-install |
-| Configure Azure Functions APIs for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/apis-functions |
-| Manage default domains and redirects in Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/custom-domain-default |
-| Understand Next.js deployment models on Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/nextjs |
 | Configure front-end framework build settings for Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/front-end-frameworks |
-| Set up local development with Azure Static Web Apps CLI | https://learn.microsoft.com/en-us/azure/static-web-apps/local-development |
-| Use Azure Static Web Apps CLI for local emulation and workflows | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-overview |
-| Configure Application Insights monitoring for Static Web Apps APIs | https://learn.microsoft.com/en-us/azure/static-web-apps/monitor |
-| Set up custom domains with Azure DNS for Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/custom-domain-azure-dns |
-| Configure custom domains with external DNS providers for Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/custom-domain-external |
-| Configure apex domains with Azure DNS for Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/apex-domain-azure-dns |
-| Configure apex root domains with external providers for Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/apex-domain-external |
-| Run and proxy API servers with Azure Static Web Apps CLI | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-api-server |
-| Emulate Azure Static Web Apps locally with SWA CLI | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-emulator |
-| Use managed Functions metrics in Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/metrics |
+| Link existing Azure Functions apps to Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/functions-bring-your-own |
+| Configure local development environment for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/local-development |
+| Configure Application Insights monitoring for Azure Static Web Apps APIs | https://learn.microsoft.com/en-us/azure/static-web-apps/monitor |
+| Reference for Azure Static Web Apps CLI commands and options | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli |
+| Run and debug APIs locally with SWA CLI API server | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-api-server |
+| Configure Azure Static Web Apps CLI with swa-cli.config.json | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-configuration |
+| Use the Azure Static Web Apps CLI emulator | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-emulator |
+| Install Azure Static Web Apps CLI with supported runtimes | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-install |
+| Understand and use the Azure Static Web Apps CLI | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-overview |
 
 ### Deployment
 | Topic | URL |
 |-------|-----|
-| Use preview environments and temporary URLs in Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/preview-environments |
-| Manually configure Azure Front Door as CDN for Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/front-door-manual |
-| Deploy Bitbucket-hosted apps to Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/bitbucket |
+| Deploy Bitbucket repositories to Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/bitbucket |
 | Create branch-based preview environments in Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/branch-environments |
-| Deploy Azure Static Web Apps using the SWA CLI | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-deploy |
-| Deploy GitLab-hosted apps to Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/gitlab |
-| Deploy hybrid Next.js apps on Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/deploy-nextjs-hybrid |
+| Use external CI/CD providers with Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/external-providers |
+| Manually configure Azure Front Door CDN for Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/front-door-manual |
+| Deploy GitLab repositories to Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/gitlab |
 | Create named preview environments in Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/named-environments |
-| Deploy Nuxt 3 universal rendering apps to Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/deploy-nuxtjs |
-| Deploy Azure Static Web Apps with Bicep templates | https://learn.microsoft.com/en-us/azure/static-web-apps/publish-bicep |
+| Use preview environments for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/preview-environments |
 | Deploy Azure Static Web Apps using ARM templates | https://learn.microsoft.com/en-us/azure/static-web-apps/publish-azure-resource-manager |
-| Review pull requests using pre-production environments in Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/review-publish-pull-requests |
-| Configure traffic splitting between environments in Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/traffic-splitting |
-| Deploy static-exported Next.js sites to Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/deploy-nextjs-static-export |
-| Deploy Azure Static Web Apps with external CI/CD providers | https://learn.microsoft.com/en-us/azure/static-web-apps/external-providers |
+| Deploy Azure Static Web Apps using Bicep templates | https://learn.microsoft.com/en-us/azure/static-web-apps/publish-bicep |
+| Review pull requests in Static Web Apps pre-production environments | https://learn.microsoft.com/en-us/azure/static-web-apps/review-publish-pull-requests |
+| Deploy Static Web Apps using the SWA CLI deploy command | https://learn.microsoft.com/en-us/azure/static-web-apps/static-web-apps-cli-deploy |
+| Configure traffic splitting for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/traffic-splitting |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
-| Add and deploy Azure Functions APIs to Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/add-api |
-| Integrate Azure API Management with Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/apis-api-management |
-| Integrate Azure App Service backends with Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/apis-app-service |
-| Integrate Azure Container Apps APIs with Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/apis-container-apps |
+| Use Mongoose with Azure Cosmos DB in Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/add-mongoose |
+| Integrate Azure API Management with Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/apis-api-management |
+| Integrate Azure App Service APIs with Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/apis-app-service |
+| Integrate Azure Container Apps with Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/apis-container-apps |
 | Connect Azure Static Web Apps to Azure Cosmos DB | https://learn.microsoft.com/en-us/azure/static-web-apps/database-azure-cosmos-db |
+| Connect Azure Static Web Apps to Azure SQL | https://learn.microsoft.com/en-us/azure/static-web-apps/database-azure-sql |
 | Connect Azure Static Web Apps to MySQL Flexible Server | https://learn.microsoft.com/en-us/azure/static-web-apps/database-mysql |
 | Connect Azure Static Web Apps to PostgreSQL | https://learn.microsoft.com/en-us/azure/static-web-apps/database-postgresql |
-| Connect Azure Static Web Apps to Azure SQL | https://learn.microsoft.com/en-us/azure/static-web-apps/database-azure-sql |
-| Link existing Azure Functions apps to Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/functions-bring-your-own |
-| Use Mongoose with Azure Cosmos DB in Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/add-mongoose |
 
 ### Limits & Quotas
 | Topic | URL |
 |-------|-----|
+| Supported languages and runtimes for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/languages-runtimes |
+| Understand metrics for managed Functions in Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/metrics |
 | Quotas and limits for Azure Static Web Apps plans | https://learn.microsoft.com/en-us/azure/static-web-apps/quotas |
-| Supported languages and runtime versions for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/languages-runtimes |
 
 ### Security
 | Topic | URL |
 |-------|-----|
 | Configure authentication for Azure Static Web Apps sites | https://learn.microsoft.com/en-us/azure/static-web-apps/add-authentication |
-| Access authenticated user information in Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/user-information |
-| Configure authentication and authorization for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/authentication-authorization |
-| Configure custom authentication providers in Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/authentication-custom |
+| Assign Static Web Apps roles using Microsoft Graph and Entra groups | https://learn.microsoft.com/en-us/azure/static-web-apps/assign-roles-microsoft-graph |
+| Configure authentication and authorization for Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/authentication-authorization |
+| Configure custom authentication providers for Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/authentication-custom |
 | Manage and reset deployment tokens for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/deployment-token-management |
 | Use Key Vault and managed identity for Static Web Apps auth secrets | https://learn.microsoft.com/en-us/azure/static-web-apps/key-vault-secrets |
-| Configure private endpoint access for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/private-endpoint |
-| Enable password protection for Azure Static Web Apps environments | https://learn.microsoft.com/en-us/azure/static-web-apps/password-protection |
-| Assign Static Web Apps roles using Microsoft Graph and Entra groups | https://learn.microsoft.com/en-us/azure/static-web-apps/assign-roles-microsoft-graph |
+| Enable password protection for Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/password-protection |
+| Restrict Static Web Apps access with private endpoints | https://learn.microsoft.com/en-us/azure/static-web-apps/private-endpoint |
+| Access authenticated user information in Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/user-information |
 
 ### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Troubleshoot deployments and runtime issues in Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/troubleshooting |
+| Azure Static Web Apps FAQ for behavior and limitations | https://learn.microsoft.com/en-us/azure/static-web-apps/faq |
+| Troubleshoot deployment and runtime issues in Azure Static Web Apps | https://learn.microsoft.com/en-us/azure/static-web-apps/troubleshooting |
 
 ---
 

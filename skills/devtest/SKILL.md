@@ -1,6 +1,6 @@
 ---
 name: devtest
-description: Expert knowledge for Devtest development including security, and troubleshooting. Use when building, debugging, or optimizing Devtest applications.
+description: Expert knowledge for Devtest development including troubleshooting. Use when building, debugging, or optimizing Devtest applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -32,16 +32,10 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 
 ## Documentation Links by Category
 
-### Security
-| Topic | URL |
-|-------|-----|
-| Manage user access in Azure Dev/Test directories | https://learn.microsoft.com/en-us/azure/devtest/offer/how-to-add-users-directory |
-| Configure security and governance for Azure Dev/Test | https://learn.microsoft.com/en-us/azure/devtest/offer/concepts-security-governance-devtest |
-
 ### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Resolve issues with expired Visual Studio subscriptions | https://learn.microsoft.com/en-us/azure/devtest/offer/troubleshoot-expired-removed-subscription |
+| Troubleshoot and recover expired Visual Studio subscriptions | https://learn.microsoft.com/en-us/azure/devtest/offer/troubleshoot-expired-removed-subscription |
 
 ---
 

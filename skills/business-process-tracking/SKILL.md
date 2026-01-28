@@ -35,7 +35,8 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Deployment
 | Topic | URL |
 |-------|-----|
-| Automate CI/CD pipelines for Business Process Tracking | https://learn.microsoft.com/en-us/azure/business-process-tracking/set-up-continuous-integration-deployment |
+| Deploy business processes and tracking profiles to Azure Logic Apps | https://learn.microsoft.com/en-us/azure/business-process-tracking/deploy-business-process |
+| Create Azure DevOps CI/CD pipelines for Business Process Tracking | https://learn.microsoft.com/en-us/azure/business-process-tracking/set-up-continuous-integration-deployment |
 
 ---
 

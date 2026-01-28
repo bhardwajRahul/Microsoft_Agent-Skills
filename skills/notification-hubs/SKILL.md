@@ -1,6 +1,6 @@
 ---
 name: notification-hubs
-description: Expert knowledge for Notification Hubs development including deployment, configuration, integrations & coding patterns, security, architecture & design patterns, best practices, limits & quotas, and troubleshooting. Use when building, debugging, or optimizing Notification Hubs applications.
+description: Expert knowledge for Notification Hubs development including integrations & coding patterns, configuration, deployment, security, architecture & design patterns, troubleshooting, limits & quotas, and best practices. Use when building, debugging, or optimizing Notification Hubs applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -35,93 +35,92 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Architecture & Design Patterns
 | Topic | URL |
 |-------|-----|
-| Design enterprise push architectures with Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-enterprise-push-notification-architecture |
+| Design enterprise push architectures with Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-enterprise-push-notification-architecture |
 
 ### Best Practices
 | Topic | URL |
 |-------|-----|
-| Choose and implement registration patterns in Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-registration-management |
-| Use tags and routing expressions in Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-tags-segment-push-message |
-| Design and use Notification Hubs templates for cross-platform push | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-templates-cross-platform-push-messages |
+| Handle iOS 13 push changes in Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/push-notification-updates-ios-13 |
 
 ### Configuration
 | Topic | URL |
 |-------|-----|
+| Change Notification Hubs namespace pricing tier | https://learn.microsoft.com/en-us/azure/notification-hubs/change-pricing-tier |
 | Configure APNS settings in Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/configure-apple-push-notification-service |
-| Configure Baidu Cloud Push in Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/configure-baidu-cloud-push |
-| Configure FCM settings in Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/configure-google-firebase-cloud-messaging |
+| Configure Baidu Cloud Push in Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/configure-baidu-cloud-push |
+| Configure FCM settings for Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/configure-google-firebase-cloud-messaging |
 | Configure MPNS settings in Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/configure-microsoft-push-notification-service |
+| Configure PNS settings for Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/configure-notification-hub-portal-pns-settings |
 | Configure WNS settings in Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/configure-windows-push-notification-service |
-| Configure PNS credentials in Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/configure-notification-hub-portal-pns-settings |
-| Deploy and manage Notification Hubs with PowerShell | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-deploy-and-manage-powershell |
-| Enable and use Azure Notification Hubs resource logs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-diagnostic-logs |
 | Bulk export and import Notification Hubs registrations | https://learn.microsoft.com/en-us/azure/notification-hubs/export-modify-registrations-bulk |
-| Configure monitoring and alerts for Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/monitor-notification-hubs |
-| Reference for Azure Notification Hubs monitoring data | https://learn.microsoft.com/en-us/azure/notification-hubs/monitor-notification-hubs-reference |
-| Handle iOS 13 push changes in Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/push-notification-updates-ios-13 |
-| Configure FCM v1 credentials on Azure Notification Hubs via .NET SDK | https://learn.microsoft.com/en-us/azure/notification-hubs/firebase-migration-update-sdk |
+| Reference for Azure Notification Hubs monitoring metrics and logs | https://learn.microsoft.com/en-us/azure/notification-hubs/monitor-notification-hubs-reference |
+| Manage Notification Hubs with Azure PowerShell | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-deploy-and-manage-powershell |
+| Configure Azure Notification Hubs diagnostic and resource logs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-diagnostic-logs |
+| Configure device registration patterns in Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-registration-management |
+| Configure routing and tag expressions in Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-tags-segment-push-message |
+| Use Notification Hubs templates for cross-platform payloads | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-templates-cross-platform-push-messages |
 
 ### Deployment
 | Topic | URL |
 |-------|-----|
-| Deploy Azure Notification Hubs using Bicep | https://learn.microsoft.com/en-us/azure/notification-hubs/create-notification-hub-bicep |
-| Deploy Azure Notification Hubs with ARM templates | https://learn.microsoft.com/en-us/azure/notification-hubs/create-notification-hub-template |
-| Provision Azure Notification Hubs using Terraform | https://learn.microsoft.com/en-us/azure/notification-hubs/create-notification-hub-terraform |
-| Move Azure Notification Hubs between regions | https://learn.microsoft.com/en-us/azure/notification-hubs/move-registrations |
-| Automate Notification Hubs management with Azure PowerShell scripts | https://learn.microsoft.com/en-us/azure/notification-hubs/samples-powershell |
+| Deploy Azure Notification Hubs using Bicep templates | https://learn.microsoft.com/en-us/azure/notification-hubs/create-notification-hub-bicep |
+| Provision Azure Notification Hubs with ARM templates | https://learn.microsoft.com/en-us/azure/notification-hubs/create-notification-hub-template |
+| Create Azure Notification Hubs using Terraform | https://learn.microsoft.com/en-us/azure/notification-hubs/create-notification-hub-terraform |
+| Move Notification Hubs to a different Azure region | https://learn.microsoft.com/en-us/azure/notification-hubs/move-registrations |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
-| Use the Azure Notification Hubs Java SDK | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-java-push-notification-tutorial |
+| Integrate Notification Hubs with Android using FCM v1 SDK | https://learn.microsoft.com/en-us/azure/notification-hubs/android-sdk |
+| Send browser web push notifications via Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/browser-push |
+| Use REST and portal to configure FCM v1 in Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/firebase-migration-rest |
+| Migrate to FCM v1 using Azure Notification Hubs SDKs | https://learn.microsoft.com/en-us/azure/notification-hubs/firebase-migration-sdk |
+| Update Notification Hubs with FCM v1 credentials via .NET SDK | https://learn.microsoft.com/en-us/azure/notification-hubs/firebase-migration-update-sdk |
+| Use Notification Hubs iOS SDK 3.0.0-preview1 for push | https://learn.microsoft.com/en-us/azure/notification-hubs/ios-sdk-current |
+| Configure APNS and Notification Hubs for iOS push | https://learn.microsoft.com/en-us/azure/notification-hubs/ios-sdk-get-started |
+| Integrate Notification Hubs with Android using FCM SDK 0.6 | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-android-push-notification-google-fcm-get-started |
+| Send user-specific iOS notifications with ASP.NET backend | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-aspnet-backend-ios-apple-apns-notification |
+| Send rich iOS push notifications with Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-aspnet-backend-ios-apple-push-notification-service-apns-rich |
+| Target user-specific WNS notifications via Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-aspnet-backend-windows-dotnet-wns-notification |
+| Implement secure push for Windows with Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-aspnet-backend-windows-dotnet-wns-secure-push-notification |
+| Send cross-platform user notifications with templates | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-aspnet-cross-platform-notification |
+| Integrate Azure Notification Hubs with Baidu Push | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-baidu-china-android-notifications-get-started |
+| Migrate Notification Hubs from GCM/FCM legacy to FCM v1 | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-gcm-to-fcm |
+| Register iOS users via ASP.NET Web API for push | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-ios-aspnet-register-user-from-backend-to-push-notification |
+| Send localized iOS push notifications using Notification Hubs templates | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-ios-xplat-localized-apns-push-notification |
+| Send targeted iOS device notifications with Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-ios-xplat-segmented-apns-push-notification |
+| Use the Java SDK with Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-java-push-notification-tutorial |
 | Send push notifications from Node.js using Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-nodejs-push-notification-tutorial |
 | Send push notifications from PHP with Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-php-push-notification-tutorial |
-| Send push notifications from Python using Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-python-push-notification-tutorial |
-| Migrate Notification Hubs SDK integrations from FCM legacy to FCM v1 | https://learn.microsoft.com/en-us/azure/notification-hubs/firebase-migration-sdk |
-| Migrate Notification Hubs REST integrations to FCM v1 | https://learn.microsoft.com/en-us/azure/notification-hubs/firebase-migration-rest |
-| Migrate Notification Hubs Android integration from FCM legacy to FCM v1 (REST and SDK) | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-gcm-to-fcm |
-| Use Notification Hubs iOS SDK 3.0.0-preview1 for push | https://learn.microsoft.com/en-us/azure/notification-hubs/ios-sdk-current |
-| Get started sending Baidu Android notifications with Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-baidu-china-android-notifications-get-started |
-| Send rich iOS push notifications with Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-aspnet-backend-ios-apple-push-notification-service-apns-rich |
-| Register iOS users for push via ASP.NET Web API | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-ios-aspnet-register-user-from-backend-to-push-notification |
-| Implement browser web push with Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/browser-push |
-| Send cross-platform user notifications with Notification Hubs templates (ASP.NET backend) | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-aspnet-cross-platform-notification |
-| Send localized iOS notifications using Notification Hubs templates | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-ios-xplat-localized-apns-push-notification |
-| Send localized UWP notifications with Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-windows-store-dotnet-xplat-localized-wns-push-notification |
-| Deliver geofenced push notifications with Notification Hubs and Bing Spatial Data | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-bing-spatial-data-geofencing-notification |
-| Integrate UWP apps with Notification Hubs and WNS | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-windows-store-dotnet-get-started-wns-push-notification |
-| Integrate Android apps with Notification Hubs using FCM v1 SDK | https://learn.microsoft.com/en-us/azure/notification-hubs/android-sdk |
-| Target specific Android devices with Notification Hubs and FCM | https://learn.microsoft.com/en-us/azure/notification-hubs/push-notifications-android-specific-devices-firebase-cloud-messaging |
-| Target specific iOS devices with Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-ios-xplat-segmented-apns-push-notification |
-| Send targeted UWP notifications using Notification Hubs tags | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-windows-notification-dotnet-push-xplat-segmented-wns |
-| Send user-targeted Android notifications with Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/push-notifications-android-specific-users-firebase-cloud-messaging |
-| Send user-specific iOS notifications with Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-aspnet-backend-ios-apple-apns-notification |
-| Send user-specific UWP notifications with Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-aspnet-backend-windows-dotnet-wns-notification |
-| Integrate Android apps with Notification Hubs using FCM SDK 0.6 | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-android-push-notification-google-fcm-get-started |
-| Send secure Windows push with Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-aspnet-backend-windows-dotnet-wns-secure-push-notification |
-| Integrate iOS apps with Notification Hubs and APNS | https://learn.microsoft.com/en-us/azure/notification-hubs/ios-sdk-get-started |
-| Use a cross-platform Notification Hubs sample for Android and iOS | https://learn.microsoft.com/en-us/azure/notification-hubs/uwp-react |
-| Send APNS VOIP notifications via Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/voip-apns |
+| Send geofenced push notifications with Bing Spatial Data | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-bing-spatial-data-geofencing-notification |
 | Use APNS token-based HTTP/2 auth with Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-http2-token-authentication |
+| Send push notifications from Python using Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-python-push-notification-tutorial |
+| Send segmented UWP notifications with Notification Hubs tags | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-windows-notification-dotnet-push-xplat-segmented-wns |
+| Push notifications to UWP apps with Notification Hubs and WNS | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-windows-store-dotnet-get-started-wns-push-notification |
+| Implement localized WNS notifications with Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-windows-store-dotnet-xplat-localized-wns-push-notification |
+| Target specific Android devices with Notification Hubs and FCM | https://learn.microsoft.com/en-us/azure/notification-hubs/push-notifications-android-specific-devices-firebase-cloud-messaging |
+| Send user-targeted Android notifications with Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/push-notifications-android-specific-users-firebase-cloud-messaging |
+| Send APNS VoIP notifications via Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/voip-apns |
 
 ### Limits & Quotas
 | Topic | URL |
 |-------|-----|
-| Schedule push notifications in Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-send-push-notifications-scheduled |
+| Schedule future notifications in Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-send-push-notifications-scheduled |
 
 ### Security
 | Topic | URL |
 |-------|-----|
-| Azure Notification Hubs data-at-rest encryption details | https://learn.microsoft.com/en-us/azure/notification-hubs/encrypt-at-rest |
-| Understand EU Data Boundary behavior in Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/eu-data-boundary |
-| Understand the Azure Notification Hubs security model | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-security |
-| Plan for TLS version support in Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-tls12 |
+| Review data-at-rest encryption in Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/encrypt-at-rest |
+| Understand EU data boundary behavior in Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/eu-data-boundary |
+| Apply the Notification Hubs security model | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-security |
+| Plan for TLS version support in Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-tls12 |
 | Configure Azure Notification Hubs with Private Link | https://learn.microsoft.com/en-us/azure/notification-hubs/private-link |
 
 ### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Diagnose dropped notifications in Azure Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-fixer |
+| Troubleshoot and design solutions with Notification Hubs FAQ | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-faq |
+| Diagnose and fix dropped notifications in Notification Hubs | https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-fixer |
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: avere-vfxt
-description: Expert knowledge for Avere Vfxt development including deployment, limits & quotas, configuration, best practices, and security. Use when building, debugging, or optimizing Avere Vfxt applications.
+description: Expert knowledge for Avere Vfxt development including configuration, best practices, deployment, security, and limits & quotas. Use when building, debugging, or optimizing Avere Vfxt applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -35,30 +35,31 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Best Practices
 | Topic | URL |
 |-------|-----|
+| Optimize data ingestion into Avere vFXT storage | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-data-ingest |
+| Plan and size an Avere vFXT cluster in Azure | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-deploy-plan |
 | Tune Avere vFXT cluster performance settings | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-tuning |
 | Implement disaster recovery for Avere vFXT workflows | https://learn.microsoft.com/en-us/azure/avere-vfxt/disaster-recovery |
-| Optimize data ingestion into Avere vFXT storage | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-data-ingest |
 
 ### Configuration
 | Topic | URL |
 |-------|-----|
-| Access and configure Avere vFXT control panel | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-cluster-gui |
-| Configure DNS load balancing for Avere vFXT | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-configure-dns |
 | Configure back-end storage for Avere vFXT clusters | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-add-storage |
-| Enable automatic support uploads for Avere vFXT | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-enable-support |
+| Access and configure the Avere vFXT control panel | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-cluster-gui |
+| Configure DNS load balancing for Avere vFXT clusters | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-configure-dns |
+| Enable automatic support data upload for vFXT | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-enable-support |
 | Manage Avere vFXT clusters and node lifecycle | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-manage-cluster |
-| Mount and load-balance Avere vFXT client access | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-mount-clients |
+| Mount clients and load-balance Avere vFXT access | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-mount-clients |
 
 ### Deployment
 | Topic | URL |
 |-------|-----|
+| Deploy an Avere vFXT cluster via Marketplace | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-deploy |
 | Understand end-to-end Avere vFXT deployment steps | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-deploy-overview |
-| Deploy an Avere vFXT cluster from Marketplace | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-deploy |
 
 ### Limits & Quotas
 | Topic | URL |
 |-------|-----|
-| Prepare Avere vFXT prerequisites and quotas | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-prereqs |
+| Prepare subscriptions, quotas, and endpoints for vFXT | https://learn.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-prereqs |
 
 ### Security
 | Topic | URL |

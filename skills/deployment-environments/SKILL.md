@@ -1,6 +1,6 @@
 ---
 name: deployment-environments
-description: Expert knowledge for Deployment Environments development including configuration, best practices, security, integrations & coding patterns, troubleshooting, and deployment. Use when building, debugging, or optimizing Deployment Environments applications.
+description: Expert knowledge for Deployment Environments development including best practices, security, configuration, deployment, integrations & coding patterns, and troubleshooting. Use when building, debugging, or optimizing Deployment Environments applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -35,38 +35,40 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Best Practices
 | Topic | URL |
 |-------|-----|
-| Structure ADE catalogs for efficient caching | https://learn.microsoft.com/en-us/azure/deployment-environments/best-practice-catalog-structure |
+| Structure Azure Deployment Environments catalogs efficiently | https://learn.microsoft.com/en-us/azure/deployment-environments/best-practice-catalog-structure |
 
 ### Configuration
 | Topic | URL |
 |-------|-----|
-| Reference ADE CLI environment variables in images | https://learn.microsoft.com/en-us/azure/deployment-environments/reference-deployment-environment-variables |
 | Use environment.yaml schema for ADE definitions | https://learn.microsoft.com/en-us/azure/deployment-environments/concept-environment-yaml |
+| Install and use the DevCenter Azure CLI extension for ADE | https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-install-devcenter-cli-extension |
+| Use ADE CLI commands for custom image management | https://learn.microsoft.com/en-us/azure/deployment-environments/reference-deployment-environment-cli |
+| Reference ADE environment variables for custom image scripts | https://learn.microsoft.com/en-us/azure/deployment-environments/reference-deployment-environment-variables |
 
 ### Deployment
 | Topic | URL |
 |-------|-----|
-| Use Azure Pipelines to deploy ADE environments | https://learn.microsoft.com/en-us/azure/deployment-environments/tutorial-deploy-environments-in-cicd-azure-devops |
-| Integrate ADE with GitHub Actions CI/CD | https://learn.microsoft.com/en-us/azure/deployment-environments/tutorial-deploy-environments-in-cicd-github |
+| Create Azure Deployment Environments with Azure Developer CLI | https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-configure-azure-developer-cli-deployment-environments |
+| Use Azure Pipelines to deploy Azure Deployment Environments | https://learn.microsoft.com/en-us/azure/deployment-environments/tutorial-deploy-environments-in-cicd-azure-devops |
+| Integrate Azure Deployment Environments with GitHub Actions CI/CD | https://learn.microsoft.com/en-us/azure/deployment-environments/tutorial-deploy-environments-in-cicd-github |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
-| Use ADE CLI commands for custom image workflows | https://learn.microsoft.com/en-us/azure/deployment-environments/reference-deployment-environment-cli |
-| Build and use custom container images in ADE | https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-configure-extensibility-model-custom-image |
+| Use custom container images with ADE extensibility | https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-configure-extensibility-model-custom-image |
 
 ### Security
 | Topic | URL |
 |-------|-----|
-| Authenticate to ADE REST APIs using Azure CLI | https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-authenticate |
-| Plan Azure RBAC roles for ADE access | https://learn.microsoft.com/en-us/azure/deployment-environments/concept-deployment-environments-role-based-access-control |
-| Configure managed identities for ADE deployments | https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-configure-managed-identity |
-| Assign ADE built-in roles for project access | https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-manage-deployment-environments-access |
+| Plan Azure RBAC roles for Deployment Environments | https://learn.microsoft.com/en-us/azure/deployment-environments/concept-deployment-environments-role-based-access-control |
+| Authenticate to Azure Deployment Environments REST APIs with Azure CLI | https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-authenticate |
+| Configure managed identity for Azure Deployment Environments | https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-configure-managed-identity |
+| Assign RBAC roles for Azure Deployment Environments access | https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-manage-deployment-environments-access |
 
 ### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Troubleshoot ADE custom image deployment failures | https://learn.microsoft.com/en-us/azure/deployment-environments/troubleshoot-custom-image-logs-errors |
+| Troubleshoot Azure Deployment Environments custom image failures | https://learn.microsoft.com/en-us/azure/deployment-environments/troubleshoot-custom-image-logs-errors |
 
 ---
 

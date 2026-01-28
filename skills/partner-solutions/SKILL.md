@@ -1,6 +1,6 @@
 ---
 name: partner-solutions
-description: Expert knowledge for Partner Solutions development including configuration, integrations & coding patterns, security, troubleshooting, limits & quotas, and architecture & design patterns. Use when building, debugging, or optimizing Partner Solutions applications.
+description: Expert knowledge for Partner Solutions development including integrations & coding patterns, configuration, security, troubleshooting, and architecture & design patterns. Use when building, debugging, or optimizing Partner Solutions applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -35,47 +35,33 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Architecture & Design Patterns
 | Topic | URL |
 |-------|-----|
-| Architect Cloud NGFW behind Azure Application Gateway | https://learn.microsoft.com/en-us/azure/partner-solutions/palo-alto/application-gateway |
+| Design Cloud NGFW behind Azure Application Gateway | https://learn.microsoft.com/en-us/azure/partner-solutions/palo-alto/application-gateway |
 
 ### Configuration
 | Topic | URL |
 |-------|-----|
 | Configure Confluent environments, clusters, and topics in Azure | https://learn.microsoft.com/en-us/azure/partner-solutions/apache-kafka-confluent-cloud/create-confluent-resources |
+| Configure and manage Azure Confluent Connectors in portal | https://learn.microsoft.com/en-us/azure/partner-solutions/apache-kafka-confluent-cloud/manage-confluent-connectors |
+| Configure Datadog Azure resource settings in portal | https://learn.microsoft.com/en-us/azure/partner-solutions/datadog/manage |
+| Manage Dynatrace Azure resource configuration settings | https://learn.microsoft.com/en-us/azure/partner-solutions/dynatrace/manage |
+| Configure Elastic resource settings in Azure portal | https://learn.microsoft.com/en-us/azure/partner-solutions/elastic/manage |
 | Configure Informatica advanced serverless runtime in Azure | https://learn.microsoft.com/en-us/azure/partner-solutions/informatica/create-advanced-serverless |
-| Configure Datadog Azure resource settings and integrations | https://learn.microsoft.com/en-us/azure/partner-solutions/datadog/manage |
-| Configure Azure Native New Relic Service settings | https://learn.microsoft.com/en-us/azure/partner-solutions/new-relic/manage |
-| Manage Dynatrace Azure resource configuration and data flows | https://learn.microsoft.com/en-us/azure/partner-solutions/dynatrace/manage |
-| Configure Elastic resource settings and telemetry in Azure | https://learn.microsoft.com/en-us/azure/partner-solutions/elastic/manage |
-| Manage Azure Confluent Cloud resource configuration settings | https://learn.microsoft.com/en-us/azure/partner-solutions/apache-kafka-confluent-cloud/manage |
-| Manage Neon Serverless Postgres Azure resource settings | https://learn.microsoft.com/en-us/azure/partner-solutions/neon/manage |
-| Manage Azure Confluent Connectors and their runtime status | https://learn.microsoft.com/en-us/azure/partner-solutions/apache-kafka-confluent-cloud/manage-confluent-connectors |
-| Manage Azure Native Qumulo resource configuration | https://learn.microsoft.com/en-us/azure/partner-solutions/qumulo/manage |
-| Configure NGINXaaS Azure resource, identities, and metrics | https://learn.microsoft.com/en-us/azure/partner-solutions/nginx/manage |
 | Manage Informatica serverless runtime environments in Azure | https://learn.microsoft.com/en-us/azure/partner-solutions/informatica/manage-serverless |
-| Configure Cloud NGFW networking, rules, logging, and billing | https://learn.microsoft.com/en-us/azure/partner-solutions/palo-alto/manage |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
-| Integrate Confluent Cloud with Azure compute using Service Connector | https://learn.microsoft.com/en-us/azure/partner-solutions/apache-kafka-confluent-cloud/add-connectors |
-| Connect Azure apps to Neon via Service Connector | https://learn.microsoft.com/en-us/azure/partner-solutions/neon/create-service-connection |
-| Connect Confluent Cloud to Azure Cosmos DB with connectors | https://learn.microsoft.com/en-us/azure/partner-solutions/apache-kafka-confluent-cloud/add-cosmos-db-connector |
-| Connect Confluent Cloud to Azure Blob Storage with connectors | https://learn.microsoft.com/en-us/azure/partner-solutions/apache-kafka-confluent-cloud/add-confluent-connectors |
-
-### Limits & Quotas
-| Topic | URL |
-|-------|-----|
-| Review Azure Native Qumulo FAQs and service limits | https://learn.microsoft.com/en-us/azure/partner-solutions/qumulo/faq |
-| Understand Dynatrace Azure free trial limits and usage | https://learn.microsoft.com/en-us/azure/partner-solutions/dynatrace/free-trial |
+| Integrate Confluent Cloud with Azure Blob Storage connectors | https://learn.microsoft.com/en-us/azure/partner-solutions/apache-kafka-confluent-cloud/add-confluent-connectors |
+| Connect Confluent Cloud to Azure compute with Service Connector | https://learn.microsoft.com/en-us/azure/partner-solutions/apache-kafka-confluent-cloud/add-connectors |
+| Integrate Confluent Cloud with Azure Cosmos DB connectors | https://learn.microsoft.com/en-us/azure/partner-solutions/apache-kafka-confluent-cloud/add-cosmos-db-connector |
 
 ### Security
 | Topic | URL |
 |-------|-----|
+| Manage Confluent Cloud users and roles in Azure portal | https://learn.microsoft.com/en-us/azure/partner-solutions/apache-kafka-confluent-cloud/manage-access |
 | Configure Azure and Entra prerequisites for Datadog | https://learn.microsoft.com/en-us/azure/partner-solutions/datadog/prerequisites |
-| Configure Azure and Entra prerequisites for Dynatrace | https://learn.microsoft.com/en-us/azure/partner-solutions/dynatrace/configure-prerequisites |
-| Create Datadog on Azure and configure SSO and monitoring | https://learn.microsoft.com/en-us/azure/partner-solutions/datadog/create |
-| Configure Confluent access management and roles in Azure portal | https://learn.microsoft.com/en-us/azure/partner-solutions/apache-kafka-confluent-cloud/manage-access |
-| Manage Informatica IDMC Azure resource and SSO settings | https://learn.microsoft.com/en-us/azure/partner-solutions/informatica/manage |
+| Set up Azure and Entra prerequisites for Dynatrace | https://learn.microsoft.com/en-us/azure/partner-solutions/dynatrace/configure-prerequisites |
+| Manage Informatica IDMC SSO and deployment lifecycle | https://learn.microsoft.com/en-us/azure/partner-solutions/informatica/manage |
 
 ### Troubleshooting
 | Topic | URL |
@@ -84,7 +70,7 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 | Troubleshoot Azure Datadog integration issues | https://learn.microsoft.com/en-us/azure/partner-solutions/datadog/troubleshoot |
 | Troubleshoot Azure Native Dynatrace Service problems | https://learn.microsoft.com/en-us/azure/partner-solutions/dynatrace/troubleshoot |
 | Troubleshoot Elastic Cloud Azure native integration | https://learn.microsoft.com/en-us/azure/partner-solutions/elastic/troubleshoot |
-| Troubleshoot Azure Native New Relic Service issues | https://learn.microsoft.com/en-us/azure/partner-solutions/new-relic/troubleshoot |
+| Diagnose and fix Azure Native New Relic issues | https://learn.microsoft.com/en-us/azure/partner-solutions/new-relic/troubleshoot |
 
 ---
 

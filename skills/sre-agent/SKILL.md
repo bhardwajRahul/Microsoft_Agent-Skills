@@ -1,6 +1,6 @@
 ---
 name: sre-agent
-description: Expert knowledge for Sre Agent development including integrations & coding patterns, security, troubleshooting, and limits & quotas. Use when building, debugging, or optimizing Sre Agent applications.
+description: Expert knowledge for Sre Agent development including security, integrations & coding patterns, troubleshooting, and configuration. Use when building, debugging, or optimizing Sre Agent applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -32,29 +32,35 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 
 ## Documentation Links by Category
 
+### Configuration
+| Topic | URL |
+|-------|-----|
+| Configure and use the Azure SRE Agent memory system | https://learn.microsoft.com/en-us/azure/sre-agent/memory-system |
+| Configure scheduled tasks in Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/scheduled-tasks |
+| Create and manage Azure SRE Agent subagents | https://learn.microsoft.com/en-us/azure/sre-agent/subagent-builder-overview |
+| Configure Azure SRE Agent subagents and workflows | https://learn.microsoft.com/en-us/azure/sre-agent/subagent-builder-scenarios |
+
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
-| Integrate Azure SRE Agent with custom MCP servers | https://learn.microsoft.com/en-us/azure/sre-agent/custom-mcp-server |
+| Integrate Azure SRE Agent with source code repositories | https://learn.microsoft.com/en-us/azure/sre-agent/code-repository-connect |
 | Configure connectors to external services in Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/connectors |
-
-### Limits & Quotas
-| Topic | URL |
-|-------|-----|
-| Understand billing behavior and metering for Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/billing |
+| Run custom Python tools within Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/custom-logic-python |
+| Connect Azure SRE Agent to custom MCP servers | https://learn.microsoft.com/en-us/azure/sre-agent/custom-mcp-server |
 
 ### Security
 | Topic | URL |
 |-------|-----|
-| Review data residency and privacy for Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/data-privacy |
-| Apply role-based access control for Azure SRE Agent users | https://learn.microsoft.com/en-us/azure/sre-agent/user-access-roles |
-| Understand roles, permissions, and security model in Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/roles-permissions-overview |
-| Configure agent and user permissions for Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/agent-managed-identity |
+| Configure RBAC roles and permissions for Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/agent-managed-identity |
+| Control Azure SRE Agent run modes and consent | https://learn.microsoft.com/en-us/azure/sre-agent/agent-run-modes |
+| Understand data residency and privacy for Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/data-privacy |
+| Understand roles and permission model in Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/roles-permissions-overview |
+| Assign user access roles for Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/user-access-roles |
 
 ### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Resolve common Azure SRE Agent issues and limitations | https://learn.microsoft.com/en-us/azure/sre-agent/faq |
+| Troubleshoot common Azure SRE Agent issues and errors | https://learn.microsoft.com/en-us/azure/sre-agent/faq |
 
 ---
 

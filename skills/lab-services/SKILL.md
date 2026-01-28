@@ -1,6 +1,6 @@
 ---
 name: lab-services
-description: Expert knowledge for Lab Services development including limits & quotas, security, configuration, architecture & design patterns, best practices, deployment, integrations & coding patterns, troubleshooting, and comparing x vs. y. Use when building, debugging, or optimizing Lab Services applications.
+description: Expert knowledge for Lab Services development including security, configuration, best practices, limits & quotas, architecture & design patterns, comparing x vs. y, integrations & coding patterns, deployment, and troubleshooting. Use when building, debugging, or optimizing Lab Services applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -35,105 +35,97 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Architecture & Design Patterns
 | Topic | URL |
 |-------|-----|
-| Choose and configure GPU VM sizes for Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-setup-lab-gpu |
-| Understand Azure Lab Services architecture fundamentals | https://learn.microsoft.com/en-us/azure/lab-services/classroom-labs-fundamentals |
-| Understand reliability and resiliency in Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/reliability-in-azure-lab-services |
-| Choose supported networking architectures for Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/concept-lab-services-supported-networking-scenarios |
+| Understand Azure Lab Services architecture fundamentals and components | https://learn.microsoft.com/en-us/azure/lab-services/classroom-labs-fundamentals |
+| Select supported networking architectures for Azure Lab Services lab plans | https://learn.microsoft.com/en-us/azure/lab-services/concept-lab-services-supported-networking-scenarios |
+| Choose GPU VM sizes for Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-setup-lab-gpu |
 
 ### Best Practices
 | Topic | URL |
 |-------|-----|
-| Administer lab plans and governance in Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/administrator-guide |
-| Manage and analyze Azure Lab Services costs | https://learn.microsoft.com/en-us/azure/lab-services/cost-management-guide |
-| Recommended approaches for Azure Lab Services custom images | https://learn.microsoft.com/en-us/azure/lab-services/approaches-for-custom-image-creation |
-| Enable and optimize graphical remote desktop for Linux labs | https://learn.microsoft.com/en-us/azure/lab-services/how-to-enable-remote-desktop-linux |
-| Plan migration from physical labs to Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/concept-migrating-physical-labs |
+| Recommended approaches for creating Lab Services custom images | https://learn.microsoft.com/en-us/azure/lab-services/approaches-for-custom-image-creation |
+| Apply cost-optimized migration practices from physical labs to Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/concept-migrating-physical-labs |
 | Configure nested virtualization in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/concept-nested-virtualization-template-vm |
+| Optimize Linux lab remote desktop performance | https://learn.microsoft.com/en-us/azure/lab-services/how-to-enable-remote-desktop-linux |
 | Prepare Windows lab templates with recommended settings | https://learn.microsoft.com/en-us/azure/lab-services/how-to-prepare-windows-template |
 
 ### Comparing X vs. Y
 | Topic | URL |
 |-------|-----|
-| Decide when to transition from Azure Lab Services to DevTest Labs | https://learn.microsoft.com/en-us/azure/lab-services/transition-devtest-labs-guidance |
+| Compare lab accounts and lab plans in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/concept-lab-accounts-versus-lab-plans |
+| Decide when to move from Lab Services to DevTest Labs | https://learn.microsoft.com/en-us/azure/lab-services/transition-devtest-labs-guidance |
 
 ### Configuration
 | Topic | URL |
 |-------|-----|
-| Configure and manage Azure Lab Services users and usage hours | https://learn.microsoft.com/en-us/azure/lab-services/how-to-manage-lab-users |
 | Allow lab creators to choose lab locations in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/allow-lab-creator-pick-lab-location |
-| Attach or detach Azure compute galleries to lab plans | https://learn.microsoft.com/en-us/azure/lab-services/how-to-attach-detach-shared-image-gallery |
-| Attach and detach Shared Image Gallery to Azure Lab Services lab accounts | https://learn.microsoft.com/en-us/azure/lab-services/how-to-attach-detach-shared-image-gallery-1 |
+| Configure allowed regions for creating Azure labs | https://learn.microsoft.com/en-us/azure/lab-services/create-and-configure-labs-admin |
+| Attach or detach Azure compute galleries from lab plans | https://learn.microsoft.com/en-us/azure/lab-services/how-to-attach-detach-shared-image-gallery |
+| Attach or detach Shared Image Gallery to Azure Lab Services lab accounts | https://learn.microsoft.com/en-us/azure/lab-services/how-to-attach-detach-shared-image-gallery-1 |
+| Configure auto-shutdown behavior for Azure Lab VMs | https://learn.microsoft.com/en-us/azure/lab-services/how-to-configure-auto-shutdown-lab-plans |
 | Configure automatic VM shutdown for Azure Lab Services lab accounts | https://learn.microsoft.com/en-us/azure/lab-services/how-to-configure-lab-accounts |
-| Configure automatic shutdown on Azure Lab Services labs | https://learn.microsoft.com/en-us/azure/lab-services/how-to-enable-shutdown-disconnect |
-| Configure allowed regions for Azure Lab Services labs | https://learn.microsoft.com/en-us/azure/lab-services/create-and-configure-labs-admin |
-| Configure VNet injection for Lab Services lab plans | https://learn.microsoft.com/en-us/azure/lab-services/how-to-connect-vnet-injection |
-| Configure peer virtual network connectivity for Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-connect-peer-virtual-network |
-| Control Windows lab VM shutdown behavior in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-windows-shutdown |
-| Create and manage Lab Services lab plans in portal | https://learn.microsoft.com/en-us/azure/lab-services/how-to-manage-lab-plans |
-| Deploy Lab Services lab plans with Bicep or ARM | https://learn.microsoft.com/en-us/azure/lab-services/how-to-create-lab-plan-bicep |
-| Provision Lab Services lab plans using PowerShell | https://learn.microsoft.com/en-us/azure/lab-services/how-to-create-lab-plan-powershell |
-| Create Lab Services lab plans using Python SDK | https://learn.microsoft.com/en-us/azure/lab-services/how-to-create-lab-plan-python |
-| Configure automatic start and shutdown schedules for lab VMs | https://learn.microsoft.com/en-us/azure/lab-services/how-to-create-schedules |
-| Create and manage Azure Lab Services VM templates | https://learn.microsoft.com/en-us/azure/lab-services/how-to-create-manage-template |
-| Enable nested virtualization on Azure Lab Services template VMs | https://learn.microsoft.com/en-us/azure/lab-services/how-to-enable-nested-virtualization-template-vm-using-script |
-| Configure and manage Azure Lab Services VM pools | https://learn.microsoft.com/en-us/azure/lab-services/how-to-manage-vm-pool |
-| Set up GPU-based labs in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-setup-lab-gpu-1 |
-| Configure advanced networking for Lab Services labs | https://learn.microsoft.com/en-us/azure/lab-services/tutorial-create-lab-with-advanced-networking |
+| Configure advanced networking and VNet injection for lab plans | https://learn.microsoft.com/en-us/azure/lab-services/how-to-connect-vnet-injection |
+| Configure automatic start/stop schedules for Lab Services VMs | https://learn.microsoft.com/en-us/azure/lab-services/how-to-create-schedules |
+| Enable nested virtualization on Lab Services templates | https://learn.microsoft.com/en-us/azure/lab-services/how-to-enable-nested-virtualization-template-vm-using-script |
+| Configure automatic shutdown policies for lab VMs | https://learn.microsoft.com/en-us/azure/lab-services/how-to-enable-shutdown-disconnect |
+| Configure and manage Lab Services users and usage hours | https://learn.microsoft.com/en-us/azure/lab-services/how-to-manage-lab-users |
+| Set up GPU-based labs in Azure Lab Services using lab accounts | https://learn.microsoft.com/en-us/azure/lab-services/how-to-setup-lab-gpu-1 |
+| Configure Windows lab VMs to disable shutdown | https://learn.microsoft.com/en-us/azure/lab-services/how-to-windows-shutdown |
+| Configure support contact information for Lab Services accounts | https://learn.microsoft.com/en-us/azure/lab-services/lab-account-owner-support-information |
 | Configure allowed Azure Marketplace images for labs | https://learn.microsoft.com/en-us/azure/lab-services/specify-marketplace-images |
 | Specify allowed Marketplace images in Azure Lab Services lab accounts | https://learn.microsoft.com/en-us/azure/lab-services/specify-marketplace-images-1 |
+| Configure advanced networking for Azure Lab Services lab plans | https://learn.microsoft.com/en-us/azure/lab-services/tutorial-create-lab-with-advanced-networking |
 
 ### Deployment
 | Topic | URL |
 |-------|-----|
-| Import Windows custom images from physical labs into Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/upload-custom-image-shared-image-gallery |
-| Import Linux custom images from physical labs into Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-bring-custom-linux-image-vhd |
-| Create Azure Lab Services labs from Windows VM images | https://learn.microsoft.com/en-us/azure/lab-services/how-to-bring-custom-windows-image-azure-vm |
-| Bring Linux custom images from Azure VMs into labs | https://learn.microsoft.com/en-us/azure/lab-services/how-to-bring-custom-linux-image-azure-vm |
-| Deploy Azure Lab Services labs using Bicep templates | https://learn.microsoft.com/en-us/azure/lab-services/how-to-create-lab-bicep |
-| Rapidly create and publish Azure labs for students | https://learn.microsoft.com/en-us/azure/lab-services/setup-guide |
-| Quickly set up lab plans for schools | https://learn.microsoft.com/en-us/azure/lab-services/lab-plan-setup-guide |
-| Use Azure compute galleries as image sources for labs | https://learn.microsoft.com/en-us/azure/lab-services/how-to-use-shared-image-gallery |
+| Import a Linux custom image from an Azure VM into Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-bring-custom-linux-image-azure-vm |
+| Import a Linux custom image from a physical lab into Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-bring-custom-linux-image-vhd |
+| Create a Lab Services lab from an existing Windows VM image | https://learn.microsoft.com/en-us/azure/lab-services/how-to-bring-custom-windows-image-azure-vm |
+| Import a Windows custom image from a physical lab into Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/upload-custom-image-shared-image-gallery |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
-| Use the Az.LabServices PowerShell module | https://learn.microsoft.com/en-us/azure/lab-services/reference-powershell-module |
+| Connect Linux lab VMs using X2Go client | https://learn.microsoft.com/en-us/azure/lab-services/connect-virtual-machine-linux-x2go |
 | Configure Canvas LMS integration with Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-configure-canvas-for-lab-plans |
 | Configure Microsoft Teams integration with Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-configure-teams-for-lab-plans |
-| Connect to Linux lab VMs using X2Go in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/connect-virtual-machine-linux-x2go |
-| Create Azure Lab Services labs using PowerShell Az modules | https://learn.microsoft.com/en-us/azure/lab-services/how-to-create-lab-powershell |
-| Programmatically create Azure Lab Services labs with Python SDK | https://learn.microsoft.com/en-us/azure/lab-services/how-to-create-lab-python |
+| Connect Azure Lab Services labs to peer virtual networks | https://learn.microsoft.com/en-us/azure/lab-services/how-to-connect-peer-virtual-network |
+| Provision an Azure Lab Services lab using Bicep templates | https://learn.microsoft.com/en-us/azure/lab-services/how-to-create-lab-bicep |
+| Provision Azure Lab Services lab plans with Bicep or ARM | https://learn.microsoft.com/en-us/azure/lab-services/how-to-create-lab-plan-bicep |
+| Create Azure Lab Services lab plans with PowerShell | https://learn.microsoft.com/en-us/azure/lab-services/how-to-create-lab-plan-powershell |
+| Create Azure Lab Services lab plans using Python SDK | https://learn.microsoft.com/en-us/azure/lab-services/how-to-create-lab-plan-python |
+| Create an Azure Lab Services lab using PowerShell and Az modules | https://learn.microsoft.com/en-us/azure/lab-services/how-to-create-lab-powershell |
+| Create an Azure Lab Services lab using the Python SDK | https://learn.microsoft.com/en-us/azure/lab-services/how-to-create-lab-python |
+| Use the Az.LabServices PowerShell module for Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/reference-powershell-module |
 
 ### Limits & Quotas
 | Topic | URL |
 |-------|-----|
-| Review VM capacity limits for Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/capacity-limits |
-| Understand VM inactivity deletion policy in Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/vm-deletion-policy |
-| Determine Lab Services core quota usage by subscription | https://learn.microsoft.com/en-us/azure/lab-services/how-to-determine-your-quota-usage |
-| Request core quota increases for Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-request-capacity-increase |
+| Understand Azure Lab Services VM capacity limits | https://learn.microsoft.com/en-us/azure/lab-services/capacity-limits |
+| Determine Azure Lab Services core quota usage | https://learn.microsoft.com/en-us/azure/lab-services/how-to-determine-your-quota-usage |
+| Request Azure Lab Services core quota increases | https://learn.microsoft.com/en-us/azure/lab-services/how-to-request-capacity-increase |
+| Understand VM inactivity deletion policy in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/vm-deletion-policy |
 
 ### Security
 | Topic | URL |
 |-------|-----|
-| Assign Lab Creator RBAC roles in Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/add-lab-creator |
-| Assign Lab Creator role in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-add-lab-creator |
+| Assign Lab Creator role in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/add-lab-creator |
+| Enforce Azure Lab Services settings with Azure Policy | https://learn.microsoft.com/en-us/azure/lab-services/azure-polices-for-lab-services |
+| Configure Azure RBAC roles for Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/concept-lab-services-role-based-access-control |
+| Map lab account roles to lab plan RBAC in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/concept-migrate-from-lab-accounts-roles |
+| Assign Lab Creator role for Azure Lab Services lab accounts | https://learn.microsoft.com/en-us/azure/lab-services/how-to-add-lab-creator |
 | Add additional lab owners in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-add-user-lab-owner |
-| Apply Azure Policy to govern Lab Services labs | https://learn.microsoft.com/en-us/azure/lab-services/azure-polices-for-lab-services |
-| Azure Policy built-in definitions for Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/policy-reference |
-| Configure Azure RBAC roles for Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/concept-lab-services-role-based-access-control |
-| Configure firewall rules using Azure Lab Services VM public IPs | https://learn.microsoft.com/en-us/azure/lab-services/how-to-configure-firewall-settings |
-| Configure firewall rules for Azure Lab Services lab VMs | https://learn.microsoft.com/en-us/azure/lab-services/how-to-configure-firewall-settings-1 |
-| Map Lab Services role assignments during migration | https://learn.microsoft.com/en-us/azure/lab-services/concept-migrate-from-lab-accounts-roles |
-| Restrict Azure Lab Services VM sizes with Azure Policy | https://learn.microsoft.com/en-us/azure/lab-services/how-to-use-restrict-allowed-virtual-machine-sku-sizes-policy |
-| Set and reset VM passwords as lab owners in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/how-to-set-virtual-machine-passwords |
-| Students reset passwords for Azure Lab Services VMs | https://learn.microsoft.com/en-us/azure/lab-services/how-to-set-virtual-machine-passwords-student |
+| Use Lab Services public IPs to configure firewall rules | https://learn.microsoft.com/en-us/azure/lab-services/how-to-configure-firewall-settings |
+| Configure firewall access for Azure Lab Services lab VMs | https://learn.microsoft.com/en-us/azure/lab-services/how-to-configure-firewall-settings-1 |
+| Restrict Lab Services VM sizes using Azure Policy | https://learn.microsoft.com/en-us/azure/lab-services/how-to-use-restrict-allowed-virtual-machine-sku-sizes-policy |
+| Use built-in Azure Policy definitions for Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/policy-reference |
 
 ### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Troubleshoot Azure Lab Services VMs with redeploy and reimage | https://learn.microsoft.com/en-us/azure/lab-services/how-to-reset-and-redeploy-vm |
-| Troubleshoot access problems on Azure Lab Services VMs | https://learn.microsoft.com/en-us/azure/lab-services/troubleshoot-access-lab-vm |
-| Troubleshoot connectivity issues in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/troubleshoot-connect-lab-vm |
+| Troubleshoot Azure Lab Services VM connectivity issues | https://learn.microsoft.com/en-us/azure/lab-services/how-to-reset-and-redeploy-vm |
+| Diagnose and fix Azure Lab Services VM access issues | https://learn.microsoft.com/en-us/azure/lab-services/troubleshoot-access-lab-vm |
+| Troubleshoot connectivity problems in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/troubleshoot-connect-lab-vm |
 | Troubleshoot lab creation issues in Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/troubleshoot-lab-creation |
 
 ---

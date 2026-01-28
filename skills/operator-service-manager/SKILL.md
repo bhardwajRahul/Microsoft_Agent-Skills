@@ -1,6 +1,6 @@
 ---
 name: operator-service-manager
-description: Expert knowledge for Operator Service Manager development including best practices, configuration, integrations & coding patterns, security, and troubleshooting. Use when building, debugging, or optimizing Operator Service Manager applications.
+description: Expert knowledge for Operator Service Manager development including best practices, integrations & coding patterns, configuration, security, deployment, and troubleshooting. Use when building, debugging, or optimizing Operator Service Manager applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -35,40 +35,44 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Best Practices
 | Topic | URL |
 |-------|-----|
-| Control AOSM upgrade failure behavior and rollback | https://learn.microsoft.com/en-us/azure/operator-service-manager/safe-upgrades-nf-level-rollback |
-| Implement Helm chart best practices for AOSM | https://learn.microsoft.com/en-us/azure/operator-service-manager/helm-requirements |
 | Apply onboarding and deployment practices for AOSM | https://learn.microsoft.com/en-us/azure/operator-service-manager/best-practices-onboard-deploy |
-| Manage AOSM publisher artifact cleanup efficiently | https://learn.microsoft.com/en-us/azure/operator-service-manager/resource-cleanup-management |
-| Run Helm tests during AOSM NF install and upgrade | https://learn.microsoft.com/en-us/azure/operator-service-manager/safe-upgrades-helm-test |
 | Design and operate AOSM configuration groups | https://learn.microsoft.com/en-us/azure/operator-service-manager/configuration-guide |
+| Implement Helm chart best practices for AOSM | https://learn.microsoft.com/en-us/azure/operator-service-manager/helm-requirements |
+| Manage AOSM publisher artifact cleanup effectively | https://learn.microsoft.com/en-us/azure/operator-service-manager/resource-cleanup-management |
+| Run Helm tests during AOSM NF installs and upgrades | https://learn.microsoft.com/en-us/azure/operator-service-manager/safe-upgrades-helm-test |
+| Control AOSM upgrade failure and rollback behavior | https://learn.microsoft.com/en-us/azure/operator-service-manager/safe-upgrades-nf-level-rollback |
 
 ### Configuration
 | Topic | URL |
 |-------|-----|
-| Configure user-assigned managed identities for long AOSM operations | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-create-user-assigned-managed-identity |
-| Map Helm and ARM parameters to AOSM configuration groups | https://learn.microsoft.com/en-us/azure/operator-service-manager/concepts-expose-parameters-configuration-group-schema |
-| Configure AOSM cluster registry for edge resiliency | https://learn.microsoft.com/en-us/azure/operator-service-manager/get-started-with-cluster-registry |
-| Interrupt AOSM SNS deployments using managed resource tags | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-cancel-service-deployments |
-| Configure geo-replication for AOSM artifact store | https://learn.microsoft.com/en-us/azure/operator-service-manager/publisher-artifact-store-resiliency |
-| Override AOSM Helm install cleanup behavior for debugging | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-use-helm-option-parameters |
+| Map Helm and ARM parameters to AOSM configuration | https://learn.microsoft.com/en-us/azure/operator-service-manager/concepts-expose-parameters-configuration-group-schema |
+| Configure AOSM cluster registry for resilient CNFs | https://learn.microsoft.com/en-us/azure/operator-service-manager/get-started-with-cluster-registry |
+| Configure Helm options to retain failed AOSM deployments | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-use-helm-option-parameters |
+| Configure geo-replication for AOSM artifact stores | https://learn.microsoft.com/en-us/azure/operator-service-manager/publisher-artifact-store-resiliency |
+
+### Deployment
+| Topic | URL |
+|-------|-----|
+| Interrupt nonterminal AOSM service deployments safely | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-cancel-service-deployments |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
 | Use AOSM CLI to discover and upload CNF images | https://learn.microsoft.com/en-us/azure/operator-service-manager/concepts-cli-containerized-network-function-image-upload |
-| Use AOSM network function operator extension on NAKS | https://learn.microsoft.com/en-us/azure/operator-service-manager/manage-network-function-operator |
-| Onboard CNFs to AOSM using the CLI extension | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-onboard-containerized-network-function-cli |
-| Onboard VNFs to AOSM for deployment on Nexus | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-onboard-virtualized-network-function-cli |
-| Combine ARM resources with AOSM network service designs | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-onboard-azure-resource-manager-resources-cli |
-| Push and pull artifacts with AOSM ACR-backed stores | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-manage-artifacts-nexus |
+| Manage AOSM artifact store with ACR and CLI | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-manage-artifacts-nexus |
 | Push and pull artifacts with AOSM storage-backed artifact store | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-manage-artifacts-virtualized-network-function-cloud |
+| Combine ARM templates with AOSM network service designs | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-onboard-azure-resource-manager-resources-cli |
+| Onboard containerized network functions with AOSM CLI | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-onboard-containerized-network-function-cli |
+| Onboard VNFs to Azure Operator Nexus via AOSM CLI | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-onboard-virtualized-network-function-cli |
+| Use AOSM network function operator CLI commands | https://learn.microsoft.com/en-us/azure/operator-service-manager/manage-network-function-operator |
 
 ### Security
 | Topic | URL |
 |-------|-----|
-| Assign custom AOSM roles to enable SNS deployment | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-assign-custom-role |
-| Create custom RBAC roles for AOSM service operators | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-create-custom-role |
-| Secure AOSM artifact store connectivity with Private Link | https://learn.microsoft.com/en-us/azure/operator-service-manager/get-started-with-private-link |
+| Secure AOSM artifact backhaul with Private Link | https://learn.microsoft.com/en-us/azure/operator-service-manager/get-started-with-private-link |
+| Assign custom AOSM roles to service operators | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-assign-custom-role |
+| Create custom RBAC roles for AOSM publishers | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-create-custom-role |
+| Configure user-assigned managed identity for AOSM | https://learn.microsoft.com/en-us/azure/operator-service-manager/how-to-create-user-assigned-managed-identity |
 
 ### Troubleshooting
 | Topic | URL |

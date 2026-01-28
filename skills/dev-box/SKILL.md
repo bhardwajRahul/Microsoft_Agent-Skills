@@ -1,6 +1,6 @@
 ---
 name: dev-box
-description: Expert knowledge for Dev Box development including deployment, configuration, security, limits & quotas, best practices, integrations & coding patterns, and troubleshooting. Use when building, debugging, or optimizing Dev Box applications.
+description: Expert knowledge for Dev Box development including best practices, deployment, configuration, security, integrations & coding patterns, limits & quotas, and troubleshooting. Use when building, debugging, or optimizing Dev Box applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -35,76 +35,72 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Best Practices
 | Topic | URL |
 |-------|-----|
-| Apply best practices for Dev Box image definition authoring | https://learn.microsoft.com/en-us/azure/dev-box/concept-authoring-troubleshooting-guide-team-customizations |
+| Best practices and troubleshooting for Dev Box image definitions | https://learn.microsoft.com/en-us/azure/dev-box/concept-authoring-troubleshooting-guide-team-customizations |
 | Pre-generate Visual Studio caches in Dev Box images | https://learn.microsoft.com/en-us/azure/dev-box/how-to-generate-visual-studio-caches |
 
 ### Configuration
 | Topic | URL |
 |-------|-----|
-| Add and manage Dev Box catalogs for image definitions | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-catalog |
-| Configure Dev Box hibernation and schedules | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-dev-box-hibernation |
-| Attach and configure Azure Compute Gallery for Dev Box | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-azure-compute-gallery |
-| Configure Dev Box pool autostop schedules | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-stop-schedule |
-| Configure imaging pipeline for Dev Box team customizations | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-dev-center-imaging |
+| Configure networking requirements for Microsoft Dev Box | https://learn.microsoft.com/en-us/azure/dev-box/concept-dev-box-network-requirements |
+| Configure Dev Box auto-delete policies to control costs | https://learn.microsoft.com/en-us/azure/dev-box/how-to-auto-delete-dev-box |
+| Configure Dev Box catalogs for image definitions | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-catalog |
+| Define and manage Dev Box customization tasks in catalogs | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-customization-tasks |
+| Configure network connections for Dev Box dev centers | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-network-connections |
 | Configure project policies to govern Dev Box usage | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-project-policy |
-| Set Dev Box stop-on-disconnect timeouts | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-stop-on-disconnect |
-| Configure Dev Box customization task catalogs | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-customization-tasks |
-| Author Dev Box image definition files for team customizations | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-team-customizations |
-| Create and upload user customization files for Dev Box | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-user-customizations |
-| Configure virtual switches and nested VMs on Dev Boxes | https://learn.microsoft.com/en-us/azure/dev-box/how-to-connect-dev-box-virtual-switch |
-| Configure Dev Box auto-delete for unused boxes | https://learn.microsoft.com/en-us/azure/dev-box/how-to-auto-delete-dev-box |
-| Reference schema for Dev Box imagedefinition.yaml and task.yaml | https://learn.microsoft.com/en-us/azure/dev-box/reference-dev-box-customizations |
-| Install and use the Dev Box Azure CLI extension | https://learn.microsoft.com/en-us/azure/dev-box/how-to-install-dev-box-cli |
+| Configure stop-on-disconnect timeout for Dev Boxes | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-stop-on-disconnect |
+| Author Dev Box imagedefinition.yaml for team customizations | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-team-customizations |
+| Create and upload Dev Box user customization files | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-user-customizations |
+| Configure virtual switches and networking for Dev Boxes | https://learn.microsoft.com/en-us/azure/dev-box/how-to-connect-dev-box-virtual-switch |
+| Install and configure Azure CLI devcenter extension for Dev Box | https://learn.microsoft.com/en-us/azure/dev-box/how-to-install-dev-box-cli |
 | Configure Dev Box definitions for images and sizes | https://learn.microsoft.com/en-us/azure/dev-box/how-to-manage-dev-box-definitions |
-| Configure and manage Dev Box pools | https://learn.microsoft.com/en-us/azure/dev-box/how-to-manage-dev-box-pools |
+| Configure and manage Microsoft Dev Box pools | https://learn.microsoft.com/en-us/azure/dev-box/how-to-manage-dev-box-pools |
 | Manage Microsoft Dev Box projects and pools | https://learn.microsoft.com/en-us/azure/dev-box/how-to-manage-dev-box-projects |
 | Create and manage Dev Box dev centers | https://learn.microsoft.com/en-us/azure/dev-box/how-to-manage-dev-center |
-| Configure Dev Box network connections and regions | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-network-connections |
-| Monitor Microsoft Dev Box with Azure Monitor logs | https://learn.microsoft.com/en-us/azure/dev-box/monitor-dev-box |
-| Reference for Dev Box monitoring logs and metrics | https://learn.microsoft.com/en-us/azure/dev-box/monitor-dev-box-reference |
-| Configure networking requirements for Microsoft Dev Box | https://learn.microsoft.com/en-us/azure/dev-box/concept-dev-box-network-requirements |
+| Configure monitoring and diagnostic logs for Microsoft Dev Box | https://learn.microsoft.com/en-us/azure/dev-box/monitor-dev-box |
+| Use Dev Box monitoring logs and metrics schema | https://learn.microsoft.com/en-us/azure/dev-box/monitor-dev-box-reference |
+| Configure Microsoft Dev Box using ARM templates | https://learn.microsoft.com/en-us/azure/dev-box/quickstart-configure-dev-box-arm-template |
+| Configure core Microsoft Dev Box resources in Azure | https://learn.microsoft.com/en-us/azure/dev-box/quickstart-configure-dev-box-service |
+| Configure Dev Box resources with Get Started template | https://learn.microsoft.com/en-us/azure/dev-box/quickstart-get-started-template |
+| Reference schema for Dev Box imagedefinition.yaml and task.yaml | https://learn.microsoft.com/en-us/azure/dev-box/reference-dev-box-customizations |
 
 ### Deployment
 | Topic | URL |
 |-------|-----|
-| Deploy Dev Box environment with Get Started template | https://learn.microsoft.com/en-us/azure/dev-box/quickstart-get-started-template |
 | Plan and implement a Microsoft Dev Box deployment | https://learn.microsoft.com/en-us/azure/dev-box/concept-dev-box-deployment-guide |
-| Move Dev Box pools and boxes between Azure regions | https://learn.microsoft.com/en-us/azure/dev-box/how-to-move-dev-box-pool-region |
-| Build and distribute custom Dev Box images with VM Image Builder | https://learn.microsoft.com/en-us/azure/dev-box/how-to-customize-devbox-azure-image-builder |
-| Configure Microsoft Dev Box using ARM template | https://learn.microsoft.com/en-us/azure/dev-box/quickstart-configure-dev-box-arm-template |
+| Configure Dev Box imaging pipeline for team customizations | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-dev-center-imaging |
+| Build and distribute Dev Box images with Azure VM Image Builder | https://learn.microsoft.com/en-us/azure/dev-box/how-to-customize-devbox-azure-image-builder |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
-| Connect physical Android devices to Dev Boxes | https://learn.microsoft.com/en-us/azure/dev-box/how-to-connect-devices-to-dev-box |
-| Connect to Microsoft Dev Box from VS Code using dev tunnels | https://learn.microsoft.com/en-us/azure/dev-box/how-to-set-up-dev-tunnels |
-| Use Dev Box MCP Server with AI agents | https://learn.microsoft.com/en-us/azure/dev-box/tutorial-get-started-dev-box-mcp-server |
+| Connect physical Android devices to a Dev Box | https://learn.microsoft.com/en-us/azure/dev-box/how-to-connect-devices-to-dev-box |
+| Integrate Microsoft Dev Box with VS Code via dev tunnels | https://learn.microsoft.com/en-us/azure/dev-box/how-to-set-up-dev-tunnels |
 
 ### Limits & Quotas
 | Topic | URL |
 |-------|-----|
-| Set per-user Dev Box limits to control costs | https://learn.microsoft.com/en-us/azure/dev-box/tutorial-dev-box-limits |
 | View and increase Microsoft Dev Box quotas | https://learn.microsoft.com/en-us/azure/dev-box/how-to-request-quota-increase |
+| Set per-user Dev Box limits to control project costs | https://learn.microsoft.com/en-us/azure/dev-box/tutorial-dev-box-limits |
 
 ### Security
 | Topic | URL |
 |-------|-----|
-| Authenticate to Dev Box REST APIs with Azure CLI | https://learn.microsoft.com/en-us/azure/dev-box/how-to-authenticate |
-| Plan Azure RBAC roles for Microsoft Dev Box | https://learn.microsoft.com/en-us/azure/dev-box/concept-dev-box-role-based-access-control |
-| Configure Intune Conditional Access for Dev Boxes | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-intune-conditional-access-policies |
+| Plan Azure RBAC roles for Microsoft Dev Box deployments | https://learn.microsoft.com/en-us/azure/dev-box/concept-dev-box-role-based-access-control |
+| Authenticate to Microsoft Dev Box REST APIs with Azure CLI | https://learn.microsoft.com/en-us/azure/dev-box/how-to-authenticate |
 | Secure Dev Box tunnels with Entra conditional access | https://learn.microsoft.com/en-us/azure/dev-box/how-to-conditional-access-dev-tunnels-service |
-| Set up Intune Endpoint Privilege Management for Dev Boxes | https://learn.microsoft.com/en-us/azure/dev-box/how-to-elevate-privilege-dev-box |
+| Configure Intune Conditional Access for Dev Boxes | https://learn.microsoft.com/en-us/azure/dev-box/how-to-configure-intune-conditional-access-policies |
 | Secure Dev Box customizations with Key Vault and service principals | https://learn.microsoft.com/en-us/azure/dev-box/how-to-customizations-connect-resource-repository |
-| Enable single sign-on to Windows on Dev Boxes | https://learn.microsoft.com/en-us/azure/dev-box/how-to-enable-single-sign-on |
-| Assign Dev Box access with Azure RBAC roles | https://learn.microsoft.com/en-us/azure/dev-box/how-to-manage-dev-box-access |
+| Set up Intune Endpoint Privilege Management for Dev Boxes | https://learn.microsoft.com/en-us/azure/dev-box/how-to-elevate-privilege-dev-box |
+| Enable Microsoft Entra SSO for Dev Boxes | https://learn.microsoft.com/en-us/azure/dev-box/how-to-enable-single-sign-on |
+| Assign Dev Box project access with Azure RBAC | https://learn.microsoft.com/en-us/azure/dev-box/how-to-manage-dev-box-access |
 
 ### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Use Troubleshoot and Repair for Dev Box connectivity | https://learn.microsoft.com/en-us/azure/dev-box/how-to-troubleshoot-repair-dev-box |
-| Step-by-step guide to fix Dev Box connection problems | https://learn.microsoft.com/en-us/azure/dev-box/how-to-resolve-dev-box-connectivity-issues |
+| Step-by-step guide to troubleshoot Dev Box connectivity | https://learn.microsoft.com/en-us/azure/dev-box/how-to-resolve-dev-box-connectivity-issues |
 | Fix stale or inaccessible Dev Boxes in Windows Task view | https://learn.microsoft.com/en-us/azure/dev-box/how-to-troubleshoot-dev-box-task-view |
 | Resolve known Microsoft Dev Box connectivity issues | https://learn.microsoft.com/en-us/azure/dev-box/how-to-troubleshoot-remote-desktop-connectivity |
+| Use Troubleshoot and Repair to fix Dev Box connectivity | https://learn.microsoft.com/en-us/azure/dev-box/how-to-troubleshoot-repair-dev-box |
 
 ---
 

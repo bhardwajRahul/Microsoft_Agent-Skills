@@ -35,26 +35,26 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Configuration
 | Topic | URL |
 |-------|-----|
-| Understand and use Jenkins plug-ins for Azure services | https://learn.microsoft.com/en-us/azure/developer/jenkins/plug-ins-for-azure |
+| Reference for Jenkins plug-ins integrating with Azure services | https://learn.microsoft.com/en-us/azure/developer/jenkins/plug-ins-for-azure |
 
 ### Deployment
 | Topic | URL |
 |-------|-----|
-| Create a Jenkins CI/CD pipeline on Azure VM with Docker | https://learn.microsoft.com/en-us/azure/developer/jenkins/pipeline-with-github-and-docker |
+| Run Jenkins build agents on Azure Container Instances | https://learn.microsoft.com/en-us/azure/developer/jenkins/azure-container-instances-as-jenkins-build-agent |
 | Install and configure Jenkins on Azure Linux VM | https://learn.microsoft.com/en-us/azure/developer/jenkins/configure-on-linux-vm |
-| Scale Jenkins build capacity with Azure VM agents | https://learn.microsoft.com/en-us/azure/developer/jenkins/scale-deployments-using-vm-agents |
+| CI/CD from GitHub to AKS using Jenkins | https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-from-github-to-aks |
+| Deploy Java web apps to Azure App Service via Jenkins | https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-azure-app-service-using-azure-cli |
+| Deploy Java Azure Functions using Jenkins | https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-azure-functions |
+| Deploy Spring microservices to Azure Spring Apps with Jenkins | https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-azure-spring-apps-using-azure-cli |
+| Deploy to Azure Linux VMs using Jenkins and Azure DevOps | https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-linux-vm-using-azure-devops-services |
+| Deploy Service Fabric Linux apps using Jenkins | https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-service-fabric-cluster |
+| Create Jenkins CI/CD pipeline with GitHub and Docker on Azure | https://learn.microsoft.com/en-us/azure/developer/jenkins/pipeline-with-github-and-docker |
+| Scale Jenkins workloads with Azure VM agents | https://learn.microsoft.com/en-us/azure/developer/jenkins/scale-deployments-using-vm-agents |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
-| CI/CD from GitHub to AKS using Jenkins | https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-from-github-to-aks |
-| Deploy Service Fabric applications using Jenkins | https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-service-fabric-cluster |
-| Deploy Java web apps to Azure App Service via Jenkins | https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-azure-app-service-using-azure-cli |
-| Deploy Java Azure Functions using Jenkins | https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-azure-functions |
-| Deploy microservices to Azure Spring Apps from Jenkins | https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-azure-spring-apps-using-azure-cli |
-| Use Azure Blob Storage for Jenkins build artifacts | https://learn.microsoft.com/en-us/azure/developer/jenkins/azure-storage-blobs-as-build-artifact-repository |
-| Use Azure Container Instances as Jenkins build agents | https://learn.microsoft.com/en-us/azure/developer/jenkins/azure-container-instances-as-jenkins-build-agent |
-| Deploy to Azure Linux VMs using Jenkins and Azure DevOps | https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-linux-vm-using-azure-devops-services |
+| Use Azure Blob Storage as Jenkins build artifact repository | https://learn.microsoft.com/en-us/azure/developer/jenkins/azure-storage-blobs-as-build-artifact-repository |
 
 ---
 

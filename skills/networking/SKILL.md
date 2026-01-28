@@ -1,6 +1,6 @@
 ---
 name: networking
-description: Expert knowledge for Networking development including architecture & design patterns, limits & quotas, security, best practices, troubleshooting, and integrations & coding patterns. Use when building, debugging, or optimizing Networking applications.
+description: Expert knowledge for Networking development including limits & quotas, architecture & design patterns, security, integrations & coding patterns, best practices, and troubleshooting. Use when building, debugging, or optimizing Networking applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -35,11 +35,11 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Architecture & Design Patterns
 | Topic | URL |
 |-------|-----|
+| Analyze Azure connectivity control plane route behavior | https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-control-plane |
+| Analyze Azure connectivity data plane packet paths | https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-data-plane |
+| Understand Azure ExpressRoute, VPN, and peering test topology | https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-preface |
 | Choose secure Azure application delivery patterns | https://learn.microsoft.com/en-us/azure/networking/secure-application-delivery |
 | Select secure Azure network topologies using decision tree | https://learn.microsoft.com/en-us/azure/networking/secure-network-topology |
-| Evaluate Azure connectivity control plane route behavior | https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-control-plane |
-| Analyze Azure connectivity data plane packet paths | https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-data-plane |
-| Analyze Azure ExpressRoute, VPN, and peering interoperability setup | https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-preface |
 
 ### Best Practices
 | Topic | URL |
@@ -49,7 +49,7 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
-| Run Azure Resource Graph queries for networking resources | https://learn.microsoft.com/en-us/azure/networking/fundamentals/resource-graph-samples |
+| Use Azure Resource Graph queries for networking resources | https://learn.microsoft.com/en-us/azure/networking/fundamentals/resource-graph-samples |
 
 ### Limits & Quotas
 | Topic | URL |
@@ -59,14 +59,14 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Security
 | Topic | URL |
 |-------|-----|
+| Deploy Zero Trust virtual network architecture for web apps | https://learn.microsoft.com/en-us/azure/networking/create-zero-trust-network-web-apps |
 | Use built-in Azure Policy definitions for networking | https://learn.microsoft.com/en-us/azure/networking/policy-reference |
-| Deploy Zero Trust virtual network for Azure web apps | https://learn.microsoft.com/en-us/azure/networking/create-zero-trust-network-web-apps |
 | Apply Azure Policy regulatory controls to networking | https://learn.microsoft.com/en-us/azure/networking/security-controls-policy |
 
 ### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Troubleshoot Microsoft.Network failed provisioning states in Azure | https://learn.microsoft.com/en-us/azure/networking/troubleshoot-failed-state |
+| Troubleshoot Microsoft.Network failed provisioning states | https://learn.microsoft.com/en-us/azure/networking/troubleshoot-failed-state |
 
 ---
 

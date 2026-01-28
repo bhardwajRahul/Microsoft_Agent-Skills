@@ -1,6 +1,6 @@
 ---
 name: azure-government
-description: Expert knowledge for Azure Government development including comparing x vs. y, configuration, deployment, best practices, security, integrations & coding patterns, and architecture & design patterns. Use when building, debugging, or optimizing Azure Government applications.
+description: Expert knowledge for Azure Government development including security, comparing x vs. y, deployment, best practices, configuration, and integrations & coding patterns. Use when building, debugging, or optimizing Azure Government applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -32,54 +32,47 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 
 ## Documentation Links by Category
 
-### Architecture & Design Patterns
-| Topic | URL |
-|-------|-----|
-| Use Azure reference architectures for FedRAMP ATO | https://learn.microsoft.com/en-us/azure/azure-government/compliance/documentation-accelerate-compliance |
-| Apply Secure Azure Computing Architecture for DoD | https://learn.microsoft.com/en-us/azure/azure-government/compliance/secure-azure-computing-architecture |
-
 ### Best Practices
 | Topic | URL |
 |-------|-----|
-| Name Azure resources without exposing sensitive data | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-concept-naming-resources |
+| Name Azure resources to avoid sensitive data spillage | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-concept-naming-resources |
 
 ### Comparing X vs. Y
 | Topic | URL |
 |-------|-----|
-| Compare Azure Government vs global Azure features | https://learn.microsoft.com/en-us/azure/azure-government/compare-azure-government-global-azure |
+| Compare Azure Government vs global Azure capabilities | https://learn.microsoft.com/en-us/azure/azure-government/compare-azure-government-global-azure |
 
 ### Configuration
 | Topic | URL |
 |-------|-----|
-| Configure Azure CLI for Azure Government environments | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-get-started-connect-with-cli |
-| List and use VM extensions in Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-extension |
-| Develop and deploy applications on Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-developer-guide |
-| Configure PowerShell to connect to Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-get-started-connect-with-ps |
 | Configure SSMS to connect to Azure Government SQL | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-connect-ssms |
-| Set up Visual Studio access to Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-connect-vs |
+| Develop and deploy applications on Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-developer-guide |
+| List and use virtual machine extensions in Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-extension |
+| Use Azure Government Marketplace image gallery and custom VHDs | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-image-gallery |
+| Use Azure Monitor logs in Azure Government environments | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-manage-oms |
 
 ### Deployment
 | Topic | URL |
 |-------|-----|
-| Deploy Azure App Service apps to Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-howto-deploy-webandmobile |
-| Set up Azure Pipelines CI/CD to Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/connect-with-azure-pipelines |
-| Baseline ASE deployment with DISA CAP in Azure Gov | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-ase-disa-cap |
+| Set up Azure Pipelines CI/CD to Azure Government App Service | https://learn.microsoft.com/en-us/azure/azure-government/connect-with-azure-pipelines |
+| Baseline App Service Environment deployment with DISA CAP | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-ase-disa-cap |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
-| Develop Azure AI services apps on Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-cognitiveservices |
 | Use Azure Storage APIs in Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-get-started-connect-to-storage |
 
 ### Security
 | Topic | URL |
 |-------|-----|
-| Implement secure isolation in Azure environments | https://learn.microsoft.com/en-us/azure/azure-government/azure-secure-isolation-guidance |
-| Plan identity architecture for Azure Government tenants | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-plan-identity |
-| Configure Azure Government for DoD IL5 isolation | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-impact-level-5 |
-| Integrate Microsoft Entra auth on Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-aad-auth-qs |
-| Secure Azure Government workloads and data | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-plan-security |
-| Use Azure features to meet TIC guidance | https://learn.microsoft.com/en-us/azure/azure-government/compliance/compliance-tic |
+| Implement secure isolation across Azure compute, network, and storage | https://learn.microsoft.com/en-us/azure/azure-government/azure-secure-isolation-guidance |
+| Understand FedRAMP and DoD compliance scope for Microsoft clouds | https://learn.microsoft.com/en-us/azure/azure-government/compliance/azure-services-in-fedramp-auditscope |
+| Configure Azure services to align with TIC guidance | https://learn.microsoft.com/en-us/azure/azure-government/compliance/compliance-tic |
+| Apply Secure Azure Computing Architecture for DoD compliance | https://learn.microsoft.com/en-us/azure/azure-government/compliance/secure-azure-computing-architecture |
+| Configure Microsoft Entra authentication for Azure Government apps | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-aad-auth-qs |
+| Configure Azure Government isolation for DoD IL5 workloads | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-impact-level-5 |
+| Plan identity management for Azure Government tenants | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-plan-identity |
+| Secure Azure Government workloads with built-in controls | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-plan-security |
 
 ---
 

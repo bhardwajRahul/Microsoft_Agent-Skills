@@ -1,6 +1,6 @@
 ---
 name: playwright-testing
-description: Expert knowledge for Playwright Testing development including limits & quotas, best practices, configuration, security, integrations & coding patterns, and troubleshooting. Use when building, debugging, or optimizing Playwright Testing applications.
+description: Expert knowledge for Playwright Testing development including best practices, security, configuration, integrations & coding patterns, limits & quotas, and troubleshooting. Use when building, debugging, or optimizing Playwright Testing applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -35,17 +35,17 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Best Practices
 | Topic | URL |
 |-------|-----|
-| Configure Playwright visual comparisons with cloud browsers | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-configure-visual-comparisons |
 | Optimize Playwright Testing suite configuration for speed | https://learn.microsoft.com/en-us/azure/playwright-testing/concept-determine-optimal-configuration |
+| Configure Playwright visual comparisons on cloud browsers | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-configure-visual-comparisons |
 | Optimize regional latency for Playwright Testing workspaces | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-optimize-regional-latency |
 
 ### Configuration
 | Topic | URL |
 |-------|-----|
 | Create and manage Microsoft Playwright Testing workspaces | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-manage-playwright-workspace |
-| Reference monitoring data schema for Playwright Testing | https://learn.microsoft.com/en-us/azure/playwright-testing/monitor-playwright-testing-reference |
-| Use core Microsoft Playwright Testing service features | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-use-service-features |
 | Configure playwright.service.config.ts for Playwright Testing | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-use-service-config-file |
+| Use core Microsoft Playwright Testing service features | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-use-service-features |
+| Monitor Microsoft Playwright Testing with Azure telemetry | https://learn.microsoft.com/en-us/azure/playwright-testing/monitor-playwright-testing |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -56,21 +56,21 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Limits & Quotas
 | Topic | URL |
 |-------|-----|
-| Reference limits, quotas, and settings for Playwright Testing | https://learn.microsoft.com/en-us/azure/playwright-testing/resource-limits-quotas-capacity |
 | Understand Microsoft Playwright Testing free trial limits | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-try-playwright-testing-free |
+| Review limits and configuration for Microsoft Playwright Testing | https://learn.microsoft.com/en-us/azure/playwright-testing/resource-limits-quotas-capacity |
 
 ### Security
 | Topic | URL |
 |-------|-----|
 | Manage Microsoft Playwright Testing workspace access tokens | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-manage-access-tokens |
 | Configure authentication and authorization for Playwright Testing | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-manage-authentication |
-| Configure RBAC access for Playwright Testing workspaces | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-manage-workspace-access |
+| Configure RBAC-based access for Playwright Testing workspaces | https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-manage-workspace-access |
 
 ### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Resolve AADSTS7000112 sign-in errors in Playwright portal | https://learn.microsoft.com/en-us/azure/playwright-testing/troubleshoot-unable-sign-into-playwright-portal |
 | Troubleshoot Microsoft Playwright Testing run failures | https://learn.microsoft.com/en-us/azure/playwright-testing/troubleshoot-test-run-failures |
+| Resolve AADSTS7000112 sign-in errors for Playwright portal | https://learn.microsoft.com/en-us/azure/playwright-testing/troubleshoot-unable-sign-into-playwright-portal |
 
 ---
 

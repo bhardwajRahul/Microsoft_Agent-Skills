@@ -1,6 +1,6 @@
 ---
 name: confidential-computing
-description: Expert knowledge for Confidential Computing development including security, integrations & coding patterns, deployment, comparing x vs. y, architecture & design patterns, and troubleshooting. Use when building, debugging, or optimizing Confidential Computing applications.
+description: Expert knowledge for Confidential Computing development including security, comparing x vs. y, architecture & design patterns, integrations & coding patterns, deployment, and configuration. Use when building, debugging, or optimizing Confidential Computing applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -35,42 +35,62 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Architecture & Design Patterns
 | Topic | URL |
 |-------|-----|
-| Use Intel SGX enclave nodes in AKS | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-nodes-aks-overview |
-| Understand confidential containers options on Azure | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-containers |
-| Understand confidential containers options on Azure | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-containers |
-| Design enclave-aware container applications on AKS | https://learn.microsoft.com/en-us/azure/confidential-computing/enclave-aware-containers |
+| Select Azure confidential computing deployment models | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-computing-deployment-models |
+| Understand Azure confidential container options and scenarios | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-containers |
+| Understand Azure confidential container options and scenarios | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-containers |
+| Use Intel SGX enclave nodes in AKS for confidential apps | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-nodes-aks-overview |
+| Design and run enclave-aware containers on AKS | https://learn.microsoft.com/en-us/azure/confidential-computing/enclave-aware-containers |
 
 ### Comparing X vs. Y
 | Topic | URL |
 |-------|-----|
-| Choose Azure confidential container offerings | https://learn.microsoft.com/en-us/azure/confidential-computing/choose-confidential-containers-offerings |
+| Choose the right Azure confidential container offering | https://learn.microsoft.com/en-us/azure/confidential-computing/choose-confidential-containers-offerings |
+| Evaluate Azure confidential GPU VM options | https://learn.microsoft.com/en-us/azure/confidential-computing/gpu-options |
+| Compare Azure confidential VM options on AMD and Intel | https://learn.microsoft.com/en-us/azure/confidential-computing/virtual-machine-options |
+
+### Configuration
+| Topic | URL |
+|-------|-----|
+| Configure AKS Intel SGX plugin for confidential VMs | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-nodes-aks-addon |
+| Configure Virtual Machine Metablob Disk for confidential VMs | https://learn.microsoft.com/en-us/azure/confidential-computing/virtual-machine-metablob-disk |
 
 ### Deployment
 | Topic | URL |
 |-------|-----|
-| Use confidential VM node pools in AKS | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-node-pool-aks |
-| Run Confidential Containers on AKS (preview) | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-containers-on-aks-preview |
-| Deploy Intel SGX virtual machines on Azure | https://learn.microsoft.com/en-us/azure/confidential-computing/virtual-machine-solutions-sgx |
-| Deploy Fortanix CCM as Azure managed app | https://learn.microsoft.com/en-us/azure/confidential-computing/how-to-fortanix-confidential-computing-manager |
+| Run Confidential Containers (preview) on AKS | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-containers-on-aks-preview |
+| Use confidential VM node pools with AKS on Azure | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-node-pool-aks |
+| Create custom images for Azure confidential VMs with CLI | https://learn.microsoft.com/en-us/azure/confidential-computing/how-to-create-custom-image-confidential-vm |
+| Deploy Fortanix Confidential Computing Manager on Azure | https://learn.microsoft.com/en-us/azure/confidential-computing/how-to-fortanix-confidential-computing-manager |
+| Migrate nested Azure confidential VMs across regions | https://learn.microsoft.com/en-us/azure/confidential-computing/migrate-nested-confidential-vms |
+| Deploy Azure confidential VMs using ARM templates | https://learn.microsoft.com/en-us/azure/confidential-computing/quick-create-confidential-vm-arm |
+| Deploy and size Intel SGX confidential VMs on Azure | https://learn.microsoft.com/en-us/azure/confidential-computing/virtual-machine-solutions-sgx |
+| Deploy VM scale sets with hardened Linux images | https://learn.microsoft.com/en-us/azure/confidential-computing/vmss-deployment-from-hardened-linux-image |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
-| Use AKS Intel SGX device plugin (confcom) | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-nodes-aks-addon |
-| Run confidential containers with Intel SGX enclaves | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-containers-enclaves |
-| Run apps with Fortanix CCM and Node Agent | https://learn.microsoft.com/en-us/azure/confidential-computing/how-to-fortanix-confidential-computing-manager-node-agent |
-| Build Intel SGX enclave apps with OSS tools | https://learn.microsoft.com/en-us/azure/confidential-computing/enclave-development-oss |
+| Run unmodified containers in Intel SGX enclaves on Azure | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-containers-enclaves |
+| Build Intel SGX enclave apps with OSS tools on Azure | https://learn.microsoft.com/en-us/azure/confidential-computing/enclave-development-oss |
+| Use guest attestation sample apps for confidential VMs | https://learn.microsoft.com/en-us/azure/confidential-computing/guest-attestation-example |
+| Run Azure apps with Fortanix CCM and Node Agent | https://learn.microsoft.com/en-us/azure/confidential-computing/how-to-fortanix-confidential-computing-manager-node-agent |
+| Implement Secure Key Release for confidential containers in ACI | https://learn.microsoft.com/en-us/azure/confidential-computing/skr-flow-confidential-containers-azure-container-instance |
+| Implement Secure Key Release to confidential VMs with AMD SEV-SNP | https://learn.microsoft.com/en-us/azure/confidential-computing/skr-flow-confidential-vm-sev-snp |
 
 ### Security
 | Topic | URL |
 |-------|-----|
-| Security policy for AKS Confidential Containers | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-containers-aks-security-policy |
-| Define Secure Key Release policies for Azure TEEs | https://learn.microsoft.com/en-us/azure/confidential-computing/skr-policy-examples |
-
-### Troubleshooting
-| Topic | URL |
-|-------|-----|
-| FAQ for AKS confidential computing nodes | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-nodes-aks-faq |
+| Configure and apply attestation for Azure confidential computing | https://learn.microsoft.com/en-us/azure/confidential-computing/attestation-solutions |
+| Apply security policy for AKS Confidential Containers | https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-containers-aks-security-policy |
+| Understand Azure confidential VM guest attestation design | https://learn.microsoft.com/en-us/azure/confidential-computing/guest-attestation-confidential-virtual-machines-design |
+| Use guest attestation to verify Azure confidential VMs | https://learn.microsoft.com/en-us/azure/confidential-computing/guest-attestation-confidential-vms |
+| Secure confidential VMs with Defender for Cloud guest attestation | https://learn.microsoft.com/en-us/azure/confidential-computing/guest-attestation-defender-for-cloud |
+| Harden Linux images by removing Azure guest agent | https://learn.microsoft.com/en-us/azure/confidential-computing/harden-a-linux-image-to-remove-azure-guest-agent |
+| Harden Linux images by removing sudo users for confidential VMs | https://learn.microsoft.com/en-us/azure/confidential-computing/harden-the-linux-image-to-remove-sudo-users |
+| Leverage virtual TPM features in Azure confidential VMs | https://learn.microsoft.com/en-us/azure/confidential-computing/how-to-leverage-virtual-tpms-in-azure-confidential-vms |
+| Rotate customer-managed keys for Azure confidential VMs | https://learn.microsoft.com/en-us/azure/confidential-computing/key-rotation-offline |
+| Manage secrets and keys in Azure confidential workloads | https://learn.microsoft.com/en-us/azure/confidential-computing/secret-key-management |
+| Author Secure Key Release policies for Azure confidential TEEs | https://learn.microsoft.com/en-us/azure/confidential-computing/skr-policy-examples |
+| Use virtual TPMs in Azure confidential VMs securely | https://learn.microsoft.com/en-us/azure/confidential-computing/virtual-tpms-in-azure-confidential-vm |
 
 ---
 

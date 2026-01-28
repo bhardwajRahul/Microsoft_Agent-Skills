@@ -1,6 +1,6 @@
 ---
 name: api-center
-description: Expert knowledge for Api Center development including integrations & coding patterns, deployment, best practices, configuration, and security. Use when building, debugging, or optimizing Api Center applications.
+description: Expert knowledge for Api Center development including security, integrations & coding patterns, configuration, and deployment. Use when building, debugging, or optimizing Api Center applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -32,39 +32,35 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 
 ## Documentation Links by Category
 
-### Best Practices
-| Topic | URL |
-|-------|-----|
-| Use managed linting to enforce API style in API Center | https://learn.microsoft.com/en-us/azure/api-center/enable-managed-api-analysis-linting |
-
 ### Configuration
 | Topic | URL |
 |-------|-----|
-| Configure self-managed API linting in Azure API Center | https://learn.microsoft.com/en-us/azure/api-center/enable-api-analysis-linting |
 | Customize settings in the Azure API Center portal | https://learn.microsoft.com/en-us/azure/api-center/customize-api-center-portal |
 
 ### Deployment
 | Topic | URL |
 |-------|-----|
 | Automate API Center registration with GitHub Actions CI/CD | https://learn.microsoft.com/en-us/azure/api-center/register-apis-github-actions |
-| Self-host the Azure API Center portal implementation | https://learn.microsoft.com/en-us/azure/api-center/self-host-api-center-portal |
+| Deploy and self-host the Azure API Center portal | https://learn.microsoft.com/en-us/azure/api-center/self-host-api-center-portal |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
+| Build and register APIs via API Center VS Code extension | https://learn.microsoft.com/en-us/azure/api-center/build-register-apis-vscode-extension |
+| Design compliant APIs with API Center GitHub Copilot plugin | https://learn.microsoft.com/en-us/azure/api-center/design-api-github-copilot-azure |
 | Export API Center APIs as Copilot Studio connectors | https://learn.microsoft.com/en-us/azure/api-center/export-to-copilot-studio |
 | Import Azure API Management APIs into API Center | https://learn.microsoft.com/en-us/azure/api-center/import-api-management-apis |
-| Manage Azure API Center inventory using Azure CLI | https://learn.microsoft.com/en-us/azure/api-center/manage-apis-azure-cli |
-| Synchronize Azure API Management APIs with API Center | https://learn.microsoft.com/en-us/azure/api-center/synchronize-api-management-apis |
-| Synchronize Amazon API Gateway APIs with Azure API Center | https://learn.microsoft.com/en-us/azure/api-center/synchronize-aws-gateway-apis |
-| Automate API Center status updates with Logic Apps and Teams | https://learn.microsoft.com/en-us/azure/api-center/set-up-notification-workflow |
+| Manage Azure API Center inventory with Azure CLI | https://learn.microsoft.com/en-us/azure/api-center/manage-apis-azure-cli |
+| Automate API Center notifications with Logic Apps and Teams | https://learn.microsoft.com/en-us/azure/api-center/set-up-notification-workflow |
+| Synchronize Azure API Management with API Center | https://learn.microsoft.com/en-us/azure/api-center/synchronize-api-management-apis |
+| Synchronize Amazon API Gateway APIs to Azure API Center | https://learn.microsoft.com/en-us/azure/api-center/synchronize-aws-gateway-apis |
 
 ### Security
 | Topic | URL |
 |-------|-----|
-| Configure API access authorization in Azure API Center | https://learn.microsoft.com/en-us/azure/api-center/authorize-api-access |
-| Set up Azure API Center portal with RBAC access | https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center-portal |
-| Enable API Center portal view access in VS Code | https://learn.microsoft.com/en-us/azure/api-center/enable-api-center-portal-vs-code-extension |
+| Configure API access security in Azure API Center | https://learn.microsoft.com/en-us/azure/api-center/authorize-api-access |
+| Enable secure API Center portal view in VS Code | https://learn.microsoft.com/en-us/azure/api-center/enable-api-center-portal-vs-code-extension |
+| Set up secure Azure API Center portal access | https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center-portal |
 
 ---
 
