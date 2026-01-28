@@ -60,57 +60,55 @@ stages:
                 pip install --upgrade pip
                 pip install -r requirements.txt
 
-          # 5. Run docs2skills with Azure identity
-          - task: AzureCLI@2
-            displayName: 'Run docs2skills'
-            inputs:
-              azureSubscription: 'docs2skills-azure-connection'  # TODO: Update this
-              scriptType: bash
-              scriptLocation: inlineScript
-              inlineScript: |
-                cd $(Build.SourcesDirectory)/Learn.Docs2AgentSkills
-
-                echo "========================================"
-                echo "Starting docs sync"
-                echo "========================================"
-
-                # Get the GitHub repo name (self checkout)
-                GITHUB_REPO=$(basename $(Build.Repository.Uri) .git)
-                echo "GitHub repo: $GITHUB_REPO"
-                echo "Products dir: $(Build.SourcesDirectory)/$GITHUB_REPO/products"
-                echo "Skills dir: $(Build.SourcesDirectory)/$GITHUB_REPO/skills"
-
-                python -m src.docs2skills \
-                  --products-dir $(Build.SourcesDirectory)/$GITHUB_REPO/products \
-                  --skills-dir $(Build.SourcesDirectory)/$GITHUB_REPO/skills
-
-                echo "Sync completed"
-            env:
-              AZURE_OPENAI_ENDPOINT: $(azureOpenAIEndpoint)
-
-          # 6. Push to GitHub repo
+          # 5. List products (test run - no Azure OpenAI needed)
           - task: Bash@3
-            displayName: 'Push to GitHub'
+            displayName: 'List products (test)'
             inputs:
               targetType: inline
               script: |
-                GITHUB_REPO=$(basename $(Build.Repository.Uri) .git)
-                cd $(Build.SourcesDirectory)/$GITHUB_REPO
+                cd $(Build.SourcesDirectory)/Learn.Docs2AgentSkills
 
-                git config user.email "docs2skills-pipeline@microsoft.com"
-                git config user.name "Docs2Skills Pipeline"
+                echo "========================================"
+                echo "Testing pipeline - List products"
+                echo "========================================"
 
-                CHANGED_FILES=$(git status --porcelain products/ skills/ | wc -l)
+                python -m src.docs2skills --list-products
 
-                if [ "$CHANGED_FILES" -gt 0 ]; then
-                  echo "Changed files: $CHANGED_FILES"
-                  git add products/ skills/
+                echo "========================================"
+                echo "Test completed successfully"
+                echo "========================================"
 
-                  TIMESTAMP=$(date +"%Y-%m-%d %H:%M")
-                  git commit -m "$TIMESTAMP - Sync docs [skip ci]"
-                  git push origin HEAD:main
+          # TODO: Uncomment below when Azure Service Connection is ready
+          # # 5. Run docs2skills with Azure identity
+          # - task: AzureCLI@2
+          #   displayName: 'Run docs2skills'
+          #   inputs:
+          #     azureSubscription: 'docs2skills-azure-connection'
+          #     scriptType: bash
+          #     scriptLocation: inlineScript
+          #     inlineScript: |
+          #       cd $(Build.SourcesDirectory)/Learn.Docs2AgentSkills
+          #       GITHUB_REPO=$(basename $(Build.Repository.Uri) .git)
+          #       python -m src.docs2skills \
+          #         --products-dir $(Build.SourcesDirectory)/$GITHUB_REPO/products \
+          #         --skills-dir $(Build.SourcesDirectory)/$GITHUB_REPO/skills
+          #   env:
+          #     AZURE_OPENAI_ENDPOINT: $(azureOpenAIEndpoint)
 
-                  echo "Pushed changes to GitHub"
-                else
-                  echo "No changes detected"
-                fi
+          # 6. Push to GitHub repo (skip for now - no changes)
+          # - task: Bash@3
+          #   displayName: 'Push to GitHub'
+          #   inputs:
+          #     targetType: inline
+          #     script: |
+          #       GITHUB_REPO=$(basename $(Build.Repository.Uri) .git)
+          #       cd $(Build.SourcesDirectory)/$GITHUB_REPO
+          #       git config user.email "docs2skills-pipeline@microsoft.com"
+          #       git config user.name "Docs2Skills Pipeline"
+          #       CHANGED_FILES=$(git status --porcelain products/ skills/ | wc -l)
+          #       if [ "$CHANGED_FILES" -gt 0 ]; then
+          #         git add products/ skills/
+          #         TIMESTAMP=$(date +"%Y-%m-%d %H:%M")
+          #         git commit -m "$TIMESTAMP - Sync docs [skip ci]"
+          #         git push origin HEAD:main
+          #       fi
