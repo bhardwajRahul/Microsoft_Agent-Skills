@@ -2,18 +2,17 @@
 
 ## Summary
 
-- **Crawl Time**: 2026-01-28 04:42:04
-- **Duration**: 0m 0s
+- **Duration**: 0m 8s
 - **Total Pages**: 8
 - **Fetched**: 8
 - **Fetch Failed**: 0
-- **Classified**: 1
-- **Unclassified**: 7
+- **Classified**: 2
+- **Unclassified**: 6
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 0
-- **Unchanged**: 8
+- **Updated Pages**: 8
+- **Unchanged**: 0
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/network-function-manager/network-function-manager.csv`
 
@@ -21,25 +20,45 @@
 
 | Type | Count | Percentage |
 |------|-------|------------|
+| configuration | 1 | 12.5% |
 | security | 1 | 12.5% |
-| *(Unclassified)* | 7 | 87.5% |
+| *(Unclassified)* | 6 | 75.0% |
 
 ## Changes
+
+### Updated Pages
+
+- [About Network Function Manager](https://learn.microsoft.com/en-us/azure/network-function-manager/overview)
+  - Updated: 2021-11-02T00:00:00Z → 2022-06-13T22:03:00.000Z
+- [Create a device resource](https://learn.microsoft.com/en-us/azure/network-function-manager/create-device)
+  - Updated: 2021-11-02T00:00:00Z → 2022-06-13T22:03:00.000Z
+- [Deploy network functions](https://learn.microsoft.com/en-us/azure/network-function-manager/deploy-functions)
+  - Updated: 2021-11-02T00:00:00Z → 2022-06-13T22:03:00.000Z
+- [Delete network functions](https://learn.microsoft.com/en-us/azure/network-function-manager/delete-functions)
+  - Updated: 2022-05-10T00:00:00Z → 2022-10-27T17:05:00.000Z
+- [Partners](https://learn.microsoft.com/en-us/azure/network-function-manager/partners)
+  - Updated: 2021-11-02T00:00:00Z → 2023-04-03T00:00:00.000Z
+- [FAQ](https://learn.microsoft.com/en-us/azure/network-function-manager/faq)
+  - Updated: 2021-11-02T00:00:00Z → 2022-10-05T23:15:00.000Z
+- [Prerequisites and requirements](https://learn.microsoft.com/en-us/azure/network-function-manager/requirements)
+  - Updated: 2021-11-02T00:00:00Z → 2022-07-03T11:04:00.000Z
+- [Configure permissions and register resources](https://learn.microsoft.com/en-us/azure/network-function-manager/resources-permissions)
+  - Updated: 2021-11-02T00:00:00Z → 2022-06-13T22:03:00.000Z
 
 ## Classified Pages
 
 | TOC Title | Type | Confidence | Reason |
 |-----------|------|------------|--------|
-| [Configure permissions and register resources](https://learn.microsoft.com/en-us/azure/network-function-manager/resources-permissions) | security | 0.70 | Covers how to register resources and create user-assigned managed identities; this typically includes specific Azure resource provider names, RBAC roles, and identity configuration steps that are product-specific security/identity guidance. |
+| [Configure permissions and register resources](https://learn.microsoft.com/en-us/azure/network-function-manager/resources-permissions) | security | 0.70 | Described as explaining how to register resources and create user-assigned managed identities, and requirements to create device and managed application resources. This likely includes specific Azure resource provider names, RBAC roles, identity configuration steps, and permission scopes, which are product-specific security and identity configuration details. |
+| [Prerequisites and requirements](https://learn.microsoft.com/en-us/azure/network-function-manager/requirements) | configuration | 0.65 | A 'prerequisites and requirements' article for a specific Azure service typically includes concrete environment and configuration requirements (supported SKUs, versions, network ports, resource providers, and other specific settings). These are product-specific details that function as configuration constraints and are not purely conceptual. |
 
 ## Unclassified Pages
 
 | TOC Title | Confidence | Reason |
 |-----------|------------|--------|
-| [Prerequisites and requirements](https://learn.microsoft.com/en-us/azure/network-function-manager/requirements) | 0.40 | Prerequisites and requirements overview; summary does not show concrete numeric limits, SKU matrices, or detailed configuration parameter tables. |
-| [Create a device resource](https://learn.microsoft.com/en-us/azure/network-function-manager/create-device) | 0.30 | Quickstart walkthrough for creating a device resource; procedural steps but no configuration parameter tables, limits, or troubleshooting mappings. |
-| [Deploy network functions](https://learn.microsoft.com/en-us/azure/network-function-manager/deploy-functions) | 0.30 | Tutorial for deploying a network function via Marketplace; step-by-step instructions without detailed config matrices, limits, or error-resolution content. |
-| [FAQ](https://learn.microsoft.com/en-us/azure/network-function-manager/faq) | 0.30 | FAQ likely addresses common questions at a conceptual level; description does not indicate presence of error-code mappings, limits tables, or config references. |
-| [About Network Function Manager](https://learn.microsoft.com/en-us/azure/network-function-manager/overview) | 0.20 | High-level service overview and sunset notice; no detailed limits, configuration tables, error codes, or product-specific patterns with quantified guidance. |
-| [Delete network functions](https://learn.microsoft.com/en-us/azure/network-function-manager/delete-functions) | 0.20 | Tutorial for deleting network functions and devices; basic portal operations without expert-level configuration, limits, or troubleshooting details. |
-| [Partners](https://learn.microsoft.com/en-us/azure/network-function-manager/partners) | 0.10 | Partner ecosystem/marketing-style listing; no technical limits, configuration parameters, or decision matrices. |
+| [FAQ](https://learn.microsoft.com/en-us/azure/network-function-manager/faq) | 0.40 | FAQ page; summary does not indicate presence of specific limits, configuration tables, or error-code-based troubleshooting. Likely high-level Q&A rather than detailed expert reference. |
+| [Create a device resource](https://learn.microsoft.com/en-us/azure/network-function-manager/create-device) | 0.30 | Quickstart for creating a device resource; likely step-by-step portal instructions without detailed configuration parameter tables, limits, or troubleshooting mappings. |
+| [Deploy network functions](https://learn.microsoft.com/en-us/azure/network-function-manager/deploy-functions) | 0.30 | Tutorial for deploying a network function via Azure Marketplace; appears to be a procedural guide rather than a reference of limits, configuration options, or error diagnostics. |
+| [About Network Function Manager](https://learn.microsoft.com/en-us/azure/network-function-manager/overview) | 0.20 | Service overview/marketing-style description of Azure Network Function Manager; no detailed limits, configuration tables, error codes, or other expert-only specifics indicated in the summary. |
+| [Delete network functions](https://learn.microsoft.com/en-us/azure/network-function-manager/delete-functions) | 0.20 | Tutorial on deleting network functions and devices; likely simple portal operations without expert-level configuration, limits, or troubleshooting content. |
+| [Partners](https://learn.microsoft.com/en-us/azure/network-function-manager/partners) | 0.10 | Partner ecosystem listing; typically marketing/overview content about available partner network functions, not technical reference or expert configuration details. |

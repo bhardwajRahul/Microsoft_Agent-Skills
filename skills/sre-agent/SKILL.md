@@ -1,6 +1,6 @@
 ---
 name: sre-agent
-description: Expert knowledge for Sre Agent development including security, integrations & coding patterns, troubleshooting, and configuration. Use when building, debugging, or optimizing Sre Agent applications.
+description: Expert knowledge for Sre Agent development including security, configuration, integrations & coding patterns, troubleshooting, and best practices. Use when building, debugging, or optimizing Sre Agent applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -32,35 +32,43 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 
 ## Documentation Links by Category
 
+### Best Practices
+| Topic | URL |
+|-------|-----|
+| Optimize incident management workflows with Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/incident-management |
+
 ### Configuration
 | Topic | URL |
 |-------|-----|
-| Configure and use the Azure SRE Agent memory system | https://learn.microsoft.com/en-us/azure/sre-agent/memory-system |
-| Configure scheduled tasks in Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/scheduled-tasks |
-| Create and manage Azure SRE Agent subagents | https://learn.microsoft.com/en-us/azure/sre-agent/subagent-builder-overview |
-| Configure Azure SRE Agent subagents and workflows | https://learn.microsoft.com/en-us/azure/sre-agent/subagent-builder-scenarios |
+| Configure and use code interpreter in Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/code-interpreter |
+| Configure SRE Agent memory system for incident knowledge | https://learn.microsoft.com/en-us/azure/sre-agent/memory-system |
+| Configure scheduled tasks in Azure SRE Agent for automation | https://learn.microsoft.com/en-us/azure/sre-agent/scheduled-tasks |
+| Create and manage subagents with Azure SRE Agent builder | https://learn.microsoft.com/en-us/azure/sre-agent/subagent-builder-overview |
+| Configure Azure SRE Agent subagents for operational workflows | https://learn.microsoft.com/en-us/azure/sre-agent/subagent-builder-scenarios |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
 | Integrate Azure SRE Agent with source code repositories | https://learn.microsoft.com/en-us/azure/sre-agent/code-repository-connect |
 | Configure connectors to external services in Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/connectors |
-| Run custom Python tools within Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/custom-logic-python |
-| Connect Azure SRE Agent to custom MCP servers | https://learn.microsoft.com/en-us/azure/sre-agent/custom-mcp-server |
+| Implement custom Python tools and integrations in SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/custom-logic-python |
+| Connect Azure SRE Agent to custom MCP servers securely | https://learn.microsoft.com/en-us/azure/sre-agent/custom-mcp-server |
 
 ### Security
 | Topic | URL |
 |-------|-----|
-| Configure RBAC roles and permissions for Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/agent-managed-identity |
-| Control Azure SRE Agent run modes and consent | https://learn.microsoft.com/en-us/azure/sre-agent/agent-run-modes |
+| Manage SRE Agent managed identity and user permissions | https://learn.microsoft.com/en-us/azure/sre-agent/agent-managed-identity |
+| Control Azure SRE Agent run modes and consent for actions | https://learn.microsoft.com/en-us/azure/sre-agent/agent-run-modes |
 | Understand data residency and privacy for Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/data-privacy |
-| Understand roles and permission model in Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/roles-permissions-overview |
-| Assign user access roles for Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/user-access-roles |
+| Configure roles, permissions, and RBAC for Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/roles-permissions-overview |
+| Configure RBAC user access roles for Azure SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/user-access-roles |
 
 ### Troubleshooting
 | Topic | URL |
 |-------|-----|
 | Troubleshoot common Azure SRE Agent issues and errors | https://learn.microsoft.com/en-us/azure/sre-agent/faq |
+| Troubleshoot Azure App Service apps with SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/troubleshoot-azure-app-service |
+| Troubleshoot Azure Container Apps with SRE Agent | https://learn.microsoft.com/en-us/azure/sre-agent/troubleshoot-azure-container-apps |
 
 ---
 

@@ -35,9 +35,9 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Architecture & Design Patterns
 | Topic | URL |
 |-------|-----|
-| Analyze Azure connectivity control plane route behavior | https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-control-plane |
-| Analyze Azure connectivity data plane packet paths | https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-data-plane |
-| Understand Azure ExpressRoute, VPN, and peering test topology | https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-preface |
+| Analyze Azure connectivity interoperability control plane routes | https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-control-plane |
+| Analyze Azure connectivity interoperability data plane paths | https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-data-plane |
+| Understand test topology for Azure connectivity interoperability | https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-preface |
 | Choose secure Azure application delivery patterns | https://learn.microsoft.com/en-us/azure/networking/secure-application-delivery |
 | Select secure Azure network topologies using decision tree | https://learn.microsoft.com/en-us/azure/networking/secure-network-topology |
 
@@ -54,19 +54,19 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Limits & Quotas
 | Topic | URL |
 |-------|-----|
-| Use Azure region-to-region network latency statistics | https://learn.microsoft.com/en-us/azure/networking/azure-network-latency |
+| Use Azure region-to-region latency statistics for design | https://learn.microsoft.com/en-us/azure/networking/azure-network-latency |
 
 ### Security
 | Topic | URL |
 |-------|-----|
 | Deploy Zero Trust virtual network architecture for web apps | https://learn.microsoft.com/en-us/azure/networking/create-zero-trust-network-web-apps |
 | Use built-in Azure Policy definitions for networking | https://learn.microsoft.com/en-us/azure/networking/policy-reference |
-| Apply Azure Policy regulatory controls to networking | https://learn.microsoft.com/en-us/azure/networking/security-controls-policy |
+| Apply Azure Policy compliance controls to networking | https://learn.microsoft.com/en-us/azure/networking/security-controls-policy |
 
 ### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Troubleshoot Microsoft.Network failed provisioning states | https://learn.microsoft.com/en-us/azure/networking/troubleshoot-failed-state |
+| Troubleshoot Microsoft.Network failed provisioning states in Azure | https://learn.microsoft.com/en-us/azure/networking/troubleshoot-failed-state |
 
 ---
 

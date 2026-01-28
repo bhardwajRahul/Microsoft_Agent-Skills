@@ -2,8 +2,7 @@
 
 ## Summary
 
-- **Crawl Time**: 2026-01-28 04:42:04
-- **Duration**: 0m 1s
+- **Duration**: 0m 17s
 - **Total Pages**: 22
 - **Fetched**: 22
 - **Fetch Failed**: 0
@@ -12,8 +11,8 @@
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 0
-- **Unchanged**: 22
+- **Updated Pages**: 22
+- **Unchanged**: 0
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/networking/networking.csv`
 
@@ -31,34 +30,78 @@
 
 ## Changes
 
+### Updated Pages
+
+- [Azure Resource Graph queries](https://learn.microsoft.com/en-us/azure/networking/fundamentals/resource-graph-samples)
+  - Updated: 2023-05-28T00:00:00Z → 2024-06-12T05:46:00.000Z
+- [Lumenisity UoS Patents](https://learn.microsoft.com/en-us/azure/networking/fundamentals/lumenisity-patent-list)
+  - Updated: 2023-05-31T00:00:00Z → 2024-11-21T23:02:00.000Z
+- [About Azure networking](https://learn.microsoft.com/en-us/azure/networking/fundamentals/networking-overview)
+  - Updated: 2025-06-26T00:00:00Z → 2025-06-26T08:00:00.000Z
+- [Azure for network engineers](https://learn.microsoft.com/en-us/azure/networking/azure-for-network-engineers)
+  - Updated: 2020-06-25T00:00:00Z → 2021-08-16T17:04:00.000Z
+- [Choose a secure network topology](https://learn.microsoft.com/en-us/azure/networking/secure-network-topology)
+  - Updated: 2024-06-17T00:00:00Z → 2024-06-17T08:00:00.000Z
+- [Choose a secure application delivery service](https://learn.microsoft.com/en-us/azure/networking/secure-application-delivery)
+  - Updated: 2024-06-17T00:00:00Z → 2024-06-17T08:00:00.000Z
+- [Support for working remotely](https://learn.microsoft.com/en-us/azure/networking/working-remotely-support)
+  - Updated: 2023-04-09T00:00:00Z → 2023-04-10T00:00:00.000Z
+- [Load balancing and content delivery](https://learn.microsoft.com/en-us/azure/networking/load-balancer-content-delivery/)
+  - Updated: 2025-05-27T00:00:00Z → 2025-06-26T15:48:00Z
+- [Preface and Test Setup](https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-preface)
+  - Updated: 2023-03-26T00:00:00Z → 2023-06-29T11:24:00.000Z
+- [Control Plane Analysis](https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-control-plane)
+  - Updated: 2023-03-24T00:00:00Z → 2023-06-29T11:24:00.000Z
+- [Data Plane Analysis](https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-data-plane)
+  - Updated: 2023-03-24T00:00:00Z → 2023-06-29T11:24:00.000Z
+- [Microsoft global network](https://learn.microsoft.com/en-us/azure/networking/microsoft-global-network)
+  - Updated: 2023-04-06T00:00:00Z → 2023-04-07T00:00:00.000Z
+- [Azure network latency](https://learn.microsoft.com/en-us/azure/networking/azure-network-latency)
+  - Updated: 2025-07-07T00:00:00Z → 2025-08-18T17:25:00.000Z
+- [Security controls by Azure Policy](https://learn.microsoft.com/en-us/azure/networking/security-controls-policy)
+  - Updated: 2024-02-06T00:00:00Z → 2024-02-07T05:35:00.000Z
+- [NVA accelerated connections](https://learn.microsoft.com/en-us/azure/networking/nva-accelerated-connections)
+  - Updated: 2023-02-01T00:00:00Z → 2025-08-04T22:16:00.000Z
+- [Network monitoring overview](https://learn.microsoft.com/en-us/azure/networking/network-monitoring-overview)
+  - Updated: 2023-10-30T00:00:00Z → 2023-10-30T17:02:00.000Z
+- [Check resource usage against Azure limits](https://learn.microsoft.com/en-us/azure/networking/check-usage-against-limits)
+  - Updated: 2018-06-05T00:00:00Z → 2023-04-13T11:17:00.000Z
+- [Create a Zero Trust network for web applications](https://learn.microsoft.com/en-us/azure/networking/create-zero-trust-network-web-apps)
+  - Updated: 2022-12-31T00:00:00Z → 2023-01-23T12:15:00.000Z
+- [Azure Policy built-ins](https://learn.microsoft.com/en-us/azure/networking/policy-reference)
+  - Updated: 2024-02-06T00:00:00Z → 2024-02-06T18:05:00.000Z
+- [Providers](https://learn.microsoft.com/en-us/azure/networking/networking-partners-msp)
+  - Updated: 2025-10-14T00:00:00Z → 2025-10-14T08:00:00.000Z
+- *...and 2 more*
+
 ## Classified Pages
 
 | TOC Title | Type | Confidence | Reason |
 |-----------|------|------------|--------|
-| [Azure network latency](https://learn.microsoft.com/en-us/azure/networking/azure-network-latency) | limits-quotas | 0.80 | Provides measured round-trip latency statistics between Azure regions with concrete numeric values; these are specific performance limits/metrics not inferable from training data. |
-| [Troubleshoot Microsoft.Network Failed provisioning state](https://learn.microsoft.com/en-us/azure/networking/troubleshoot-failed-state) | troubleshooting | 0.80 | Explains meanings of specific provisioning states for Microsoft.Network resources and how to resolve Failed states; symptom-to-cause-to-solution troubleshooting content unique to Azure networking. |
-| [Azure Policy built-ins](https://learn.microsoft.com/en-us/azure/networking/policy-reference) | security | 0.70 | Index of Azure Policy built-in definitions for networking services with specific policy names and links; these are security and compliance configuration artifacts unique to Azure. |
-| [Security controls by Azure Policy](https://learn.microsoft.com/en-us/azure/networking/security-controls-policy) | security | 0.70 | Lists specific Azure Policy built-in definitions and compliance controls for networking services; includes product-specific policy names and mappings to standards, which are security configuration artifacts. |
-| [Azure Resource Graph queries](https://learn.microsoft.com/en-us/azure/networking/fundamentals/resource-graph-samples) | integrations | 0.65 | Page is a collection of concrete Azure Resource Graph Kusto queries targeting Azure networking resource types and properties. These are product-specific query patterns and field usages that go beyond generic knowledge, fitting integrations & coding patterns more than other categories. |
-| [Choose a secure application delivery service](https://learn.microsoft.com/en-us/azure/networking/secure-application-delivery) | architecture-patterns | 0.65 | Decision tree for selecting Azure Front Door, Application Gateway, and related ingress patterns based on workload distribution and WAF needs; product-specific pattern selection guidance. |
-| [Choose a secure network topology](https://learn.microsoft.com/en-us/azure/networking/secure-network-topology) | architecture-patterns | 0.65 | Uses a decision tree to choose secure network topologies based on workload characteristics and use of NVAs; this is product-specific architecture guidance on when to use which pattern. |
-| [Create a Zero Trust network for web applications](https://learn.microsoft.com/en-us/azure/networking/create-zero-trust-network-web-apps) | security | 0.65 | Describes a concrete Zero Trust VNet configuration using Azure Firewall, Application Gateway, WAF, and related services; provides product-specific secure-by-design network architecture guidance. |
-| [Control Plane Analysis](https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-control-plane) | architecture-patterns | 0.60 | Control plane analysis of route exchange between ExpressRoute, VPN, and peering in a specific topology; offers detailed, product-specific behavior insights for designing network architectures. |
-| [Data Plane Analysis](https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-data-plane) | architecture-patterns | 0.60 | Data plane analysis of packet forwarding paths across ExpressRoute, VPN, and peering; provides expert, product-specific behavior details for architecture and design. |
-| [NVA accelerated connections](https://learn.microsoft.com/en-us/azure/networking/nva-accelerated-connections) | best-practices | 0.60 | Explains a specific Azure networking performance feature (Accelerated Connections) with product-specific guidance on when and how to use it for NVAs/VMs; constitutes actionable, service-specific performance best practices. |
-| [Preface and Test Setup](https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-preface) | architecture-patterns | 0.60 | Describes a specific interoperability test setup combining ExpressRoute, site-to-site VPN, and VNet peering; provides product-specific topology and interaction details useful for architecture decisions. |
+| [Azure network latency](https://learn.microsoft.com/en-us/azure/networking/azure-network-latency) | limits-quotas | 0.80 | Provides concrete round-trip latency statistics between Azure regions (numeric performance constraints) used for architecture decisions; fits limits/quotas as quantified performance limits. |
+| [Troubleshoot Microsoft.Network Failed provisioning state](https://learn.microsoft.com/en-us/azure/networking/troubleshoot-failed-state) | troubleshooting | 0.80 | Explains meanings of specific provisioning states for Microsoft.Network resources and how to resolve failed states; symptom-to-cause-to-solution troubleshooting guidance. |
+| [Azure Policy built-ins](https://learn.microsoft.com/en-us/azure/networking/policy-reference) | security | 0.70 | Index of specific Azure Policy built-in definitions for networking; these are concrete security/compliance configuration artifacts unique to Azure. |
+| [Security controls by Azure Policy](https://learn.microsoft.com/en-us/azure/networking/security-controls-policy) | security | 0.70 | Lists specific Azure Policy regulatory compliance controls and built-in definitions for networking; product-specific security/compliance configuration references. |
+| [Azure Resource Graph queries](https://learn.microsoft.com/en-us/azure/networking/fundamentals/resource-graph-samples) | integrations | 0.65 | Page is a catalog of concrete Azure Resource Graph Kusto queries targeting specific Azure networking resource types and properties. These are product-specific query patterns and field usages that go beyond generic knowledge, fitting the integrations & coding patterns category best. It is not just a tutorial but a reference of working query patterns. |
+| [Choose a secure application delivery service](https://learn.microsoft.com/en-us/azure/networking/secure-application-delivery) | architecture-patterns | 0.65 | Decision tree for selecting Azure Front Door, Application Gateway, and related ingress patterns based on workload characteristics; product-specific pattern selection guidance. |
+| [Choose a secure network topology](https://learn.microsoft.com/en-us/azure/networking/secure-network-topology) | architecture-patterns | 0.65 | Uses a decision tree to choose secure network topologies based on workload distribution and NVA usage; this is product-specific architecture guidance with pattern selection criteria, even if not heavily numeric. |
+| [Create a Zero Trust network for web applications](https://learn.microsoft.com/en-us/azure/networking/create-zero-trust-network-web-apps) | security | 0.65 | Describes a concrete Zero Trust VNet configuration using Azure Firewall, Application Gateway, WAF, and related services; product-specific secure network design and configuration guidance. |
+| [NVA accelerated connections](https://learn.microsoft.com/en-us/azure/networking/nva-accelerated-connections) | best-practices | 0.65 | Explains a specific feature (Accelerated Connections) with product-specific performance behavior and likely configuration guidance for NVAs/VMs; actionable optimization advice beyond generic theory. |
+| [Control Plane Analysis](https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-control-plane) | architecture-patterns | 0.60 | Provides detailed control plane route analysis for a specific ExpressRoute/VPN/peering topology; product-specific routing behavior and trade-offs qualify as architecture pattern knowledge. |
+| [Data Plane Analysis](https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-data-plane) | architecture-patterns | 0.60 | Describes packet forwarding paths and asymmetry in a concrete Azure topology; product-specific data-plane behavior for combined connectivity options. |
+| [Preface and Test Setup](https://learn.microsoft.com/en-us/azure/networking/connectivity-interoperability-preface) | architecture-patterns | 0.60 | Describes a specific test setup topology combining ExpressRoute, VPN, and VNet peering; provides concrete architecture pattern details unique to Azure networking interoperability. |
 
 ## Unclassified Pages
 
 | TOC Title | Confidence | Reason |
 |-----------|------------|--------|
-| [Check resource usage against Azure limits](https://learn.microsoft.com/en-us/azure/networking/check-usage-against-limits) | 0.40 | How-to for viewing resource usage vs subscription limits using portal/CLI/PowerShell; references limits but does not itself list specific numeric quotas or configuration parameters. |
-| [Network monitoring overview](https://learn.microsoft.com/en-us/azure/networking/network-monitoring-overview) | 0.30 | Overview of network monitoring solutions and deprecation notes; likely lacks detailed configuration tables or error-code-based troubleshooting mappings. |
-| [Support for working remotely](https://learn.microsoft.com/en-us/azure/networking/working-remotely-support) | 0.30 | Scenario overview for enabling remote work with Azure networking; likely descriptive options rather than detailed limits, configs, or troubleshooting mappings. |
-| [Architecture guides](https://learn.microsoft.com/en-us/azure/networking/fundamentals/architecture-guides) | 0.20 | Navigation/overview page listing networking architecture guides; does not itself contain detailed patterns, limits, or configuration data. |
-| [Microsoft global network](https://learn.microsoft.com/en-us/azure/networking/microsoft-global-network) | 0.20 | Describes Microsoft’s global backbone network at a high level; largely conceptual/marketing without concrete configuration, limits, or troubleshooting content. |
-| [About Azure networking](https://learn.microsoft.com/en-us/azure/networking/fundamentals/networking-overview) | 0.10 | High-level overview of Azure networking services without specific limits, configs, or error mappings. |
-| [Azure for network engineers](https://learn.microsoft.com/en-us/azure/networking/azure-for-network-engineers) | 0.10 | Conceptual explanation of how networking works in Azure for traditional network engineers; no concrete limits, configs, or troubleshooting content. |
-| [Load balancing and content delivery](https://learn.microsoft.com/en-us/azure/networking/load-balancer-content-delivery/) | 0.10 | Overview page for load balancing and content delivery; marketing/introductory in nature without detailed expert configuration or limits. |
-| [Providers](https://learn.microsoft.com/en-us/azure/networking/networking-partners-msp) | 0.10 | Program/partner overview for networking MSPs; marketing and partner listing content without technical limits, configs, or troubleshooting. |
-| [Lumenisity UoS Patents](https://learn.microsoft.com/en-us/azure/networking/fundamentals/lumenisity-patent-list) | - | Patent list for Lumenisity UoS; not related to product configuration, limits, troubleshooting, or other technical sub-skills defined. Contains legal/patent information rather than actionable expert product knowledge. |
+| [Check resource usage against Azure limits](https://learn.microsoft.com/en-us/azure/networking/check-usage-against-limits) | 0.40 | Explains how to check resource usage against subscription limits using portal/CLI/PowerShell; the actual numeric limits are elsewhere, so this is procedural rather than expert configuration or limits content. |
+| [Network monitoring overview](https://learn.microsoft.com/en-us/azure/networking/network-monitoring-overview) | 0.30 | Overview of network monitoring solutions and deprecation notes; does not clearly expose detailed configuration tables, limits, or troubleshooting mappings in the summary. |
+| [Support for working remotely](https://learn.microsoft.com/en-us/azure/networking/working-remotely-support) | 0.30 | Describes options for enabling remote work and mitigating traffic issues but appears as scenario/overview guidance without detailed limits, configs, or error mappings. |
+| [Architecture guides](https://learn.microsoft.com/en-us/azure/networking/fundamentals/architecture-guides) | 0.20 | Navigation/overview page listing networking architecture guides; does not itself contain detailed patterns, limits, or configurations. |
+| [Microsoft global network](https://learn.microsoft.com/en-us/azure/networking/microsoft-global-network) | 0.20 | Describes Microsoft’s global network at a high level; largely marketing/overview without actionable limits, configs, or troubleshooting mappings. |
+| [About Azure networking](https://learn.microsoft.com/en-us/azure/networking/fundamentals/networking-overview) | 0.10 | High-level overview of Azure networking services and scenarios without concrete limits, configs, or error mappings. |
+| [Azure for network engineers](https://learn.microsoft.com/en-us/azure/networking/azure-for-network-engineers) | 0.10 | Conceptual explanation of how networking in Azure differs from traditional networking; no detailed configs, limits, or troubleshooting content. |
+| [Load balancing and content delivery](https://learn.microsoft.com/en-us/azure/networking/load-balancer-content-delivery/) | 0.10 | Overview of load balancing and content delivery services; lacks detailed configuration tables, limits, or troubleshooting content. |
+| [Providers](https://learn.microsoft.com/en-us/azure/networking/networking-partners-msp) | 0.10 | Program/partner overview describing MSP partner program and listing partners; marketing/organizational content without technical expert configuration or limits. |
+| [Lumenisity UoS Patents](https://learn.microsoft.com/en-us/azure/networking/fundamentals/lumenisity-patent-list) | - | Page is a list of patents related to Lumenisity and hollow core fiber. It does not provide technical configuration, limits, troubleshooting, or product usage guidance relevant to an AI agent skill system. |

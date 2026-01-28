@@ -1,6 +1,6 @@
 ---
 name: business-process-tracking
-description: Expert knowledge for Business Process Tracking development including deployment. Use when building, debugging, or optimizing Business Process Tracking applications.
+description: Expert knowledge for Business Process Tracking development including deployment, and integrations & coding patterns. Use when building, debugging, or optimizing Business Process Tracking applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -35,8 +35,13 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Deployment
 | Topic | URL |
 |-------|-----|
-| Deploy business processes and tracking profiles to Azure Logic Apps | https://learn.microsoft.com/en-us/azure/business-process-tracking/deploy-business-process |
-| Create Azure DevOps CI/CD pipelines for Business Process Tracking | https://learn.microsoft.com/en-us/azure/business-process-tracking/set-up-continuous-integration-deployment |
+| Deploy business processes and tracking profiles to Azure | https://learn.microsoft.com/en-us/azure/business-process-tracking/deploy-business-process |
+| Create CI/CD pipelines for Business Process Tracking | https://learn.microsoft.com/en-us/azure/business-process-tracking/set-up-continuous-integration-deployment |
+
+### Integrations & Coding Patterns
+| Topic | URL |
+|-------|-----|
+| Map business processes to Logic Apps workflows | https://learn.microsoft.com/en-us/azure/business-process-tracking/map-business-process-workflow |
 
 ---
 

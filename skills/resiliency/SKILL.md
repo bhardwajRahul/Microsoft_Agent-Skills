@@ -35,8 +35,13 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Configuration
 | Topic | URL |
 |-------|-----|
-| Configure backup and replication protection policies | https://learn.microsoft.com/en-us/azure/resiliency/backup-protection-policy |
+| Create backup and replication protection policies | https://learn.microsoft.com/en-us/azure/resiliency/backup-protection-policy |
+| Configure Recovery Services and Backup vaults | https://learn.microsoft.com/en-us/azure/resiliency/backup-vaults |
+| View and manage Resiliency protection policies | https://learn.microsoft.com/en-us/azure/resiliency/manage-protection-policy |
+| Manage lifecycle of Azure Resiliency vaults | https://learn.microsoft.com/en-us/azure/resiliency/manage-vault |
+| Configure and monitor Resiliency compliance state | https://learn.microsoft.com/en-us/azure/resiliency/tutorial-govern-monitor-compliance |
 | Configure alerts and metrics in Resiliency | https://learn.microsoft.com/en-us/azure/resiliency/tutorial-monitor-alerts-metrics |
+| Set up backup and DR reports in Resiliency | https://learn.microsoft.com/en-us/azure/resiliency/tutorial-reporting-for-data-insights |
 
 ### Limits & Quotas
 | Topic | URL |
@@ -47,8 +52,7 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 | Topic | URL |
 |-------|-----|
 | Understand security levels in Azure Resiliency | https://learn.microsoft.com/en-us/azure/resiliency/security-levels-concept |
-| Govern and monitor Resiliency compliance state | https://learn.microsoft.com/en-us/azure/resiliency/tutorial-govern-monitor-compliance |
-| Review and adjust Resiliency security levels | https://learn.microsoft.com/en-us/azure/resiliency/tutorial-review-security-posture |
+| Review and adjust Resiliency security posture | https://learn.microsoft.com/en-us/azure/resiliency/tutorial-review-security-posture |
 
 ---
 

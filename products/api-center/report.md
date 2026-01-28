@@ -2,18 +2,17 @@
 
 ## Summary
 
-- **Crawl Time**: 2026-01-28 04:35:39
-- **Duration**: 0m 1s
+- **Duration**: 0m 16s
 - **Total Pages**: 35
 - **Fetched**: 35
 - **Fetch Failed**: 0
-- **Classified**: 14
-- **Unclassified**: 21
+- **Classified**: 17
+- **Unclassified**: 18
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 0
-- **Unchanged**: 35
+- **Updated Pages**: 35
+- **Unchanged**: 0
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/api-center/api-center.csv`
 
@@ -21,55 +20,99 @@
 
 | Type | Count | Percentage |
 |------|-------|------------|
-| configuration | 1 | 2.9% |
+| configuration | 8 | 22.9% |
 | deployment | 2 | 5.7% |
-| integrations | 8 | 22.9% |
-| security | 3 | 8.6% |
-| *(Unclassified)* | 21 | 60.0% |
+| integrations | 6 | 17.1% |
+| security | 1 | 2.9% |
+| *(Unclassified)* | 18 | 51.4% |
 
 ## Changes
+
+### Updated Pages
+
+- [Overview](https://learn.microsoft.com/en-us/azure/api-center/agent-to-agent-overview)
+  - Updated: 2025-11-03T00:00:00Z → 2025-11-18T23:12:00.000Z
+- [Register and manage agents](https://learn.microsoft.com/en-us/azure/api-center/register-manage-agents)
+  - Updated: 2025-11-11T00:00:00Z → 2025-11-18T23:12:00.000Z
+- [Register and discover MCP servers](https://learn.microsoft.com/en-us/azure/api-center/register-discover-mcp-server)
+  - Updated: 2025-09-08T00:00:00Z → 2025-09-09T05:11:00.000Z
+- [Use metadata for governance](https://learn.microsoft.com/en-us/azure/api-center/metadata)
+  - Updated: 2025-08-28T00:00:00Z → 2025-09-08T22:37:00.000Z
+- [Govern APIs - VS Code extension](https://learn.microsoft.com/en-us/azure/api-center/govern-apis-vscode-extension)
+  - Updated: 2024-10-16T00:00:00Z → 2025-03-27T06:08:00.000Z
+- [API analysis - Microsoft managed](https://learn.microsoft.com/en-us/azure/api-center/enable-managed-api-analysis-linting)
+  - Updated: 2025-03-31T00:00:00Z → 2025-04-07T22:02:00.000Z
+- [API analysis - self-managed](https://learn.microsoft.com/en-us/azure/api-center/enable-api-analysis-linting)
+  - Updated: 2024-12-03T00:00:00Z → 2024-12-03T08:00:00.000Z
+- [Authorize access to APIs](https://learn.microsoft.com/en-us/azure/api-center/authorize-api-access)
+  - Updated: 2025-06-02T00:00:00Z → 2025-06-03T05:25:00.000Z
+- [Workflow automation to set API status](https://learn.microsoft.com/en-us/azure/api-center/set-up-notification-workflow)
+  - Updated: 2024-10-18T00:00:00Z → 2024-10-20T23:16:00.000Z
+- [Enable API Center portal](https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center-portal)
+  - Updated: 2025-08-05T00:00:00Z → 2025-08-10T11:10:00.000Z
+- [Customize API Center portal](https://learn.microsoft.com/en-us/azure/api-center/customize-api-center-portal)
+  - Updated: 2025-08-07T00:00:00Z → 2025-08-10T11:10:00.000Z
+- [Enable API Center portal view - VS Code extension](https://learn.microsoft.com/en-us/azure/api-center/enable-api-center-portal-vs-code-extension)
+  - Updated: 2025-05-27T00:00:00Z → 2025-05-30T22:09:00.000Z
+- [Self-host Azure API Center portal](https://learn.microsoft.com/en-us/azure/api-center/self-host-api-center-portal)
+  - Updated: 2026-01-13T00:00:00Z → 2026-01-14T06:10:00.000Z
+- [Discover and consume APIs - VS Code extension](https://learn.microsoft.com/en-us/azure/api-center/discover-apis-vscode-extension)
+  - Updated: 2025-05-27T00:00:00Z → 2025-05-30T22:09:00.000Z
+- [Samples and labs](https://learn.microsoft.com/en-us/azure/api-center/resources)
+  - Updated: 2025-09-25T00:00:00Z → 2025-09-29T17:17:00.000Z
+- [What is Azure API Center?](https://learn.microsoft.com/en-us/azure/api-center/overview)
+  - Updated: 2025-01-06T00:00:00Z → 2026-01-06T18:11:00.000Z
+- [Key concepts](https://learn.microsoft.com/en-us/azure/api-center/key-concepts)
+  - Updated: 2024-11-15T00:00:00Z → 2024-12-19T12:13:00.000Z
+- [Frequently asked questions](https://learn.microsoft.com/en-us/azure/api-center/frequently-asked-questions)
+  - Updated: 2024-11-15T00:00:00Z → 2025-05-01T05:13:00Z
+- [Create an API center - portal](https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center)
+  - Updated: 2025-10-13T00:00:00Z → 2025-10-13T08:00:00.000Z
+- [Create an API center - CLI](https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center-azure-cli)
+  - Updated: 2025-10-15T00:00:00Z → 2025-10-15T08:00:00.000Z
+- *...and 15 more*
 
 ## Classified Pages
 
 | TOC Title | Type | Confidence | Reason |
 |-----------|------|------------|--------|
-| [Authorize access to APIs](https://learn.microsoft.com/en-us/azure/api-center/authorize-api-access) | security | 0.70 | Covers configuring API access via API keys and OAuth 2.0 plus Entra ID/RBAC. This is product-specific security configuration; likely includes concrete settings (authorization types, scopes, roles) that qualify as security expert knowledge. |
-| [Customize API Center portal](https://learn.microsoft.com/en-us/azure/api-center/customize-api-center-portal) | configuration | 0.70 | Explains customizable portal settings; likely includes specific setting names and allowed values. This fits configuration expert knowledge for the portal experience. |
-| [Export API from API Center to Copilot Studio](https://learn.microsoft.com/en-us/azure/api-center/export-to-copilot-studio) | integrations | 0.70 | Explains exporting API definitions from API Center into Microsoft Copilot Studio as custom connectors; includes product-specific integration steps between these services. |
-| [Import APIs from API Management](https://learn.microsoft.com/en-us/azure/api-center/import-api-management-apis) | integrations | 0.70 | Describes two concrete Azure CLI-based integration options using `az apim api export` and related commands; includes product-specific integration patterns between API Management and API Center. |
-| [Self-host Azure API Center portal](https://learn.microsoft.com/en-us/azure/api-center/self-host-api-center-portal) | deployment | 0.70 | Covers deploying a self-hosted portal from a starter repository. This is a deployment scenario with product-specific requirements and likely environment/config constraints. |
-| [Synchronize APIs from API Management](https://learn.microsoft.com/en-us/azure/api-center/synchronize-api-management-apis) | integrations | 0.70 | Covers continuous synchronization setup between API Management and API Center, including product-specific integration flows and configuration steps unique to these services. |
-| [Synchronize APIs from Amazon API Gateway](https://learn.microsoft.com/en-us/azure/api-center/synchronize-aws-gateway-apis) | integrations | 0.70 | Explains cross-cloud integration between Amazon API Gateway and Azure API Center with specific synchronization configuration, which is product-specific integration knowledge. |
-| [Build and register APIs - VS Code extension](https://learn.microsoft.com/en-us/azure/api-center/build-register-apis-vscode-extension) | integrations | 0.65 | Describes how to use the Azure API Center VS Code extension to build and register APIs; involves product-specific extension commands and workflows for integration with API Center. |
-| [Design and develop  APIs - GitHub Copilot for Azure](https://learn.microsoft.com/en-us/azure/api-center/design-api-github-copilot-azure) | integrations | 0.65 | Details use of the Azure API Center plugin for GitHub Copilot for Azure, including how it generates compliant OpenAPI specs and integrates with API Center; this is a product-specific integration pattern. |
-| [Enable API Center portal](https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center-portal) | security | 0.65 | Describes setting up the managed portal with access controlled by Microsoft Entra ID and Azure RBAC. This involves product-specific security configuration (roles, identity integration) beyond generic concepts. |
-| [Enable API Center portal view - VS Code extension](https://learn.microsoft.com/en-us/azure/api-center/enable-api-center-portal-vs-code-extension) | security | 0.65 | Focuses on providing portal view access via the VS Code extension, managed with Entra ID and RBAC. This is product-specific security/access configuration. |
-| [Manage inventory - Azure CLI](https://learn.microsoft.com/en-us/azure/api-center/manage-apis-azure-cli) | integrations | 0.65 | Shows use of specific `az apic api` CLI commands to create and update APIs, versions, and definitions; these command names, parameters, and patterns are product-specific integration details. |
-| [Register APIs - GitHub Actions](https://learn.microsoft.com/en-us/azure/api-center/register-apis-github-actions) | deployment | 0.60 | Shows how to set up a GitHub Actions workflow to register APIs in API Center as part of CI/CD; focuses on deployment pipeline integration patterns specific to this product. |
-| [Workflow automation to set API status](https://learn.microsoft.com/en-us/azure/api-center/set-up-notification-workflow) | integrations | 0.60 | Shows setting up a notification workflow using Azure Logic Apps and Microsoft Teams tied to API Center events. This is an integration pattern with concrete wiring between services and likely includes specific triggers/actions and configuration details. |
+| [Authorize access to APIs](https://learn.microsoft.com/en-us/azure/api-center/authorize-api-access) | security | 0.80 | Specifically about configuring API access using API keys and OAuth 2.0; likely includes auth settings, scopes, and possibly role/permission mappings that are product-specific security configuration. |
+| [API analysis - self-managed](https://learn.microsoft.com/en-us/azure/api-center/enable-api-analysis-linting) | configuration | 0.75 | Explains manual setup of linting engine and triggers; such content typically includes configuration parameters, trigger settings, and possibly environment variables unique to API Center’s analysis pipeline. |
+| [Customize API Center portal](https://learn.microsoft.com/en-us/azure/api-center/customize-api-center-portal) | configuration | 0.75 | Explicitly about customizable settings; such pages typically list configuration options, allowed values, and behavior, which are product-specific configuration knowledge. |
+| [Enable API Center portal](https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center-portal) | configuration | 0.70 | Describes setting up the managed portal with Entra ID and RBAC; likely includes portal configuration options, required roles, and settings that are specific to this product. |
+| [Enable API Center portal view - VS Code extension](https://learn.microsoft.com/en-us/azure/api-center/enable-api-center-portal-vs-code-extension) | configuration | 0.70 | Covers enabling portal view and managing access via Entra ID and RBAC; likely includes extension settings, permissions, and configuration steps unique to this integration. |
+| [Import APIs from API Management](https://learn.microsoft.com/en-us/azure/api-center/import-api-management-apis) | integrations | 0.70 | Describes using az apim api export and az apic commands with specific options to integrate API Management with API Center; contains product-specific CLI parameters and flows. |
+| [Self-host Azure API Center portal](https://learn.microsoft.com/en-us/azure/api-center/self-host-api-center-portal) | deployment | 0.70 | Shows how to deploy a reference implementation from a starter repo; likely includes deployment parameters, resource requirements, and product-specific deployment steps. |
+| [Synchronize APIs from Amazon API Gateway](https://learn.microsoft.com/en-us/azure/api-center/synchronize-aws-gateway-apis) | integrations | 0.70 | Explains integration between Amazon API Gateway and Azure API Center; contains product-specific configuration steps and parameters for cross-cloud synchronization. |
+| [Use metadata for governance](https://learn.microsoft.com/en-us/azure/api-center/metadata) | configuration | 0.70 | Covers built-in vs custom metadata and schemas; such pages typically list concrete metadata keys, schema definitions, and configuration options that are unique to API Center. |
+| [Workflow automation to set API status](https://learn.microsoft.com/en-us/azure/api-center/set-up-notification-workflow) | integrations | 0.70 | Shows how to wire API Center events into Logic Apps and Teams; likely includes connector configuration, trigger names, and parameter mappings that are concrete integration patterns. |
+| [API analysis - Microsoft managed](https://learn.microsoft.com/en-us/azure/api-center/enable-managed-api-analysis-linting) | configuration | 0.65 | Describes Microsoft-managed linting capabilities and option to override with self-managed linting; likely includes specific configuration switches, function settings, and parameters for enabling/disabling analysis. |
+| [Export API from API Center to Copilot Studio](https://learn.microsoft.com/en-us/azure/api-center/export-to-copilot-studio) | integrations | 0.65 | Details exporting OpenAPI definitions from API Center into Copilot Studio connectors; involves product-specific connector configuration and integration steps. |
+| [Manage inventory - Azure CLI](https://learn.microsoft.com/en-us/azure/api-center/manage-apis-azure-cli) | integrations | 0.65 | Shows az apic api commands and parameters specific to Azure API Center; SDK/CLI parameter usage and patterns qualify as product-specific integration details. |
+| [Register and manage agents](https://learn.microsoft.com/en-us/azure/api-center/register-manage-agents) | configuration | 0.65 | How-to article on registering and managing agents, adding skills, configuring capabilities, and provider info likely includes specific field names, allowed values, and configuration structures that are product-specific. |
+| [Synchronize APIs from API Management](https://learn.microsoft.com/en-us/azure/api-center/synchronize-api-management-apis) | integrations | 0.65 | Covers continuous synchronization integration between API Management and API Center; likely includes specific configuration steps and parameters unique to this integration. |
+| [Register APIs - GitHub Actions](https://learn.microsoft.com/en-us/azure/api-center/register-apis-github-actions) | deployment | 0.60 | Shows a CI/CD workflow YAML for registering APIs via GitHub Actions; includes product-specific deployment workflow configuration and parameters for API Center. |
+| [Register and discover MCP servers](https://learn.microsoft.com/en-us/azure/api-center/register-discover-mcp-server) | configuration | 0.60 | Describes using API Center as a registry for MCP servers; likely includes specific metadata fields, configuration parameters, and patterns for registering MCP servers that are product-specific. |
 
 ## Unclassified Pages
 
 | TOC Title | Confidence | Reason |
 |-----------|------------|--------|
-| [API analysis - self-managed](https://learn.microsoft.com/en-us/azure/api-center/enable-api-analysis-linting) | 0.45 | How-to for enabling linting and analysis; likely includes steps and some settings, but summary does not indicate structured configuration tables with defaults/ranges or other expert-only details. |
-| [1 - Define custom metadata](https://learn.microsoft.com/en-us/azure/api-center/tutorials/add-metadata-properties) | 0.40 | Tutorial on defining custom metadata; likely UI-driven steps without detailed configuration parameter tables or quantified best practices. |
-| [2 - Add APIs to the inventory](https://learn.microsoft.com/en-us/azure/api-center/tutorials/register-apis) | 0.40 | Tutorial for registering APIs via portal; step-by-step inventory creation, not deep configuration or troubleshooting content. |
-| [3 - Add environments and deployments](https://learn.microsoft.com/en-us/azure/api-center/tutorials/configure-environments-deployments) | 0.40 | Tutorial on adding environments and deployments; appears procedural without detailed deployment constraints or matrices. |
-| [Track API dependencies](https://learn.microsoft.com/en-us/azure/api-center/track-resource-dependencies) | 0.40 | Describes tracking dependencies between APIs and resources conceptually; summary does not indicate detailed configuration tables, limits, or troubleshooting mappings. |
-| [API analysis - Microsoft managed](https://learn.microsoft.com/en-us/azure/api-center/enable-managed-api-analysis-linting) | 0.35 | Explains managed linting capabilities and mentions self-managed options, but summary suggests no detailed configuration parameter tables, numeric thresholds, or error-code-based troubleshooting. |
-| [Discover and consume APIs - VS Code extension](https://learn.microsoft.com/en-us/azure/api-center/discover-apis-vscode-extension) | 0.35 | Describes discovering and consuming APIs via the VS Code extension; appears as a feature/how-to overview without detailed configuration tables, limits, or troubleshooting mappings. |
-| [Create an API center - ARM template](https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center-arm-template) | 0.30 | Quickstart using ARM template; describes template conceptually and basic deployment, not detailed configuration or limits. |
-| [Create an API center - Bicep](https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center-bicep) | 0.30 | Quickstart using Bicep to deploy API Center; appears to be a deployment tutorial without plan matrices or detailed constraints. |
-| [Create an API center - CLI](https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center-azure-cli) | 0.30 | Quickstart using Azure CLI to create API Center; focuses on basic creation commands, not on exhaustive configuration options or limits. |
-| [Create an API center - Visual Studio Code](https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center-vs-code-extension) | 0.30 | Quickstart for creating API Center via VS Code extension; focused on basic setup workflow, not on expert configuration or quotas. |
-| [Create an API center - portal](https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center) | 0.30 | Quickstart for creating an API Center via portal; primarily step-by-step setup without detailed configuration matrices or quotas. |
-| [Register and discover MCP servers](https://learn.microsoft.com/en-us/azure/api-center/register-discover-mcp-server) | 0.30 | Describes using API Center as an inventory for MCP servers; appears conceptual/how-to without specific config parameter tables, limits, or troubleshooting content. |
-| [Register and manage agents](https://learn.microsoft.com/en-us/azure/api-center/register-manage-agents) | 0.30 | Task-focused how-to for registering and managing agents, but described at a procedural level without detailed configuration parameter tables, limits, or error mappings. |
-| [Frequently asked questions](https://learn.microsoft.com/en-us/azure/api-center/frequently-asked-questions) | 0.20 | FAQ-style content but summary does not indicate presence of specific error codes, limits, or configuration tables; likely general Q&A. |
-| [Govern APIs - VS Code extension](https://learn.microsoft.com/en-us/azure/api-center/govern-apis-vscode-extension) | 0.20 | Describes governance capabilities in the VS Code extension at a feature level; lacks concrete configuration parameter tables, limits, or troubleshooting mappings. |
-| [Overview](https://learn.microsoft.com/en-us/azure/api-center/agent-to-agent-overview) | 0.20 | High-level overview of agent registry concepts and capabilities; no detailed limits, configuration tables, error codes, or product-specific numeric thresholds. |
-| [Use metadata for governance](https://learn.microsoft.com/en-us/azure/api-center/metadata) | 0.20 | Explains metadata usage and governance conceptually; no numeric limits, detailed configuration ranges, or product-specific error/diagnostic information. |
-| [Key concepts](https://learn.microsoft.com/en-us/azure/api-center/key-concepts) | 0.10 | Key concepts article describing entities and terminology; no concrete limits, configuration tables, or troubleshooting content. |
-| [Samples and labs](https://learn.microsoft.com/en-us/azure/api-center/resources) | 0.10 | Resource index linking to samples and labs; navigation/aggregation content rather than detailed expert configuration, limits, or troubleshooting guidance. |
-| [What is Azure API Center?](https://learn.microsoft.com/en-us/azure/api-center/overview) | 0.10 | High-level overview of Azure API Center capabilities and scenarios without detailed limits, configuration parameters, or error mappings. |
+| [Build and register APIs - VS Code extension](https://learn.microsoft.com/en-us/azure/api-center/build-register-apis-vscode-extension) | 0.45 | VS Code extension usage for building and registering APIs; appears more like a workflow/tutorial than a parameter reference or limits/config catalog. |
+| [Discover and consume APIs - VS Code extension](https://learn.microsoft.com/en-us/azure/api-center/discover-apis-vscode-extension) | 0.45 | Describes discovery and consumption of APIs via VS Code extension at a feature level; summary does not indicate detailed configuration tables or numeric constraints. |
+| [Track API dependencies](https://learn.microsoft.com/en-us/azure/api-center/track-resource-dependencies) | 0.45 | Explains dependency tracking concept and usage; summary does not indicate detailed configuration tables, limits, or troubleshooting mappings. |
+| [1 - Define custom metadata](https://learn.microsoft.com/en-us/azure/api-center/tutorials/add-metadata-properties) | 0.40 | Tutorial on defining custom metadata; appears to be procedural UI guidance without numeric limits, config tables, or product-specific best-practice quantification. |
+| [2 - Add APIs to the inventory](https://learn.microsoft.com/en-us/azure/api-center/tutorials/register-apis) | 0.40 | Tutorial for registering APIs via portal; step-by-step inventory setup, not a configuration reference or troubleshooting guide. |
+| [3 - Add environments and deployments](https://learn.microsoft.com/en-us/azure/api-center/tutorials/configure-environments-deployments) | 0.40 | Tutorial on adding environments and deployments; procedural instructions without detailed config parameter tables or limits. |
+| [Design and develop  APIs - GitHub Copilot for Azure](https://learn.microsoft.com/en-us/azure/api-center/design-api-github-copilot-azure) | 0.40 | Describes using GitHub Copilot for Azure with API Center plugin; summary suggests conceptual and workflow guidance rather than detailed configuration or limits. |
+| [Govern APIs - VS Code extension](https://learn.microsoft.com/en-us/azure/api-center/govern-apis-vscode-extension) | 0.40 | Focuses on governance capabilities in VS Code extension at a feature level; summary does not indicate detailed config tables, error codes, or numeric thresholds. |
+| [Create an API center - ARM template](https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center-arm-template) | 0.35 | ARM template quickstart; describes template conceptually and shows a basic deployment, not a full configuration reference. |
+| [Create an API center - Bicep](https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center-bicep) | 0.35 | Bicep-based quickstart; likely shows one deployment example rather than exhaustive configuration options or constraints. |
+| [Create an API center - CLI](https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center-azure-cli) | 0.30 | Quickstart using Azure CLI to create resource; focuses on basic creation flow, not detailed config matrices or limits. |
+| [Create an API center - Visual Studio Code](https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center-vs-code-extension) | 0.30 | Quickstart via VS Code extension; focused on initial setup workflow, not detailed configuration or limits. |
+| [Create an API center - portal](https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center) | 0.30 | Quickstart for creating an API Center via portal; step-by-step setup, not a catalog of configuration parameters or limits. |
+| [Frequently asked questions](https://learn.microsoft.com/en-us/azure/api-center/frequently-asked-questions) | 0.30 | FAQ-style content; summary does not indicate presence of error codes, numeric limits, or config tables; likely general Q&A. |
+| [Key concepts](https://learn.microsoft.com/en-us/azure/api-center/key-concepts) | 0.20 | Key concepts article; conceptual definitions rather than concrete limits, configs, or troubleshooting details. |
+| [Overview](https://learn.microsoft.com/en-us/azure/api-center/agent-to-agent-overview) | 0.20 | High-level overview of agent registry capabilities; no detailed configuration parameters, limits, error codes, or decision matrices. |
+| [Samples and labs](https://learn.microsoft.com/en-us/azure/api-center/resources) | 0.20 | Resource index linking to samples and templates; no direct expert configuration, limits, or troubleshooting content on this page itself. |
+| [What is Azure API Center?](https://learn.microsoft.com/en-us/azure/api-center/overview) | 0.20 | High-level product overview without numeric limits, configuration tables, or detailed patterns; primarily conceptual and marketing-style description. |

@@ -2,18 +2,17 @@
 
 ## Summary
 
-- **Crawl Time**: 2026-01-28 04:41:19
-- **Duration**: 0m 0s
+- **Duration**: 0m 10s
 - **Total Pages**: 13
 - **Fetched**: 13
 - **Fetch Failed**: 0
-- **Classified**: 12
-- **Unclassified**: 1
+- **Classified**: 1
+- **Unclassified**: 12
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 0
-- **Unchanged**: 13
+- **Updated Pages**: 13
+- **Unchanged**: 0
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/jenkins/jenkins.csv`
 
@@ -22,31 +21,58 @@
 | Type | Count | Percentage |
 |------|-------|------------|
 | configuration | 1 | 7.7% |
-| deployment | 10 | 76.9% |
-| integrations | 1 | 7.7% |
-| *(Unclassified)* | 1 | 7.7% |
+| *(Unclassified)* | 12 | 92.3% |
 
 ## Changes
+
+### Updated Pages
+
+- [About Jenkins on Azure](https://learn.microsoft.com/en-us/azure/developer/jenkins/overview)
+  - Updated: 2020-11-10T00:00:00Z → 2021-02-11T18:05:00.000Z
+- [Install Jenkins on a Linux VM](https://learn.microsoft.com/en-us/azure/developer/jenkins/configure-on-linux-vm)
+  - Updated: 2024-08-13T00:00:00Z → 2024-08-13T08:00:00.000Z
+- [Scale with Azure Container Instances](https://learn.microsoft.com/en-us/azure/developer/jenkins/azure-container-instances-as-jenkins-build-agent)
+  - Updated: 2021-01-08T00:00:00Z → 2024-09-04T16:58:00.000Z
+- [Scale with Azure VM agents](https://learn.microsoft.com/en-us/azure/developer/jenkins/scale-deployments-using-vm-agents)
+  - Updated: 2021-01-08T00:00:00Z → 2022-03-24T17:26:00.000Z
+- [Deploy to Azure Spring Apps using the Azure CLI](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-azure-spring-apps-using-azure-cli)
+  - Updated: 2022-01-28T00:00:00Z → 2023-05-30T17:14:00.000Z
+- [CI/CD to Kubernetes](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-from-github-to-aks)
+  - Updated: 2024-08-07T00:00:00Z → 2024-08-07T08:00:00.000Z
+- [Create Azure resources in a pipeline job](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-azure-app-service-using-azure-cli)
+  - Updated: 2021-01-06T00:00:00Z → 2023-05-30T17:14:00.000Z
+- [Use Jenkins with Azure DevOps](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-linux-vm-using-azure-devops-services)
+  - Updated: 2024-08-13T00:00:00Z → 2024-08-13T08:00:00.000Z
+- [Deploy to Azure Functions](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-azure-functions)
+  - Updated: 2022-01-27T00:00:00Z → 2023-05-30T17:14:00.000Z
+- [Publish to Azure Storage](https://learn.microsoft.com/en-us/azure/developer/jenkins/azure-storage-blobs-as-build-artifact-repository)
+  - Updated: 2021-01-12T00:00:00Z → 2021-08-08T02:43:00.000Z
+- [CI/CD to Linux VMs](https://learn.microsoft.com/en-us/azure/developer/jenkins/pipeline-with-github-and-docker)
+  - Updated: 2017-03-27T00:00:00Z → 2021-01-22T18:01:00.000Z
+- [CI/CD to Service Fabric](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-service-fabric-cluster)
+  - Updated: 2018-07-31T00:00:00Z → 2021-01-22T18:01:00.000Z
+- [Jenkins plug-in for Azure](https://learn.microsoft.com/en-us/azure/developer/jenkins/plug-ins-for-azure)
+  - Updated: 2025-05-08T00:00:00Z → 2025-05-08T17:06:00.000Z
 
 ## Classified Pages
 
 | TOC Title | Type | Confidence | Reason |
 |-----------|------|------------|--------|
-| [CI/CD to Kubernetes](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-from-github-to-aks) | deployment | 0.70 | Configures Jenkins for CI from GitHub and CD to Azure Kubernetes Service; includes Azure-specific deployment steps and pipeline configuration beyond generic Kubernetes usage. |
-| [CI/CD to Linux VMs](https://learn.microsoft.com/en-us/azure/developer/jenkins/pipeline-with-github-and-docker) | deployment | 0.70 | Configures a Jenkins VM on Azure that pulls from GitHub and builds Docker containers; contains Azure-specific VM and pipeline configuration details. |
-| [CI/CD to Service Fabric](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-service-fabric-cluster) | deployment | 0.70 | Details multiple ways to configure Jenkins and deploy to Azure Service Fabric clusters; includes Service Fabric–specific deployment steps and Jenkins integration patterns. |
-| [Create Azure resources in a pipeline job](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-azure-app-service-using-azure-cli) | deployment | 0.70 | Uses Azure CLI in a Jenkins Pipeline to deploy to Azure App Service; contains Azure-specific deployment commands and pipeline patterns. |
-| [Deploy to Azure Functions](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-azure-functions) | deployment | 0.70 | Tutorial for deploying Java functions to Azure Functions using a Jenkins plugin; includes product-specific deployment configuration and plugin usage details. |
-| [Deploy to Azure Spring Apps using the Azure CLI](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-azure-spring-apps-using-azure-cli) | deployment | 0.70 | Demonstrates using Azure CLI within Jenkins pipelines to deploy to Azure Spring Apps; includes product-specific deployment commands and pipeline configuration details. |
-| [Jenkins plug-in for Azure](https://learn.microsoft.com/en-us/azure/developer/jenkins/plug-ins-for-azure) | configuration | 0.70 | Provides a status table of Jenkins plug-ins for Azure, with plugin-specific details and current support state; this is product-specific configuration/integration reference information. |
-| [Publish to Azure Storage](https://learn.microsoft.com/en-us/azure/developer/jenkins/azure-storage-blobs-as-build-artifact-repository) | integrations | 0.70 | Shows how to configure Jenkins to store build artifacts in Azure Blob Storage; includes Azure storage configuration and integration patterns specific to Jenkins artifact handling. |
-| [Scale with Azure Container Instances](https://learn.microsoft.com/en-us/azure/developer/jenkins/azure-container-instances-as-jenkins-build-agent) | deployment | 0.70 | Tutorial for configuring Jenkins to use Azure Container Instances as build agents; includes Azure-specific agent configuration and integration details that go beyond generic CI/CD concepts. |
-| [Scale with Azure VM agents](https://learn.microsoft.com/en-us/azure/developer/jenkins/scale-deployments-using-vm-agents) | deployment | 0.70 | Shows how to create Azure Linux VMs and register them as Jenkins worker nodes; contains Azure-specific agent configuration and scaling patterns for Jenkins deployments. |
-| [Install Jenkins on a Linux VM](https://learn.microsoft.com/en-us/azure/developer/jenkins/configure-on-linux-vm) | deployment | 0.65 | Step-by-step guide to installing Jenkins on an Azure Linux VM with Azure-specific tooling and plugins; contains concrete configuration steps and Azure-focused deployment setup beyond generic Jenkins knowledge. |
-| [Use Jenkins with Azure DevOps](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-linux-vm-using-azure-devops-services) | deployment | 0.65 | Shows CI/CD pipeline combining Azure DevOps Services and Jenkins to deploy to Linux VMs; includes Azure-specific pipeline wiring and deployment configuration. |
+| [Jenkins plug-in for Azure](https://learn.microsoft.com/en-us/azure/developer/jenkins/plug-ins-for-azure) | configuration | 0.70 | Provides a table of Jenkins plug-ins for Azure with current status and likely plugin-specific details; this is expert integration/configuration knowledge about which plug-ins are supported or retired and how to integrate, which is not generic CI/CD knowledge. |
 
 ## Unclassified Pages
 
 | TOC Title | Confidence | Reason |
 |-----------|------------|--------|
-| [About Jenkins on Azure](https://learn.microsoft.com/en-us/azure/developer/jenkins/overview) | 0.20 | High-level overview of Jenkins on Azure and available integrations; no detailed limits, configuration tables, error codes, or product-specific decision matrices. |
+| [CI/CD to Service Fabric](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-service-fabric-cluster) | 0.35 | Tutorial for configuring Jenkins to deploy to Service Fabric; covers environment setup and deployment flows, but not detailed limits, configuration matrices, or troubleshooting error mappings. |
+| [Publish to Azure Storage](https://learn.microsoft.com/en-us/azure/developer/jenkins/azure-storage-blobs-as-build-artifact-repository) | 0.35 | Tutorial on using Azure Blob Storage as a build artifact repository; primarily a how-to integration scenario, without explicit configuration parameter tables, limits, or troubleshooting mappings. |
+| [CI/CD to Kubernetes](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-from-github-to-aks) | 0.30 | Tutorial for CI from GitHub and CD to AKS using Jenkins; appears to be a scenario walkthrough without expert-level reference data like limits, config tables, or troubleshooting mappings. |
+| [CI/CD to Linux VMs](https://learn.microsoft.com/en-us/azure/developer/jenkins/pipeline-with-github-and-docker) | 0.30 | Tutorial for creating a Jenkins pipeline with GitHub and Docker on an Azure VM; step-by-step CI/CD setup rather than expert reference on limits, configuration options, or security roles. |
+| [Create Azure resources in a pipeline job](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-azure-app-service-using-azure-cli) | 0.30 | Tutorial for deploying a Java web app to Azure App Service via Jenkins and Azure CLI; likely focuses on pipeline steps, not on detailed configuration matrices or quotas. |
+| [Deploy to Azure Functions](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-azure-functions) | 0.30 | Tutorial for deploying to Azure Functions using Jenkins; focuses on using a specific plug-in and pipeline steps, not on quotas, detailed configuration references, or error code mappings. |
+| [Deploy to Azure Spring Apps using the Azure CLI](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-azure-spring-apps-using-azure-cli) | 0.30 | Tutorial for deploying to Azure Spring Apps using Jenkins and Azure CLI; primarily a CI/CD walkthrough rather than a reference of limits, configuration options, or error codes. |
+| [Install Jenkins on a Linux VM](https://learn.microsoft.com/en-us/azure/developer/jenkins/configure-on-linux-vm) | 0.30 | Step-by-step install/get-started tutorial for Jenkins on an Azure Linux VM; likely procedural without configuration matrices, limits, or troubleshooting mappings. |
+| [Scale with Azure Container Instances](https://learn.microsoft.com/en-us/azure/developer/jenkins/azure-container-instances-as-jenkins-build-agent) | 0.30 | Tutorial on using Azure Container Instances as Jenkins build agents; appears as a how-to pipeline configuration without detailed config tables, limits, or error mappings. |
+| [Scale with Azure VM agents](https://learn.microsoft.com/en-us/azure/developer/jenkins/scale-deployments-using-vm-agents) | 0.30 | Tutorial for scaling Jenkins with Azure VMs; focuses on creating VMs and adding them as agents, not on quotas, detailed configuration matrices, or troubleshooting content. |
+| [Use Jenkins with Azure DevOps](https://learn.microsoft.com/en-us/azure/developer/jenkins/deploy-to-linux-vm-using-azure-devops-services) | 0.30 | Tutorial combining Jenkins and Azure DevOps Services for CI/CD to Linux VMs; scenario-based guidance without explicit limits, configuration parameter tables, or troubleshooting flows. |
+| [About Jenkins on Azure](https://learn.microsoft.com/en-us/azure/developer/jenkins/overview) | 0.20 | High-level overview of Jenkins with Azure; no detailed limits, configuration tables, error codes, or product-specific settings. |

@@ -1,6 +1,6 @@
 ---
 name: security
-description: Expert knowledge for Security development including security, integrations & coding patterns, configuration, best practices, troubleshooting, deployment, and architecture & design patterns. Use when building, debugging, or optimizing Security applications.
+description: Expert knowledge for Security development including security, configuration, architecture & design patterns, integrations & coding patterns, best practices, troubleshooting, limits & quotas, deployment, and comparing x vs. y. Use when building, debugging, or optimizing Security applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -35,73 +35,84 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Architecture & Design Patterns
 | Topic | URL |
 |-------|-----|
-| Choose the right Azure key management service | https://learn.microsoft.com/en-us/azure/security/fundamentals/key-management-choose |
+| Design and deploy Microsoft Antimalware for Azure workloads | https://learn.microsoft.com/en-us/azure/security/fundamentals/antimalware |
 
 ### Best Practices
 | Topic | URL |
 |-------|-----|
-| Design Azure backup and restore plans for ransomware | https://learn.microsoft.com/en-us/azure/security/fundamentals/backup-plan-to-protect-against-ransomware |
+| Design Azure backup and restore plans against ransomware | https://learn.microsoft.com/en-us/azure/security/fundamentals/backup-plan-to-protect-against-ransomware |
 | Implement Azure data security and encryption best practices | https://learn.microsoft.com/en-us/azure/security/fundamentals/data-encryption-best-practices |
 | Apply Azure SQL database security checklist controls | https://learn.microsoft.com/en-us/azure/security/fundamentals/database-security-checklist |
-| Apply security best practices to Azure IaaS VMs | https://learn.microsoft.com/en-us/azure/security/fundamentals/iaas |
+| Apply Azure IaaS VM security best practices | https://learn.microsoft.com/en-us/azure/security/fundamentals/iaas |
 | Apply Azure identity and access security best practices | https://learn.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices |
 | Apply Azure network security best practices | https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices |
-| Design and operate secure Azure PaaS applications | https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-deployments |
+| Design and deploy secure Azure PaaS applications | https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-deployments |
 | Apply Azure best practices to prepare for ransomware | https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-prepare |
 | Use Azure Firewall Premium to mitigate ransomware | https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-protection-with-azure-firewall |
-| Implement key steps to secure Entra ID tenants | https://learn.microsoft.com/en-us/azure/security/fundamentals/steps-secure-identity |
+| Protect secrets across Azure services and pipelines | https://learn.microsoft.com/en-us/azure/security/fundamentals/secrets-best-practices |
+
+### Comparing X vs. Y
+| Topic | URL |
+|-------|-----|
+| Choose between Azure key management offerings | https://learn.microsoft.com/en-us/azure/security/fundamentals/key-management-choose |
 
 ### Configuration
 | Topic | URL |
 |-------|-----|
-| Reference Azure service domains and API endpoints | https://learn.microsoft.com/en-us/azure/security/fundamentals/azure-domains |
-| Identify Azure services supporting customer-managed keys | https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-customer-managed-keys-support |
-| Configure Azure-native features against ransomware attacks | https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-features-resources |
+| Use Microsoft Threat Modeling Tool for Azure apps | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool |
+| Get started configuring Microsoft Threat Modeling Tool | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-getting-started |
+| Reference Azure service and API endpoint domains | https://learn.microsoft.com/en-us/azure/security/fundamentals/azure-domains |
+| Configure Azure-native features for ransomware defense | https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-features-resources |
 
 ### Deployment
 | Topic | URL |
 |-------|-----|
-| Check Azure security feature availability across commercial and US Gov clouds | https://learn.microsoft.com/en-us/azure/security/fundamentals/feature-availability |
-| Adapt to upcoming Azure managed TLS changes | https://learn.microsoft.com/en-us/azure/security/fundamentals/managed-tls-changes |
+| Check Azure vs. Azure Government security feature availability | https://learn.microsoft.com/en-us/azure/security/fundamentals/feature-availability |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
 | Configure Microsoft Antimalware in Azure with PowerShell | https://learn.microsoft.com/en-us/azure/security/fundamentals/antimalware-code-samples |
 
+### Limits & Quotas
+| Topic | URL |
+|-------|-----|
+| Identify Azure services supporting customer-managed keys | https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-customer-managed-keys-support |
+| Understand upcoming Azure managed TLS changes | https://learn.microsoft.com/en-us/azure/security/fundamentals/managed-tls-changes |
+
 ### Security
 | Topic | URL |
 |-------|-----|
-| Deploy and operate secure Azure applications using SDL | https://learn.microsoft.com/en-us/azure/security/develop/secure-deploy |
-| Design secure Azure applications using SDL guidance | https://learn.microsoft.com/en-us/azure/security/develop/secure-design |
-| Apply secure development lifecycle practices on Azure | https://learn.microsoft.com/en-us/azure/security/develop/secure-dev-overview |
-| Develop secure Azure applications with implementation controls | https://learn.microsoft.com/en-us/azure/security/develop/secure-develop |
+| Deploy and operate secure applications on Azure | https://learn.microsoft.com/en-us/azure/security/develop/secure-deploy |
+| Design secure cloud applications on Azure | https://learn.microsoft.com/en-us/azure/security/develop/secure-design |
+| Apply secure development practices on Azure | https://learn.microsoft.com/en-us/azure/security/develop/secure-dev-overview |
+| Develop and verify secure Azure applications | https://learn.microsoft.com/en-us/azure/security/develop/secure-develop |
 | Implement auditing and logging mitigations from threat models | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-auditing-and-logging |
 | Implement authentication mitigations from threat models | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-authentication |
-| Mitigate authorization threats identified in threat models | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-authorization |
-| Mitigate communication security threats from threat models | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-communication-security |
+| Mitigate authorization threats in threat models | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-authorization |
+| Secure communications based on threat model findings | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-communication-security |
 | Apply configuration management mitigations from threat models | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-configuration-management |
-| Implement cryptography mitigations for modeled threats | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-cryptography |
+| Implement cryptography mitigations from threat models | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-cryptography |
 | Mitigate exception management threats in applications | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-exception-management |
-| Implement input validation mitigations from threat models | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-input-validation |
-| Apply threat mitigations using Microsoft Threat Modeling Tool | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-mitigations |
+| Apply input validation mitigations from threat models | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-input-validation |
+| Apply mitigation guidance in Microsoft Threat Modeling Tool | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-mitigations |
 | Protect sensitive data using threat model mitigations | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-sensitive-data |
-| Apply session management mitigations from threat models | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-session-management |
-| Use Azure service certificate authority details securely | https://learn.microsoft.com/en-us/azure/security/fundamentals/azure-certificate-authority-details |
+| Implement session management mitigations from threat models | https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-session-management |
+| Use Azure service certificate authority details | https://learn.microsoft.com/en-us/azure/security/fundamentals/azure-certificate-authority-details |
 | Harden Azure Marketplace images before publishing | https://learn.microsoft.com/en-us/azure/security/fundamentals/azure-marketplace-images |
 | Configure alternate email notifications for Customer Lockbox | https://learn.microsoft.com/en-us/azure/security/fundamentals/customer-lockbox-alternative-email |
 | Control Microsoft support access with Customer Lockbox | https://learn.microsoft.com/en-us/azure/security/fundamentals/customer-lockbox-overview |
-| Learn how Microsoft secures the Azure production network | https://learn.microsoft.com/en-us/azure/security/fundamentals/infrastructure-operations |
-| Use Azure SQL Database security capabilities to protect data | https://learn.microsoft.com/en-us/azure/security/fundamentals/infrastructure-sql |
-| Configure Azure security logging and auditing for workloads | https://learn.microsoft.com/en-us/azure/security/fundamentals/log-audit |
-| Apply operational security best practices to Azure assets | https://learn.microsoft.com/en-us/azure/security/fundamentals/operational-best-practices |
-| Use Azure operational security checklist before deployment | https://learn.microsoft.com/en-us/azure/security/fundamentals/operational-checklist |
-| Apply security best practices to Azure App Service PaaS apps | https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-applications-using-app-services |
-| Harden Azure SQL Database and Synapse for PaaS workloads | https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-applications-using-sql |
-| Secure PaaS applications using Azure Storage features | https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-applications-using-storage |
-| Understand secure access to the Azure production network | https://learn.microsoft.com/en-us/azure/security/fundamentals/production-network |
+| Understand Azure SQL Database built-in security features | https://learn.microsoft.com/en-us/azure/security/fundamentals/infrastructure-sql |
+| Configure Azure security logging and auditing | https://learn.microsoft.com/en-us/azure/security/fundamentals/log-audit |
+| Apply operational security best practices in Azure | https://learn.microsoft.com/en-us/azure/security/fundamentals/operational-best-practices |
+| Use Azure operational security checklist | https://learn.microsoft.com/en-us/azure/security/fundamentals/operational-checklist |
+| Apply Azure App Service security best practices | https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-applications-using-app-services |
+| Secure Azure SQL Database and Synapse PaaS | https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-applications-using-sql |
+| Harden Azure Storage for PaaS applications | https://learn.microsoft.com/en-us/azure/security/fundamentals/paas-applications-using-storage |
+| Perform penetration testing on Azure-hosted apps | https://learn.microsoft.com/en-us/azure/security/fundamentals/pen-testing |
 | Understand Azure operational access to customer data | https://learn.microsoft.com/en-us/azure/security/fundamentals/protection-customer-data |
-| Implement secure Azure Service Fabric clusters and apps | https://learn.microsoft.com/en-us/azure/security/fundamentals/service-fabric-best-practices |
+| Implement secure Azure Service Fabric clusters | https://learn.microsoft.com/en-us/azure/security/fundamentals/service-fabric-best-practices |
+| Implement key steps to secure Entra ID tenants | https://learn.microsoft.com/en-us/azure/security/fundamentals/steps-secure-identity |
 | Mitigate Azure subdomain takeover risks with DNS and App Service | https://learn.microsoft.com/en-us/azure/security/fundamentals/subdomain-takeover |
 | Understand Trusted Hardware Identity Management in Azure | https://learn.microsoft.com/en-us/azure/security/fundamentals/trusted-hardware-identity-management |
 
@@ -109,7 +120,7 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 | Topic | URL |
 |-------|-----|
 | Resolve common Customer Lockbox for Azure issues | https://learn.microsoft.com/en-us/azure/security/fundamentals/customer-lockbox-faq |
-| Diagnose and respond to ransomware incidents in Azure | https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-detect-respond |
+| Detect and respond to ransomware incidents in Azure | https://learn.microsoft.com/en-us/azure/security/fundamentals/ransomware-detect-respond |
 
 ---
 

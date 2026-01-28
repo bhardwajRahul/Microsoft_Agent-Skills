@@ -2,8 +2,7 @@
 
 ## Summary
 
-- **Crawl Time**: 2026-01-28 04:42:16
-- **Duration**: 0m 0s
+- **Duration**: 0m 2s
 - **Total Pages**: 1
 - **Fetched**: 1
 - **Fetch Failed**: 0
@@ -12,8 +11,8 @@
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 0
-- **Unchanged**: 1
+- **Updated Pages**: 1
+- **Unchanged**: 0
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/scheduler/scheduler.csv`
 
@@ -23,6 +22,11 @@
 
 ## Changes
 
+### Updated Pages
+
+- [Migrate from Scheduler to Logic Apps](https://learn.microsoft.com/en-us/azure/scheduler/migrate-from-scheduler-to-logic-apps)
+  - Updated: 2024-07-11T00:00:00Z → 2024-07-19T11:21:00.000Z
+
 ## Classified Pages
 
 *No classified pages*
@@ -31,4 +35,4 @@
 
 | TOC Title | Confidence | Reason |
 |-----------|------------|--------|
-| [Migrate from Scheduler to Logic Apps](https://learn.microsoft.com/en-us/azure/scheduler/migrate-from-scheduler-to-logic-apps) | 0.20 | Migration guidance from Azure Scheduler to Logic Apps is primarily conceptual and procedural. The summary does not indicate specific limits, configuration parameter tables, error-code-based troubleshooting, or other quantified, product-specific expert details as defined in the sub-skill types. |
+| [Migrate from Scheduler to Logic Apps](https://learn.microsoft.com/en-us/azure/scheduler/migrate-from-scheduler-to-logic-apps) | 0.20 | Migration guidance from Azure Scheduler to Logic Apps appears to be a conceptual/how-to article without detailed limits, configuration tables, error-code troubleshooting, or other product-specific expert reference data as defined in the sub-skill types. |

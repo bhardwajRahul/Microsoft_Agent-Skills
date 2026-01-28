@@ -37,7 +37,7 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 |-------|-----|
 | Choose Azure HPC Cache usage models and policies | https://learn.microsoft.com/en-us/azure/hpc-cache/cache-usage-models |
 | Design DNS-based client load balancing for Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/client-load-balancing |
-| Design and plan Azure HPC Cache aggregated namespace | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-namespace |
+| Design Azure HPC Cache aggregated namespace layout | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-namespace |
 | Design regional redundancy and failover for Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-region-recovery |
 | Decide when Azure HPC Cache fits your workload | https://learn.microsoft.com/en-us/azure/hpc-cache/usage-scenarios |
 
@@ -45,8 +45,8 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 | Topic | URL |
 |-------|-----|
 | Optimize data movement to Blob for HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-ingest |
-| Apply NFS Blob storage considerations with Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/nfs-blob-considerations |
-| Prime and pre-load Azure HPC Cache for better performance | https://learn.microsoft.com/en-us/azure/hpc-cache/prime-cache |
+| Use ADLS-NFS Blob storage effectively with Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/nfs-blob-considerations |
+| Preload and warm Azure HPC Cache with priming | https://learn.microsoft.com/en-us/azure/hpc-cache/prime-cache |
 
 ### Configuration
 | Topic | URL |
@@ -55,16 +55,16 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 | Prepare Azure CLI environment for managing Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/az-cli-prerequisites |
 | Configure networking, NTP, DNS, and snapshots for HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/configuration |
 | Configure directory services and extended groups for Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/directory-services |
-| Configure Azure HPC Cache storage targets | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-add-storage |
-| Update Azure HPC Cache storage target settings | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-edit-storage |
+| Configure Azure HPC Cache storage targets and exports | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-add-storage |
+| Modify Azure HPC Cache storage target settings | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-edit-storage |
 | Operate and update Azure HPC Cache instances | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-manage |
-| Mount Azure HPC Cache on NFS clients | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-mount |
-| Manage lifecycle and capacity of HPC Cache storage targets | https://learn.microsoft.com/en-us/azure/hpc-cache/manage-storage-targets |
+| Manage lifecycle and allocation of HPC Cache storage targets | https://learn.microsoft.com/en-us/azure/hpc-cache/manage-storage-targets |
+| Monitor Azure HPC Cache metrics and client status | https://learn.microsoft.com/en-us/azure/hpc-cache/metrics |
 
 ### Deployment
 | Topic | URL |
 |-------|-----|
-| Recreate and move Azure HPC Cache workloads across regions | https://learn.microsoft.com/en-us/azure/hpc-cache/move-resource |
+| Recreate or move Azure HPC Cache to another region | https://learn.microsoft.com/en-us/azure/hpc-cache/move-resource |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
@@ -73,6 +73,7 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 | Manually copy data to Blob for Azure HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-ingest-manual |
 | Ingest data to HPC Cache using msrsync | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-ingest-msrsync |
 | Use parallelcp script to ingest data into HPC Cache | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-ingest-parallelcp |
+| Mount Azure HPC Cache on NFS clients correctly | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-mount |
 | Integrate Azure HPC Cache with Azure NetApp Files | https://learn.microsoft.com/en-us/azure/hpc-cache/hpc-cache-netapp |
 
 ### Limits & Quotas

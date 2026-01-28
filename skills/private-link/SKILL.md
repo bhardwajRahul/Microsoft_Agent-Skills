@@ -1,6 +1,6 @@
 ---
 name: private-link
-description: Expert knowledge for Private Link development including configuration, limits & quotas, security, best practices, troubleshooting, and integrations & coding patterns. Use when building, debugging, or optimizing Private Link applications.
+description: Expert knowledge for Private Link development including configuration, integrations & coding patterns, limits & quotas, security, best practices, and troubleshooting. Use when building, debugging, or optimizing Private Link applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -37,24 +37,29 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 |-------|-----|
 | Apply DNS integration best practices for Azure Private Endpoints | https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-dns-integration |
 | Optimize Azure Private Link costs securely | https://learn.microsoft.com/en-us/azure/private-link/private-link-cost-optimization |
-| Inspect and control Private Endpoint traffic with Azure Firewall | https://learn.microsoft.com/en-us/azure/private-link/tutorial-inspect-traffic-azure-firewall |
 
 ### Configuration
 | Topic | URL |
 |-------|-----|
-| Configure Private Link service Direct Connect routing | https://learn.microsoft.com/en-us/azure/private-link/configure-private-link-service-direct-connect |
+| Configure Private Link service Direct Connect | https://learn.microsoft.com/en-us/azure/private-link/configure-private-link-service-direct-connect |
+| Define private endpoint resources with Bicep | https://learn.microsoft.com/en-us/azure/private-link/create-private-endpoint-bicep |
+| Configure private endpoint via ARM template | https://learn.microsoft.com/en-us/azure/private-link/create-private-endpoint-template |
+| Provision private endpoint using Terraform | https://learn.microsoft.com/en-us/azure/private-link/create-private-endpoint-terraform |
+| Define Private Link service with Bicep | https://learn.microsoft.com/en-us/azure/private-link/create-private-link-service-bicep |
+| Configure Private Link service via ARM template | https://learn.microsoft.com/en-us/azure/private-link/create-private-link-service-template |
 | Configure subnet network policies for private endpoints | https://learn.microsoft.com/en-us/azure/private-link/disable-private-endpoint-network-policy |
-| Disable subnet network policies for Private Link service | https://learn.microsoft.com/en-us/azure/private-link/disable-private-link-service-network-policy |
+| Configure privateLinkServiceNetworkPolicies for Private Link | https://learn.microsoft.com/en-us/azure/private-link/disable-private-link-service-network-policy |
 | Manage Azure private endpoint configuration properties | https://learn.microsoft.com/en-us/azure/private-link/manage-private-endpoint |
 | Reference for Azure Private Link monitoring data | https://learn.microsoft.com/en-us/azure/private-link/monitor-private-link-reference |
 | Enable and store Network Security Perimeter diagnostic logs | https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-diagnostic-logs |
 | Configure private DNS zone names for Azure Private Endpoints | https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-dns |
-| Enable SNAT bypass for NVA private endpoint traffic | https://learn.microsoft.com/en-us/azure/private-link/private-link-disable-snat |
+| Enable SNAT bypass for NVA private endpoints | https://learn.microsoft.com/en-us/azure/private-link/private-link-disable-snat |
+| Configure Private Resolver DNS for on-premises Private Endpoints | https://learn.microsoft.com/en-us/azure/private-link/tutorial-dns-on-premises-private-resolver |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
-| Integrate on-premises DNS with Azure Private Resolver for Private Endpoints | https://learn.microsoft.com/en-us/azure/private-link/tutorial-dns-on-premises-private-resolver |
+| Create a network security perimeter with Azure CLI | https://learn.microsoft.com/en-us/azure/private-link/create-network-security-perimeter-cli |
 
 ### Limits & Quotas
 | Topic | URL |
@@ -64,13 +69,13 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Security
 | Topic | URL |
 |-------|-----|
-| Configure RBAC permissions for Azure Network Security Perimeter | https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-role-based-access-control-requirements |
-| Assign Azure RBAC roles for Private Endpoint and Private Link deployment | https://learn.microsoft.com/en-us/azure/private-link/rbac-permissions |
+| RBAC permissions required for Azure Network Security Perimeter | https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-role-based-access-control-requirements |
+| Azure RBAC roles and permissions for Private Link resources | https://learn.microsoft.com/en-us/azure/private-link/rbac-permissions |
 
 ### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Diagnose Azure Private Endpoint connectivity issues | https://learn.microsoft.com/en-us/azure/private-link/troubleshoot-private-endpoint-connectivity |
+| Troubleshoot Azure Private Endpoint connectivity issues | https://learn.microsoft.com/en-us/azure/private-link/troubleshoot-private-endpoint-connectivity |
 | Troubleshoot Azure Private Link Service connectivity | https://learn.microsoft.com/en-us/azure/private-link/troubleshoot-private-link-connectivity |
 
 ---

@@ -1,6 +1,6 @@
 ---
 name: internet-peering
-description: Expert knowledge for Internet Peering development including troubleshooting. Use when building, debugging, or optimizing Internet Peering applications.
+description: Expert knowledge for Internet Peering development including configuration. Use when building, debugging, or optimizing Internet Peering applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -32,10 +32,10 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 
 ## Documentation Links by Category
 
-### Troubleshooting
+### Configuration
 | Topic | URL |
 |-------|-----|
-| Meet and troubleshoot Azure Peering prefix requirements | https://learn.microsoft.com/en-us/azure/internet-peering/peering-registered-prefix-requirements |
+| Configure and validate Azure Peering Service registered prefixes | https://learn.microsoft.com/en-us/azure/internet-peering/peering-registered-prefix-requirements |
 
 ---
 

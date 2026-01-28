@@ -1,6 +1,6 @@
 ---
 name: network-function-manager
-description: Expert knowledge for Network Function Manager development including security. Use when building, debugging, or optimizing Network Function Manager applications.
+description: Expert knowledge for Network Function Manager development including configuration, and security. Use when building, debugging, or optimizing Network Function Manager applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -32,10 +32,15 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 
 ## Documentation Links by Category
 
+### Configuration
+| Topic | URL |
+|-------|-----|
+| Meet prerequisites and requirements for Network Function Manager | https://learn.microsoft.com/en-us/azure/network-function-manager/requirements |
+
 ### Security
 | Topic | URL |
 |-------|-----|
-| Configure resource registration and identities for Network Function Manager | https://learn.microsoft.com/en-us/azure/network-function-manager/resources-permissions |
+| Register resources and identities for Network Function Manager | https://learn.microsoft.com/en-us/azure/network-function-manager/resources-permissions |
 
 ---
 

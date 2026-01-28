@@ -1,6 +1,6 @@
 ---
 name: iot
-description: Expert knowledge for Iot development including integrations & coding patterns, best practices, architecture & design patterns, comparing x vs. y, security, and troubleshooting. Use when building, debugging, or optimizing Iot applications.
+description: Expert knowledge for Iot development including configuration, integrations & coding patterns, best practices, architecture & design patterns, comparing x vs. y, security, and troubleshooting. Use when building, debugging, or optimizing Iot applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 ---
 
@@ -35,36 +35,42 @@ When you need the latest official documentation, use `mcp_microsoftdocs:microsof
 ### Architecture & Design Patterns
 | Topic | URL |
 |-------|-----|
-| Use IoT Plug and Play models in solutions | https://learn.microsoft.com/en-us/azure/iot/concepts-model-discovery |
+| Use IoT Plug and Play models in solution architectures | https://learn.microsoft.com/en-us/azure/iot/concepts-model-discovery |
+| Design IoT Plug and Play device models with DTDL | https://learn.microsoft.com/en-us/azure/iot/concepts-modeling-guide |
 | Enable industrial dataspace architectures on Azure | https://learn.microsoft.com/en-us/azure/iot/howto-iot-industrial-dataspaces |
 | Implement Azure industrial IoT reference architecture | https://learn.microsoft.com/en-us/azure/iot/tutorial-iot-industrial-solution-architecture |
 
 ### Best Practices
 | Topic | URL |
 |-------|-----|
-| Design resilient Azure IoT device reconnection strategies | https://learn.microsoft.com/en-us/azure/iot/concepts-manage-device-reconnections |
-| Model IoT Plug and Play devices with DTDL | https://learn.microsoft.com/en-us/azure/iot/concepts-modeling-guide |
+| Implement resilient Azure IoT device reconnection strategies | https://learn.microsoft.com/en-us/azure/iot/concepts-manage-device-reconnections |
 
 ### Comparing X vs. Y
 | Topic | URL |
 |-------|-----|
-| Choose between Azure IoT C and Embedded C SDKs | https://learn.microsoft.com/en-us/azure/iot/concepts-using-c-sdk-and-embedded-c-sdk |
+| Select the right Azure IoT C-based device SDK | https://learn.microsoft.com/en-us/azure/iot/concepts-using-c-sdk-and-embedded-c-sdk |
+| Choose appropriate Azure IoT services for solutions | https://learn.microsoft.com/en-us/azure/iot/iot-services-and-technologies |
+
+### Configuration
+| Topic | URL |
+|-------|-----|
+| Configure IoT Plug and Play MQTT message conventions | https://learn.microsoft.com/en-us/azure/iot/concepts-convention |
+| Define JSON payload formats for IoT Plug and Play devices | https://learn.microsoft.com/en-us/azure/iot/concepts-message-payloads |
+| Use Azure IoT Explorer to manage and test IoT devices | https://learn.microsoft.com/en-us/azure/iot/howto-use-iot-explorer |
+| Configure MQTT connections to Azure IoT DPS | https://learn.microsoft.com/en-us/azure/iot/iot-mqtt-connect-to-iot-dps |
+| Configure MQTT connections to Azure IoT Hub | https://learn.microsoft.com/en-us/azure/iot/iot-mqtt-connect-to-iot-hub |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
-| Apply IoT Plug and Play MQTT message conventions | https://learn.microsoft.com/en-us/azure/iot/concepts-convention |
-| Implement IoT Plug and Play devices using SDKs | https://learn.microsoft.com/en-us/azure/iot/concepts-developer-guide-device |
-| Build IoT Plug and Play service applications | https://learn.microsoft.com/en-us/azure/iot/concepts-developer-guide-service |
-| Format IoT Plug and Play device message payloads | https://learn.microsoft.com/en-us/azure/iot/concepts-message-payloads |
-| Integrate on-premises SAP ERP with Azure IoT | https://learn.microsoft.com/en-us/azure/iot/howto-connect-on-premises-sap-to-azure |
-| Connect devices to Azure IoT DPS using MQTT | https://learn.microsoft.com/en-us/azure/iot/iot-mqtt-connect-to-iot-dps |
-| Connect devices to Azure IoT Hub using MQTT | https://learn.microsoft.com/en-us/azure/iot/iot-mqtt-connect-to-iot-hub |
+| Implement IoT Plug and Play devices using Azure SDKs | https://learn.microsoft.com/en-us/azure/iot/concepts-developer-guide-device |
+| Build IoT Plug and Play service applications on Azure | https://learn.microsoft.com/en-us/azure/iot/concepts-developer-guide-service |
+| Integrate on-premises SAP ERP with Azure Industrial IoT | https://learn.microsoft.com/en-us/azure/iot/howto-connect-on-premises-sap-to-azure |
 
 ### Security
 | Topic | URL |
 |-------|-----|
-| Use Azure IoT explorer to test IoT devices securely | https://learn.microsoft.com/en-us/azure/iot/howto-use-iot-explorer |
+| Apply Azure IoT security practices for devices and data | https://learn.microsoft.com/en-us/azure/iot/iot-overview-security |
 
 ### Troubleshooting
 | Topic | URL |
