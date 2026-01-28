@@ -1,7 +1,7 @@
 # Generation Summary
 
-**Generated**: 2026-01-28 10:19:20
-**Total Duration**: 8m 29s
+**Generated**: 2026-01-28 10:32:32
+**Total Duration**: 3m 39s
 
 ## Product Crawl Summary
 
@@ -39,35 +39,35 @@ Quick overview for reviewers. See individual product reports for details.
 | 28 | Backup | 391 | 288 | 0 | 0 | 0 | ✓ |
 | 29 | Batch | 114 | 90 | 0 | 0 | 0 | ✓ |
 | 30 | Biztalk Services | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 31 | Bot Service | 190 | 142 | 0 | 0 | 0 | ✓ |
+| 31 | Bot Service | 136 | 103 | 0 | 0 | 54 | ✓ |
 | 32 | Cache | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 33 | SAP on Azure | 202 | 168 | 0 | 0 | 0 | ✓ |
-| 34 | AI Services | 322 | 242 | 0 | 0 | 60 | ✓ |
-| 35 | Communication Services | 515 | 381 | 0 | 0 | 0 | ✓ |
-| 36 | Container Apps | 192 | 121 | 0 | 0 | 0 | ✓ |
-| 37 | CycleCloud | 110 | 85 | 0 | 0 | 0 | ✓ |
+| 33 | SAP on Azure | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 34 | AI Services | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 35 | Communication Services | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 36 | Container Apps | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 37 | CycleCloud | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 38 | Storage | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 39 | Data Factory | 538 | 436 | 0 | 0 | 0 | ✓ |
-| 40 | Azure Data Manager for Energy | 50 | 23 | 0 | 0 | 0 | ✓ |
-| 41 | Data Manager for Agriculture | 26 | 17 | 0 | 0 | 0 | ✓ |
-| 42 | Azure DevTest Labs | 98 | 75 | 0 | 0 | 0 | ✓ |
-| 43 | Governance | 212 | 159 | 0 | 0 | 0 | ✓ |
-| 44 | Guidance | 364 | 258 | 0 | 0 | 0 | ✓ |
-| 45 | HDInsight | 427 | 343 | 0 | 0 | 0 | ✓ |
-| 46 | Health Data Services | 210 | 129 | 0 | 0 | 0 | ✓ |
-| 47 | Health Insights | 39 | 15 | 0 | 0 | 0 | ✓ |
-| 48 | Jenkins | 13 | 1 | 0 | 0 | 0 | ✓ |
-| 49 | Lab Services | 104 | 63 | 0 | 0 | 0 | ✓ |
-| 50 | Azure Business Process Tracking | 6 | 3 | 0 | 0 | 0 | ✓ |
-| 51 | Azure Integration Environments | 4 | 0 | 0 | 0 | 0 | ✓ |
-| 52 | Azure Logic Apps | 200 | 146 | 0 | 0 | 0 | ✓ |
-| 53 | Machine Learning | 350 | 256 | 0 | 0 | 182 | ✓ |
+| 39 | Data Factory | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 40 | Azure Data Manager for Energy | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 41 | Data Manager for Agriculture | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 42 | Azure DevTest Labs | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 43 | Governance | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 44 | Guidance | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 45 | HDInsight | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 46 | Health Data Services | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 47 | Health Insights | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 48 | Jenkins | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 49 | Lab Services | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 50 | Azure Business Process Tracking | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 51 | Azure Integration Environments | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 52 | Azure Logic Apps | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 53 | Machine Learning | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 54 | Messaging services | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 55 | Migrate | 144 | 72 | 0 | 0 | 0 | ✓ |
+| 55 | Migrate | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 56 | Mobile Services | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 57 | Networking | 22 | 12 | 0 | 0 | 0 | ✓ |
-| 58 | Network Function Manager | 8 | 2 | 0 | 0 | 0 | ✓ |
-| 59 | Notification Hubs | 40 | 33 | 0 | 0 | 27 | ✓ |
+| 57 | Networking | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 58 | Network Function Manager | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 59 | Notification Hubs | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 60 | Operations Management Suite | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 61 | Private Link | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 62 | Role-based access control | 0 | 0 | 0 | 0 | 0 | ✓ |
@@ -99,25 +99,25 @@ Quick overview for reviewers. See individual product reports for details.
 ### Totals
 
 - **Products Processed**: 86 success, 0 failed
-- **Total Pages**: 8770
-- **Total Classified**: 6228
+- **Total Pages**: 4520
+- **Total Classified**: 3149
 - **Total New Pages**: 0
 - **Total Updated Pages**: 0
-- **Total Deleted Pages**: 269
+- **Total Deleted Pages**: 54
 
 ### Classification by Type (All Products)
 
 | Type | Count |
 |------|-------|
-| architecture-patterns | 353 |
-| best-practices | 437 |
-| comparing | 84 |
-| configuration | 1851 |
-| deployment | 379 |
-| integrations | 1373 |
-| limits-quotas | 293 |
-| security | 853 |
-| troubleshooting | 605 |
+| architecture-patterns | 92 |
+| best-practices | 263 |
+| comparing | 28 |
+| configuration | 988 |
+| deployment | 212 |
+| integrations | 642 |
+| limits-quotas | 174 |
+| security | 455 |
+| troubleshooting | 295 |
 
 ---
 
