@@ -68,35 +68,19 @@ Each skill provides:
    git clone https://github.com/MicrosoftDocs/agent-skills.git
    ```
 
-2. **Copy skills to your project or global location** (for GitHub Copilot):
+2. **Copy the contents of `skills/` folder to your target location**:
 
-   **Option A: Project-level skills** (stored in your repository):
+   | AI Assistant | Project-level | Personal/Global |
+   |--------------|---------------|-----------------|
+   | **GitHub Copilot** | `.github/skills/` | `~/.copilot/skills/` |
+   | **Claude Code** | `.claude/skills/` | `~/.claude/skills/` |
+   | **OpenAI Codex** | `.codex/skills/` | `~/.codex/skills/` |
+   | **Cursor** | `.cursor/skills/` | — |
+   | **Gemini CLI** | `.gemini/skills/` | — |
 
-   **macOS / Linux:**
-   ```bash
-   cd {path-to-your-project}
-   cp -r {path-to-agent-skills}/skills .github/skills
-   ```
-
-   **Windows (PowerShell):**
-   ```powershell
-   cd {path-to-your-project}
-   Copy-Item -Recurse {path-to-agent-skills}\skills -Destination .github\skills
-   ```
-
-   **Option B: Personal/Global skills** (available across all projects):
-
-   **macOS / Linux:**
-   ```bash
-   cp -r {path-to-agent-skills}/skills ~/.copilot/skills
-   ```
-
-   **Windows (PowerShell):**
-   ```powershell
-   Copy-Item -Recurse {path-to-agent-skills}\skills -Destination $HOME\.copilot\skills
-   ```
-
-   > 💡 Replace `{path-to-agent-skills}` with the actual path where you cloned the repository, and `{path-to-your-project}` with your project directory.
+   > ⚠️ **Important:** Copy the **contents** inside `skills/` (e.g., `azure-functions/`, `azure-container-apps/`), not the `skills` folder itself. Your destination should look like `.copilot/skills/azure-functions/SKILL.md`, NOT `.copilot/skills/skills/azure-functions/SKILL.md`.
+   
+   > 💡 `~` = Home directory (`C:\Users\yourname` on Windows, use `$HOME` in PowerShell)
 
 3. **Enable Agent Skills in VS Code** (Required for VS Code users):
 
@@ -202,131 +186,32 @@ First, clone this repository to a location on your machine (e.g., your home fold
 git clone https://github.com/MicrosoftDocs/agent-skills.git
 ```
 
-### Step 2: Copy Skills to Your Project
+### Step 2: Copy Skills to Your Destination
 
-Navigate to **your project directory** and copy the skills folder. Choose the commands for your OS and AI assistant:
+Copy the **contents** inside the `skills/` folder to your target location based on your AI assistant:
 
----
+| AI Assistant | Project-level (in your repo) | Personal/Global (all projects) |
+|--------------|------------------------------|--------------------------------|
+| **GitHub Copilot** | `{your-project}/.github/skills/` | `~/.copilot/skills/` |
+| **Claude Code** | `{your-project}/.claude/skills/` | `~/.claude/skills/` |
+| **OpenAI Codex** | `{your-project}/.codex/skills/` | `~/.codex/skills/` |
+| **Cursor** | `{your-project}/.cursor/skills/` | — |
+| **Gemini CLI** | `{your-project}/.gemini/skills/` | — |
 
-### For GitHub Copilot (Recommended)
+> ⚠️ **Important:** Copy the folders **inside** `skills/` (e.g., `azure-functions/`, `azure-container-apps/`), NOT the `skills` folder itself.
+>
+> ✅ Correct: `.copilot/skills/azure-functions/SKILL.md`  
+> ❌ Wrong: `.copilot/skills/skills/azure-functions/SKILL.md`
 
-**macOS / Linux:**
-```bash
-# Project-level skills (stored in your repository)
-cd {path-to-your-project}
-cp -r {path-to-agent-skills}/skills .github/skills
-
-# Or personal skills (available across all projects)
-cp -r {path-to-agent-skills}/skills ~/.copilot/skills
-```
-
-**Windows (PowerShell):**
-```powershell
-# Project-level skills (stored in your repository)
-cd {path-to-your-project}
-Copy-Item -Recurse {path-to-agent-skills}\skills -Destination .github\skills
-
-# Or personal skills (available across all projects)
-Copy-Item -Recurse {path-to-agent-skills}\skills -Destination $HOME\.copilot\skills
-```
-
-> 💡 **Note:** Personal skills in `~/.copilot/skills/` are currently supported by GitHub Copilot CLI and Copilot coding agent. VS Code Copilot also supports `~/.copilot/skills/`.
-
----
-
-### For Claude Code
-
-**macOS / Linux:**
-```bash
-# Project-level skills
-cd {path-to-your-project}
-cp -r {path-to-agent-skills}/skills .claude/skills
-
-# Or personal skills (available across all projects)
-cp -r {path-to-agent-skills}/skills ~/.claude/skills
-```
-
-**Windows (PowerShell):**
-```powershell
-# Project-level skills
-cd {path-to-your-project}
-Copy-Item -Recurse {path-to-agent-skills}\skills -Destination .claude\skills
-
-# Or personal skills (available across all projects)
-Copy-Item -Recurse {path-to-agent-skills}\skills -Destination $HOME\.claude\skills
-```
-
----
-
-### For OpenAI Codex
-
-**macOS / Linux:**
-```bash
-# Project-level skills
-cd {path-to-your-project}
-cp -r {path-to-agent-skills}/skills .codex/skills
-
-# Or user-level skills
-cp -r {path-to-agent-skills}/skills ~/.codex/skills
-```
-
-**Windows (PowerShell):**
-```powershell
-# Project-level skills
-cd {path-to-your-project}
-Copy-Item -Recurse {path-to-agent-skills}\skills -Destination .codex\skills
-
-# Or user-level skills
-Copy-Item -Recurse {path-to-agent-skills}\skills -Destination $HOME\.codex\skills
-```
-
----
-
-### For Cursor
-
-**macOS / Linux:**
-```bash
-cd {path-to-your-project}
-cp -r {path-to-agent-skills}/skills .cursor/skills
-```
-
-**Windows (PowerShell):**
-```powershell
-cd {path-to-your-project}
-Copy-Item -Recurse {path-to-agent-skills}\skills -Destination .cursor\skills
-```
-
----
-
-### For Gemini CLI
-
-**macOS / Linux:**
-```bash
-cd {path-to-your-project}
-cp -r {path-to-agent-skills}/skills .gemini/skills
-```
-
-**Windows (PowerShell):**
-```powershell
-cd {path-to-your-project}
-Copy-Item -Recurse {path-to-agent-skills}\skills -Destination .gemini\skills
-```
+> 💡 **Path Note:** `~` = Home directory
+> - **Windows:** `C:\Users\yourname` (use `$HOME` in PowerShell)
+> - **macOS/Linux:** `/Users/yourname` or `/home/yourname`
 
 ---
 
 ### Step 3: Cleanup (Optional)
 
-After copying, you can remove the cloned repository:
-
-**macOS / Linux:**
-```bash
-rm -rf {path-to-agent-skills}
-```
-
-**Windows (PowerShell):**
-```powershell
-Remove-Item -Recurse -Force {path-to-agent-skills}
-```
+After copying, you can delete the cloned `agent-skills` repository if you no longer need it.
 
 ---
 
