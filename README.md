@@ -89,7 +89,7 @@ Each skill provides:
    1. Open VS Code Settings (`Ctrl`+`,` on Windows/Linux, `Cmd`+`,` on macOS)
    2. Search for `chat.agent.skills`
    3. Check the box for **"Chat: Use Agent Skills"**
-   ![vs-code-use-agent-skills](docs\vs-code-use-agent-skills.png)
+   ![vs-code-use-agent-skills](docs/vs-code-use-agent-skills.png)
 
    > ⚠️ **Important:** Without this setting enabled, VS Code will not load or use any skills!
 
