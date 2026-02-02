@@ -10,8 +10,8 @@
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 1
-- **Unchanged**: 546
+- **Updated Pages**: 0
+- **Unchanged**: 547
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-monitor/azure-monitor.csv`
 
@@ -31,11 +31,6 @@
 | *(Unclassified)* | 133 | 24.3% |
 
 ## Changes
-
-### Updated Pages
-
-- [Types of alert rules](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-types)
-  - Updated: 2025-11-18T08:00:00.000Z → 2026-01-31T06:03:00.000Z
 
 ## Classified Pages
 

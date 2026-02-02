@@ -3,7 +3,7 @@ name: azure-automation
 description: Expert knowledge for Azure Automation development including security, best practices, integrations & coding patterns, configuration, deployment, limits & quotas, decision making, and troubleshooting. Use when building, debugging, or optimizing Azure Automation applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-01"
+  generated_at: "2026-02-02"
 ---
 # Azure Automation Skill
 
@@ -20,14 +20,14 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L32-L42 | Diagnosing and fixing Azure Automation issues: runbook failures, DSC problems, Hybrid Runbook Worker errors, managed identity auth issues, and shared resource/diagnostic data troubleshooting. |
-| Best Practices | L43-L56 | Runbook and DSC best practices: modular design, error/output handling, watcher tasks, DR planning, compliance remediation, context switching, and PowerShell module management/migration. |
-| Decision Making | L57-L65 | Guidance for migrating to newer Azure Automation components (agents, workers, identities, runbooks) and choosing/configuring how runbooks are started. |
-| Limits & Quotas | L66-L73 | Details on Azure Automation and DSC extension version history, service limits/quotas per subscription, and supported configurations for Change Tracking and Inventory. |
-| Security | L74-L92 | Identity, access, encryption, and network security for Automation: managed identities, Entra ID auth, RBAC, STIG/policy compliance, secure assets, and Private Link/private endpoints. |
-| Configuration | L93-L119 | Configuring Azure Automation accounts, runbooks, State Configuration/DSC, hybrid workers, networking, logging/monitoring, packages, assets (credentials, certs, variables), schedules, and source control. |
-| Integrations & Coding Patterns | L120-L132 | Patterns for integrating runbooks with AWS, ARM/SQL/Office 365, alerts, webhooks, email (SendGrid), and using SDK/managed identity to automate external services. |
-| Deployment | L133-L136 | Using Azure Automation State Configuration with Chocolatey to set up continuous deployment of software/configuration on Windows machines, including setup and workflow steps |
+| Troubleshooting | L32-L42 | Diagnosing and fixing Azure Automation issues: runbook failures, DSC/State Configuration, Hybrid Runbook Workers, managed identity/auth errors, and shared resource or logging problems. |
+| Best Practices | L43-L56 | Patterns and guidance for designing, managing, and troubleshooting Azure Automation runbooks/DSC: modular design, error handling, streams, watcher tasks, DR, compliance, and module management. |
+| Decision Making | L57-L65 | Guidance for migrating automation assets (runbooks, agents, Hybrid Workers, Run As accounts) to newer Azure Automation/Monitor options and choosing how to start runbooks. |
+| Limits & Quotas | L66-L73 | Azure Automation capacity limits, quotas, DSC extension version history, and Change Tracking/Inventory support matrix across OS, regions, and configurations |
+| Security | L74-L92 | Securing Automation accounts: identities (system/user-assigned), Entra ID auth, RBAC, encryption, Private Link, STIG/policy compliance, and security best practices for runbooks. |
+| Configuration | L93-L119 | Configuring Azure Automation accounts: runbooks, State Configuration/DSC, Hybrid Runbook Workers, networking, logging/Monitor, assets (credentials, certs, variables), packages, schedules, and source control. |
+| Integrations & Coding Patterns | L120-L132 | Patterns and examples for integrating runbooks with AWS, Azure alerts/webhooks, ARM deployments, Office 365, SQL, and external services like SendGrid using PowerShell and the graphical SDK |
+| Deployment | L133-L136 | Using Azure Automation State Configuration with Chocolatey to set up continuous deployment of software and configuration across Windows machines |
 
 ### Troubleshooting
 | Topic | URL |

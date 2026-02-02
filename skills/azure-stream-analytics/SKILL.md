@@ -3,7 +3,7 @@ name: azure-stream-analytics
 description: Expert knowledge for Azure Stream Analytics development including configuration, security, integrations & coding patterns, deployment, troubleshooting, decision making, architecture & design patterns, best practices, and limits & quotas. Use when building, debugging, or optimizing Azure Stream Analytics applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-01"
+  generated_at: "2026-02-02"
 ---
 # Azure Stream Analytics Skill
 
@@ -20,15 +20,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L52 | Diagnosing and fixing Stream Analytics job issues: config/data error codes, input/output connection problems, query/UDF debugging, and troubleshooting via job diagrams, metrics, and logs. |
-| Best Practices | L53-L70 | Performance, scaling, reliability, and design best practices for Stream Analytics jobs, including partitioning, geospatial logic, input validation, metrics, and output tuning to SQL/Cosmos DB/ML. |
-| Decision Making | L71-L77 | Guidance on choosing Stream Analytics dev tools, migrating projects from Visual Studio to VS Code, and selecting the right Azure real-time streaming technology for your scenario. |
-| Architecture & Design Patterns | L78-L83 | Architectural guidance for Stream Analytics: geo-redundancy, high availability, and common end-to-end solution patterns for ingest, process, and output in production systems. |
-| Limits & Quotas | L84-L88 | Details on Stream Analytics streaming units (SUs): capacity limits, performance tuning, scaling strategies, and how SU settings affect throughput and job behavior. |
-| Security | L89-L107 | Securing Stream Analytics jobs: managed identities, encryption, private endpoints, VNet integration, and Azure Policy for accessing ADX, Cosmos DB, Event Hubs, SQL, Service Bus, Power BI, and blobs |
-| Configuration | L108-L136 | Configuring Stream Analytics jobs: inputs/outputs (Cosmos DB, Kafka, Service Bus, PostgreSQL, Tables), autoscale, edge, Protobuf, partitioning, credentials, monitoring, alerts, and error handling. |
-| Integrations & Coding Patterns | L137-L161 | Connecting Stream Analytics to outputs (SQL, Synapse, Blob/Data Lake, Delta, Power BI, Kafka, Event Hubs), using UDFs/ML/anomaly detection, and managing jobs via .NET SDK and Functions. |
-| Deployment | L162-L172 | CI/CD and deployment of Stream Analytics jobs: ARM/Bicep templates, GitHub Actions, Azure DevOps, npm/NuGet tools, REST/IoT Edge deployment, and cross-region cluster moves. |
+| Troubleshooting | L33-L52 | Diagnosing and fixing Stream Analytics job issues: config/data error codes, input/output connection problems, query/UDF debugging, and using diagrams/logs/metrics to troubleshoot. |
+| Best Practices | L53-L70 | Tuning Stream Analytics jobs for performance, scale, reliability, geospatial logic, input validation, reference data, and output optimization to Cosmos DB and SQL Database |
+| Decision Making | L71-L77 | Guidance on choosing Stream Analytics developer tools, migrating projects from Visual Studio to VS Code, and selecting the right Azure real-time streaming technology. |
+| Architecture & Design Patterns | L78-L83 | Patterns and reference architectures for building resilient, geo-redundant Azure Stream Analytics solutions, including multi-region designs and common end-to-end streaming pipelines. |
+| Limits & Quotas | L84-L88 | Details on Stream Analytics streaming units: capacity limits, performance tuning, scaling strategies, and how SU settings impact job throughput and reliability. |
+| Security | L89-L107 | Securing Stream Analytics jobs: managed identities, encryption, VNet/private endpoints, and secure connections to Event Hubs, Service Bus, SQL/Synapse, Cosmos DB, ADX, Blob, Power BI, and Azure Policy. |
+| Configuration | L108-L136 | Configuring Stream Analytics jobs: inputs/outputs (Cosmos DB, Kafka, Service Bus, PostgreSQL, Tables, Functions, ADX), autoscale, edge, Protobuf, error/late-event policies, monitoring, and CI/CD. |
+| Integrations & Coding Patterns | L137-L161 | Connecting Stream Analytics jobs to outputs (SQL, Synapse, Blob/Data Lake, Delta Lake, Power BI, Kafka, Event Hubs), using ML/UDFs/UDAs, and managing jobs via .NET and Functions. |
+| Deployment | L162-L172 | CI/CD and deployment of Stream Analytics jobs: ARM/Bicep templates, GitHub Actions, Azure DevOps, npm/NuGet tools, REST/IoT Edge, and moving clusters across regions. |
 
 ### Troubleshooting
 | Topic | URL |

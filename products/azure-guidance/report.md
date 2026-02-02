@@ -10,8 +10,8 @@
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 4
-- **Unchanged**: 360
+- **Updated Pages**: 0
+- **Unchanged**: 364
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-guidance/azure-guidance.csv`
 
@@ -29,17 +29,6 @@
 | *(Unclassified)* | 98 | 26.9% |
 
 ## Changes
-
-### Updated Pages
-
-- [Introduction](https://learn.microsoft.com/en-us/azure/architecture/guide/)
-  - Updated: 2025-03-03T18:30:00.000Z → 2026-01-30T08:00:00.000Z
-- [Web-queue-worker](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/web-queue-worker)
-  - Updated: 2026-01-06T18:34:00.000Z → 2026-01-30T18:35:00.000Z
-- [Measure Azure app sustainability](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/apps/measure-azure-app-sustainability-sci-score)
-  - Updated: 2025-12-17T06:03:00Z → 2026-01-30T18:35:00Z
-- [Get started](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-start-here)
-  - Updated: 2025-12-09T06:03:00.000Z → 2026-01-30T18:35:00.000Z
 
 ## Classified Pages
 

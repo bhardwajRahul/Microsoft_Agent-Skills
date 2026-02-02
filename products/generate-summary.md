@@ -1,7 +1,7 @@
 # Generation Summary
 
-**Generated**: 2026-02-01 02:02:28
-**Total Duration**: 12m 35s
+**Generated**: 2026-02-02 02:01:30
+**Total Duration**: 16m 41s
 
 ## Product Crawl Summary
 
@@ -10,7 +10,7 @@ Quick overview for reviewers. See individual product reports for details.
 | # | Product | Pages | Classified | New | Updated | Deleted | Status |
 |---|---------|-------|------------|-----|---------|---------|--------|
 | 1 | API Center | 35 | 16 | 0 | 0 | 0 | ✓ |
-| 2 | API Management | 274 | 218 | 0 | 2 | 0 | ✓ |
+| 2 | API Management | 274 | 218 | 0 | 0 | 0 | ✓ |
 | 3 | Avere vFXT for Azure | 20 | 13 | 0 | 0 | 0 | ✓ |
 | 4 | Azure App Configuration | 158 | 130 | 0 | 0 | 0 | ✓ |
 | 5 | App Service | 238 | 149 | 0 | 0 | 0 | ✓ |
@@ -26,7 +26,7 @@ Quick overview for reviewers. See individual product reports for details.
 | 15 | Azure Fluid Relay | 25 | 16 | 0 | 0 | 0 | ✓ |
 | 16 | Azure HPC Cache | 34 | 30 | 0 | 0 | 0 | ✓ |
 | 17 | Azure Managed Grafana | 42 | 31 | 0 | 0 | 0 | ✓ |
-| 18 | Azure Monitor | 547 | 414 | 0 | 1 | 0 | ✓ |
+| 18 | Azure Monitor | 547 | 414 | 0 | 0 | 0 | ✓ |
 | 19 | Functions | 351 | 285 | 0 | 0 | 0 | ✓ |
 | 20 | Azure Government | 39 | 32 | 0 | 0 | 0 | ✓ |
 | 21 | Azure NetApp Files | 224 | 160 | 0 | 0 | 0 | ✓ |
@@ -39,44 +39,44 @@ Quick overview for reviewers. See individual product reports for details.
 | 28 | Backup | 391 | 273 | 0 | 0 | 0 | ✓ |
 | 29 | Batch | 114 | 79 | 0 | 0 | 0 | ✓ |
 | 30 | Biztalk Services | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 31 | Bot Service | 180 | 128 | 0 | 0 | 10 | ✓ |
+| 31 | Bot Service | 140 | 99 | 0 | 0 | 40 | ✓ |
 | 32 | Cache | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 33 | SAP on Azure | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 34 | AI Services | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 35 | Communication Services | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 35 | Communication Services | 435 | 324 | 0 | 0 | 80 | ✓ |
 | 36 | Container Apps | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 37 | CycleCloud | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 38 | Storage | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 39 | Data Factory | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 40 | Azure Data Manager for Energy | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 41 | Data Manager for Agriculture | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 39 | Data Factory | 418 | 329 | 0 | 0 | 120 | ✓ |
+| 40 | Azure Data Manager for Energy | 50 | 23 | 0 | 0 | 0 | ✓ |
+| 41 | Data Manager for Agriculture | 26 | 12 | 0 | 0 | 0 | ✓ |
 | 42 | Azure DevTest Labs | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 43 | Governance | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 44 | Guidance | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 44 | Guidance | 364 | 266 | 0 | 0 | 0 | ✓ |
 | 45 | HDInsight | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 46 | Health Data Services | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 47 | Health Insights | 39 | 11 | 0 | 0 | 0 | ✓ |
-| 48 | Jenkins | 13 | 12 | 0 | 0 | 0 | ✓ |
-| 49 | Lab Services | 104 | 66 | 0 | 0 | 0 | ✓ |
-| 50 | Azure Business Process Tracking | 6 | 3 | 0 | 0 | 0 | ✓ |
-| 51 | Azure Integration Environments | 4 | 0 | 0 | 0 | 0 | ✓ |
-| 52 | Azure Logic Apps | 200 | 140 | 0 | 0 | 0 | ✓ |
-| 53 | Machine Learning | 390 | 264 | 0 | 0 | 142 | ✓ |
+| 47 | Health Insights | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 48 | Jenkins | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 49 | Lab Services | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 50 | Azure Business Process Tracking | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 51 | Azure Integration Environments | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 52 | Azure Logic Apps | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 53 | Machine Learning | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 54 | Messaging services | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 55 | Migrate | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 55 | Migrate | 139 | 81 | 0 | 0 | 5 | ✓ |
 | 56 | Mobile Services | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 57 | Networking | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 58 | Network Function Manager | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 59 | Notification Hubs | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 60 | Operations Management Suite | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 61 | Private Link | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 62 | Role-based access control | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 62 | Role-based access control | 104 | 95 | 0 | 0 | 0 | ✓ |
 | 63 | Scheduler | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 64 | Security | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 65 | Site Recovery | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 64 | Security | 111 | 43 | 0 | 0 | 0 | ✓ |
+| 65 | Site Recovery | 167 | 100 | 0 | 0 | 35 | ✓ |
 | 66 | Site Reliability Engineering | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 67 | Synapse Analytics | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 68 | Azure SQL | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 67 | Synapse Analytics | 382 | 250 | 0 | 0 | 0 | ✓ |
+| 68 | Azure SQL | 378 | 261 | 0 | 0 | 205 | ✓ |
 | 69 | SQL Server Stretch Database | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 70 | SRE Agent | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 71 | Storage | 0 | 0 | 0 | 0 | 0 | ✓ |
@@ -99,25 +99,25 @@ Quick overview for reviewers. See individual product reports for details.
 ### Totals
 
 - **Products Processed**: 86 success, 0 failed
-- **Total Pages**: 5329
-- **Total Classified**: 3718
+- **Total Pages**: 7107
+- **Total Classified**: 4977
 - **Total New Pages**: 0
-- **Total Updated Pages**: 3
-- **Total Deleted Pages**: 152
+- **Total Updated Pages**: 0
+- **Total Deleted Pages**: 485
 
 ### Classification by Type (All Products)
 
 | Type | Count |
 |------|-------|
-| architecture-patterns | 92 |
-| best-practices | 273 |
-| configuration | 1036 |
-| decision-making | 238 |
-| deployment | 259 |
-| integrations | 783 |
-| limits-quotas | 167 |
-| security | 541 |
-| troubleshooting | 329 |
+| architecture-patterns | 236 |
+| best-practices | 394 |
+| configuration | 1201 |
+| decision-making | 361 |
+| deployment | 257 |
+| integrations | 1051 |
+| limits-quotas | 258 |
+| security | 779 |
+| troubleshooting | 440 |
 
 ---
 

@@ -3,7 +3,7 @@ name: azure-jenkins
 description: Expert knowledge for Azure Jenkins development including deployment, integrations & coding patterns, and configuration. Use when building, debugging, or optimizing Azure Jenkins applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-01"
+  generated_at: "2026-02-02"
 ---
 # Azure Jenkins Skill
 
@@ -20,9 +20,9 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Configuration | L27-L31 | Guides for choosing, installing, and configuring Jenkins plug-ins to integrate builds and deployments with Azure services and resources |
-| Integrations & Coding Patterns | L32-L36 | Configuring Jenkins to store build artifacts in Azure Blob Storage, including plugin setup, authentication, container configuration, and usage patterns. |
-| Deployment | L37-L49 | Using Jenkins on Azure to build and deploy apps: setup on VMs/containers, create CI/CD pipelines, and deploy to AKS, App Service, Functions, Spring Apps, Service Fabric, and Linux VMs. |
+| Configuration | L27-L31 | Configuring Jenkins plugins to integrate with Azure services (VMs, storage, credentials, deployments) and setting them up for CI/CD pipelines. |
+| Integrations & Coding Patterns | L32-L36 | Using Azure Blob Storage with Jenkins, configuring it as a build artifact repository, and managing upload, retention, and retrieval of build artifacts. |
+| Deployment | L37-L49 | Jenkins deployment guides for Azure: setting up Jenkins on VMs/containers and building CI/CD pipelines to deploy apps to AKS, App Service, Functions, Spring Apps, Service Fabric, and Linux VMs. |
 
 ### Configuration
 | Topic | URL |

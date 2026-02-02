@@ -3,7 +3,7 @@ name: azure-governance
 description: Expert knowledge for Azure Governance development including security, integrations & coding patterns, configuration, deployment, troubleshooting, best practices, decision making, and limits & quotas. Use when building, debugging, or optimizing Azure Governance applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-01"
+  generated_at: "2026-02-02"
 ---
 # Azure Governance Skill
 
@@ -20,14 +20,14 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L32-L45 | Diagnosing and fixing Azure governance issues: Blueprints errors, management group SDK failures, Policy non-compliance/remediation, Change Analysis usage, and Resource Graph query/connector problems. |
-| Best Practices | L46-L55 | Best practices for designing Azure Policy rules and effects (append, manual, attestations), safely rolling out policies, and writing efficient Resource Graph queries without throttling |
-| Decision Making | L56-L64 | Guidance for choosing Azure governance options: policy effects vs enforcementMode, VM policy set baselines, system policies, Automanage-to-Policy migration, and ARG API vs query usage. |
-| Limits & Quotas | L65-L72 | Working with Azure Resource Graph at scale: API rate limits, handling large result sets, pagination strategies (incl. PowerShell), and using the Power BI connector efficiently. |
-| Security | L73-L137 | Azure Policy and Blueprints for security/compliance: mapping standards (ISO, NIST, CIS, PCI, FedRAMP, etc.), applying benchmarks/baselines, and enforcing controls like MFA and resource protection |
-| Configuration | L138-L171 | Designing and configuring Azure governance: Blueprints, Azure Policy (effects, rules, parameters, exemptions, compliance, remediation), tags, resource types, and Resource Graph queries. |
-| Integrations & Coding Patterns | L172-L206 | Implementing Azure governance programmatically: authoring and assigning policies/initiatives, integrating with Event Grid, and querying/comparing resources at scale via Resource Graph and automation tools. |
-| Deployment | L207-L217 | Deploying Azure blueprints/landing zones and implementing Azure Policy as code, including GitHub export, DevOps pipeline enforcement, and safe deployment workflows. |
+| Troubleshooting | L32-L45 | Diagnosing and fixing Azure governance issues: Blueprints errors, management group SDK failures, policy non-compliance/remediation, Change Analysis, and Resource Graph query/connector problems. |
+| Best Practices | L46-L55 | Best practices for designing and deploying Azure Policy (effects, append/manual/attestations, arrays, impact evaluation) and writing Resource Graph queries that avoid throttling |
+| Decision Making | L56-L64 | Guidance on choosing Azure Policy behaviors and built-ins, migrating from Automanage best practices, and deciding between ARG APIs vs query service for governance scenarios |
+| Limits & Quotas | L65-L72 | Querying Azure Resource Graph at scale: API limits, handling large result sets, pagination (incl. PowerShell), and integrating ARG data with Power BI |
+| Security | L73-L137 | Azure Policy/Blueprints for security: mapping regulatory/industry controls (ISO, NIST, PCI, FedRAMP, CIS, SWIFT, etc.), enforcing baselines, MFA, and protecting resource hierarchy. |
+| Configuration | L138-L171 | Configuring Azure Policy and Blueprints: define rules/initiatives, effects (deny, audit, deployIfNotExists, modify), parameters, exemptions, remediation, compliance data, and Resource Graph queries. |
+| Integrations & Coding Patterns | L172-L206 | Patterns and code samples for automating Azure Policy, Blueprints, and Resource Graph using CLI/PowerShell/REST/Bicep/Terraform, plus Event Grid, Logic Apps, and Kubernetes (OPA/Gatekeeper) integrations |
+| Deployment | L207-L217 | Deploying Azure blueprints and Policy as Code: CAF foundations/migration, ISO 27001, SWIFT CSP samples, GitHub export, DevOps pipeline enforcement, and safe rollout practices. |
 
 ### Troubleshooting
 | Topic | URL |

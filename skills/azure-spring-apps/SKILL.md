@@ -3,7 +3,7 @@ name: azure-spring-apps
 description: Expert knowledge for Azure Spring Apps development including configuration, best practices, limits & quotas, security, deployment, integrations & coding patterns, troubleshooting, architecture & design patterns, and decision making. Use when building, debugging, or optimizing Azure Spring Apps applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-01"
+  generated_at: "2026-02-02"
 ---
 # Azure Spring Apps Skill
 
@@ -20,15 +20,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L50 | Diagnosing and fixing Azure Spring Apps issues: debugging, remote attach, memory/OOM and dumps/JFR, build failures, exit codes, VNet/connectivity, and real-time app/managed logs. |
-| Best Practices | L51-L58 | Best practices for production Azure Spring Apps: observability, JVM diagnostics, zone-aware and DR design, and using Application Live View for monitoring and troubleshooting. |
-| Decision Making | L59-L65 | Choosing the right Azure Spring Apps plan, understanding Enterprise licensing/Marketplace offer, and guidance to migrate from Basic/Standard to Enterprise |
-| Architecture & Design Patterns | L66-L72 | Design patterns for exposing Azure Spring Apps: load balancers, Application Gateway with TLS, and secure public internet access options and configurations. |
+| Troubleshooting | L33-L50 | Diagnosing and fixing Azure Spring Apps runtime issues: OOMs, exit codes, build failures, VNet/connectivity problems, remote debugging, memory/JFR analysis, and real-time log streaming. |
+| Best Practices | L51-L58 | Best practices for production Azure Spring Apps: observability setup, JVM diagnostics, zone-aware and DR design, and live monitoring with Application Live View. |
+| Decision Making | L59-L65 | Guidance on choosing Azure Spring Apps plans, understanding Enterprise licensing/Marketplace offers, and migrating existing Basic/Standard apps to the Enterprise tier. |
+| Architecture & Design Patterns | L66-L72 | Design patterns for exposing Azure Spring Apps: load balancers, Application Gateway with TLS termination, and secure public internet access options. |
 | Limits & Quotas | L73-L82 | Version support, storage/plan quotas, VNet networking requirements, and guidance for scaling Azure Spring Apps Enterprise to large instance counts and high CPU/memory workloads. |
-| Security | L83-L103 | Securing Spring Apps: managed identities, Key Vault, SQL, Functions, Entra ID SSO/RBAC, TLS, custom domains, Zero Trust, and Azure Policy compliance controls. |
-| Configuration | L104-L141 | Network, routing, TLS, DNS, scaling, logging/monitoring, gateways, and config server setup for Azure Spring Apps, including Enterprise/Tanzu features and private/egress configuration. |
-| Integrations & Coding Patterns | L142-L167 | Integrating Azure Spring Apps with databases, Redis, OpenAI, gRPC, gateways, Entra ID, and monitoring tools (App Insights, APMs, Micrometer), plus Maven deployment and Tanzu services. |
-| Deployment | L168-L184 | Deploying Azure Spring Apps with CI/CD (GitHub Actions, Azure Pipelines), blue‑green/zero‑downtime strategies, VNet deployment (ARM/Bicep/CLI/Terraform), and buildpack-based app/static site deployment |
+| Security | L83-L103 | Security features for Spring Apps: TLS, custom domains, Zero Trust, Entra ID SSO/RBAC, managed identities, Key Vault/SQL/Functions access, and Azure Policy/compliance controls. |
+| Configuration | L104-L141 | Configuring Azure Spring Apps networking, ingress/egress, TLS, scaling, storage, logging/monitoring, gateways, and enterprise features like Tanzu, APM, and rate limiting. |
+| Integrations & Coding Patterns | L142-L167 | Integrating Azure Spring Apps with databases, Redis, OpenAI, gRPC, gateways, and monitoring tools (App Insights, APMs, Micrometer), plus Maven deployment and Tanzu/Entra ID features. |
+| Deployment | L168-L184 | CI/CD and deployment patterns for Azure Spring Apps, including zero-downtime/blue‑green, GitHub Actions/Azure Pipelines, VNet/VNet-injection setups, buildpacks, and Terraform/ARM/Bicep provisioning |
 
 ### Troubleshooting
 | Topic | URL |

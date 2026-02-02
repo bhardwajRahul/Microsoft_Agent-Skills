@@ -3,7 +3,7 @@ name: azure-app-configuration
 description: Expert knowledge for Azure App Configuration development including deployment, configuration, security, architecture & design patterns, limits & quotas, integrations & coding patterns, best practices, decision making, and troubleshooting. Use when building, debugging, or optimizing Azure App Configuration applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-01"
+  generated_at: "2026-02-02"
 ---
 # Azure App Configuration Skill
 
@@ -20,15 +20,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L37 | Diagnosing and fixing Azure App Configuration network access issues, including firewall/VNet restrictions, private endpoints, DNS, and connectivity errors from client apps. |
-| Best Practices | L38-L43 | Guidance on production usage patterns, performance and reliability best practices, and using synchronization tokens to keep App Configuration data reads consistent across clients and requests |
-| Decision Making | L44-L48 | Guidance for upgrading Spring Boot apps to Azure App Configuration Java library v6, including breaking changes, migration steps, and updated configuration patterns. |
-| Architecture & Design Patterns | L49-L54 | Design patterns for resilient, highly available App Configuration setups, including DR strategies and scaling client configuration globally via Azure Front Door. |
-| Limits & Quotas | L55-L63 | Point-in-time key retrieval, API preview lifecycle/deprecation, soft delete and data retention, key-value revision history, and REST API throttling limits for App Configuration |
-| Security | L64-L85 | Securing App Configuration: encryption, keys, RBAC, identities, private endpoints, network lockdown, REST auth (Entra, HMAC), and Azure Policy/compliance settings. |
-| Configuration | L86-L112 | Configuring and using App Configuration: dynamic config refresh across platforms, feature flags/filters, snapshots, JSON keys, AI agent/chat settings, Kubernetes provider, and monitoring. |
-| Integrations & Coding Patterns | L113-L186 | Patterns and code samples for integrating Azure App Configuration and feature flags (dynamic config, filters, targeting, telemetry, Key Vault, REST) across .NET, Go, Java/Spring, JavaScript/Node, and Python. |
-| Deployment | L187-L197 | CI/CD deployment of App Configuration: exporting/importing settings, snapshots, geo-replication and region moves, plus integration with Pipelines, GitHub Actions, and Helm/Kubernetes. |
+| Troubleshooting | L33-L37 | Diagnosing and fixing Azure App Configuration network access issues, including firewall/VNet restrictions, private endpoints, DNS, and connectivity error codes. |
+| Best Practices | L38-L43 | Guidance on efficient Azure App Configuration usage patterns and using synchronization tokens to keep distributed clients’ configuration reads consistent across requests. |
+| Decision Making | L44-L48 | Guidance for upgrading Spring Boot applications to Azure App Configuration Java library v6, including breaking changes, migration steps, and updated configuration patterns. |
+| Architecture & Design Patterns | L49-L54 | Patterns for resilient, geo-redundant App Configuration setups and scaling configuration delivery using Azure Front Door for large, distributed client workloads. |
+| Limits & Quotas | L55-L63 | Point-in-time reads, key-value revision history and retention, soft delete behavior, preview API lifecycle/deprecation, and REST API throttling limits for Azure App Configuration |
+| Security | L64-L85 | Securing App Configuration: encryption, keys, RBAC, managed identities, private endpoints, network lockdown, REST auth (Entra, HMAC), and Azure Policy/compliance settings. |
+| Configuration | L86-L112 | Configuring and using App Configuration values, feature flags, snapshots, dynamic refresh, and telemetry across languages, Kubernetes, AI agents, and REST API versioning. |
+| Integrations & Coding Patterns | L113-L186 | Integrating Azure App Configuration into .NET, Go, Java, JavaScript, Python, and Kubernetes apps, using dynamic config, feature flags (variants, targeting, time windows, telemetry), and REST/Key Vault features |
+| Deployment | L187-L197 | Using App Configuration in CI/CD and deployments: Azure Pipelines tasks (export/import/snapshots), geo-replication and region moves, GitHub Actions sync, and Helm/Kubernetes integration. |
 
 ### Troubleshooting
 | Topic | URL |

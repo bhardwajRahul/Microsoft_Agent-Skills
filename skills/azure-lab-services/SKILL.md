@@ -3,7 +3,7 @@ name: azure-lab-services
 description: Expert knowledge for Azure Lab Services development including security, configuration, best practices, limits & quotas, architecture & design patterns, decision making, integrations & coding patterns, deployment, and troubleshooting. Use when building, debugging, or optimizing Azure Lab Services applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-01"
+  generated_at: "2026-02-02"
 ---
 # Azure Lab Services Skill
 
@@ -20,15 +20,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L40 | Diagnosing and fixing Azure Lab Services issues like VM connectivity/access failures and lab creation errors, including reset options and common network or configuration problems. |
-| Best Practices | L41-L48 | Best practices for building lab images, enabling nested virtualization, tuning Linux RDP performance, and configuring Windows template VMs for optimal Azure Lab Services use. |
-| Decision Making | L49-L57 | Guidance on when and how to use lab accounts vs lab plans, plan migrations (physical labs, service retirement), pick GPU VM sizes, and decide moving between Lab Services and DevTest Labs |
-| Architecture & Design Patterns | L58-L63 | Azure Lab Services architecture basics and supported networking designs, including lab plans, VNets, connectivity options, and how to choose the right network topology. |
-| Limits & Quotas | L64-L72 | Managing Lab Services capacity limits, core quotas, user access/usage hours, quota increase requests, and VM inactivity/deletion behavior |
-| Security | L73-L87 | Managing access, roles, policies, VM passwords, IPs, and firewall rules for securing Azure Lab Services labs and controlling which VM sizes and resources students can use. |
-| Configuration | L88-L111 | Configuring Azure Lab Services labs and lab plans: regions, images, VM shutdown/schedules, networking (VNets, advanced), GPU/nested virtualization, and automation via ARM/Bicep/PowerShell/Python. |
-| Integrations & Coding Patterns | L112-L123 | Integrating Lab Services with Canvas and Teams, connecting labs to VNets, and automating lab creation/management via Bicep, PowerShell, Python SDK, plus Linux VM access with X2Go. |
-| Deployment | L124-L133 | Creating and migrating labs and lab plans, including importing Windows/Linux custom images from VMs or physical labs and moving from lab accounts to lab plans. |
+| Troubleshooting | L33-L40 | Diagnosing and fixing Azure Lab Services issues: VM connectivity and access failures, RDP/SSH problems, and errors when creating or provisioning labs. |
+| Best Practices | L41-L48 | Guidance on building optimized lab images, enabling nested virtualization, tuning Linux RDP performance, and configuring Windows template VMs with recommended settings. |
+| Decision Making | L49-L57 | Guidance on choosing lab accounts vs lab plans, planning migrations (physical labs, service retirement), selecting GPU VM sizes, and deciding when to move to DevTest Labs. |
+| Architecture & Design Patterns | L58-L63 | Azure Lab Services architecture basics, lab plan components, and choosing supported networking topologies (hub-spoke, private endpoints, VNets) for secure lab deployments |
+| Limits & Quotas | L64-L72 | Managing Lab Services limits: VM capacity, core quota usage and increase requests, user access and usage hours, and automatic VM deletion due to inactivity. |
+| Security | L73-L87 | RBAC roles, lab creator/owner assignment, Azure Policy governance, VM size restrictions, firewall and public IP configuration, and managing or resetting lab VM passwords |
+| Configuration | L88-L111 | Configuring lab plans and VMs: regions, images, galleries, auto-start/stop, shutdown policies, networking (VNets, advanced), GPU/nested virtualization, and deployment via ARM/Bicep/PowerShell/Python. |
+| Integrations & Coding Patterns | L112-L123 | Integrating Lab Services with LMS/Teams, connecting labs to networks, and automating lab creation/management via Bicep, PowerShell, Python, and Linux X2Go connectivity. |
+| Deployment | L124-L133 | Creating and migrating labs and lab plans, including importing Windows/Linux images from VMs or physical labs, and moving from lab accounts to lab plans. |
 
 ### Troubleshooting
 | Topic | URL |

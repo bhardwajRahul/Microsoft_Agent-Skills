@@ -3,7 +3,7 @@ name: azure-vmware
 description: Expert knowledge for Azure Vmware development including configuration, architecture & design patterns, decision making, security, troubleshooting, best practices, integrations & coding patterns, and limits & quotas. Use when building, debugging, or optimizing Azure Vmware applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-01"
+  generated_at: "2026-02-02"
 ---
 # Azure Vmware Skill
 
@@ -20,14 +20,14 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L32-L37 | Diagnosing and resolving common Azure VMware Solution issues, plus how to collect logs and open support cases for AVS deployment failures. |
-| Best Practices | L38-L44 | Best practices for AVS private cloud operations, NSX/HCX performance tuning, safe maintenance, and configuring HCX Mobility Optimized Networking for migrations. |
-| Decision Making | L45-L57 | Guidance on choosing AVS migration, backup, DR, licensing, reserved instances, HCX options, API Management SKUs, and multi-region/VCF deployment strategies. |
-| Architecture & Design Patterns | L58-L78 | Designing AVS private cloud architecture: network topologies (hub-spoke, internet, on-prem, multi-cloud), storage/vSAN, and reference designs for Citrix, Horizon, GitHub, and Cloud Director. |
-| Limits & Quotas | L79-L88 | Host, cluster, routing, storage, and quota limits for Azure VMware Solution, including planning capacity, deploying/scaling private clouds, and requesting additional host quota. |
-| Security | L89-L102 | Securing AVS: identity/role setup, Defender for Cloud, CMK for vSAN, external IdPs for NSX/vCenter, Trusted Launch/vTPM, service principal/credential management, and security best practices. |
-| Configuration | L103-L153 | Configuring AVS environments: storage/datastores, backup/DR, networking (NSX, HCX, routing, DNS/DHCP), Arc/guest management, logging, security/licensing, and interconnect/topology setup. |
-| Integrations & Coding Patterns | L154-L168 | Configuring AVS integrations: HCX install/migrate, vWAN VPN, internet migration, Traffic Manager/App Gateway protection, VMware Cloud Director/Aria Ops, and connecting AVS to Azure native services. |
+| Troubleshooting | L32-L37 | Diagnosing and resolving Azure VMware Solution deployment and platform issues, including known errors, workarounds, and how to collect logs and open support tickets. |
+| Best Practices | L38-L44 | Best practices for AVS operations: safely maintaining private clouds, optimizing NSX/HCX scale and performance for migrations, and configuring HCX Mobility Optimized Networking. |
+| Decision Making | L45-L57 | Guidance on choosing AVS migration, backup, DR, licensing, reserved instances, HCX options, API Management SKUs, and cross-region/VCF deployment strategies. |
+| Architecture & Design Patterns | L58-L78 | Designing AVS private cloud architecture: network topologies, connectivity (on-prem, VNets, internet), storage/vSAN, multi-cloud/Gen2 links, and patterns for Citrix, Horizon, GitHub, and Cloud Director. |
+| Limits & Quotas | L79-L88 | AVS capacity and quota limits: host/cluster scale, routing architecture limits, external storage planning, deploying/scaling clusters, and requesting/managing host quota. |
+| Security | L89-L102 | Securing Azure VMware Solution: identity and access setup, Defender for Cloud, CMK for vSAN, external identity sources, trusted launch/vTPM, service principals, credential rotation, and hardening guidance. |
+| Configuration | L103-L153 | Configuring AVS environments: storage/datastores, networking (NSX, DHCP/DNS, routing, HCX), backup/DR, Arc/monitoring, security/licensing, and vCenter/management operations. |
+| Integrations & Coding Patterns | L154-L168 | Patterns for integrating AVS with Azure services and networks, configuring HCX and VPNs, enabling migrations, traffic management, monitoring, and app protection for AVS workloads. |
 
 ### Troubleshooting
 | Topic | URL |

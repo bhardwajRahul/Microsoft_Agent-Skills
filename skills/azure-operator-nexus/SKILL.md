@@ -3,7 +3,7 @@ name: azure-operator-nexus
 description: Expert knowledge for Azure Operator Nexus development including configuration, security, troubleshooting, limits & quotas, decision making, integrations & coding patterns, best practices, and deployment. Use when building, debugging, or optimizing Azure Operator Nexus applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-01"
+  generated_at: "2026-02-02"
 ---
 # Azure Operator Nexus Skill
 
@@ -20,14 +20,14 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L32-L77 | Diagnosing and fixing Nexus infrastructure issues: bare metal, storage, Kubernetes, networking, cabling, isolation domains, and VM problems, plus data collection and recovery procedures. |
-| Best Practices | L78-L82 | Guidance on planning, executing, and maintaining Azure Operator Nexus bare metal lifecycle operations, including provisioning, upgrades, maintenance, and decommissioning best practices. |
-| Decision Making | L83-L94 | Guidance on choosing Nexus storage appliances and compute/VM SKUs, aligning software and Kubernetes versions with Nexus releases, and planning upgrades, lifecycles, and supported versions. |
-| Limits & Quotas | L95-L102 | Storage class limits, NFC/CM capacity planning, and technical quotas for Nexus isolation domains and overall Azure Operator Nexus resource usage. |
-| Security | L103-L133 | Securing Nexus fabric, clusters, and VMs: RBAC, managed identities, SSH/serial access, ACLs, break-glass, key/secret rotation, Defender/MDE, vulnerability scanning, and Azure Policy. |
-| Configuration | L134-L197 | Configuring and operating Azure Operator Nexus: ARM templates, cluster/fabric lifecycle, routing/BGP/QoS, isolation domains, observability, Kubernetes settings, VM/storage, and network device management. |
-| Integrations & Coding Patterns | L198-L207 | Managing Nexus network configuration via CLI: IP prefixes, route policies, L2/L3 isolation domains, fabric control, and packet broker/TAP rule setup and operations |
-| Deployment | L208-L217 | Deploying, upgrading, and decommissioning Azure Operator Nexus instances and network fabric using parameterized templates, prevalidation steps, and controlled upgrade strategies. |
+| Troubleshooting | L32-L77 | Diagnosing and fixing Nexus infrastructure issues: bare metal, storage, networking, Kubernetes clusters/pods, connectivity, provisioning, health alerts, and data collection for support. |
+| Best Practices | L78-L82 | Guidance for planning, executing, and maintaining Azure Operator Nexus bare metal lifecycle operations, including provisioning, updates, monitoring, and reliability best practices. |
+| Decision Making | L83-L94 | Guidance on choosing Nexus storage appliances and compute SKUs, planning Kubernetes versions and upgrades, and aligning software/runtime versions with supported Operator Nexus releases. |
+| Limits & Quotas | L95-L102 | Storage class limits, NFC/CM capacity planning, and configuring technical limits/quotas for Nexus isolation domains and overall Azure Operator Nexus deployments. |
+| Security | L103-L133 | Securing Nexus fabric, clusters, and VMs: RBAC, identities, SSH/serial access, ACLs, break-glass, key/secret rotation, Defender/MDE, policy, and cross-subscription permissions. |
+| Configuration | L134-L197 | Configuring and operating Azure Operator Nexus: ARM templates, cluster/fabric lifecycle, routing/BGP/ACLs/QoS, isolation domains, monitoring/metrics/logs, Kubernetes/VM settings, and maintenance workflows. |
+| Integrations & Coding Patterns | L198-L207 | Managing Nexus networking via CLI: IP prefixes, route policies, L2/L3 isolation domains, network fabric operations, and configuring packet broker/TAP rules. |
+| Deployment | L208-L217 | Guides for deploying, upgrading, and decommissioning Azure Operator Nexus: using parameterized templates, fabric/cluster runtime upgrades, PauseAfterRack strategy, and prevalidation steps. |
 
 ### Troubleshooting
 | Topic | URL |

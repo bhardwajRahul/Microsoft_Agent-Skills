@@ -3,7 +3,7 @@ name: azure-backup
 description: Expert knowledge for Azure Backup development including configuration, best practices, troubleshooting, architecture & design patterns, decision making, limits & quotas, security, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Backup applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-01"
+  generated_at: "2026-02-02"
 ---
 # Azure Backup Skill
 
@@ -20,15 +20,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L76 | Diagnosing and fixing Azure Backup errors and performance issues across VMs, databases (SQL, PostgreSQL, MySQL, SAP), AKS, Files/Blobs/Disks, MABS/DPM, agents, vaults, and monitoring. |
-| Best Practices | L77-L88 | Best practices for configuring, backing up, and restoring enterprise workloads (AD, Exchange, SQL Server/Always On, SAP ASE) and Azure VMs using DPM and Azure Backup. |
-| Decision Making | L89-L95 | Guidance on estimating Azure Backup costs, auto-enabling VM backups with Azure Policy, and migrating classic backup alerts to Azure Monitor for monitoring. |
-| Architecture & Design Patterns | L96-L101 | Azure Backup architecture and strategy for SAP HANA on Azure VMs, including components, data flow, backup types, scheduling, retention, and design best practices. |
-| Limits & Quotas | L102-L132 | Backup feature support, regional availability, capacity limits, and retention constraints for Azure Backup across VMs, disks, databases, files, SAP, and reporting. |
-| Security | L133-L175 | Securing Azure Backup: encryption, RBAC and multi-user auth, soft delete and immutability, ransomware/threat detection, private endpoints, and enforcing backup security via Azure Policy. |
-| Configuration | L176-L253 | Configuring Azure Backup and Recovery Services vaults, policies, scripts, networking, and monitoring for VMs, AKS, databases, files, blobs, and SAP HANA using portal, CLI, ARM/Bicep, Terraform. |
-| Integrations & Coding Patterns | L254-L334 | End-to-end scripts and API/CLI/PowerShell patterns to back up, restore, and manage Azure workloads (VMs, AKS, SQL, PostgreSQL, Files, Blobs, Disks, MARS) and integrate backup with other services. |
-| Deployment | L335-L340 | Deploying and updating Microsoft Azure Backup Server (MABS) V3/V4, including silent installation steps and supported protection matrices/workloads for different MABS versions. |
+| Troubleshooting | L33-L76 | Diagnosing and fixing Azure Backup issues across VMs, databases (SQL, PostgreSQL, MySQL, SAP), AKS, Files/Blobs/Disks, MARS/MABS/DPM, performance, monitoring, and backup/restore failures. |
+| Best Practices | L77-L88 | Best practices for backing up and restoring AD, Exchange, SQL (incl. Always On), SAP ASE, and Azure VMs using Azure Backup/DPM, including configuration, preparation, and workload protection. |
+| Decision Making | L89-L95 | Guidance on estimating Azure Backup costs, auto-enabling VM backups with Azure Policy, and migrating classic backup alerts to Azure Monitor. |
+| Architecture & Design Patterns | L96-L101 | Azure Backup architecture and strategy for SAP HANA on Azure VMs, including components, data flow, backup policies, scheduling, retention, and design best practices. |
+| Limits & Quotas | L102-L132 | Backup support matrices, regional support, and limits/quotas for Azure Backup across VMs, disks, databases, files, blobs, AKS, SAP, and retention/restore behaviors. |
+| Security | L133-L175 | Securing Azure Backup: soft delete, immutable vaults, encryption/CMK, RBAC/MUA/Resource Guard, private endpoints, AKS/VM/disks/files policies, ransomware/threat detection, and TLS settings. |
+| Configuration | L176-L253 | Configuring, managing, and monitoring Azure Backup: policies, templates (ARM/Bicep/Terraform/CLI), vaults, alerts, diagnostics, and backup/restore for VMs, AKS, DBs, Files, and Blobs. |
+| Integrations & Coding Patterns | L254-L334 | How to script and automate Azure Backup/restore for VMs, AKS, SQL/PostgreSQL, Files, Blobs, Disks, and MARS using CLI, PowerShell, REST, ARM, Logic Apps, and Defender integrations. |
+| Deployment | L335-L340 | Deploying and configuring Microsoft Azure Backup Server (MABS) V3/V4, including silent installation steps and supported workloads/protection matrices for different MABS versions. |
 
 ### Troubleshooting
 | Topic | URL |

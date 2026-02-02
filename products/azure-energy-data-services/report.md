@@ -10,8 +10,8 @@
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 1
-- **Unchanged**: 49
+- **Updated Pages**: 0
+- **Unchanged**: 50
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-energy-data-services/azure-energy-data-services.csv`
 
@@ -28,11 +28,6 @@
 | *(Unclassified)* | 27 | 54.0% |
 
 ## Changes
-
-### Updated Pages
-
-- [OSDU® services available on Azure Data Manager for Energy](https://learn.microsoft.com/en-us/azure/energy-data-services/osdu-services-on-adme)
-  - Updated: 2025-07-31T22:14:00.000Z → 2026-01-30T18:17:00.000Z
 
 ## Classified Pages
 

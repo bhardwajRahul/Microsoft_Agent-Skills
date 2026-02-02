@@ -3,7 +3,7 @@ name: azure-dev-box
 description: Expert knowledge for Azure Dev Box development including best practices, deployment, configuration, security, decision making, limits & quotas, troubleshooting, and integrations & coding patterns. Use when building, debugging, or optimizing Azure Dev Box applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-01"
+  generated_at: "2026-02-02"
 ---
 # Azure Dev Box Skill
 
@@ -20,14 +20,14 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L32-L39 | Diagnosing and fixing Dev Box connection issues, stale/inaccessible boxes in Windows Task view, known connectivity errors, and using Troubleshoot and Repair tools. |
-| Best Practices | L40-L45 | Guidance for building reliable Dev Box images, troubleshooting image definition issues, and pre-generating Visual Studio caches to speed up developer environments. |
+| Troubleshooting | L32-L39 | Diagnosing and fixing Microsoft Dev Box connection issues, stale/inaccessible boxes in Windows Task view, known connectivity errors, and using Troubleshoot and Repair tools. |
+| Best Practices | L40-L45 | Guidance on creating and maintaining reliable Dev Box images, troubleshooting image issues, and pre-generating Visual Studio caches to speed up developer environments. |
 | Decision Making | L46-L50 | Guidance on when and how to use serverless GPU compute with Azure Dev Box, including scenarios, benefits, limitations, and decision factors for GPU-enabled development workloads. |
-| Limits & Quotas | L51-L56 | Managing Dev Box capacity: viewing/increasing Azure resource quotas and setting per-user Dev Box count/size limits to control usage and costs. |
-| Security | L57-L68 | Securing Dev Boxes: RBAC role planning, access assignment, SSO, REST API auth, Key Vault/service principals, and Intune/Entra conditional access & privilege management. |
-| Configuration | L69-L96 | Configuring Dev Box environments: networking, images, catalogs, pools, projects, policies (auto-stop/delete, hibernation), customization tasks/files, monitoring, and ARM/template-based setup. |
+| Limits & Quotas | L51-L56 | Managing Dev Box capacity and usage: viewing/increasing Azure quotas (cores, networks, images) and setting per-user Dev Box limits to control spend and resource consumption. |
+| Security | L57-L68 | Securing Dev Boxes: RBAC access planning, Entra ID SSO and conditional access, REST API auth, Intune security/privilege policies, and protecting customizations with Key Vault. |
+| Configuration | L69-L96 | End-to-end setup of Dev Box infrastructure: networking, images, catalogs, policies (auto-stop/delete, hibernation), projects/pools, monitoring, ARM/templates, and customization/task schemas. |
 | Integrations & Coding Patterns | L97-L101 | Using VS Code dev tunnels to securely connect to Azure Dev Box, including setup, authentication, and remote development workflow configuration. |
-| Deployment | L102-L105 | Planning and rolling out Microsoft Dev Box in an organization, including architecture, prerequisites, network and identity setup, and step-by-step deployment guidance. |
+| Deployment | L102-L105 | Planning and rolling out Microsoft Dev Box in an organization, including architecture, prerequisites, network and identity setup, and implementation best practices. |
 
 ### Troubleshooting
 | Topic | URL |

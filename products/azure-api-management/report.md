@@ -10,8 +10,8 @@
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 2
-- **Unchanged**: 272
+- **Updated Pages**: 0
+- **Unchanged**: 274
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-api-management/azure-api-management.csv`
 
@@ -31,13 +31,6 @@
 | *(Unclassified)* | 56 | 20.4% |
 
 ## Changes
-
-### Updated Pages
-
-- [Configure a custom domain](https://learn.microsoft.com/en-us/azure/api-management/configure-custom-domain)
-  - Updated: 2025-07-25T08:00:00.000Z → 2026-01-31T06:10:00.000Z
-- [Managed certificates suspension (August 2025 - March 2026)](https://learn.microsoft.com/en-us/azure/api-management/breaking-changes/managed-certificates-suspension-august-2025)
-  - Updated: 2025-07-31T05:11:00.000Z → 2026-01-31T06:10:00.000Z
 
 ## Classified Pages
 

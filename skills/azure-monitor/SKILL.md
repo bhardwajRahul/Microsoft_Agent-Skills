@@ -3,7 +3,7 @@ name: azure-monitor
 description: Expert knowledge for Azure Monitor development including troubleshooting, configuration, deployment, decision making, limits & quotas, security, integrations & coding patterns, best practices, and architecture & design patterns. Use when building, debugging, or optimizing Azure Monitor applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-01"
+  generated_at: "2026-02-02"
 ---
 # Azure Monitor Skill
 
@@ -20,15 +20,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L75 | Diagnosing and fixing Azure Monitor issues: agents, data collection, alerts, logs/metrics, Container insights, Application Insights, ITSM, performance tools, and common error codes. |
-| Best Practices | L76-L108 | Best practices for configuring, scaling, querying, alerting, and cost-optimizing Azure Monitor (logs, metrics, Prometheus, VMs, AKS, Copilot, multicloud) for reliable, efficient observability |
-| Decision Making | L109-L142 | Guidance for choosing Azure Monitor features, alerting and visualization options, and planning migrations (agents, APIs, SCOM, Splunk, Prometheus) with cost and billing optimization. |
+| Troubleshooting | L33-L75 | Diagnosing and fixing Azure Monitor issues: agents, data collection, alerts, autoscale, logs/metrics APIs, Container insights, Application Insights tools, ITSM connectors, and VM performance. |
+| Best Practices | L76-L108 | Best practices for configuring, scaling, querying, and cost-optimizing Azure Monitor (logs, metrics, alerts, autoscale, Prometheus, AKS, VMs, Copilot) for reliable, efficient observability. |
+| Decision Making | L109-L142 | Guidance for choosing Azure Monitor features and planning migrations: agents, alerts, logs, costs, visualization tools, AKS/containers, SCOM/Splunk/Prometheus, and related API transitions. |
 | Architecture & Design Patterns | L143-L153 | Architectural guidance for Azure Monitor: workspace design/replication, managed workspaces, autoscale patterns, network security perimeters, and Private Link integration. |
-| Limits & Quotas | L154-L173 | Limits, quotas, performance, and scaling for Azure Monitor: ingestion caps, timeouts, alert retention, autoscale, container/Prometheus high-scale setups, and Logs/Workbooks query constraints |
-| Security | L174-L207 | Securing Azure Monitor and Log Analytics: RBAC and granular access, Private Link and network isolation, Entra/managed identity auth, CMK/BYOS, secure webhooks, AKS/Prometheus/Grafana integration. |
-| Configuration | L208-L378 | Configuring Azure Monitor data collection, agents, alerts, diagnostics, workspaces, autoscale, Kubernetes/VM monitoring, Application Insights, Prometheus/OpenTelemetry, and related ARM/policy automation. |
-| Integrations & Coding Patterns | L379-L451 | Integrating Azure Monitor with VMs, Prometheus, alerts, webhooks, ITSM, Grafana, APIs, and custom code to ingest, query, export, and visualize metrics, logs, and Application Insights data |
-| Deployment | L452-L481 | Deploying and configuring Azure Monitor/Log Analytics/Application Insights agents, alerts, workbooks, and profilers across VMs, AKS, App Service, containers, and hybrid environments. |
+| Limits & Quotas | L154-L173 | Limits, performance, and scaling for Azure Monitor: ingestion and query caps, latency, autoscale, container/Prometheus high-scale configs, alert retention, and service quotas. |
+| Security | L174-L207 | Securing Azure Monitor and Log Analytics: auth (Entra, managed identity), RBAC and row/table access, Private Link/network isolation, CMK/BYOS, secure webhooks, and protected Prometheus/AKS/Insights access. |
+| Configuration | L208-L378 | Configuring Azure Monitor data collection, agents, alerts, diagnostics, workspaces, autoscale, Kubernetes/Prometheus/App Insights monitoring, and related schemas, policies, and transformations. |
+| Integrations & Coding Patterns | L379-L451 | Integrating Azure Monitor with VMs, Prometheus, alerts, webhooks, ITSM, Grafana, APIs, and custom apps, plus patterns for ingestion, querying, exporting, and transforming metrics/logs. |
+| Deployment | L452-L481 | How to deploy and manage Azure Monitor agents, alerts, workbooks, and Application Insights/Profiler across VMs, AKS, App Service, containers, and regions at scale. |
 
 ### Troubleshooting
 | Topic | URL |

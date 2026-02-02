@@ -3,7 +3,7 @@ name: azure-api-management
 description: Expert knowledge for Azure Api Management development including integrations & coding patterns, limits & quotas, security, decision making, troubleshooting, best practices, configuration, deployment, and architecture & design patterns. Use when building, debugging, or optimizing Azure Api Management applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-01"
+  generated_at: "2026-02-02"
 ---
 # Azure Api Management Skill
 
@@ -20,15 +20,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L42 | Debugging and tracing API calls and policies, handling errors, diagnosing platform issues (SNAT/timeouts, Key Vault certs), and using Diagnose and Solve tools for API Management problems. |
-| Best Practices | L43-L52 | Scaling, throttling, security hardening (OWASP Top 10), SSE setup, and production guidance for self-hosted gateways/dev portals, especially on Kubernetes. |
-| Decision Making | L53-L64 | Guidance on APIM scaling, pricing tiers, cost management, DevOps/CI-CD planning, VNet options, monetization features, and migrating from Amazon API Gateway |
-| Architecture & Design Patterns | L65-L72 | Design patterns for placing APIM behind VNets, App Gateway, Front Door, and AKS, plus guidance on sustainable, efficient gateway architectures and traffic routing. |
-| Limits & Quotas | L73-L91 | Configuring API Management limits: rate/quotas per key, concurrency, LLM/OpenAI token caps, service quotas, schema/response validation, and self-hosted gateway policy constraints. |
-| Security | L92-L125 | Securing API Management and its portals: authN/authZ (Entra ID, B2C, OAuth2, JWT), mTLS and certs, managed identities, CORS, DDoS/Defender, RBAC, compliance, and LLM safety policies. |
-| Configuration | L126-L231 | Configuring Azure API Management behavior: policies (caching, routing, headers, CORS, GraphQL/LLM), imports, domains, networking/VNet, self-hosted gateways, logging/metrics, and workspace updates. |
-| Integrations & Coding Patterns | L232-L264 | Patterns and examples for integrating API Management with LLMs, MCP, SAP, Dapr, Service Bus/Event Hubs/Event Grid, logging/monitoring, portals, and exporting APIs to other tools. |
-| Deployment | L265-L285 | Deploying and recovering APIM: multi-region/zone setups, VNet and Arc, self-hosted gateways (AKS, Docker, Container Apps, Helm/YAML), backups, soft-delete, and dev portal automation/self-hosting |
+| Troubleshooting | L33-L42 | Diagnosing and fixing API Management issues: debugging policies/requests, handling errors, SNAT port/timeouts, Key Vault cert problems, and using Diagnose and Solve tools. |
+| Best Practices | L43-L52 | Best practices for scaling and throttling APIM, securing APIs (OWASP Top 10), configuring SSE, and running/testing self-hosted gateways and developer portals in production. |
+| Decision Making | L53-L64 | Guidance on APIM scaling, pricing tiers, cost management, VNet choices, DevOps/CI/CD planning, monetization features, and migrating from Amazon API Gateway. |
+| Architecture & Design Patterns | L65-L72 | Architectural patterns for placing APIM behind VNets, App Gateway, Front Door, and AKS, plus design guidance for sustainable, efficient API gateway deployments. |
+| Limits & Quotas | L73-L91 | Configuring and enforcing API Management limits: rate/quotas per key, concurrency, OpenAI/LLM token caps, service quotas, gateway limits, and request/response/schema validation. |
+| Security | L92-L125 | Securing API Management and its portals: authN/Z (Entra ID, B2C, OAuth2, JWT), certs and mTLS, managed identities, CORS, DDoS/Defender, compliance, and LLM content safety. |
+| Configuration | L126-L231 | Configuring Azure API Management behavior: policies, caching (incl. LLM/semantic), networking/VNet, domains, logging/metrics, gateways, GraphQL/gRPC/SOAP imports, and workspace/update settings. |
+| Integrations & Coding Patterns | L232-L264 | Patterns and examples for integrating APIM with LLMs, MCP, SAP, Dapr, Service Bus/Event Hubs/Event Grid, App Insights, portals, and external backends, plus export tools (Postman, Power Platform). |
+| Deployment | L265-L285 | Deploying APIM across regions and networks, using self-hosted gateways (K8s, Docker, Arc, AKS, Container Apps), enabling DR/backup/restore, availability zones, and automating/migrating instances and portals |
 
 ### Troubleshooting
 | Topic | URL |
