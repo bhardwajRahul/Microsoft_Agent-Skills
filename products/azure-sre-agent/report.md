@@ -22,8 +22,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 1
-- **Unchanged**: 24
+- **Updated Pages**: 0
+- **Unchanged**: 25
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-sre-agent/azure-sre-agent.csv`
 
@@ -38,11 +38,6 @@ category_descriptions:
 | *(Unclassified)* | 11 | 44.0% |
 
 ## Changes
-
-### Updated Pages
-
-- [Connect to external services](https://learn.microsoft.com/en-us/azure/sre-agent/connectors)
-  - Updated: 2025-11-18T17:01:00.000Z → 2026-02-04T06:14:00.000Z
 
 ## Classified Pages
 

@@ -34,10 +34,10 @@ category_descriptions:
 - **Unclassified**: 13
 
 ### Incremental Update
-- **New Pages**: 2
-- **Updated Pages**: 2
-- **Unchanged**: 54
-- **Deleted Pages**: 4
+- **New Pages**: 0
+- **Updated Pages**: 0
+- **Unchanged**: 58
+- **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-redis/azure-redis.csv`
 
 ## Classification Statistics
@@ -55,25 +55,6 @@ category_descriptions:
 | *(Unclassified)* | 13 | 22.4% |
 
 ## Changes
-
-### New Pages
-
-- [.NET app](https://learn.microsoft.com/en-us/azure/redis/dotnet)
-- [ASP.NET app](https://learn.microsoft.com/en-us/azure/redis/aspnet)
-
-### Updated Pages
-
-- [Development FAQs](https://learn.microsoft.com/en-us/azure/redis/development-faq)
-  - Updated: 2025-08-27T22:22:00Z → 2026-02-01T12:13:00Z
-- [Client libraries best practices](https://learn.microsoft.com/en-us/azure/redis/best-practices-client-libraries)
-  - Updated: 2025-11-25T23:25:00.000Z → 2026-02-01T12:13:00.000Z
-
-### Deleted Pages
-
-- ~~.NET Core app~~ (https://learn.microsoft.com/en-us/azure/redis/dotnet-core-quickstart)
-- ~~.NET app~~ (https://learn.microsoft.com/en-us/azure/redis/dotnet-how-to-use-azure-redis-cache)
-- ~~ASP.NET Core app~~ (https://learn.microsoft.com/en-us/azure/redis/web-app-aspnet-core-howto)
-- ~~ASP.NET app~~ (https://learn.microsoft.com/en-us/azure/redis/web-app-cache-howto)
 
 ## Classified Pages
 

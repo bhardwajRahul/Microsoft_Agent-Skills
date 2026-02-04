@@ -28,8 +28,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 1
-- **Unchanged**: 46
+- **Updated Pages**: 0
+- **Unchanged**: 47
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-operator-service-manager/azure-operator-service-manager.csv`
 
@@ -45,11 +45,6 @@ category_descriptions:
 | *(Unclassified)* | 20 | 42.6% |
 
 ## Changes
-
-### Updated Pages
-
-- [Azure Operator Service Manager Release Notes](https://learn.microsoft.com/en-us/azure/operator-service-manager/release-notes)
-  - Updated: 2025-10-23T22:10:00.000Z → 2026-02-03T23:16:00.000Z
 
 ## Classified Pages
 

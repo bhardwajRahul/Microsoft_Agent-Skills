@@ -38,9 +38,9 @@ category_descriptions:
 - **Unclassified**: 58
 
 ### Incremental Update
-- **New Pages**: 24
+- **New Pages**: 0
 - **Updated Pages**: 0
-- **Unchanged**: 120
+- **Unchanged**: 144
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-migrate/azure-migrate.csv`
 
@@ -60,30 +60,6 @@ category_descriptions:
 | *(Unclassified)* | 58 | 40.3% |
 
 ## Changes
-
-### New Pages
-
-- [Assessment](https://learn.microsoft.com/en-us/azure/migrate/common-questions-discovery-assessment?view=migrate)
-- [Business case](https://learn.microsoft.com/en-us/azure/migrate/common-questions-business-case?view=migrate)
-- [Migration and modernization tool](https://learn.microsoft.com/en-us/azure/migrate/common-questions-server-migration?view=migrate)
-- [Azure Policy built-ins](https://learn.microsoft.com/en-us/azure/migrate/policy-reference?view=migrate)
-- [Manage projects](https://learn.microsoft.com/en-us/azure/migrate/create-manage-projects?view=migrate)
-- [Work with previous version of Azure Migrate](https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview?view=migrate)
-- [Onboard on-premises servers in VMware virtual environment to Azure Arc](https://learn.microsoft.com/en-us/azure/migrate/onboard-to-azure-arc-with-azure-migrate?view=migrate)
-- [Troubleshoot Azure Migrate projects](https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-project?view=migrate)
-- [Azure Migrate in unsupported regions](https://learn.microsoft.com/en-us/azure/migrate/azure-migrate-unsupported-regions?view=migrate)
-- [Troubleshoot Azure Migrate appliance](https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-appliance?view=migrate)
-- [Action Center](https://learn.microsoft.com/en-us/azure/migrate/centralized-issue-tracking?view=migrate)
-- [Server discovery](https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-discovery?view=migrate)
-- [Troubleshoot dependency visualization](https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-dependencies?view=migrate)
-- [Common Issues](https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-assessment?view=migrate)
-- [Supported Scenarios](https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-assessment-supported-scenarios?view=migrate)
-- [Replication in agentless VMware migration](https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-changed-block-tracking-replication?view=migrate)
-- [Stuck replication and slow migration in agentless VMware](https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-replication-vmware?view=migrate)
-- [Web app migration issues](https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-webapps-migration?view=migrate)
-- [Windows OS upgrade issues](https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-upgrade?view=migrate)
-- [General](https://learn.microsoft.com/en-us/azure/migrate/resources-faq?view=migrate)
-- *...and 4 more*
 
 ## Classified Pages
 

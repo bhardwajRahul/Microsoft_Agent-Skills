@@ -41,8 +41,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 2
-- **Unchanged**: 391
+- **Updated Pages**: 0
+- **Unchanged**: 393
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-backup/azure-backup.csv`
 
@@ -62,13 +62,6 @@ category_descriptions:
 | *(Unclassified)* | 118 | 30.0% |
 
 ## Changes
-
-### Updated Pages
-
-- [Back up Confidential VMs](https://learn.microsoft.com/en-us/azure/backup/confidential-vm-backup)
-  - Updated: 2026-02-03T06:44:00.000Z → 2026-02-04T06:14:00.000Z
-- [Restore Confidential VMs](https://learn.microsoft.com/en-us/azure/backup/confidential-vm-restore)
-  - Updated: 2026-02-03T06:44:00.000Z → 2026-02-04T06:14:00.000Z
 
 ## Classified Pages
 

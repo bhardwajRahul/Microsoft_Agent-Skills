@@ -42,7 +42,7 @@ category_descriptions:
 - **New Pages**: 0
 - **Updated Pages**: 0
 - **Unchanged**: 425
-- **Deleted Pages**: 2
+- **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-hdinsight/azure-hdinsight.csv`
 
 ## Classification Statistics
@@ -61,11 +61,6 @@ category_descriptions:
 | *(Unclassified)* | 108 | 25.4% |
 
 ## Changes
-
-### Deleted Pages
-
-- ~~Connect Excel to Apache Hadoop~~ (https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-connect-excel-hive-odbc-driver)
-- ~~Query Hive with PowerShell and ODBC~~ (https://learn.microsoft.com/en-us/azure/hdinsight/interactive-query/apache-hive-query-odbc-driver-powershell)
 
 ## Classified Pages
 

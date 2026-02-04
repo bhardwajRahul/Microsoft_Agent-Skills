@@ -39,8 +39,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 2
-- **Unchanged**: 272
+- **Updated Pages**: 0
+- **Unchanged**: 274
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-api-management/azure-api-management.csv`
 
@@ -60,13 +60,6 @@ category_descriptions:
 | *(Unclassified)* | 56 | 20.4% |
 
 ## Changes
-
-### Updated Pages
-
-- [Backends](https://learn.microsoft.com/en-us/azure/api-management/backends)
-  - Updated: 2025-11-20T08:00:00.000Z → 2026-01-15T08:00:00.000Z
-- [Policy expressions](https://learn.microsoft.com/en-us/azure/api-management/api-management-policy-expressions)
-  - Updated: 2023-03-14T00:00:00.000Z → 2026-01-15T08:00:00.000Z
 
 ## Classified Pages
 

@@ -40,9 +40,9 @@ category_descriptions:
 - **Unclassified**: 156
 
 ### Incremental Update
-- **New Pages**: 6
-- **Updated Pages**: 6
-- **Unchanged**: 714
+- **New Pages**: 0
+- **Updated Pages**: 0
+- **Unchanged**: 726
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-virtual-machines/azure-virtual-machines.csv`
 
@@ -62,30 +62,6 @@ category_descriptions:
 | *(Unclassified)* | 156 | 21.5% |
 
 ## Changes
-
-### New Pages
-
-- [Dsv7 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dsv7-series)
-- [Dlsv7 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dlsv7-series)
-- [Dldsv7 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dldsv7-series)
-- [Ddsv7 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/ddsv7-series)
-- [Esv7 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/esv7-series)
-- [Edsv7 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/edsv7-series)
-
-### Updated Pages
-
-- [Overview](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/d-family)
-  - Updated: 2025-09-09T05:03:00.000Z → 2026-02-03T23:04:00.000Z
-- [Overview](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/e-family)
-  - Updated: 2025-09-09T05:03:00.000Z → 2026-02-03T23:04:00.000Z
-- [Generalizing a VM](https://learn.microsoft.com/en-us/azure/virtual-machines/generalize)
-  - Updated: 2025-12-02T06:02:00.000Z → 2026-02-02T23:02:00.000Z
-- [Capture a legacy managed image](https://learn.microsoft.com/en-us/azure/virtual-machines/capture-image-resource)
-  - Updated: 2026-01-20T23:03:00.000Z → 2026-02-02T23:02:00.000Z
-- [Disk types](https://learn.microsoft.com/en-us/azure/virtual-machines/disks-types)
-  - Updated: 2025-11-06T08:00:00.000Z → 2026-02-03T06:03:00.000Z
-- [Understand Disk Storage billing](https://learn.microsoft.com/en-us/azure/virtual-machines/disks-understand-billing)
-  - Updated: 2025-11-03T22:03:00.000Z → 2026-02-03T06:03:00.000Z
 
 ## Classified Pages
 

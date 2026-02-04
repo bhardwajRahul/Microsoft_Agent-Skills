@@ -40,9 +40,9 @@ category_descriptions:
 - **Unclassified**: 152
 
 ### Incremental Update
-- **New Pages**: 160
+- **New Pages**: 0
 - **Updated Pages**: 0
-- **Unchanged**: 372
+- **Unchanged**: 532
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-machine-learning/azure-machine-learning.csv`
 
@@ -62,30 +62,6 @@ category_descriptions:
 | *(Unclassified)* | 152 | 28.6% |
 
 ## Changes
-
-### New Pages
-
-- [Deploy ML pipelines (Python)](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-deploy-pipelines?view=azureml-api-1)
-- [Use Azure Synapse Apache spark pools in an ML pipeline (Python)](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-use-synapsesparkstep?view=azureml-api-1)
-- [Trigger a pipeline](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-trigger-published-pipeline?view=azureml-api-1)
-- [Convert notebook code into Python scripts](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-convert-ml-experiment-to-production?view=azureml-api-1)
-- [Endpoints for inferencing](https://learn.microsoft.com/en-us/azure/machine-learning/concept-endpoints?view=azureml-api-2)
-- [Deploy serverless API endpoints](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-deploy-models-serverless?view=azureml-api-2)
-- [Consume serverless API endpoints from a different workspace](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-connect-models-serverless?view=azureml-api-2)
-- [Region availability for models in Serverless API endpoints](https://learn.microsoft.com/en-us/azure/machine-learning/concept-endpoint-serverless-availability?view=azureml-api-2)
-- [Online endpoints](https://learn.microsoft.com/en-us/azure/machine-learning/concept-endpoints-online?view=azureml-api-2)
-- [Model specification for online deployment](https://learn.microsoft.com/en-us/azure/machine-learning/concept-online-deployment-model-specification?view=azureml-api-2)
-- [Deploy a model to an online endpoint](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-deploy-online-endpoints?view=azureml-api-2)
-- [Deploy models with safe rollout strategy](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-safely-rollout-online-endpoints?view=azureml-api-2)
-- [Autoscale online endpoints](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-autoscale-endpoints?view=azureml-api-2)
-- [Managed online endpoints VM SKU list](https://learn.microsoft.com/en-us/azure/machine-learning/reference-managed-online-endpoints-vm-sku-list?view=azureml-api-2)
-- [Viewing managed online endpoint costs](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-view-online-endpoints-costs?view=azureml-api-2)
-- [Monitor online endpoints](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-monitor-online-endpoints?view=azureml-api-2)
-- [Debug online endpoints locally VS Code](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-debug-managed-online-endpoints-visual-studio-code?view=azureml-api-2)
-- [Debug scoring scripts with inference HTTP server](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-inference-server-http?view=azureml-api-2)
-- [Troubleshoot online endpoints](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-troubleshoot-online-endpoints?view=azureml-api-2)
-- [Use a custom container to deploy a model to an online endpoint](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-deploy-custom-container?view=azureml-api-2)
-- *...and 140 more*
 
 ## Classified Pages
 

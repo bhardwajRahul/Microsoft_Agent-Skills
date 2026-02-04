@@ -41,8 +41,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 1
-- **Unchanged**: 381
+- **Updated Pages**: 0
+- **Unchanged**: 382
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-synapse-analytics/azure-synapse-analytics.csv`
 
@@ -62,11 +62,6 @@ category_descriptions:
 | *(Unclassified)* | 132 | 34.6% |
 
 ## Changes
-
-### Updated Pages
-
-- [Azure SQL and SQL Server](https://learn.microsoft.com/en-us/azure/synapse-analytics/spark/data-sources/apache-spark-sql-connector)
-  - Updated: 2025-02-14T05:31:00.000Z → 2026-02-04T06:14:00.000Z
 
 ## Classified Pages
 

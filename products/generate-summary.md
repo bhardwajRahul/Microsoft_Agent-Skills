@@ -1,7 +1,7 @@
 # Generation Summary
 
-**Generated**: 2026-02-04 09:59:47
-**Total Duration**: 25m 30s
+**Generated**: 2026-02-04 10:28:59
+**Total Duration**: 10m 14s
 
 ## Product Crawl Summary
 
@@ -10,13 +10,13 @@ Quick overview for reviewers. See individual product reports for details.
 | # | Product | Pages | Classified | New | Updated | Deleted | Status |
 |---|---------|-------|------------|-----|---------|---------|--------|
 | 1 | Azure Api Center | 35 | 16 | 0 | 0 | 0 | ✓ |
-| 2 | Azure Api Management | 274 | 218 | 0 | 2 | 0 | ✓ |
+| 2 | Azure Api Management | 274 | 218 | 0 | 0 | 0 | ✓ |
 | 3 | Azure Avere Vfxt | 20 | 13 | 0 | 0 | 0 | ✓ |
 | 4 | Azure App Configuration | 158 | 130 | 0 | 0 | 0 | ✓ |
 | 5 | Azure App Service | 246 | 150 | 0 | 0 | 0 | ✓ |
 | 6 | Azure Static Web Apps | 79 | 57 | 0 | 0 | 0 | ✓ |
 | 7 | Azure Application Gateway | 136 | 84 | 0 | 0 | 0 | ✓ |
-| 8 | Azure Synapse Analytics | 382 | 250 | 0 | 1 | 0 | ✓ |
+| 8 | Azure Synapse Analytics | 382 | 250 | 0 | 0 | 0 | ✓ |
 | 9 | Azure Automation | 115 | 74 | 0 | 0 | 0 | ✓ |
 | 10 | Azure Update Center | 49 | 26 | 0 | 0 | 0 | ✓ |
 | 11 | Azure Internet Peering | 23 | 1 | 0 | 0 | 0 | ✓ |
@@ -36,24 +36,24 @@ Quick overview for reviewers. See individual product reports for details.
 | 25 | Azure Partner Solutions | 80 | 19 | 0 | 0 | 0 | ✓ |
 | 26 | Azure Signalr | 73 | 56 | 0 | 0 | 0 | ✓ |
 | 27 | Azure Baremetal Infrastructure | 8 | 1 | 0 | 0 | 0 | ✓ |
-| 28 | Azure Backup | 393 | 275 | 0 | 2 | 0 | ✓ |
+| 28 | Azure Backup | 393 | 275 | 0 | 0 | 0 | ✓ |
 | 29 | Azure Batch | 114 | 79 | 0 | 0 | 0 | ✓ |
 | 30 | Azure Biztalk Services | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 31 | Azure Bot Service | 190 | 132 | 0 | 0 | 0 | ✓ |
 | 32 | Azure Cache | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 33 | Azure Sap | 202 | 168 | 0 | 0 | 0 | ✓ |
-| 34 | Azure Ai Services | 383 | 260 | 0 | 5 | 0 | ✓ |
+| 34 | Azure Ai Services | 383 | 260 | 0 | 0 | 0 | ✓ |
 | 35 | Azure Communication Services | 515 | 380 | 0 | 0 | 0 | ✓ |
 | 36 | Azure Container Apps | 193 | 116 | 0 | 0 | 0 | ✓ |
 | 37 | Azure Cyclecloud | 110 | 84 | 0 | 0 | 0 | ✓ |
-| 38 | Azure Storage | 521 | 385 | 0 | 18 | 1 | ✓ |
+| 38 | Azure Storage | 521 | 385 | 0 | 0 | 0 | ✓ |
 | 39 | Azure Data Factory | 538 | 436 | 0 | 0 | 0 | ✓ |
 | 40 | Azure Energy Data Services | 50 | 23 | 0 | 0 | 0 | ✓ |
 | 41 | Azure Data Manager For Agri | 26 | 12 | 0 | 0 | 0 | ✓ |
 | 42 | Azure Devtest Labs | 98 | 69 | 0 | 0 | 0 | ✓ |
 | 43 | Azure Governance | 212 | 152 | 0 | 0 | 0 | ✓ |
 | 44 | Azure Guidance | 364 | 264 | 0 | 0 | 0 | ✓ |
-| 45 | Azure Hdinsight | 425 | 317 | 0 | 0 | 2 | ✓ |
+| 45 | Azure Hdinsight | 425 | 317 | 0 | 0 | 0 | ✓ |
 | 46 | Azure Healthcare Apis | 210 | 133 | 0 | 0 | 0 | ✓ |
 | 47 | Azure Health Insights | 39 | 11 | 0 | 0 | 0 | ✓ |
 | 48 | Azure Jenkins | 13 | 12 | 0 | 0 | 0 | ✓ |
@@ -61,9 +61,9 @@ Quick overview for reviewers. See individual product reports for details.
 | 50 | Azure Business Process Tracking | 6 | 3 | 0 | 0 | 0 | ✓ |
 | 51 | Azure Integration Environments | 4 | 0 | 0 | 0 | 0 | ✓ |
 | 52 | Azure Logic Apps | 200 | 140 | 0 | 0 | 0 | ✓ |
-| 53 | Azure Machine Learning | 532 | 380 | 160 | 0 | 0 | ✓ |
+| 53 | Azure Machine Learning | 532 | 380 | 0 | 0 | 0 | ✓ |
 | 54 | Azure Messaging Services | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 55 | Azure Migrate | 144 | 86 | 24 | 0 | 0 | ✓ |
+| 55 | Azure Migrate | 144 | 86 | 0 | 0 | 0 | ✓ |
 | 56 | Azure Mobile Services | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 57 | Azure Networking | 22 | 12 | 0 | 0 | 0 | ✓ |
 | 58 | Azure Network Function Manager | 8 | 1 | 0 | 0 | 0 | ✓ |
@@ -75,33 +75,33 @@ Quick overview for reviewers. See individual product reports for details.
 | 64 | Azure Security | 111 | 43 | 0 | 0 | 0 | ✓ |
 | 65 | Azure Site Recovery | 202 | 126 | 0 | 0 | 0 | ✓ |
 | 66 | Azure Site Reliability Engineering | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 67 | Azure Sql | 583 | 434 | 205 | 0 | 0 | ✓ |
+| 67 | Azure Sql | 583 | 434 | 0 | 0 | 0 | ✓ |
 | 68 | Azure Sql Server Stretch Database | 583 | 423 | 0 | 0 | 0 | ✓ |
-| 69 | Azure Sre Agent | 25 | 14 | 0 | 1 | 0 | ✓ |
+| 69 | Azure Sre Agent | 25 | 14 | 0 | 0 | 0 | ✓ |
 | 70 | Azure Stream Analytics | 168 | 105 | 0 | 0 | 0 | ✓ |
-| 71 | Azure Virtual Machines | 726 | 570 | 6 | 6 | 0 | ✓ |
+| 71 | Azure Virtual Machines | 726 | 570 | 0 | 0 | 0 | ✓ |
 | 72 | Azure Confidential Computing | 69 | 39 | 0 | 0 | 0 | ✓ |
-| 73 | Azure Virtual Desktop | 147 | 114 | 0 | 1 | 0 | ✓ |
-| 74 | Azure Cost Management Billing | 262 | 167 | 40 | 0 | 0 | ✓ |
+| 73 | Azure Virtual Desktop | 147 | 114 | 0 | 0 | 0 | ✓ |
+| 74 | Azure Cost Management Billing | 262 | 167 | 0 | 0 | 0 | ✓ |
 | 75 | Azure Devtest | 12 | 3 | 0 | 0 | 0 | ✓ |
 | 76 | Azure Service Connector | 63 | 36 | 0 | 0 | 0 | ✓ |
 | 77 | Azure App Testing | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 78 | Azure Playwright Testing | 22 | 17 | 0 | 0 | 0 | ✓ |
-| 79 | Azure Spring Apps | 152 | 118 | 32 | 0 | 0 | ✓ |
+| 79 | Azure Spring Apps | 152 | 118 | 0 | 0 | 0 | ✓ |
 | 80 | Azure Dev Box | 65 | 43 | 0 | 0 | 0 | ✓ |
 | 81 | Azure Deployment Environments | 32 | 21 | 0 | 0 | 0 | ✓ |
-| 82 | Azure Operator Nexus | 208 | 156 | 1 | 3 | 0 | ✓ |
-| 83 | Azure Operator Service Manager | 47 | 27 | 0 | 1 | 0 | ✓ |
-| 84 | Azure Redis | 58 | 45 | 2 | 2 | 4 | ✓ |
+| 82 | Azure Operator Nexus | 208 | 156 | 0 | 0 | 0 | ✓ |
+| 83 | Azure Operator Service Manager | 47 | 27 | 0 | 0 | 0 | ✓ |
+| 84 | Azure Redis | 58 | 45 | 0 | 0 | 0 | ✓ |
 
 ### Totals
 
 - **Products Processed**: 84 success, 0 failed
 - **Total Pages**: 13272
 - **Total Classified**: 9406
-- **Total New Pages**: 470
-- **Total Updated Pages**: 42
-- **Total Deleted Pages**: 7
+- **Total New Pages**: 0
+- **Total Updated Pages**: 0
+- **Total Deleted Pages**: 0
 
 ### Classification by Type (All Products)
 

@@ -41,8 +41,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 5
-- **Unchanged**: 378
+- **Updated Pages**: 0
+- **Unchanged**: 383
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-ai-services/azure-ai-services.csv`
 
@@ -62,19 +62,6 @@ category_descriptions:
 | *(Unclassified)* | 123 | 32.1% |
 
 ## Changes
-
-### Updated Pages
-
-- [Azure OpenAI FAQ](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/faq?view=foundry-classic)
-  - Updated: 2026-01-05T18:12:00Z → 2026-02-04T06:04:00Z
-- [Foundry Models FAQ](https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/faq?view=foundry-classic)
-  - Updated: 2025-12-31T23:04:00Z → 2026-02-04T06:04:00Z
-- [Service monitoring](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/metrics?view=foundry-classic)
-  - Updated: 2026-01-23T23:20:00.000Z → 2026-02-04T06:04:00.000Z
-- [Vision fine-tuning](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/fine-tuning-vision?view=foundry-classic)
-  - Updated: 2025-11-26T08:00:00.000Z → 2026-02-04T06:04:00.000Z
-- [Foundry (classic) FAQ](https://learn.microsoft.com/en-us/azure/ai-foundry/faq?view=foundry-classic)
-  - Updated: 2026-01-23T23:20:00Z → 2026-02-04T06:04:00Z
 
 ## Classified Pages
 

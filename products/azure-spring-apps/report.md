@@ -38,9 +38,9 @@ category_descriptions:
 - **Unclassified**: 34
 
 ### Incremental Update
-- **New Pages**: 32
+- **New Pages**: 0
 - **Updated Pages**: 0
-- **Unchanged**: 120
+- **Unchanged**: 152
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-spring-apps/azure-spring-apps.csv`
 
@@ -60,30 +60,6 @@ category_descriptions:
 | *(Unclassified)* | 34 | 22.4% |
 
 ## Changes
-
-### New Pages
-
-- [Self-diagnose running in virtual networks](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-self-diagnose-running-in-vnet)
-- [Troubleshoot common issues](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/troubleshoot)
-- [Troubleshoot common exit code issues](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/troubleshoot-exit-code)
-- [Capture heap/thread dump and use JFR](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-capture-dumps)
-- [Use JVM options for troubleshooting](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-dump-jvm-options)
-- [Connect to an app instance for troubleshooting](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-connect-to-app-instance-for-troubleshooting)
-- [Debug your apps remotely](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-remote-debugging-app-instance)
-- [Migrate Standard and Basic to Enterprise](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-migrate-standard-tier-to-enterprise-tier)
-- [API breaking changes](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/breaking-changes)
-- [Resources](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/resources)
-- [Frequently asked questions](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/faq)
-- [Azure Policy built-ins](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/policy-reference)
-- [Expose applications to the internet with end-to-end TLS/SSL](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/expose-apps-gateway-end-to-end-tls)
-- [Configure Palo Alto](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-configure-palo-alto)
-- [Control egress traffic for an Azure Spring Apps instance](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-create-user-defined-route-instance)
-- [Customize the ingress configuration in Azure Spring Apps](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-configure-ingress)
-- [Customer responsibilities running Azure Spring Apps in a virtual network](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/vnet-customer-responsibilities)
-- [Troubleshooting Azure Spring Apps in virtual networks](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/troubleshooting-vnet)
-- [Map DNS names to applications in multiple Azure Spring Apps service instances in the same virtual network](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-map-dns-virtual-network)
-- [Flush DNS settings changes](https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/how-to-use-flush-dns-settings)
-- *...and 12 more*
 
 ## Classified Pages
 

@@ -37,9 +37,9 @@ category_descriptions:
 - **Unclassified**: 95
 
 ### Incremental Update
-- **New Pages**: 40
+- **New Pages**: 0
 - **Updated Pages**: 0
-- **Unchanged**: 222
+- **Unchanged**: 262
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-cost-management-billing/azure-cost-management-billing.csv`
 
@@ -58,30 +58,6 @@ category_descriptions:
 | *(Unclassified)* | 95 | 36.3% |
 
 ## Changes
-
-### New Pages
-
-- [Troubleshoot common errors](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/cost-management-error-codes)
-- [Estimate costs with the Azure pricing calculator](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/pricing-calculator)
-- [Cost reporting and analytics overview](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/reporting-get-started)
-- [Start analyzing costs](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis)
-- [Use built-in views](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/cost-analysis-built-in-views)
-- [View Kubernetes costs](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/view-kubernetes-costs)
-- [Customize views](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/customize-cost-analysis-views)
-- [Save and share customized views](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/save-share-views)
-- [Use cost analysis for common tasks](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/cost-analysis-common-uses)
-- [Analyze Azure costs with the Power BI template app](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/analyze-cost-data-azure-cost-management-power-bi-template-app)
-- [Group and filter options in Cost analysis](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/group-filter)
-- [Create and manage budgets](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets)
-- [Create a budget - Bicep](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/quick-create-budget-bicep)
-- [Create a budget - ARM template](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/quick-create-budget-template)
-- [Use cost alerts](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending)
-- [Reservation utilization alerts](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/reservation-utilization-alerts)
-- [Act on recommendations](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations)
-- [Cost allocation overview](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/cost-allocation-introduction)
-- [Group and allocate costs using tag inheritance](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/enable-tag-inheritance)
-- [Apply billing tags](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/billing-tags)
-- *...and 20 more*
 
 ## Classified Pages
 

@@ -41,9 +41,9 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 18
-- **Unchanged**: 503
-- **Deleted Pages**: 1
+- **Updated Pages**: 0
+- **Unchanged**: 521
+- **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-storage/azure-storage.csv`
 
 ## Classification Statistics
@@ -62,49 +62,6 @@ category_descriptions:
 | *(Unclassified)* | 136 | 26.1% |
 
 ## Changes
-
-### Updated Pages
-
-- [Host keys (SFTP) support](https://learn.microsoft.com/en-us/azure/storage/blobs/secure-file-transfer-protocol-host-keys)
-  - Updated: 2025-01-27T08:00:00.000Z → 2026-02-02T18:12:00.000Z
-- [Migrate files between Azure file shares](https://learn.microsoft.com/en-us/azure/storage/files/migrate-files-between-shares)
-  - Updated: 2025-12-19T23:19:00.000Z → 2026-02-03T18:20:00.000Z
-- [Understand performance](https://learn.microsoft.com/en-us/azure/storage/files/understand-performance)
-  - Updated: 2025-04-11T05:10:00.000Z → 2026-02-03T08:00:00.000Z
-- [Monitor Azure Files](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-monitoring)
-  - Updated: 2024-05-10T08:00:00.000Z → 2026-02-03T23:16:00.000Z
-- [Analyze metrics](https://learn.microsoft.com/en-us/azure/storage/files/analyze-files-metrics)
-  - Updated: 2025-03-28T05:11:00.000Z → 2026-02-03T08:00:00.000Z
-- [Create alerts](https://learn.microsoft.com/en-us/azure/storage/files/files-monitoring-alerts)
-  - Updated: 2025-03-30T05:20:00.000Z → 2026-02-03T08:00:00.000Z
-- [Monitoring Files data reference](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-monitoring-reference)
-  - Updated: 2024-08-20T05:41:00.000Z → 2026-02-03T23:16:00.000Z
-- [Install Azure File Sync agent extension on Arc-enabled Windows Servers](https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-extension)
-  - Updated: 2025-06-20T22:12:00.000Z → 2026-02-03T08:00:00.000Z
-- [Understand billing](https://learn.microsoft.com/en-us/azure/storage/container-storage/container-storage-billing)
-  - Updated: 2025-09-10T22:40:00.000Z → 2026-02-03T23:16:00.000Z
-- [FAQ](https://learn.microsoft.com/en-us/azure/storage/container-storage/container-storage-faq)
-  - Updated: 2025-10-21T05:11:00.000Z → 2026-02-03T23:16:00.000Z
-- [Use with Azure Elastic SAN](https://learn.microsoft.com/en-us/azure/storage/container-storage/use-container-storage-with-elastic-san)
-  - Updated: 2025-09-10T22:40:00.000Z → 2026-02-03T23:16:00.000Z
-- [Use volume snapshot and restore](https://learn.microsoft.com/en-us/azure/storage/container-storage/volume-snapshot-restore)
-  - Updated: 2025-09-10T22:40:00.000Z → 2026-02-03T23:16:00.000Z
-- [Expand a persistent volume](https://learn.microsoft.com/en-us/azure/storage/container-storage/resize-volume)
-  - Updated: 2025-09-10T22:40:00.000Z → 2026-02-03T23:16:00.000Z
-- [Enable multi-zone storage redundancy](https://learn.microsoft.com/en-us/azure/storage/container-storage/enable-multi-zone-redundancy)
-  - Updated: 2025-09-10T22:40:00.000Z → 2026-02-03T23:16:00.000Z
-- [What is Azure Container Storage?](https://learn.microsoft.com/en-us/azure/storage/container-storage/container-storage-introduction)
-  - Updated: 2025-10-30T05:16:00.000Z → 2026-02-03T23:16:00.000Z
-- [Install Azure Container Storage on AKS](https://learn.microsoft.com/en-us/azure/storage/container-storage/install-container-storage-aks)
-  - Updated: 2026-01-09T18:19:00.000Z → 2026-02-03T23:16:00.000Z
-- [Remove Azure Container Storage](https://learn.microsoft.com/en-us/azure/storage/container-storage/remove-container-storage)
-  - Updated: 2026-01-09T18:19:00.000Z → 2026-02-03T23:16:00.000Z
-- [Release notes for Azure Container Storage](https://learn.microsoft.com/en-us/azure/storage/container-storage/container-storage-release-notes)
-  - Updated: 2025-09-15T22:11:00.000Z → 2026-01-30T08:00:00.000Z
-
-### Deleted Pages
-
-- ~~Deploy BlobFuse v1 on Linux~~ (https://learn.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux)
 
 ## Classified Pages
 

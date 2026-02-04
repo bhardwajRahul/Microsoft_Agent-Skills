@@ -40,8 +40,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 1
-- **Unchanged**: 146
+- **Updated Pages**: 0
+- **Unchanged**: 147
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-virtual-desktop/azure-virtual-desktop.csv`
 
@@ -61,11 +61,6 @@ category_descriptions:
 | *(Unclassified)* | 33 | 22.4% |
 
 ## Changes
-
-### Updated Pages
-
-- [Azure Virtual Desktop](https://learn.microsoft.com/en-us/azure/virtual-desktop/whats-new)
-  - Updated: 2025-08-05T08:00:00.000Z → 2026-02-03T08:00:00.000Z
 
 ## Classified Pages
 

@@ -37,9 +37,9 @@ category_descriptions:
 - **Unclassified**: 52
 
 ### Incremental Update
-- **New Pages**: 1
-- **Updated Pages**: 3
-- **Unchanged**: 204
+- **New Pages**: 0
+- **Updated Pages**: 0
+- **Unchanged**: 208
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-operator-nexus/azure-operator-nexus.csv`
 
@@ -58,19 +58,6 @@ category_descriptions:
 | *(Unclassified)* | 52 | 25.0% |
 
 ## Changes
-
-### New Pages
-
-- [How to Configure Network TAP Rules with User Assigned Managed Identity (UAMI) in Azure Operator Nexus](https://learn.microsoft.com/en-us/azure/operator-nexus/howto-configure-network-tap-rules-with-user-assigned-managed-identity)
-
-### Updated Pages
-
-- [Network Fabric Upgrades](https://learn.microsoft.com/en-us/azure/operator-nexus/howto-upgrade-nexus-fabric)
-  - Updated: 2026-01-23T18:03:00.000Z → 2026-02-03T18:10:00.000Z
-- [Network Packet Broker](https://learn.microsoft.com/en-us/azure/operator-nexus/howto-configure-network-packet-broker)
-  - Updated: 2025-09-17T16:51:00.000Z → 2026-02-03T18:10:00.000Z
-- [Troubleshoot Bare Metal Server Problems](https://learn.microsoft.com/en-us/azure/operator-nexus/troubleshoot-reboot-reimage-replace)
-  - Updated: 2026-01-06T18:04:00.000Z → 2026-02-02T18:06:00.000Z
 
 ## Classified Pages
 
