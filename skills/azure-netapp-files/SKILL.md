@@ -3,7 +3,7 @@ name: azure-netapp-files
 description: Expert knowledge for Azure Netapp Files development including deployment, configuration, best practices, limits & quotas, integrations & coding patterns, troubleshooting, decision making, architecture & design patterns, and security. Use when building, debugging, or optimizing Azure Netapp Files applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Netapp Files Skill
 
@@ -20,15 +20,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L47 | Diagnosing and fixing Azure NetApp Files issues: resource provider, capacity pools, volume CRUD, AVGs, CMK, snapshots, LDAP access, file locks, cross-region replication, and AzAcSnap. |
-| Best Practices | L48-L77 | Performance, configuration, and deployment best practices for Azure NetApp Files, including NFS/SMB tuning, SAP/Oracle/AVD patterns, VM and quota planning, migration, DR, and benchmarking. |
-| Decision Making | L78-L98 | Guidance on choosing ANF volume types, service levels, tiers, caching, DR/replication, performance planning, cost optimization, and migration options for specific workloads. |
-| Architecture & Design Patterns | L99-L105 | Designing ANF network topology, AD DS integration, and using Azure NetApp Files as datastores for Azure VMware Solution, including connectivity and architecture patterns. |
-| Limits & Quotas | L106-L127 | Limits, quotas, and behaviors for Azure NetApp Files: capacity, throughput, large volumes, NFS/SMB/LDAP constraints, maxfiles, user/group quotas, backups, paths, and regional capacity. |
-| Security | L128-L159 | Configuring Azure NetApp Files security: encryption (CMK/HSM, cross-tenant), Kerberos/LDAP/AD/ACLs, NAS/SMB/NFS permissions, ransomware protection, and policy/control-plane/data-plane hardening. |
-| Configuration | L160-L195 | Configuring Azure NetApp Files volumes, protocols, networking, quotas, backups, snapshots, monitoring, and app-specific setups (SAP HANA, Oracle, AzAcSnap, S3, AD/LDAP, DFS). |
-| Integrations & Coding Patterns | L196-L215 | Using AzAcSnap with Azure NetApp Files (backup, restore, test, lifecycle hooks) and integrating via REST API, PowerShell, S3-compatible object access, Databricks, OneLake, and SAP/Oracle app volume groups |
-| Deployment | L216-L227 | Guides for deploying and migrating SAP HANA and Oracle on Azure NetApp Files, including AVGs, HSR/DR, cross-region replication, AzAcSnap, gov regions, and ONTAP migration. |
+| Troubleshooting | L33-L47 | Diagnosing and fixing Azure NetApp Files issues: resource provider, capacity pools, volume CRUD, AVGs, snapshots, CMK, LDAP access, file locks, replication, and AzAcSnap communication. |
+| Best Practices | L48-L77 | Performance, configuration, and resilience best practices for Azure NetApp Files, including NFS/SMB tuning, SAP/Oracle/AVD guidance, VM/quotas, migration, DR, and benchmarking methods. |
+| Decision Making | L78-L98 | Guidance on sizing, performance, cost, tiers, replication/DR, security styles, and workload-specific choices (SQL, Oracle, Linux, AVS) to design an optimal Azure NetApp Files setup. |
+| Architecture & Design Patterns | L99-L105 | Designing ANF network topology, AVS datastore integration, and Active Directory Domain Services architecture for secure, performant Azure NetApp Files deployments. |
+| Limits & Quotas | L106-L127 | Limits, quotas, and behaviors for ANF capacity, throughput, large volumes, NFS/SMB/LDAP features, backups, maxfiles, directory growth, and per-user/group/volume quotas |
+| Security | L128-L159 | Security configuration for Azure NetApp Files: encryption (CMK/HSM, data-at-rest/in-transit), Kerberos/LDAP/AD auth, ACLs/permissions (NFS/SMB), ransomware protection, and policy/control-plane hardening |
+| Configuration | L160-L195 | Configuring Azure NetApp Files volumes, networking, security, quotas, monitoring, backups, snapshots, and app volume groups (SAP HANA, Oracle, AzAcSnap), plus NFS/SMB/LDAP/AD and S3 access. |
+| Integrations & Coding Patterns | L196-L215 | Using AzAcSnap with Azure NetApp Files (backup, restore, test, configure), and integrating via REST API, PowerShell, S3-compatible object API, Databricks, OneLake, and SAP/Oracle app volume groups. |
+| Deployment | L216-L227 | Guides for deploying and migrating SAP HANA and Oracle on Azure NetApp Files, including AVGs, DR/HSR, cross-region replication, AzAcSnap, gov regions, and ONTAP migration. |
 
 ### Troubleshooting
 | Topic | URL |

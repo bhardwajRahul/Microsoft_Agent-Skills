@@ -5,13 +5,13 @@
 - **Total Pages**: 364
 - **Fetched**: 364
 - **Fetch Failed**: 0
-- **Classified**: 266
-- **Unclassified**: 98
+- **Classified**: 264
+- **Unclassified**: 100
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 0
-- **Unchanged**: 364
+- **Updated Pages**: 4
+- **Unchanged**: 360
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-guidance/azure-guidance.csv`
 
@@ -20,15 +20,26 @@
 | Type | Count | Percentage |
 |------|-------|------------|
 | architecture-patterns | 132 | 36.3% |
-| best-practices | 29 | 8.0% |
+| best-practices | 27 | 7.4% |
 | configuration | 2 | 0.5% |
 | decision-making | 58 | 15.9% |
 | deployment | 9 | 2.5% |
 | security | 26 | 7.1% |
 | troubleshooting | 10 | 2.7% |
-| *(Unclassified)* | 98 | 26.9% |
+| *(Unclassified)* | 100 | 27.5% |
 
 ## Changes
+
+### Updated Pages
+
+- [What's new](https://learn.microsoft.com/en-us/azure/architecture/changelog)
+  - Updated: 2026-01-26T18:34:00.000Z → 2026-02-03T06:02:00.000Z
+- [Overview](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/)
+  - Updated: 2023-12-13T08:00:00.000Z → 2026-02-03T06:02:00.000Z
+- [Busy Front End](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/busy-front-end/)
+  - Updated: 2025-09-16T05:03:00.000Z → 2026-02-03T06:02:00.000Z
+- [Improper Instantiation](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/improper-instantiation/)
+  - Updated: 2022-12-16T18:32:00.000Z → 2026-02-03T06:02:00.000Z
 
 ## Classified Pages
 
@@ -204,7 +215,6 @@
 | [Big data](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/big-data) | architecture-patterns | 0.65 | Describes Azure big data architecture patterns (batch, real-time, IoT) with concrete flows and component roles, which are product-specific architecture patterns. |
 | [Blue-green deployment of AKS clusters](https://learn.microsoft.com/en-us/azure/architecture/guide/aks/blue-green-deployment-for-aks) | architecture-patterns | 0.65 | Describes design and implementation of blue-green deployments specifically for AKS using Azure managed services; this is a product-specific deployment pattern with guidance on when and how to use it. |
 | [Busy Database](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/busy-database/) | best-practices | 0.65 | Describes a specific antipattern (offloading too much processing to the database) with Azure-oriented performance implications and prescriptive guidance to avoid it; this is actionable best-practices content. |
-| [Busy Front End](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/busy-front-end/) | best-practices | 0.65 | Covers a concrete antipattern (too many background threads starving foreground work) with guidance on avoiding it; focused on practical performance behavior rather than generic theory. |
 | [Cluster governance](https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/governance) | decision-making | 0.65 | Covers governance options for Kubernetes clusters in cloud environments and compares AKS and EKS governance; likely includes concrete mechanisms (policies, controls) and how to choose them, fitting decision-making around governance approaches. |
 | [Cluster monitoring and logging](https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/monitoring) | decision-making | 0.65 | Comparative AKS vs EKS monitoring/logging article that guides which Azure monitoring/logging options to use for clusters and workloads; likely includes product-specific option comparisons and trade-offs for different scenarios, fitting decision-making. |
 | [Computer forensics](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/forensics/) | architecture-patterns | 0.65 | Describes a specific Azure-based architecture and workflow for maintaining digital evidence chain of custody across acquisition, preservation, and access; this is a product-specific pattern with concrete stages and responsibilities, beyond generic concepts. |
@@ -293,7 +303,6 @@
 | [Minimize coordination](https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/minimize-coordination) | best-practices | 0.60 | Offers concrete recommendations on reducing coordination between services to scale Azure applications, including specific patterns to avoid contention and tight coupling. This is actionable best-practices guidance. |
 | [Move mainframe archive data to Azure](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/mainframe/move-archive-data-mainframes) | architecture-patterns | 0.60 | Provides a reference architecture for moving archived mainframe and midrange data to Azure used purely as storage; this is a concrete pattern for a specialized scenario. |
 | [Multilayered protection for Azure VMs](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/multilayered-protection-azure-vm) | security | 0.60 | Focuses on multilayered protection for Azure VMs using Azure and Entra ID security services; likely includes product-specific security configurations and role-based access recommendations beyond generic security theory. |
-| [Overview](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/) | best-practices | 0.60 | Antipattern catalog for performance/scalability with concrete DO/DON'T guidance and diagnostic context; while somewhat general, it is framed around cloud/Azure performance behaviors and practical remediation. |
 | [Project 15 IoT sustainability](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/project-15-iot-sustainability) | architecture-patterns | 0.60 | Solution idea for species tracking and ecosystem monitoring using IoT on Azure. Provides a concrete architecture pattern for sustainability scenarios with specific Azure services. |
 | [Quantum computing integration with classical apps](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/quantum/quantum-computing-integration-with-classical-apps) | architecture-patterns | 0.60 | Shows a hybrid quantum-classical application architecture using Azure Quantum with specific integration flows and service roles not covered by generic concepts. |
 | [Resources](https://learn.microsoft.com/en-us/azure/architecture/aws-professional/resources) | decision-making | 0.60 | Contrasts Azure resource groups and management interfaces with AWS resource management to guide how to organize and manage resources when adopting Azure. |
@@ -323,6 +332,7 @@
 | [Backends for Frontends](https://learn.microsoft.com/en-us/azure/architecture/patterns/backends-for-frontends) | 0.30 | Backends for Frontends pattern article is a generic architecture pattern; no Azure-specific configuration tables or quantified trade-offs indicated. |
 | [Background jobs](https://learn.microsoft.com/en-us/azure/architecture/best-practices/background-jobs) | 0.30 | Background jobs article describes patterns and scenarios conceptually; summary does not indicate product-specific configuration values or gotchas. |
 | [Bulkhead](https://learn.microsoft.com/en-us/azure/architecture/patterns/bulkhead) | 0.30 | Bulkhead pattern article explains a generic resiliency pattern; not focused on Azure-specific settings, limits, or decision matrices. |
+| [Busy Front End](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/busy-front-end/) | 0.30 | Describes the Busy Front End antipattern conceptually; does not expose Azure-specific configuration values, thresholds, or diagnostic mappings that meet the expert-knowledge criteria. |
 | [Cache-Aside](https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside) | 0.30 | Cache-Aside pattern article describes a generic caching pattern; no indication of Azure-specific configuration parameters or numeric thresholds. |
 | [Caching](https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching) | 0.30 | Caching guidance is generic (what caching is, when it helps); summary lacks Azure-specific configuration parameters or numeric constraints. |
 | [Chatty I/O](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/chatty-io/) | 0.30 | Antipattern description and mitigation are conceptual performance guidance without product-specific limits, configs, or error codes. |
@@ -337,7 +347,6 @@
 | [Get started](https://learn.microsoft.com/en-us/azure/architecture/integration/integration-start-here) | 0.30 | Integration architecture design landing page; primarily conceptual and navigational guidance without detailed product-specific configs or quantified decision matrices. |
 | [Get started](https://learn.microsoft.com/en-us/azure/architecture/topics/high-performance-computing) | 0.30 | High-level topic page about HPC on Azure; likely a conceptual overview of HPC capabilities and scenarios without detailed configuration tables, limits, or decision matrices. |
 | [Health Endpoint Monitoring](https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring) | 0.30 | Health Endpoint Monitoring pattern is a general pattern; summary mentions functional checks and endpoints but no product-specific monitoring commands or error mappings. |
-| [Improper Instantiation](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/improper-instantiation/) | 0.30 | Improper instantiation antipattern is described generically; lacks concrete product-specific parameters, limits, or error mappings. |
 | [Monolithic Persistence](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/monolithic-persistence/) | 0.30 | Monolithic persistence antipattern is high-level architecture guidance without quantified thresholds, limits, or config references. |
 | [Overview](https://learn.microsoft.com/en-us/azure/architecture/gcp-professional/) | 0.30 | High-level orientation for Google Cloud professionals about Azure basics and platform differences; largely conceptual and comparative without detailed configuration, limits, or decision matrices. |
 | [Overview](https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/) | 0.30 | High-level overview of design principles; mostly conceptual framing without product-specific parameters, limits, or detailed decision matrices. |
@@ -383,8 +392,10 @@
 | [Get started](https://learn.microsoft.com/en-us/azure/architecture/hybrid/hybrid-start-here) | 0.20 | Introductory overview of hybrid cloud and connectivity options; lacks detailed decision matrices, configs, or limits. |
 | [Get started](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-start-here) | 0.20 | High-level planning and adoption overview for AKS without specific numeric limits, configuration tables, error codes, or decision matrices; primarily conceptual guidance rather than detailed expert configuration or troubleshooting content. |
 | [Get started](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/analytics-start-here) | 0.20 | Analytics architecture design page is an overview/solution idea; it does not provide numeric limits, configuration tables, or detailed decision matrices. |
+| [Improper Instantiation](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/improper-instantiation/) | 0.20 | Antipattern article is conceptual guidance about improper instantiation without product-specific limits, configuration parameters, error codes, or quantified decision criteria. |
 | [Measure Azure app sustainability](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/apps/measure-azure-app-sustainability-sci-score) | 0.20 | Architecture scenario describing how to measure an application's sustainability using SCI score; appears conceptual and guidance-focused without concrete limits, configuration tables, error codes, or product-specific parameter details that meet any sub-skill detection criteria. |
 | [Networking](https://learn.microsoft.com/en-us/azure/architecture/networking/) | 0.20 | High-level networking architecture design landing page listing services and sample architectures. Lacks specific patterns, limits, or configuration details. |
+| [Overview](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/) | 0.20 | High-level discussion of performance antipatterns and scalability concepts without product-specific limits, configuration parameters, error codes, or decision matrices. |
 | [Overview](https://learn.microsoft.com/en-us/azure/architecture/best-practices/index-best-practices) | 0.20 | Index/landing page that links to many best-practices topics; no detailed product-specific recommendations or parameters itself. |
 | [Overview](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/) | 0.20 | Describes general architecture styles and recommendations; mostly conceptual and not product-specific with quantified thresholds or configs. |
 | [Overview](https://learn.microsoft.com/en-us/azure/architecture/guide/responsible-innovation/) | 0.20 | Responsible engineering overview is high-level ethical and sustainability guidance, not product-specific technical details. |
@@ -402,4 +413,4 @@
 | [Databases](https://learn.microsoft.com/en-us/azure/architecture/databases/) | 0.10 | Described as an overview of Azure database solutions; likely a catalog/summary page without detailed limits, configs, or troubleshooting content. |
 | [Get started](https://learn.microsoft.com/en-us/azure/architecture/guide/devops/devops-start-here) | 0.10 | DevOps architecture design overview; primarily conceptual explanation of DevOps and Azure services, not detailed product-specific configs or troubleshooting. |
 | [Introduction](https://learn.microsoft.com/en-us/azure/architecture/guide/) | 0.10 | High-level architecture fundamentals and best practices overview without product-specific limits, configuration tables, error codes, or quantified decision matrices. |
-| [What's new](https://learn.microsoft.com/en-us/azure/architecture/changelog) | 0.10 | Changelog/what’s new list for Architecture Center; no concrete technical guidance, limits, or configs. |
+| [What's new](https://learn.microsoft.com/en-us/azure/architecture/changelog) | 0.10 | Changelog/navigation page listing new and updated Azure Architecture Center articles without detailed technical content such as limits, configuration parameters, error codes, or decision matrices. |

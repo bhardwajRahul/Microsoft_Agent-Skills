@@ -3,7 +3,7 @@ name: azure-static-web-apps
 description: Expert knowledge for Azure Static Web Apps development including security, integrations & coding patterns, configuration, decision making, deployment, limits & quotas, and troubleshooting. Use when building, debugging, or optimizing Azure Static Web Apps applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Static Web Apps Skill
 
@@ -20,13 +20,13 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L31-L35 | Diagnosing and fixing Static Web Apps deployment failures, build/runtime errors, configuration issues, and using logs/diagnostic tools to resolve common app and API problems. |
-| Decision Making | L36-L44 | Guidance on key architecture and pricing choices: Functions hosting (managed vs BYO), linking existing Functions, Next.js deployment models, Front Door CDN options, and Free vs Standard plans. |
-| Limits & Quotas | L45-L50 | Supported language/runtime versions for Static Web Apps and platform limits like app size, bandwidth, API usage, concurrent builds, and other service quotas. |
-| Security | L51-L64 | Authentication, authorization, roles, secrets, private access, and secure connections for Static Web Apps, including custom providers, Key Vault, tokens, and user info access |
-| Configuration | L65-L88 | Configuring domains, routing, builds, and local dev for Static Web Apps, plus CLI usage, monitoring, and settings for APIs, Functions, and front-end frameworks. |
-| Integrations & Coding Patterns | L89-L100 | Patterns and tutorials for wiring Static Web Apps to APIs and databases: API Management, App Service, Container Apps, Cosmos DB (incl. Mongoose), SQL, MySQL, and PostgreSQL. |
-| Deployment | L101-L114 | Deploying Static Web Apps via GitHub/Bitbucket/GitLab/external CI, using ARM/Bicep/SWA CLI, and managing preview environments, PR reviews, and traffic splitting |
+| Troubleshooting | L31-L35 | Diagnosing and fixing Static Web Apps deployment failures, build errors, configuration issues, and runtime problems using logs, common error patterns, and recommended troubleshooting steps. |
+| Decision Making | L36-L44 | Guidance on choosing hosting plans, Functions integration model, Next.js deployment mode, and Azure Front Door CDN options for Azure Static Web Apps. |
+| Limits & Quotas | L45-L50 | Runtime versions and language support for Static Web Apps, plus platform quotas and limits (build, API, bandwidth, storage, auth, and environment constraints). |
+| Security | L51-L64 | Auth, roles, and user info; configuring built-in/custom providers, secrets, tokens, private endpoints, secure DB connections, and password-protected environments. |
+| Configuration | L65-L88 | Configuring domains, routing, builds, and local dev for Static Web Apps, plus CLI usage, monitoring, and backend app settings (including Nuxt 3 and framework-specific build configs). |
+| Integrations & Coding Patterns | L89-L100 | Patterns and samples for wiring Static Web Apps to APIs and databases (APIM, App Service, Container Apps, Cosmos DB, SQL, MySQL, PostgreSQL, Mongoose) and configuring those integrations. |
+| Deployment | L101-L114 | Deploying Static Web Apps via GitHub/Bitbucket/GitLab/external CI, using ARM/Bicep/SWA CLI, and configuring preview environments, PR reviews, and traffic splitting |
 
 ### Troubleshooting
 | Topic | URL |

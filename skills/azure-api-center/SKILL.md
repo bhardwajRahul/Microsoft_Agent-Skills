@@ -3,7 +3,7 @@ name: azure-api-center
 description: Expert knowledge for Azure Api Center development including security, integrations & coding patterns, configuration, best practices, and deployment. Use when building, debugging, or optimizing Azure Api Center applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Api Center Skill
 
@@ -20,11 +20,11 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Best Practices | L29-L33 | Using Azure API Center’s built-in linting and analysis to enforce API design rules, detect spec issues, and automate quality checks across your API portfolio |
-| Security | L34-L38 | Configuring API authorization in Azure API Center, including setting up auth providers, securing access to APIs, and managing authentication settings. |
-| Configuration | L39-L46 | Configuring API Center portals and tools: portal settings, managed portal setup, enabling the VS Code portal view, and setting up self-managed API linting. |
-| Integrations & Coding Patterns | L47-L58 | Integrating API Center with tools and platforms: VS Code, GitHub Copilot, Copilot Studio, Azure CLI, Logic Apps/Teams, and syncing APIs from Azure API Management and Amazon API Gateway. |
-| Deployment | L59-L63 | Automating API Center registration via GitHub Actions CI/CD and deploying/self-hosting the Azure API Center developer portal, including setup and configuration steps. |
+| Best Practices | L29-L33 | Using Azure API Center’s built-in linting/analysis to validate API definitions, enforce design rules, interpret lint results, and improve API quality and consistency. |
+| Security | L34-L38 | Configuring API authorization in Azure API Center, including setting up auth providers, securing access to APIs, and managing authorization settings for different environments. |
+| Configuration | L39-L46 | Configuring Azure API Center portals and tools: portal settings, managed portal setup, VS Code portal view, and self-managed API linting integration. |
+| Integrations & Coding Patterns | L47-L58 | Patterns and tools to integrate API Center with VS Code, GitHub Copilot, Copilot Studio, Azure CLI, Logic Apps/Teams, and sync APIs from Azure API Management and Amazon API Gateway |
+| Deployment | L59-L63 | Automating API Center registration via GitHub Actions CI/CD and deploying/self-hosting the Azure API Center portal infrastructure and runtime. |
 
 ### Best Practices
 | Topic | URL |

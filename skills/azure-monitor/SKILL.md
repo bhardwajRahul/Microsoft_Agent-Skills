@@ -3,7 +3,7 @@ name: azure-monitor
 description: Expert knowledge for Azure Monitor development including troubleshooting, configuration, deployment, decision making, limits & quotas, security, integrations & coding patterns, best practices, and architecture & design patterns. Use when building, debugging, or optimizing Azure Monitor applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Monitor Skill
 
@@ -20,15 +20,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L75 | Diagnosing and fixing Azure Monitor issues: agents (AMA/Log Analytics), data collection/ingestion, alerts/notifications, ITSM/ServiceNow, Container/Prometheus, Application Insights, and VM performance. |
-| Best Practices | L76-L108 | Best practices for configuring, scaling, querying, and cost-optimizing Azure Monitor (logs, metrics, Prometheus), plus alerts, autoscale, VM/AKS monitoring, and reliability/operations. |
-| Decision Making | L109-L142 | Guidance for choosing Azure Monitor features, alerting and visualization options, and planning/migrating from legacy agents, APIs, tools, and third‑party systems while optimizing cost and billing |
+| Troubleshooting | L33-L75 | Diagnosing and fixing Azure Monitor issues: agents (AMA/Log Analytics), data collection/ingestion, alerts/notifications, ITSM, autoscale, metrics/logs, Container insights, and Application Insights tools. |
+| Best Practices | L76-L108 | Best practices for configuring, scaling, querying, and tuning Azure Monitor (logs, metrics, alerts, autoscale, AKS/VMs, Prometheus) for cost, performance, reliability, and data governance. |
+| Decision Making | L109-L142 | Guidance for choosing Azure Monitor features and planning migrations: agents, alerts, logs, costs, visualization tools, and moving from legacy/third‑party monitoring to Azure Monitor. |
 | Architecture & Design Patterns | L143-L153 | Architectural guidance for Azure Monitor: workspace design/replication, managed workspaces, autoscale patterns, network security perimeters, and Private Link integration. |
-| Limits & Quotas | L154-L173 | Limits, performance, and scaling for Azure Monitor: ingestion and query caps, timeouts, latency, autoscale, container/Prometheus high-scale configs, and alert/log retention settings. |
-| Security | L174-L207 | Securing Azure Monitor and Log Analytics: auth (Entra, managed identity), RBAC and row/table access, Private Link/network isolation, CMK/BYOS, secure webhooks, Prometheus, AKS, and Grafana. |
-| Configuration | L208-L378 | Configuring Azure Monitor and agents (AMA, diagnostics, OpenTelemetry, Prometheus), data collection rules, alerts, autoscale, workspaces, logs/metrics routing, and Application Insights settings. |
-| Integrations & Coding Patterns | L379-L451 | Integrating Azure Monitor with VMs, apps, Prometheus, webhooks, ITSM, Grafana, APIs, and custom telemetry; configuring alerts, exports, queries, and ingestion via REST, KQL, and SDKs. |
-| Deployment | L452-L481 | Deploying and configuring Azure Monitor agents, alerts, workbooks, and Application Insights/Profiler across VMs, AKS, App Service, containers, and hybrid environments, including region moves. |
+| Limits & Quotas | L154-L173 | Limits, quotas, performance, and scaling behavior for Azure Monitor: ingestion and query limits, autoscale, latency, throttling, container/Prometheus specifics, and alert/workbook constraints. |
+| Security | L174-L207 | Securing Azure Monitor and Log Analytics: auth (Entra, managed identity), RBAC and row/table access, Private Link/network isolation, CMK/BYOS, secure webhooks, AKS/Prometheus/Grafana/App Insights. |
+| Configuration | L208-L381 | Configuring Azure Monitor data collection, alerts, diagnostics, workspaces, Application Insights, Kubernetes/VM monitoring, pipelines, pricing/retention, and related ARM/Policy-based setups. |
+| Integrations & Coding Patterns | L382-L454 | Integrating Azure Monitor with VMs, Prometheus, Grafana, ITSM, webhooks, REST APIs, and SDKs; exporting/ingesting logs and metrics, alert schemas, KQL transforms, and custom telemetry. |
+| Deployment | L455-L484 | Deploying and configuring Azure Monitor agents, alerts, Application Insights, Profiler, and workbooks across VMs, AKS, App Service, containers, and regions (including migration and policy-based at-scale setup). |
 
 ### Troubleshooting
 | Topic | URL |
@@ -194,7 +194,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Use Azure Policy compliance controls for Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/security-controls-policy |
 | Authenticate to Azure Monitor Log Analytics API | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/api/access-api |
 | Register app and assign roles for Azure Monitor APIs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/api/register-app-for-token |
-| Configure customer-managed keys for Azure Monitor Logs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/customer-managed-keys |
+| Configure customer-managed keys for Azure Monitor logs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/customer-managed-keys |
 | Implement granular RBAC for Azure Monitor Log Analytics | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/granular-rbac-log-analytics |
 | Configure row-level access with granular RBAC in Log Analytics | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/granular-rbac-use-case |
 | Configure access control for Log Analytics workspaces | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/manage-access |
@@ -292,11 +292,14 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Use sample data collection rules for Azure Monitor scenarios | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-rule-samples |
 | Understand JSON structure of Azure Monitor DCRs | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-rule-structure |
 | View Azure Monitor data collection rule definitions | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-rule-view |
-| Configure Azure Monitor data transformations in DCRs | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-transformations |
+| Configure Azure Monitor DCR transformations with KQL | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-transformations |
 | Create and test Azure Monitor transformation queries | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-transformations-create |
-| Configure Azure Monitor edge data collection pipeline | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/edge-pipeline-configure |
 | Configure DCR-based metrics export in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/metrics-export-create |
 | Understand DCR structure for Azure Monitor metrics export | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/metrics-export-structure |
+| Detailed configuration of Azure Monitor pipeline components | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/pipeline-configure |
+| Configure clients to send data to Azure Monitor pipeline | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/pipeline-configure-clients |
+| Configure Azure Monitor pipeline via Azure portal | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/pipeline-configure-portal |
+| Configure Azure Monitor pipeline data transformations | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/pipeline-transformations |
 | Configure network and firewall access to Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/azure-monitor-network-access |
 | Interpret Azure Monitor charges using billing meter names | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/cost-meters |
 | Configure data sources and collection methods in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/data-sources |

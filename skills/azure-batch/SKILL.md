@@ -3,7 +3,7 @@ name: azure-batch
 description: Expert knowledge for Azure Batch development including security, configuration, deployment, decision making, integrations & coding patterns, best practices, troubleshooting, limits & quotas, and architecture & design patterns. Use when building, debugging, or optimizing Azure Batch applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Batch Skill
 
@@ -21,14 +21,14 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Category | Lines | Description |
 |----------|-------|-------------|
 | Troubleshooting | L33-L39 | Diagnosing and resolving Azure Batch errors for jobs, tasks, pools, and compute nodes, including common failure patterns, error codes, and best practices to prevent recurring issues. |
-| Best Practices | L40-L52 | Guidance on performance, scaling, monitoring, MPI and concurrent workloads, durable output, and security best practices for designing and running Azure Batch jobs and tasks |
-| Decision Making | L53-L65 | Guidance on choosing VM sizes/images, using Spot and ephemeral disks, managing Batch costs, and migrating pools/images to Compute Gallery and simplified node communication. |
-| Architecture & Design Patterns | L66-L71 | Designing Azure Batch architectures for render farm bursting, and choosing storage, caching, and data movement patterns for high-throughput rendering workloads |
-| Limits & Quotas | L72-L76 | Batch account limits and quotas for cores, pools, jobs, tasks, and how to request quota increases or plan deployments within these constraints. |
-| Security | L77-L96 | Securing Batch accounts and pools: auth (keys, Entra ID, RBAC, managed identities), encryption, network isolation (VNet, private endpoints, NSPs), Key Vault access, and Azure Policy compliance. |
-| Configuration | L97-L129 | Configuring Azure Batch pools, nodes, networking, autoscale, images, task runtime/env, dependencies, events, and managing resources via CLI/PowerShell. |
-| Integrations & Coding Patterns | L130-L141 | Patterns and code for integrating Batch with apps: SDK usage (.NET/JS), containers, task output to Storage, monitoring, and mounting Azure Files/virtual file systems on pools. |
-| Deployment | L142-L146 | Automating Azure Batch deployments and end-to-end job runs using Azure Pipelines and CLI templates, including configuration, orchestration, and repeatable HPC workflows. |
+| Best Practices | L40-L52 | Performance, scaling, and security guidance for Batch: efficient queries, monitoring, MPI and concurrent tasks, large job optimization, durable outputs, and security best practices. |
+| Decision Making | L53-L65 | Guidance on choosing Batch VM sizes/images, using Spot and ephemeral disks, managing costs, and migrating pools/images and low-priority VMs to newer Azure Batch features. |
+| Architecture & Design Patterns | L66-L71 | Designing Azure Batch architectures for render farm bursting, plus choosing storage, data movement, and performance patterns for large-scale rendering workloads |
+| Limits & Quotas | L72-L76 | Batch account limits (cores, pools, nodes, jobs, tasks), default vs regional quotas, and how to view, plan for, and request quota increases. |
+| Security | L77-L96 | Securing Batch accounts and pools: auth (keys, Entra ID, managed identities), RBAC, networking (VNets, private endpoints, NSPs), encryption, Key Vault access, and Azure Policy compliance. |
+| Configuration | L97-L129 | Configuring and managing Azure Batch pools, nodes, tasks, networking, autoscale, images, app/data deployment, events/diagnostics, and access via CLI/PowerShell. |
+| Integrations & Coding Patterns | L130-L141 | Patterns and code for integrating Batch with apps: SDK usage (.NET/JS), containers, output to Storage, Application Insights, and mounting Azure Files/virtual file systems on pools. |
+| Deployment | L142-L146 | Guides for automating Azure Batch deployments and end-to-end job runs using Azure Pipelines and Azure CLI templates, including configuration and orchestration steps. |
 
 ### Troubleshooting
 | Topic | URL |

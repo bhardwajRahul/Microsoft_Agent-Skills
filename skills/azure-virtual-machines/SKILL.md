@@ -3,7 +3,7 @@ name: azure-virtual-machines
 description: Expert knowledge for Azure Virtual Machines development including deployment, configuration, decision making, security, best practices, architecture & design patterns, limits & quotas, integrations & coding patterns, and troubleshooting. Use when building, debugging, or optimizing Azure Virtual Machines applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Virtual Machines Skill
 
@@ -20,15 +20,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L54 | Diagnosing and fixing Azure VM issues: Spot/scale set errors, hibernation, extensions, disk encryption, image builder, gallery, maintenance, metadata security, and restore/resize failures. |
-| Best Practices | L55-L74 | Best practices for Azure VM performance, cost, HA, storage, temporary disks, Image Builder, and HPC/InfiniBand scaling and tuning on Linux and Windows VMs |
-| Decision Making | L75-L128 | Guidance on choosing VM types, disks, regions, reservations, and licensing, plus planning cost optimization and migrations from retiring VM sizes, images, disks, and encryption options. |
-| Architecture & Design Patterns | L129-L135 | Designing low-latency and clustered VM architectures using proximity placement groups and shared disks, plus understanding VM reboot causes and maintenance effects on availability |
+| Troubleshooting | L33-L54 | Diagnosing and fixing Azure VM issues: hibernation, extensions, Spot/resize errors, disk encryption, Image Builder, metadata/MSP keys, restore points, and Trusted Launch/Compute Gallery. |
+| Best Practices | L55-L74 | Best practices for Azure VMs: performance, scaling (esp. HPC/InfiniBand), storage/temporary disks, cost optimization, high availability, boot time, and VM Image Builder usage. |
+| Decision Making | L75-L128 | Guidance for choosing VM sizes, disks, images, regions, licensing and cost options, plus planning migrations from retiring VM series, disks, hosts, and GPU/HPC SKUs. |
+| Architecture & Design Patterns | L129-L135 | Designing VM architectures for low latency and clustering, using proximity placement groups and shared disks, and understanding VM reboot causes and maintenance behavior |
 | Limits & Quotas | L136-L330 | VM size specs, disk performance/bursting limits, quotas (vCPU, API throttling), Dedicated Host capacities, and OS/disk behavior constraints for planning Azure VM scalability. |
-| Security | L331-L403 | Securing Azure VMs and disks: encryption (ADE, CMK, SSE, host), Trusted Launch, SSH keys, TLS/Key Vault, metadata protection, policies/RBAC, and secure image building/sharing. |
-| Configuration | L404-L565 | Configuring Azure VMs post-deployment: disks, images, encryption, networking, GPU/InfiniBand, agents/extensions, patching, auto-shutdown, restore points, and VM Image Builder settings. |
-| Integrations & Coding Patterns | L566-L608 | VM integration patterns: CLI/PowerShell/REST for monitoring, maintenance, backup/restore, disks/snapshots, images, and configuring SSH/RDP/WinRM and scheduled events for Linux/Windows VMs |
-| Deployment | L609-L631 | Deploying and migrating Azure VMs/scale sets: disk and storage migration, capacity reservations, proximity placement groups, zonal moves, blue‑green/rolling deployments, and DevOps image workflows. |
+| Security | L331-L403 | Securing Azure VMs and disks: encryption (ADE, CMK, SSE, double/host), Trusted Launch, SSH keys, TLS/Key Vault, VM extensions policies, metadata protection, and secure image gallery/Image Builder. |
+| Configuration | L404-L565 | Configuring Azure VMs after deployment: disks, images, encryption, networking, agents/extensions, monitoring, backup/restore, performance, HPC/GPU, and OS-specific Linux/Windows settings. |
+| Integrations & Coding Patterns | L566-L608 | Automation-focused how-tos for integrating VMs with backup/restore, monitoring, maintenance, images/disks, and configuring SSH/RDP/WinRM using CLI, PowerShell, REST, and Resource Graph. |
+| Deployment | L609-L631 | Deploying and migrating Azure VMs/scale sets: disk and storage migration, capacity and proximity groups, zones, in-place upgrades, and blue-green/rolling deployments with DevOps tools. |
 
 ### Troubleshooting
 | Topic | URL |

@@ -10,8 +10,8 @@
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 12
-- **Unchanged**: 185
+- **Updated Pages**: 1
+- **Unchanged**: 196
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-data-explorer/azure-data-explorer.csv`
 
@@ -34,30 +34,8 @@
 
 ### Updated Pages
 
-- [Create a managed private endpoint](https://learn.microsoft.com/en-us/azure/data-explorer/security-network-managed-private-endpoint-create)
-  - Updated: 2025-01-27T18:01:00.000Z → 2026-02-02T18:03:00.000Z
-- [Manage public access to your cluster](https://learn.microsoft.com/en-us/azure/data-explorer/security-network-restrict-public-access)
-  - Updated: 2025-04-14T11:05:00.000Z → 2026-02-02T08:00:00.000Z
-- [Troubleshoot private endpoints](https://learn.microsoft.com/en-us/azure/data-explorer/security-network-private-endpoint-troubleshoot)
-  - Updated: 2025-07-14T17:02:00.000Z → 2026-02-02T18:03:00.000Z
-- [Create Microsoft Entra app](https://learn.microsoft.com/en-us/azure/data-explorer/provision-entra-id-app)
-  - Updated: 2024-01-30T12:03:00.000Z → 2026-01-13T23:02:00.000Z
-- [Create a cluster and database](https://learn.microsoft.com/en-us/azure/data-explorer/create-cluster-and-database)
-  - Updated: 2025-06-05T08:00:00.000Z → 2026-02-02T08:00:00.000Z
-- [IoT Hub data connection](https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-iot-hub-overview)
-  - Updated: 2024-01-31T06:51:00.000Z → 2026-02-02T18:03:00.000Z
-- [Fluent Bit](https://learn.microsoft.com/en-us/azure/data-explorer/fluent-bit)
-  - Updated: 2024-12-05T23:01:00.000Z → 2026-02-02T08:00:00.000Z
-- [Query integrations overview](https://learn.microsoft.com/en-us/azure/data-explorer/integrate-query-overview)
-  - Updated: 2026-01-08T12:04:00.000Z → 2026-02-02T08:00:00.000Z
-- [Write KQL queries](https://learn.microsoft.com/en-us/azure/data-explorer/web-ui-kql)
-  - Updated: 2023-05-28T11:04:00.000Z → 2026-02-02T18:03:00.000Z
-- [Optimize for high concurrency](https://learn.microsoft.com/en-us/azure/data-explorer/high-concurrency)
-  - Updated: 2023-06-07T11:03:00.000Z → 2026-02-02T18:03:00.000Z
-- [Visualize sample data dashboards](https://learn.microsoft.com/en-us/azure/data-explorer/web-ui-samples-dashboards)
-  - Updated: 2023-11-23T17:54:00.000Z → 2026-02-02T18:03:00.000Z
-- [Logic Apps](https://learn.microsoft.com/en-us/azure/data-explorer/logic-apps)
-  - Updated: 2024-09-04T16:57:00.000Z → 2026-02-02T18:03:00.000Z
+- [Streaming ingestion](https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-streaming)
+  - Updated: 2025-07-30T08:00:00.000Z → 2026-02-03T23:03:00.000Z
 
 ## Classified Pages
 
@@ -160,7 +138,6 @@
 | [Sisense](https://learn.microsoft.com/en-us/azure/data-explorer/sisense) | integrations | 0.70 | Describes configuring ADX as a Sisense data source; likely includes connector configuration and parameters unique to this integration. |
 | [Splunk](https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-splunk) | integrations | 0.70 | Splunk-to-ADX connector article; typically includes connector configuration, endpoint URLs, and parameter names unique to this product integration. |
 | [Splunk Universal Forwarder](https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-splunk-uf) | integrations | 0.70 | Covers Splunk Universal Forwarder integration; likely documents specific connector settings, configuration files, and ADX endpoint parameters not generally known. |
-| [Streaming ingestion](https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-streaming) | decision-making | 0.70 | Includes a concrete threshold (over 4 GB/hour) for choosing queued ingestion over streaming, providing product-specific decision guidance. |
 | [Sync Kusto](https://learn.microsoft.com/en-us/azure/data-explorer/sync-kusto) | configuration | 0.70 | Sync Kusto is a specialized tool; article likely documents specific configuration options, mappings between local files and ADX entities, and command parameters that are not generic knowledge. |
 | [Understand reservation charges](https://learn.microsoft.com/en-us/azure/data-explorer/pricing-reservation-discount) | decision-making | 0.70 | Explains how reservation discounts apply to ADX markup meters and which resources are covered; this is specific cost/benefit behavior guiding purchase decisions. |
 | [Upgrade a free cluster](https://learn.microsoft.com/en-us/azure/data-explorer/start-for-free-upgrade) | limits-quotas | 0.70 | Describes that upgrading removes the free cluster storage size limitation and unlocks all features. While the exact size number isn’t in the summary, the article is about tier-specific capacity limits and their removal, which is quota-related expert behavior. |
@@ -182,6 +159,7 @@
 | [Managed identities overview](https://learn.microsoft.com/en-us/azure/data-explorer/managed-identities-overview) | security | 0.65 | Service-specific patterns for using managed identities to access other Microsoft Entra–protected resources from Azure Data Explorer; identity configuration guidance. |
 | [Notebooks with Kqlmagic](https://learn.microsoft.com/en-us/azure/data-explorer/kqlmagic) | integrations | 0.65 | Kqlmagic usage with ADX involves extension-specific connection strings, magic commands, and parameters; these integration details are product- and library-specific rather than generic notebook usage. |
 | [Purge data - Azure portal](https://learn.microsoft.com/en-us/azure/data-explorer/data-purge-portal) | best-practices | 0.65 | Data purge with .purge command is product-specific; article likely includes command syntax, constraints (for example, not for frequent deletes), and GDPR-oriented usage guidance that goes beyond generic deletion concepts. |
+| [Streaming ingestion](https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-streaming) | decision-making | 0.65 | Contains a concrete, product-specific threshold (4 GB per hour per table) for when to prefer queued ingestion over streaming, which is decision guidance with a quantified criterion that an LLM is unlikely to know from training. |
 | [Use Advisor recommendations to optimize your cluster](https://learn.microsoft.com/en-us/azure/data-explorer/azure-advisor) | best-practices | 0.65 | Advisor recommendations for ADX cluster optimization are actionable, product-specific guidance that go beyond generic tuning advice. |
 | [Check cluster health](https://learn.microsoft.com/en-us/azure/data-explorer/check-cluster-health) | best-practices | 0.64 | Uses specific ADX commands, metrics (like Keep Alive), and portal paths to assess health. These are concrete, product-specific monitoring practices beyond generic advice. |
 | [Migrate cluster to support availability zones](https://learn.microsoft.com/en-us/azure/data-explorer/migrate-cluster-to-multiple-availability-zone) | deployment | 0.63 | Provides ADX-specific migration steps and constraints for enabling multi-AZ support, including behavior of regions and latency characteristics. This is a deployment/migration pattern unique to the service. |

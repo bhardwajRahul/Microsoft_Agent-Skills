@@ -34,8 +34,8 @@
 
 ### Updated Pages
 
-- [Supported features](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-features-supported)
-  - Updated: 2025-10-01T08:00:00.000Z → 2026-01-30T23:12:00.000Z
+- [2026](https://learn.microsoft.com/en-us/azure/healthcare-apis/release-notes-2026)
+  - Updated: 2026-01-23T23:11:00.000Z → 2026-02-03T18:20:00.000Z
 
 ## Classified Pages
 
@@ -231,11 +231,11 @@
 | [2023](https://learn.microsoft.com/en-us/azure/healthcare-apis/release-notes-2023) | 0.25 | Release notes for 2023; similar reasoning as other release notes pages. |
 | [2024](https://learn.microsoft.com/en-us/azure/healthcare-apis/release-notes-2024) | 0.25 | Release notes for 2024; change-log style content, not organized as limits, configuration references, or troubleshooting mappings. |
 | [2025](https://learn.microsoft.com/en-us/azure/healthcare-apis/release-notes-2025) | 0.25 | Release notes for 2025; similar to other release notes, mostly feature/enhancement descriptions rather than structured expert-knowledge patterns defined in the sub-skills. |
-| [2026](https://learn.microsoft.com/en-us/azure/healthcare-apis/release-notes-2026) | 0.25 | Release notes summary page; while it may contain dates and feature notes, it is primarily change-log/marketing style, not structured as limits, config, troubleshooting, or decision guidance. |
 | [CMS Interoperability and Patient Access rule introduction](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/centers-for-medicare-tutorial-introduction) | 0.25 | Introductory tutorial overview for CMS interoperability series; high-level and navigational rather than deep technical configuration or troubleshooting content. |
 | [Open-source projects](https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/git-projects) | 0.25 | Overview of GitHub OSS projects for MedTech; likely descriptive and linking to code rather than listing product configuration parameters or troubleshooting mappings. |
 | [Overview of device mapping](https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/overview-of-device-mapping) | 0.25 | Overview of device mapping; primarily conceptual description of how mapping works, not a detailed configuration or troubleshooting reference. |
 | [Overview of the FHIR destination mapping](https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/overview-of-fhir-destination-mapping) | 0.25 | Overview of FHIR destination mapping; appears conceptual without detailed parameter tables, limits, or troubleshooting mappings. |
+| [2026](https://learn.microsoft.com/en-us/azure/healthcare-apis/release-notes-2026) | 0.20 | Monthly release notes typically list new features and bug fixes but, based on the summary, there is no clear indication of detailed limits, configuration tables, error-code mappings, or other structured expert data that fits the defined sub-skill types. |
 | [Access Azure Health Data Services](https://learn.microsoft.com/en-us/azure/healthcare-apis/access-healthcare-apis) | 0.20 | High-level guidance on accessing services using cURL/REST/SDKs; appears tutorial/overview without detailed config tables, limits, or product-specific error mappings. |
 | [CMS interoperability and patient access rule](https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/centers-for-medicare-tutorial-introduction) | 0.20 | Series introduction/overview for CMS interoperability tutorials; primarily conceptual and navigational, not detailed configuration or troubleshooting content. |
 | [DICOM service open-source projects](https://learn.microsoft.com/en-us/azure/healthcare-apis/dicom/references-for-dicom-service) | 0.20 | Reference page is primarily a link hub to open-source projects and related resources; no concrete limits, configs, error codes, or product-specific settings are described. |

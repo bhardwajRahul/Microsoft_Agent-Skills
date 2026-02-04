@@ -10,8 +10,8 @@
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 1
-- **Unchanged**: 223
+- **Updated Pages**: 2
+- **Unchanged**: 222
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-netapp-files/azure-netapp-files.csv`
 
@@ -34,8 +34,10 @@
 
 ### Updated Pages
 
-- [Azure NetApp Files for Azure Government](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-government)
-  - Updated: 2025-12-16T18:11:00.000Z → 2026-02-02T08:00:00.000Z
+- [Solution architectures using Azure NetApp Files](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures)
+  - Updated: 2026-01-21T08:00:00.000Z → 2026-02-03T08:00:00.000Z
+- [Restore a snapshot to a new volume](https://learn.microsoft.com/en-us/azure/azure-netapp-files/snapshots-restore-new-volume)
+  - Updated: 2026-01-29T18:11:00.000Z → 2026-02-03T12:10:00.000Z
 
 ## Classified Pages
 
@@ -243,10 +245,8 @@
 | [Regular volume performance benchmarks for Linux](https://learn.microsoft.com/en-us/azure/azure-netapp-files/performance-benchmarks-linux) | 0.30 | Appears to primarily present benchmark results for a regular volume; summary does not indicate configuration guidance, limits tables, or decision matrices—more observational than actionable expert configuration or troubleshooting knowledge. |
 | [Release Notes for AzAcSnap](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azacsnap-release-notes) | 0.30 | Release notes list changes but not organized as reusable expert patterns (limits, configs, troubleshooting). |
 | [Resize a capacity pool or a volume](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-resize-capacity-pools-or-volumes) | 0.30 | Appears to be a procedural resize guide without clear indication of numeric limits, configuration tables, or product-specific gotchas in the summary. Likely a basic how-to rather than expert configuration or limits content. |
-| [Restore a snapshot to a new volume](https://learn.microsoft.com/en-us/azure/azure-netapp-files/snapshots-restore-new-volume) | 0.30 | How-to article for restoring a snapshot to a new volume; summary lacks evidence of limits, quotas, detailed configuration options, or troubleshooting mappings. |
 | [Restore a volume using snapshot revert](https://learn.microsoft.com/en-us/azure/azure-netapp-files/snapshots-revert-volume) | 0.30 | Explains using snapshot revert to roll back a volume; summary shows high-level behavior and benefits but no specific numeric constraints, config tables, or error-resolution content. |
 | [SDKs, CLI tools, and ARM templates](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-sdk-cli) | 0.30 | Overview of supported SDKs/CLI tools and their locations; largely navigational/marketing without deep configuration or error-handling specifics. |
-| [Solution architectures using Azure NetApp Files](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures) | 0.30 | Solution architectures overview; likely references patterns but at a high level without product-specific numeric thresholds or decision matrices. |
 | [Storage service add-ons](https://learn.microsoft.com/en-us/azure/azure-netapp-files/storage-service-add-ons) | 0.30 | Describes a portal menu for third-party add-ons at a high level; no detailed configuration parameters, limits, or decision matrices. |
 | [Understand application volume groups](https://learn.microsoft.com/en-us/azure/azure-netapp-files/application-volume-group-concept) | 0.30 | Conceptual explanation of application volume groups and their benefits; summary does not show concrete configuration parameters, limits, or troubleshooting details. |
 | [Understand file locking](https://learn.microsoft.com/en-us/azure/azure-netapp-files/understand-file-locks) | 0.30 | Conceptual explanation of file locking and NFS lock types; no product-specific limits, configuration parameters, or error mappings. |
@@ -261,7 +261,9 @@
 | [Introduction to AzAcSnap](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azacsnap-introduction) | 0.20 | Introductory overview of AzAcSnap; no detailed limits, configs, or error mappings. |
 | [Register for NetApp Resource Provider](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-register) | 0.20 | Step-by-step registration of the NetApp resource provider via Azure portal/Cloud Shell is generic onboarding/tutorial content; it does not focus on configuration parameter tables, limits, or product-specific troubleshooting mappings. |
 | [Request region access](https://learn.microsoft.com/en-us/azure/azure-netapp-files/request-region-access) | 0.20 | Requesting region access is an administrative process description, not a technical configuration, limits, or troubleshooting reference. |
+| [Restore a snapshot to a new volume](https://learn.microsoft.com/en-us/azure/azure-netapp-files/snapshots-restore-new-volume) | 0.20 | Task-focused how-to for restoring a snapshot to a new Azure NetApp Files volume. Based on the description, it likely provides step-by-step UI/CLI instructions but no evidence of numeric limits, configuration parameter tables, error-code mappings, or decision matrices. Without such product-specific expert details, it doesn't meet any sub-skill detection criteria. |
 | [Set up Azure NetApp Files and create an NFS volume](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-quickstart-set-up-account-create-volumes) | 0.20 | Quickstart focused on step-by-step setup and a single example volume; does not indicate configuration tables, limits, or decision matrices beyond generic how-to. |
+| [Solution architectures using Azure NetApp Files](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures) | 0.20 | Appears to be a high-level collection of solution architecture references for Azure NetApp Files without visible concrete limits, configuration tables, or detailed decision matrices; more like an overview/navigation to other best-practice content than a page containing the expert details itself. |
 | [Storage hierarchy of Azure NetApp Files](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-understand-storage-hierarchy) | 0.20 | Describes the conceptual storage hierarchy (accounts, pools, volumes) and a high-level note about no cross-subscription migration, but no detailed limits, configuration tables, or product-specific numeric thresholds. |
 | [Understand Azure NetApp Files backup](https://learn.microsoft.com/en-us/azure/azure-netapp-files/backup-introduction) | 0.20 | The page is an introduction to Azure NetApp Files backup describing what it is, supported regions, and cost model. Based on the summary, it does not appear to list specific numeric limits, configuration parameters, error codes, or decision matrices. It is primarily conceptual/overview content rather than detailed expert configuration, limits, or troubleshooting guidance. |
 | [Understand Elastic zone-redundant storage](https://learn.microsoft.com/en-us/azure/azure-netapp-files/elastic-zone-redundant-concept) | 0.20 | Content is primarily a conceptual/marketing-style overview of Azure NetApp Files Elastic zone-redundant storage; no specific limits, configuration parameters, error codes, or decision matrices with quantified trade-offs are evident from the summary. |

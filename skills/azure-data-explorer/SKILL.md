@@ -3,7 +3,7 @@ name: azure-data-explorer
 description: Expert knowledge for Azure Data Explorer development including security, integrations & coding patterns, limits & quotas, deployment, best practices, architecture & design patterns, configuration, decision making, and troubleshooting. Use when building, debugging, or optimizing Azure Data Explorer applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Data Explorer Skill
 
@@ -21,14 +21,14 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Category | Lines | Description |
 |----------|-------|-------------|
 | Troubleshooting | L33-L41 | Diagnosing and fixing Azure Data Explorer issues: ingestion error codes, private endpoint/connectivity problems, cluster creation/connection failures, and database/table create/delete errors. |
-| Best Practices | L42-L54 | Guidance on optimizing ADX clusters: performance, concurrency, schema, ingestion quality, data purging, health monitoring, and integrating efficiently with Power BI. |
-| Decision Making | L55-L69 | Guidance on choosing and sizing ADX cluster SKUs (confidential/isolated), scaling strategies, ingestion mode choices, and estimating/optimizing costs and reservations. |
-| Architecture & Design Patterns | L70-L77 | Designing ADX architectures for DR/BC, cross-cluster querying with follower DBs, and choosing multi-tenant patterns for reliability, isolation, and scalability |
+| Best Practices | L42-L54 | Guidance on optimizing ADX clusters: performance, concurrency, schema, ingestion quality, deduplication, data purging, health monitoring, and Power BI integration best practices. |
+| Decision Making | L55-L69 | Guidance on choosing and sizing ADX clusters (SKUs, scaling, confidential/isolated compute), planning/pricing (calculator, reservations, ingestion cost), and migrating from Elasticsearch. |
+| Architecture & Design Patterns | L70-L77 | Designing ADX architectures for DR/BC, cross-cluster querying with follower DBs, and choosing multi-tenant patterns for scalable, resilient deployments |
 | Limits & Quotas | L78-L86 | Managing ADX cluster limits: free cluster quotas and upgrades, auto-stop for inactive clusters, safe delete/recover, and Event Grid ingestion file size constraints. |
-| Security | L87-L117 | Securing ADX clusters: auth/RBAC, managed identities, encryption & keys, network/private endpoints, cross-tenant access, policies/locks, and secure connections from tools and services. |
-| Configuration | L118-L134 | Configuring ADX clusters and databases: schema cloning/sync, KQL-based setup, safe deletion, ingestion pipelines (Event Grid, LightIngest, formats), language extensions, monitoring, and web UI settings/profiles. |
-| Integrations & Coding Patterns | L135-L196 | Integrating Azure Data Explorer with tools and services (Power BI, ADF, Kafka, Splunk, Flink, Excel, SQL, Power Automate, etc.), configuring connectors/SDKs, and coding patterns for ingestion and querying. |
-| Deployment | L197-L203 | Automating ADX cluster provisioning and schema deployment, and migrating clusters to availability zones or from VNet injection to private endpoints. |
+| Security | L87-L117 | Securing ADX clusters: auth/RBAC, managed identities, encryption, network/private endpoints, cross-tenant access, policies/locks, and secure connections from tools and data sources. |
+| Configuration | L118-L134 | Configuring ADX databases, ingestion (Event Grid, LightIngest, formats), schema sync/clone, language extensions, monitoring, and web UI settings/profile across devices |
+| Integrations & Coding Patterns | L135-L196 | Integrating Azure Data Explorer with tools and services (Power BI, ADF, Kafka, Splunk, Functions, JDBC/ODBC, logging frameworks) and coding patterns for programmatic management, ingestion, and querying. |
+| Deployment | L197-L203 | Automating ADX cluster/env and schema deployment (DevOps), and migrating clusters to availability zones or from VNet injection to private endpoints. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -56,7 +56,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Topic | URL |
 |-------|-----|
 | Choose confidential compute SKUs for Azure Data Explorer | https://learn.microsoft.com/en-us/azure/data-explorer/confidential-compute |
-| Decide when to use streaming vs queued ingestion | https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-streaming |
+| Choose streaming vs queued ingestion in Azure Data Explorer | https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-streaming |
 | Select isolated compute SKUs for Azure Data Explorer | https://learn.microsoft.com/en-us/azure/data-explorer/isolated-compute |
 | Select optimal Azure Data Explorer compute SKU | https://learn.microsoft.com/en-us/azure/data-explorer/manage-cluster-choose-sku |
 | Scale Azure Data Explorer clusters horizontally | https://learn.microsoft.com/en-us/azure/data-explorer/manage-cluster-horizontal-scaling |

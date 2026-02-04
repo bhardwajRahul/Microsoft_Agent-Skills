@@ -3,7 +3,7 @@ name: azure-resource-manager
 description: Expert knowledge for Azure Resource Manager development including deployment, best practices, integrations & coding patterns, configuration, troubleshooting, limits & quotas, security, decision making, and architecture & design patterns. Use when building, debugging, or optimizing Azure Resource Manager applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Resource Manager Skill
 
@@ -20,15 +20,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L131 | Diagnosing and fixing Bicep/ARM deployment issues: detailed guides for specific BCP/ARM error codes, syntax/type/decorator problems, scope and resource issues, and common Azure deployment failures. |
-| Best Practices | L132-L177 | Best practices for authoring and validating Bicep/ARM templates: linter rules, parameters, locations/URLs, resource IDs, API versions, test toolkit usage, and migration/assessment guidance. |
-| Decision Making | L178-L204 | Guidance on choosing ARM vs Bicep and classic vs Resource Manager, plus strategies and step‑by‑step plans to relocate Azure workloads and specific services across regions. |
-| Architecture & Design Patterns | L205-L212 | Bicep design patterns for parameters, logical config sets, robust name generation, and shared variable files to build reusable, maintainable ARM templates. |
-| Limits & Quotas | L213-L242 | ARM/Bicep limits on resources, parameters, variables, outputs, naming, tags, deployments, throttling, and quotas, plus how to diagnose and resolve “quota exceeded” issues. |
-| Security | L243-L276 | Securing ARM/Bicep deployments: handling secrets (Key Vault, secure params/outputs), RBAC and managed apps, private endpoints/links, locks, TLS, and policy-based access controls. |
-| Configuration | L277-L359 | Configuring ARM and Bicep templates, parameters, tags, stacks, and tooling, plus managed app UIs (createUiDefinition), custom providers, monitoring, policy, and ARM/Bicep template functions. |
-| Integrations & Coding Patterns | L360-L404 | Bicep functions, operators, loops, and patterns plus CLI/PowerShell/Python/REST integrations for deploying, querying, and managing ARM resources and tags. |
-| Deployment | L405-L434 | Deploying and moving ARM/Bicep-based resources: CI/CD with Pipelines/GitHub, export/what-if/rollback, and cross-subscription or cross-region relocation of many Azure services. |
+| Troubleshooting | L33-L131 | Diagnosing and fixing Bicep/ARM deployment issues: detailed guides for specific BCP/ARM errors, syntax/type/decorator problems, resource/quotas/SKU/name/region failures, and debugging tools/logging. |
+| Best Practices | L132-L177 | Best practices for authoring and validating Bicep/ARM templates: linter rules, parameter/variable usage, resource IDs, API versions, locations/URLs, and ARM test toolkit guidance. |
+| Decision Making | L178-L204 | Guidance on choosing deployment models and planning/migrating Azure resources (VMs, AKS, networking, data, backup, automation) across regions, including relocation strategies and tooling. |
+| Architecture & Design Patterns | L205-L212 | Bicep template design patterns for parameters, logical config sets, robust name generation, and shared variable files to build reusable, maintainable ARM deployments. |
+| Limits & Quotas | L213-L242 | ARM/Bicep limits and quotas: resource, tag, naming, history, and subscription caps; template/parameter/output constraints; throttling, quota errors, and large/managed app storage workarounds. |
+| Security | L243-L276 | Securing ARM/Bicep deployments: handling secrets (Key Vault, secure params/outputs), RBAC and managed apps, private endpoints/links, locks, TLS, cross-tenant auth, and policy-based controls. |
+| Configuration | L277-L359 | Configuring and using ARM/Bicep templates and managed app UIs: linter and tooling setup, parameters, scopes, functions, UI elements, networking, monitoring, tags, policy, and preview features. |
+| Integrations & Coding Patterns | L360-L404 | Bicep functions, operators, loops, and patterns, plus CLI/PowerShell/Python/REST integrations for deploying, managing, tagging, and querying Azure resources and ARM templates. |
+| Deployment | L405-L434 | Deploying ARM/Bicep templates via Pipelines, GitHub, portal/CLI/PowerShell, using what-if and rollback, and moving/relocating Azure resources and data across subscriptions or regions |
 
 ### Troubleshooting
 | Topic | URL |

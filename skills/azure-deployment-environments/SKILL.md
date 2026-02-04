@@ -3,7 +3,7 @@ name: azure-deployment-environments
 description: Expert knowledge for Azure Deployment Environments development including best practices, security, configuration, integrations & coding patterns, troubleshooting, and deployment. Use when building, debugging, or optimizing Azure Deployment Environments applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Deployment Environments Skill
 
@@ -20,12 +20,12 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L30-L34 | Diagnosing and fixing Azure Deployment Environments failures when deploying custom images, including common error patterns, logs to check, and remediation steps. |
-| Best Practices | L35-L39 | Guidance on organizing Azure Deployment Environments catalogs and templates to maximize template caching efficiency and reduce deployment time. |
-| Security | L40-L47 | RBAC and identity setup for ADE: planning roles, assigning project access, configuring managed identities, and authenticating to ADE REST APIs via Azure CLI. |
-| Configuration | L48-L62 | Configuring Azure Deployment Environments: environment.yaml schema, catalogs (GitHub/Azure Repos), dev center and project setup (CLI/ARM), environment types, and environment variables in images. |
-| Integrations & Coding Patterns | L63-L68 | Using custom container images with Azure Deployment Environments, including building, publishing, and managing images via ADE CLI workflows |
-| Deployment | L69-L73 | Using Azure Deployment Environments with CI/CD tools (Azure Pipelines, GitHub Actions) to automatically create, update, and manage ADE environments from your deployment workflows |
+| Troubleshooting | L30-L34 | Diagnosing and resolving Azure Deployment Environments failures when deploying custom images, including common causes, logs to check, and remediation steps. |
+| Best Practices | L35-L39 | Guidance on organizing Azure Deployment Environments catalogs and templates to maximize cache reuse, reduce deployment time, and improve template management efficiency. |
+| Security | L40-L47 | Planning and assigning ADE RBAC roles, configuring managed identities, and authenticating to ADE REST APIs with Azure CLI for secure access and deployments |
+| Configuration | L48-L62 | Configuring Azure Deployment Environments: environment.yaml schema, catalogs (GitHub/Azure Repos), dev center/projects, environment types, CLI/ARM setup, and environment variables in images. |
+| Integrations & Coding Patterns | L63-L68 | Working with custom container images in Azure Deployment Environments, including building, publishing, and using ADE CLI commands to automate custom image workflows. |
+| Deployment | L69-L73 | Using Azure Pipelines or GitHub Actions to automate ADE environment deployments, including CI/CD integration, configuration, and workflow examples. |
 
 ### Troubleshooting
 | Topic | URL |

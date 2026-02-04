@@ -3,7 +3,7 @@ name: azure-notification-hubs
 description: Expert knowledge for Azure Notification Hubs development including integrations & coding patterns, decision making, configuration, deployment, security, limits & quotas, architecture & design patterns, troubleshooting, and best practices. Use when building, debugging, or optimizing Azure Notification Hubs applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Notification Hubs Skill
 
@@ -20,15 +20,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L38 | Diagnosing and resolving common Notification Hubs issues, including delivery failures, dropped/undelivered pushes, platform-specific errors, and troubleshooting configuration or connectivity problems. |
-| Best Practices | L39-L43 | Guidance for adapting Notification Hubs to iOS 13 push changes, including payload/APS updates, notification handling, and required app and hub configuration adjustments. |
-| Decision Making | L44-L48 | Guidance on selecting and switching Notification Hubs pricing tiers, comparing features, limits, and costs to choose the right tier for your scenario. |
-| Architecture & Design Patterns | L49-L53 | Guidance on designing scalable, multi-tenant, and secure enterprise push notification architectures using Azure Notification Hubs and related Azure services |
-| Limits & Quotas | L54-L59 | Managing large-scale registration data via bulk export/import and configuring scheduled or recurring push notifications in Notification Hubs |
-| Security | L60-L67 | Encryption at rest, EU data residency, auth/roles and access control, and TLS version requirements/config for securing Notification Hubs. |
-| Configuration | L68-L83 | Configuring Notification Hubs: PNS credentials (APNS, FCM, WNS, Baidu, legacy MPNS), tags/routing, registration patterns, Private Link, and monitoring/diagnostic logs. |
-| Integrations & Coding Patterns | L84-L112 | End-to-end push integration patterns: platform setup (FCM v1, APNS, WNS), SDK/REST usage, user/geo targeting, templates, localization, and language-specific server code (Java, PHP, Python). |
-| Deployment | L113-L118 | How to provision and deploy Notification Hubs using infrastructure-as-code tools, including Bicep, ARM templates, and Terraform configuration and parameters. |
+| Troubleshooting | L33-L38 | Diagnosing and resolving common Notification Hubs issues, including message drops, delivery failures, platform push errors, and steps/tools to debug and fix them. |
+| Best Practices | L39-L43 | Guidance for adapting Notification Hubs to iOS 13 push changes, including payload/APS updates, notification handling, and ensuring compatibility with new iOS behaviors. |
+| Decision Making | L44-L48 | Guidance on selecting the right Notification Hubs pricing tier, comparing features and limits, estimating costs, and changing tiers for existing hubs |
+| Architecture & Design Patterns | L49-L53 | Guidance on designing scalable, secure, multi-tenant push notification architectures with Notification Hubs, including patterns for routing, personalization, and integration with backend services. |
+| Limits & Quotas | L54-L59 | Managing large-scale device registrations via bulk export/import and configuring scheduled push notifications, including timing, payloads, and delivery behavior. |
+| Security | L60-L67 | Encryption at rest, EU data residency/boundary behavior, security model and access control (SAS/roles), and TLS version requirements for secure Notification Hubs use. |
+| Configuration | L68-L83 | Configuring Notification Hubs: platform-specific PNS settings (APNS, FCM, WNS, Baidu, legacy MPNS), tags/routing, device registration patterns, diagnostics/metrics, and Private Link endpoints. |
+| Integrations & Coding Patterns | L84-L112 | Implementing and migrating push notifications with Azure Notification Hubs across Android (FCM), iOS (APNS), UWP, and various back-end stacks (Java, PHP, Python), including targeting, templates, and localization. |
+| Deployment | L113-L118 | Automating Notification Hubs deployment with Bicep, ARM templates, and Terraform, including resource definitions, parameters, and infrastructure-as-code examples. |
 
 ### Troubleshooting
 | Topic | URL |

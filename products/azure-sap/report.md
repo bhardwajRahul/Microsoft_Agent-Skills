@@ -10,8 +10,8 @@
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 1
-- **Unchanged**: 201
+- **Updated Pages**: 0
+- **Unchanged**: 202
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-sap/azure-sap.csv`
 
@@ -31,11 +31,6 @@
 | *(Unclassified)* | 34 | 16.8% |
 
 ## Changes
-
-### Updated Pages
-
-- [Set up Pacemaker cluster](https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-rhel-pacemaker)
-  - Updated: 2026-01-07T08:00:00.000Z → 2026-01-29T08:00:00.000Z
 
 ## Classified Pages
 

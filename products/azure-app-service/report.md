@@ -5,14 +5,14 @@
 - **Total Pages**: 246
 - **Fetched**: 246
 - **Fetch Failed**: 0
-- **Classified**: 151
-- **Unclassified**: 95
+- **Classified**: 150
+- **Unclassified**: 96
 
 ### Incremental Update
-- **New Pages**: 9
-- **Updated Pages**: 0
-- **Unchanged**: 237
-- **Deleted Pages**: 1
+- **New Pages**: 0
+- **Updated Pages**: 1
+- **Unchanged**: 245
+- **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-app-service/azure-app-service.csv`
 
 ## Classification Statistics
@@ -21,32 +21,21 @@
 |------|-------|------------|
 | architecture-patterns | 2 | 0.8% |
 | best-practices | 4 | 1.6% |
-| configuration | 50 | 20.3% |
+| configuration | 49 | 19.9% |
 | decision-making | 18 | 7.3% |
 | deployment | 14 | 5.7% |
 | integrations | 7 | 2.8% |
 | limits-quotas | 2 | 0.8% |
 | security | 53 | 21.5% |
 | troubleshooting | 1 | 0.4% |
-| *(Unclassified)* | 95 | 38.6% |
+| *(Unclassified)* | 96 | 39.0% |
 
 ## Changes
 
-### New Pages
+### Updated Pages
 
-- [Overview](https://learn.microsoft.com/en-us/azure/app-service/overview-ai-integration)
-- [Chatbots and RAG applications](https://learn.microsoft.com/en-us/azure/app-service/scenario-ai-chatbot-retrieval-augmented-generation)
-- [Agentic web applications](https://learn.microsoft.com/en-us/azure/app-service/scenario-ai-agentic-web-apps)
-- [OpenAPI tools for Foundry agents](https://learn.microsoft.com/en-us/azure/app-service/scenario-ai-openapi-tool)
-- [Model Context Protocol servers](https://learn.microsoft.com/en-us/azure/app-service/scenario-ai-model-context-protocol-server)
-- [Local small language models](https://learn.microsoft.com/en-us/azure/app-service/scenario-ai-local-small-language-model)
-- [Secure AI applications](https://learn.microsoft.com/en-us/azure/app-service/scenario-ai-authentication)
-- [Aspire Quickstart](https://learn.microsoft.com/en-us/azure/app-service/quickstart-dotnet-aspire)
-- [Aspire](https://learn.microsoft.com/en-us/azure/app-service/configure-language-dotnet-aspire)
-
-### Deleted Pages
-
-- ~~Integrate AI with App Service~~ (https://learn.microsoft.com/en-us/azure/app-service/overview-ai-integration)
+- [Networking architecture](https://learn.microsoft.com/en-us/azure/app-service/environment/networking)
+  - Updated: 2025-10-15T08:00:00.000Z → 2026-02-03T18:20:00.000Z
 
 ## Classified Pages
 
@@ -182,7 +171,6 @@
 | [Migrate from gateway-based integration](https://learn.microsoft.com/en-us/azure/app-service/migrate-gateway-based-vnet-integration) | decision-making | 0.65 | The content compares legacy gateway-based and regional VNet integration for App Service, explains retirement timelines, and provides migration guidance. It helps choose between integration types and plan a migration path, which aligns with decision-making (service/approach selection and migration considerations) rather than generic configuration. |
 | [Migrate from multi-container](https://learn.microsoft.com/en-us/azure/app-service/migrate-sidecar-multi-container-apps) | decision-making | 0.65 | Guidance for migrating from Docker Compose/multi-container apps to sidecars; likely includes scenario-based recommendations and trade-offs between models, which is decision-making content. |
 | [Monitor instance health](https://learn.microsoft.com/en-us/azure/app-service/monitor-instances-health-check) | configuration | 0.65 | Describes how Health check pings a specific path every minute and how to configure that path and related settings in App Service. Contains product-specific configuration behavior (no default path, instance replacement behavior) rather than just conceptual monitoring. |
-| [Networking architecture](https://learn.microsoft.com/en-us/azure/app-service/environment/networking) | configuration | 0.65 | Networking details for ASE (subnet usage, inbound/outbound traffic behavior) are product-specific configuration knowledge; such pages typically enumerate required subnet settings and constraints unique to ASE. |
 | [Recommended services (preview)](https://learn.microsoft.com/en-us/azure/app-service/recommended-services) | architecture-patterns | 0.65 | Feature suggests sets of services and patterns commonly deployed together, with smart defaults tailored to app types; this is product-specific architectural guidance on how to structure apps using proven patterns, fitting architecture-patterns even if not heavily numeric. |
 | [Secure AI applications](https://learn.microsoft.com/en-us/azure/app-service/scenario-ai-authentication) | security | 0.65 | Focused on securing OpenAPI tools and MCP servers with Microsoft Entra auth; likely includes product-specific auth configuration details and role/permission guidance beyond generic security concepts. |
 | [Stream diagnostic logs](https://learn.microsoft.com/en-us/azure/app-service/troubleshoot-diagnostic-logs) | configuration | 0.65 | Describes how to enable specific diagnostic log types and access them via portal/CLI, including App Service–specific logging options. These are concrete configuration settings for diagnostics. |
@@ -263,6 +251,7 @@
 | [Inbound IP address](https://learn.microsoft.com/en-us/azure/app-service/ip-address-change-inbound) | 0.30 | Appears to be a procedural guide for handling inbound IP changes without clear evidence of numeric limits, config matrices, or detailed troubleshooting mappings in the summary. |
 | [Kudu service](https://learn.microsoft.com/en-us/azure/app-service/resources-kudu) | 0.30 | Overview of Kudu service and its role in deployment; appears conceptual without deployment matrices, limits, or detailed configuration parameter tables. |
 | [Model Context Protocol servers](https://learn.microsoft.com/en-us/azure/app-service/scenario-ai-model-context-protocol-server) | 0.30 | MCP server scenario overview; description focuses on what and why, not on specific configuration parameters, limits, or troubleshooting content. |
+| [Networking architecture](https://learn.microsoft.com/en-us/azure/app-service/environment/networking) | 0.30 | Based on the summary, the page is a conceptual networking overview for App Service Environment (describing VNet placement, single-subnet deployment, and traffic staying inside the VNet) without explicit numeric limits, configuration parameter tables, error codes, or decision matrices. It doesn't clearly expose product-specific configuration values, quotas, or troubleshooting mappings that meet the expert-knowledge criteria. |
 | [OpenAPI tools for Foundry agents](https://learn.microsoft.com/en-us/azure/app-service/scenario-ai-openapi-tool) | 0.30 | Describes using App Service as an OpenAPI tool; summary indicates conceptual integration guidance, not detailed configuration tables or error mappings. |
 | [Outbound IP address](https://learn.microsoft.com/en-us/azure/app-service/ip-address-change-outbound) | 0.30 | Outbound IP change preparation is likely a step-by-step operational guide; summary does not indicate specific limits, config tables, or error-code-based troubleshooting. |
 | [Overview](https://learn.microsoft.com/en-us/azure/app-service/overview-sidecar) | 0.30 | Conceptual overview of sidecars and their benefits; summary does not indicate detailed configuration parameters, limits, or troubleshooting. |

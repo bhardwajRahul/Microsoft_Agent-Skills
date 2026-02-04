@@ -3,7 +3,7 @@ name: azure-operator-nexus
 description: Expert knowledge for Azure Operator Nexus development including configuration, security, troubleshooting, limits & quotas, decision making, integrations & coding patterns, best practices, and deployment. Use when building, debugging, or optimizing Azure Operator Nexus applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Operator Nexus Skill
 
@@ -20,14 +20,14 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L32-L77 | Diagnosing and fixing Nexus infrastructure issues: bare metal, storage, networking, Kubernetes clusters/pods, connectivity, provisioning, and health/alert problems. |
-| Best Practices | L78-L82 | Guidance on planning, executing, and maintaining Azure Operator Nexus bare metal lifecycle operations, including provisioning, upgrades, maintenance, and reliability best practices. |
-| Decision Making | L83-L94 | Guidance on choosing Nexus storage appliances, near-edge compute and VM SKUs, and planning supported Kubernetes/platform versions, lifecycles, and upgrade strategies. |
-| Limits & Quotas | L95-L102 | Storage class limits, NFC/CM capacity planning, and configuration of technical limits, quotas, and isolation domain constraints for Azure Operator Nexus environments. |
+| Troubleshooting | L32-L77 | Diagnosing and fixing Nexus issues: bare metal/VM/Kubernetes health, storage and CSI/NFS, network fabric, cabling, DNS/LACP/TWAMP, isolation domains, hydration, and log/alert problems. |
+| Best Practices | L78-L82 | Guidance for planning, executing, and maintaining Azure Operator Nexus bare metal lifecycle operations, including provisioning, updates, monitoring, and reliability best practices. |
+| Decision Making | L83-L94 | Guidance on choosing Nexus compute/storage SKUs, planning storage appliance deployment and versions, and managing Kubernetes/platform versioning and upgrade lifecycles. |
+| Limits & Quotas | L95-L102 | Storage class limits, NFC/CM capacity planning, and configuration of technical limits, quotas, and isolation domain constraints in Azure Operator Nexus environments. |
 | Security | L103-L133 | Securing Nexus fabric, clusters, and VMs: RBAC, identities, SSH/serial access, ACLs, break-glass, key/secret rotation, Defender/MDE, vulnerability scanning, and Azure Policy. |
-| Configuration | L134-L197 | Configuring and operating Azure Operator Nexus: ARM templates, cluster/fabric lifecycle, BGP/VRF/ACL/route policies, Kubernetes tuning, observability, maintenance, and device/VM management. |
-| Integrations & Coding Patterns | L198-L207 | Managing Nexus network configuration via CLI: IP prefixes, route policies, L2/L3 isolation domains, fabric management, and Network Packet Broker/TAP rule setup. |
-| Deployment | L208-L217 | Deploying, upgrading, and decommissioning Azure Operator Nexus instances and network fabric using parameterized templates, prevalidation checks, and controlled upgrade strategies. |
+| Configuration | L134-L197 | Configuring and operating Azure Operator Nexus: ARM templates, cluster/fabric lifecycle, routing/BGP/QoS, isolation domains, observability, Kubernetes/VM settings, and network device maintenance. |
+| Integrations & Coding Patterns | L198-L207 | Managing Nexus network resources via CLI: IP prefixes, route policies, L2/L3 isolation domains, fabric operations, and configuring packet broker/TAP rules. |
+| Deployment | L208-L217 | Deploying, upgrading, and decommissioning Azure Operator Nexus instances and clusters, including parameterized templates, fabric/runtime upgrades, prevalidation, and safe upgrade strategies. |
 
 ### Troubleshooting
 | Topic | URL |

@@ -1,9 +1,9 @@
 ---
 name: azure-migrate
-description: Expert knowledge for Azure Migrate development including integrations & coding patterns, configuration, decision making, troubleshooting, limits & quotas, security, best practices, architecture & design patterns, and deployment. Use when building, debugging, or optimizing Azure Migrate applications.
+description: Expert knowledge for Azure Migrate development including integrations & coding patterns, configuration, decision making, troubleshooting, security, limits & quotas, best practices, architecture & design patterns, and deployment. Use when building, debugging, or optimizing Azure Migrate applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Migrate Skill
 
@@ -20,33 +20,22 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L50 | Diagnosing and fixing Azure Migrate issues: appliance setup/discovery, assessments (incl. PostgreSQL, SQL, dependency), project/PE connectivity, and agentless VMware/web app migration errors. |
-| Best Practices | L51-L57 | Best practices for preparing on-premises/legacy Windows servers for Azure Migrate and safely testing migration of replicating VMs before full cutover. |
-| Decision Making | L58-L74 | Using Azure Migrate reports and assessments to choose discovery methods, sizing, costs, readiness, and migration strategies for servers, apps, AVS, and business cases |
-| Architecture & Design Patterns | L75-L79 | Hyper-V migration architecture: components, data flow, connectivity, and design patterns for discovering, replicating, and migrating on-prem Hyper-V VMs to Azure using Azure Migrate. |
-| Limits & Quotas | L80-L93 | Support matrices, region/metadata limits, prerequisites, and scale-out appliance guidance for discovering, assessing, and migrating VMware, Hyper-V, and physical servers with Azure Migrate. |
-| Security | L94-L112 | Securing Azure Migrate: least-privilege roles/accounts, Private Link, SSE+CMK, Arc enablement, Azure Policy/RBAC, and assessing security risks for VMware/Hyper-V/SQL/PostgreSQL. |
-| Configuration | L113-L134 | Configuring Azure Migrate appliances, credentials, assessments, dependency analysis (agentless/agent-based), Arc onboarding, and large-scale/physical/VMware server assessment settings. |
-| Integrations & Coding Patterns | L135-L142 | Integrating external code scan tools (GitHub Copilot, CAST Highlight) with Azure Migrate and automating large-scale/agentless VMware migrations using PowerShell and Azure Site Recovery scripts |
-| Deployment | L143-L148 | Deploying migrated workloads: ARM template project setup, IaC-based server redeployments, and Azure DevOps CI/CD pipelines for containerized applications. |
+| Troubleshooting | L33-L39 | Diagnosing Azure Migrate issues: PostgreSQL assessment blockers, appliance deployment/health problems, and private endpoint connectivity and network troubleshooting. |
+| Best Practices | L40-L46 | Best practices for preparing on-premises/legacy Windows servers for Azure Migrate and safely testing migration of replicating VMs before full cutover. |
+| Decision Making | L47-L63 | Guidance on interpreting Azure Migrate assessments/business cases, choosing discovery and sizing methods, comparing agentless vs agent-based, and using reports for readiness, cost, and migration planning |
+| Architecture & Design Patterns | L64-L68 | Hyper-V to Azure migration architecture: components, data flow, connectivity, replication, and how Azure Migrate orchestrates agent-based/agentless Hyper-V server migrations. |
+| Limits & Quotas | L69-L81 | Support matrices, limits, regions, and prerequisites for Azure Migrate appliances and discovery/assessment of VMware, Hyper-V, and physical servers. |
+| Security | L82-L99 | Securing Azure Migrate: least-privilege roles/accounts, Private Link, CMK/SSE, Arc enablement, RBAC, vCenter scoping, and security risk assessment with Insights |
+| Configuration | L100-L120 | Configuring Azure Migrate appliances, credentials, assessments, dependency analysis (agentless/agent-based), large-scale/physical/VMware scenarios, and related OS upgrade and extension settings. |
+| Integrations & Coding Patterns | L121-L128 | Integrating external code analysis tools (GitHub Copilot, CAST Highlight) with Azure Migrate and automating large-scale VMware/ASR migrations using PowerShell and scripts |
+| Deployment | L129-L134 | Deploying migrated workloads: ARM template project setup, IaC-based server redeployments, and configuring Azure DevOps CI/CD pipelines for containerized applications. |
 
 ### Troubleshooting
 | Topic | URL |
 |-------|-----|
 | Use PostgreSQL assessment rules to detect migration blockers | https://learn.microsoft.com/en-us/azure/migrate/assessment-rules-for-postgresql?view=migrate |
-| Resolve common Azure Migrate assessment issues | https://learn.microsoft.com/en-us/azure/migrate/common-questions-discovery-assessment?view=migrate |
-| Troubleshoot Azure Migrate server migration tool | https://learn.microsoft.com/en-us/azure/migrate/common-questions-server-migration?view=migrate |
 | Diagnose and troubleshoot Azure Migrate appliance issues | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-appliance-diagnostic?view=migrate |
-| Troubleshoot Azure Migrate appliance deployment and discovery | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-appliance?view=migrate |
-| Troubleshoot supported Azure Migrate assessment scenarios | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-assessment-supported-scenarios?view=migrate |
-| Resolve common Azure Migrate assessment issues | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-assessment?view=migrate |
-| Fix replication failures in agentless VMware VM migration | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-changed-block-tracking-replication?view=migrate |
-| Troubleshoot Azure Migrate dependency analysis problems | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-dependencies?view=migrate |
-| Troubleshoot Azure Migrate server and SQL discovery issues | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-discovery?view=migrate |
 | Troubleshoot Azure Migrate private endpoint connectivity | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-network-connectivity?view=migrate |
-| Troubleshoot Azure Migrate project creation and management | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-project?view=migrate |
-| Troubleshoot slow or stuck agentless VMware migrations | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-replication-vmware?view=migrate |
-| Troubleshoot Azure Migrate web app migration errors | https://learn.microsoft.com/en-us/azure/migrate/troubleshoot-webapps-migration?view=migrate |
 
 ### Best Practices
 | Topic | URL |
@@ -80,7 +69,6 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 ### Limits & Quotas
 | Topic | URL |
 |-------|-----|
-| Use Azure Migrate from unsupported Azure regions | https://learn.microsoft.com/en-us/azure/migrate/azure-migrate-unsupported-regions?view=migrate |
 | Reference of metadata fields discovered by Azure Migrate appliance | https://learn.microsoft.com/en-us/azure/migrate/discovered-metadata?view=migrate |
 | Use Azure Migrate scale-out appliance for large VMware migrations | https://learn.microsoft.com/en-us/azure/migrate/how-to-scale-out-for-migration?view=migrate |
 | Check Hyper-V to Azure migration support matrix | https://learn.microsoft.com/en-us/azure/migrate/migrate-support-matrix-hyper-v-migration?view=migrate |
@@ -105,7 +93,6 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Use Azure Migrate Insights for security risk assessment | https://learn.microsoft.com/en-us/azure/migrate/insights-overview?view=migrate |
 | Create least-privilege SQL accounts for Azure Migrate discovery | https://learn.microsoft.com/en-us/azure/migrate/least-privilege-credentials?view=migrate |
 | Migrate Hyper-V servers over Private Link to Azure | https://learn.microsoft.com/en-us/azure/migrate/migrate-hyper-v-servers-to-azure-using-private-link?view=migrate |
-| Apply Azure Policy definitions for Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/policy-reference?view=migrate |
 | Configure least-privilege PostgreSQL accounts for Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/postgresql-least-privilege-configuration?view=migrate |
 | Configure Azure RBAC roles for Azure Migrate projects | https://learn.microsoft.com/en-us/azure/migrate/prepare-azure-accounts?view=migrate |
 | Configure vCenter permissions to scope Azure Migrate discovery | https://learn.microsoft.com/en-us/azure/migrate/set-discovery-scope?view=migrate |
@@ -127,7 +114,6 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure in-place Windows Server OS upgrades during Azure migration | https://learn.microsoft.com/en-us/azure/migrate/how-to-upgrade-windows?view=migrate |
 | Review prerequisites and support for Azure Migrate appliance | https://learn.microsoft.com/en-us/azure/migrate/migrate-appliance?view=migrate |
 | Azure Migrate Collector VM extension settings reference | https://learn.microsoft.com/en-us/azure/migrate/migrate-virtual-machine-extension-reference?view=migrate |
-| Configure Azure Arc onboarding via Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/onboard-to-azure-arc-with-azure-migrate?view=migrate |
 | Configure large-scale physical server assessments in Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/scale-physical-assessment?view=migrate |
 | Configure large-scale VMware server assessments in Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/scale-vmware-assessment?view=migrate |
 | Set Azure VM assessment properties in Azure Migrate | https://learn.microsoft.com/en-us/azure/migrate/vm-assessment-properties?view=migrate |

@@ -3,7 +3,7 @@ name: azure-business-process-tracking
 description: Expert knowledge for Azure Business Process Tracking development including deployment, and integrations & coding patterns. Use when building, debugging, or optimizing Azure Business Process Tracking applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Business Process Tracking Skill
 
@@ -20,8 +20,8 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Integrations & Coding Patterns | L26-L30 | Design patterns and steps for linking business process stages to Azure Logic Apps workflows so tracked processes align with actual automated flows. |
-| Deployment | L31-L35 | Deploying business processes and tracking profiles to Azure, and setting up CI/CD pipelines (build, release, automation) for Business Process Tracking. |
+| Integrations & Coding Patterns | L26-L30 | Designing Logic Apps workflows that represent business process stages, correlate runs with process instances, and emit tracking data for end-to-end process monitoring |
+| Deployment | L31-L35 | How to deploy business processes and tracking profiles to Azure and set up CI/CD pipelines to automate building, testing, and releasing Business Process Tracking solutions. |
 
 ### Integrations & Coding Patterns
 | Topic | URL |

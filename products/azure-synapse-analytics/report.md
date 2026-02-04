@@ -10,8 +10,8 @@
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 0
-- **Unchanged**: 382
+- **Updated Pages**: 1
+- **Unchanged**: 381
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-synapse-analytics/azure-synapse-analytics.csv`
 
@@ -31,6 +31,11 @@
 | *(Unclassified)* | 132 | 34.6% |
 
 ## Changes
+
+### Updated Pages
+
+- [Synapse workspace Managed virtual network](https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-vnet)
+  - Updated: 2025-01-23T05:38:00.000Z → 2026-02-03T18:20:00.000Z
 
 ## Classified Pages
 
@@ -201,7 +206,7 @@
 | [Stored procedures](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/develop-stored-procedures) | best-practices | 0.70 | Stored procedures in Synapse pools have specific behaviors and recommended patterns (e.g., for modularization and performance). The article gives concrete implementation tips, making it product-specific best practices. |
 | [Synapse RBAC](https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-synapse-rbac) | security | 0.70 | Explains how Synapse RBAC extends Azure RBAC and how it applies to Synapse resources. Contains product-specific role model behavior and scope interactions, which are concrete security semantics unique to Synapse. |
 | [Synapse workspace Managed private endpoints](https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints) | security | 0.70 | Managed private endpoints are a Synapse-specific security feature. This article typically includes concrete configuration steps, required permissions, and service-specific behaviors for private endpoints in a managed VNet, which are product-specific security details beyond generic private link concepts. |
-| [Synapse workspace Managed virtual network](https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-vnet) | security | 0.70 | Managed virtual network article explains Synapse-specific network isolation, likely including subnet requirements, private endpoint behavior, and configuration options—product-specific security and networking settings. |
+| [Synapse workspace Managed virtual network](https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-vnet) | security | 0.70 | The article describes Azure Synapse managed virtual network behavior and security-specific configuration details (such as how managed VNets isolate traffic, how private endpoints and managed private endpoints are used, and product-specific networking/security implications). These are concrete, product-specific security patterns rather than generic networking concepts, so it best fits the security sub-skill. |
 | [Synapse workspace data exfiltration protection](https://learn.microsoft.com/en-us/azure/synapse-analytics/security/workspace-data-exfiltration-protection) | security | 0.70 | Data exfiltration protection is a specialized Synapse security capability. The article describes how to configure it, allowed/blocked tenant behavior, and workspace-specific constraints, which are product-specific security settings not covered by generic knowledge. |
 | [Synapse workspace with private link hubs](https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-private-link-hubs) | security | 0.70 | Connecting to Synapse Studio via private link hubs involves Synapse-specific security configuration, including required resources, endpoint setup, and DNS integration patterns that are unique to this product. |
 | [System and user-assigned managed identity](https://learn.microsoft.com/en-us/azure/synapse-analytics/synapse-service-identity) | security | 0.70 | Explains how managed identities behave and are used specifically in Synapse, including workspace identity semantics and required configuration. These are product-specific identity/security details. |

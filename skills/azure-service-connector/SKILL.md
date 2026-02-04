@@ -3,7 +3,7 @@ name: azure-service-connector
 description: Expert knowledge for Azure Service Connector development including security, deployment, configuration, integrations & coding patterns, troubleshooting, and limits & quotas. Use when building, debugging, or optimizing Azure Service Connector applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Service Connector Skill
 
@@ -20,12 +20,12 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L30-L34 | Diagnosing and resolving Service Connector errors and failures, including common error codes, connection issues, and steps to debug and fix integration problems. |
-| Limits & Quotas | L35-L39 | Known limitations of Service Connector, unsupported scenarios, and suggested workarounds or alternatives for connecting Azure services |
-| Security | L40-L46 | Entra RBAC and permission requirements for Service Connector, plus how to configure and choose authentication methods (managed identity, service principal, key-based, etc.). |
+| Troubleshooting | L30-L34 | Diagnosing and resolving Service Connector connection failures, auth/permission issues, configuration errors, and common error codes when linking Azure compute to external services. |
+| Limits & Quotas | L35-L39 | Known limitations of Azure Service Connector, unsupported scenarios, and suggested workarounds or alternatives for affected connection types and environments |
+| Security | L40-L46 | Permissions, RBAC roles, and auth methods used by Service Connector, including required access levels and how to configure identity-based authentication securely. |
 | Configuration | L47-L52 | How to list and retrieve connection settings created by Service Connector and which Azure CLI parameters to use when creating or managing those connections |
-| Integrations & Coding Patterns | L53-L83 | How to connect Azure compute apps to databases, messaging, storage, AI, and external services using Service Connector, including auth setup and language-specific connection patterns. |
-| Deployment | L84-L88 | Region availability by compute type and how to provision Service Connector connections using infrastructure-as-code tools (Bicep, ARM, Terraform, etc.). |
+| Integrations & Coding Patterns | L53-L83 | How to connect Azure apps to databases, messaging, storage, AI, and third‑party services using Service Connector, including auth setup, config, and language-specific code patterns. |
+| Deployment | L84-L88 | Region availability for Service Connector by compute (Web Apps, Functions, Container Apps, etc.) and how to create/manage connections using IaC tools like Bicep, ARM, Terraform, and CLI. |
 
 ### Troubleshooting
 | Topic | URL |

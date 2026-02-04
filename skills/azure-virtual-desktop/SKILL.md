@@ -3,7 +3,7 @@ name: azure-virtual-desktop
 description: Expert knowledge for Azure Virtual Desktop development including configuration, troubleshooting, deployment, best practices, decision making, security, integrations & coding patterns, architecture & design patterns, and limits & quotas. Use when building, debugging, or optimizing Azure Virtual Desktop applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Virtual Desktop Skill
 
@@ -20,15 +20,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L47 | Diagnosing and fixing AVD issues: app attach/MSIX, autoscale, FQDN/endpoint access, latency and connection quality, Log Analytics queries, graphics, host health, updates, and Teams. |
-| Best Practices | L48-L60 | Operational best practices for AVD: autoscale, Advisor tuning, FSLogix profiles, proxy/RDP Multipath, security hardening, Start VM on Connect, and Windows multi‑session optimization. |
-| Decision Making | L61-L76 | Guides for planning AVD architecture: autoscale, zones/local, host pool and deployment models, storage/FSLogix, Teams support, monitoring/log costs, licensing, and management tools. |
-| Architecture & Design Patterns | L77-L81 | Guidance on designing stateless AVD deployments using ephemeral OS disks, including architecture choices, performance, cost, and resilience considerations. |
-| Limits & Quotas | L82-L86 | RDP bandwidth needs and optimization for Azure Virtual Desktop, including factors affecting usage, estimating per-user bandwidth, and planning network capacity. |
-| Security | L87-L103 | Securing AVD access and sessions: identity/SSO (Entra, AD FS, Kerberos, MFA, external users), RBAC/permissions, managed identities, and session protections (screen capture, watermarking, Purview). |
-| Configuration | L104-L165 | Configuring AVD host pools and session hosts, images, autoscale, networking, licensing, monitoring, and all RDP/client redirection, multimedia, and policy settings for user sessions. |
-| Integrations & Coding Patterns | L166-L172 | Managing AVD with CLI/PowerShell, using MSIXMGR for App Attach packaging, and integrating WebRTC calling apps with AVD multimedia redirection. |
-| Deployment | L173-L181 | Guides for deploying and migrating AVD: moving from classic to current, cross-region resource recreation, regional host pool limits, client deployment, and automated session host scaling. |
+| Troubleshooting | L33-L47 | Diagnosing and fixing AVD issues: MSIX app attach, autoscale, FQDN/endpoint access, latency and connection quality, Log Analytics queries, graphics, session host health, and Teams problems. |
+| Best Practices | L48-L60 | Best practices for AVD performance, autoscale, profiles (FSLogix), security, networking/proxy, RDP Multipath, Start VM on Connect, Windows multi-session, and Azure Advisor guidance. |
+| Decision Making | L61-L76 | Guidance on planning AVD deployments: autoscale, cost and licensing, host pool and deployment models, storage for FSLogix, Teams support, monitoring, tools, and Azure Local/Extended Zones. |
+| Architecture & Design Patterns | L77-L81 | Designing stateless AVD host pools using ephemeral OS disks, including architecture choices, performance/cost tradeoffs, and deployment best practices. |
+| Limits & Quotas | L82-L86 | RDP bandwidth needs for Azure Virtual Desktop: how display settings, multimedia, and user activity affect network usage, plus guidance for capacity planning and optimization. |
+| Security | L87-L103 | Identity, access, and session security for AVD: Entra join/SSO, AD FS, RBAC, managed identities, MFA/Conditional Access, external users, Kerberos, watermarking, and screen capture protection. |
+| Configuration | L104-L165 | Configuring AVD host pools, session hosts, images, autoscale, networking, licensing, monitoring, and RDP/RemoteApp features (redirection, codecs, QoS, Teams, OneDrive, policies, and updates). |
+| Integrations & Coding Patterns | L166-L172 | Managing AVD with CLI/PowerShell, configuring MSIX app attach via MSIXMGR, and integrating WebRTC calling apps using AVD multimedia redirection. |
+| Deployment | L173-L181 | Guides for migrating AVD classic to current, moving AVD resources across regions, handling regional host pool previews, deploying the client via Intune/ConfigMgr, and autoscaling session hosts. |
 
 ### Troubleshooting
 | Topic | URL |

@@ -3,7 +3,7 @@ name: azure-hdinsight
 description: Expert knowledge for Azure Hdinsight development including configuration, integrations & coding patterns, best practices, troubleshooting, security, architecture & design patterns, decision making, deployment, and limits & quotas. Use when building, debugging, or optimizing Azure Hdinsight applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Hdinsight Skill
 
@@ -20,15 +20,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L129 | Diagnosing and fixing HDInsight cluster issues: creation/auth, networking, storage, Ambari/HDFS/Hive/Spark/Kafka/HBase errors, performance, disk/CPU, and common operational failures. |
-| Best Practices | L130-L167 | Best practices for designing, configuring, tuning, scaling, securing, and migrating HDInsight clusters and workloads (Hadoop, Hive, HBase, Kafka, Spark, LLAP, storage, logging). |
-| Decision Making | L168-L186 | Guidance on HDInsight architecture choices: ETL patterns, Hive/MapReduce use, storage/VM/network selection, capacity planning, and migration/upgrade paths for clusters, Kafka, HBase, and load balancers. |
-| Architecture & Design Patterns | L187-L196 | HDInsight cluster architecture patterns: security (ESP, VNets), Hadoop migration design, high availability/BCDR, and scaling Kafka with managed disks. |
-| Limits & Quotas | L197-L203 | Node size/count limits, using external Hive/Oozie metastores, and requesting/managing HDInsight CPU core quota increases and capacity planning. |
-| Security | L204-L246 | Securing HDInsight clusters: identity and access (Entra, ESP, Ranger), TLS/encryption, SSH and auth patterns, and network controls (Private Link, NSGs, firewalls, service endpoints). |
-| Configuration | L247-L299 | Configuring HDInsight clusters: networking, security, autoscale, Ambari/Hive/HBase/Kafka/Spark settings, SSH/Jupyter/Zeppelin access, monitoring, policies, and performance tuning. |
-| Integrations & Coding Patterns | L300-L376 | Patterns and code samples for integrating HDInsight with tools/services (Excel, Power BI, Kafka, Cosmos DB, SQL, HBase, Phoenix) and managing/running jobs via SDKs, REST, CLI, and PowerShell |
-| Deployment | L377-L386 | Guides for migrating/upgrading HDInsight HBase clusters (same/new storage), and automating cluster deployment and lifecycle using ARM templates, REST APIs, and runbooks. |
+| Troubleshooting | L33-L129 | Diagnosing and fixing HDInsight cluster issues: creation/auth, networking, Ambari/HDFS/Hive/HBase/Kafka/Spark/YARN errors, performance, disk/CPU problems, and known operational bugs. |
+| Best Practices | L130-L167 | Performance, scaling, security, and configuration best practices for HDInsight clusters and workloads (Hadoop, Hive, HBase, Kafka, Spark), including storage, migration, and autoscale tuning. |
+| Decision Making | L168-L186 | Guidance on planning and migrating HDInsight clusters: ETL design, Hive/MapReduce choices, Kafka/HBase strategies, capacity/VM sizing, storage/networking, backup/replication, and version upgrades. |
+| Architecture & Design Patterns | L187-L196 | HDInsight solution design: security/ESP, VNet layout, Hadoop migration patterns, HA and business continuity architectures, and scaling Kafka clusters with managed disks. |
+| Limits & Quotas | L197-L203 | Node size/count limits, using external Hive/Oozie metastores, and requesting/managing HDInsight CPU core quota increases and capacity limits. |
+| Security | L204-L246 | Securing HDInsight clusters: identity/auth (Entra, MSI, ID Broker), Ranger/ESP, TLS/encryption, SSH/Hive/Kafka security, and network controls (Private Link, NSGs, firewalls, RBAC). |
+| Configuration | L247-L299 | Configuring HDInsight clusters: networking, security, autoscale, Ambari/Hive/HBase/Kafka/Spark settings, Jupyter/VS Code tools, logging/monitoring, SSH access, and performance tuning. |
+| Integrations & Coding Patterns | L300-L376 | Patterns and code samples for integrating HDInsight (Hive, Spark, Kafka, HBase, Sqoop) with tools/services (Excel, Power BI, SQL, Cosmos DB, IoT, REST, SDKs) and managing clusters programmatically |
+| Deployment | L377-L386 | Guides for deploying and upgrading HDInsight/HBase clusters, including migrations between versions/storage accounts, ARM/REST/template-based creation, and automating cluster lifecycle with runbooks. |
 
 ### Troubleshooting
 | Topic | URL |

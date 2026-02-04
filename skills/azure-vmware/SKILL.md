@@ -3,7 +3,7 @@ name: azure-vmware
 description: Expert knowledge for Azure Vmware development including configuration, architecture & design patterns, decision making, security, troubleshooting, best practices, integrations & coding patterns, and limits & quotas. Use when building, debugging, or optimizing Azure Vmware applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Vmware Skill
 
@@ -20,14 +20,14 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L32-L37 | Diagnosing and resolving Azure VMware Solution deployment and platform issues, including known errors, workarounds, and how to collect logs and open support tickets. |
-| Best Practices | L38-L44 | Best practices for AVS operations: safely maintaining private clouds, optimizing NSX scale/performance for HCX migrations, and configuring HCX Mobility Optimized Networking. |
-| Decision Making | L45-L57 | Guidance on choosing AVS migration, backup, DR, licensing, reserved instances, HCX options, API Management SKUs, and cross-region/VCF planning for VMware workloads in Azure |
-| Architecture & Design Patterns | L58-L78 | Network, storage, and private cloud design patterns for AVS, including hub-and-spoke, internet and VNet connectivity, multi-cloud/Gen2, vSAN, and reference architectures for Horizon, Citrix, VCD, and GitHub Enterprise. |
-| Limits & Quotas | L79-L88 | Host, cluster, routing, storage, and quota limits for Azure VMware Solution, including planning capacity, deploying/scaling clusters, and requesting/managing host quota. |
-| Security | L89-L102 | Securing AVS: identity/role setup, NSX/vCenter external auth, Defender for Cloud, vSAN customer-managed keys, Trusted Launch/vTPM, service principals, credential rotation, and hardening guidance. |
-| Configuration | L103-L153 | Configuring AVS environments: storage/datastores, networking (NSX, routing, DNS/DHCP, ExpressRoute), backup/DR, Arc/monitoring, security/licensing, and cross-cloud/private cloud connectivity. |
-| Integrations & Coding Patterns | L154-L168 | Networking, VPN, HCX setup/migration, and integrating AVS workloads with Azure services like Traffic Manager, App Gateway, Aria Operations, and VMware Cloud Director. |
+| Troubleshooting | L32-L37 | Diagnosing and resolving common Azure VMware Solution deployment/operation issues, plus how to collect logs and open support tickets for AVS deployment failures. |
+| Best Practices | L38-L44 | Best practices for AVS operations: safely maintaining private clouds, tuning NSX for HCX migration scale/performance, and applying HCX Mobility Optimized Networking in AVS. |
+| Decision Making | L45-L57 | Guidance on choosing AVS migration, backup, DR, licensing, API Management SKUs, cross-region planning, reserved instances, and using portable VMware Cloud Foundation. |
+| Architecture & Design Patterns | L58-L78 | Network, storage, and private cloud design patterns for AVS, including hub-spoke, internet/on-prem/Gen2 connectivity, vSAN, and reference architectures for Citrix, Horizon, GitHub, and Cloud Director. |
+| Limits & Quotas | L79-L88 | Host, cluster, routing, and external storage limits for Azure VMware Solution, plus how to plan capacity, request quota, deploy private clouds, and scale clusters within quotas. |
+| Security | L89-L102 | Securing Azure VMware Solution: identity/role setup, NSX/vCenter auth, Defender for Cloud, vSAN CMK, Trusted Launch/vTPM, service principals, credential rotation, and security best practices. |
+| Configuration | L103-L153 | Configuring AVS networking, storage, backup/DR, Arc/monitoring, and licensing: NSX, ExpressRoute, DNS/DHCP, vSAN/ANF/Elastic SAN, Cloud Backup, SRM/HCX/JetStream/Zerto, and access/security settings. |
+| Integrations & Coding Patterns | L154-L168 | Configuring AVS integrations: HCX install/migrate, vWAN/VPN, Traffic Manager, App Gateway, VMware Cloud Director, Aria Operations, and connecting AVS workloads to Azure native services. |
 
 ### Troubleshooting
 | Topic | URL |

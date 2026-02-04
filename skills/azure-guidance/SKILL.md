@@ -3,7 +3,7 @@ name: azure-guidance
 description: Expert knowledge for Azure Guidance development including decision making, best practices, security, architecture & design patterns, troubleshooting, deployment, and configuration. Use when building, debugging, or optimizing Azure Guidance applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Guidance Skill
 
@@ -21,12 +21,12 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Category | Lines | Description |
 |----------|-------|-------------|
 | Troubleshooting | L31-L44 | Diagnosing and fixing AKS cluster, node, pod, networking, registry, and admission issues, plus cross-region data platform failures and hybrid VPN gateway connectivity problems. |
-| Best Practices | L45-L77 | Best practices for performance, scalability, HA/DR, patching, and operations of Azure workloads (VMs, AKS, SAP, IoT, Event Hubs, mission‑critical apps) and avoiding common antipatterns |
-| Decision Making | L78-L139 | Guidance for choosing the right Azure services, data/AI technologies, and equivalents to AWS/GCP offerings, including AKS, networking, storage, DR, and microservices hosting options. |
-| Architecture & Design Patterns | L140-L275 | End-to-end Azure solution blueprints: mission-critical, hybrid, data/analytics, IoT, mainframe migration, SAP/IBM/Oracle workloads, microservices, AKS/Arc, DR/BCDR, networking, and landing zones. |
-| Security | L276-L305 | Securing Azure workloads and hybrid/cloud environments: AKS, VMs, SAP, Outlook, identity/Zero Trust, network perimeters, MFA, Defender XDR, Sentinel, and Microsoft–AWS integration. |
-| Configuration | L306-L311 | Configuring GitOps for AKS using Flux/Argo CD and setting up Azure Functions monitoring pipelines and diagnostics via Event Hubs |
-| Deployment | L312-L323 | Designing and automating Azure deployments: CI/CD for AKS and microservices, APIOps, Terraform/Bicep scripts, landing zone options, and mission‑critical workload rollout and testing. |
+| Best Practices | L45-L75 | Best-practice patterns for reliability, HA/DR, scaling, operations, and performance of Azure workloads (VMs, AKS, SAP, IoT, Event Hubs, databases) in production environments. |
+| Decision Making | L76-L137 | Guidance for choosing the right Azure services, compute, data, AI, and networking options, especially when comparing/migrating from AWS, GCP, EKS, Kafka, and other platforms. |
+| Architecture & Design Patterns | L138-L273 | End-to-end Azure solution architectures, patterns, and reference designs for mission-critical, hybrid, data, IoT, mainframe, SAP, and microservices workloads, including HA/DR and landing zones. |
+| Security | L274-L303 | Securing Azure and hybrid workloads: AKS, VMs, SAP, Outlook, identity/IDaaS, Zero Trust, firewalls, WAF, private access, Defender XDR, Sentinel, and Microsoft Entra vs AWS options. |
+| Configuration | L304-L309 | Configuring GitOps workflows for AKS using Flux/Argo CD and setting up Azure Functions monitoring pipelines that export telemetry via Event Hubs. |
+| Deployment | L310-L321 | Designing and automating Azure deployments: CI/CD for AKS and microservices, APIOps, Terraform/Bicep scripts, landing zone deployment choices, and mission‑critical rollout/testing. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -45,9 +45,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 ### Best Practices
 | Topic | URL |
 |-------|-----|
-| Avoid common performance antipatterns in Azure solutions | https://learn.microsoft.com/en-us/azure/architecture/antipatterns/ |
 | Mitigate the Busy Database performance antipattern | https://learn.microsoft.com/en-us/azure/architecture/antipatterns/busy-database/ |
-| Resolve the Busy Front End performance antipattern | https://learn.microsoft.com/en-us/azure/architecture/antipatterns/busy-front-end/ |
 | Preserve HTTP host headers behind Azure reverse proxies | https://learn.microsoft.com/en-us/azure/architecture/best-practices/host-name-preservation |
 | Apply DR best practices to Azure data platforms | https://learn.microsoft.com/en-us/azure/architecture/data-guide/disaster-recovery/dr-for-azure-data-platform-recommendations |
 | Apply production best practices to IoT Hub solutions | https://learn.microsoft.com/en-us/azure/architecture/example-scenario/iot/iot-move-to-production |

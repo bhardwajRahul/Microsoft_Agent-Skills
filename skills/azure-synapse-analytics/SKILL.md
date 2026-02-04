@@ -3,7 +3,7 @@ name: azure-synapse-analytics
 description: Expert knowledge for Azure Synapse Analytics development including deployment, security, best practices, decision making, configuration, architecture & design patterns, integrations & coding patterns, troubleshooting, and limits & quotas. Use when building, debugging, or optimizing Azure Synapse Analytics applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Synapse Analytics Skill
 
@@ -20,15 +20,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L54 | Diagnosing and fixing Synapse workspace, Studio, Spark, SQL/serverless, and Synapse Link issues, including connectivity, errors, failover, libraries, workloads, and compatibility. |
-| Best Practices | L55-L109 | Best practices for Synapse: Git setup, monitoring, Spark tuning, Delta/Hyperspace, workload management, and detailed SQL/dedicated pool design, indexing, loading, and migration (Netezza/Oracle/Teradata). |
-| Decision Making | L110-L130 | Guidance on evaluating, planning, and costing Synapse adoption, choosing ingestion and distribution methods, and designing/migrating POCs and enterprise warehouses from platforms like Netezza/Teradata |
-| Architecture & Design Patterns | L131-L146 | Designing Synapse architectures: data integration, SQL/serverless/Spark/workspace design, table distribution/partitioning, workload isolation, and migrating warehouses from Netezza/Teradata. |
-| Limits & Quotas | L147-L158 | Synapse limits and quotas: IP ranges, Spark autoscale/node limits, SQL pool capacity/memory/concurrency, maintenance windows, and feature/scale limits for Synapse Link (Cosmos DB & SQL). |
-| Security | L159-L211 | Securing Synapse workspaces end-to-end: auth/Entra ID, RBAC, networking (firewalls, private link, managed VNet), encryption/keys, data exfiltration, policies, and secure connectivity to data sources. |
-| Configuration | L212-L252 | Configuring Synapse workspaces: Spark runtimes, pools, libraries, lake databases, SQL workload management, monitoring/logging, Synapse Link, pipelines, and integration with Azure ML and AI services. |
-| Integrations & Coding Patterns | L253-L306 | Patterns and examples for integrating Synapse with Spark, SQL, ML/AI services, Cosmos DB, ADLS, and other Azure data sources, including loading, querying, logging, and model scoring. |
-| Deployment | L307-L317 | Guides for deploying and managing Synapse workspaces and dedicated SQL pools: CI/CD setup, ARM-based deployment, environment design, region moves, restore points, and operational readiness. |
+| Troubleshooting | L33-L54 | Diagnosing and fixing Synapse workspace, SQL/Spark, Synapse Link, and Studio connectivity issues, including errors, failover, library installs, UTF-8 text, and Entra/tenant problems. |
+| Best Practices | L55-L109 | Performance, monitoring, and design best practices for Synapse: Spark tuning, Delta/Hyperspace, dedicated/serverless SQL optimization, indexing, transactions, and Oracle/Teradata/Netezza migration guidance. |
+| Decision Making | L110-L130 | Guidance for evaluating, planning, and cost-optimizing Synapse: choosing ingestion methods, POCs, migrations (e.g., Netezza/Teradata), table distribution, and historical query analysis. |
+| Architecture & Design Patterns | L131-L146 | Architectural guidance for Synapse workspaces, SQL (dedicated/serverless), Spark, table distribution/partitioning, workload isolation/management, and migrating data warehouses from Netezza/Teradata. |
+| Limits & Quotas | L147-L158 | Synapse limits and quotas: IP ranges, Spark autoscale bounds, SQL pool memory/concurrency and capacity caps, maintenance windows, Delta Lake v1 support, and Synapse Link feature/issue limits. |
+| Security | L159-L211 | Securing Synapse workspaces: auth/Entra ID, RBAC and access control, encryption and keys, network/private link/firewalls, managed identities, data exfiltration protection, and secure external connections. |
+| Configuration | L212-L252 | Configuring Synapse workspaces: Spark runtimes, pools, libraries, lake databases, SQL workload management, monitoring/metrics, Synapse Link, AML integration, and pipeline activities. |
+| Integrations & Coding Patterns | L253-L306 | Patterns and code to integrate Synapse Spark/SQL with ADLS, Cosmos DB, SQL, Delta, ML/AI services, logging/monitoring, and to load/query external data formats and ML models. |
+| Deployment | L307-L317 | Deploying and managing Synapse workspaces and dedicated SQL pools: CI/CD setup, ARM templates, environment design (dev/test/prod), region moves, restore points, and operational readiness. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -186,7 +186,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Secure Synapse Studio access with private link hubs | https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-private-link-hubs |
 | Configure IP firewall rules for Synapse workspaces | https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-ip-firewall |
 | Configure Synapse managed private endpoints securely | https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints |
-| Use managed virtual networks with Synapse workspaces | https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-vnet |
+| Configure managed virtual network security in Synapse | https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-vnet |
 | Understand Synapse workspace RBAC model and scopes | https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-synapse-rbac |
 | Use built-in Synapse RBAC roles and permissions | https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-synapse-rbac-roles |
 | Map Synapse and Azure RBAC roles to common tasks | https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-understand-what-role-you-need |

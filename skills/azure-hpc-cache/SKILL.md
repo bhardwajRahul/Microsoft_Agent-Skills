@@ -3,7 +3,7 @@ name: azure-hpc-cache
 description: Expert knowledge for Azure Hpc Cache development including security, configuration, architecture & design patterns, integrations & coding patterns, troubleshooting, best practices, deployment, and decision making. Use when building, debugging, or optimizing Azure Hpc Cache applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-03"
+  generated_at: "2026-02-04"
 ---
 # Azure Hpc Cache Skill
 
@@ -20,14 +20,14 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L32-L37 | Diagnosing and resolving Azure HPC Cache target issues, including Blob firewall access problems and NFS storage target creation and connectivity errors. |
-| Best Practices | L38-L44 | Best practices for moving and pre-loading data into Azure HPC Cache (Blob and ADLS-NFS), including performance tuning, usage limits, and strategies to optimize cache warm-up and throughput. |
-| Decision Making | L45-L49 | When and why to use Azure HPC Cache, evaluating if it suits your workload, performance needs, data patterns, and comparing it to alternative architectures. |
-| Architecture & Design Patterns | L50-L57 | Design patterns for Azure HPC Cache: choosing cache/usage models, DNS-based client load balancing, aggregated namespace layouts, and regional redundancy/failover strategies. |
-| Security | L58-L64 | Security features of Azure HPC Cache: client access policies, customer-managed encryption keys, and overall security configuration and best practices. |
-| Configuration | L65-L77 | Configuring Azure HPC Cache instances: CLI setup, networking/DNS/NTP, directory services, storage targets, namespace paths, lifecycle/space management, operations, and performance monitoring. |
-| Integrations & Coding Patterns | L78-L87 | Using scripts and tools to ingest data, control write-back, mount NFS clients, and integrate Azure HPC Cache with Blob storage and Azure NetApp Files. |
-| Deployment | L88-L92 | Checking infra/network prerequisites for Azure HPC Cache and step-by-step guidance to recreate, move, or migrate cache workloads between regions |
+| Troubleshooting | L32-L37 | Diagnosing and resolving Azure HPC Cache issues with Blob storage firewalls and NFS storage target creation errors, including configuration and connectivity problems. |
+| Best Practices | L38-L44 | Best practices for moving and pre-loading data into Azure HPC Cache (Blob, ADLS-NFS), including performance tuning, usage limits, and strategies to optimize cache warm-up and throughput. |
+| Decision Making | L45-L49 | When Azure HPC Cache is a good fit, evaluating workloads and data patterns, and deciding between HPC Cache and alternatives for performance and cost. |
+| Architecture & Design Patterns | L50-L57 | Designing Azure HPC Cache architectures: choosing cache/usage models, DNS-based client load balancing, aggregated namespace layouts, and regional redundancy/failover strategies. |
+| Security | L58-L64 | Security setup for HPC Cache: client access policies, network/auth controls, and configuring customer-managed encryption keys and overall security settings. |
+| Configuration | L65-L77 | Configuring Azure HPC Cache instances: CLI setup, networking/DNS/NTP, directory services, namespace paths, storage targets, lifecycle/space settings, operations, and performance monitoring. |
+| Integrations & Coding Patterns | L78-L87 | Using scripts and tools to ingest data, control write-back, mount NFS clients, and integrate Azure HPC Cache with Blob storage and Azure NetApp Files |
+| Deployment | L88-L92 | Checking environment and networking prerequisites for Azure HPC Cache, and how to recreate, move, or migrate cache workloads across subscriptions or regions. |
 
 ### Troubleshooting
 | Topic | URL |

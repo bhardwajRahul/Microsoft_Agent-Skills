@@ -10,8 +10,8 @@
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 0
-- **Unchanged**: 351
+- **Updated Pages**: 2
+- **Unchanged**: 349
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-functions/azure-functions.csv`
 
@@ -31,6 +31,13 @@
 | *(Unclassified)* | 66 | 18.8% |
 
 ## Changes
+
+### Updated Pages
+
+- [Develop and debug locally](https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-local)
+  - Updated: 2025-10-06T08:00:00.000Z → 2026-01-23T08:00:00.000Z
+- [Set the runtime version](https://learn.microsoft.com/en-us/azure/azure-functions/set-runtime-version)
+  - Updated: 2024-07-05T05:35:00.000Z → 2026-01-23T08:00:00.000Z
 
 ## Classified Pages
 
@@ -108,7 +115,6 @@
 | [Performance and scale](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-perf-and-scale) | best-practices | 0.80 | Explains Durable-specific scaling behavior and tuning parameters, providing concrete guidance on how to configure and design orchestrations for performance and scalability. |
 | [Reliable event processing](https://learn.microsoft.com/en-us/azure/azure-functions/functions-reliable-event-processing) | best-practices | 0.80 | Focuses on concrete best practices for checkpoints, error handling, and circuit breaker patterns for Event Hubs triggers in Azure Functions—product-specific reliability patterns beyond generic messaging advice. |
 | [Run from package](https://learn.microsoft.com/en-us/azure/azure-functions/run-functions-from-deployment-package) | configuration | 0.80 | Explains how to enable run-from-package for Functions, including specific app settings (like WEBSITE_RUN_FROM_PACKAGE) and file locations on Windows/Linux; these are concrete configuration parameters and behaviors. |
-| [Set the runtime version](https://learn.microsoft.com/en-us/azure/azure-functions/set-runtime-version) | configuration | 0.80 | Explains how to pin a function app to a particular runtime version using configuration (e.g., FUNCTIONS_EXTENSION_VERSION) and notes OS-specific behaviors; these are concrete configuration parameters and ranges. |
 | [Storage providers](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-storage-providers) | decision-making | 0.80 | Compares Azure Storage and alternative DTFx storage providers, including trade-offs and configuration details that guide users in selecting the right provider for their scenario. |
 | [Timers](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-timers) | best-practices | 0.80 | Provides product-specific guidance on using Durable timers instead of language sleep/delay, including correct APIs and behavioral nuances (persistence, replay) that are unique to Durable Functions. |
 | [Trigger](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-azure-sql-trigger) | integrations | 0.80 | This trigger page references SQL change tracking and scaling behavior for specific plans, and usually includes trigger configuration parameters, making it an integration-focused expert reference. |
@@ -249,6 +255,7 @@
 | [Serverless comparison](https://learn.microsoft.com/en-us/azure/azure-functions/functions-compare-logic-apps-ms-flow-webjobs) | decision-making | 0.70 | Explicit comparison of multiple Microsoft integration/automation services with guidance on when to use each; this article is designed to help select between options and likely includes scenario-based recommendations and criteria, fitting decision-making even if not heavily numeric. |
 | [Serverless function app](https://learn.microsoft.com/en-us/azure/azure-functions/scripts/functions-cli-create-serverless) | deployment | 0.70 | CLI sample for creating a Consumption-plan function app; includes concrete Azure CLI commands and required parameters specific to Functions deployment on the Consumption plan. |
 | [Service Invocation](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-dapr-trigger-svc-invoke) | integrations | 0.70 | Service invocation trigger docs normally specify binding/trigger attributes, route patterns, and parameter mappings specific to Dapr service invocation in Azure Functions, which are integration-focused details. |
+| [Set the runtime version](https://learn.microsoft.com/en-us/azure/azure-functions/set-runtime-version) | configuration | 0.70 | The article describes how to pin a function app to specific Azure Functions runtime versions using product-specific configuration settings (e.g., app settings/parameters that control runtime version selection and supported major versions). These are concrete configuration details unique to Azure Functions rather than generic concepts. |
 | [Singleton orchestrations](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-singletons) | best-practices | 0.70 | Shows how to guarantee only one instance of an orchestrator via specific instance ID usage and related patterns, which are product-specific behavioral guidelines. |
 | [State](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-dapr-input-state) | integrations | 0.70 | State input binding docs describe binding configuration (store name, key, metadata) and how they map into function parameters, which are product-specific integration parameters. |
 | [State](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-dapr-output-state) | integrations | 0.70 | State output binding docs define configuration parameters (store, key, value, concurrency options) and how to emit state changes from Functions, which are specific integration settings. |
@@ -280,6 +287,7 @@
 | [Work with Flex Consumption apps](https://learn.microsoft.com/en-us/azure/azure-functions/flex-consumption-how-to) | deployment | 0.70 | Shows how to create and manage function apps on the Flex Consumption plan, including plan-specific settings and management operations; these are deployment/hosting details unique to this SKU. |
 | [Work with OpenTelemetry](https://learn.microsoft.com/en-us/azure/azure-functions/opentelemetry-howto) | configuration | 0.70 | Shows how to configure a function app to export logs and traces using OpenTelemetry semantics; likely includes concrete environment variables, configuration options, and parameter values unique to this integration. |
 | [Work with containers](https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-custom-container) | deployment | 0.70 | Covers how containerized function apps run in Azure Container Apps, including hosting integration details and environment-specific behavior; this is product-specific deployment guidance. |
+| [Develop and debug locally](https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-local) | configuration | 0.68 | The page focuses on local development with Azure Functions Core Tools and specifically calls out working with the local.settings.json file and related local runtime behavior. This typically includes product-specific configuration keys, environment variable handling, and settings behavior that are unique to Azure Functions local development, which qualifies as configuration expert knowledge rather than a generic tutorial. |
 | [Aspire integration](https://learn.microsoft.com/en-us/azure/azure-functions/dotnet-aspire-integration) | integrations | 0.65 | Aspire integration guide documents how to wire Azure Functions into the Aspire app host, including configuration and orchestration patterns that are specific integration knowledge. |
 | [Azure storage provider for Durable Functions](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-azure-storage-provider) | architecture-patterns | 0.65 | Focuses on performance and scalability characteristics of the Azure Storage provider; this typically includes provider-specific patterns, throughput characteristics, and guidance on when this provider is appropriate, which informs architecture choices. |
 | [Bring dependencies to function apps](https://learn.microsoft.com/en-us/azure/azure-functions/bring-dependency-to-functions) | configuration | 0.65 | Explains product-specific ways to include external files and libraries (e.g., folder locations, host.json/function.json considerations, language-specific mechanisms) which are configuration details unique to Azure Functions. |
@@ -291,7 +299,6 @@
 | [Create serverless APIs using Visual Studio](https://learn.microsoft.com/en-us/azure/azure-functions/openapi-apim-integrate-visual-studio) | integrations | 0.65 | Shows using OpenAPI definitions with Azure Functions and API Management; typically includes specific attributes, configuration settings, and APIM integration parameters that form concrete integration patterns. |
 | [Dedicated plan](https://learn.microsoft.com/en-us/azure/azure-functions/dedicated-plan) | decision-making | 0.65 | Describes how dedicated App Service plans host Functions, including ASE usage and sharing resources with other apps, providing product-specific hosting trade-offs and selection guidance. |
 | [Designing for identical input](https://learn.microsoft.com/en-us/azure/azure-functions/functions-idempotent) | best-practices | 0.65 | Provides concrete design guidance and patterns for handling identical requests in event-driven Azure Functions, which are product-specific best practices for idempotency in this environment. |
-| [Develop and debug locally](https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-local) | configuration | 0.65 | Local development article explicitly calls out working with local.settings.json and shared guidance. These docs typically list specific setting names, their meanings, and sometimes allowed values (for example, AzureWebJobsStorage, FUNCTIONS_WORKER_RUNTIME), which are product-specific configuration details. |
 | [Express.js](https://learn.microsoft.com/en-us/azure/azure-functions/shift-expressjs) | best-practices | 0.65 | Express.js migration guide contains concrete refactoring patterns (middleware replacement, routing, request/response mapping) and Azure Functions–specific gotchas that go beyond generic serverless advice. |
 | [High availability](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-disaster-recovery-geo-distribution) | architecture-patterns | 0.65 | Provides Durable-specific disaster recovery and geo-redundancy patterns, including failover strategies for app and storage replicas, which are architecture decisions unique to this service. |
 | [IP addresses](https://learn.microsoft.com/en-us/azure/azure-functions/ip-addresses) | configuration | 0.65 | IP addresses article explains how to retrieve inbound/outbound IPs, when they change, and constraints around usage—product-specific configuration and behavior details not derivable from generic knowledge. |

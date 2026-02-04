@@ -2,16 +2,16 @@
 
 ## Summary
 
-- **Total Pages**: 192
-- **Fetched**: 192
+- **Total Pages**: 193
+- **Fetched**: 193
 - **Fetch Failed**: 0
 - **Classified**: 116
-- **Unclassified**: 76
+- **Unclassified**: 77
 
 ### Incremental Update
-- **New Pages**: 0
-- **Updated Pages**: 2
-- **Unchanged**: 190
+- **New Pages**: 1
+- **Updated Pages**: 0
+- **Unchanged**: 192
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-container-apps/azure-container-apps.csv`
 
@@ -21,23 +21,20 @@
 |------|-------|------------|
 | architecture-patterns | 1 | 0.5% |
 | best-practices | 2 | 1.0% |
-| configuration | 42 | 21.9% |
+| configuration | 42 | 21.8% |
 | decision-making | 12 | 6.2% |
 | deployment | 5 | 2.6% |
-| integrations | 17 | 8.9% |
+| integrations | 17 | 8.8% |
 | limits-quotas | 1 | 0.5% |
 | security | 26 | 13.5% |
 | troubleshooting | 10 | 5.2% |
-| *(Unclassified)* | 76 | 39.6% |
+| *(Unclassified)* | 77 | 39.9% |
 
 ## Changes
 
-### Updated Pages
+### New Pages
 
-- [Use serverless containers](https://learn.microsoft.com/en-us/azure/container-apps/start-serverless-containers)
-  - Updated: 2023-11-30T08:00:00.000Z → 2026-01-29T23:12:00.000Z
-- [Plans](https://learn.microsoft.com/en-us/azure/container-apps/plans)
-  - Updated: 2024-11-19T13:19:00.000Z → 2026-01-29T23:12:00.000Z
+- [Deploy OpenAI GPT with OSS Ollama](https://learn.microsoft.com/en-us/azure/container-apps/deploy-openai-gpt-oss-ollama)
 
 ## Classified Pages
 
@@ -225,6 +222,7 @@
 | [Command line](https://learn.microsoft.com/en-us/azure/container-apps/jobs-get-started-cli) | 0.20 | Quickstart for creating jobs via CLI; focuses on basic creation and log viewing, not on detailed configuration options or quotas. |
 | [Create and deploy a container app from code](https://learn.microsoft.com/en-us/azure/container-apps/tutorial-deploy-from-code) | 0.20 | Tutorial for building and deploying from local source; typical step-by-step content, not a detailed configuration or limits reference. |
 | [Create and deploy a container app using the CLI](https://learn.microsoft.com/en-us/azure/container-apps/tutorial-deploy-first-app-cli) | 0.20 | Introductory tutorial to deploy first app; standard walkthrough without indication of expert-only limits, config matrices, or troubleshooting mappings. |
+| [Deploy OpenAI GPT with OSS Ollama](https://learn.microsoft.com/en-us/azure/container-apps/deploy-openai-gpt-oss-ollama) | 0.20 | Appears to be a scenario/tutorial on deploying gpt-oss models with Ollama on Azure Container Apps serverless GPUs. From the summary, it focuses on how to deploy and run the models, not on detailed limits, configuration matrices, error-code troubleshooting, or SKU comparison tables. Without evidence of specific numeric limits, config parameter tables, or decision matrices, it does not meet the expert-knowledge criteria for any sub-skill type. |
 | [Dockerfile](https://learn.microsoft.com/en-us/azure/container-apps/java-get-started-dockerfile) | 0.20 | Tutorial for deploying a sample Java app with a Dockerfile; mostly step-by-step deployment with no detailed config tables, limits, or product-specific patterns beyond generic usage. |
 | [Github repository](https://learn.microsoft.com/en-us/azure/container-apps/java-get-started-github-repository) | 0.20 | Tutorial for deploying a Java app from a GitHub repo; standard workflow without detailed configuration parameters, limits, or troubleshooting mappings. |
 | [Introduction to containers](https://learn.microsoft.com/en-us/azure/container-apps/java-containers-intro) | 0.20 | Introductory containerization concepts for Java; generic knowledge rather than Container Apps–specific expert configuration or troubleshooting details. |
