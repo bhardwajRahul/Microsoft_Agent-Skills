@@ -17,14 +17,18 @@ parameters:
     displayName: 'Target GitHub Branch'
     type: string
     default: 'main'
+  - name: docs2SkillsADOBranch
+    displayName: 'Docs2Skills ADO Branch'
+    type: string
+    default: 'create_skills'
 
-schedules:
-  - cron: "0 2 * * *"  # Daily at 2:00 AM UTC
-    displayName: Run every day
-    branches:
-      include:
-        - main
-    always: true
+# schedules:
+#   - cron: "0 2 * * *"  # Daily at 2:00 AM UTC
+#     displayName: Run every day
+#     branches:
+#       include:
+#         - main
+#     always: true
 
 variables:
   - name: pythonVersion
@@ -54,7 +58,7 @@ stages:
           - task: 6d15af64-176c-496d-b583-fd2ae21d4df4@1
             displayName: 'Checkout ADO repo (code)'
             inputs:
-              repository: git://Engineering/Learn.Docs2AgentSkills@refs/heads/create_skills
+              repository: git://Engineering/Learn.Docs2AgentSkills@refs/heads/${{ parameters.docs2SkillsADOBranch }}
 
           # 3. Setup Python
           - task: UsePythonVersion@0
@@ -137,7 +141,7 @@ stages:
 
                   git add products/ skills/
                   TIMESTAMP=$(date +"%Y-%m-%d %H:%M")
-                  git commit -m "$TIMESTAMP - Sync docs [skip ci]"
+                  git commit -m "$TIMESTAMP - Generate skills from docs (code: ADO/${{ parameters.docs2SkillsADOBranch }}, target: GitHub/${{ parameters.targetBranch }})"
                   
                   TARGET_BRANCH="${{ parameters.targetBranch }}"
                   # Use refs/heads/ to ensure branch is created if it doesn't exist
