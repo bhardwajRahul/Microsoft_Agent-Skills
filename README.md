@@ -79,40 +79,18 @@ Each skill provides:
 
 ### 3. ⚡️ Quick Start
 
-1. **Clone the repo** (anywhere on your machine):
+A short path to getting started — full installation details are in the **Installation** section below.
+
+1. Clone the repo:
    ```bash
    git clone https://github.com/MicrosoftDocs/agent-skills.git
    ```
 
-2. **Copy the contents of `skills/` folder to your target location**:
+2. Copy the contents of the `skills/` folder to your AI assistant's skills path (see **Installation** for the destination table and important notes).
 
-   | AI Assistant         | Project-level (in your repo) | Personal/Global (all projects) |
-   |---------------------|------------------------------|--------------------------------|
-   | **GitHub Copilot**  | `.github/skills/`            | `~/.copilot/skills/`           |
-   | **Claude Code**     | `.claude/skills/`            | `~/.claude/skills/`            |
-   | **OpenAI Codex**    | `.codex/skills/`             | `~/.codex/skills/`             |
-   | **Cursor**          | `.cursor/skills/`            | —                             |
-   | **Gemini CLI**      | `.gemini/skills/`            | —                             |
-   | **Antigravity IDE** | `.agent/skills/`             | `~/.agent/skills/`             |
-   | **OpenCode**        | `.agent/skills/`             | `~/.agent/skills/`             |
-   | **AdaL CLI**        | `.adal/skills/`              | `~/.adal/skills/`              |
+3. VS Code users: enable `chat.agent.skills` in Settings so the editor will load skills.
 
-   > ⚠️ **Important:** Copy the **contents** inside `skills/` (e.g., `azure-functions/`, `azure-container-apps/`), not the `skills` folder itself. Your destination should look like `.copilot/skills/azure-functions/SKILL.md`, NOT `.copilot/skills/skills/azure-functions/SKILL.md`.
-   
-   > 💡 `~` = Home directory (`C:\Users\yourname` on Windows, use `$HOME` in PowerShell)
-
-3. **Enable Agent Skills in VS Code** (Required for VS Code users):
-
-   Agent Skills is currently an **experimental feature**. You must enable it manually:
-
-   1. Open VS Code Settings (`Ctrl`+`,` on Windows/Linux, `Cmd`+`,` on macOS)
-   2. Search for `chat.agent.skills`
-   3. Check the box for **"Chat: Use Agent Skills"**
-   ![vs-code-use-agent-skills](docs/vs-code-use-agent-skills.png)
-
-   > ⚠️ **Important:** Without this setting enabled, VS Code will not load or use any skills!
-
-4. **Start coding** — Your AI assistant will automatically discover and use relevant skills!
+4. Start coding — your AI assistant will automatically discover and use the installed skills.
 
 ### 4. 🧠 How Skills Work
 
@@ -252,6 +230,9 @@ Copy the **contents** inside the `skills/` folder to your target location based 
 | **OpenAI Codex** | `{your-project}/.codex/skills/` | `~/.codex/skills/` |
 | **Cursor** | `{your-project}/.cursor/skills/` | — |
 | **Gemini CLI** | `{your-project}/.gemini/skills/` | — |
+| **Antigravity IDE** | `{your-project}/.agent/skills/` | `~/.gemini/antigravity/skills/` |
+| **OpenCode** | `{your-project}/.agent/skills/` | `~/.agent/skills/` |
+| **AdaL CLI** | `{your-project}/.adal/skills/` | `~/.adal/skills/` |
 
 > ⚠️ **Important:** Copy the folders **inside** `skills/` (e.g., `azure-functions/`, `azure-container-apps/`), NOT the `skills` folder itself.
 >
@@ -261,6 +242,17 @@ Copy the **contents** inside the `skills/` folder to your target location based 
 > 💡 **Path Note:** `~` = Home directory
 > - **Windows:** `C:\Users\yourname` (use `$HOME` in PowerShell)
 > - **macOS/Linux:** `/Users/yourname` or `/home/yourname`
+
+**Enable Agent Skills in VS Code** (Required for VS Code users):
+
+Agent Skills is currently an **experimental feature**. You must enable it manually:
+
+1. Open VS Code Settings (`Ctrl`+`,` on Windows/Linux, `Cmd`+`,` on macOS)
+2. Search for `chat.agent.skills`
+3. Check the box for **"Chat: Use Agent Skills"**
+   ![vs-code-use-agent-skills](docs/vs-code-use-agent-skills.png)
+
+> ⚠️ **Important:** Without this setting enabled, VS Code will not load or use any skills!
 
 ---
 
