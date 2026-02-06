@@ -19,6 +19,8 @@ Azure Agent Skills is a curated collection of **high-quality agentic skills** sp
 - [🚀 New Here? Start Here!](#-new-here-start-here)
 - [🔌 Compatibility & Invocation](#-compatibility--invocation)
 - [📦 Features & Categories](#-features--categories)
+- [🎁 Curated Collections (Bundles)](#-curated-collections-bundles)
+- [📚 Browse All Skills](#-browse-all-skills)
 - [🛠️ Installation](#️-installation)
 - [🧠 How to Use](#-how-to-use)
 - [📖 Agent Skills Documentation](#-agent-skills-documentation)
@@ -152,7 +154,38 @@ The repository is organized by Azure service domains:
 | 💰 **Management** | ~5 | Cost Management, Governance, Azure Monitor, Automation |
 | 🎮 **Specialized** | ~10+ | IoT, Digital Twins, Communication Services, Bot Service |
 
-> 📁 Browse the full `skills/` directory for all available Azure skills.
+---
+
+## 🎁 Curated Collections (Bundles)
+
+Not sure where to start? We've created role-based skill bundles to help you get productive quickly.
+
+👉 **[View Curated Bundles (docs/BUNDLES.md)](docs/BUNDLES.md)**
+
+| Bundle | Description |
+|--------|-------------|
+| **🚀 Essentials** | Core Azure skills every developer needs |
+| **🏗️ Infrastructure Pro** | ARM, Networking, Backup, Site Recovery |
+| **📊 Data Engineer** | SQL, Data Factory, Synapse, Stream Analytics |
+| **🤖 AI/ML Developer** | AI Services, Machine Learning, Bot Service |
+| **🔒 Security & Compliance** | RBAC, Confidential Computing, Security |
+| **🌐 DevOps & Automation** | Dev Box, Monitor, Grafana, Automation |
+| **☁️ Full-Stack Azure** | Complete coverage (all 77 skills) |
+
+> 💡 **Tip:** Start with the **Essentials** bundle, then add specialized bundles as you need them.
+
+---
+
+## 📚 Browse All Skills
+
+We've moved the complete skill registry to a dedicated catalog to keep this README clean.
+
+👉 **[View the Complete Skill Catalog (CATALOG.md)](CATALOG.md)**
+
+The catalog includes:
+- Full list of all available Azure skills
+- Skill descriptions and capabilities
+- Links to individual skill files
 
 ### 📂 Repository Structure
 
