@@ -1,27 +1,25 @@
-[// Supported AI Coding Assistants]
 
-- 🟣 **Claude Code** (Anthropic CLI)
-- 🔵 **Gemini CLI** (Google DeepMind)
-- 🟢 **Codex CLI** (OpenAI)
-- 🔴 **Antigravity IDE** (Google DeepMind)
-- 🩵 **GitHub Copilot** (VSCode Extension)
-- 🟠 **Cursor** (AI-native IDE)
-- ⚪ **OpenCode** (Open-source CLI)
-- 🌸 **AdaL CLI** (Self-evolving Coding Agent)
 # ☁️ Azure Agent Skills
 
-> **Agentic Skills for Azure Development** — Designed for GitHub Copilot, Claude Code, Cursor, OpenAI Codex & More
+> 🚀 **Agentic Skills for Azure Development**
+>
+> Supercharge your AI coding assistant with curated, production-ready skills for Microsoft Azure. Works seamlessly with:
+>
+> 🟣 **Claude Code** | 🔵 **Gemini CLI** | 🟢 **Codex CLI** | 🔴 **Antigravity IDE** | 🩵 **GitHub Copilot** | 🟠 **Cursor** | ⚪ **OpenCode** | 🌸 **AdaL CLI**
+
+---
 
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Open%20Standard-green)](https://agentskills.io/)
+[![Copilot](https://img.shields.io/badge/GitHub%20Copilot-VSCode-lightblue)](https://github.com/features/copilot)
 
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
 [![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Google-blue)](https://github.com/google-gemini/gemini-cli)
 [![Codex CLI](https://img.shields.io/badge/Codex%20CLI-OpenAI-green)](https://github.com/openai/codex)
 [![Cursor](https://img.shields.io/badge/Cursor-AI%20IDE-orange)](https://cursor.sh)
-[![Copilot](https://img.shields.io/badge/GitHub%20Copilot-VSCode-lightblue)](https://github.com/features/copilot)
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
 [![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/sickn33/antigravity-awesome-skills)
 [![AdaL CLI](https://img.shields.io/badge/AdaL%20CLI-SylphAI-pink)](https://sylph.ai/)
