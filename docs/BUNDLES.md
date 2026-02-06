@@ -14,6 +14,7 @@ Not sure which skills to install? Choose a bundle based on your role or project 
 - [🤖 AI/ML Developer Bundle](#-aiml-developer-bundle)
 - [🔒 Security & Compliance Bundle](#-security--compliance-bundle)
 - [🌐 DevOps & Automation Bundle](#-devops--automation-bundle)
+- [🔗 Integration Bundle](#-integration-bundle)
 - [☁️ Full-Stack Azure Bundle](#️-full-stack-azure-bundle)
 
 ---
@@ -34,6 +35,11 @@ Not sure which skills to install? Choose a bundle based on your role or project 
 | [azure-api-management](../skills/azure-api-management/) | API gateway and management platform |
 | [azure-logic-apps](../skills/azure-logic-apps/) | Workflow automation and integration |
 | [azure-static-web-apps](../skills/azure-static-web-apps/) | Static site hosting with serverless APIs |
+| [azure-api-center](../skills/azure-api-center/) | Centralized API discovery and governance |
+| [azure-app-configuration](../skills/azure-app-configuration/) | Centralized app configuration management |
+| [azure-guidance](../skills/azure-guidance/) | Azure best practices and architecture guidance |
+| [azure-partner-solutions](../skills/azure-partner-solutions/) | Partner solution integrations |
+| [azure-spring-apps](../skills/azure-spring-apps/) | Fully managed Spring Cloud service |
 
 ---
 
@@ -58,6 +64,14 @@ Not sure which skills to install? Choose a bundle based on your role or project 
 | [azure-avere-vfxt](../skills/azure-avere-vfxt/) | HPC file caching clusters |
 | [azure-migrate](../skills/azure-migrate/) | Cloud migration assessment and tools |
 | [azure-governance](../skills/azure-governance/) | Policy and compliance management |
+| [azure-batch](../skills/azure-batch/) | Cloud-scale job scheduling and compute management |
+| [azure-cyclecloud](../skills/azure-cyclecloud/) | Create, manage, operate, and optimize HPC clusters |
+| [azure-internet-peering](../skills/azure-internet-peering/) | Internet peering and connectivity solutions |
+| [azure-network-function-manager](../skills/azure-network-function-manager/) | Network function management for edge devices |
+| [azure-operator-nexus](../skills/azure-operator-nexus/) | Operator Nexus hybrid cloud platform |
+| [azure-operator-service-manager](../skills/azure-operator-service-manager/) | Operator service lifecycle management |
+| [azure-sap](../skills/azure-sap/) | SAP workloads on Azure |
+| [azure-virtual-desktop](../skills/azure-virtual-desktop/) | Desktop and app virtualization service |
 
 ---
 
@@ -96,6 +110,23 @@ Not sure which skills to install? Choose a bundle based on your role or project 
 | [azure-communication-services](../skills/azure-communication-services/) | Communication APIs for voice, video, and chat |
 | [azure-digital-twins](../skills/azure-digital-twins/) | IoT spatial intelligence and digital twin modeling |
 | [azure-iot](../skills/azure-iot/) | IoT Hub, Edge, and connected device management |
+| [azure-healthcare-apis](../skills/azure-healthcare-apis/) | Healthcare data APIs (FHIR, DICOM) |
+
+---
+
+## 🔗 Integration Bundle
+
+**For integration architects and middleware developers.** Covers messaging, event-driven architecture, and service connectivity.
+
+| Skill | Description |
+|-------|-------------|
+| [azure-service-connector](../skills/azure-service-connector/) | Service-to-service connectivity management |
+| [azure-signalr](../skills/azure-signalr/) | Real-time messaging with SignalR Service |
+| [azure-notification-hubs](../skills/azure-notification-hubs/) | Scalable push notification engine |
+| [azure-fluid-relay](../skills/azure-fluid-relay/) | Real-time collaboration framework |
+| [azure-integration-environments](../skills/azure-integration-environments/) | Integration environment management |
+| [azure-business-process-tracking](../skills/azure-business-process-tracking/) | Business process tracking and analytics |
+| [azure-cost-management-billing](../skills/azure-cost-management-billing/) | Cost management and billing insights |
 
 ---
 
@@ -134,6 +165,9 @@ Not sure which skills to install? Choose a bundle based on your role or project 
 | [azure-automation](../skills/azure-automation/) | Runbook automation and DSC |
 | [azure-update-center](../skills/azure-update-center/) | Patch management at scale |
 | [azure-resource-manager](../skills/azure-resource-manager/) | Infrastructure as code |
+| [azure-lab-services](../skills/azure-lab-services/) | Managed lab environments for training |
+| [azure-playwrighting](../skills/azure-playwrighting/) | Playwright testing and automation |
+| [azure-scheduler](../skills/azure-scheduler/) | Job scheduling and automation |
 
 ---
 
