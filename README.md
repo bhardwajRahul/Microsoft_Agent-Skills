@@ -86,13 +86,16 @@ Each skill provides:
 
 2. **Copy the contents of `skills/` folder to your target location**:
 
-   | AI Assistant | Project-level | Personal/Global |
-   |--------------|---------------|-----------------|
-   | **GitHub Copilot** | `.github/skills/` | `~/.copilot/skills/` |
-   | **Claude Code** | `.claude/skills/` | `~/.claude/skills/` |
-   | **OpenAI Codex** | `.codex/skills/` | `~/.codex/skills/` |
-   | **Cursor** | `.cursor/skills/` | — |
-   | **Gemini CLI** | `.gemini/skills/` | — |
+   | AI Assistant         | Project-level (in your repo) | Personal/Global (all projects) |
+   |---------------------|------------------------------|--------------------------------|
+   | **GitHub Copilot**  | `.github/skills/`            | `~/.copilot/skills/`           |
+   | **Claude Code**     | `.claude/skills/`            | `~/.claude/skills/`            |
+   | **OpenAI Codex**    | `.codex/skills/`             | `~/.codex/skills/`             |
+   | **Cursor**          | `.cursor/skills/`            | —                             |
+   | **Gemini CLI**      | `.gemini/skills/`            | —                             |
+   | **Antigravity IDE** | `.agent/skills/`             | `~/.agent/skills/`             |
+   | **OpenCode**        | `.agent/skills/`             | `~/.agent/skills/`             |
+   | **AdaL CLI**        | `.adal/skills/`              | `~/.adal/skills/`              |
 
    > ⚠️ **Important:** Copy the **contents** inside `skills/` (e.g., `azure-functions/`, `azure-container-apps/`), not the `skills` folder itself. Your destination should look like `.copilot/skills/azure-functions/SKILL.md`, NOT `.copilot/skills/skills/azure-functions/SKILL.md`.
    
