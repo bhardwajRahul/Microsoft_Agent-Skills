@@ -1,14 +1,30 @@
+[// Supported AI Coding Assistants]
+
+- 🟣 **Claude Code** (Anthropic CLI)
+- 🔵 **Gemini CLI** (Google DeepMind)
+- 🟢 **Codex CLI** (OpenAI)
+- 🔴 **Antigravity IDE** (Google DeepMind)
+- 🩵 **GitHub Copilot** (VSCode Extension)
+- 🟠 **Cursor** (AI-native IDE)
+- ⚪ **OpenCode** (Open-source CLI)
+- 🌸 **AdaL CLI** (Self-evolving Coding Agent)
 # ☁️ Azure Agent Skills
 
 > **Agentic Skills for Azure Development** — Designed for GitHub Copilot, Claude Code, Cursor, OpenAI Codex & More
 
+
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Open%20Standard-green)](https://agentskills.io/)
-[![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-Compatible-blue)](https://github.com/features/copilot)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-purple)](https://claude.ai/)
-[![Cursor](https://img.shields.io/badge/Cursor-Compatible-orange)](https://cursor.sh/)
-[![OpenAI Codex](https://img.shields.io/badge/OpenAI%20Codex-Compatible-black)](https://openai.com/codex)
+
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
+[![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Google-blue)](https://github.com/google-gemini/gemini-cli)
+[![Codex CLI](https://img.shields.io/badge/Codex%20CLI-OpenAI-green)](https://github.com/openai/codex)
+[![Cursor](https://img.shields.io/badge/Cursor-AI%20IDE-orange)](https://cursor.sh)
+[![Copilot](https://img.shields.io/badge/GitHub%20Copilot-VSCode-lightblue)](https://github.com/features/copilot)
+[![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
+[![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/sickn33/antigravity-awesome-skills)
+[![AdaL CLI](https://img.shields.io/badge/AdaL%20CLI-SylphAI-pink)](https://sylph.ai/)
 
 Azure Agent Skills is a curated collection of **high-quality agentic skills** specifically designed for Azure cloud development. These skills follow the [Agent Skills open standard](https://agentskills.io/) and work seamlessly with modern AI coding assistants to provide expert-level guidance on Azure services.
 
@@ -119,22 +135,25 @@ The skills will automatically provide context from official Microsoft documentat
 
 ## 🔌 Compatibility & Invocation
 
+
 These skills follow the [Agent Skills open standard](https://agentskills.io/) (`SKILL.md` format) and work with any AI coding assistant that supports agentic skills.
 
-| Agent | Type | Project Skills | Personal/Global Skills | How to Invoke |
-|-------|------|----------------|------------------------|---------------|
-| **GitHub Copilot** | VS Code / CLI | `.github/skills/` | `~/.copilot/skills/` | Natural language or `@workspace` |
-| **VS Code Copilot** | IDE | `.github/skills/` | `~/.copilot/skills/` | Agent mode chat |
-| **Claude Code** | CLI | `.claude/skills/` | `~/.claude/skills/` | Natural language |
-| **OpenAI Codex** | CLI | `.codex/skills/` | `~/.codex/skills/` | `$skill-name` or natural language |
-| **Cursor** | IDE | `.cursor/skills/` | — | `@skill-name` in Chat |
-| **Gemini CLI** | CLI | `.gemini/skills/` | — | Natural language |
+| AI Coding Assistant      | Type           | Skills Path / Location         | How to Invoke                      |
+|-------------------------|----------------|-------------------------------|-------------------------------------|
+| **Claude Code**         | Anthropic CLI  | `.claude/skills/`              | Natural language, `/skill-name`     |
+| **Gemini CLI**          | Google DeepMind| `.gemini/skills/`              | Natural language                    |
+| **Codex CLI**           | OpenAI         | `.codex/skills/`               | Natural language                    |
+| **Antigravity IDE**     | DeepMind IDE   | `.agent/skills/`               | Agent mode, natural language        |
+| **GitHub Copilot**      | VSCode Ext     | `.github/skills/`              | Natural language, `@workspace`      |
+| **Cursor**              | AI-native IDE  | `.cursor/skills/`              | `@skill-name` in Chat               |
+| **OpenCode**            | Open-source CLI| `.agent/skills/`               | `opencode run @skill-name`          |
+| **AdaL CLI**            | SylphAI Agent  | `.adal/skills/`                | Auto-load, natural language         |
 
 > 💡 **Path Note:** `~` refers to your home directory:
 > - **macOS/Linux:** `~` = `/Users/yourname` or `/home/yourname`
 > - **Windows:** `~` = `%USERPROFILE%` = `C:\Users\yourname` (use `$HOME` in PowerShell)
 
-> 💡 **Tip:** We recommend cloning to `.github/skills/` for GitHub Copilot users. This is the recommended path per the [Agent Skills specification](https://agentskills.io/specification).
+> 💡 **Tip:** Most modern tools support `.agent/skills/` as a universal path. For GitHub Copilot, `.github/skills/` is recommended per the [Agent Skills specification](https://agentskills.io/specification).
 
 ---
 
@@ -182,10 +201,11 @@ We've moved the complete skill registry to a dedicated catalog to keep this READ
 
 👉 **[View the Complete Skill Catalog (CATALOG.md)](CATALOG.md)**
 
-The catalog includes:
-- Full list of all available Azure skills
-- Skill descriptions and capabilities
-- Links to individual skill files
+| Skill | Description |
+|-------|-------------|
+| **All Azure Skills** | Full list of all available Azure skills |
+| **Skill Descriptions** | Skill descriptions and capabilities |
+| **Skill Files** | Links to individual skill files |
 
 ### 📂 Repository Structure
 
