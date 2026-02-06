@@ -79,14 +79,14 @@ Each skill provides:
 
 ### 3. ⚡️ Quick Start
 
-A short path to getting started — full installation details are in the **Installation** section below.
+A short path to getting started — full installation details are in the [🛠️ Installation](#️-installation) section below.
 
 1. Clone the repo:
    ```bash
    git clone https://github.com/MicrosoftDocs/agent-skills.git
    ```
 
-2. Copy the contents of the `skills/` folder to your AI assistant's skills path (see **Installation** for the destination table and important notes).
+2. Copy the contents of the `skills/` folder to your AI assistant's skills path (see [🛠️ Installation](#️-installation) for the destination table and important notes).
 
 3. VS Code users: enable `chat.agent.skills` in Settings so the editor will load skills.
 
