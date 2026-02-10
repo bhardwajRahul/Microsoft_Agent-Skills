@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-09'
+generated_at: '2026-02-10'
 category_descriptions:
   example-workloads: End-to-end reference architectures and deployment guides for
     real-world workloads on Azure, including AKS, data/analytics, mainframe migration,
@@ -16,9 +16,9 @@ category_descriptions:
   best-practices: Best practices for designing, scaling, securing, operating, and
     governing Azure apps and microservices, including APIs, AKS, IoT, Event Hubs,
     HA/DR, CI/CD, partitioning, and observability.
-  reference-architectures: 'End-to-end Azure solution blueprints: mission-critical/AKS
-    apps, hybrid networking/DR, secure VMs, SAP and mainframe migrations, data/streaming
-    platforms, and baseline landing zone architectures.'
+  reference-architectures: End-to-end Azure reference solutions for mission-critical
+    apps, AKS, networking, hybrid identity, DR, SAP, mainframe rehosting, and secure
+    VM/data/streaming architectures.
   architecture-styles: 'Guidance on choosing and designing Azure solutions using major
     architecture styles: big compute, big data, event-driven, microservices, N-tier,
     and Web-Queue-Worker patterns.'
@@ -36,8 +36,15 @@ category_descriptions:
 - **Total Pages**: 365
 - **Fetched**: 365
 - **Fetch Failed**: 0
-- **Classified**: 306
-- **Unclassified**: 59
+- **Classified**: 307
+- **Unclassified**: 58
+
+### Incremental Update
+- **New Pages**: 0
+- **Updated Pages**: 2
+- **Unchanged**: 363
+- **Deleted Pages**: 0
+- **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-architecture/azure-architecture.csv`
 
 ## Classification Statistics
 
@@ -49,10 +56,19 @@ category_descriptions:
 | design-patterns | 45 | 12.3% |
 | example-workloads | 73 | 20.0% |
 | migration-guides | 27 | 7.4% |
-| reference-architectures | 40 | 11.0% |
+| reference-architectures | 41 | 11.2% |
 | solution-ideas | 21 | 5.8% |
 | technology-choices | 35 | 9.6% |
-| *(Unclassified)* | 59 | 16.2% |
+| *(Unclassified)* | 58 | 15.9% |
+
+## Changes
+
+### Updated Pages
+
+- [What's new](https://learn.microsoft.com/en-us/azure/architecture/changelog)
+  - Updated: 2026-02-03T06:02:00.000Z → 2026-02-10T06:02:00.000Z
+- [Firewall protection for an AKS cluster](https://learn.microsoft.com/en-us/azure/architecture/guide/aks/aks-firewall)
+  - Updated: 2025-10-30T05:03:00Z → 2026-02-10T06:02:00Z
 
 ## Classified Pages
 
@@ -293,6 +309,7 @@ category_descriptions:
 | [Data partitioning strategies (by service)](https://learn.microsoft.com/en-us/azure/architecture/best-practices/data-partitioning-strategies) | best-practices | 0.78 | Follow-on article (URL contains best-practices/data-partitioning-strategies) with concrete strategies per Azure data store; actionable implementation guidance. |
 | [Deploy AD DS in an Azure virtual network](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/identity/adds-extend-domain) | example-workloads | 0.78 | Under example-scenario/identity; concrete hybrid identity implementation extending AD DS to Azure VNet, with scenario-specific technical steps rather than generic concepts. |
 | [Enterprise integration - queues and events](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/integration/queues-events) | example-workloads | 0.78 | example-scenario/integration URL with concrete architecture extending basic enterprise integration using message brokers and events. Provides scenario-specific implementation details rather than just conceptual messaging guidance. |
+| [Firewall protection for an AKS cluster](https://learn.microsoft.com/en-us/azure/architecture/guide/aks/aks-firewall) | reference-architectures | 0.78 | The page describes a production-ready AKS deployment in a hub-and-spoke topology using Azure Firewall, Terraform, and Azure DevOps. It includes concrete implementation guidance for a private AKS cluster, network topology details, and security configuration specifics, which go beyond generic concepts. The URL is under the architecture guide for AKS (not solution-ideas/patterns), and the content aligns most closely with a deployable reference-style architecture for securing AKS traffic. |
 | [General mainframe refactor to Azure](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/mainframe/general-mainframe-refactor) | example-workloads | 0.78 | Example-scenario/mainframe article with a concrete refactoring architecture using AKS or VMs, including code and database conversion approaches for mainframe workloads. |
 | [Identity and access management](https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/workload-identity) | migration-guides | 0.78 | Explains how EKS and AKS provide workload identity and access to cloud services, with concrete comparison and guidance for adopting AKS; under aws-professional/eks-to-aks/, aligning with migration-guides. |
 | [IoT Hub private file upload to Azure Storage](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/iot/iot-private-file-upload) | example-workloads | 0.78 | example-scenario/iot URL with a concrete solution for private file upload via IoT Hub to Storage behind firewall and custom domain. Contains detailed networking and service interaction guidance, fitting example-workloads. |
@@ -371,7 +388,6 @@ category_descriptions:
 |-----------|------------|--------|
 | [Azure Sandbox](https://learn.microsoft.com/en-us/azure/architecture/guide/azure-sandbox/azure-sandbox) | 0.50 | Azure Sandbox is a Terraform-based project and environment template; it’s a deployment utility/accelerator, not categorized as reference-architectures/, solution-ideas/, or example-scenario/ in the URL. |
 | [Blue-green deployment of AKS clusters](https://learn.microsoft.com/en-us/azure/architecture/guide/aks/blue-green-deployment-for-aks) | 0.50 | Blue-green deployment of AKS clusters describes a deployment strategy, but URL is guide/aks/ and it’s not structured as a named design pattern page nor a reference-architectures/ or solution-ideas/ article. |
-| [Firewall protection for an AKS cluster](https://learn.microsoft.com/en-us/azure/architecture/guide/aks/aks-firewall) | 0.50 | Guide for using Azure Firewall with AKS in hub-and-spoke via Terraform; implementation guide under guide/aks/, not under reference-architectures/ or example-scenario/ and doesn’t match other defined categories. |
 | [Network secure global ingress](https://learn.microsoft.com/en-us/azure/architecture/pattern-implementations/network-secure-ingress) | 0.50 | Pattern implementation page under pattern-implementations/ describes a concrete implementation of multiple patterns with Azure Front Door, but this category isn’t defined in the provided sub-skill types; it’s not a migration guide or other listed type. |
 | [Overview](https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/aks-triage-practices) | 0.50 | Overview page for a series on AKS triage practices; mainly describes the top-down approach and links to other articles, with limited deep implementation detail on its own. |
 | [Use deployment scripts to check resource properties](https://learn.microsoft.com/en-us/azure/architecture/guide/devops/deployment-scripts-property-check) | 0.50 | Shows how to use Bicep deployment scripts to wait on resource properties; a targeted implementation trick under guide/devops/, not a pattern, reference architecture, or example workload per the defined categories. |
@@ -427,4 +443,4 @@ category_descriptions:
 | [Web applications](https://learn.microsoft.com/en-us/azure/architecture/web-apps/) | 0.10 | Web architecture design page is an overview/landing page for web app technologies, guidance, solution ideas, and reference architectures. It is primarily navigational and conceptual, not a detailed implementation, pattern, or workload guide with expert-only specifics. |
 | [Architecture icons](https://learn.microsoft.com/en-us/azure/architecture/icons/) | - | Resource page for icon downloads; no architecture, patterns, or implementation guidance. |
 | [Browse all Architectures](https://learn.microsoft.com/en-us/azure/architecture/browse/) | - | Browse/landing page that lists other architectures; no detailed implementation, patterns, or decision guidance. |
-| [What's new](https://learn.microsoft.com/en-us/azure/architecture/changelog) | - | Changelog/navigation page listing new and updated articles; not itself deep technical guidance. |
+| [What's new](https://learn.microsoft.com/en-us/azure/architecture/changelog) | - | Changelog/navigation page listing new and updated Azure Architecture Center articles; does not itself contain detailed architectural guidance, patterns, or implementation specifics. |

@@ -40,9 +40,9 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 6
-- **Unchanged**: 151
-- **Deleted Pages**: 1
+- **Updated Pages**: 0
+- **Unchanged**: 157
+- **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-app-configuration/azure-app-configuration.csv`
 
 ## Classification Statistics
@@ -61,25 +61,6 @@ category_descriptions:
 | *(Unclassified)* | 28 | 17.8% |
 
 ## Changes
-
-### Updated Pages
-
-- [Frequently asked questions](https://learn.microsoft.com/en-us/azure/azure-app-configuration/faq)
-  - Updated: 2026-01-22T19:36:00Z → 2026-02-05T12:11:00Z
-- [Monitor App Configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/monitor-app-configuration)
-  - Updated: 2024-12-26T18:03:00.000Z → 2026-02-05T12:11:00.000Z
-- [Overview](https://learn.microsoft.com/en-us/azure/azure-app-configuration/configuration-provider-overview)
-  - Updated: 2026-01-26T23:23:00.000Z → 2026-02-04T08:00:00.000Z
-- [Feature reference](https://learn.microsoft.com/en-us/azure/azure-app-configuration/reference-python-provider)
-  - Updated: 2025-12-12T05:44:00.000Z → 2026-02-06T06:10:00.000Z
-- [Overview](https://learn.microsoft.com/en-us/azure/azure-app-configuration/feature-management-overview)
-  - Updated: 2025-09-03T05:12:00.000Z → 2026-02-04T08:00:00.000Z
-- [Throttling](https://learn.microsoft.com/en-us/azure/azure-app-configuration/rest-api-throttling)
-  - Updated: 2023-10-27T05:33:00.000Z → 2026-02-05T12:11:00.000Z
-
-### Deleted Pages
-
-- ~~Reference for monitoring data~~ (https://learn.microsoft.com/en-us/azure/azure-app-configuration/monitor-app-configuration-reference)
 
 ## Classified Pages
 

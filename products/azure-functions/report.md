@@ -40,10 +40,10 @@ category_descriptions:
 - **Unclassified**: 68
 
 ### Incremental Update
-- **New Pages**: 2
-- **Updated Pages**: 3
-- **Unchanged**: 347
-- **Deleted Pages**: 1
+- **New Pages**: 0
+- **Updated Pages**: 0
+- **Unchanged**: 352
+- **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-functions/azure-functions.csv`
 
 ## Classification Statistics
@@ -62,24 +62,6 @@ category_descriptions:
 | *(Unclassified)* | 68 | 19.3% |
 
 ## Changes
-
-### New Pages
-
-- [Host MCP servers](https://learn.microsoft.com/en-us/azure/azure-functions/self-hosted-mcp-servers)
-- [Connect to Foundry Agent Service](https://learn.microsoft.com/en-us/azure/azure-functions/functions-mcp-foundry-tools)
-
-### Updated Pages
-
-- [Trigger](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-azure-mysql-trigger)
-  - Updated: 2025-10-03T08:00:00.000Z → 2026-02-04T08:00:00.000Z
-- [Trigger](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-azure-sql-trigger)
-  - Updated: 2025-04-23T08:00:00.000Z → 2026-02-04T08:00:00.000Z
-- [Configure Durable Functions app with MSSQL](https://learn.microsoft.com/en-us/azure/azure-functions/durable/quickstart-mssql)
-  - Updated: 2025-05-08T22:03:00.000Z → 2026-02-04T08:00:00.000Z
-
-### Deleted Pages
-
-- ~~MCP server hosting~~ (https://learn.microsoft.com/en-us/azure/azure-functions/self-hosted-mcp-servers)
 
 ## Classified Pages
 

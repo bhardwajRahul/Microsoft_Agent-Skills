@@ -37,9 +37,9 @@ category_descriptions:
 - **Unclassified**: 53
 
 ### Incremental Update
-- **New Pages**: 1
+- **New Pages**: 0
 - **Updated Pages**: 0
-- **Unchanged**: 208
+- **Unchanged**: 209
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-operator-nexus/azure-operator-nexus.csv`
 
@@ -58,10 +58,6 @@ category_descriptions:
 | *(Unclassified)* | 53 | 25.4% |
 
 ## Changes
-
-### New Pages
-
-- [Network-to-Network Interconnect](https://learn.microsoft.com/en-us/azure/operator-nexus/concepts-network-to-network-interconnect)
 
 ## Classified Pages
 

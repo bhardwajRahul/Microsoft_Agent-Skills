@@ -35,8 +35,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 2
-- **Unchanged**: 77
+- **Updated Pages**: 0
+- **Unchanged**: 79
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-static-web-apps/azure-static-web-apps.csv`
 
@@ -54,13 +54,6 @@ category_descriptions:
 | *(Unclassified)* | 24 | 30.4% |
 
 ## Changes
-
-### Updated Pages
-
-- [Azure Database for MySQL](https://learn.microsoft.com/en-us/azure/static-web-apps/database-mysql)
-  - Updated: 2023-03-15T08:00:00.000Z → 2026-02-04T08:00:00.000Z
-- [Azure Database for PostgreSQL](https://learn.microsoft.com/en-us/azure/static-web-apps/database-postgresql)
-  - Updated: 2023-03-15T08:00:00.000Z → 2026-02-04T08:00:00.000Z
 
 ## Classified Pages
 

@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-09'
+generated_at: '2026-02-10'
 category_descriptions:
   security: Billing security, RBAC roles, and access control for invoices, usage,
     reservations, savings plans, subscription moves, fraud prevention, SCA, and Marketplace
@@ -38,8 +38,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 4
-- **Unchanged**: 258
+- **Updated Pages**: 2
+- **Unchanged**: 260
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-cost-management-billing/azure-cost-management-billing.csv`
 
@@ -61,14 +61,10 @@ category_descriptions:
 
 ### Updated Pages
 
-- [Understand the billing and tenant relationship](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/understand-billing-tenant-relationship)
-  - Updated: 2025-10-29T22:11:00.000Z → 2026-02-06T23:12:00.000Z
-- [Keep your billing account active](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/keep-billing-accounts-active)
-  - Updated: 2025-10-01T08:00:00.000Z → 2026-02-05T08:00:00.000Z
-- [Manage a Microsoft Azure Consumption Commitment](https://learn.microsoft.com/en-us/azure/cost-management-billing/benefits/macc/manage-consumption-commitment)
-  - Updated: 2026-02-02T23:12:00.000Z → 2026-02-09T12:15:00.000Z
-- [View and download your Azure usage and charges](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/download-azure-daily-usage)
-  - Updated: 2026-01-14T08:00:00.000Z → 2026-02-06T18:19:00.000Z
+- [Manage a Microsoft Azure credit resource](https://learn.microsoft.com/en-us/azure/cost-management-billing/benefits/credits/manage-azure-credits)
+  - Updated: 2026-02-02T23:12:00.000Z → 2026-02-09T08:00:00.000Z
+- [Manage a Microsoft discount resource](https://learn.microsoft.com/en-us/azure/cost-management-billing/benefits/discounts/manage-azure-discount)
+  - Updated: 2026-02-02T23:12:00.000Z → 2026-02-09T08:00:00.000Z
 
 ## Classified Pages
 
@@ -291,8 +287,6 @@ category_descriptions:
 | [Group and filter options in Cost analysis](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/group-filter) | 0.30 | Explains grouping and filtering options conceptually; no clear indication of detailed parameter tables, limits, or troubleshooting mappings. |
 | [Individual subscription invoice terms](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/understand-invoice) | 0.30 | Explains invoice structure and notes about availability; lacks detailed numeric limits, configuration parameters, or error code mappings. |
 | [Individual subscription usage terms](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/understand-usage) | 0.30 | Defines terms in the detailed usage and charges file; mostly terminology and structure, not configuration, limits, or troubleshooting mappings. |
-| [Manage a Microsoft Azure credit resource](https://learn.microsoft.com/en-us/azure/cost-management-billing/benefits/credits/manage-azure-credits) | 0.30 | Describes managing Azure credit resources and metadata fields but does not expose concrete limits, configuration tables, or security/role specifics beyond generic concepts. |
-| [Manage a Microsoft discount resource](https://learn.microsoft.com/en-us/azure/cost-management-billing/benefits/discounts/manage-azure-discount) | 0.30 | Explains discount resources and their metadata conceptually; lacks numeric limits, configuration parameter tables, or detailed RBAC/security or troubleshooting content. |
 | [Microsoft Customer Agreement invoice terms](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/mca-understand-your-invoice) | 0.30 | Guidance on understanding Microsoft Customer Agreement invoices; no numeric limits, configuration settings, or error-resolution mappings. |
 | [Microsoft Customer Agreement price sheet terms](https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/mca-understand-pricesheet) | 0.30 | Explains terms in a Microsoft Customer Agreement price sheet and how to download it; lacks detailed limits, configuration parameters, or troubleshooting flows. |
 | [Microsoft Customer Agreement usage terms](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/mca-understand-your-usage) | 0.30 | Describes CSV usage and charges file terms for Microsoft Customer Agreement; terminology-focused, not configuration/limits/troubleshooting-focused. |
@@ -326,6 +320,8 @@ category_descriptions:
 | [Estimate costs with the Azure pricing calculator](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/pricing-calculator) | 0.20 | Explains how to use the Azure pricing calculator; primarily a usage/tutorial overview without product-specific limits, configs, or detailed decision matrices. |
 | [Filter and view subscriptions](https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/filter-view-subscriptions) | 0.20 | Explains how to filter and view subscriptions in the portal; no configuration tables, limits, or advanced patterns. |
 | [Manage a Microsoft Azure Consumption Commitment](https://learn.microsoft.com/en-us/azure/cost-management-billing/benefits/macc/manage-consumption-commitment) | 0.20 | From the summary, the page explains what a MACC resource is and that it holds metadata like status, commitment amount, and dates, and can be moved between resource groups/subscriptions. It does not clearly indicate specific numeric limits, configuration parameter tables, error codes, or decision matrices. It appears to be procedural/overview guidance rather than expert-knowledge reference content as defined by the sub-skill types. |
+| [Manage a Microsoft Azure credit resource](https://learn.microsoft.com/en-us/azure/cost-management-billing/benefits/credits/manage-azure-credits) | 0.20 | Page describes managing Azure credit resources (moving between resource groups/subscriptions, metadata fields). Summary shows no numeric limits, quotas, configuration parameter tables, error codes, or decision matrices. It is primarily procedural/overview content without product-specific expert details as defined. |
+| [Manage a Microsoft discount resource](https://learn.microsoft.com/en-us/azure/cost-management-billing/benefits/discounts/manage-azure-discount) | 0.20 | Page explains how to manage a discount resource and its metadata (status, type, percentage, dates) and clarifies that discounts apply at billing account level. The summary indicates no specific limits, configuration tables, error codes, or quantified decision criteria. Content is descriptive/administrative rather than expert configuration or troubleshooting guidance. |
 | [Plan to manage Azure costs](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/plan-manage-costs) | 0.20 | High-level guidance on planning and managing Azure costs; conceptual cost management steps without numeric thresholds, configuration tables, or decision matrices. |
 | [Review your Enterprise Agreement bill](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/review-enterprise-agreement-bill) | 0.20 | Explains how to read an Enterprise Agreement bill; largely procedural and conceptual without product-specific limits or configuration references. |
 | [Review your Microsoft Customer Agreement bill](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/review-customer-agreement-bill) | 0.20 | Describes how to review Microsoft Customer Agreement invoices; focuses on process, not on numeric limits, config options, or troubleshooting mappings. |

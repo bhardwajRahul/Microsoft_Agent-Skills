@@ -40,8 +40,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 2
-- **Unchanged**: 145
+- **Updated Pages**: 0
+- **Unchanged**: 147
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-virtual-desktop/azure-virtual-desktop.csv`
 
@@ -61,13 +61,6 @@ category_descriptions:
 | *(Unclassified)* | 33 | 22.4% |
 
 ## Changes
-
-### Updated Pages
-
-- [Agent](https://learn.microsoft.com/en-us/azure/virtual-desktop/whats-new-agent)
-  - Updated: 2025-06-20T03:01:00.000Z → 2026-02-04T23:13:00.000Z
-- [Screen capture protection](https://learn.microsoft.com/en-us/azure/virtual-desktop/screen-capture-protection)
-  - Updated: 2025-06-20T03:01:00.000Z → 2026-02-05T04:10:00.000Z
 
 ## Classified Pages
 

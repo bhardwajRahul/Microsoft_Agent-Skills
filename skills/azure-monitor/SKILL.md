@@ -3,7 +3,7 @@ name: azure-monitor
 description: Expert knowledge for Azure Monitor development including troubleshooting, configuration, deployment, decision making, limits & quotas, security, integrations & coding patterns, best practices, and architecture & design patterns. Use when building, debugging, or optimizing Azure Monitor applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-09"
+  generated_at: "2026-02-10"
 ---
 # Azure Monitor Skill
 
@@ -26,7 +26,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Architecture & Design Patterns | L143-L153 | Architectural guidance for Azure Monitor: workspace design/replication, managed workspaces, autoscale patterns, network security perimeters, and Private Link-based secure topologies. |
 | Limits & Quotas | L154-L173 | Scaling, throughput, and quota limits for Azure Monitor logs/metrics, including ingestion caps, timeouts, autoscale, container/Prometheus performance, and alert/workbook constraints. |
 | Security | L174-L207 | Securing Azure Monitor and Log Analytics: auth (Entra, managed identity), RBAC and row/table access, Private Link/network isolation, CMK/BYOS, secure webhooks, Prometheus/Grafana, and policy compliance. |
-| Configuration | L208-L381 | Configuring Azure Monitor end to end: agents, DCRs, diagnostics, alerts, autoscale, Kubernetes/Prometheus, Application Insights, workspaces, logs/metrics schemas, and pipeline/network settings. |
+| Configuration | L208-L381 | Configuring Azure Monitor data collection, alerts, diagnostics, workspaces, autoscale, Kubernetes/VM monitoring, Application Insights, OpenTelemetry, and related schemas, policies, and pipelines. |
 | Integrations & Coding Patterns | L382-L454 | Integrating Azure Monitor with VMs, Prometheus, alerts, webhooks, ITSM, Grafana, REST APIs, and custom code to ingest, query, export, and correlate metrics and logs. |
 | Deployment | L455-L484 | How to deploy and manage Azure Monitor agents, alerts, workbooks, and Application Insights/Profiler across VMs, AKS, App Service, containers, and hybrid environments. |
 
@@ -347,7 +347,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure Application Insights Profiler for .NET in Azure | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler-settings |
 | Reference Azure Monitor resource log categories and schemas | https://learn.microsoft.com/en-us/azure/azure-monitor/reference/logs-index |
 | Reference Azure Monitor metrics by resource type | https://learn.microsoft.com/en-us/azure/azure-monitor/reference/metrics-index |
-| Azure Monitor Log Analytics table and field definitions | https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables-index |
+| Reference field definitions for Azure Monitor log tables | https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables-index |
 | Configure Snapshot Debugger for .NET exceptions | https://learn.microsoft.com/en-us/azure/azure-monitor/snapshot-debugger/snapshot-debugger |
 | Enable Snapshot Debugger for .NET on App Service | https://learn.microsoft.com/en-us/azure/azure-monitor/snapshot-debugger/snapshot-debugger-app-service |
 | Enable Snapshot Debugger for .NET on Functions | https://learn.microsoft.com/en-us/azure/azure-monitor/snapshot-debugger/snapshot-debugger-function-app |

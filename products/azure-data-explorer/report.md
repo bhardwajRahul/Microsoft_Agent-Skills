@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-09'
+generated_at: '2026-02-10'
 category_descriptions:
   security: 'Securing ADX clusters and data: encryption, keys, identities/RBAC, cross-tenant
     access, network/private endpoints, Conditional Access, Azure Policy, and secure
@@ -41,8 +41,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 16
-- **Unchanged**: 181
+- **Updated Pages**: 1
+- **Unchanged**: 196
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-data-explorer/azure-data-explorer.csv`
 
@@ -65,38 +65,8 @@ category_descriptions:
 
 ### Updated Pages
 
-- [Get started for free](https://learn.microsoft.com/en-us/azure/data-explorer/start-for-free)
-  - Updated: 2025-09-24T22:02:00.000Z → 2026-02-04T23:02:00.000Z
-- [Create table](https://learn.microsoft.com/en-us/azure/data-explorer/create-table-wizard)
-  - Updated: 2024-11-19T12:05:00.000Z → 2026-02-09T12:03:00.000Z
-- [Get data from local file](https://learn.microsoft.com/en-us/azure/data-explorer/get-data-file)
-  - Updated: 2023-12-07T12:04:00.000Z → 2026-02-09T12:03:00.000Z
-- [Get data from Azure storage](https://learn.microsoft.com/en-us/azure/data-explorer/get-data-storage)
-  - Updated: 2025-12-31T08:00:00.000Z → 2026-01-05T18:02:00.000Z
-- [Get data from Amazon S3](https://learn.microsoft.com/en-us/azure/data-explorer/get-data-amazon-s3)
-  - Updated: 2024-01-16T12:04:00.000Z → 2025-10-06T22:02:00.000Z
-- [Create an Event Grid data connection](https://learn.microsoft.com/en-us/azure/data-explorer/create-event-grid-connection)
-  - Updated: 2025-06-10T08:00:00.000Z → 2026-02-08T08:00:00.000Z
-- [Create an IoT Hub data connection](https://learn.microsoft.com/en-us/azure/data-explorer/create-iot-hub-connection)
-  - Updated: 2023-11-19T12:02:00.000Z → 2026-02-08T23:02:00.000Z
-- [SQL Server emulation overview](https://learn.microsoft.com/en-us/azure/data-explorer/sql-server-emulation-overview)
-  - Updated: 2023-10-13T11:04:00.000Z → 2026-02-04T08:00:00.000Z
-- [Connect from common apps](https://learn.microsoft.com/en-us/azure/data-explorer/connect-common-apps)
-  - Updated: 2023-11-16T18:03:00.000Z → 2026-02-04T23:02:00.000Z
 - [Debug Kusto Query Language inline Python](https://learn.microsoft.com/en-us/kusto/debug-inline-python?view=microsoft-fabric)
-  - Updated: 2024-11-20T12:10:00.000Z → 2026-02-01T08:00:00.000Z
-- [Query integrations overview](https://learn.microsoft.com/en-us/azure/data-explorer/integrate-query-overview)
-  - Updated: 2026-02-02T08:00:00.000Z → 2026-02-04T08:00:00.000Z
-- [Dashboard-specific visuals](https://learn.microsoft.com/en-us/azure/data-explorer/dashboard-visuals)
-  - Updated: 2025-10-15T17:07:00.000Z → 2026-02-09T12:03:00.000Z
-- [Excel](https://learn.microsoft.com/en-us/azure/data-explorer/excel)
-  - Updated: 2024-05-09T17:04:00.000Z → 2026-02-08T12:02:00.000Z
-- [Notebooks with Kqlmagic](https://learn.microsoft.com/en-us/azure/data-explorer/kqlmagic)
-  - Updated: 2025-07-10T17:03:00.000Z → 2026-02-04T08:00:00.000Z
-- [Monitor Azure Data Explorer](https://learn.microsoft.com/en-us/azure/data-explorer/monitor-data-explorer)
-  - Updated: 2025-01-02T18:01:00.000Z → 2026-02-01T08:00:00.000Z
-- [Integrations overview](https://learn.microsoft.com/en-us/azure/data-explorer/integrate-overview)
-  - Updated: 2025-12-01T08:00:00.000Z → 2026-02-09T12:03:00.000Z
+  - Updated: 2026-02-01T08:00:00.000Z → 2026-02-08T12:02:00.000Z
 
 ## Classified Pages
 
@@ -261,7 +231,7 @@ category_descriptions:
 | [Create external table](https://learn.microsoft.com/en-us/azure/data-explorer/external-table) | 0.30 | Wizard-based creation of external tables; focuses on UI steps rather than detailed configuration options, limits, or troubleshooting mappings. |
 | [Create ingestion batching table policy](https://learn.microsoft.com/en-us/azure/data-explorer/table-batching-policy-wizard) | 0.30 | Wizard-based how-to for changing ingestion batching policy; summary doesn’t show concrete parameter tables, numeric defaults, or product-specific gotchas beyond generic batching concepts. |
 | [Create retention table policy](https://learn.microsoft.com/en-us/azure/data-explorer/table-retention-policy-wizard) | 0.30 | Retention policy wizard article appears to be a procedural UI guide; summary lacks specific numeric retention/cache configuration tables or unique edge cases. |
-| [Debug Kusto Query Language inline Python](https://learn.microsoft.com/en-us/kusto/debug-inline-python?view=microsoft-fabric) | 0.30 | Describes debugging inline Python in KQL using VS Code; likely a step-by-step guide without detailed error-code mappings, configuration parameter tables, or quantified best practices. |
+| [Debug Kusto Query Language inline Python](https://learn.microsoft.com/en-us/kusto/debug-inline-python?view=microsoft-fabric) | 0.30 | Appears to be a how-to/tutorial on debugging KQL inline Python with VS Code. The summary does not indicate presence of numeric limits, configuration parameter tables, error-code-based troubleshooting flows, or other product-specific expert reference data; it mainly describes capability and usage, which an LLM can generally infer. |
 | [E2E programmatic Blob ingestion](https://learn.microsoft.com/en-us/azure/data-explorer/end-to-end-blob-ingestion) | 0.30 | End-to-end blob ingestion example is primarily a tutorial; summary doesn’t indicate detailed config tables, limits, or product-specific troubleshooting content. |
 | [Event Hubs data connection](https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-event-hub-overview) | 0.30 | Conceptual overview of Event Hubs ingestion pipeline; no explicit limits, config tables, or decision matrices indicated. |
 | [Find a partner](https://learn.microsoft.com/en-us/azure/data-explorer/find-my-partner) | 0.30 | Partner listing and program description is essentially directory/marketing content; it doesn’t expose technical limits, configs, or troubleshooting details. |

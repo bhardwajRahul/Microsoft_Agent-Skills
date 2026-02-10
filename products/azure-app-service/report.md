@@ -40,8 +40,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 2
-- **Unchanged**: 244
+- **Updated Pages**: 0
+- **Unchanged**: 246
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-app-service/azure-app-service.csv`
 
@@ -61,13 +61,6 @@ category_descriptions:
 | *(Unclassified)* | 97 | 39.4% |
 
 ## Changes
-
-### Updated Pages
-
-- [RAG Azure OpenAI and Azure SQL](https://learn.microsoft.com/en-us/azure/app-service/deploy-intelligent-apps-dotnet-to-azure-sql)
-  - Updated: 2025-05-19T17:08:00.000Z → 2026-02-04T08:00:00.000Z
-- [Isolate network traffic (tutorial)](https://learn.microsoft.com/en-us/azure/app-service/tutorial-networking-isolate-vnet)
-  - Updated: 2023-03-09T00:00:00.000Z → 2026-02-05T08:00:00.000Z
 
 ## Classified Pages
 

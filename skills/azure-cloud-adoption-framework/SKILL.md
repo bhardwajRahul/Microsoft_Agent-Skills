@@ -3,7 +3,7 @@ name: azure-cloud-adoption-framework
 description: Expert guidance for planning and executing cloud adoption using Azure Cloud Adoption Framework. Covers adoption scenarios, governance, strategy, planning, operations & management, organization & teams, adoption patterns, readiness & landing zones, security, and getting started. Use when defining cloud strategy, designing landing zones, establishing governance, or migrating workloads to Azure.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-09"
+  generated_at: "2026-02-10"
 ---
 # Azure Cloud Adoption Framework Skill
 
@@ -24,7 +24,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Strategy | L39-L54 | High-level cloud and AI adoption planning: defining business goals, strategy, org structure, cost, resiliency, security, sustainability, and analytics/AVD benefits. |
 | Planning | L55-L74 | Planning Azure adoption: migration waves, workload assessments, modernization roadmaps, cost/architecture planning, data/analytics estate design, org readiness, skills, and AI/Fabric tech plans. |
 | Readiness & Landing Zones | L75-L169 | Designing and operating Azure landing zones: network topology/connectivity, identity, subscriptions/management groups, DevOps automation, multitenant setups, and workload-specific landing zone patterns. |
-| Adoption Patterns | L170-L192 | Patterns for migrating, modernizing, and operating apps, desktops, VMware, and data on Azure with resilient architectures, safe rollouts, and cloud-scale analytics design. |
+| Adoption Patterns | L170-L192 | Guidance on planning, migrating, modernizing, and operating cloud-native, data, VDI, and VMware workloads on Azure using resilient architectures and proven adoption patterns. |
 | Governance | L193-L230 | Governance, security, cost, and compliance for Azure and AI agents: policies, tagging, landing zones, data governance, responsible AI, and managing Azure Policy at scale. |
 | Security | L231-L249 | Designing secure Azure landing zones, Zero Trust, identity/RBAC, data protection, encryption/keys, DevOps repo security, and security-focused governance/operations during cloud adoption |
 | Operations & Management | L250-L281 | Operating, monitoring, securing, and optimizing Azure environments and workloads (including AVS, AVD, RHEL, analytics, AI agents), plus BCDR, compliance, and automation at enterprise scale |
@@ -177,7 +177,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Execute Azure cloud migration with minimal downtime | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/execute-migration |
 | Prepare on-premises workloads for Azure migration | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/prepare-workloads-cloud |
 | Execute Azure cloud modernization projects safely | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/modernize/execute-cloud-modernization |
-| Apply replatform, refactor, rearchitect modernization options | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/modernize/modernization-cloud-replatform-refactor-rearchitect |
+| Apply replatform, refactor, rearchitect patterns for Azure | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/modernize/modernization-cloud-replatform-refactor-rearchitect |
 | Assess environments for Azure Virtual Desktop migration | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/migrate-assess |
 | Deploy and migrate Azure Virtual Desktop at scale | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/migrate-deploy |
 | Execute post-deployment and release tasks for AVD | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/migrate-release |

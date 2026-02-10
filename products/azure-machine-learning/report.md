@@ -41,8 +41,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 8
-- **Unchanged**: 524
+- **Updated Pages**: 0
+- **Unchanged**: 532
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-machine-learning/azure-machine-learning.csv`
 
@@ -62,25 +62,6 @@ category_descriptions:
 | *(Unclassified)* | 153 | 28.8% |
 
 ## Changes
-
-### Updated Pages
-
-- [Access and use batch deployments from Fabric](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-use-batch-fabric?view=azureml-api-2)
-  - Updated: 2024-08-28T16:59:00.000Z → 2026-02-04T23:15:00.000Z
-- [Use a terminal](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-access-terminal?view=azureml-api-2)
-  - Updated: 2024-09-20T17:02:00.000Z → 2026-02-05T23:08:00.000Z
-- [Monitor online endpoints](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-monitor-online-endpoints?view=azureml-api-2)
-  - Updated: 2025-02-03T18:06:00.000Z → 2026-02-05T08:00:00.000Z
-- [Tutorial: Create a secure workspace in Azure portal](https://learn.microsoft.com/en-us/azure/machine-learning/tutorial-create-secure-workspace?view=azureml-api-2)
-  - Updated: 2024-08-28T16:59:00.000Z → 2026-02-05T08:00:00.000Z
-- [Monitor with Application Insights](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-monitor-online-endpoints?view=azureml-api-2)
-  - Updated: 2025-02-03T18:06:00.000Z → 2026-02-05T08:00:00.000Z
-- [Secure workspace resources](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-secure-workspace-vnet?view=azureml-api-2)
-  - Updated: 2025-09-10T08:00:00.000Z → 2026-02-05T08:00:00.000Z
-- [Manage compute instance](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-compute-instance?view=azureml-api-2)
-  - Updated: 2025-02-21T23:30:00.000Z → 2026-02-05T08:00:00.000Z
-- [Upgrade overview](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-migrate-from-v1?view=azureml-api-2)
-  - Updated: 2025-03-31T17:04:00.000Z → 2026-02-05T08:00:00.000Z
 
 ## Classified Pages
 

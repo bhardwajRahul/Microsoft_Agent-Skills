@@ -40,8 +40,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 2
-- **Unchanged**: 198
+- **Updated Pages**: 0
+- **Unchanged**: 200
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-logic-apps/azure-logic-apps.csv`
 
@@ -61,13 +61,6 @@ category_descriptions:
 | *(Unclassified)* | 59 | 29.5% |
 
 ## Changes
-
-### Updated Pages
-
-- [Scopes](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-control-flow-run-steps-group-scopes)
-  - Updated: 2025-07-22T05:10:00.000Z → 2026-02-05T23:11:00.000Z
-- [Service limits and configuration](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-limits-and-config)
-  - Updated: 2025-12-05T08:00:00.000Z → 2026-02-07T08:00:00.000Z
 
 ## Classified Pages
 

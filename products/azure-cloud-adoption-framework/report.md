@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-09'
+generated_at: '2026-02-10'
 category_descriptions:
   scenarios: CAF-based end-to-end adoption patterns, landing zones, and governance
     for AI agents, AKS, API Management, App Service, RHEL/ARO/ACA, AVD/Citrix, AVS,
@@ -18,9 +18,9 @@ category_descriptions:
   organization: 'Organizational design for cloud/AI: team structures, roles/RACI,
     CCoE, DevOps/FinOps/SecOps, data/analytics ops, operating models, and cost-conscious
     cloud governance.'
-  adoption-patterns: Patterns for migrating, modernizing, and operating apps, desktops,
-    VMware, and data on Azure with resilient architectures, safe rollouts, and cloud-scale
-    analytics design.
+  adoption-patterns: Guidance on planning, migrating, modernizing, and operating cloud-native,
+    data, VDI, and VMware workloads on Azure using resilient architectures and proven
+    adoption patterns.
   readiness: 'Designing and operating Azure landing zones: network topology/connectivity,
     identity, subscriptions/management groups, DevOps automation, multitenant setups,
     and workload-specific landing zone patterns.'
@@ -41,6 +41,13 @@ category_descriptions:
 - **Classified**: 347
 - **Unclassified**: 16
 
+### Incremental Update
+- **New Pages**: 0
+- **Updated Pages**: 1
+- **Unchanged**: 362
+- **Deleted Pages**: 0
+- **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-cloud-adoption-framework/azure-cloud-adoption-framework.csv`
+
 ## Classification Statistics
 
 | Type | Count | Percentage |
@@ -56,6 +63,13 @@ category_descriptions:
 | security | 15 | 4.1% |
 | strategy | 12 | 3.3% |
 | *(Unclassified)* | 16 | 4.4% |
+
+## Changes
+
+### Updated Pages
+
+- [Modernization guides](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/modernize/modernization-cloud-replatform-refactor-rearchitect)
+  - Updated: 2025-08-01T08:00:00.000Z → 2026-02-09T23:02:00.000Z
 
 ## Classified Pages
 
@@ -297,6 +311,7 @@ category_descriptions:
 | [Management baseline](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/landing-zone-citrix/citrix-management-monitoring) | scenarios | 0.78 | Details a management baseline and monitoring approach tailored to Citrix DaaS on Azure, including which signals and tools to use for this workload, which is scenario-specific CAF guidance. |
 | [Managing organization alignment](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/organize/) | organization | 0.78 | Provides concrete, prescriptive steps to establish and maintain cloud-focused organizational structures and operating models, including specific role groupings and alignment patterns that go beyond generic concepts. |
 | [Master data management in data mesh](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/data-mesh-master-data-management) | scenarios | 0.78 | Scenario-specific guidance on applying master data management to reconcile inconsistent data across multiple domains in a data mesh implementation. |
+| [Modernization guides](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/modernize/modernization-cloud-replatform-refactor-rearchitect) | adoption-patterns | 0.78 | The page provides concrete modernization patterns (replatform, refactor, rearchitect) and links to detailed implementation guidance for each approach, which are workload adoption patterns rather than high-level concepts. It goes beyond generic definitions by organizing specific Azure-focused guidance for how to execute these strategies, fitting the adoption-patterns sub-skill. |
 | [Operations baseline](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/eslz-management-and-monitoring) | operations | 0.78 | Provides management and monitoring guidance for an Azure data analytics estate, building on landing zone operations patterns—operations baseline and monitoring strategy content. |
 | [Overview](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/multi-tenant/overview) | readiness | 0.78 | Explains how landing zones built on management groups and Azure Policy operate within a single tenant and what it means when multiple tenants are involved. This is specific multi-tenant landing zone architecture and design guidance. |
 | [Overview](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/security) | security | 0.78 | Defines a security design area for landing zones with concrete deployment and configuration guidance forming a security foundation across Azure, hybrid, and multicloud, aligning with security methodology rather than generic governance. |
@@ -375,7 +390,6 @@ category_descriptions:
 | [Manage costs and billing](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/manage-costs) | governance | 0.70 | Provides concrete guidance on understanding invoices, budgets, and payments, and references integrating cost management processes organization-wide. This aligns with the cost discipline of cloud governance. |
 | [Metadata](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/govern-metadata-standards) | governance | 0.70 | Goes beyond concepts into prescriptive metadata standards and practices for governing data estates in cloud-scale analytics, which are scenario-specific governance details not generally known to LLMs. |
 | [Modern application platform](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/) | readiness | 0.70 | Describes application landing zone accelerators that build on platform landing zones, focusing on environment foundation, resource hierarchy, governance, and shared services. This is landing zone architecture and deployment guidance, fitting readiness. |
-| [Modernization guides](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/modernize/modernization-cloud-replatform-refactor-rearchitect) | adoption-patterns | 0.70 | Organizes and links detailed guidance for three core modernization strategies (replatform, refactor, rearchitect) for workloads, which are core modernization/adoption patterns rather than high-level concepts. |
 | [Observability](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/manage-observability) | operations | 0.70 | Provides specific practices for monitoring data health and pipelines across domains, aligning with operations baselines and observability for data platforms. |
 | [Operational compliance](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/management-operational-compliance) | operations | 0.70 | Covers concrete mechanisms to monitor configuration drift and enforce operational compliance at scale with automation, which is part of operations baseline and management guidance. |
 | [Overview](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/considerations/landing-zone-governance) | governance | 0.70 | Provides concrete best practices and examples for updating governance policies and processes as landing zones mature—governance discipline evolution rather than initial setup. |

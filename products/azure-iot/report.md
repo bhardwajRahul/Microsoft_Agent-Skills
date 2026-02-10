@@ -32,8 +32,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 1
-- **Unchanged**: 39
+- **Updated Pages**: 0
+- **Unchanged**: 40
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-iot/azure-iot.csv`
 
@@ -50,11 +50,6 @@ category_descriptions:
 | *(Unclassified)* | 24 | 60.0% |
 
 ## Changes
-
-### Updated Pages
-
-- [IoT glossary](https://learn.microsoft.com/en-us/azure/iot/iot-glossary)
-  - Updated: 2025-10-07T17:35:00.000Z → 2026-02-04T18:14:00.000Z
 
 ## Classified Pages
 

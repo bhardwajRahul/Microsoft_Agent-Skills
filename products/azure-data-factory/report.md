@@ -40,8 +40,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 6
-- **Unchanged**: 532
+- **Updated Pages**: 0
+- **Unchanged**: 538
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-data-factory/azure-data-factory.csv`
 
@@ -61,21 +61,6 @@ category_descriptions:
 | *(Unclassified)* | 103 | 19.1% |
 
 ## Changes
-
-### Updated Pages
-
-- [Azure PowerShell](https://learn.microsoft.com/en-us/azure/data-factory/tutorial-incremental-copy-multiple-tables-powershell)
-  - Updated: 2024-10-03T08:00:00.000Z → 2026-02-04T08:00:00.000Z
-- [Azure Database for PostgreSQL](https://learn.microsoft.com/en-us/azure/data-factory/connector-azure-database-for-postgresql)
-  - Updated: 2025-08-11T11:18:00.000Z → 2026-02-09T08:00:00.000Z
-- [PostgreSQL V2](https://learn.microsoft.com/en-us/azure/data-factory/connector-postgresql)
-  - Updated: 2026-01-26T08:00:00.000Z → 2026-02-09T08:00:00.000Z
-- [Append Variable activity](https://learn.microsoft.com/en-us/azure/data-factory/control-flow-append-variable-activity)
-  - Updated: 2024-09-26T22:04:00.000Z → 2026-02-04T18:14:00.000Z
-- [Web activity](https://learn.microsoft.com/en-us/azure/data-factory/control-flow-web-activity)
-  - Updated: 2024-09-25T08:00:00.000Z → 2026-02-04T18:14:00.000Z
-- [How to parameterize](https://learn.microsoft.com/en-us/azure/data-factory/how-to-expression-language-functions)
-  - Updated: 2025-02-13T08:00:00.000Z → 2026-02-04T18:14:00.000Z
 
 ## Classified Pages
 

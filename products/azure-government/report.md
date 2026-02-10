@@ -31,8 +31,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 1
-- **Unchanged**: 38
+- **Updated Pages**: 0
+- **Unchanged**: 39
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-government/azure-government.csv`
 
@@ -49,11 +49,6 @@ category_descriptions:
 | *(Unclassified)* | 8 | 20.5% |
 
 ## Changes
-
-### Updated Pages
-
-- [Azure Government product General Availability](https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-product-roadmap)
-  - Updated: 2026-01-21T08:00:00.000Z → 2026-02-05T08:00:00.000Z
 
 ## Classified Pages
 

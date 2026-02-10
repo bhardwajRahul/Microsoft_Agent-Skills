@@ -40,10 +40,10 @@ category_descriptions:
 - **Unclassified**: 139
 
 ### Incremental Update
-- **New Pages**: 15
-- **Updated Pages**: 9
-- **Unchanged**: 503
-- **Deleted Pages**: 9
+- **New Pages**: 0
+- **Updated Pages**: 0
+- **Unchanged**: 527
+- **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-storage/azure-storage.csv`
 
 ## Classification Statistics
@@ -62,57 +62,6 @@ category_descriptions:
 | *(Unclassified)* | 139 | 26.4% |
 
 ## Changes
-
-### New Pages
-
-- [Install Azure Container Storage](https://learn.microsoft.com/en-us/azure/storage/container-storage/install-container-storage-aks)
-- [Configure local NVMe](https://learn.microsoft.com/en-us/azure/storage/container-storage/use-container-storage-with-local-disk)
-- [Manage driver placement](https://learn.microsoft.com/en-us/azure/storage/container-storage/manage-local-container-storage-interface-driver-placement)
-- [Configure Elastic SAN](https://learn.microsoft.com/en-us/azure/storage/container-storage/use-container-storage-with-elastic-san)
-- [Enable zone-redundant storage](https://learn.microsoft.com/en-us/azure/storage/container-storage/enable-multi-zone-redundancy)
-- [Volume snapshots](https://learn.microsoft.com/en-us/azure/storage/container-storage/volume-snapshot-restore)
-- [Configure encryption](https://learn.microsoft.com/en-us/azure/storage/container-storage/configure-encryption-for-elastic-san)
-- [Resize persistent volumes](https://learn.microsoft.com/en-us/azure/storage/container-storage/resize-volume)
-- [Connect with Prometheus](https://learn.microsoft.com/en-us/azure/storage/container-storage/enable-monitoring)
-- [Connect with Grafana](https://learn.microsoft.com/en-us/azure/storage/container-storage/use-grafana-dashboard)
-- [Frequently asked questions](https://learn.microsoft.com/en-us/azure/storage/container-storage/container-storage-faq)
-- [Use with Azure Elastic SAN](https://learn.microsoft.com/en-us/azure/storage/container-storage/use-container-storage-with-elastic-san-version-1)
-- [Use volume snapshot and restore](https://learn.microsoft.com/en-us/azure/storage/container-storage/volume-snapshot-restore-version-1)
-- [Expand a persistent volume](https://learn.microsoft.com/en-us/azure/storage/container-storage/resize-volume-version-1)
-- [Enable multi-zone storage redundancy](https://learn.microsoft.com/en-us/azure/storage/container-storage/enable-multi-zone-redundancy-version-1)
-
-### Updated Pages
-
-- [Configure object replication policies](https://learn.microsoft.com/en-us/azure/storage/blobs/object-replication-configure)
-  - Updated: 2025-03-02T12:20:00.000Z → 2026-02-05T18:11:00.000Z
-- [Use with Synapse SQL](https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-use-sql)
-  - Updated: 2024-11-18T08:00:00.000Z → 2026-02-04T08:00:00.000Z
-- [Enable authentication for hybrid or cloud-only identities](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-identity-auth-hybrid-identities-enable)
-  - Updated: 2025-11-26T08:00:00.000Z → 2026-02-05T08:00:00.000Z
-- [Options for using an Elastic SAN with AKS](https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-aks-options)
-  - Updated: 2026-01-09T23:14:00.000Z → 2026-02-05T23:11:00.000Z
-- [What is Azure Container Storage?](https://learn.microsoft.com/en-us/azure/storage/container-storage/container-storage-introduction)
-  - Updated: 2026-02-03T23:16:00.000Z → 2026-02-05T06:11:00.000Z
-- [Remove Azure Container Storage](https://learn.microsoft.com/en-us/azure/storage/container-storage/remove-container-storage)
-  - Updated: 2026-02-03T23:16:00.000Z → 2026-02-06T06:10:00.000Z
-- [Understand billing](https://learn.microsoft.com/en-us/azure/storage/container-storage/container-storage-billing)
-  - Updated: 2026-02-03T23:16:00.000Z → 2026-02-05T06:11:00.000Z
-- [Create AKS cluster and install Azure Container Storage](https://learn.microsoft.com/en-us/azure/storage/container-storage/install-container-storage-aks-version-1)
-  - Updated: 2025-09-10T22:40:00.000Z → 2026-02-06T23:12:00.000Z
-- [Clone a persistent volume](https://learn.microsoft.com/en-us/azure/storage/container-storage/clone-volume)
-  - Updated: 2025-09-10T22:40:00.000Z → 2026-02-06T23:12:00.000Z
-
-### Deleted Pages
-
-- ~~FAQ~~ (https://learn.microsoft.com/en-us/azure/storage/container-storage/container-storage-faq)
-- ~~Enable monitoring with managed Prometheus~~ (https://learn.microsoft.com/en-us/azure/storage/container-storage/enable-monitoring)
-- ~~Enable multi-zone storage redundancy~~ (https://learn.microsoft.com/en-us/azure/storage/container-storage/enable-multi-zone-redundancy)
-- ~~Install Azure Container Storage on AKS~~ (https://learn.microsoft.com/en-us/azure/storage/container-storage/install-container-storage-aks)
-- ~~Expand a persistent volume~~ (https://learn.microsoft.com/en-us/azure/storage/container-storage/resize-volume)
-- ~~Use with Azure Elastic SAN~~ (https://learn.microsoft.com/en-us/azure/storage/container-storage/use-container-storage-with-elastic-san)
-- ~~Use with Local NVMe~~ (https://learn.microsoft.com/en-us/azure/storage/container-storage/use-container-storage-with-local-disk)
-- ~~Use Grafana dashboards~~ (https://learn.microsoft.com/en-us/azure/storage/container-storage/use-grafana-dashboard)
-- ~~Use volume snapshot and restore~~ (https://learn.microsoft.com/en-us/azure/storage/container-storage/volume-snapshot-restore)
 
 ## Classified Pages
 

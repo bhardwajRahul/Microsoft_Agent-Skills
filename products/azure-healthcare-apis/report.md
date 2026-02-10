@@ -38,8 +38,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 3
-- **Unchanged**: 207
+- **Updated Pages**: 0
+- **Unchanged**: 210
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-healthcare-apis/azure-healthcare-apis.csv`
 
@@ -59,15 +59,6 @@ category_descriptions:
 | *(Unclassified)* | 77 | 36.7% |
 
 ## Changes
-
-### Updated Pages
-
-- [Configure Private Link](https://learn.microsoft.com/en-us/azure/healthcare-apis/configure-private-link)
-  - Updated: 2025-09-29T17:17:00.000Z → 2026-02-04T23:15:00.000Z
-- [2026](https://learn.microsoft.com/en-us/azure/healthcare-apis/release-notes-2026)
-  - Updated: 2026-02-03T18:20:00.000Z → 2026-02-04T23:15:00.000Z
-- [Release notes](https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/release-notes-2026)
-  - Updated: 2026-01-23T23:11:00.000Z → 2026-02-04T23:15:00.000Z
 
 ## Classified Pages
 

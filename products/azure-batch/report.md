@@ -41,8 +41,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 2
-- **Unchanged**: 112
+- **Updated Pages**: 0
+- **Unchanged**: 114
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-batch/azure-batch.csv`
 
@@ -62,13 +62,6 @@ category_descriptions:
 | *(Unclassified)* | 35 | 30.7% |
 
 ## Changes
-
-### Updated Pages
-
-- [Task complete event](https://learn.microsoft.com/en-us/azure/batch/batch-task-complete-event)
-  - Updated: 2025-07-02T05:25:00.000Z → 2026-02-05T23:11:00.000Z
-- [Task fail event](https://learn.microsoft.com/en-us/azure/batch/batch-task-fail-event)
-  - Updated: 2025-07-02T05:25:00.000Z → 2026-02-05T23:11:00.000Z
 
 ## Classified Pages
 

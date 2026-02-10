@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-09'
+generated_at: '2026-02-10'
 category_descriptions:
   deployment: 'Deploying and migrating Azure VMs/scale sets: disk and storage migration,
     proximity placement groups, zones, capacity reservations, MSP, blue-green/rolling
@@ -19,9 +19,9 @@ category_descriptions:
   architecture-patterns: Designing low-latency and clustered VM architectures using
     proximity placement groups and shared disks, plus understanding VM reboot causes,
     maintenance events, and their impact on workloads
-  limits-quotas: 'VM- and disk-level limits: per-size specs (CPU, RAM, storage, GPU),
-    disk performance/bursting, quotas, throttling, ephemeral/temporary/NVMe disks,
-    and Dedicated Host capacities.'
+  limits-quotas: VM size specs, disk and GPU performance limits, quotas, bursting,
+    and scalability constraints for Azure VMs, disks, NVMe/ephemeral storage, and
+    Dedicated Hosts.
   integrations: Scripts and patterns for VM connectivity, monitoring, maintenance,
     backup/restore, disk cloning, and managing VMs/scale sets via CLI, PowerShell,
     REST, and Azure integrations.
@@ -41,8 +41,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 9
-- **Unchanged**: 717
+- **Updated Pages**: 1
+- **Unchanged**: 725
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-virtual-machines/azure-virtual-machines.csv`
 
@@ -65,24 +65,8 @@ category_descriptions:
 
 ### Updated Pages
 
-- [Change the size of a VM](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/resize-vm)
-  - Updated: 2025-11-11T06:03:00.000Z → 2026-02-05T18:05:00.000Z
-- [Dsv7 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dsv7-series)
-  - Updated: 2026-02-03T23:04:00.000Z → 2026-02-07T06:03:00.000Z
-- [Dlsv7 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dlsv7-series)
-  - Updated: 2026-02-03T23:04:00.000Z → 2026-02-07T06:03:00.000Z
-- [Ddsv7 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/ddsv7-series)
-  - Updated: 2026-02-03T23:04:00.000Z → 2026-02-07T06:03:00.000Z
-- [Esv7 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/esv7-series)
-  - Updated: 2026-02-03T23:04:00.000Z → 2026-02-06T23:02:00.000Z
-- [Edsv7 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/edsv7-series)
-  - Updated: 2026-02-03T23:04:00.000Z → 2026-02-07T06:03:00.000Z
-- [Ubuntu](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/create-upload-ubuntu)
-  - Updated: 2024-08-22T17:37:00.000Z → 2026-02-04T12:03:00.000Z
-- [Instant access snapshots](https://learn.microsoft.com/en-us/azure/virtual-machines/disks-instant-access-snapshots)
-  - Updated: 2026-01-12T08:00:00.000Z → 2026-02-06T23:02:00.000Z
-- [General-purpose sizes](https://learn.microsoft.com/en-us/azure/virtual-machines/migration/sizes/d-ds-dv2-dsv2-ls-series-migration-guide)
-  - Updated: 2025-11-03T22:03:00.000Z → 2026-02-05T18:05:00.000Z
+- [Dldsv7 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dldsv7-series)
+  - Updated: 2026-02-03T23:04:00.000Z → 2026-02-09T23:03:00.000Z
 
 ## Classified Pages
 
@@ -91,7 +75,6 @@ category_descriptions:
 | [Error codes](https://learn.microsoft.com/en-us/azure/virtual-machines/error-codes-spot) | troubleshooting | 0.92 | Explicitly documents specific error codes for Spot VMs and scale sets and their meanings, which is classic symptom→cause troubleshooting content unique to this product. |
 | [FAQ on ephemeral OS disks](https://learn.microsoft.com/en-us/azure/virtual-machines/ephemeral-os-disks-faq) | limits-quotas | 0.92 | FAQ explicitly states max size (2 TiB), non-resizability, and other concrete constraints; this is direct numeric limit and behavior information. |
 | [Compute throttling limits](https://learn.microsoft.com/en-us/azure/virtual-machines/compute-throttling-limits) | limits-quotas | 0.90 | Explicitly documents per-region throttling limits, HTTP 429 behavior, and likely includes numeric request thresholds and policies, which are exact limits/quotas not inferable from general training. |
-| [Dldsv7 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dldsv7-series) | limits-quotas | 0.90 | The Dldsv7-series page specifies exact vCPU, RAM, and local SSD capacities per size. These numeric resource caps are SKU-specific limits, which fits the limits-quotas sub-skill. |
 | [Ebdsv5 and Ebsv5 series](https://learn.microsoft.com/en-us/azure/virtual-machines/ebdsv5-ebsv5-series) | limits-quotas | 0.90 | States up to 260,000 IOPS, 8,000 MBps, and up to 672 GiB RAM, and the full spec page includes detailed per-size numeric limits, fitting the limits-quotas category. |
 | [Ebdsv6 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/ebdsv6-series) | limits-quotas | 0.90 | Like Ebsv6, this series page documents exact maximum IOPS, throughput, vCPU, and RAM values per size, which are concrete service limits and quotas. |
 | [Ebsv6 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/ebsv6-series) | limits-quotas | 0.90 | Explicitly states up to 800,000 IOPS, 14,000 MBps, 192 vCPUs, and 1,832 GiB RAM, and the full page will include per-size tables. These are precise numeric capacity limits and quotas. |
@@ -129,6 +112,7 @@ category_descriptions:
 | [Disk encryption troubleshooting](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/disk-encryption-troubleshooting) | troubleshooting | 0.86 | Labeled as a troubleshooting guide for ADE. Such pages normally map specific ADE error codes/messages and extension failures to causes and resolutions, which is classic symptom→cause→solution expert knowledge. |
 | [Dldsv5 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dldsv5-series) | limits-quotas | 0.86 | VM size series pages include detailed per-size tables (vCPU, RAM GiB, max temp/local disk GiB, max data disks, NICs, IOPS, bandwidth), which are exact numeric capacity limits unique to this SKU. |
 | [Dldsv6 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dldsv6-series) | limits-quotas | 0.86 | Azure VM size-series pages include detailed tables of per-size vCPU counts, RAM GiB, max data disks, max NICs, and local/temporary storage GiB. These are precise numeric capacity limits unique to this series, fitting limits-quotas. |
+| [Dldsv7 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dldsv7-series) | limits-quotas | 0.86 | The page provides precise hardware specifications for the Dldsv7 VM series, including exact CPU model, clock speeds (all-core turbo and max turbo), and maximum vCPU and RAM values. These are concrete numeric limits/capacities for this specific VM family that function as product limits/quotas and are unlikely to be reliably known from general training data. |
 | [Dndsv6 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/dndsv6-series) | limits-quotas | 0.86 | Dndsv6 series page lists precise per-size resource values (vCPU, memory, local/remote storage, network), effectively defining numeric limits for each VM size tier. |
 | [Dnldsv6 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/dnldsv6-series) | limits-quotas | 0.86 | Dnldsv6 series page defines exact maximums (for example up to 4x1760 GiB local SSD, vCPU/RAM per size), which are SKU-specific numeric limits and quotas. |
 | [Dnlsv6 series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/dnlsv6-series) | limits-quotas | 0.86 | Dnlsv6 documentation contains tables of exact vCPU, RAM, disk, and networking values per size, which are concrete numeric limits specific to this VM family. |

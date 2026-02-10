@@ -1,12 +1,12 @@
 ---
-generated_at: '2026-02-09'
+generated_at: '2026-02-10'
 category_descriptions:
   integrations: Patterns and examples for integrating APIM with LLMs, MCP, SAP, Dapr,
     Service Bus/Event Hubs/Event Grid, logging/monitoring, portals, and external backends
     via policies and exports
-  limits-quotas: 'Setting and enforcing API limits: rate/quotas per key, concurrency,
-    OpenAI token caps, service-wide limits, self-hosted gateway constraints, and request/response
-    validation policies.'
+  limits-quotas: 'Policies and limits for API Management: rate/quotas per key, concurrency,
+    Azure OpenAI/LLM token limits, import restrictions, and validating requests/responses
+    against API schemas.'
   security: 'Securing API Management and its portals: authN/Z with Entra ID/B2C/OAuth/JWT,
     client certs & mTLS, managed identities, TLS/ciphers, CORS, DDoS/Defender, compliance,
     and LLM content safety.'
@@ -39,8 +39,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 10
-- **Unchanged**: 264
+- **Updated Pages**: 1
+- **Unchanged**: 273
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-api-management/azure-api-management.csv`
 
@@ -50,11 +50,11 @@ category_descriptions:
 |------|-------|------------|
 | architecture-patterns | 4 | 1.5% |
 | best-practices | 6 | 2.2% |
-| configuration | 97 | 35.4% |
+| configuration | 96 | 35.0% |
 | decision-making | 8 | 2.9% |
 | deployment | 17 | 6.2% |
 | integrations | 30 | 10.9% |
-| limits-quotas | 13 | 4.7% |
+| limits-quotas | 14 | 5.1% |
 | security | 30 | 10.9% |
 | troubleshooting | 6 | 2.2% |
 | *(Unclassified)* | 63 | 23.0% |
@@ -63,26 +63,8 @@ category_descriptions:
 
 ### Updated Pages
 
-- [6 - Debug your APIs](https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-api-inspector)
-  - Updated: 2025-02-05T05:33:00.000Z → 2026-02-05T23:11:00.000Z
-- [7 - Add revisions](https://learn.microsoft.com/en-us/azure/api-management/api-management-get-started-revise-api)
-  - Updated: 2025-02-16T12:10:00.000Z → 2026-02-06T18:19:00.000Z
-- [Import an OpenAPI Specification](https://learn.microsoft.com/en-us/azure/api-management/import-api-from-oas)
-  - Updated: 2025-03-13T17:09:00.000Z → 2026-02-06T18:19:00.000Z
-- [Import a SOAP API and convert to REST](https://learn.microsoft.com/en-us/azure/api-management/restify-soap-api)
-  - Updated: 2025-03-26T22:03:00.000Z → 2025-03-27T08:00:00.000Z
-- [Import a Logic App](https://learn.microsoft.com/en-us/azure/api-management/import-logic-app-as-api)
-  - Updated: 2025-03-27T08:00:00.000Z → 2025-09-09T11:11:00.000Z
-- [Support policy for self-hosted gateway](https://learn.microsoft.com/en-us/azure/api-management/self-hosted-gateway-support-policies)
-  - Updated: 2024-09-26T11:12:00.000Z → 2026-02-06T18:19:00.000Z
-- [Manage user accounts](https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-create-or-invite-developers)
-  - Updated: 2024-12-05T05:33:00.000Z → 2026-02-06T18:19:00.000Z
-- [Alternative approaches to self-hosting](https://learn.microsoft.com/en-us/azure/api-management/developer-portal-alternative-processes-self-host)
-  - Updated: 2024-04-03T17:09:00.000Z → 2026-02-06T18:19:00.000Z
-- [Managed certificates suspension (August 2025 - March 2026)](https://learn.microsoft.com/en-us/azure/api-management/breaking-changes/managed-certificates-suspension-august-2025)
-  - Updated: 2026-01-31T06:10:00.000Z → 2026-02-08T12:21:00.000Z
-- [Trusted service connectivity retirement (March 2026)](https://learn.microsoft.com/en-us/azure/api-management/breaking-changes/trusted-service-connectivity-retirement-march-2026)
-  - Updated: 2026-01-20T23:26:00.000Z → 2026-02-05T18:11:00.000Z
+- [Import a SOAP API](https://learn.microsoft.com/en-us/azure/api-management/import-soap-api)
+  - Updated: 2025-03-13T17:09:00.000Z → 2026-02-02T08:00:00.000Z
 
 ## Classified Pages
 
@@ -278,6 +260,7 @@ category_descriptions:
 | [Configure common credential providers](https://learn.microsoft.com/en-us/azure/api-management/credentials-configure-common-providers) | configuration | 0.65 | Page is about configuring Microsoft Entra and generic OAuth providers; likely includes provider-specific settings, parameter names, and allowed values beyond generic OAuth knowledge. |
 | [Create a workspace](https://learn.microsoft.com/en-us/azure/api-management/how-to-create-workspace) | configuration | 0.65 | How-to for creating workspaces and workspace gateways; typically includes specific portal fields, permission assignments, role names, and configuration options that are product-specific settings rather than generic concepts. |
 | [DevOps and CI/CD](https://learn.microsoft.com/en-us/azure/api-management/devops-api-development-templates) | decision-making | 0.65 | Discusses decisions needed to adopt DevOps for APIM; such content typically includes pipeline design choices, environment strategies, and trade-offs specific to APIM API publishing. |
+| [Import a SOAP API](https://learn.microsoft.com/en-us/azure/api-management/import-soap-api) | limits-quotas | 0.65 | Contains a concrete product-specific limitation: WSDL files using wsdl:import, xsd:import, and xsd:include directives aren't supported for import into Azure API Management. This is an exact, implementation-specific constraint that affects behavior and is unlikely to be reliably inferred without the documentation. While not numeric, it is a precise limit on supported constructs, closest to limits-quotas among the available categories. |
 | [Integrate Application Gateway in internal virtual network](https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-integrate-internal-vnet-appgateway) | architecture-patterns | 0.65 | Describes combining APIM internal mode with Application Gateway/WAF as a front end; this is a product-specific network pattern with concrete configuration guidance and trade-offs. |
 | [Manage microservices deployed in AKS](https://learn.microsoft.com/en-us/azure/api-management/api-management-kubernetes) | architecture-patterns | 0.65 | Describes concrete options and patterns for exposing AKS microservices via APIM; provides APIM-specific architectural choices and trade-offs for this scenario. |
 | [Move instances between regions](https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-migrate) | deployment | 0.65 | Describes region-to-region migration using backup and restore operations and mentions multi-region deployment; this is a deployment/migration pattern specific to the service. |
@@ -293,7 +276,6 @@ category_descriptions:
 | [How API Management supports monetization](https://learn.microsoft.com/en-us/azure/api-management/monetization-support) | decision-making | 0.60 | Focuses on how API Management features support monetization strategies; likely maps features to business scenarios and provides implementation-oriented guidance beyond generic marketing, aiding decisions on how to structure monetization. |
 | [Import OData API](https://learn.microsoft.com/en-us/azure/api-management/import-api-from-odata) | configuration | 0.60 | APIM-specific handling of OData metadata and import behavior, which is configuration knowledge beyond generic OData concepts. |
 | [Import a Container App web API](https://learn.microsoft.com/en-us/azure/api-management/import-container-app-with-oas) | configuration | 0.60 | Covers APIM-specific import flow and constraints for Container Apps, which are configuration details unique to this integration. |
-| [Import a SOAP API](https://learn.microsoft.com/en-us/azure/api-management/import-soap-api) | configuration | 0.60 | Describes how APIM handles WSDL import with specific unsupported directives and behaviors, which are product-specific configuration details. |
 | [Import a passthrough GraphQL API](https://learn.microsoft.com/en-us/azure/api-management/graphql-api) | configuration | 0.60 | How-to for adding a GraphQL endpoint in APIM with product-specific configuration steps and options for the GraphQL model. |
 | [Import an App Service web API](https://learn.microsoft.com/en-us/azure/api-management/import-app-service-as-api) | configuration | 0.60 | Shows APIM-specific import behavior for App Service APIs, including automatic mappings and settings that are not generic knowledge. |
 | [Plan and manage costs](https://learn.microsoft.com/en-us/azure/api-management/plan-manage-costs) | decision-making | 0.60 | Focuses on cost planning and management using pricing calculator and Cost Management; while not limit-focused, it provides concrete cost-planning guidance for choosing and managing resources. |

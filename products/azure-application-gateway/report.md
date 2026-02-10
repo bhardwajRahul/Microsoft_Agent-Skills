@@ -38,8 +38,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 2
-- **Unchanged**: 134
+- **Updated Pages**: 0
+- **Unchanged**: 136
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-application-gateway/azure-application-gateway.csv`
 
@@ -58,13 +58,6 @@ category_descriptions:
 | *(Unclassified)* | 53 | 39.0% |
 
 ## Changes
-
-### Updated Pages
-
-- [Application Gateway for Containers](https://learn.microsoft.com/en-us/azure/application-gateway/for-containers/overview)
-  - Updated: 2025-11-10T08:00:00.000Z → 2026-02-07T08:00:00.000Z
-- [Azure portal](https://learn.microsoft.com/en-us/azure/application-gateway/how-to-tcp-tls-proxy)
-  - Updated: 2025-11-18T18:43:00.000Z → 2026-02-05T12:11:00.000Z
 
 ## Classified Pages
 

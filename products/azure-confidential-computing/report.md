@@ -35,8 +35,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 1
-- **Unchanged**: 68
+- **Updated Pages**: 0
+- **Unchanged**: 69
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-confidential-computing/azure-confidential-computing.csv`
 
@@ -54,11 +54,6 @@ category_descriptions:
 | *(Unclassified)* | 31 | 44.9% |
 
 ## Changes
-
-### Updated Pages
-
-- [About Azure confidential VMs](https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-vm-overview)
-  - Updated: 2025-06-03T22:06:00.000Z → 2026-02-05T23:11:00.000Z
 
 ## Classified Pages
 

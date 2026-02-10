@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-09'
+generated_at: '2026-02-10'
 category_descriptions:
   configuration: Configuring, managing, and automating Azure Backup and restore for
     VMs, databases, AKS, Files/Blobs, SAP HANA, PostgreSQL, and monitoring/alerts
@@ -25,9 +25,9 @@ category_descriptions:
   integrations: How to script and automate Azure Backup/restore for VMs, AKS, SQL,
     PostgreSQL, Files, Blobs, Disks, and MARS using CLI, PowerShell, REST, Logic Apps,
     and security/logging integrations
-  deployment: Deploying and configuring Microsoft Azure Backup Server (MABS) V3/V4,
-    including silent installation steps and supported workloads/protection matrices
-    for different MABS versions.
+  deployment: Supported workloads, protection matrices, and automated/silent deployment
+    steps for Microsoft Azure Backup Server (MABS) v3/v4, including compatibility
+    details for different apps and versions.
 ---
 # Azure Backup Crawl Report
 
@@ -41,8 +41,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 5
-- **Unchanged**: 388
+- **Updated Pages**: 1
+- **Unchanged**: 392
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-backup/azure-backup.csv`
 
@@ -54,9 +54,9 @@ category_descriptions:
 | best-practices | 8 | 2.0% |
 | configuration | 74 | 18.8% |
 | decision-making | 3 | 0.8% |
-| deployment | 3 | 0.8% |
+| deployment | 4 | 1.0% |
 | integrations | 77 | 19.6% |
-| limits-quotas | 28 | 7.1% |
+| limits-quotas | 27 | 6.9% |
 | security | 39 | 9.9% |
 | troubleshooting | 39 | 9.9% |
 | *(Unclassified)* | 120 | 30.5% |
@@ -65,16 +65,8 @@ category_descriptions:
 
 ### Updated Pages
 
-- [FAQ-Back up Azure Blob](https://learn.microsoft.com/en-us/azure/backup/blob-backup-faq)
-  - Updated: 2026-02-03T06:44:00Z → 2026-02-05T12:11:00Z
-- [Manage](https://learn.microsoft.com/en-us/azure/backup/manage-backup-vault)
-  - Updated: 2025-07-22T08:00:00.000Z → 2026-02-05T08:00:00.000Z
-- [Use Archive tier](https://learn.microsoft.com/en-us/azure/backup/use-archive-tier-support)
-  - Updated: 2025-11-12T08:00:00.000Z → 2026-02-04T18:14:00.000Z
-- [Save and manage MARS agent passphrase in Azure Key Vault](https://learn.microsoft.com/en-us/azure/backup/save-backup-passphrase-securely-in-azure-key-vault)
-  - Updated: 2025-10-10T08:00:00.000Z → 2026-02-05T08:00:00.000Z
-- [Azure Database for PostgreSQL](https://learn.microsoft.com/en-us/azure/backup/backup-azure-database-postgresql-troubleshoot)
-  - Updated: 2025-09-09T08:00:00.000Z → 2026-02-06T08:00:00.000Z
+- [MABS V4 (and later) protection matrix](https://learn.microsoft.com/en-us/azure/backup/backup-mabs-protection-matrix)
+  - Updated: 2025-07-17T08:00:00.000Z → 2026-02-10T08:00:00.000Z
 
 ## Classified Pages
 
@@ -114,7 +106,6 @@ category_descriptions:
 | [Azure files backup support matrix](https://learn.microsoft.com/en-us/azure/backup/azure-file-share-support-matrix) | limits-quotas | 0.85 | Support matrix for Azure Files backup; includes supported settings, tiers, and limitations, including new vaulted backup capabilities, all of which are concrete constraints. |
 | [Backup vault](https://learn.microsoft.com/en-us/azure/backup/encryption-at-rest-with-cmk-for-backup-vault) | security | 0.85 | Similar to index 8 but specific to Backup vaults; includes product-specific CMK configuration, key scope, and behavior details that are security-focused. |
 | [DPM/Azure Backup Server (MABS) support matrix](https://learn.microsoft.com/en-us/azure/backup/backup-support-matrix-mabs-dpm) | limits-quotas | 0.85 | Summarizes support settings and limitations for MABS and DPM with Azure Backup; includes detailed compatibility and constraint tables that qualify as expert limits/quotas knowledge. |
-| [MABS V4 (and later) protection matrix](https://learn.microsoft.com/en-us/azure/backup/backup-mabs-protection-matrix) | limits-quotas | 0.85 | Protection matrix explicitly lists which workloads, data types, and installations are supported by MABS v4; such matrices are detailed support/limit tables that define exactly what can and cannot be protected, representing expert, product-specific limits. |
 | [MARS agent support matrix](https://learn.microsoft.com/en-us/azure/backup/backup-support-matrix-mars-agent) | limits-quotas | 0.85 | Support matrix for the MARS agent; contains specific supported scenarios, OS versions, and limitations, which are concrete product constraints. |
 | [Recovery Services vault](https://learn.microsoft.com/en-us/azure/backup/encryption-at-rest-with-cmk) | security | 0.85 | Gives concrete guidance on using CMKs with Azure Backup, including Key Vault usage, DEK/KEK relationships, and service-specific encryption behavior and constraints. |
 | [SAP ASE Backup support matrix](https://learn.microsoft.com/en-us/azure/backup/sap-ase-backup-support-matrix) | limits-quotas | 0.85 | A support matrix for SAP ASE backups on Azure VMs, describing supported scenarios and limitations, including specific backup frequency minimums (for log backups) and other constraints; this matches the limits-quotas category with product-specific numeric limits. |
@@ -146,6 +137,7 @@ category_descriptions:
 | [Using pre-backup and post-backup scripts](https://learn.microsoft.com/en-us/azure/backup/pre-backup-post-backup-scripts) | configuration | 0.80 | Describes pre/post-backup scripts and references ScriptingConfig.xml in a specific install path. This is product-specific configuration with file names/locations and likely XML schema/parameters, which is expert configuration knowledge. |
 | [V2 experience](https://learn.microsoft.com/en-us/azure/backup/backup-azure-private-endpoints-configure-manage) | configuration | 0.80 | Provides detailed configuration steps and options for v2 private endpoints for Azure Backup, likely including specific setting names, policies, and constraints unique to this service. |
 | [Create Recovery Services vault](https://learn.microsoft.com/en-us/azure/backup/backup-azure-arm-userestapi-createorupdatevault) | integrations | 0.78 | REST API article with request URIs, payload schemas, and parameters for creating Recovery Services vaults—these are concrete API integration details unique to Azure Backup. |
+| [MABS V4 (and later) protection matrix](https://learn.microsoft.com/en-us/azure/backup/backup-mabs-protection-matrix) | deployment | 0.78 | The page is a detailed support/protection matrix listing exactly which workloads, data types, and server versions can be protected by Azure Backup Server v4. This is product- and version-specific expert knowledge that changes over time and is not derivable from general training data. It functions as a deployment/supportability matrix (what can be deployed/protected on which platforms), which best aligns with the deployment sub-skill definition. |
 | [Manage Azure Backup jobs](https://learn.microsoft.com/en-us/azure/backup/backup-azure-arm-userestapi-managejobs) | integrations | 0.78 | Explains how to monitor backup/restore jobs via REST, including job IDs, status fields, and specific API operations not covered by generic knowledge. |
 | [Manage Immutable vaults](https://learn.microsoft.com/en-us/azure/backup/backup-azure-immutable-vault-how-to-manage) | security | 0.78 | Details how to manage immutable vault operations and WORM immutability, including specific settings and behaviors that are product-specific security configuration. |
 | [Supported VM SKUs for Azure Policy](https://learn.microsoft.com/en-us/azure/backup/backup-azure-policy-supported-skus) | limits-quotas | 0.78 | A page listing 'supported VM SKUs (by Publisher, Image Offer and Image SKU)' for built-in Azure Policies is a compatibility/support matrix. It encodes exact which-image-is-supported knowledge, which is effectively a set of product-specific limits/constraints that an LLM would not reliably know from training. |

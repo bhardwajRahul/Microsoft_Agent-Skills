@@ -3,7 +3,7 @@ name: azure-api-management
 description: Expert knowledge for Azure Api Management development including integrations & coding patterns, limits & quotas, security, decision making, troubleshooting, best practices, configuration, deployment, and architecture & design patterns. Use when building, debugging, or optimizing Azure Api Management applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-09"
+  generated_at: "2026-02-10"
 ---
 # Azure Api Management Skill
 
@@ -24,9 +24,9 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Best Practices | L43-L52 | Scaling, throttling, security hardening (OWASP Top 10), SSE setup, and production/self-hosted gateway & dev portal practices for Azure API Management. |
 | Decision Making | L53-L64 | Guidance on APIM scaling, pricing tiers, cost management, DevOps/CI-CD planning, VNet choices, monetization features, and migrating from Amazon API Gateway |
 | Architecture & Design Patterns | L65-L72 | Architectural patterns for placing APIM behind VNets, App Gateway, Front Door, or AKS, plus guidance on sustainable gateway configuration and design choices. |
-| Limits & Quotas | L73-L89 | Setting and enforcing API limits: rate/quotas per key, concurrency, OpenAI token caps, service-wide limits, self-hosted gateway constraints, and request/response validation policies. |
-| Security | L90-L123 | Securing API Management and its portals: authN/Z with Entra ID/B2C/OAuth/JWT, client certs & mTLS, managed identities, TLS/ciphers, CORS, DDoS/Defender, compliance, and LLM content safety. |
-| Configuration | L124-L224 | Configuring Azure API Management behavior: policies, caching (response, key, semantic), networking/VNet, domains, logging/metrics, imports (OpenAPI/GraphQL/gRPC/SOAP), self-hosted gateway, and workspaces. |
+| Limits & Quotas | L73-L90 | Policies and limits for API Management: rate/quotas per key, concurrency, Azure OpenAI/LLM token limits, import restrictions, and validating requests/responses against API schemas. |
+| Security | L91-L124 | Securing API Management and its portals: authN/Z with Entra ID/B2C/OAuth/JWT, client certs & mTLS, managed identities, TLS/ciphers, CORS, DDoS/Defender, compliance, and LLM content safety. |
+| Configuration | L125-L224 | Configuring Azure API Management behavior: policies, caching (response, key, semantic), networking/VNet, domains, logging/metrics, imports (OpenAPI/GraphQL/gRPC/SOAP), self-hosted gateway, and workspaces. |
 | Integrations & Coding Patterns | L225-L258 | Patterns and examples for integrating APIM with LLMs, MCP, SAP, Dapr, Service Bus/Event Hubs/Event Grid, logging/monitoring, portals, and external backends via policies and exports |
 | Deployment | L259-L278 | Deploying APIM across regions and networks, self-hosted gateways (K8s, Docker, Arc, AKS, Container Apps), DR/backup/restore, soft-delete recovery, and developer portal deployment options. |
 
@@ -75,6 +75,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 |-------|-----|
 | API format import restrictions and limits in API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-api-import-restrictions |
 | Limit Azure OpenAI token usage with API Management policy | https://learn.microsoft.com/en-us/azure/api-management/azure-openai-token-limit-policy |
+| Unsupported WSDL constructs when importing SOAP APIs | https://learn.microsoft.com/en-us/azure/api-management/import-soap-api |
 | Limit concurrent executions with limit-concurrency policy | https://learn.microsoft.com/en-us/azure/api-management/limit-concurrency-policy |
 | Enforce LLM token rate and quota limits with policy | https://learn.microsoft.com/en-us/azure/api-management/llm-token-limit-policy |
 | Use quota-by-key policy for per-key limits | https://learn.microsoft.com/en-us/azure/api-management/quota-by-key-policy |
@@ -175,7 +176,6 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Import Azure App Service web APIs into API Management | https://learn.microsoft.com/en-us/azure/api-management/import-app-service-as-api |
 | Import Azure Container Apps APIs into API Management | https://learn.microsoft.com/en-us/azure/api-management/import-container-app-with-oas |
 | Import Azure Function Apps into API Management with host keys | https://learn.microsoft.com/en-us/azure/api-management/import-function-app-as-api |
-| Configure SOAP WSDL import into Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/import-soap-api |
 | Insert reusable policy fragments with include-fragment | https://learn.microsoft.com/en-us/azure/api-management/include-fragment-policy |
 | Inject APIM Premium v2 into a virtual network | https://learn.microsoft.com/en-us/azure/api-management/inject-vnet-v2 |
 | Configure outbound VNet integration for APIM v2 tiers | https://learn.microsoft.com/en-us/azure/api-management/integrate-vnet-outbound |

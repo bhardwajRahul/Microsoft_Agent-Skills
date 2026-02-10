@@ -41,9 +41,9 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 9
-- **Unchanged**: 372
-- **Deleted Pages**: 1
+- **Updated Pages**: 0
+- **Unchanged**: 381
+- **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-synapse-analytics/azure-synapse-analytics.csv`
 
 ## Classification Statistics
@@ -62,31 +62,6 @@ category_descriptions:
 | *(Unclassified)* | 132 | 34.6% |
 
 ## Changes
-
-### Updated Pages
-
-- [Power BI Desktop](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/tutorial-connect-power-bi-desktop)
-  - Updated: 2022-01-04T12:03:00.000Z → 2026-02-04T23:15:00.000Z
-- [Features overview](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/overview-features)
-  - Updated: 2023-10-12T11:16:00.000Z → 2026-02-04T08:00:00.000Z
-- [Overview](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/connect-overview)
-  - Updated: 2024-09-24T11:22:00.000Z → 2026-02-04T23:15:00.000Z
-- [Connection strings](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/connection-strings)
-  - Updated: 2024-09-24T11:22:00.000Z → 2026-02-04T23:15:00.000Z
-- [Query with SSMS](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/get-started-ssms)
-  - Updated: 2025-02-14T05:31:00.000Z → 2026-02-04T08:00:00.000Z
-- [Connect to Power BI Desktop](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/get-started-power-bi-professional)
-  - Updated: 2022-02-18T12:06:00.000Z → 2026-02-04T23:15:00.000Z
-- [Query with Visual Studio SSDT](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/get-started-visual-studio)
-  - Updated: 2023-11-22T18:02:00.000Z → 2026-02-04T08:00:00.000Z
-- [Query with sqlcmd](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/get-started-connect-sqlcmd)
-  - Updated: 2023-10-12T11:16:00.000Z → 2026-02-04T08:00:00.000Z
-- [Troubleshoot serverless SQL pools](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/resources-self-help-sql-on-demand)
-  - Updated: 2024-09-26T08:00:00.000Z → 2026-02-04T08:00:00.000Z
-
-### Deleted Pages
-
-- ~~Query with Azure Data Studio~~ (https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/get-started-azure-data-studio)
 
 ## Classified Pages
 

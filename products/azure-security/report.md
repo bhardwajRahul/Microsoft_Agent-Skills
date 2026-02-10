@@ -32,8 +32,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 1
-- **Unchanged**: 110
+- **Updated Pages**: 0
+- **Unchanged**: 111
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-security/azure-security.csv`
 
@@ -50,11 +50,6 @@ category_descriptions:
 | *(Unclassified)* | 68 | 61.3% |
 
 ## Changes
-
-### Updated Pages
-
-- [Managed TLS changes](https://learn.microsoft.com/en-us/azure/security/fundamentals/managed-tls-changes)
-  - Updated: 2026-01-12T08:00:00.000Z → 2026-02-06T08:00:00.000Z
 
 ## Classified Pages
 

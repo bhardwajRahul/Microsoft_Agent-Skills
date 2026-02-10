@@ -40,10 +40,10 @@ category_descriptions:
 - **Unclassified**: 158
 
 ### Incremental Update
-- **New Pages**: 1
-- **Updated Pages**: 7
-- **Unchanged**: 575
-- **Deleted Pages**: 1
+- **New Pages**: 0
+- **Updated Pages**: 0
+- **Unchanged**: 583
+- **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-sql-server-stretch-database/azure-sql-server-stretch-database.csv`
 
 ## Classification Statistics
@@ -62,31 +62,6 @@ category_descriptions:
 | *(Unclassified)* | 158 | 27.1% |
 
 ## Changes
-
-### New Pages
-
-- [Python with mssql-python](https://learn.microsoft.com/en-us/azure/azure-sql/database/azure-sql-python-quickstart?view=azuresql)
-
-### Updated Pages
-
-- [Feature comparison](https://learn.microsoft.com/en-us/azure/azure-sql/database/features-comparison?view=azuresql)
-  - Updated: 2025-06-16T08:00:00.000Z → 2026-01-27T08:00:00.000Z
-- [Read Scale-Out](https://learn.microsoft.com/en-us/azure/azure-sql/database/read-scale-out?view=azuresql)
-  - Updated: 2025-06-13T08:00:00.000Z → 2026-01-27T08:00:00.000Z
-- [Migrate a Python application](https://learn.microsoft.com/en-us/azure/azure-sql/database/azure-sql-passwordless-migration-python?view=azuresql)
-  - Updated: 2025-06-13T08:00:00.000Z → 2026-02-04T23:36:00.000Z
-- [Extend AG to multiple regions](https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-multi-subnet-multiple-regions?view=azuresql)
-  - Updated: 2025-09-22T08:00:00.000Z → 2026-02-04T08:00:00.000Z
-- [Multiple regions](https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-multiple-regions?view=azuresql)
-  - Updated: 2026-01-23T08:00:00.000Z → 2026-02-04T08:00:00.000Z
-- [Azure SQL Managed Instance](https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/region-availability?view=azuresql)
-  - Updated: 2025-05-05T22:31:00.000Z → 2026-02-05T18:38:00.000Z
-- [Known issues with Azure SQL Managed Instance](https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/doc-changes-updates-known-issues?view=azuresql)
-  - Updated: 2025-11-26T08:00:00.000Z → 2026-02-04T18:35:00.000Z
-
-### Deleted Pages
-
-- ~~Python with pyodbc~~ (https://learn.microsoft.com/en-us/azure/azure-sql/database/azure-sql-python-quickstart?view=azuresql)
 
 ## Classified Pages
 

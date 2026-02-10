@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-09'
+generated_at: '2026-02-10'
 category_descriptions:
   configuration: 'Configuring AVS environments: networking (NSX, DHCP/DNS, routing,
     interconnect), storage/backup (vSAN, ANF, Elastic SAN, Pure, Cloud Backup), Arc/guest
@@ -36,10 +36,10 @@ category_descriptions:
 - **Unclassified**: 28
 
 ### Incremental Update
-- **New Pages**: 0
-- **Updated Pages**: 1
+- **New Pages**: 1
+- **Updated Pages**: 0
 - **Unchanged**: 133
-- **Deleted Pages**: 0
+- **Deleted Pages**: 1
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-vmware/azure-vmware.csv`
 
 ## Classification Statistics
@@ -58,10 +58,13 @@ category_descriptions:
 
 ## Changes
 
-### Updated Pages
+### New Pages
 
-- [Internet connectivity options](https://learn.microsoft.com/en-us/azure/azure-vmware/native-internet-connectivity-design-considerations)
-  - Updated: 2025-04-21T08:00:00.000Z → 2026-02-05T23:11:00.000Z
+- [Enable VMware Cloud Director Service with Azure VMware Solution](https://learn.microsoft.com/en-us/azure/azure-vmware/enable-vmware-cds-with-azure)
+
+### Deleted Pages
+
+- ~~Enable VMware Cloud Director Service with Azure VMware solution~~ (https://learn.microsoft.com/en-us/azure/azure-vmware/enable-vmware-cds-with-azure)
 
 ## Classified Pages
 
@@ -183,7 +186,6 @@ category_descriptions:
 | [Migrate a SQL Server standalone instance to Azure VMware Solution](https://learn.microsoft.com/en-us/azure/azure-vmware/migrate-sql-server-standalone-cluster) | 0.50 | How-to migration procedure for SQL Server standalone using HCX; summary does not indicate detailed limits, config parameter tables, or error-code-based troubleshooting. Appears mainly procedural. |
 | [Bitnami appliance deployment](https://learn.microsoft.com/en-us/azure/azure-vmware/bitnami-appliances-deployment) | 0.45 | Guide to deploy Bitnami appliances on AVS; likely step-by-step deployment without detailed config parameter matrices or numeric limits in the summary. |
 | [Deploy VMware Cloud Director Availability in Azure VMware Solution](https://learn.microsoft.com/en-us/azure/azure-vmware/deploy-vmware-cloud-director-availability-in-azure-vmware-solution) | 0.45 | Deployment/configuration guide for VMware Cloud Director Availability; summary indicates DRaaS usage and integration but not explicit configuration parameter tables, limits, or troubleshooting mappings. |
-| [Enable VMware Cloud Director Service with Azure VMware solution](https://learn.microsoft.com/en-us/azure/azure-vmware/enable-vmware-cds-with-azure) | 0.45 | Explains enabling VMware Cloud Director service with AVS; appears focused on enabling and using resources via APIs/portal, but summary does not show detailed config tables, limits, or decision matrices. |
 | [Plan self-service maintenance for Azure VMware Solution](https://learn.microsoft.com/en-us/azure/azure-vmware/self-service-maintenance-orchestration) | 0.45 | Planning and using self-service maintenance orchestration appears to be a feature-usage guide; summary does not indicate detailed limits, configuration parameter tables, or decision matrices with thresholds. |
 | [1 - Plan the deployment](https://learn.microsoft.com/en-us/azure/azure-vmware/plan-private-cloud-deployment) | 0.40 | Planning tutorial description is generic; no explicit mention of numeric thresholds, config tables, or decision matrices in the summary. |
 | [Configure Azure Monitor for Resource Health alerts](https://learn.microsoft.com/en-us/azure/azure-vmware/configure-azure-monitor-for-resource-health-for-azure-vmware-solution) | 0.40 | Shows how to create/edit a resource health alert rule; likely a procedural Azure Monitor alert configuration guide without detailed parameter tables, limits, or troubleshooting content. |
@@ -198,6 +200,7 @@ category_descriptions:
 | [Application performance monitoring solutions for Azure VMware Solution](https://learn.microsoft.com/en-us/azure/azure-vmware/ecosystem-app-monitoring-solutions) | 0.30 | High-level description of application performance monitoring and troubleshooting solutions; likely a conceptual/partner overview without detailed error mappings, limits, or configuration parameter tables. |
 | [Create a Gen 2 Private Cloud](https://learn.microsoft.com/en-us/azure/azure-vmware/native-create-azure-vmware-virtual-network-private-cloud) | 0.30 | Creation tutorial for Gen 2 private cloud; focused on how-to steps rather than configuration parameter tables or quotas. |
 | [Deploy vSAN stretched clusters](https://learn.microsoft.com/en-us/azure/azure-vmware/deploy-vsan-stretched-clusters) | 0.30 | Appears to be a how-to deployment/configuration tutorial for vSAN stretched clusters without clear indication of detailed limits, config tables, or troubleshooting mappings. |
+| [Enable VMware Cloud Director Service with Azure VMware Solution](https://learn.microsoft.com/en-us/azure/azure-vmware/enable-vmware-cds-with-azure) | 0.30 | From the summary, the article appears to be a how-to/tutorial on enabling VMware Cloud Director service with Azure VMware Solution, focused on using APIs/portal to provision and manage virtual datacenters. There is no clear indication of numeric limits, configuration parameter tables, error-code-based troubleshooting, or decision matrices. Without evidence of detailed configuration tables or product-specific constraints, it does not meet the expert-knowledge criteria for any sub-skill type. |
 | [FAQ](https://learn.microsoft.com/en-us/azure/azure-vmware/faq) | 0.30 | FAQ page with common questions; usually high-level answers without detailed limits tables, configuration parameters, or structured troubleshooting mappings. |
 | [Move Azure VMware Solution subscriptions](https://learn.microsoft.com/en-us/azure/azure-vmware/move-ea-csp-subscriptions) | 0.30 | Describes moving an AVS subscription between subscriptions; likely a procedural/billing move guide without deep technical limits, config matrices, or troubleshooting content. |
 | [Operating system support for VMs](https://learn.microsoft.com/en-us/azure/azure-vmware/ecosystem-os-vms) | 0.30 | High-level OS support statement for AVS VMs; no detailed support matrix or numeric constraints visible in the summary. |

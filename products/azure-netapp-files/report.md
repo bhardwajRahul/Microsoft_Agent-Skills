@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-09'
+generated_at: '2026-02-10'
 category_descriptions:
   deployment: Guides for deploying and migrating SAP HANA and Oracle on Azure NetApp
     Files, including AVGs, DR/HSR, cross-region replication, AzAcSnap, gov regions,
@@ -8,8 +8,8 @@ category_descriptions:
     snapshots/backup, monitoring, and app volume groups (SAP HANA, Oracle) including
     AzAcSnap and AD/LDAP/SMB/NFS setup.
   best-practices: Performance, configuration, and deployment best practices for Azure
-    NetApp Files, including NFS/SMB tuning, SAP/Oracle/AVD patterns, VM/quotas, migration/DR,
-    and benchmarking guidance.
+    NetApp Files, including NFS/SMB tuning, SAP/Oracle design, VM/AVD choices, migration/DR,
+    and performance testing.
   limits-quotas: 'Limits, quotas, and behaviors for Azure NetApp Files: capacity,
     throughput, large volumes, backups, NFS/SMB, LDAP/groups, maxfiles, file/path/charset
     limits, and user/group volume quotas'
@@ -41,8 +41,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 2
-- **Unchanged**: 222
+- **Updated Pages**: 1
+- **Unchanged**: 223
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-netapp-files/azure-netapp-files.csv`
 
@@ -65,10 +65,8 @@ category_descriptions:
 
 ### Updated Pages
 
-- [Storage hierarchy of Azure NetApp Files](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-understand-storage-hierarchy)
-  - Updated: 2026-01-29T18:11:00.000Z → 2026-02-04T08:00:00.000Z
-- [Understand Elastic zone-redundant storage](https://learn.microsoft.com/en-us/azure/azure-netapp-files/elastic-zone-redundant-concept)
-  - Updated: 2026-01-30T08:00:00.000Z → 2026-02-04T08:00:00.000Z
+- [Update Terraform-managed volume](https://learn.microsoft.com/en-us/azure/azure-netapp-files/terraform-manage-volume)
+  - Updated: 2025-08-10T08:00:00.000Z → 2026-02-10T06:10:00.000Z
 
 ## Classified Pages
 
@@ -189,12 +187,12 @@ category_descriptions:
 | [Understand volume hard quota](https://learn.microsoft.com/en-us/azure/azure-netapp-files/volume-hard-quota-guidelines) | best-practices | 0.70 | Describes how changing to hard quotas affects behavior and how to plan and monitor capacities. This is product-specific guidance and gotchas around quota changes, not generic storage theory. |
 | [Understand volume languages](https://learn.microsoft.com/en-us/azure/azure-netapp-files/understand-volume-languages) | limits-quotas | 0.70 | Includes Azure NetApp Files–specific default language (C.UTF-8) and explicit character size support (0–3 bytes) tied to supported languages, which are concrete product limits on encoding/character sets. |
 | [Understand volume quota](https://learn.microsoft.com/en-us/azure/azure-netapp-files/volume-quota-introduction) | limits-quotas | 0.70 | A volume quota article for a storage service typically documents concrete quota semantics and may include specific capacity relationships and limits for volumes and pools, which are product-specific quota details. |
-| [Update Terraform-managed volume](https://learn.microsoft.com/en-us/azure/azure-netapp-files/terraform-manage-volume) | best-practices | 0.70 | Focuses on how to safely update Terraform-managed resources, including risks of out-of-band changes and required steps to avoid data loss. This is actionable, product- and tool-specific guidance with gotchas, fitting best-practices. |
 | [Azure NetApp Files for Azure Government](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-government) | deployment | 0.68 | Page is specific to Azure Government and describes how to connect to and access Azure NetApp Files in that sovereign cloud, including feature availability differences and environment-specific access steps. These are product- and cloud-specific deployment/availability details that are not generic and qualify as expert knowledge about how and where the service can be used. |
 | [Back up your database with AzAcSnap](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azacsnap-cmd-ref-backup) | integrations | 0.68 | A command reference page for the Azure Application Consistent Snapshot (azacsnap) backup operation typically includes product-specific CLI syntax, parameters, flags, and required configuration values unique to Azure NetApp Files integrations. This is expert, tool-specific knowledge not generally known from training data and aligns best with the integrations & coding patterns category. |
 | [Create an NFS volume](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes) | best-practices | 0.68 | Beyond basic creation, the article explicitly mentions considerations on which NFS version to use and best practices. These are likely product-specific recommendations (e.g., mount options, export policies, performance-related settings) that qualify as best practices. |
 | [Create an SMB volume](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb) | configuration | 0.68 | The article goes beyond a basic tutorial by detailing product-specific requirements for SMB3 volumes, including Active Directory and Domain Services prerequisites and configuration steps unique to Azure NetApp Files. These are concrete, service-specific configuration details (for example, AD connection requirements and volume settings) that qualify as expert knowledge rather than generic how-to content, fitting best under configuration. |
 | [Test disaster recovery with cross-region replication](https://learn.microsoft.com/en-us/azure/azure-netapp-files/test-disaster-recovery) | best-practices | 0.68 | Disaster recovery test plan content is typically prescriptive and product-specific, including ordered steps, RPO/RTO validation workflow, and gotchas unique to Azure NetApp Files replication; this is actionable guidance rather than generic DR theory. |
+| [Update Terraform-managed volume](https://learn.microsoft.com/en-us/azure/azure-netapp-files/terraform-manage-volume) | best-practices | 0.68 | The page gives product-specific, actionable guidance on how to safely update Azure NetApp Files resources that are managed by Terraform, including gotchas around modifying resources outside Terraform and how to correctly handle Terraform state. This is concrete, scenario-specific best-practice guidance rather than generic Terraform concepts. |
 | [AVS datastore performance considerations for Azure NetApp Files](https://learn.microsoft.com/en-us/azure/azure-netapp-files/performance-azure-vmware-solution-datastore) | architecture-patterns | 0.65 | Covers datastore design and sizing patterns for AVS with Azure NetApp Files, including performance and cost considerations. This is architecture-level guidance specific to this integration scenario. |
 | [Application resilience FAQs](https://learn.microsoft.com/en-us/azure/azure-netapp-files/faq-application-resilience) | best-practices | 0.65 | Application resilience FAQs for a specific storage service typically include concrete recommendations (e.g., how to configure snapshots, replication, failover behavior, and supported RPO/RTO patterns) that are unique to Azure NetApp Files usage and go beyond generic HA concepts. |
 | [Azure NetApp Files storage with cool access](https://learn.microsoft.com/en-us/azure/azure-netapp-files/cool-access-introduction) | decision-making | 0.65 | Cool access behavior (what moves, when, and how it’s billed) is specific to this feature and used to decide when to enable it. Such pages usually include thresholds/conditions and trade-offs between hot and cool tiers, which are product-specific decision details. |

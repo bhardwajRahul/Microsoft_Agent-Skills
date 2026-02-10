@@ -3,7 +3,7 @@ name: azure-backup
 description: Expert knowledge for Azure Backup development including configuration, best practices, troubleshooting, architecture & design patterns, decision making, limits & quotas, security, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Backup applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-09"
+  generated_at: "2026-02-10"
 ---
 # Azure Backup Skill
 
@@ -24,11 +24,11 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Best Practices | L76-L87 | Best practices for configuring, backing up, and restoring Azure VMs and workloads (AD, SQL, SQL Always On, Exchange, SAP ASE) using Azure Backup and DPM |
 | Decision Making | L88-L94 | Guidance on estimating Azure Backup costs, choosing policies to auto-enable VM backups, and migrating alerting from classic Azure Backup alerts to Azure Monitor. |
 | Architecture & Design Patterns | L95-L100 | Backup architecture and strategy for SAP HANA on Azure VMs, including components, data flow, backup types, scheduling, retention, and design best practices. |
-| Limits & Quotas | L101-L132 | Backup support matrices, regional support, and technical limits (sizes, SKUs, retention, features) for Azure Backup across VMs, disks, DBs, files, blobs, AKS, SAP, and MABS/MARS. |
-| Security | L133-L175 | Securing Azure Backup: soft delete, immutable vaults, encryption/CMK, RBAC/MUA/Resource Guard, private endpoints, ransomware/threat detection, and enforcing backup security via Azure Policy. |
-| Configuration | L176-L253 | Configuring, managing, and automating Azure Backup and restore for VMs, databases, AKS, Files/Blobs, SAP HANA, PostgreSQL, and monitoring/alerts via portal, CLI, ARM/Bicep, Terraform, and policies. |
-| Integrations & Coding Patterns | L254-L334 | How to script and automate Azure Backup/restore for VMs, AKS, SQL, PostgreSQL, Files, Blobs, Disks, and MARS using CLI, PowerShell, REST, Logic Apps, and security/logging integrations |
-| Deployment | L335-L340 | Deploying and configuring Microsoft Azure Backup Server (MABS) V3/V4, including silent installation steps and supported workloads/protection matrices for different MABS versions. |
+| Limits & Quotas | L101-L131 | Backup support matrices, regional support, and technical limits (sizes, SKUs, retention, features) for Azure Backup across VMs, disks, DBs, files, blobs, AKS, SAP, and MABS/MARS. |
+| Security | L132-L174 | Securing Azure Backup: soft delete, immutable vaults, encryption/CMK, RBAC/MUA/Resource Guard, private endpoints, ransomware/threat detection, and enforcing backup security via Azure Policy. |
+| Configuration | L175-L252 | Configuring, managing, and automating Azure Backup and restore for VMs, databases, AKS, Files/Blobs, SAP HANA, PostgreSQL, and monitoring/alerts via portal, CLI, ARM/Bicep, Terraform, and policies. |
+| Integrations & Coding Patterns | L253-L333 | How to script and automate Azure Backup/restore for VMs, AKS, SQL, PostgreSQL, Files, Blobs, Disks, and MARS using CLI, PowerShell, REST, Logic Apps, and security/logging integrations |
+| Deployment | L334-L340 | Supported workloads, protection matrices, and automated/silent deployment steps for Microsoft Azure Backup Server (MABS) v3/v4, including compatibility details for different apps and versions. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -114,7 +114,6 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Identify VM SKUs supported by Azure Backup policies | https://learn.microsoft.com/en-us/azure/backup/backup-azure-policy-supported-skus |
 | Backup center support matrix for Azure workloads | https://learn.microsoft.com/en-us/azure/backup/backup-center-support-matrix |
 | Understand Azure VM Instant Restore limits and behavior | https://learn.microsoft.com/en-us/azure/backup/backup-instant-restore-capability |
-| MABS v4 protection support matrix for workloads | https://learn.microsoft.com/en-us/azure/backup/backup-mabs-protection-matrix |
 | Region support and limits for Azure Disk Backup | https://learn.microsoft.com/en-us/azure/backup/backup-managed-disks |
 | Review Azure Backup support settings and limits | https://learn.microsoft.com/en-us/azure/backup/backup-support-matrix |
 | Check support limits for Azure VM backups | https://learn.microsoft.com/en-us/azure/backup/backup-support-matrix-iaas |
@@ -335,6 +334,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 ### Deployment
 | Topic | URL |
 |-------|-----|
+| Check supported workloads for Azure Backup Server v4 | https://learn.microsoft.com/en-us/azure/backup/backup-mabs-protection-matrix |
 | Automate silent installation of MABS V4 | https://learn.microsoft.com/en-us/azure/backup/backup-mabs-unattended-install |
 | Review MABS V3 RTM protection matrix | https://learn.microsoft.com/en-us/azure/backup/microsoft-azure-backup-server-protection-v3 |
 | Check supported workloads for MABS V3 UR1 | https://learn.microsoft.com/en-us/azure/backup/microsoft-azure-backup-server-protection-v3-ur1 |

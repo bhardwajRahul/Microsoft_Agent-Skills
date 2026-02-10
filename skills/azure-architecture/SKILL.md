@@ -3,7 +3,7 @@ name: azure-architecture
 description: Expert guidance for designing Azure solutions using Azure Architecture. Covers example workloads, technology choices, anti-patterns, migration guides, best practices, reference architectures, architecture styles, solution ideas, and design patterns. Use when selecting architecture patterns, choosing Azure services, or implementing production-ready solutions.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-09"
+  generated_at: "2026-02-10"
 ---
 # Azure Architecture Skill
 
@@ -20,20 +20,21 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Reference Architectures | L33-L76 | End-to-end Azure solution blueprints: mission-critical/AKS apps, hybrid networking/DR, secure VMs, SAP and mainframe migrations, data/streaming platforms, and baseline landing zone architectures. |
-| Solution Ideas | L77-L101 | End-to-end Azure solution patterns for analytics, IoT, ETL, SAP, security (Defender, Sentinel, DevSecOps), cross-tenant migration, and running legacy/mainframe/Solaris workloads on Azure. |
-| Design Patterns | L102-L150 | Design and integration patterns for building scalable, resilient, secure cloud apps on Azure, covering microservices, messaging, data, transactions, routing, caching, and multitenancy. |
-| Technology Choices | L151-L189 | Guides for choosing the right Azure services (AI, data, storage, compute, networking, microservices, hybrid, identity) by comparing options for specific workloads and architectures. |
-| Architecture Styles | L190-L200 | Guidance on choosing and designing Azure solutions using major architecture styles: big compute, big data, event-driven, microservices, N-tier, and Web-Queue-Worker patterns. |
-| Best Practices | L201-L251 | Best practices for designing, scaling, securing, operating, and governing Azure apps and microservices, including APIs, AKS, IoT, Event Hubs, HA/DR, CI/CD, partitioning, and observability. |
-| Anti-patterns | L252-L266 | Diagnosing and fixing common Azure app performance/scalability anti-patterns (chatty I/O, busy DB/front end, no caching, sync I/O, retry storms, noisy neighbors, monolithic persistence). |
-| Example Workloads | L267-L343 | End-to-end reference architectures and deployment guides for real-world workloads on Azure, including AKS, data/analytics, mainframe migration, SAP, VDI, security, networking, and hybrid/Arc scenarios. |
-| Migration Guides | L344-L373 | Guides for migrating from AWS, Google Cloud, IBM mainframe/AIX, EKS, and Kafka to Azure—service mapping, architecture differences, security, governance, cost, and workload migration patterns. |
+| Reference Architectures | L33-L77 | End-to-end Azure reference solutions for mission-critical apps, AKS, networking, hybrid identity, DR, SAP, mainframe rehosting, and secure VM/data/streaming architectures. |
+| Solution Ideas | L78-L102 | End-to-end Azure solution patterns for analytics, IoT, ETL, SAP, security (Defender, Sentinel, DevSecOps), cross-tenant migration, and running legacy/mainframe/Solaris workloads on Azure. |
+| Design Patterns | L103-L151 | Design and integration patterns for building scalable, resilient, secure cloud apps on Azure, covering microservices, messaging, data, transactions, routing, caching, and multitenancy. |
+| Technology Choices | L152-L190 | Guides for choosing the right Azure services (AI, data, storage, compute, networking, microservices, hybrid, identity) by comparing options for specific workloads and architectures. |
+| Architecture Styles | L191-L201 | Guidance on choosing and designing Azure solutions using major architecture styles: big compute, big data, event-driven, microservices, N-tier, and Web-Queue-Worker patterns. |
+| Best Practices | L202-L252 | Best practices for designing, scaling, securing, operating, and governing Azure apps and microservices, including APIs, AKS, IoT, Event Hubs, HA/DR, CI/CD, partitioning, and observability. |
+| Anti-patterns | L253-L267 | Diagnosing and fixing common Azure app performance/scalability anti-patterns (chatty I/O, busy DB/front end, no caching, sync I/O, retry storms, noisy neighbors, monolithic persistence). |
+| Example Workloads | L268-L344 | End-to-end reference architectures and deployment guides for real-world workloads on Azure, including AKS, data/analytics, mainframe migration, SAP, VDI, security, networking, and hybrid/Arc scenarios. |
+| Migration Guides | L345-L374 | Guides for migrating from AWS, Google Cloud, IBM mainframe/AIX, EKS, and Kafka to Azure—service mapping, architecture differences, security, governance, cost, and workload migration patterns. |
 
 ### Reference Architectures
 | Topic | URL |
 |-------|-----|
 | Design Azure data platform architecture with disaster recovery | https://learn.microsoft.com/en-us/azure/architecture/data-guide/disaster-recovery/dr-for-azure-data-platform-architecture |
+| Secure AKS in hub-spoke with Azure Firewall and DevOps | https://learn.microsoft.com/en-us/azure/architecture/guide/aks/aks-firewall |
 | Deploy mission-critical web apps with Azure App Service | https://learn.microsoft.com/en-us/azure/architecture/guide/networking/global-web-applications/mission-critical-app-service |
 | Design multi-region load balancing on Azure | https://learn.microsoft.com/en-us/azure/architecture/high-availability/reference-architecture-traffic-manager-application-gateway |
 | Implement Azure Local baseline infrastructure architecture | https://learn.microsoft.com/en-us/azure/architecture/hybrid/azure-local-baseline |

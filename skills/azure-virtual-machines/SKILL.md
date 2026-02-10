@@ -3,7 +3,7 @@ name: azure-virtual-machines
 description: Expert knowledge for Azure Virtual Machines development including deployment, configuration, decision making, security, best practices, architecture & design patterns, limits & quotas, integrations & coding patterns, and troubleshooting. Use when building, debugging, or optimizing Azure Virtual Machines applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-09"
+  generated_at: "2026-02-10"
 ---
 # Azure Virtual Machines Skill
 
@@ -24,7 +24,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Best Practices | L55-L74 | Best practices for Azure VM performance, cost, HA, storage, boot time, temp disks, extensions, and scaling/optimizing HPC and InfiniBand-enabled workloads |
 | Decision Making | L75-L127 | Guidance for choosing VM sizes, disks, regions, licensing and cost options, and planning migrations from retired SKUs, disk types, and images for Azure Virtual Machines. |
 | Architecture & Design Patterns | L128-L134 | Designing low-latency and clustered VM architectures using proximity placement groups and shared disks, plus understanding VM reboot causes, maintenance events, and their impact on workloads |
-| Limits & Quotas | L135-L335 | VM- and disk-level limits: per-size specs (CPU, RAM, storage, GPU), disk performance/bursting, quotas, throttling, ephemeral/temporary/NVMe disks, and Dedicated Host capacities. |
+| Limits & Quotas | L135-L335 | VM size specs, disk and GPU performance limits, quotas, bursting, and scalability constraints for Azure VMs, disks, NVMe/ephemeral storage, and Dedicated Hosts. |
 | Security | L336-L408 | Securing Azure VMs and disks: encryption (ADE, CMK, SSE, double/host encryption), Trusted Launch/boot integrity, SSH keys, TLS/Key Vault, VM metadata hardening, and security policies/RBAC. |
 | Configuration | L409-L569 | Configuring Azure VMs after creation: disks, images, encryption, networking, GPU/InfiniBand, agents/extensions, patching, auto-shutdown, restore points, and VM Image Builder setups. |
 | Integrations & Coding Patterns | L570-L612 | Scripts and patterns for VM connectivity, monitoring, maintenance, backup/restore, disk cloning, and managing VMs/scale sets via CLI, PowerShell, REST, and Azure integrations. |
@@ -218,7 +218,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Reference Ddv5 Azure VM size specifications | https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/ddv5-series |
 | Check Azure Dldsv5 VM size specifications and limits | https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dldsv5-series |
 | Reference Dldsv6 VM size capacities and specs | https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dldsv6-series |
-| Review Dldsv7-series VM size specifications and limits | https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dldsv7-series |
+| Reference Dldsv7 Azure VM size specifications | https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dldsv7-series |
 | Reference Dlsv5 Azure VM size specifications | https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dlsv5-series |
 | Use Dlsv6-series Azure VM size specifications | https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dlsv6-series |
 | Review Dlsv7 VM size capacities and limits | https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/general-purpose/dlsv7-series |

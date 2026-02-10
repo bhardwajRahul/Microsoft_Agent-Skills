@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-09'
+generated_at: '2026-02-10'
 category_descriptions:
   configuration: 'Configuring Azure for SAP: automation (Terraform, Ansible, naming),
     VIS/monitoring and alerts, BPS data, VM/HA/cluster setups, storage/backup, and
@@ -35,13 +35,13 @@ category_descriptions:
 - **Total Pages**: 202
 - **Fetched**: 202
 - **Fetch Failed**: 0
-- **Classified**: 167
-- **Unclassified**: 35
+- **Classified**: 166
+- **Unclassified**: 36
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 14
-- **Unchanged**: 188
+- **Updated Pages**: 2
+- **Unchanged**: 200
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-sap/azure-sap.csv`
 
@@ -51,47 +51,23 @@ category_descriptions:
 |------|-------|------------|
 | architecture-patterns | 21 | 10.4% |
 | best-practices | 12 | 5.9% |
-| configuration | 60 | 29.7% |
+| configuration | 59 | 29.2% |
 | decision-making | 8 | 4.0% |
 | deployment | 35 | 17.3% |
 | integrations | 15 | 7.4% |
 | limits-quotas | 1 | 0.5% |
 | security | 11 | 5.4% |
 | troubleshooting | 4 | 2.0% |
-| *(Unclassified)* | 35 | 17.3% |
+| *(Unclassified)* | 36 | 17.8% |
 
 ## Changes
 
 ### Updated Pages
 
-- [Azure VM storage for HANA](https://learn.microsoft.com/en-us/azure/sap/workloads/hana-vm-operations-storage)
-  - Updated: 2026-01-05T12:10:00.000Z → 2026-02-02T08:00:00.000Z
-- [SAP HANA data tiering and archiving guidance](https://learn.microsoft.com/en-us/azure/sap/workloads/hana-tiering-guidance)
-  - Updated: 2023-10-04T17:10:00.000Z → 2026-02-05T18:11:00.000Z
-- [Overview](https://learn.microsoft.com/en-us/azure/sap/sap-on-azure-overview)
-  - Updated: 2024-08-22T08:00:00.000Z → 2026-02-05T18:11:00.000Z
-- [What SAP workloads run on Azure?](https://learn.microsoft.com/en-us/azure/sap/workloads/certifications)
-  - Updated: 2023-02-10T23:04:00.000Z → 2026-02-02T08:00:00.000Z
-- [Checklist to deploy an SAP workload on Azure](https://learn.microsoft.com/en-us/azure/sap/workloads/deployment-checklist)
-  - Updated: 2024-11-19T08:00:00.000Z → 2026-02-02T08:00:00.000Z
-- [Deploy an SAP workload on Azure](https://learn.microsoft.com/en-us/azure/sap/workloads/deployment-guide)
-  - Updated: 2023-06-14T08:00:00.000Z → 2026-02-05T18:11:00.000Z
-- [SAP RISE integration overview](https://learn.microsoft.com/en-us/azure/sap/workloads/rise-integration)
-  - Updated: 2024-01-15T23:12:00.000Z → 2026-02-02T08:00:00.000Z
-- [Azure services with SAP RISE](https://learn.microsoft.com/en-us/azure/sap/workloads/rise-integration-services)
-  - Updated: 2023-12-21T23:04:00.000Z → 2026-02-02T08:00:00.000Z
-- [Set up Pacemaker cluster](https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-suse-pacemaker)
-  - Updated: 2026-01-07T08:00:00.000Z → 2026-02-02T08:00:00.000Z
-- [Install HA NFS server](https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-suse-nfs)
-  - Updated: 2024-06-19T08:00:00.000Z → 2026-02-02T08:00:00.000Z
-- [Overview](https://learn.microsoft.com/en-us/azure/sap/center-sap-solutions/overview)
-  - Updated: 2023-05-15T23:10:00.000Z → 2026-02-02T08:00:00.000Z
-- [Install SAP software](https://learn.microsoft.com/en-us/azure/sap/center-sap-solutions/install-software)
-  - Updated: 2023-05-15T23:10:00.000Z → 2026-02-02T08:00:00.000Z
-- [Outbound E-Mail from SAP to Exchange Online](https://learn.microsoft.com/en-us/azure/sap/workloads/exchange-online-integration-sap-email-outbound)
-  - Updated: 2026-01-15T18:32:00.000Z → 2026-02-02T08:00:00.000Z
-- [Overview](https://learn.microsoft.com/en-us/azure/sap/monitor/about-azure-monitor-sap-solutions)
-  - Updated: 2024-08-21T08:00:00.000Z → 2026-02-02T08:00:00.000Z
+- [Install SAP HANA on Azure VMs](https://learn.microsoft.com/en-us/azure/sap/workloads/hana-get-started)
+  - Updated: 2023-05-03T17:27:00.000Z → 2026-02-10T06:10:00.000Z
+- [Overview](https://learn.microsoft.com/en-us/azure/sap/automation/deployment-framework)
+  - Updated: 2023-12-21T08:00:00.000Z → 2026-02-09T08:00:00.000Z
 
 ## Classified Pages
 
@@ -183,7 +159,6 @@ category_descriptions:
 | [Install HA SAP NetWeaver with Azure Files SMB](https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-windows-azure-files-smb) | best-practices | 0.70 | Provides concrete sizing rules, minimum share sizes, workload distribution guidance, and installation requirements for Azure Files Premium SMB with SAP NetWeaver. These are product-specific recommendations and constraints beyond generic storage advice. |
 | [Install HA SAP NetWeaver with WSFC](https://learn.microsoft.com/en-us/azure/sap/workloads/sap-high-availability-installation-wsfc-shared-disk) | deployment | 0.70 | Step-by-step HA installation for SAP ASCS/SCS on Windows Server Failover Clustering with Azure shared disk/third‑party shared disk simulation. Contains Azure- and SAP-specific cluster configuration details, resource settings, and ordering constraints that are product- and scenario-specific and not generic tutorial content. |
 | [Install HA SAP NetWeaver with WSFC and SOFS file share](https://learn.microsoft.com/en-us/azure/sap/workloads/sap-high-availability-installation-wsfc-file-share) | deployment | 0.70 | Provides installation and configuration steps for SAP NetWeaver HA using WSFC and Scale-Out File Server, including SAP-specific cluster resources, dependencies, and failover configuration that are not generic Windows clustering knowledge. |
-| [Install SAP HANA on Azure VMs](https://learn.microsoft.com/en-us/azure/sap/workloads/hana-get-started) | configuration | 0.70 | An installation guide for SAP HANA on Azure VMs will include Azure- and HANA-specific configuration steps, parameters, and patterns that go beyond generic installation knowledge. |
 | [Install SAP NetWeaver with HANA HA cluster - RHEL](https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-rhel-with-hana-ascs-ers-dialog-instance) | deployment | 0.70 | Covers co-deploying SAP HANA, ASCS/SCS, and ERS on a single RHEL HA cluster, including Pacemaker/cluster resource definitions, fencing, and SAP-specific instance configuration that is highly specialized to SAP on Azure. |
 | [Multi-SID with WSFC and Azure shared disk](https://learn.microsoft.com/en-us/azure/sap/workloads/sap-ascs-ha-multi-sid-wsfc-azure-shared-disk) | deployment | 0.70 | Describes moving from single to multi-SID clustered SAP ASCS/SCS on an existing WSFC with Azure shared disk. Includes cluster resource layout, SID-specific configuration, and failover behavior details that are specific to SAP on Azure HA deployments. |
 | [Multi-SID with WSFC and file share](https://learn.microsoft.com/en-us/azure/sap/workloads/sap-ascs-ha-multi-sid-wsfc-file-share) | deployment | 0.70 | Explains how to extend a single-SID SAP ASCS/SCS WSFC cluster to multi-SID using file shares and Azure internal load balancers. Contains detailed cluster resource, IP, and SID configuration patterns specific to SAP on Azure. |
@@ -288,6 +263,7 @@ category_descriptions:
 | [Deploy infrastructure for an SAP system with customized resource names](https://learn.microsoft.com/en-us/azure/sap/center-sap-solutions/tutorial-create-high-availability-name-custom) | 0.30 | Tutorial for creating a distributed HA SAP system with CLI; extended walkthrough but still primarily procedural deployment content without matrices or limits. |
 | [Get started with Azure Monitor for SAP solutions - Azure portal](https://learn.microsoft.com/en-us/azure/sap/monitor/quickstart-portal) | 0.30 | Quickstart for portal-based deployment; usually step-by-step without detailed matrices, constraints, or configuration parameter tables beyond generic deployment steps. |
 | [Get started with automation framework](https://learn.microsoft.com/en-us/azure/sap/automation/get-started) | 0.30 | Get-started guide and sample parameter usage are typically tutorial/overview; description does not indicate detailed configuration tables, limits, or troubleshooting-style content. |
+| [Install SAP HANA on Azure VMs](https://learn.microsoft.com/en-us/azure/sap/workloads/hana-get-started) | 0.30 | The page is a getting-started/navigation-style guide that points to other resources for deploying SAP HANA on Azure VMs. From the description it does not clearly contain specific limits, configuration parameter tables, error-code-based troubleshooting, or other detailed expert data; it primarily ensures users follow the right documents for a supported configuration. |
 | [Install SAP software - Azure CLI](https://learn.microsoft.com/en-us/azure/sap/center-sap-solutions/quickstart-install-high-availability-namecustom-cli) | 0.30 | Quickstart for installing software on a distributed HA SAP system; procedural install guide rather than detailed configuration or troubleshooting reference. |
 | [Install SAP software - Azure PowerShell](https://learn.microsoft.com/en-us/azure/sap/center-sap-solutions/quickstart-install-distributed-non-high-availability) | 0.30 | Quickstart for installing software on a non-HA SAP system; appears to be procedural tutorial content without detailed config tables or product-specific best-practice guidance. |
 | [SAP and Microsoft integration scenarios](https://learn.microsoft.com/en-us/azure/sap/workloads/integration-get-started) | 0.30 | Overview of integration scenarios between SAP and Microsoft ecosystem; lacks concrete config tables, limits, or error mappings. |
@@ -297,7 +273,7 @@ category_descriptions:
 | [Attestation Document](https://learn.microsoft.com/en-us/azure/sap/business-process-solutions/attestation) | 0.20 | The attestation document focuses on compliance and metadata for publishing the workload in Microsoft Fabric Workload Hub. It does not describe limits, configuration parameters, troubleshooting steps, or other technical patterns as defined in the sub-skill types, so it does not meet the expert-knowledge criteria for classification. |
 | [FAQ](https://learn.microsoft.com/en-us/azure/sap/center-sap-solutions/faq) | 0.20 | FAQ page; summary does not indicate presence of specific error codes, limits, or configuration tables. Likely general Q&A and conceptual clarifications. |
 | [Install SAP software](https://learn.microsoft.com/en-us/azure/sap/center-sap-solutions/install-software) | 0.20 | How-to guide for installing SAP software via Azure Center for SAP solutions; appears procedural without detailed configuration tables, limits, or troubleshooting mappings. |
-| [Overview](https://learn.microsoft.com/en-us/azure/sap/automation/deployment-framework) | 0.20 | High-level overview of SAP Deployment Automation Framework and tools (Terraform, Ansible); primarily conceptual without detailed parameters, limits, or error mappings. |
+| [Overview](https://learn.microsoft.com/en-us/azure/sap/automation/deployment-framework) | 0.20 | Page is an overview of the SAP Deployment Automation Framework and its tooling (Terraform, Ansible) without specific configuration tables, limits, error codes, or decision matrices. It reads as conceptual/introductory content rather than detailed expert guidance. |
 | [Overview](https://learn.microsoft.com/en-us/azure/sap/automation/testing-framework) | 0.20 | Described as an overview of the SAP Testing Automation Framework; likely conceptual and marketing-style without detailed configuration tables, limits, or error mappings. |
 | [Overview](https://learn.microsoft.com/en-us/azure/sap/business-process-solutions/about-business-process-solutions) | 0.20 | Introduction/overview of Business Process Solutions with conceptual description and benefits; no indication of detailed configuration, limits, or troubleshooting content. |
 | [Overview](https://learn.microsoft.com/en-us/azure/sap/sap-on-azure-overview) | 0.20 | High-level overview of SAP on Azure offerings; describes what services exist but not detailed limits, configs, or decision matrices. |

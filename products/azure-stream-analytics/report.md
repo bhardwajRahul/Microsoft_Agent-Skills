@@ -40,8 +40,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 1
-- **Unchanged**: 167
+- **Updated Pages**: 0
+- **Unchanged**: 168
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-stream-analytics/azure-stream-analytics.csv`
 
@@ -61,11 +61,6 @@ category_descriptions:
 | *(Unclassified)* | 63 | 37.5% |
 
 ## Changes
-
-### Updated Pages
-
-- [Welcome to Stream Analytics](https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction)
-  - Updated: 2026-01-06T06:10:00.000Z → 2026-02-06T23:12:00.000Z
 
 ## Classified Pages
 
