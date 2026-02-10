@@ -127,6 +127,7 @@ stages:
                   --content-types config/content_types_waf.yaml \
                   --products-dir $PRODUCTS_DIR \
                   --skills-dir $SKILLS_DIR \
+                  ----summary-prefix waf \
                   $FULL_FLAG
 
                 echo "========================================"
@@ -137,6 +138,7 @@ stages:
                   --content-types config/content_types_caf.yaml \
                   --products-dir $PRODUCTS_DIR \
                   --skills-dir $SKILLS_DIR \
+                  ----summary-prefix caf \
                   $FULL_FLAG
 
                 echo "========================================"
@@ -147,6 +149,7 @@ stages:
                   --content-types config/content_types_aac.yaml \
                   --products-dir $PRODUCTS_DIR \
                   --skills-dir $SKILLS_DIR \
+                  ----summary-prefix aac \
                   $FULL_FLAG
 
                 echo "========================================"
