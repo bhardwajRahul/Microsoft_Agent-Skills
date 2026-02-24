@@ -4,6 +4,7 @@ description: Expert knowledge for Azure Bot Service development including troubl
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
   generated_at: "2026-02-04"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Bot Service Skill
 
@@ -21,15 +22,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L34-L41 | Diagnosing and fixing bot runtime (HTTP 500), auth, channel/configuration errors, and other common Azure Bot Service issues with step-by-step troubleshooting guidance. |
-| Best Practices | L42-L51 | Guidance on conversation lifecycle, interruptions, security, welcome flows, debugging, and unit testing to build robust, safe, and maintainable Azure Bot Framework v4 bots. |
-| Decision Making | L52-L57 | Guidance on choosing the right Microsoft chatbot platform and selecting the best Direct Line channel option based on architecture, features, and integration needs. |
-| Architecture & Design Patterns | L58-L66 | Designing complex bot dialog flows, modular components, multi-LUIS/QnA routing with Orchestrator, and embedding bots into native apps or websites. |
-| Limits & Quotas | L67-L72 | Guidance on bot timeouts/long-running operations and a matrix of which features are supported on each Azure Bot Service channel. |
-| Security | L73-L93 | Authentication, SSO, OAuth/OIDC, identity providers, Direct Line/Web Chat auth, encryption, privacy, and network isolation/security configuration for Azure Bot Service. |
-| Configuration | L94-L131 | Configuring and debugging Azure bots: state/storage, adaptive dialogs, channels (Direct Line), skills, telemetry (App Insights), language assets (.lg/.lu/.qna), and Emulator-based troubleshooting. |
-| Integrations & Coding Patterns | L132-L188 | Patterns and APIs for integrating bots with channels and services (Direct Line, Web Chat, SMS, email, QnA, LUIS), sending rich messages/media, dialogs, skills, telemetry, and custom storage. |
-| Deployment | L189-L200 | Deploying and registering bots (incl. external/sovereign clouds), setting up App Service and resources via CLI/ARM, and using Dev Tunnels to debug channels and skills. |
+| Troubleshooting | L35-L42 | Diagnosing and fixing bot runtime (HTTP 500), auth, channel/configuration errors, and other common Azure Bot Service issues with step-by-step troubleshooting guidance. |
+| Best Practices | L43-L52 | Guidance on conversation lifecycle, interruptions, security, welcome flows, debugging, and unit testing to build robust, safe, and maintainable Azure Bot Framework v4 bots. |
+| Decision Making | L53-L58 | Guidance on choosing the right Microsoft chatbot platform and selecting the best Direct Line channel option based on architecture, features, and integration needs. |
+| Architecture & Design Patterns | L59-L67 | Designing complex bot dialog flows, modular components, multi-LUIS/QnA routing with Orchestrator, and embedding bots into native apps or websites. |
+| Limits & Quotas | L68-L73 | Guidance on bot timeouts/long-running operations and a matrix of which features are supported on each Azure Bot Service channel. |
+| Security | L74-L94 | Authentication, SSO, OAuth/OIDC, identity providers, Direct Line/Web Chat auth, encryption, privacy, and network isolation/security configuration for Azure Bot Service. |
+| Configuration | L95-L132 | Configuring and debugging Azure bots: state/storage, adaptive dialogs, channels (Direct Line), skills, telemetry (App Insights), language assets (.lg/.lu/.qna), and Emulator-based troubleshooting. |
+| Integrations & Coding Patterns | L133-L189 | Patterns and APIs for integrating bots with channels and services (Direct Line, Web Chat, SMS, email, QnA, LUIS), sending rich messages/media, dialogs, skills, telemetry, and custom storage. |
+| Deployment | L190-L201 | Deploying and registering bots (incl. external/sovereign clouds), setting up App Service and resources via CLI/ARM, and using Dev Tunnels to debug channels and skills. |
 
 ### Troubleshooting
 | Topic | URL |

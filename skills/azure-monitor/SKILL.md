@@ -3,7 +3,8 @@ name: azure-monitor
 description: Expert knowledge for Azure Monitor development including troubleshooting, best practices, decision making, architecture & design patterns, limits & quotas, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Monitor applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-11"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Monitor Skill
 
@@ -21,15 +22,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L34-L76 | Diagnosing and fixing Azure Monitor issues: agent/extension failures, data collection and alerts, logs/metrics/API errors, Application Insights problems, autoscale, containers, and VM performance. |
-| Best Practices | L77-L109 | Best practices for Azure Monitor alerts, logs, metrics, autoscale, AKS/VM monitoring, cost optimization, Prometheus/PromQL, and operational reliability/performance tuning. |
-| Decision Making | L110-L143 | Guidance for choosing Azure Monitor features and planning migrations (agents, alerts, logs, costs, visualization, SCOM/Splunk/Prometheus) to optimize monitoring and billing. |
-| Architecture & Design Patterns | L144-L154 | Architectural guidance for Azure Monitor: workspace design/replication, managed workspaces, autoscale patterns, network security perimeters, and Private Link-based secure topologies. |
-| Limits & Quotas | L155-L174 | Scaling, throughput, and quota limits for Azure Monitor logs/metrics, including ingestion caps, timeouts, autoscale, container/Prometheus performance, and alert/workbook constraints. |
-| Security | L175-L208 | Securing Azure Monitor and Log Analytics: auth (Entra, managed identity), RBAC and row/table access, Private Link/network isolation, CMK/BYOS, secure webhooks, Prometheus/Grafana, and policy compliance. |
-| Configuration | L209-L382 | Configuring Azure Monitor data collection, alerts, diagnostics, workspaces, autoscale, Kubernetes/VM monitoring, Application Insights, OpenTelemetry, and related schemas, policies, and pipelines. |
-| Integrations & Coding Patterns | L383-L455 | Integrating Azure Monitor with VMs, Prometheus, alerts, webhooks, ITSM, Grafana, REST APIs, and custom code to ingest, query, export, and correlate metrics and logs. |
-| Deployment | L456-L485 | How to deploy and manage Azure Monitor agents, alerts, workbooks, and Application Insights/Profiler across VMs, AKS, App Service, containers, and hybrid environments. |
+| Troubleshooting | L35-L77 | Diagnosing and fixing Azure Monitor issues: agent/extension failures, data collection and alerts, logs/metrics/API errors, Application Insights problems, autoscale, containers, and VM performance. |
+| Best Practices | L78-L111 | Best practices for Azure Monitor configuration, alerts, autoscale, costs, logs/metrics/Prometheus, VM/AKS monitoring, reliability, and performance tuning across cloud and multicloud. |
+| Decision Making | L112-L145 | Guidance for choosing Azure Monitor features and planning migrations (agents, alerts, logs, costs, visualization, SCOM/Splunk/Prometheus) to optimize monitoring and billing. |
+| Architecture & Design Patterns | L146-L156 | Architectural guidance for Azure Monitor: workspace topology, managed workspaces, autoscale patterns, network security/Private Link designs, and resilient Log Analytics replication. |
+| Limits & Quotas | L157-L176 | Scaling, throughput, and quota limits for Azure Monitor logs/metrics, including ingestion caps, timeouts, autoscale, container/Prometheus performance, and alert/workbook constraints. |
+| Security | L177-L209 | Securing Azure Monitor and related services: auth (Entra, managed identity), RBAC and policy, private endpoints/NSP, CMK/BYOS, secure webhooks, Prometheus/Grafana, and Log Analytics access control. |
+| Configuration | L210-L384 | Configuring Azure Monitor data collection, agents, alerts, diagnostics, workspaces, Prometheus/OpenTelemetry, and VM/AKS/container monitoring, including schemas, transformations, and ARM/Policy-based setup. |
+| Integrations & Coding Patterns | L385-L456 | Integrating Azure Monitor with VMs, AKS/Prometheus, diagnostics, webhooks, ITSM, Grafana, notebooks, REST/Logs APIs, and App Insights to collect, route, query, and export telemetry. |
+| Deployment | L457-L486 | How to deploy and manage Azure Monitor agents, alerts, workbooks, and Application Insights/Profiler across VMs, AKS, App Service, containers, and hybrid environments. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -80,6 +81,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Apply best practices for Copilot observability agent | https://learn.microsoft.com/en-us/azure/azure-monitor/aiops/observability-agent-best-practices |
 | Optimize Azure Monitor log alert queries | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-log-query |
 | Apply Azure Monitor alerting best practices | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/best-practices-alerts |
+| Configure OpenTelemetry sampling for Application Insights | https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-sampling |
 | Implement autoscale best practices across Azure services | https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-best-practices |
 | Avoid autoscale flapping with Azure Monitor rules | https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-flapping |
 | Use multiple autoscale profiles for time-based scaling | https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-multiprofile |
@@ -148,7 +150,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Apply common autoscale patterns in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-common-scale-patterns |
 | Enterprise monitoring reference architecture with Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/enterprise-monitoring-architecture |
 | Azure Monitor network security perimeter scenarios | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/network-security-perimeter-scenarios |
-| Design Azure Monitor Private Link architectures | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-design |
+| Design patterns for Azure Monitor Private Link topology | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/private-link-design |
 | Design single vs multiple Log Analytics workspaces | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/workspace-design |
 | Design resilient Log Analytics workspace replication | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/workspace-replication |
 
@@ -175,20 +177,20 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 ### Security
 | Topic | URL |
 |-------|-----|
-| Enable Azure Monitor Agent network isolation with Private Link | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-private-link |
 | Secure webhook configuration for ITSM integration | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/it-service-management-connector-secure-webhook-connections |
 | Azure configuration for ITSM Secure Webhook | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/itsm-connector-secure-webhook-connections-azure-configuration |
 | Enable Microsoft Entra authentication for Application Insights | https://learn.microsoft.com/en-us/azure/azure-monitor/app/azure-ad-authentication |
 | Understand IP collection and geolocation in Application Insights | https://learn.microsoft.com/en-us/azure/azure-monitor/app/ip-collection |
 | Migrate Container Insights to managed identity authentication | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-authentication |
 | Configure secure access to Live Data in Container insights | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-livedata-setup |
-| Secure AKS monitoring with Azure Monitor Private Link | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/kubernetes-monitoring-private-link |
 | Configure Prometheus remote write with Entra authentication | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/prometheus-remote-write-active-directory |
 | Use Entra Workload ID for Prometheus remote write | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/prometheus-remote-write-azure-workload-identity |
 | Configure Prometheus remote write with managed identity | https://learn.microsoft.com/en-us/azure/azure-monitor/containers/prometheus-remote-write-managed-identity |
 | Securely configure and deploy Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/best-practices-security |
 | Configure Azure Monitor with Network Security Perimeter | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/network-security-perimeter |
 | Use built-in Azure Monitor policy definitions | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/policy-reference |
+| Secure Azure Monitor workspace and Prometheus with private endpoints | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/private-link-azure-monitor-workspace |
+| Secure Azure Monitor access with Private Link scopes | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/private-link-security |
 | Configure RBAC roles and permissions in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/roles-permissions-security |
 | Configure RBAC roles and permissions in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/roles-permissions-security |
 | Use Azure Policy compliance controls for Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/security-controls-policy |
@@ -200,7 +202,6 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure row-level access with granular RBAC in Log Analytics | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/granular-rbac-use-case |
 | Configure access control for Log Analytics workspaces | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/manage-access |
 | Configure table-level RBAC for Log Analytics | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/manage-table-access |
-| Secure Azure Monitor access with Private Link | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-security |
 | Configure access control for Azure Monitor workspaces | https://learn.microsoft.com/en-us/azure/azure-monitor/metrics/azure-monitor-workspace-manage-access |
 | Configure BYOS storage for Profiler and Snapshot Debugger with Private Link | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler-bring-your-own-storage |
 | Securely call Grafana APIs with Microsoft Entra service principals | https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/visualize-call-grafana-api |
@@ -212,7 +213,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure Azure Monitor Agent via data collection rules | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agent-settings |
 | Migrate custom text log v1 tables to AMA DCR custom logs | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-custom-text-log-migration |
 | Map data field differences between MMA and AMA | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-data-field-differences |
-| Azure Monitor Agent VM extension version details | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-extension-versions |
+| Reference Azure Monitor Agent VM extension versions | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-extension-versions |
 | Generate AMA data collection rules from workspace configuration | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration-data-collection-rule-generator |
 | Use MMA Discovery and Removal Utility after AMA migration | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-mma-removal-tool |
 | Configure Azure Monitor Agent network and proxy settings | https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-network-configuration |
@@ -225,7 +226,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure activity, service health, and resource health alerts | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-activity-log-alert-rule |
 | Configure Azure Monitor log search alert rules | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-log-alert-rule |
 | Configure Azure Monitor metric alert rules | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-metric-alert-rule |
-| Create query-based metric alerts with PromQL | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-query-based-metric-alerts |
+| Configure query-based metric alerts with PromQL in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-query-based-metric-alerts |
 | Create simple log search alert rules in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-simple-alert |
 | Create tenant-level service health alerts in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-tenant-level-service-heath-alerts |
 | Configure custom email subjects for log alerts | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-customize-email-subject-how-to |
@@ -239,7 +240,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure activity log alerts with ARM templates | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/resource-manager-alerts-activity-log |
 | Deploy log search alerts with ARM templates | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/resource-manager-alerts-log |
 | Create metric alerts using ARM templates | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/resource-manager-alerts-metric |
-| Configure resource health alerts with ARM templates | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/resource-manager-alerts-resource-health |
+| Deploy Azure Monitor resource health alerts via ARM | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/resource-manager-alerts-resource-health |
 | Configure service health alerts using ARM templates | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/resource-manager-alerts-service-health |
 | Deploy simple log search alerts via ARM templates | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/resource-manager-alerts-simple-log-search-alerts |
 | Configure Application Insights connection strings | https://learn.microsoft.com/en-us/azure/azure-monitor/app/connection-strings |
@@ -254,8 +255,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure AKS monitoring with OpenTelemetry and Application Insights | https://learn.microsoft.com/en-us/azure/azure-monitor/app/kubernetes-open-protocol |
 | Configure OpenTelemetry settings for Application Insights | https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-configuration |
 | Enable OpenTelemetry data collection in Application Insights | https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-enable |
-| Filter and protect OpenTelemetry data in Application Insights | https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-filter |
-| Configure OpenTelemetry sampling for Application Insights | https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-sampling |
+| Configure OpenTelemetry data filtering in Application Insights | https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-filter |
 | Configure autoscale on custom metrics for web apps | https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-custom-metric |
 | Configure diagnostics and logs for Azure autoscale | https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-diagnostics |
 | Configure and interpret Azure autoscale settings | https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-understanding-settings |
@@ -290,7 +290,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure data collection endpoints for Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-endpoint-overview |
 | Manage Azure Monitor data collection rule associations | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-rule-associations |
 | Create and edit Azure Monitor data collection rules | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-rule-create-edit |
-| Use sample data collection rules for Azure Monitor scenarios | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-rule-samples |
+| Use sample Azure Monitor data collection rule definitions | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-rule-samples |
 | Understand JSON structure of Azure Monitor DCRs | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-rule-structure |
 | View Azure Monitor data collection rule definitions | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-rule-view |
 | Configure Azure Monitor DCR transformations with KQL | https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-transformations |
@@ -307,6 +307,8 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Reference monitoring data types for Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/monitor-azure-monitor-reference |
 | Configure monitoring coverage recommendations in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/monitoring-coverage |
 | Configure native OpenTelemetry ingestion to Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/opentelemetry-protocol-ingestion |
+| Configure Azure Monitor Private Link scopes and endpoints | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/private-link-configure |
+| Enable Private Link monitoring for VMs and AKS in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/private-link-vm-kubernetes |
 | Use ARM templates to configure Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/resource-manager-samples |
 | Create and configure Azure Monitor health model resources | https://learn.microsoft.com/en-us/azure/azure-monitor/health-models/create |
 | Use the designer to configure Azure Monitor health models | https://learn.microsoft.com/en-us/azure/azure-monitor/health-models/designer |
@@ -321,8 +323,8 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure health monitoring and alerts for Log Analytics workspaces | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-workspace-health |
 | Use KQL features specific to Azure Monitor logs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-query-overview |
 | Understand and use standard columns in Azure Monitor logs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-standard-columns |
+| Configure Log Analytics workspace data export destinations | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-data-export |
 | Configure and manage Log Analytics tables | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/manage-logs-tables |
-| Configure Azure Monitor Private Link Scope | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-configure |
 | Set up customer-managed storage accounts for Azure Monitor Logs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-storage |
 | Access and interpret Azure Monitor log query audit data | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/query-audit |
 | Configure and share Azure Monitor query packs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/query-packs |
@@ -426,7 +428,6 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Ingest Azure Event Hubs data into Azure Monitor Logs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/ingest-logs-event-hub |
 | Apply KQL machine learning for anomalies in Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/kql-machine-learning-azure-monitor |
 | Export Azure Monitor log queries to Power BI and Excel | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-powerbi |
-| Configure continuous data export from Log Analytics | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-data-export |
 | Export Azure Monitor Logs to Storage via Logic Apps | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-export-logic-app |
 | Integrate notebooks with Azure Monitor Logs for analysis | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/notebooks-azure-monitor-logs |
 | Create and query Azure Monitor search jobs | https://learn.microsoft.com/en-us/azure/azure-monitor/logs/search-jobs |
@@ -444,7 +445,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Use Code Optimizations extension in VS Code | https://learn.microsoft.com/en-us/azure/azure-monitor/optimization-insights/code-optimizations-vscode-extension |
 | Retrieve Azure Activity Logs via Monitor REST API | https://learn.microsoft.com/en-us/azure/azure-monitor/platform/rest-activity-log |
 | Call Azure Monitor REST API for metrics and logs | https://learn.microsoft.com/en-us/azure/azure-monitor/platform/rest-api-walkthrough |
-| Stream Azure Monitor data to Event Hubs and SIEM tools | https://learn.microsoft.com/en-us/azure/azure-monitor/platform/stream-monitoring-data-event-hubs |
+| Stream Azure Monitor data to Event Hubs and SIEMs | https://learn.microsoft.com/en-us/azure/azure-monitor/platform/stream-monitoring-data-event-hubs |
 | Instrument custom .NET requests for Application Insights Profiler | https://learn.microsoft.com/en-us/azure/azure-monitor/profiler/profiler-trackrequests |
 | Convert SCOM management packs into Azure Monitor data collection rules | https://learn.microsoft.com/en-us/azure/azure-monitor/scom-manage-instance/convert-management-packs-into-data-collection-rules |
 | Integrate Azure Data Explorer with Grafana dashboards in Azure | https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/grafana-azure-data-explorer |

@@ -3,7 +3,8 @@ name: azure-communication-services
 description: Expert knowledge for Azure Communication Services development including troubleshooting, best practices, decision making, architecture & design patterns, limits & quotas, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Communication Services applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-10"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Communication Services Skill
 
@@ -21,15 +22,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L34-L101 | Diagnosing and fixing ACS calling, PSTN, SMS, email, Teams interop, audio/video/device/network issues, plus collecting logs/metrics and interpreting error/diagnostic codes. |
-| Best Practices | L102-L123 | Best practices for ACS calling, SMS, email, and Teams interop: call quality, UX, network/AVD tuning, spam/reputation, policy compliance, tokens/auth, diagnostics, and virtual appointments. |
-| Decision Making | L124-L147 | Guidance on ACS-Teams interop, calling/phone/SMS/WhatsApp pricing, PSTN and number options, government cloud support, and migration from Twilio Video/Conversations to ACS |
-| Architecture & Design Patterns | L148-L153 | Patterns for auto-recording ACS calls with Event Grid/Functions and designing ACS networks with ExpressRoute for private, secure connectivity. |
-| Limits & Quotas | L154-L218 | Email sending limits, phone number eligibility/restrictions by country, calling/direct routing/emergency/toll‑free constraints, SDK/platform limits, and ACS API quotas and behaviors. |
-| Security | L219-L239 | Securing ACS apps: auth methods (Entra, HMAC, managed identities, SMTP), Teams interop security, sender/caller identity, roles, webhooks, encryption, captions, RTT, and access controls. |
-| Configuration | L240-L308 | Monitoring, logging, metrics, and diagnostics for ACS (calls, chat, SMS, email, Rooms, Job Router), plus configuration of calling, routing, Teams interop, and UI Library behavior. |
-| Integrations & Coding Patterns | L309-L442 | Patterns and samples for integrating ACS calling, chat, email, Rooms, Job Router, Teams/WhatsApp, Azure AI/OpenAI, and UI libraries using SDKs, REST, events, and client capabilities. |
-| Deployment | L443-L447 | Guides for planning ACS direct routing infrastructure and deploying the ACS Chat Hero sample, including architecture, setup steps, and configuration details. |
+| Troubleshooting | L35-L102 | Diagnosing and fixing ACS calling, PSTN, SMS, email, Teams interop, audio/video/device/network issues, plus collecting logs/metrics and interpreting error/diagnostic codes. |
+| Best Practices | L103-L124 | Best practices for ACS calling, SMS, email, and Teams interop: call quality, UX, network/AVD tuning, spam/reputation, policy compliance, tokens/auth, diagnostics, and virtual appointments. |
+| Decision Making | L125-L148 | Guidance on ACS-Teams interop, calling/phone/SMS/WhatsApp pricing, PSTN and number options, government cloud support, and migration from Twilio Video/Conversations to ACS |
+| Architecture & Design Patterns | L149-L154 | Patterns for auto-recording ACS calls with Event Grid/Functions and designing ACS networks with ExpressRoute for private, secure connectivity. |
+| Limits & Quotas | L155-L219 | Email sending limits, phone number eligibility/restrictions by country, calling/direct routing/emergency/toll‑free constraints, SDK/platform limits, and ACS API quotas and behaviors. |
+| Security | L220-L241 | Auth, encryption, and access control for ACS: Entra/SMTP/HMAC auth, managed identities, Teams interop security, telephony identity, webhooks, roles, and compliance (incl. US Gov). |
+| Configuration | L242-L310 | Monitoring, logging, metrics, and diagnostics for ACS (calls, chat, SMS, email, Rooms, Job Router), plus configuration of calling, routing, Teams interop, and UI Library behavior. |
+| Integrations & Coding Patterns | L311-L444 | Patterns and samples for integrating ACS calling, chat, email, Rooms, Job Router, Teams/WhatsApp, Azure AI/OpenAI, and UI libraries using SDKs, REST, events, and client capabilities. |
+| Deployment | L445-L449 | Guides for planning ACS direct routing infrastructure and deploying the ACS Chat Hero sample, including architecture, setup steps, and configuration details. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -223,6 +224,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Understand ACS call flow topologies and encryption | https://learn.microsoft.com/en-us/azure/communication-services/concepts/detailed-call-flows |
 | Apply sender authentication best practices for ACS | https://learn.microsoft.com/en-us/azure/communication-services/concepts/email/email-authentication-best-practice |
 | Configure email domains and sender auth in ACS | https://learn.microsoft.com/en-us/azure/communication-services/concepts/email/email-domain-and-sender-authentication |
+| Use Azure Communication Services in US Government clouds | https://learn.microsoft.com/en-us/azure/communication-services/concepts/government |
 | Configure closed captions for ACS–Teams interoperability | https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/enable-closed-captions |
 | Enable and configure Teams interoperability with ACS | https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/enable-interoperability-teams |
 | Configure Microsoft Entra API permissions for Teams communication | https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/teams-user/azure-ad-api-permissions |

@@ -1,12 +1,12 @@
 ---
-generated_at: '2026-02-04'
+generated_at: '2026-02-24'
 category_descriptions:
   decision-making: Guidance on selecting the right Azure Data Manager for Energy tier,
     comparing capabilities, scale, and cost trade-offs for different workloads and
     environments.
-  configuration: Configuring ADME data partitions, enabling and registering external
-    data sources (incl. Reservoir DDMS), and setting up and using audit logging in
-    Azure Energy Data Manager.
+  configuration: 'Configuring ADME environment: data partitions, external data services/sources,
+    enabling Reservoir DDMS, and setting up/using audit logging for governance and
+    integration.'
   security: 'Securing Azure Data Manager for Energy: auth tokens, ACLs, legal tags,
     entitlements, CORS, API Management, private endpoints, managed identities, and
     Customer Lockbox.'
@@ -16,6 +16,9 @@ category_descriptions:
   integrations: Patterns for integrating Energy Data Services with Azure Monitor and
     File APIs, including exporting OSDU logs, wiring Airflow/Elasticsearch logs, and
     uploading large files programmatically.
+  architecture-patterns: Guidance on architecting resilient Azure Data Manager for
+    Energy deployments, including high availability, fault tolerance, disaster recovery,
+    and reliability best practices.
   troubleshooting: Diagnosing and fixing manifest ingestion failures in Azure Data
     Manager for Energy using Airflow logs, including log analysis, common error patterns,
     and remediation steps.
@@ -24,32 +27,53 @@ category_descriptions:
 
 ## Summary
 
-- **Total Pages**: 50
-- **Fetched**: 50
+- **Total Pages**: 51
+- **Fetched**: 51
 - **Fetch Failed**: 0
-- **Classified**: 23
+- **Classified**: 24
 - **Unclassified**: 27
 
 ### Incremental Update
-- **New Pages**: 0
-- **Updated Pages**: 0
-- **Unchanged**: 50
-- **Deleted Pages**: 0
+- **New Pages**: 3
+- **Updated Pages**: 3
+- **Unchanged**: 45
+- **Deleted Pages**: 2
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-energy-data-services/azure-energy-data-services.csv`
 
 ## Classification Statistics
 
 | Type | Count | Percentage |
 |------|-------|------------|
-| configuration | 5 | 10.0% |
+| architecture-patterns | 1 | 2.0% |
+| configuration | 5 | 9.8% |
 | decision-making | 1 | 2.0% |
-| deployment | 2 | 4.0% |
-| integrations | 4 | 8.0% |
-| security | 10 | 20.0% |
+| deployment | 2 | 3.9% |
+| integrations | 4 | 7.8% |
+| security | 10 | 19.6% |
 | troubleshooting | 1 | 2.0% |
-| *(Unclassified)* | 27 | 54.0% |
+| *(Unclassified)* | 27 | 52.9% |
 
 ## Changes
+
+### New Pages
+
+- [Reliability overview](https://learn.microsoft.com/en-us/azure/energy-data-services/reliability-energy-data-services)
+- [How to enable External Data Services (EDS)](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-enable-external-data-services)
+- [How to register External Data Services (EDS)](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-register-external-data-services)
+
+### Updated Pages
+
+- [Create a Microsoft Azure Data Manager for Energy instance](https://learn.microsoft.com/en-us/azure/energy-data-services/quickstart-create-microsoft-energy-data-services-instance)
+  - Updated: 2024-08-29T22:04:00.000Z → 2026-02-11T18:17:00.000Z
+- [How to enable Reservoir DDMS](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-enable-reservoir-ddms)
+  - Updated: 2025-11-26T12:09:00.000Z → 2026-02-19T06:12:00.000Z
+- [FAQ](https://learn.microsoft.com/en-us/azure/energy-data-services/faq-energy-data-services)
+  - Updated: 2025-04-08T11:16:00Z → 2026-02-11T18:17:00Z
+
+### Deleted Pages
+
+- ~~How to enable External Data Sources (EDS)~~ (https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-enable-external-data-sources)
+- ~~How to register External Data Sources (EDS)~~ (https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-register-external-data-sources)
 
 ## Classified Pages
 
@@ -65,9 +89,9 @@ category_descriptions:
 | [Generate auth token](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-generate-auth-token) | security | 0.75 | Token generation for this specific service will include concrete authentication parameters (scopes, resource URIs, client IDs, grant types) and possibly example requests unique to Azure Data Manager for Energy, which are product-specific security/auth configuration details. |
 | [Deploy Geospatial Consumption Zone (GCZ)](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-deploy-gcz) | deployment | 0.70 | Deployment guide for GCZ on top of ADME; likely includes product-specific deployment requirements, supported tiers, and configuration steps beyond generic deployment knowledge. |
 | [Deploy OSDU Admin UI](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-deploy-osdu-admin-ui) | deployment | 0.70 | Shows how to deploy OSDU Admin UI on ADME; such content typically includes environment-specific deployment parameters and constraints unique to this integration. |
-| [How to enable External Data Sources (EDS)](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-enable-external-data-sources) | configuration | 0.70 | Enabling EDS usually involves specific configuration flags, endpoints, and scheduling parameters; these are product-specific configuration details not known generically. |
+| [How to enable External Data Services (EDS)](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-enable-external-data-services) | configuration | 0.70 | Describes how to enable External Data Services, including use of managed identities and Azure Key Vault secrets for the EDS secret service. This is product-specific configuration guidance that likely includes concrete settings (system-assigned vs user-assigned identity, Key Vault access configuration) rather than just conceptual explanation. |
 | [How to enable legal tags restricted COO (Country of Origin)](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-enable-legal-tags-restricted-country-of-origin) | security | 0.70 | Focuses on enabling legal tag creation for restricted country-of-origin data; likely includes specific compliance-related settings and conditions, which are product-specific security/compliance configurations. |
-| [How to register External Data Sources (EDS)](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-register-external-data-sources) | configuration | 0.70 | Registration of EDS with ADME will include required fields, parameter names, and constraints for external source definitions, fitting configuration sub-skill. |
+| [How to register External Data Services (EDS)](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-register-external-data-services) | configuration | 0.70 | Explains how to register External Data Services with Azure Data Manager for Energy to fetch and ingest metadata and bulk data. This is a how-to configuration article that likely includes specific parameters/endpoints and registration settings unique to this product, which an LLM would not know from training alone. |
 | [Manage ACLs](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-manage-acls) | security | 0.70 | Managing ACLs on data records is security/authorization configuration; such pages typically list ACL fields, allowed values, and patterns unique to this product. |
 | [Manage legal tags](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-manage-legal-tags) | security | 0.70 | Legal tags govern data ingestion and access; how-to management article is likely to include specific tag properties, required fields, and constraints that are product-specific security/compliance settings. |
 | [Manage users](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-manage-users) | security | 0.70 | How-to for managing users and OSDU groups via Entitlements APIs; likely includes specific group names, API calls, and permission scopes that are product-specific security configuration details. |
@@ -75,8 +99,9 @@ category_descriptions:
 | [Set up Resource sharing (CORS)](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-enable-cors) | security | 0.70 | A 'how to enable CORS' page for a specific service typically includes concrete configuration steps and parameter values (allowed origins, headers, methods) specific to Azure Data Manager for Energy endpoints, which are product-specific security configuration details beyond generic CORS concepts. |
 | [Tier details](https://learn.microsoft.com/en-us/azure/energy-data-services/concepts-tier-details) | decision-making | 0.70 | Tier concepts for Developer vs Standard SKU typically include comparison criteria and guidance on when to use each tier; this is product- and SKU-specific decision guidance beyond generic knowledge. |
 | [Upload large files using file service](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-upload-large-files-using-file-service) | integrations | 0.70 | Describes using a signed URL from the File API to upload ~5GB files to Blob Storage; such a page typically includes API parameters, request/response fields, and constraints specific to this product’s file service integration with Blob Storage, matching the integrations & coding patterns criteria. |
-| [How to enable Reservoir DDMS](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-enable-reservoir-ddms) | configuration | 0.65 | Enabling a domain data management service typically requires specific feature flags, API versions, and tier support details; these are configuration details unique to this product. |
+| [How to enable Reservoir DDMS](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-enable-reservoir-ddms) | configuration | 0.65 | Covers enabling the Reservoir Domain Data Management Service, a product-specific capability with particular activation/availability behavior (now GA, available by default on all instances). Even though it notes that steps may no longer be required, the article is a configuration-focused guide for this specialized service and likely includes product-specific settings or prerequisites. |
 | [Manage data partitions](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-add-more-data-partitions) | configuration | 0.65 | How-to for adding partitions usually includes partition identifiers, allowed formats, and configuration steps specific to Azure Data Manager for Energy, fitting configuration of isolation units. |
+| [Reliability overview](https://learn.microsoft.com/en-us/azure/energy-data-services/reliability-energy-data-services) | architecture-patterns | 0.65 | Focuses on reliability patterns for Azure Data Manager for Energy using zone-redundant instances and cross-region disaster recovery. While the summary is high level, this type of article typically includes product-specific guidance on when to use regional vs cross-region resiliency options and how to structure active-passive DR for this service, which constitutes architecture and design pattern guidance beyond generic reliability concepts. |
 | [Set up audit logs](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-manage-audit-logs) | configuration | 0.65 | Managing audit logs for this service is likely to include product-specific settings such as log categories, destinations, and configuration parameters or examples for enabling and querying logs, which are detailed configuration behaviors not captured by generic logging knowledge. |
 
 ## Unclassified Pages
@@ -90,7 +115,6 @@ category_descriptions:
 | [CSV parser ingestion](https://learn.microsoft.com/en-us/azure/energy-data-services/concepts-csv-parser-ingestion) | 0.30 | Conceptual description of CSV parser ingestion workflow; focuses on ELT concept and custom schema, not on numeric limits or detailed configuration parameters. |
 | [Convert SEG-Y to ZGY](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-convert-segy-to-zgy) | 0.30 | Described as a step-by-step tutorial for converting SEG-Y to ZGY; likely focuses on procedural steps rather than configuration tables, limits, or product-specific diagnostic mappings. It reads as a workflow guide rather than expert reference content per the defined categories. |
 | [Convert SEG-Y to oVDS](https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-convert-segy-to-ovds) | 0.30 | Similar to index 3, this is a step-by-step tutorial for converting SEG-Y to oVDS; primarily a procedural guide without clear indication of configuration matrices, limits, or troubleshooting mappings that qualify as expert reference under the given sub-skill types. |
-| [Create a Microsoft Azure Data Manager for Energy instance](https://learn.microsoft.com/en-us/azure/energy-data-services/quickstart-create-microsoft-energy-data-services-instance) | 0.30 | Quickstart for creating an instance via portal; primarily step-by-step setup, no configuration tables, limits, or specialized patterns indicated. |
 | [Entitlements](https://learn.microsoft.com/en-us/azure/energy-data-services/concepts-entitlements) | 0.30 | Conceptual description of entitlement service and access management; summary does not indicate concrete RBAC role names, permission scopes, or configuration parameters. |
 | [Ingest CSV wellbore data](https://learn.microsoft.com/en-us/azure/energy-data-services/tutorial-csv-ingestion) | 0.30 | Tutorial for CSV ingestion; appears to be procedural how-to without explicit configuration parameter tables or product-specific limits. |
 | [Ingest manifests](https://learn.microsoft.com/en-us/azure/energy-data-services/tutorial-manifest-ingestion) | 0.30 | Manifest ingestion tutorial; summary suggests step-by-step usage, not detailed configuration matrices or limits. |
@@ -104,9 +128,10 @@ category_descriptions:
 | [Use Wellbore DDMS APIs](https://learn.microsoft.com/en-us/azure/energy-data-services/tutorial-wellbore-ddms) | 0.30 | Wellbore DDMS API tutorial; summary indicates generic how-to with cURL, not detailed configuration or limits. |
 | [About Domain Data Management Services (DDMS)](https://learn.microsoft.com/en-us/azure/energy-data-services/overview-ddms) | 0.20 | Conceptual overview of domain data management services and data magnitude; lacks concrete configuration, limits, or troubleshooting details. |
 | [About Microsoft Azure Data Manager for Energy](https://learn.microsoft.com/en-us/azure/energy-data-services/overview-microsoft-energy-data-services) | 0.20 | High-level product overview of Azure Data Manager for Energy; no detailed limits, configs, error codes, or decision matrices. |
+| [Create a Microsoft Azure Data Manager for Energy instance](https://learn.microsoft.com/en-us/azure/energy-data-services/quickstart-create-microsoft-energy-data-services-instance) | 0.20 | Quickstart for creating an Azure Data Manager for Energy instance via the portal; primarily step-by-step setup and registration flow without detailed limits, configuration matrices, error-code mappings, or other expert-only reference data. |
 | [Domain Data Management Services (DDMS)](https://learn.microsoft.com/en-us/azure/energy-data-services/concepts-ddms) | 0.20 | Domain Data Management Services concepts; conceptual platform extension description without concrete configuration, limits, or decision matrices. |
-| [FAQ](https://learn.microsoft.com/en-us/azure/energy-data-services/faq-energy-data-services) | 0.20 | An FAQ page is usually high-level Q&A and product overview; description does not indicate detailed limits tables, configuration matrices, or error-code-based troubleshooting, so it likely lacks the structured expert knowledge required by the defined sub-skill types. |
 | [Indexing and search](https://learn.microsoft.com/en-us/azure/energy-data-services/concepts-index-and-search) | 0.20 | Index and search workflow concepts; high-level description of indexing and metadata accessibility, not detailed configuration or limits. |
 | [OSDU® services available on Azure Data Manager for Energy](https://learn.microsoft.com/en-us/azure/energy-data-services/osdu-services-on-adme) | 0.20 | Content is an availability/overview list of OSDU services on Azure Data Manager for Energy tied to a milestone release; it does not describe limits, configuration parameters, error codes, or decision matrices with quantified trade-offs. |
 | [Syncing Reference data values](https://learn.microsoft.com/en-us/azure/energy-data-services/concepts-reference-data-values) | 0.20 | Overview of reference data values and synchronization; summary does not show specific configuration parameters, limits, or decision matrices. |
 | [Partners](https://learn.microsoft.com/en-us/azure/energy-data-services/resources-partner-solutions) | 0.10 | Partner solutions listing is primarily ecosystem/marketing content; it does not suggest technical configuration, limits, or troubleshooting details, so it does not meet the expert knowledge criteria. |
+| [FAQ](https://learn.microsoft.com/en-us/azure/energy-data-services/faq-energy-data-services) | - | FAQ content is primarily conceptual and informational (service description, availability, general usage). It does not focus on numeric limits, detailed configuration parameters, error-code-based troubleshooting, or decision matrices with quantified trade-offs as required by the sub-skill definitions. |

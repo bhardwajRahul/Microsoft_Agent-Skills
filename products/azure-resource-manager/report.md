@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-10'
+generated_at: '2026-02-24'
 category_descriptions:
   deployment: Deploying ARM/Bicep templates via pipelines, GitHub, portal/CLI/PowerShell,
     using what-if/rollback, and moving or relocating Azure resources and data across
@@ -21,9 +21,9 @@ category_descriptions:
     “quota/limit exceeded” errors.'
   security: 'Securing ARM/Bicep deployments: handling secrets (Key Vault, secure params/outputs),
     RBAC and managed apps, private endpoints/links, locks, TLS, and cross-tenant authentication.'
-  decision-making: Guidance on ARM-to-Bicep migration, classic vs Resource Manager,
-    and planning/executing Azure regional relocation for VMs, AKS, networking, databases,
-    backup, and other services
+  decision-making: 'Guidance for planning Azure resource changes: ARM→Bicep, classic→ARM,
+    tagging, and especially cross-region relocation strategies for core services (VMs,
+    AKS, networking, data, backup).'
   architecture-patterns: 'Bicep template design patterns: structuring parameters,
     using configuration sets and shared variable files, and generating robust, collision‑free
     resource names.'
@@ -40,8 +40,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 0
-- **Unchanged**: 501
+- **Updated Pages**: 2
+- **Unchanged**: 499
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-resource-manager/azure-resource-manager.csv`
 
@@ -52,15 +52,22 @@ category_descriptions:
 | architecture-patterns | 4 | 0.8% |
 | best-practices | 42 | 8.4% |
 | configuration | 79 | 15.8% |
-| decision-making | 23 | 4.6% |
+| decision-making | 24 | 4.8% |
 | deployment | 27 | 5.4% |
 | integrations | 41 | 8.2% |
-| limits-quotas | 26 | 5.2% |
+| limits-quotas | 25 | 5.0% |
 | security | 30 | 6.0% |
 | troubleshooting | 95 | 19.0% |
 | *(Unclassified)* | 134 | 26.7% |
 
 ## Changes
+
+### Updated Pages
+
+- [Resource providers by service](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-services-resource-providers)
+  - Updated: 2025-12-08T23:11:00.000Z → 2026-02-18T18:42:00.000Z
+- [Supported resource types](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-support)
+  - Updated: 2025-08-10T23:12:00.000Z → 2026-02-09T08:00:00.000Z
 
 ## Classified Pages
 
@@ -185,7 +192,6 @@ category_descriptions:
 | [ServicePrincipalSelector](https://learn.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/microsoft-common-serviceprincipalselector) | configuration | 0.80 | Documents the ServicePrincipalSelector element with its JSON properties and behavior for selecting or creating service principals and entering secrets—detailed, product-specific configuration. |
 | [SizeSelector](https://learn.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/microsoft-compute-sizeselector) | configuration | 0.80 | Provides JSON schema and properties for the SizeSelector control used to choose VM sizes, including how it binds to instance counts—detailed configuration for this Azure-specific UI element. |
 | [String functions](https://learn.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/create-ui-definition-string-functions) | configuration | 0.80 | Lists string functions for JSON strings in createUiDefinition with their behavior, which are specific configuration/function APIs for Azure Managed Applications. |
-| [Supported resource types](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-support) | limits-quotas | 0.80 | Provides a detailed matrix of which resource types support tags and whether tags flow into cost reports. This is a service-by-service capability/limit table that is highly specific and not inferable generically. |
 | [Template best practices](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/best-practices) | best-practices | 0.80 | Dedicated best-practices article with ARM-template-specific DOs/DON’Ts and recommendations to avoid common deployment issues; content is product-specific rather than generic programming advice. |
 | [Template test cases](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-test-cases) | best-practices | 0.80 | Lists specific test names and pass/fail code examples for the toolkit, providing concrete, product-specific best-practice rules and edge cases for ARM templates. |
 | [Troubleshoot Bicep deployment](https://learn.microsoft.com/en-us/azure/azure-resource-manager/troubleshooting/quickstart-troubleshoot-bicep-deployment) | troubleshooting | 0.80 | Walks through creating failing Bicep deployments and shows how to interpret and fix different error types using Azure-specific tooling and logs; symptom-to-resolution guidance. |
@@ -340,6 +346,7 @@ category_descriptions:
 | [String functions](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-functions-string) | configuration | 0.70 | Lists and explains ARM template string functions. This is a product-specific function reference for configuring template expressions. |
 | [Subscription](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-to-subscription) | limits-quotas | 0.70 | Includes a concrete deployment quota: you can deploy to 800 different resource groups in a subscription-level deployment. |
 | [Subscription](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-to-subscription) | limits-quotas | 0.70 | Includes a specific numeric limit (deploy to 800 different resource groups in a subscription) tied to subscription-scope deployments, which is expert, product-specific quota information. |
+| [Supported resource types](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-support) | decision-making | 0.70 | The page provides a detailed, product-specific matrix of Azure resource types and whether they support tags and emit tags to cost reports. This is expert knowledge not inferable from general training data and is used to decide which resources can be tagged for cost management and how to handle those that don't emit tags. It functions as decision guidance for tagging and cost analysis rather than simple configuration or limits. |
 | [TLS support](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tls-support) | security | 0.70 | Contains product-specific security behavior and deprecation details for TLS versions (which versions are or will be supported/blocked and when), which are configuration- and compliance-relevant and not just conceptual TLS information. |
 | [TextBlock](https://learn.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/microsoft-common-textblock) | configuration | 0.70 | Covers the TextBlock UI element with its JSON properties (text, markdown, style, etc.) for adding static text—configuration reference for this specific control. |
 | [Use over private Endpoint](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/deployment-script-vnet-private-endpoint) | security | 0.70 | Covers running deployment scripts privately over private endpoints; involves product-specific network security configuration and endpoint settings for the deploymentScripts resource. |
@@ -466,7 +473,6 @@ category_descriptions:
 | [Properties](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/copy-properties) | 0.40 | Explains using copy loops for properties in ARM templates. Focused on syntax and structure; no numeric quotas, config parameter tables, or error-code mappings. |
 | [Publish managed app definition](https://learn.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/publish-service-catalog-app) | 0.40 | Quickstart for creating and publishing a managed application definition; primarily step-by-step tutorial without configuration tables, limits, or troubleshooting matrices. |
 | [Publish managed app definition - Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/publish-bicep-definition) | 0.40 | Quickstart using Bicep to publish a managed application definition; mostly procedural with a reference to the 120 MB limit but that limit is covered in the dedicated BYOS article. |
-| [Resource providers by service](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-services-resource-providers) | 0.40 | Primarily a mapping list of resource provider namespaces to Azure services. While detailed, it is more of a reference index than a configuration, limits, or troubleshooting guide, and does not fit the defined sub-skill categories. |
 | [Resources](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/copy-resources) | 0.40 | Shows how to use copy loops to deploy multiple instances of a resource. This is template syntax usage, not a catalog of limits, configuration options, or troubleshooting codes. |
 | [Templates for cloud consistency](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-cloud-consistency) | 0.40 | Guidance on reusing templates across clouds; mostly conceptual and high-level, without numeric thresholds or config matrices. |
 | [Variables](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/copy-variables) | 0.40 | Describes using copy for variables in ARM templates. Syntax-level guidance without explicit limits, configuration matrices, or troubleshooting flows. |
@@ -557,6 +563,7 @@ category_descriptions:
 | [Loops (for)](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/loops) | 0.20 | Shows how to use for-loops in Bicep; mentions version support but not as a detailed limits/quotas or config matrix; mainly language syntax. |
 | [Modules (module)](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/modules) | 0.20 | Explains Bicep modules conceptually and how to organize deployments; no numeric limits, config tables, or product-specific quotas. |
 | [Portal](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources-portal) | 0.20 | Portal how-to for applying tags; primarily step-by-step UI instructions without configuration tables, limits, or product-specific edge cases. |
+| [Resource providers by service](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-services-resource-providers) | 0.20 | Page is primarily a mapping list of Azure services to their ARM resource provider namespaces. It does not focus on limits, configuration parameters, error codes, or decision matrices; it’s reference/navigation data rather than the kinds of expert operational details defined in the sub-skill types. |
 | [Set resource deployment order](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-templates-with-dependent-resources) | 0.20 | Tutorial on dependent resources and deployment order; procedural, not a reference of limits, configs, or error codes. |
 | [Set resource location](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/resource-location) | 0.20 | Describes how to set resource location in templates at a conceptual level. No specific numeric constraints, configuration parameter tables, or troubleshooting mappings. |
 | [Spread](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/operator-spread) | 0.20 | Language feature explanation for Bicep spread operator; no product-specific limits, configs, or error mappings beyond what an LLM can infer from general Bicep knowledge. |

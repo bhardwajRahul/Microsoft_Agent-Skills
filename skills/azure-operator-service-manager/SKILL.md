@@ -4,6 +4,7 @@ description: Expert knowledge for Azure Operator Service Manager development inc
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
   generated_at: "2026-02-04"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Operator Service Manager Skill
 
@@ -21,11 +22,11 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L30-L35 | Diagnosing and fixing AOSM onboarding issues with the Azure CLI extension and troubleshooting Helm install failures in AOSM CNF deployments. |
-| Best Practices | L36-L46 | Best practices for onboarding, configuring, upgrading, and cleaning up AOSM CNFs/Helm artifacts, including safe upgrade flows, tests, and failure-handling controls. |
-| Security | L47-L54 | Securing AOSM: configuring Private Link to artifact stores, defining/assigning custom RBAC roles, and using user-assigned managed identities for long-running SNS operations. |
-| Configuration | L55-L62 | Configuring AOSM deployment behavior: edge-resilient cluster registry, tag-based deployment interruption, Helm options for failed releases, and geo-replicated publisher artifact storage. |
-| Integrations & Coding Patterns | L63-L75 | Using AOSM CLI/ARM/Helm to onboard CNFs/VNFs, manage artifact stores (ACR/Storage), and design/publish network services and operators for Azure Operator Nexus. |
+| Troubleshooting | L31-L36 | Diagnosing and fixing AOSM onboarding issues with the Azure CLI extension and troubleshooting Helm install failures in AOSM CNF deployments. |
+| Best Practices | L37-L47 | Best practices for onboarding, configuring, upgrading, and cleaning up AOSM CNFs/Helm artifacts, including safe upgrade flows, tests, and failure-handling controls. |
+| Security | L48-L55 | Securing AOSM: configuring Private Link to artifact stores, defining/assigning custom RBAC roles, and using user-assigned managed identities for long-running SNS operations. |
+| Configuration | L56-L63 | Configuring AOSM deployment behavior: edge-resilient cluster registry, tag-based deployment interruption, Helm options for failed releases, and geo-replicated publisher artifact storage. |
+| Integrations & Coding Patterns | L64-L76 | Using AOSM CLI/ARM/Helm to onboard CNFs/VNFs, manage artifact stores (ACR/Storage), and design/publish network services and operators for Azure Operator Nexus. |
 
 ### Troubleshooting
 | Topic | URL |

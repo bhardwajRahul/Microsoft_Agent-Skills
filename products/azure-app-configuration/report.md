@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-11'
+generated_at: '2026-02-24'
 category_descriptions:
   deployment: 'Using App Configuration in deployments: CI/CD integration, Azure Pipelines
     tasks, GitHub Actions sync, Helm/Kubernetes usage, geo-replication, and region
@@ -7,9 +7,9 @@ category_descriptions:
   configuration: 'Configuring App Configuration usage: dynamic refresh in various
     runtimes (AKS, Functions, Go, Spring, JS, Python), feature flags/filters, snapshots,
     labels, JSON keys, REST versioning, and AI agent settings.'
-  security: 'Securing App Configuration: encryption, keys/HMAC, Entra ID RBAC, REST
-    auth, private endpoints, managed identities, network lockdown, and Azure Policy/compliance
-    settings.'
+  security: 'Securing App Configuration: encryption, keys, RBAC/Entra auth, HMAC,
+    REST auth models, private endpoints, network lockdown, managed identities, and
+    Azure Policy/compliance.'
   architecture-patterns: Patterns for resilient, geo-redundant App Configuration setups,
     disaster recovery strategies, and scaling client config delivery using Azure Front
     Door.
@@ -32,16 +32,16 @@ category_descriptions:
 
 ## Summary
 
-- **Total Pages**: 157
-- **Fetched**: 157
+- **Total Pages**: 158
+- **Fetched**: 158
 - **Fetch Failed**: 0
-- **Classified**: 127
-- **Unclassified**: 30
+- **Classified**: 125
+- **Unclassified**: 33
 
 ### Incremental Update
-- **New Pages**: 0
-- **Updated Pages**: 8
-- **Unchanged**: 149
+- **New Pages**: 1
+- **Updated Pages**: 3
+- **Unchanged**: 154
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-app-configuration/azure-app-configuration.csv`
 
@@ -51,35 +51,29 @@ category_descriptions:
 |------|-------|------------|
 | architecture-patterns | 2 | 1.3% |
 | best-practices | 2 | 1.3% |
-| configuration | 24 | 15.3% |
+| configuration | 23 | 14.6% |
 | decision-making | 1 | 0.6% |
-| deployment | 8 | 5.1% |
-| integrations | 67 | 42.7% |
+| deployment | 7 | 4.4% |
+| integrations | 67 | 42.4% |
 | limits-quotas | 5 | 3.2% |
 | security | 17 | 10.8% |
 | troubleshooting | 1 | 0.6% |
-| *(Unclassified)* | 30 | 19.1% |
+| *(Unclassified)* | 33 | 20.9% |
 
 ## Changes
 
+### New Pages
+
+- [Spring Boot](https://learn.microsoft.com/en-us/azure/azure-app-configuration/how-to-variant-feature-flags-spring-boot)
+
 ### Updated Pages
 
-- [Configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-java-spring-app)
-  - Updated: 2025-08-25T08:00:00.000Z → 2026-02-10T08:00:00.000Z
-- [Dynamic configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/enable-dynamic-configuration-java-spring-app)
-  - Updated: 2025-10-07T08:00:00.000Z → 2026-02-10T08:00:00.000Z
-- [Feature management](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-feature-flag-spring-boot)
-  - Updated: 2025-08-25T08:00:00.000Z → 2026-02-10T08:00:00.000Z
-- [Spring Boot](https://learn.microsoft.com/en-us/azure/azure-app-configuration/use-key-vault-references-spring-boot)
-  - Updated: 2025-08-25T08:00:00.000Z → 2026-02-10T08:00:00.000Z
-- [Java Spring](https://learn.microsoft.com/en-us/azure/azure-app-configuration/enable-dynamic-configuration-java-spring-push-refresh)
-  - Updated: 2025-10-07T08:00:00.000Z → 2026-02-10T08:00:00.000Z
 - [Microsoft Entra ID](https://learn.microsoft.com/en-us/azure/azure-app-configuration/concept-enable-rbac)
-  - Updated: 2026-01-14T18:16:00.000Z → 2026-02-10T12:11:00.000Z
-- [Managed identities](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-integrate-azure-managed-service-identity)
-  - Updated: 2025-08-25T08:00:00.000Z → 2026-02-10T08:00:00.000Z
-- [Feature reference](https://learn.microsoft.com/en-us/azure/azure-app-configuration/use-feature-flags-spring-boot)
-  - Updated: 2025-10-22T08:00:00.000Z → 2026-02-10T08:00:00.000Z
+  - Updated: 2026-02-10T12:11:00.000Z → 2026-02-23T23:22:00.000Z
+- [Enable geo-replication](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-geo-replication)
+  - Updated: 2025-08-25T08:00:00.000Z → 2026-02-11T08:00:00.000Z
+- [Overview](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-variant-feature-flags)
+  - Updated: 2025-11-18T17:01:00.000Z → 2026-02-10T08:00:00.000Z
 
 ## Classified Pages
 
@@ -110,7 +104,7 @@ category_descriptions:
 | [Authorization](https://learn.microsoft.com/en-us/azure/azure-app-configuration/rest-api-authorization-index) | security | 0.75 | Describes authorization models tied to authentication methods, mapping to specific permission models; this is product-specific authorization behavior beyond generic concepts. |
 | [Configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-azure-kubernetes-service) | integrations | 0.75 | Explains using the Kubernetes Provider to construct ConfigMaps and Secrets from App Configuration key-values and Key Vault references, a product-specific integration pattern. |
 | [Recover or purge deleted stores](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-recover-deleted-stores-in-azure-app-configuration) | configuration | 0.75 | How-to article on setting retention policy, enabling purge protection, and recovering/purging stores. Contains specific configuration options and behaviors for soft delete, fitting configuration. |
-| [Microsoft Entra ID](https://learn.microsoft.com/en-us/azure/azure-app-configuration/concept-enable-rbac) | security | 0.72 | Page is specifically about using Microsoft Entra ID and Azure RBAC with Azure App Configuration. Such pages typically enumerate concrete built-in roles (for example, App Configuration Data Reader, App Configuration Data Owner), their permission scopes, and how to assign them, which matches the security category criteria of product-specific RBAC role names and access configuration details. |
+| [Microsoft Entra ID](https://learn.microsoft.com/en-us/azure/azure-app-configuration/concept-enable-rbac) | security | 0.74 | Page is about using Microsoft Entra ID and Azure RBAC with App Configuration. Such articles typically list specific built-in role names (for example, App Configuration Data Reader/Owner), scope guidance, and how they map to data-plane permissions, which are product-specific security details not inferable from general knowledge. |
 | [.NET](https://learn.microsoft.com/en-us/azure/azure-app-configuration/enable-dynamic-configuration-dotnet-core-push-refresh) | integrations | 0.70 | Describes push refresh model using App Configuration events in .NET, including client library configuration and event handling. This is a concrete integration pattern between App Configuration, Event Grid, and .NET apps. |
 | [.NET](https://learn.microsoft.com/en-us/azure/azure-app-configuration/reload-key-vault-secrets-dotnet) | integrations | 0.70 | Describes how App Configuration keys reference Key Vault secrets/certificates and how automatic reload works in ASP.NET Core. This is a product-specific integration and coding pattern with Key Vault. |
 | [ASP.NET Core](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-variant-feature-flags-aspnet-core) | integrations | 0.70 | ASP.NET Core tutorial consuming variant feature flags; likely includes middleware/extension methods, configuration provider usage, and SDK parameters specific to this integration. |
@@ -131,7 +125,6 @@ category_descriptions:
 | [Deploy to Kubernetes using Helm](https://learn.microsoft.com/en-us/azure/azure-app-configuration/integrate-kubernetes-deployment-helm) | deployment | 0.70 | Helm/Kubernetes integration typically documents specific Helm values, chart patterns, and configuration parameters for syncing App Configuration data into Kubernetes, which are product-specific deployment patterns. |
 | [Dynamic configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/enable-dynamic-configuration-azure-kubernetes-service) | configuration | 0.70 | Details how to enable dynamic configuration for AKS workloads via the Kubernetes Provider, including provider-specific options and refresh behavior. |
 | [Dynamic configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/enable-dynamic-configuration-java-spring-app) | configuration | 0.70 | Describes dynamic configuration refresh behavior for Spring with Azure App Configuration, including a specific default refresh interval value (30 seconds) and library-specific behavior. This is product- and library-specific configuration knowledge with concrete parameter behavior, fitting the configuration category. |
-| [Enable geo-replication](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-geo-replication) | deployment | 0.70 | Operational how-to for creating, using, and deleting replicas; typically includes constraints, region behavior, and product-specific replication settings relevant to deployment/resiliency. |
 | [Export using Azure Pipelines](https://learn.microsoft.com/en-us/azure/azure-app-configuration/azure-pipeline-export-task) | deployment | 0.70 | Covers the Export task for App Configuration; expected to document task inputs/outputs, variable naming, and behavior unique to this deployment integration. |
 | [Feature reference](https://learn.microsoft.com/en-us/azure/azure-app-configuration/feature-management-dotnet-reference) | integrations | 0.70 | Reference for the .NET feature management library with product-specific APIs, attributes, and configuration patterns for feature flags in .NET and ASP.NET Core. |
 | [Feature reference](https://learn.microsoft.com/en-us/azure/azure-app-configuration/feature-management-go-reference) | integrations | 0.70 | Reference for the Go feature management library with product-specific APIs and configuration patterns for dynamic feature toggling. |
@@ -155,7 +148,6 @@ category_descriptions:
 | [Overview](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-feature-filters) | configuration | 0.70 | How-to for using feature filters in App Configuration; typically includes specific filter names, parameters, and configuration patterns unique to Azure feature management. |
 | [Overview](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-targetingfilter) | configuration | 0.70 | Describes targeting filter for progressive rollout; likely documents specific configuration fields (users, groups, percentage) and their semantics in Azure App Configuration. |
 | [Overview](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-timewindow-filter) | configuration | 0.70 | Explains adding and configuring the built-in time window filter; likely documents specific configuration parameters (start/end times, formats) for Azure feature management. |
-| [Overview](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-variant-feature-flags) | configuration | 0.70 | Core tutorial on variant feature flags; likely defines variant-specific configuration schema, property names, and allowed values that are product-specific configuration knowledge. |
 | [Overview](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-deployment-overview) | security | 0.70 | Covers roles, permissions, and authentication modes for automated deployment principals accessing App Configuration. This is product-specific IAM guidance with concrete role requirements, fitting the security category. |
 | [Per-environment configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-labels-aspnet-core) | configuration | 0.70 | Describes product-specific use of labels to select per-environment values, likely including concrete key/label patterns and configuration API usage. This is detailed configuration behavior rather than generic concepts. |
 | [Push using GitHub Actions](https://learn.microsoft.com/en-us/azure/azure-app-configuration/push-kv-github-action) | deployment | 0.70 | GitHub Action for importing configuration files into App Configuration; expected to define workflow syntax, action inputs, and constraints specific to this deployment pattern. |
@@ -236,6 +228,7 @@ category_descriptions:
 | [Azure PowerShell](https://learn.microsoft.com/en-us/azure/azure-app-configuration/powershell-samples) | 0.20 | Index page listing PowerShell sample scripts; functions as navigation, not detailed reference with parameters, limits, or troubleshooting mappings. |
 | [Configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-java-spring-app) | 0.20 | Quickstart tutorial for wiring a Java Spring app to Azure App Configuration; focuses on basic usage, not detailed configuration tables, limits, or product-specific best practices with quantified impact. |
 | [Create an App Configuration store](https://learn.microsoft.com/en-us/azure/azure-app-configuration/quickstart-azure-app-configuration-create) | 0.20 | Quickstart for creating a store and key-values; primarily step-by-step tutorial without detailed configuration matrices, limits, or troubleshooting mappings. |
+| [Enable geo-replication](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-geo-replication) | 0.20 | Summary indicates a how-to for creating, using, and deleting geo-replication replicas, but does not clearly imply configuration tables, limits, or decision matrices. It appears to be procedural/tutorial content rather than detailed limits, configuration matrices, or troubleshooting guidance. |
 | [Experimentation](https://learn.microsoft.com/en-us/azure/azure-app-configuration/concept-experimentation) | 0.20 | High-level introduction to experimentation concepts; describes variant flags and metrics conceptually without product-specific numeric thresholds or configuration details. |
 | [Feature reference](https://learn.microsoft.com/en-us/azure/azure-app-configuration/use-feature-flags-spring-boot) | 0.20 | Tutorial-style guidance on using feature flags in a Spring Boot app with Azure App Configuration; focuses on usage patterns and integrations but does not emphasize configuration tables, limits, error codes, or product-specific settings with defaults/ranges that would qualify as expert knowledge under the defined categories. |
 | [Monitor App Configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/monitor-app-configuration) | 0.20 | Appears to be a high-level overview of monitoring data (metrics and logs) for Azure App Configuration and its integration with Azure Monitor, without clear evidence of specific numeric limits, configuration parameter tables, error-code-based troubleshooting, or other detailed expert-only content. |
@@ -243,6 +236,8 @@ category_descriptions:
 | [Overview](https://learn.microsoft.com/en-us/azure/azure-app-configuration/concept-feature-management) | 0.20 | Conceptual overview of feature management and feature flags; no evidence of detailed configuration tables, limits, or error mappings. |
 | [Overview](https://learn.microsoft.com/en-us/azure/azure-app-configuration/configuration-provider-overview) | 0.20 | High-level overview of configuration provider libraries; description indicates conceptual explanation of what providers are and why they’re used, without mention of specific configuration parameters, limits, or detailed patterns. |
 | [Overview](https://learn.microsoft.com/en-us/azure/azure-app-configuration/feature-management-overview) | 0.20 | Feature management overview describing what feature flags are and common usage patterns (beta access, rollout, dark deployments). Summary suggests conceptual content without product-specific limits, configuration tables, or detailed decision/troubleshooting guidance. |
+| [Overview](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-variant-feature-flags) | 0.20 | Tutorial on setting up and using variant feature flags; primarily conceptual and step-by-step usage without detailed configuration parameter tables, limits, or product-specific best-practice gotchas. |
+| [Spring Boot](https://learn.microsoft.com/en-us/azure/azure-app-configuration/how-to-variant-feature-flags-spring-boot) | 0.20 | Spring Boot tutorial showing how to consume variant feature flags; focuses on example application wiring rather than expert configuration details, limits, or troubleshooting mappings. |
 | [Support policy](https://learn.microsoft.com/en-us/azure/azure-app-configuration/client-library-support-policy) | 0.20 | Support policy overview for client libraries; lifecycle phases are conceptual and not configuration, limits, or troubleshooting details. |
 | [About Azure App Configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/overview) | 0.10 | High-level overview of Azure App Configuration; conceptual description of use cases without concrete limits, configuration tables, or product-specific error/decision details. |
 | [Overview](https://learn.microsoft.com/en-us/azure/azure-app-configuration/concept-key-value) | 0.10 | Conceptual explanation of key-value storage; high-level overview without specific configuration parameters, limits, or advanced patterns. |

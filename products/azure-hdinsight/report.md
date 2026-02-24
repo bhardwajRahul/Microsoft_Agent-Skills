@@ -1,9 +1,9 @@
 ---
-generated_at: '2026-02-04'
+generated_at: '2026-02-24'
 category_descriptions:
-  configuration: 'Configuring and tuning HDInsight clusters: networking, security,
-    autoscale, Ambari/Hive/HBase/Kafka/Spark settings, SSH/Jupyter/Zeppelin access,
-    logging/monitoring, and cluster customization.'
+  configuration: 'Configuring HDInsight clusters: networking, security, autoscale,
+    Ambari/Hive/HBase/Kafka/Spark settings, SSH/Jupyter/VS Code access, monitoring,
+    policies, and performance tuning.'
   integrations: Patterns and code samples for connecting HDInsight (Hive, Spark, Kafka,
     HBase, Sqoop) to tools and services (Power BI, Excel, SQL, Cosmos DB, IoT, REST,
     SDKs) and automating cluster/jobs.
@@ -40,8 +40,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 0
-- **Unchanged**: 425
+- **Updated Pages**: 1
+- **Unchanged**: 424
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-hdinsight/azure-hdinsight.csv`
 
@@ -61,6 +61,11 @@ category_descriptions:
 | *(Unclassified)* | 108 | 25.4% |
 
 ## Changes
+
+### Updated Pages
+
+- [Manage Entra ID enabled clusters with ARM templates](https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-with-entra-authentication/manage-entra-id-enabled-azure-hdinsight-clusters-with-arm-templates)
+  - Updated: 2025-10-09T11:10:00.000Z → 2026-02-16T12:13:00.000Z
 
 ## Classified Pages
 
@@ -291,7 +296,7 @@ category_descriptions:
 | [Run Apache Hive queries in Entra ID enabled clusters using REST API](https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-with-entra-authentication/run-apache-hive-queries-using-rest-api) | integrations | 0.69 | REST-based Hive execution article will contain concrete API endpoints, payload schemas, and parameters specific to HDInsight’s Hive REST interface. |
 | [Run Spark jobs in Entra ID enabled clusters using Rest API](https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-with-entra-authentication/run-spark-jobs-using-rest-api) | integrations | 0.69 | Uses Apache Livy REST API against HDInsight; will include specific endpoint URLs, request formats, and auth headers for Entra-enabled clusters—detailed integration configuration. |
 | [Apache Kafka and Apache Spark (DStream)](https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-apache-spark-with-kafka) | integrations | 0.68 | Demonstrates Spark streaming (DStreams) with Kafka on HDInsight; likely includes HDInsight-specific Kafka connection parameters and VNet considerations. |
-| [Manage Entra ID enabled clusters with ARM templates](https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-with-entra-authentication/manage-entra-id-enabled-azure-hdinsight-clusters-with-arm-templates) | configuration | 0.68 | ARM template management of Entra-enabled clusters will include concrete resource schema, property names, and allowed values for Entra integration—product-specific configuration parameters not generally known. |
+| [Manage Entra ID enabled clusters with ARM templates](https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-with-entra-authentication/manage-entra-id-enabled-azure-hdinsight-clusters-with-arm-templates) | configuration | 0.68 | The page describes how to define and configure Entra ID-enabled HDInsight clusters using Azure Resource Manager templates. This typically includes specific ARM resource types, properties, and parameter names required for Entra ID integration (for example, identity-related properties, Entra ID object IDs, and HDInsight-specific settings). These are product-specific configuration details that go beyond generic ARM usage, fitting the configuration sub-skill. It is not primarily about limits, troubleshooting, or deployment matrices. |
 | [Run MapReduce jobs Entra ID enabled clusters using .NET SDK](https://learn.microsoft.com/en-us/azure/hdinsight/hdinsight-with-entra-authentication/run-map-reduce-jobs-dot-net-sdk) | integrations | 0.68 | Contains HDInsight .NET SDK usage for MapReduce (types, methods, parameters, sample paths like example JAR and data locations), which are product-specific integration details. |
 | [Storage and scalability](https://learn.microsoft.com/en-us/azure/hdinsight/kafka/apache-kafka-scalability) | architecture-patterns | 0.68 | Explains scaling Kafka via managed disks with specific per-node storage limits (1 TB vs 16 TB) and design implications; these are product-specific architectural scaling details. |
 | [Use C# user-defined functions](https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-hive-pig-udf-dotnet-csharp) | integrations | 0.68 | Covers C# UDF integration via streaming; likely includes specific command patterns, parameter usage, and environment details unique to Hive/Pig on HDInsight, fitting integration & coding patterns. |

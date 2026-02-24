@@ -3,7 +3,8 @@ name: azure-cyclecloud
 description: Expert knowledge for Azure Cyclecloud development including troubleshooting, best practices, decision making, architecture & design patterns, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Cyclecloud applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-10"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Cyclecloud Skill
 
@@ -21,14 +22,14 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L39 | Diagnosing and fixing CycleCloud errors and node startup failures, plus where to find and interpret server and node log files for troubleshooting |
-| Best Practices | L40-L45 | Best practices for configuring CycleCloud clusters on HB/HC HPC VMs and controlling node lifecycle to avoid unwanted auto-termination. |
-| Decision Making | L46-L55 | Guidance on planning and sizing CycleCloud deployments, VM placement, custom images, Slurm workspaces, Spot VM usage, and migration from Azure CycleCloud 7. |
-| Architecture & Design Patterns | L56-L60 | Architectural guidance for designing, deploying, and operating resilient, scalable multi‑region Azure HPC clusters with CycleCloud, including patterns for failover, networking, and resource management. |
-| Security | L61-L75 | Securing CycleCloud: auth methods (Entra, service principals, managed identities), SSL, SELinux, Bastion access, and network/security best practices for clusters and portal. |
-| Configuration | L76-L121 | Designing and configuring CycleCloud clusters: templates, node/nodearray setup, storage, networking, autoscaling, proxies, CLI/Jetpack, VMSS Flex, monitoring, backup, and locked-down environments |
-| Integrations & Coding Patterns | L122-L141 | APIs, SDKs, and patterns for automating CycleCloud plus integrating schedulers (Slurm, PBS, Grid Engine, HTCondor, LSF, HPC Pack), monitoring, events, and Open OnDemand. |
-| Deployment | L142-L148 | Deploying and running Azure CycleCloud via CLI, ARM templates, manual install/upgrade steps, and container-based (ACI) deployments, including workspace setup for Slurm clusters. |
+| Troubleshooting | L34-L40 | Diagnosing and fixing CycleCloud errors and node startup failures, plus where to find and interpret server and node log files for troubleshooting |
+| Best Practices | L41-L46 | Best practices for configuring CycleCloud clusters on HB/HC HPC VMs and controlling node lifecycle to avoid unwanted auto-termination. |
+| Decision Making | L47-L56 | Guidance on planning and sizing CycleCloud deployments, VM placement, custom images, Slurm workspaces, Spot VM usage, and migration from Azure CycleCloud 7. |
+| Architecture & Design Patterns | L57-L61 | Architectural guidance for designing, deploying, and operating resilient, scalable multi‑region Azure HPC clusters with CycleCloud, including patterns for failover, networking, and resource management. |
+| Security | L62-L76 | Securing CycleCloud: auth methods (Entra, service principals, managed identities), SSL, SELinux, Bastion access, and network/security best practices for clusters and portal. |
+| Configuration | L77-L122 | Designing and configuring CycleCloud clusters: templates, node/nodearray setup, storage, networking, autoscaling, proxies, CLI/Jetpack, VMSS Flex, monitoring, backup, and locked-down environments |
+| Integrations & Coding Patterns | L123-L142 | APIs, SDKs, and patterns for automating CycleCloud plus integrating schedulers (Slurm, PBS, Grid Engine, HTCondor, LSF, HPC Pack), monitoring, events, and Open OnDemand. |
+| Deployment | L143-L149 | Deploying and running Azure CycleCloud via CLI, ARM templates, manual install/upgrade steps, and container-based (ACI) deployments, including workspace setup for Slurm clusters. |
 
 ### Troubleshooting
 | Topic | URL |

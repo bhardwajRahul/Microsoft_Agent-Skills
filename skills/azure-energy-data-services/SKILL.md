@@ -1,13 +1,14 @@
 ---
 name: azure-energy-data-services
-description: Expert knowledge for Azure Energy Data Services development including troubleshooting, decision making, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Energy Data Services applications.
+description: Expert knowledge for Azure Energy Data Services development including troubleshooting, decision making, architecture & design patterns, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Energy Data Services applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-04"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Energy Data Services Skill
 
-This skill provides expert guidance for Azure Energy Data Services. Covers troubleshooting, decision making, security, configuration, integrations & coding patterns, and deployment. It combines local quick-reference content with remote documentation fetching capabilities.
+This skill provides expert guidance for Azure Energy Data Services. Covers troubleshooting, decision making, architecture & design patterns, security, configuration, integrations & coding patterns, and deployment. It combines local quick-reference content with remote documentation fetching capabilities.
 
 ## How to Use This Skill
 
@@ -21,12 +22,13 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L31-L35 | Diagnosing and fixing manifest ingestion failures in Azure Data Manager for Energy using Airflow logs, including log analysis, common error patterns, and remediation steps. |
-| Decision Making | L36-L40 | Guidance on selecting the right Azure Data Manager for Energy tier, comparing capabilities, scale, and cost trade-offs for different workloads and environments. |
-| Security | L41-L54 | Securing Azure Data Manager for Energy: auth tokens, ACLs, legal tags, entitlements, CORS, API Management, private endpoints, managed identities, and Customer Lockbox. |
-| Configuration | L55-L63 | Configuring ADME data partitions, enabling and registering external data sources (incl. Reservoir DDMS), and setting up and using audit logging in Azure Energy Data Manager. |
-| Integrations & Coding Patterns | L64-L71 | Patterns for integrating Energy Data Services with Azure Monitor and File APIs, including exporting OSDU logs, wiring Airflow/Elasticsearch logs, and uploading large files programmatically. |
-| Deployment | L72-L76 | Guides for deploying Azure Data Manager for Energy components, including the Geospatial Consumption Zone and OSDU Admin UI, with required configs and deployment steps. |
+| Troubleshooting | L33-L37 | Diagnosing and fixing manifest ingestion failures in Azure Data Manager for Energy using Airflow logs, including log analysis, common error patterns, and remediation steps. |
+| Decision Making | L38-L42 | Guidance on selecting the right Azure Data Manager for Energy tier, comparing capabilities, scale, and cost trade-offs for different workloads and environments. |
+| Architecture & Design Patterns | L43-L47 | Guidance on architecting resilient Azure Data Manager for Energy deployments, including high availability, fault tolerance, disaster recovery, and reliability best practices. |
+| Security | L48-L61 | Securing Azure Data Manager for Energy: auth tokens, ACLs, legal tags, entitlements, CORS, API Management, private endpoints, managed identities, and Customer Lockbox. |
+| Configuration | L62-L70 | Configuring ADME environment: data partitions, external data services/sources, enabling Reservoir DDMS, and setting up/using audit logging for governance and integration. |
+| Integrations & Coding Patterns | L71-L78 | Patterns for integrating Energy Data Services with Azure Monitor and File APIs, including exporting OSDU logs, wiring Airflow/Elasticsearch logs, and uploading large files programmatically. |
+| Deployment | L79-L83 | Guides for deploying Azure Data Manager for Energy components, including the Geospatial Consumption Zone and OSDU Admin UI, with required configs and deployment steps. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -37,6 +39,11 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Topic | URL |
 |-------|-----|
 | Choose Azure Data Manager for Energy tier | https://learn.microsoft.com/en-us/azure/energy-data-services/concepts-tier-details |
+
+### Architecture & Design Patterns
+| Topic | URL |
+|-------|-----|
+| Design resilient Azure Data Manager for Energy deployments | https://learn.microsoft.com/en-us/azure/energy-data-services/reliability-energy-data-services |
 
 ### Security
 | Topic | URL |
@@ -56,10 +63,10 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Topic | URL |
 |-------|-----|
 | Configure and manage data partitions in ADME | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-add-more-data-partitions |
-| Enable External Data Sources for ADME | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-enable-external-data-sources |
-| Enable Reservoir DDMS on Azure Data Manager | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-enable-reservoir-ddms |
+| Configure External Data Services for Azure Data Manager for Energy | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-enable-external-data-services |
+| Enable Reservoir DDMS in Azure Data Manager for Energy | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-enable-reservoir-ddms |
 | Configure and use audit logs in Azure Data Manager for Energy | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-manage-audit-logs |
-| Register external data sources with ADME | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-register-external-data-sources |
+| Register external data sources with Azure Data Manager for Energy | https://learn.microsoft.com/en-us/azure/energy-data-services/how-to-register-external-data-services |
 
 ### Integrations & Coding Patterns
 | Topic | URL |

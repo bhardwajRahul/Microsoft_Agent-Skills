@@ -3,7 +3,8 @@ name: azure-sap
 description: Expert knowledge for Azure Sap development including troubleshooting, best practices, decision making, architecture & design patterns, limits & quotas, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Sap applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-11"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Sap Skill
 
@@ -21,20 +22,21 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L34-L41 | Diagnosing and fixing SAP on Azure issues: deployment automation errors, AMS/SAP Insights workload problems, VM scale set failures, and Azure VM Extension for SAP troubleshooting. |
-| Best Practices | L42-L58 | Best practices for planning, deploying, validating, and optimizing SAP on Azure: HA/DR, storage layouts (Premium/Ultra), testing frameworks, Azure Files, and RISE integration. |
-| Decision Making | L59-L70 | Guidance on planning SAP on Azure: automation setup, hosting choices, storage and data tiering, data extraction to Fabric, and checking supported SAP products, versions, and VM scenarios. |
-| Architecture & Design Patterns | L71-L94 | Designing SAP architectures on Azure: DBMS choices, HA/DR patterns, HANA/NetWeaver availability, workload zoning, latency optimization, and RISE connectivity options. |
-| Limits & Quotas | L95-L99 | FAQ, supported scenarios, and technical constraints (resource limits, scale, supported regions/providers) for Azure Monitor for SAP solutions. |
-| Security | L100-L114 | Security and identity for SAP on Azure: Key Vault secrets, RBAC, TLS, private endpoints, NFS encryption, RISE identity, and Entra ID/SAP Cloud Identity access design. |
-| Configuration | L115-L177 | Configuring Azure for SAP: automation (Terraform, Ansible, naming), VIS/monitoring and alerts, BPS data, VM/HA/cluster setups, storage/backup, and provider-specific SAP HANA/NetWeaver/Db2/SQL configs. |
-| Integrations & Coding Patterns | L178-L196 | Patterns and scripts to integrate SAP with Azure services (monitoring, automation, VIS control, Data Factory, RISE), plus email/printing, Salesforce, ILM, and principal propagation setups. |
-| Deployment | L197-L234 | Deploying and managing SAP on Azure: automation framework setup, scripts and DevOps pipelines, HA/DR and clustering patterns, platform-specific guides (HANA, NetWeaver, BusinessObjects, Db2). |
+| Troubleshooting | L35-L43 | Diagnosing and fixing SAP on Azure issues: deployment automation failures, Business Process Solutions errors, AMS SAP Insights usage, VM scale set problems, and SAP VM extension troubleshooting. |
+| Best Practices | L44-L60 | Best practices for planning, deploying, validating, and optimizing SAP on Azure: HA/DR, storage layouts (Premium/Ultra), testing frameworks, Azure Files, and RISE integration. |
+| Decision Making | L61-L72 | Guidance on planning SAP on Azure: automation setup, hosting choices, storage and data tiering, data extraction to Fabric, and checking supported SAP products, versions, and VM scenarios. |
+| Architecture & Design Patterns | L73-L89 | Designing SAP architectures on Azure: DBMS choices, HA/DR patterns, HANA/NetWeaver availability, workload zoning, latency optimization, and RISE connectivity options. |
+| Limits & Quotas | L90-L94 | FAQ, supported scenarios, and technical constraints (resource limits, scale, supported regions/providers) for Azure Monitor for SAP solutions. |
+| Security | L95-L108 | Securing SAP on Azure: identity/RBAC design, TLS and private endpoints, Key Vault secrets/SAS, RISE security, and safely exposing SAP via Azure services. |
+| Configuration | L109-L171 | Configuring SAP on Azure: automation (Terraform/Ansible/BOM), naming and tools, VIS/AMS monitoring and alerts, HA/DR and storage (HANA/NetWeaver/Db2/SQL), clustering, and network/VM extensions. |
+| Integrations & Coding Patterns | L172-L190 | Patterns and scripts to integrate SAP with Azure services (monitoring, automation, VIS control, Data Factory, RISE), plus email/printing, Salesforce, ILM, and principal propagation setups. |
+| Deployment | L191-L235 | Deploying and managing SAP on Azure: automation framework setup, pipelines, DBMS/HA/cluster topologies, OS-specific installs, and scaling/DR patterns for SAP workloads. |
 
 ### Troubleshooting
 | Topic | URL |
 |-------|-----|
 | Troubleshoot SAP Deployment Automation Framework issues | https://learn.microsoft.com/en-us/azure/sap/automation/troubleshooting |
+| Troubleshoot SAP Business Process Solutions issues | https://learn.microsoft.com/en-us/azure/sap/business-process-solutions/troubleshooting |
 | Use SAP Insights in AMS to troubleshoot workloads | https://learn.microsoft.com/en-us/azure/sap/monitor/enable-sap-insights |
 | Resolve common issues with VM scale sets for SAP | https://learn.microsoft.com/en-us/azure/sap/workloads/virtual-machine-scale-set-sap-faq |
 | Diagnose and fix Azure VM Extension for SAP issues | https://learn.microsoft.com/en-us/azure/sap/workloads/vm-extension-for-sap-troubleshooting |
@@ -72,22 +74,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Topic | URL |
 |-------|-----|
 | Design and configure workload zones in SAP automation | https://learn.microsoft.com/en-us/azure/sap/automation/configure-workload-zone |
-| Plan DBMS deployment for SAP on Azure VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/dbms-guide-general |
-| Deploy SAP MaxDB, liveCache, and Content Server on Azure | https://learn.microsoft.com/en-us/azure/sap/workloads/dbms-guide-maxdb |
-| Deploy Oracle Database for SAP on Azure VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/dbms-guide-oracle |
-| Deploy SAP ASE DBMS for SAP workloads on Azure | https://learn.microsoft.com/en-us/azure/sap/workloads/dbms-guide-sapase |
 | Implement SAP BW near-line storage with SAP IQ on Azure | https://learn.microsoft.com/en-us/azure/sap/workloads/dbms-guide-sapiq |
-| Deploy SQL Server DBMS for SAP on Azure VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/dbms-guide-sqlserver |
 | Architect SAP disaster recovery on Azure infrastructure | https://learn.microsoft.com/en-us/azure/sap/workloads/disaster-recovery-overview-guide |
 | Implement disaster recovery strategy for SAP workloads | https://learn.microsoft.com/en-us/azure/sap/workloads/disaster-recovery-sap-guide |
 | Design SAP high availability with Azure Availability Zones | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-zones |
 | Plan SAP application architecture on Azure VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/planning-guide |
-| Minimize SAP application latency with Azure proximity placement | https://learn.microsoft.com/en-us/azure/sap/workloads/proximity-placement-scenarios |
 | Choose network connectivity options for SAP RISE on Azure | https://learn.microsoft.com/en-us/azure/sap/workloads/rise-integration-network |
 | Plan SAP HANA availability across Azure regions | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-hana-availability-across-regions |
 | Design SAP HANA availability within one Azure region | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-hana-availability-one-region |
 | Plan SAP HANA availability architectures on Azure VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-hana-availability-overview |
-| Set up SAP HANA high availability on Azure RHEL VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-hana-high-availability-rhel |
 | Select SAP NetWeaver HA architecture scenarios on Azure VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-high-availability-architecture-scenarios |
 | Design high-availability architectures for SAP NetWeaver on Azure VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-high-availability-guide-start |
 | Use Azure VM restart for higher availability of SAP systems | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-higher-availability-architecture-scenarios |
@@ -107,9 +102,8 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Enable trusted access and private endpoints for AMS | https://learn.microsoft.com/en-us/azure/sap/monitor/enable-trusted-access |
 | Securely expose SAP Process Orchestration with Azure PaaS | https://learn.microsoft.com/en-us/azure/sap/workloads/expose-sap-process-orchestration-on-azure |
 | Configure identity and security for SAP RISE on Azure | https://learn.microsoft.com/en-us/azure/sap/workloads/rise-integration-security |
-| Configure Azure Files NFS encryption in transit for SAP systems | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-azure-files-nfs-encryption-in-transit-guide |
+| Enable Azure Files NFS TLS encryption for SAP systems | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-azure-files-nfs-encryption-in-transit-guide |
 | Design secure identity and access for SAP on Azure | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-security-identity |
-| Secure Azure infrastructure foundation for SAP applications | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-security-infrastructure |
 | Design SAP access security with Microsoft Entra ID and SAP Cloud Identity | https://learn.microsoft.com/en-us/azure/sap/workloads/scenario-azure-first-sap-identity-integration |
 
 ### Configuration
@@ -147,13 +141,14 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure IBM Db2 HADR on Azure virtual machines | https://learn.microsoft.com/en-us/azure/sap/workloads/dbms-guide-ha-ibm |
 | Configure and operate SAP HANA infrastructure on Azure | https://learn.microsoft.com/en-us/azure/sap/workloads/hana-vm-operations |
 | Configure Azure NetApp Files for SAP HANA VM storage | https://learn.microsoft.com/en-us/azure/sap/workloads/hana-vm-operations-netapp |
-| Set up SAP NetWeaver HA on RHEL Azure VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-rhel |
+| Configure SAP NetWeaver high availability on RHEL in Azure | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-rhel |
 | Install GlusterFS cluster for SAP NetWeaver on RHEL | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-rhel-glusterfs |
 | Set up IBM Db2 HADR on RHEL Azure VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-rhel-ibm-db2-luw |
-| Configure multi-SID SAP NetWeaver HA on RHEL | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-rhel-multi-sid |
+| Configure multi-SID SAP NetWeaver HA cluster on RHEL | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-rhel-multi-sid |
 | Configure SAP NetWeaver HA on RHEL with Azure NetApp Files | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-rhel-netapp-files |
-| Deploy HA SAP NetWeaver on RHEL with NFS on Azure Files | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-rhel-nfs-azure-files |
+| Configure SAP NetWeaver HA on RHEL with Azure Files NFS | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-rhel-nfs-azure-files |
 | Configure Pacemaker clusters on RHEL in Azure | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-rhel-pacemaker |
+| Configure SAP dialog instances on RHEL HA VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-rhel-with-dialog-instance |
 | Configure outbound connectivity for SAP HA VMs with Standard Load Balancer | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-standard-load-balancer-outbound-connections |
 | Deploy SAP NetWeaver or ABAP HA on SLES Azure VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-suse |
 | Set up multi-SID SAP NetWeaver HA on SLES | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-suse-multi-sid |
@@ -164,10 +159,9 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure Pacemaker clustering on SLES in Azure | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-suse-pacemaker |
 | Configure Windows DFS-N for SAPMNT with Azure SMB shares | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-windows-dfs |
 | Configure SAP LaMa connector for Azure operations | https://learn.microsoft.com/en-us/azure/sap/workloads/lama-installation |
+| Configure Azure proximity placement for SAP latency | https://learn.microsoft.com/en-us/azure/sap/workloads/proximity-placement-scenarios |
 | Configure SAP HANA high availability on SLES VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-hana-high-availability |
-| Configure SAP HANA scale-up HA with Azure NetApp Files on RHEL | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-hana-high-availability-netapp-files-red-hat |
-| Configure SAP HANA scale-up HA with Azure NetApp Files | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-hana-high-availability-netapp-files-suse |
-| Configure SAP HANA scale-out with HSR and Pacemaker on RHEL | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-hana-high-availability-scale-out-hsr-rhel |
+| Configure SAP HANA HA with Azure NetApp Files on SLES | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-hana-high-availability-netapp-files-suse |
 | Configure SAP HANA scale-out with HSR and Pacemaker | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-hana-high-availability-scale-out-hsr-suse |
 | Deploy SAP HANA scale-out with standby using Azure NetApp Files on RHEL | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-hana-scale-out-standby-netapp-files-rhel |
 | Deploy SAP HANA scale-out with standby on ANF | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-hana-scale-out-standby-netapp-files-suse |
@@ -217,15 +211,22 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Deploy SAP BusinessObjects BI on Azure for Linux | https://learn.microsoft.com/en-us/azure/sap/workloads/businessobjects-deployment-guide-linux |
 | Deploy SAP BusinessObjects BI on Azure for Windows | https://learn.microsoft.com/en-us/azure/sap/workloads/businessobjects-deployment-guide-windows |
 | Use Azure SAP certification tables for deployments | https://learn.microsoft.com/en-us/azure/sap/workloads/certifications |
+| Plan DBMS deployment for SAP on Azure VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/dbms-guide-general |
 | Deploy SAP on IBM Db2 using Azure Virtual Machines | https://learn.microsoft.com/en-us/azure/sap/workloads/dbms-guide-ibm |
+| Deploy SAP MaxDB, liveCache, Content Server on Azure | https://learn.microsoft.com/en-us/azure/sap/workloads/dbms-guide-maxdb |
+| Deploy Oracle DBMS for SAP on Azure VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/dbms-guide-oracle |
+| Deploy SAP ASE DBMS for SAP on Azure VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/dbms-guide-sapase |
+| Deploy SQL Server DBMS for SAP on Azure VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/dbms-guide-sqlserver |
 | Extend SAP HANA Pacemaker clusters with DR secondary sites | https://learn.microsoft.com/en-us/azure/sap/workloads/disaster-recovery-sap-hana |
-| Deploy SAP dialog instances on RHEL HA ASCS/SCS clusters | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-rhel-with-dialog-instance |
 | Deploy SAP ASCS/SCS, ERS, and HANA on RHEL HA VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-rhel-with-hana-ascs-ers-dialog-instance |
 | Deploy HA SAP NetWeaver on Azure NetApp Files SMB | https://learn.microsoft.com/en-us/azure/sap/workloads/high-availability-guide-windows-netapp-files-smb |
 | Configure SAP ASCS/SCS multi-SID HA with WSFC and Azure shared disk | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-ascs-ha-multi-sid-wsfc-azure-shared-disk |
 | Configure SAP ASCS/SCS multi-SID HA with WSFC and file shares | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-ascs-ha-multi-sid-wsfc-file-share |
 | Configure SAP ASCS/SCS multi-SID HA with WSFC and shared disk | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-ascs-ha-multi-sid-wsfc-shared-disk |
 | Onboard SAP Edge Integration Cell to Azure AKS and Arc | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-edge-integration-cell-with-azure |
+| Set up SAP HANA HA with Azure NetApp Files on RHEL | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-hana-high-availability-netapp-files-red-hat |
+| Configure SAP HANA high availability on RHEL VMs | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-hana-high-availability-rhel |
+| Deploy SAP HANA scale-out HSR with Pacemaker on RHEL | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-hana-high-availability-scale-out-hsr-rhel |
 | Cluster SAP ASCS/SCS on WSFC using Azure file shares | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-high-availability-guide-wsfc-file-share |
 | Prepare Azure infrastructure for SAP ASCS/SCS HA with WSFC and file shares | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-high-availability-infrastructure-wsfc-file-share |
 | Prepare Azure infrastructure for SAP ASCS/SCS WSFC with shared disk | https://learn.microsoft.com/en-us/azure/sap/workloads/sap-high-availability-infrastructure-wsfc-shared-disk |

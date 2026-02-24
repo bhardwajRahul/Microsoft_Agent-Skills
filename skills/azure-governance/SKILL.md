@@ -3,7 +3,8 @@ name: azure-governance
 description: Expert knowledge for Azure Governance development including troubleshooting, best practices, decision making, limits & quotas, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Governance applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-04"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Governance Skill
 
@@ -21,14 +22,14 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L43 | Diagnosing and fixing errors in Azure Blueprints, Policy (incl. AKS add-on), management group SDK, and Resource Graph (queries, alerts, Power BI connector) |
-| Best Practices | L44-L50 | Best practices for designing and testing Azure Policy (including arrays) and writing efficient Azure Resource Graph queries that avoid throttling and performance issues. |
-| Decision Making | L51-L57 | Guidance on choosing Azure Policy for VMs, migrating from Automanage Best Practices to Policy, and deciding when to use ARG GET/LIST vs the Query service |
-| Limits & Quotas | L58-L65 | Working with Azure Resource Graph at scale: avoiding throttling, handling large result sets, pagination (incl. PowerShell), and querying via the Power BI connector. |
-| Security | L66-L130 | Using Azure Policy, Blueprints, and guest configuration to enforce security baselines, MFA, resource protection, and map Azure to standards like CIS, NIST, ISO, FedRAMP, HIPAA, PCI, and regional regs. |
-| Configuration | L131-L170 | Authoring and configuring Azure Policy/Blueprint JSON, effects, remediation, exemptions, compliance data, and Resource Graph queries for governance and configuration enforcement |
-| Integrations & Coding Patterns | L171-L204 | Patterns and code samples for creating, assigning, and automating Azure Policy/Blueprints and Resource Graph queries using PowerShell, CLI, ARM/Bicep, Terraform, SDKs, VS Code, Event Grid, and Logic Apps |
-| Deployment | L205-L215 | Deploying Azure governance at scale: CAF and compliance blueprints, policy-as-code workflows, safe deployment practices, and enforcing Azure Policy via DevOps pipelines. |
+| Troubleshooting | L34-L44 | Diagnosing and fixing errors in Azure Blueprints, Policy (incl. AKS add-on), management group SDK, and Resource Graph (queries, alerts, Power BI connector) |
+| Best Practices | L45-L51 | Best practices for designing and testing Azure Policy (including arrays) and writing efficient Azure Resource Graph queries that avoid throttling and performance issues. |
+| Decision Making | L52-L58 | Guidance on choosing Azure Policy for VMs, migrating from Automanage Best Practices to Policy, and deciding when to use ARG GET/LIST vs the Query service |
+| Limits & Quotas | L59-L67 | Working with Azure Resource Graph at scale: handling throttling, pagination, large result sets, and querying via PowerShell and the Power BI connector. |
+| Security | L68-L132 | Using Azure Policy, Blueprints, and guest configuration to enforce security baselines, MFA, resource protection, and map Azure resources to many regulatory/compliance frameworks. |
+| Configuration | L133-L172 | Authoring and configuring Azure Policy/Blueprint JSON, effects, remediation, exemptions, compliance data, and Resource Graph queries for governance and configuration enforcement |
+| Integrations & Coding Patterns | L173-L206 | Patterns and code samples for creating, assigning, and automating Azure Policy/Blueprints and Resource Graph queries using PowerShell, CLI, ARM/Bicep, Terraform, SDKs, VS Code, Event Grid, and Logic Apps |
+| Deployment | L207-L217 | Deploying Azure governance at scale: CAF and compliance blueprints, policy-as-code workflows, safe deployment practices, and enforcing Azure Policy via DevOps pipelines. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -59,6 +60,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Topic | URL |
 |-------|-----|
 | Use ARG GET/LIST API to reduce throttling | https://learn.microsoft.com/en-us/azure/governance/resource-graph/concepts/azure-resource-graph-get-list-api |
+| Handle Azure Resource Graph pagination limits | https://learn.microsoft.com/en-us/azure/governance/resource-graph/concepts/paging-results |
 | Handle large Azure Resource Graph result sets | https://learn.microsoft.com/en-us/azure/governance/resource-graph/concepts/work-with-data |
 | Paginate Azure Resource Graph query results in PowerShell | https://learn.microsoft.com/en-us/azure/governance/resource-graph/paginate-powershell |
 | Use Azure Resource Graph Power BI connector for queries | https://learn.microsoft.com/en-us/azure/governance/resource-graph/power-bi-connector-quickstart |
@@ -87,9 +89,9 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | CIS benchmarks for Rocky Linux via Machine Configuration | https://learn.microsoft.com/en-us/azure/governance/policy/samples/cis-linux/rocky-ado |
 | CIS benchmarks for SUSE Linux via Machine Configuration | https://learn.microsoft.com/en-us/azure/governance/policy/samples/cis-linux/suse-ado |
 | CIS benchmarks for Ubuntu via Machine Configuration | https://learn.microsoft.com/en-us/azure/governance/policy/samples/cis-linux/ubuntu-ado |
-| Map Azure Policy to CMMC Level 3 controls | https://learn.microsoft.com/en-us/azure/governance/policy/samples/cmmc-l3 |
-| Align Azure Policy with FedRAMP High controls | https://learn.microsoft.com/en-us/azure/governance/policy/samples/fedramp-high |
-| Align Azure Policy with FedRAMP Moderate controls | https://learn.microsoft.com/en-us/azure/governance/policy/samples/fedramp-moderate |
+| Map CMMC Level 3 controls to Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/cmmc-l3 |
+| Map FedRAMP High controls to Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/fedramp-high |
+| Map FedRAMP Moderate controls to Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/fedramp-moderate |
 | Map Microsoft cloud security benchmark (Gov) to Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/gov-azure-security-benchmark |
 | Map CIS Azure Foundations 1.1.0 (Gov) to Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/gov-cis-azure-1-1-0 |
 | Map CIS Azure Foundations 1.3.0 (Gov) to Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/gov-cis-azure-1-3-0 |
@@ -112,17 +114,17 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Align Azure Policy with ISO 27001:2013 controls | https://learn.microsoft.com/en-us/azure/governance/policy/samples/iso-27001 |
 | Apply Sovereignty Baseline Confidential policies with Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/mcfs-baseline-confidential |
 | Apply Sovereignty Baseline Global policies with Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/mcfs-baseline-global |
-| Align Azure Policy with NIST SP 800-171 R2 | https://learn.microsoft.com/en-us/azure/governance/policy/samples/nist-sp-800-171-r2 |
-| Map Azure Policy to NIST SP 800-53 Rev. 4 | https://learn.microsoft.com/en-us/azure/governance/policy/samples/nist-sp-800-53-r4 |
-| Map Azure Policy to NIST SP 800-53 Rev. 5 | https://learn.microsoft.com/en-us/azure/governance/policy/samples/nist-sp-800-53-r5 |
+| Map NIST SP 800-171 R2 controls to Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/nist-sp-800-171-r2 |
+| Map NIST SP 800-53 R4 controls to Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/nist-sp-800-53-r4 |
+| Map NIST SP 800-53 R5 controls to Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/nist-sp-800-53-r5 |
 | Map Azure Policy to NL BIO Cloud Theme controls | https://learn.microsoft.com/en-us/azure/governance/policy/samples/nl-bio-cloud-theme |
 | Align Azure Policy with PCI DSS 3.2.1 controls | https://learn.microsoft.com/en-us/azure/governance/policy/samples/pci-dss-3-2-1 |
 | Align Azure Policy with PCI DSS v4.0 controls | https://learn.microsoft.com/en-us/azure/governance/policy/samples/pci-dss-4-0 |
-| Map Azure Policy to RBI IT Framework for Banks | https://learn.microsoft.com/en-us/azure/governance/policy/samples/rbi-itf-banks-2016 |
+| Apply RBI IT Framework 2016 via Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/rbi-itf-banks-2016 |
 | Map Azure Policy to RBI IT Framework for NBFC | https://learn.microsoft.com/en-us/azure/governance/policy/samples/rbi-itf-nbfc-2017 |
-| Align Azure Policy with RMIT Malaysia controls | https://learn.microsoft.com/en-us/azure/governance/policy/samples/rmit-malaysia |
-| Align Azure Policy with SOC 2 controls | https://learn.microsoft.com/en-us/azure/governance/policy/samples/soc-2 |
-| Map Azure Policy to Spain ENS controls | https://learn.microsoft.com/en-us/azure/governance/policy/samples/spain-ens |
+| Implement RMIT Malaysia controls with Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/rmit-malaysia |
+| Map SOC 2 controls to Azure Policy initiatives | https://learn.microsoft.com/en-us/azure/governance/policy/samples/soc-2 |
+| Map Spain ENS controls to Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/spain-ens |
 | Map SWIFT CSP-CSCF 2021 controls to Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/swift-csp-cscf-2021 |
 | Map SWIFT CSP-CSCF 2022 controls to Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/swift-csp-cscf-2022 |
 | Align UK OFFICIAL and UK NHS controls with Azure Policy | https://learn.microsoft.com/en-us/azure/governance/policy/samples/ukofficial-uknhs |

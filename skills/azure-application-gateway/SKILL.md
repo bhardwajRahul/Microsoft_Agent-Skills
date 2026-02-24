@@ -3,7 +3,8 @@ name: azure-application-gateway
 description: Expert knowledge for Azure Application Gateway development including troubleshooting, best practices, decision making, limits & quotas, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Application Gateway applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-11"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Application Gateway Skill
 
@@ -21,14 +22,14 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L49 | Diagnosing and fixing Application Gateway issues: backend health, logs, HTTP/502 errors, certificates/Key Vault, WAF, mTLS, session affinity, listeners, AKS ingress, and redirect problems |
-| Best Practices | L50-L54 | Guidance on scaling Application Gateway for heavy traffic, including autoscaling, sizing, performance tuning, connection limits, and configuration patterns for high-load scenarios. |
-| Decision Making | L55-L66 | Guidance on pricing, scaling, and migration decisions for Application Gateway: v1→v2, AGIC Helm→AKS add-on, V1 retirement planning, and classic VM to ARM migration FAQs. |
-| Limits & Quotas | L67-L72 | Autoscaling behavior, zone redundancy setup, and v2 SKU limits/quotas (instances, throughput, connections), plus FAQ on performance, scaling, and configuration constraints. |
-| Security | L73-L95 | TLS/SSL and mTLS configuration for Application Gateway: policies, certificates (Key Vault, Let’s Encrypt, self‑signed), private access, HSTS, FIPS, JWT validation, and security cookie settings |
-| Configuration | L96-L133 | Configuring Application Gateway components (listeners, routing, probes, TLS, headers/URLs, Private Link, AKS ingress, health/monitoring) via portal, PowerShell, or CLI |
-| Integrations & Coding Patterns | L134-L140 | Configuring App Gateway TLS with Key Vault (portal/PowerShell) and using App Gateway metrics to autoscale AKS pods and integrate with Kubernetes workloads |
-| Deployment | L141-L146 | Guides for deploying IPv6-enabled Azure Application Gateway using ARM templates, Azure portal, or PowerShell, including required settings and configuration steps. |
+| Troubleshooting | L34-L50 | Diagnosing and fixing Application Gateway issues: backend health, logs, HTTP/502 errors, certificates/Key Vault, WAF, mTLS, session affinity, listeners, AKS ingress, and redirect problems |
+| Best Practices | L51-L55 | Guidance on scaling Application Gateway for heavy traffic, including autoscaling, sizing, performance tuning, connection limits, and configuration patterns for high-load scenarios. |
+| Decision Making | L56-L67 | Guidance on pricing, scaling, and migration decisions for Application Gateway: v1→v2, AGIC Helm→AKS add-on, V1 retirement planning, and classic VM to ARM migration FAQs. |
+| Limits & Quotas | L68-L73 | Autoscaling behavior, zone redundancy setup, and v2 SKU limits/quotas (instances, throughput, connections), plus FAQ on performance, scaling, and configuration constraints. |
+| Security | L74-L96 | TLS/SSL and mTLS configuration for Application Gateway: policies, certificates (Key Vault, Let’s Encrypt, self‑signed), private access, HSTS, FIPS, JWT validation, and security cookie settings |
+| Configuration | L97-L134 | Configuring Application Gateway components (listeners, routing, probes, TLS, headers/URLs, Private Link, AKS ingress, health/monitoring) via portal, PowerShell, or CLI |
+| Integrations & Coding Patterns | L135-L141 | Configuring App Gateway TLS with Key Vault (portal/PowerShell) and using App Gateway metrics to autoscale AKS pods and integrate with Kubernetes workloads |
+| Deployment | L142-L147 | Guides for deploying IPv6-enabled Azure Application Gateway using ARM templates, Azure portal, or PowerShell, including required settings and configuration steps. |
 
 ### Troubleshooting
 | Topic | URL |

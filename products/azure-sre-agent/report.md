@@ -1,48 +1,54 @@
 ---
-generated_at: '2026-02-11'
+generated_at: '2026-02-24'
 category_descriptions:
   security: Managing SRE Agent identities, RBAC roles, permissions, run modes/consent,
-    and understanding its data residency, privacy, and access control model
+    and understanding its security, compliance, data residency, and privacy behavior.
   configuration: 'Configuring SRE Agent runtime: code interpreter, memory/incident
     context, scheduled tasks, and creating/operating subagents for specialized workflows'
   integrations: Patterns for integrating with Git repos, adding custom Python tools,
     and connecting to external MCP servers to extend Azure SRE Agent’s capabilities.
-  troubleshooting: Diagnosing and fixing common Azure SRE Agent problems, including
-    connectivity, configuration, deployment, runtime errors, and typical failure scenarios.
+  troubleshooting: Diagnosing and fixing common Azure SRE Agent operation issues,
+    including deployment failures, configuration errors, connectivity problems, and
+    runtime or health-check failures.
 ---
 # Azure Sre Agent Crawl Report
 
 ## Summary
 
-- **Total Pages**: 25
-- **Fetched**: 25
+- **Total Pages**: 27
+- **Fetched**: 27
 - **Fetch Failed**: 0
-- **Classified**: 14
-- **Unclassified**: 11
+- **Classified**: 15
+- **Unclassified**: 12
 
 ### Incremental Update
-- **New Pages**: 0
-- **Updated Pages**: 1
+- **New Pages**: 3
+- **Updated Pages**: 0
 - **Unchanged**: 24
-- **Deleted Pages**: 0
+- **Deleted Pages**: 1
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-sre-agent/azure-sre-agent.csv`
 
 ## Classification Statistics
 
 | Type | Count | Percentage |
 |------|-------|------------|
-| configuration | 5 | 20.0% |
-| integrations | 3 | 12.0% |
-| security | 5 | 20.0% |
-| troubleshooting | 1 | 4.0% |
-| *(Unclassified)* | 11 | 44.0% |
+| configuration | 5 | 18.5% |
+| integrations | 3 | 11.1% |
+| security | 6 | 22.2% |
+| troubleshooting | 1 | 3.7% |
+| *(Unclassified)* | 12 | 44.4% |
 
 ## Changes
 
-### Updated Pages
+### New Pages
 
-- [Connect to external services](https://learn.microsoft.com/en-us/azure/sre-agent/connectors)
-  - Updated: 2026-02-04T06:14:00.000Z → 2026-02-10T23:11:00.000Z
+- [General](https://learn.microsoft.com/en-us/azure/sre-agent/faq)
+- [Troubleshooting](https://learn.microsoft.com/en-us/azure/sre-agent/faq-troubleshooting)
+- [Security and compliance](https://learn.microsoft.com/en-us/azure/sre-agent/faq-security-compliance)
+
+### Deleted Pages
+
+- ~~Frequently asked questions~~ (https://learn.microsoft.com/en-us/azure/sre-agent/faq)
 
 ## Classified Pages
 
@@ -54,12 +60,13 @@ category_descriptions:
 | [Role based access control](https://learn.microsoft.com/en-us/azure/sre-agent/user-access-roles) | security | 0.70 | RBAC-focused page for SRE Agent likely lists specific built-in roles, their permissions, and scope definitions unique to this service, which matches the security category’s requirement for product-specific role names and permission scopes. |
 | [Run custom logic](https://learn.microsoft.com/en-us/azure/sre-agent/custom-logic-python) | integrations | 0.70 | Shows how to create, configure, and test Python tools in a sandbox; likely includes tool configuration parameters and integration patterns specific to SRE Agent’s Python execution environment. |
 | [Subagents](https://learn.microsoft.com/en-us/azure/sre-agent/subagent-builder-overview) | configuration | 0.70 | Subagent builder overview for creating and customizing subagents; expected to detail subagent configuration options and allowed behaviors, which are product-specific settings. |
+| [Troubleshooting](https://learn.microsoft.com/en-us/azure/sre-agent/faq-troubleshooting) | troubleshooting | 0.70 | Described as a troubleshooting guide for deployment and operational issues, including permissions, regional availability, deployment problems, and admin access. This implies symptom-to-solution mappings and product-specific operational guidance that qualifies as expert troubleshooting knowledge. |
 | [Use Managed Identity](https://learn.microsoft.com/en-us/azure/sre-agent/agent-managed-identity) | security | 0.70 | Describes how agent and user permissions affect SRE Agent behavior, likely including specific Azure RBAC roles, scopes, and permission mappings for the agent’s managed identity, which is product-specific security configuration. |
 | [Agent run modes](https://learn.microsoft.com/en-us/azure/sre-agent/agent-run-modes) | security | 0.65 | Describes how the agent gets consent for elevated credentials and operates under different security contexts; likely includes specific run modes and permission behaviors unique to SRE Agent. |
 | [Connect source control](https://learn.microsoft.com/en-us/azure/sre-agent/code-repository-connect) | integrations | 0.65 | Describes connecting monitored resources to a code repository for RCA and ticketing; likely includes repo connection parameters and configuration details unique to this integration. |
-| [Frequently asked questions](https://learn.microsoft.com/en-us/azure/sre-agent/faq) | troubleshooting | 0.65 | FAQ focused on common problems (permissions, regional availability, admin access) is likely organized as symptom → cause → solution with product-specific guidance and possibly error messages, fitting the troubleshooting category. |
 | [Memory system](https://learn.microsoft.com/en-us/azure/sre-agent/memory-system) | configuration | 0.65 | Explains how to add runbooks, standards, and context to the memory system; likely includes specific memory constructs and configuration options unique to SRE Agent. |
 | [Schedule a task](https://learn.microsoft.com/en-us/azure/sre-agent/scheduled-tasks) | configuration | 0.65 | Covers creating and managing scheduled tasks for monitoring and security; expected to define schedule parameters, triggers, and options unique to SRE Agent. |
+| [Security and compliance](https://learn.microsoft.com/en-us/azure/sre-agent/faq-security-compliance) | security | 0.65 | Security and compliance FAQ for enterprise evaluation likely includes product-specific data handling, compliance posture, and possibly role/permission or configuration details unique to Azure SRE Agent, which fits the security sub-skill category. |
 | [Build subagents](https://learn.microsoft.com/en-us/azure/sre-agent/subagent-builder-scenarios) | configuration | 0.60 | Covers scenarios and configuration patterns for subagents, integrating data sources and workflows; likely includes specific configuration options and patterns unique to SRE Agent subagent builder. |
 | [Data residency and privacy](https://learn.microsoft.com/en-us/azure/sre-agent/data-privacy) | security | 0.60 | Data handling and privacy article for a specific service typically includes concrete details on data storage locations, processing flows, and possibly compliance-related configuration, which falls under product-specific security/privacy guidance. |
 
@@ -75,6 +82,7 @@ category_descriptions:
 | [Billing](https://learn.microsoft.com/en-us/azure/sre-agent/billing) | 0.30 | Billing description is likely conceptual (explaining always-on vs task-based actions) without concrete rate tables, numeric quotas, or decision matrices; it doesn’t clearly match any expert-knowledge sub-skill type. |
 | [Diagnose your first incident](https://learn.microsoft.com/en-us/azure/sre-agent/usage) | 0.30 | How-to usage/creation tutorial; likely step-by-step UI guidance without detailed config tables or expert-only parameters. |
 | [About Azure SRE Agent](https://learn.microsoft.com/en-us/azure/sre-agent/overview) | 0.20 | High-level product overview of Azure SRE Agent; no concrete limits, configs, roles, or error mappings. |
+| [General](https://learn.microsoft.com/en-us/azure/sre-agent/faq) | 0.20 | General FAQ about overview, pricing, and availability; description suggests high-level conceptual and licensing information without specific limits, configuration parameters, error codes, or decision matrices. |
 | [Ask the agent for help](https://learn.microsoft.com/en-us/azure/sre-agent/ask-agent) | 0.10 | Explains learning via chat and sample prompts; conceptual usage, no product-specific limits, configs, or error codes. |
 | [Starter prompts](https://learn.microsoft.com/en-us/azure/sre-agent/prompts) | 0.10 | Starter prompt examples are usage guidance, not configuration, limits, or troubleshooting mappings. |
 | [Connect to external services](https://learn.microsoft.com/en-us/azure/sre-agent/connectors) | - | Connector article appears to be a conceptual/how-to overview of connecting external services to Azure SRE Agent, without clear evidence of detailed configuration tables, numeric limits, specific error codes, or product-specific parameter matrices that meet any sub-skill detection criteria. |

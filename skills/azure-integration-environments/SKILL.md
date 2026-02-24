@@ -4,6 +4,7 @@ description: Expert knowledge for Azure Integration Environments development inc
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
   generated_at: "2026-02-04"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Integration Environments Skill
 

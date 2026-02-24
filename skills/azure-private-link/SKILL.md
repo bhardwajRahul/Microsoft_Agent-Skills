@@ -1,13 +1,14 @@
 ---
 name: azure-private-link
-description: Expert knowledge for Azure Private Link development including troubleshooting, best practices, decision making, limits & quotas, security, configuration, and integrations & coding patterns. Use when building, debugging, or optimizing Azure Private Link applications.
+description: Expert knowledge for Azure Private Link development including troubleshooting, best practices, decision making, limits & quotas, security, and configuration. Use when building, debugging, or optimizing Azure Private Link applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-04"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Private Link Skill
 
-This skill provides expert guidance for Azure Private Link. Covers troubleshooting, best practices, decision making, limits & quotas, security, configuration, and integrations & coding patterns. It combines local quick-reference content with remote documentation fetching capabilities.
+This skill provides expert guidance for Azure Private Link. Covers troubleshooting, best practices, decision making, limits & quotas, security, and configuration. It combines local quick-reference content with remote documentation fetching capabilities.
 
 ## How to Use This Skill
 
@@ -26,8 +27,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Decision Making | L43-L47 | Guidance on estimating and optimizing Private Link costs, comparing design options (zonal vs regional, hub-spoke vs mesh), and understanding trade-offs between security, performance, and spend. |
 | Limits & Quotas | L48-L52 | Guidance on increasing virtual network scale limits for Azure Private Endpoints, including supported maximums and how to request higher quotas. |
 | Security | L53-L58 | Configuring Azure RBAC roles and permissions needed to create, manage, and secure Private Link resources and Network Security Perimeters. |
-| Configuration | L59-L71 | Configuring Azure Private Link/endpoint behavior: subnet policies, DNS zones, routing, SNAT, security perimeters, and monitoring/diagnostic logs. |
-| Integrations & Coding Patterns | L72-L75 | Configuring on-premises DNS to resolve Azure Private Endpoint and Private Link resources using Azure DNS Private Resolver, including hybrid and cross-network name resolution patterns. |
+| Configuration | L59-L70 | Configuring Azure Private Link/endpoint behavior: subnet policies, DNS zones, routing, SNAT, security perimeters, and monitoring/diagnostic logs. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -68,8 +68,3 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Enable and store Network Security Perimeter diagnostic logs | https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-diagnostic-logs |
 | Configure DNS zone names for Azure Private Endpoints | https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-dns |
 | Enable SNAT bypass for NVA private endpoint traffic | https://learn.microsoft.com/en-us/azure/private-link/private-link-disable-snat |
-
-### Integrations & Coding Patterns
-| Topic | URL |
-|-------|-----|
-| Integrate on-premises DNS with Azure Private Resolver | https://learn.microsoft.com/en-us/azure/private-link/tutorial-dns-on-premises-private-resolver |

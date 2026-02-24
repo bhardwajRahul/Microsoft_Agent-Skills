@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-11'
+generated_at: '2026-02-24'
 category_descriptions:
   security: Configuring auth, RBAC, identity providers, tokens, network isolation,
     encryption, compliance, and app registration to securely access and protect FHIR,
@@ -13,8 +13,8 @@ category_descriptions:
   deployment: Guides for deploying Azure Healthcare APIs (FHIR, DICOM, MedTech) using
     ARM/Bicep, Azure portal, and integrating DICOM with Azure Data Lake.
   integrations: 'Patterns and code for integrating FHIR/DICOM/MedTech with Azure:
-    REST and SMART on FHIR, bulk export/delete, $operations, validation, Synapse/Data
-    Lake/ADF, and language-specific API examples.'
+    REST and SMART on FHIR, bulk ops ($export/$bulk-update/$convert-data), validation,
+    profiles, analytics pipelines, and change feeds.'
   configuration: 'Configuring Azure Healthcare APIs (FHIR, DICOM, MedTech): CORS,
     security/keys, logging, events, search/reindex, bulk import/export, versioning,
     profiles, and Blue Button/Da Vinci setups.'
@@ -33,13 +33,13 @@ category_descriptions:
 - **Total Pages**: 210
 - **Fetched**: 210
 - **Fetch Failed**: 0
-- **Classified**: 133
-- **Unclassified**: 77
+- **Classified**: 132
+- **Unclassified**: 78
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 1
-- **Unchanged**: 209
+- **Updated Pages**: 4
+- **Unchanged**: 206
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-healthcare-apis/azure-healthcare-apis.csv`
 
@@ -49,21 +49,27 @@ category_descriptions:
 |------|-------|------------|
 | architecture-patterns | 3 | 1.4% |
 | best-practices | 3 | 1.4% |
-| configuration | 39 | 18.6% |
+| configuration | 37 | 17.6% |
 | decision-making | 6 | 2.9% |
 | deployment | 5 | 2.4% |
-| integrations | 33 | 15.7% |
+| integrations | 34 | 16.2% |
 | limits-quotas | 2 | 1.0% |
 | security | 33 | 15.7% |
 | troubleshooting | 9 | 4.3% |
-| *(Unclassified)* | 77 | 36.7% |
+| *(Unclassified)* | 78 | 37.1% |
 
 ## Changes
 
 ### Updated Pages
 
+- [What is Azure Health Data Services?](https://learn.microsoft.com/en-us/azure/healthcare-apis/healthcare-apis-overview)
+  - Updated: 2025-06-02T08:00:00.000Z → 2026-02-21T06:13:00.000Z
 - [2026](https://learn.microsoft.com/en-us/azure/healthcare-apis/release-notes-2026)
-  - Updated: 2026-02-04T23:15:00.000Z → 2026-02-10T18:36:00.000Z
+  - Updated: 2026-02-10T18:36:00.000Z → 2026-02-23T23:22:00.000Z
+- [Versioning policy and history management](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-versioning-policy-and-history-management)
+  - Updated: 2026-01-16T06:11:00.000Z → 2026-02-23T23:22:00.000Z
+- [$bulk-update](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-bulk-update)
+  - Updated: 2025-09-18T22:19:00.000Z → 2026-02-23T23:22:00.000Z
 
 ## Classified Pages
 
@@ -103,7 +109,6 @@ category_descriptions:
 | [Enable diagnostic settings in the FHIR service](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-service-diagnostic-logs) | configuration | 0.78 | Covers diagnostic settings and sample log queries for FHIR service, including configuration options for log categories and destinations that are product-specific. |
 | [Events message structures](https://learn.microsoft.com/en-us/azure/healthcare-apis/events/events-message-structure) | configuration | 0.78 | Describes events message structures, required/nonrequired elements, and sample payloads; this is product-specific schema/configuration detail (field names, required flags) that qualifies as configuration expert knowledge. |
 | [Grant permissions by using scripts](https://learn.microsoft.com/en-us/azure/healthcare-apis/configure-azure-rbac-using-scripts) | security | 0.78 | Contains product-specific RBAC role assignment scripts and REST calls for Azure Health Data Services, including exact role names, scopes, and API shapes that are implementation details rather than generic concepts. |
-| [Versioning policy and history management](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-versioning-policy-and-history-management) | configuration | 0.78 | Describes a configurable versioning policy with resource-specific options; likely includes setting names, allowed values, and behavior differences, which are concrete configuration details unique to this service. |
 | [Use Custom HTTP headers to add data to audit logs](https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/use-custom-headers) | configuration | 0.77 | Describes specific header names, formats, and how they map into audit logs for this service, which are detailed configuration behaviors unique to Azure API for FHIR. |
 | [Autoscale](https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/autoscale-azure-api-fhir) | limits-quotas | 0.76 | Autoscale behavior typically includes concrete thresholds, instance counts, and scaling rules specific to this managed service, which are numeric limits/quotas not inferable from general knowledge. |
 | [Configure customer-managed keys](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/configure-customer-managed-keys) | security | 0.76 | Details how to use CMK with FHIR service, including Key Vault integration and managed identity usage—product-specific encryption and key management configuration. |
@@ -161,11 +166,11 @@ category_descriptions:
 | [Use Microsoft Entra External ID for an identity provider](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/azure-entra-external-id-setup) | security | 0.70 | Describes using Microsoft Entra External ID with FHIR service, including identity provider configuration and access control specifics that are product- and API-version-specific. |
 | [Use custom functions](https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/how-to-use-custom-functions) | integrations | 0.70 | Details custom functions beyond built-in JMESPath functions; likely includes function signatures, parameters, and behavior unique to MedTech mapping, fitting integrations/coding patterns. |
 | [How to run a reindex job](https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/how-to-run-a-reindex) | configuration | 0.69 | Describes how to invoke and configure reindex operations, including job parameters and behavior specific to this service’s indexing subsystem. |
+| [$bulk-update](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-bulk-update) | integrations | 0.68 | The page documents the Azure Health Data Services FHIR $bulk-update operation, including product-specific behavior (asynchronous processing semantics, supported FHIR patch types, and cautions about irreversibility). This is an integration/coding pattern for interacting with the FHIR service via a nonstandard operation, which is unlikely to be fully known from pretraining. It goes beyond a simple tutorial by specifying how the operation works and which patch types are supported, fitting the integrations category best. |
 | [FHIR REST API capabilities](https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/fhir-rest-api-capabilities) | configuration | 0.68 | Describes RESTful interactions and capabilities for Azure API for FHIR; such pages typically enumerate supported operations, search parameters, and behavior specifics, which are product-specific API configuration/usage details beyond generic REST knowledge. |
 | [Store profiles](https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/store-profiles-in-fhir) | configuration | 0.68 | Explains how to store profiles, including endpoints, resource types, and configuration behavior specific to this implementation. |
 | [Use Azure AD B2C for an identity provider](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/azure-ad-b2c-setup) | security | 0.68 | Covers Azure AD B2C as an identity provider for FHIR service with product-specific security configuration; includes deprecation details and concrete setup steps. |
 | [$bulk-delete](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-bulk-delete) | security | 0.65 | Bulk delete requires specific headers and roles; page likely lists required roles/permissions and headers, which are product-specific security and access configuration details. |
-| [$bulk-update](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-bulk-update) | configuration | 0.65 | Describes $bulk-update operation, supported patch types, and usage constraints; likely includes operation parameters and behavior specific to Azure FHIR service, fitting configuration/integration. Configuration is the closer match due to operation settings. |
 | [$docref](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-docref) | integrations | 0.65 | Covers the $docref operation as implemented in Azure Health Data Services. This is a concrete, product-specific API operation with defined behavior and parameters, matching integrations/coding patterns. |
 | [$expand](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-expand) | integrations | 0.65 | Describes the $expand operation in the Azure FHIR service. This is specific API behavior and usage (request/response details) beyond generic FHIR concepts, fitting integrations. |
 | [$purge-history](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/purge-history) | integrations | 0.65 | $purge-history is a nonstandard, product-specific FHIR operation. The article will necessarily document the exact REST path/operation semantics, parameters, and behavior unique to Azure Health Data Services FHIR, which are not generally known from training. That fits integrations/coding patterns (service-specific API usage). |
@@ -254,6 +259,7 @@ category_descriptions:
 | [Supported features](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-features-supported) | 0.30 | The page lists which FHIR specification features are implemented in the Azure Health Data Services FHIR service, but it's primarily a capability/feature support matrix without numeric limits, configuration parameter tables, error-code-based troubleshooting, or decision matrices. It doesn't match the defined expert-knowledge sub-skill types. |
 | [Use metrics](https://learn.microsoft.com/en-us/azure/healthcare-apis/events/events-use-metrics) | 0.30 | Explains how to use events metrics via Azure portal; summary suggests a how-to without explicit mention of metric names/tables or limits; likely generic monitoring usage. |
 | [Using Azure portal](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/deploy-azure-portal) | 0.30 | Portal deployment tutorial; focuses on wizard steps and basic security settings, without deployment matrices, tier constraints, or other expert-only deployment details. |
+| [Versioning policy and history management](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-versioning-policy-and-history-management) | 0.30 | The article focuses on conceptual explanation of versioning policy and history management; it is not primarily a limits table, configuration reference, troubleshooting guide, or decision matrix with quantified criteria. |
 | [2021](https://learn.microsoft.com/en-us/azure/healthcare-apis/release-notes-2021) | 0.25 | Release notes for 2021; same pattern as other release notes, not fitting the defined expert sub-skill categories. |
 | [2022](https://learn.microsoft.com/en-us/azure/healthcare-apis/release-notes-2022) | 0.25 | Release notes for 2022; primarily feature/enhancement descriptions, not structured expert configuration, limits, or troubleshooting content. |
 | [2023](https://learn.microsoft.com/en-us/azure/healthcare-apis/release-notes-2023) | 0.25 | Release notes for 2023; similar reasoning as other release notes pages. |
@@ -263,7 +269,7 @@ category_descriptions:
 | [Open-source projects](https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/git-projects) | 0.25 | Overview of GitHub OSS projects for MedTech; likely descriptive and linking to code rather than listing product configuration parameters or troubleshooting mappings. |
 | [Overview of device mapping](https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/overview-of-device-mapping) | 0.25 | Overview of device mapping; primarily conceptual description of how mapping works, not a detailed configuration or troubleshooting reference. |
 | [Overview of the FHIR destination mapping](https://learn.microsoft.com/en-us/azure/healthcare-apis/iot/overview-of-fhir-destination-mapping) | 0.25 | Overview of FHIR destination mapping; appears conceptual without detailed parameter tables, limits, or troubleshooting mappings. |
-| [2026](https://learn.microsoft.com/en-us/azure/healthcare-apis/release-notes-2026) | 0.20 | Monthly release notes typically list new features and fixes but not structured limits, configuration matrices, error-code troubleshooting flows, or decision matrices as defined by the sub-skill types. Without evidence of detailed limits, config tables, or troubleshooting mappings, this is general product update information rather than reusable expert knowledge for the skills taxonomy. |
+| [2026](https://learn.microsoft.com/en-us/azure/healthcare-apis/release-notes-2026) | 0.20 | Monthly release notes typically list new features and fixes but are not organized as limits, patterns, configuration matrices, or troubleshooting guides with structured expert data per the defined categories. |
 | [Access Azure Health Data Services](https://learn.microsoft.com/en-us/azure/healthcare-apis/access-healthcare-apis) | 0.20 | High-level guidance on accessing services using cURL/REST/SDKs; appears tutorial/overview without detailed config tables, limits, or product-specific error mappings. |
 | [CMS interoperability and patient access rule](https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/centers-for-medicare-tutorial-introduction) | 0.20 | Series introduction/overview for CMS interoperability tutorials; primarily conceptual and navigational, not detailed configuration or troubleshooting content. |
 | [DICOM service open-source projects](https://learn.microsoft.com/en-us/azure/healthcare-apis/dicom/references-for-dicom-service) | 0.20 | Reference page is primarily a link hub to open-source projects and related resources; no concrete limits, configs, error codes, or product-specific settings are described. |
@@ -283,4 +289,4 @@ category_descriptions:
 | [FHIR service](https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/overview) | 0.10 | Conceptual overview of the FHIR service; no detailed configuration tables, limits, or troubleshooting content indicated. |
 | [GitHub Projects](https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/fhir-github-projects) | 0.10 | Lists related GitHub projects for Azure API for FHIR. This is a navigation/index page to external repos, not in-product limits, configs, or troubleshooting content. |
 | [GitHub projects](https://learn.microsoft.com/en-us/azure/healthcare-apis/github-projects) | 0.10 | Navigation-style list of GitHub projects; does not itself contain configuration tables, limits, or troubleshooting mappings. |
-| [What is Azure Health Data Services?](https://learn.microsoft.com/en-us/azure/healthcare-apis/healthcare-apis-overview) | 0.10 | High-level product overview of Azure Health Data Services without concrete limits, configs, or error details. |
+| [What is Azure Health Data Services?](https://learn.microsoft.com/en-us/azure/healthcare-apis/healthcare-apis-overview) | 0.10 | High-level overview of Azure Health Data Services without specific limits, configuration parameters, error codes, or decision matrices; primarily conceptual/marketing content. |

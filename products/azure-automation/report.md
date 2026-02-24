@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-04'
+generated_at: '2026-02-24'
 category_descriptions:
   security: 'Securing Azure Automation: identities (system/user-assigned, Entra ID),
     RBAC, encryption, private endpoints, STIG/policy compliance, and secure runbook/auth
@@ -22,8 +22,8 @@ category_descriptions:
     (SC Orchestrator, Log Analytics agent, Hybrid Workers, Run As to managed identity)
     and choosing how to start runbooks
   troubleshooting: 'Diagnosing and fixing Azure Automation issues: runbook failures,
-    DSC/State Configuration, Hybrid Runbook Workers, managed identity/auth errors,
-    shared resources, and collecting diagnostics for support.'
+    DSC/State Configuration, Hybrid Runbook Workers, managed identity errors, shared
+    resources, and collecting diagnostics for support.'
 ---
 # Azure Automation Crawl Report
 
@@ -36,10 +36,10 @@ category_descriptions:
 - **Unclassified**: 41
 
 ### Incremental Update
-- **New Pages**: 0
+- **New Pages**: 7
 - **Updated Pages**: 0
-- **Unchanged**: 115
-- **Deleted Pages**: 0
+- **Unchanged**: 108
+- **Deleted Pages**: 7
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-automation/azure-automation.csv`
 
 ## Classification Statistics
@@ -58,6 +58,26 @@ category_descriptions:
 
 ## Changes
 
+### New Pages
+
+- [Troubleshoot Managed Identity Issues](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/managed-identity)
+- [Troubleshoot Shared Resources Issues](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/shared-resources)
+- [Troubleshoot Runbook Issues](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/runbooks)
+- [Troubleshoot Extension-based Hybrid Runbook Worker Issues](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/extension-based-hybrid-runbook-worker)
+- [Troubleshoot Agent-based Hybrid Runbook Worker Issues](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/hybrid-runbook-worker)
+- [Troubleshoot State Configuration Issues](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/desired-state-configuration)
+- [Data to Collect when Opening a Case for Microsoft Azure Automation](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)
+
+### Deleted Pages
+
+- ~~Data to collect when opening a case for Microsoft Azure Automation~~ (https://learn.microsoft.com/en-us/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)
+- ~~Troubleshoot State Configuration issues~~ (https://learn.microsoft.com/en-us/azure/automation/troubleshoot/desired-state-configuration)
+- ~~Troubleshoot extension-based worker issues~~ (https://learn.microsoft.com/en-us/azure/automation/troubleshoot/extension-based-hybrid-runbook-worker)
+- ~~Troubleshoot agent-based worker issues~~ (https://learn.microsoft.com/en-us/azure/automation/troubleshoot/hybrid-runbook-worker)
+- ~~Troubleshoot managed identity~~ (https://learn.microsoft.com/en-us/azure/automation/troubleshoot/managed-identity)
+- ~~Troubleshoot runbook issues~~ (https://learn.microsoft.com/en-us/azure/automation/troubleshoot/runbooks)
+- ~~Troubleshoot shared resources~~ (https://learn.microsoft.com/en-us/azure/automation/troubleshoot/shared-resources)
+
 ## Classified Pages
 
 | TOC Title | Type | Confidence | Reason |
@@ -65,14 +85,13 @@ category_descriptions:
 | [Automation limits and quotas](https://learn.microsoft.com/en-us/azure/automation/automation-subscription-limits-faq) | limits-quotas | 0.95 | Explicitly described as providing default quotas and limits for Azure Automation resources; such numeric limits are expert knowledge not reliably known from training. |
 | [Manage automation limits and quotas](https://learn.microsoft.com/en-us/azure/automation/automation-limits-quotas) | limits-quotas | 0.95 | Dedicated limits/quotas article; these pages list concrete numeric limits and quota values per subscription/feature and how to request changes, which is exactly the limits-quotas category. |
 | [Manage DNS records used by Automation](https://learn.microsoft.com/en-us/azure/automation/how-to/automation-region-dns-records) | configuration | 0.90 | Provides concrete DNS records per region required for Automation features; this is detailed configuration data (hostnames/records) that LLMs won’t reliably know. |
-| [Troubleshoot agent-based worker issues](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/hybrid-runbook-worker) | troubleshooting | 0.90 | Dedicated troubleshooting guide for agent-based Hybrid Runbook Workers. Organized around diagnosing and resolving issues, matching the troubleshooting sub-skill. |
-| [Troubleshoot extension-based worker issues](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/extension-based-hybrid-runbook-worker) | troubleshooting | 0.90 | Explicit troubleshooting article for extension-based Hybrid Runbook Workers. Will contain symptom → cause → resolution guidance and possibly error messages, clearly fitting troubleshooting. |
-| [Troubleshoot runbook issues](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/runbooks) | troubleshooting | 0.90 | Explicit troubleshooting guide for runbook issues; these pages map specific symptoms and errors to causes and resolutions, which is core troubleshooting expert knowledge. |
+| [Troubleshoot Agent-based Hybrid Runbook Worker Issues](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/hybrid-runbook-worker) | troubleshooting | 0.90 | Troubleshooting guide for agent-based Hybrid Runbook Workers; likely details concrete failure modes, log locations, and resolution steps specific to the agent-based implementation. |
+| [Troubleshoot Extension-based Hybrid Runbook Worker Issues](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/extension-based-hybrid-runbook-worker) | troubleshooting | 0.90 | Explicit troubleshooting content for extension-based Hybrid Runbook Workers; expected to include specific error codes, logs, and diagnostic steps unique to this worker type. |
+| [Troubleshoot Runbook Issues](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/runbooks) | troubleshooting | 0.90 | Runbook troubleshooting article; very likely organized by specific runbook errors (job failures, compilation issues, timeouts) with symptom → cause → solution mappings and product-specific guidance. |
+| [Troubleshoot Managed Identity Issues](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/managed-identity) | troubleshooting | 0.86 | Troubleshooting article focused on managed identity issues for Automation accounts; likely includes specific error messages, causes, and resolution steps unique to Azure Automation authentication. |
 | [Best practices for security in Azure Automation](https://learn.microsoft.com/en-us/azure/automation/automation-security-guidelines) | security | 0.85 | Described as security guidelines and best practices for Automation accounts, Hybrid Runbook Worker, identities, and network isolation; likely includes concrete recommendations and product-specific security configurations. |
 | [Configure runbook input parameters](https://learn.microsoft.com/en-us/azure/automation/runbook-input-parameters) | configuration | 0.85 | Details how to define and use runbook input parameters across runbook types; such content includes parameter attributes, types, and behaviors specific to Azure Automation, fitting configuration. |
 | [Disable local authentication](https://learn.microsoft.com/en-us/azure/automation/disable-local-authentication) | security | 0.85 | Describes disabling local authentication and configuring Microsoft Entra-based access; involves specific security settings and behavior unique to Azure Automation. |
-| [Troubleshoot State Configuration issues](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/desired-state-configuration) | troubleshooting | 0.85 | Troubleshooting article for a specific service; such pages usually map concrete error messages/codes and service-specific behaviors to causes and resolutions, which matches the troubleshooting criteria. |
-| [Troubleshoot shared resources](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/shared-resources) | troubleshooting | 0.85 | Explicit troubleshooting article for shared resources; such pages list specific error messages, causes, and resolutions for Automation assets, which are product-specific symptom→cause→solution mappings. |
 | [Using system-assigned managed identity](https://learn.microsoft.com/en-us/azure/automation/enable-managed-identity-for-automation) | security | 0.85 | Covers enabling and using system-assigned managed identity for Automation accounts; includes product-specific identity configuration steps and scopes. |
 | [Using user-assigned managed identity](https://learn.microsoft.com/en-us/azure/automation/add-user-assigned-identity) | security | 0.85 | Describes adding and using user-assigned managed identities, including a specific limitation with Hybrid Runbook Worker; product-specific identity/security configuration and edge case. |
 | [Automation network configuration details](https://learn.microsoft.com/en-us/azure/automation/automation-network-configuration) | configuration | 0.80 | Networking details for Hybrid Runbook Worker, State Configuration, Update Management, and Change Tracking typically include required endpoints, ports, and URLs—product-specific configuration parameters. |
@@ -84,8 +103,8 @@ category_descriptions:
 | [Manage role permissions and security](https://learn.microsoft.com/en-us/azure/automation/automation-role-based-access-control) | security | 0.80 | RBAC-focused article for Automation; expected to list specific roles, scopes, and permission mappings unique to Azure Automation. |
 | [Security controls by Azure Policy](https://learn.microsoft.com/en-us/azure/automation/security-controls-policy) | security | 0.80 | Lists specific built-in Azure Policy definitions and compliance controls for Azure Automation; these policy names and scopes are product-specific security configuration details. |
 | [Supported regions](https://learn.microsoft.com/en-us/azure/azure-change-tracking-inventory/change-tracking-inventory-support-matrix) | limits-quotas | 0.80 | A support matrix and limitations page for a specific feature typically includes supported regions, OS versions, and explicit limitations; these are concrete product constraints that qualify as expert knowledge under limits-quotas. |
-| [Troubleshoot managed identity](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/managed-identity) | troubleshooting | 0.80 | Troubleshooting guide for managed identity issues in Automation accounts; likely includes specific error messages, causes, and resolutions unique to Azure Automation. |
-| [Data to collect when opening a case for Microsoft Azure Automation](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case) | troubleshooting | 0.78 | Support-focused article describing exactly what information and logs to gather before opening a case. This is symptom/issue-oriented guidance specific to Azure Automation support workflows, which fits troubleshooting. |
+| [Troubleshoot Shared Resources Issues](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/shared-resources) | troubleshooting | 0.80 | Troubleshooting guide for shared resources in Azure Automation; expected to map concrete symptoms and errors to causes and fixes for modules, credentials, schedules, etc. |
+| [Troubleshoot State Configuration Issues](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/desired-state-configuration) | troubleshooting | 0.78 | State Configuration troubleshooting article; despite deprecation note, it likely documents specific configuration drift, node reporting, and compilation issues with corresponding resolutions. |
 | [Azure Policy built-ins](https://learn.microsoft.com/en-us/azure/automation/policy-reference) | configuration | 0.75 | An index of built-in policy definitions exposes specific policy names, parameters, and versions; these are configuration artifacts (policy configs) with concrete values and structures that qualify as expert configuration knowledge. |
 | [Connect privately to Automation account](https://learn.microsoft.com/en-us/azure/automation/how-to/private-link-security) | security | 0.75 | Explains using Private Link/private endpoints for Automation; likely includes network/security configuration details such as endpoint settings and access patterns. |
 | [Handle errors in graphical runbooks](https://learn.microsoft.com/en-us/azure/automation/automation-runbook-graphical-error-handling) | best-practices | 0.75 | Focused on designing error handling logic in graphical runbooks, including handling non-terminating errors and control flow; these are concrete, product-specific best-practice patterns. |
@@ -98,6 +117,7 @@ category_descriptions:
 | [Configure authentication with Microsoft Entra ID](https://learn.microsoft.com/en-us/azure/automation/automation-use-azure-ad) | security | 0.70 | Describes configuring Entra ID as the auth provider for Automation; likely includes specific app registrations, scopes, and RBAC/permission details. |
 | [Context switching in Azure Automation](https://learn.microsoft.com/en-us/azure/automation/context-switching) | best-practices | 0.70 | Explains context switching problems and how to avoid them, including specific PowerShell patterns (e.g., Add-AzAccount usage) and gotchas unique to Automation runbooks. |
 | [Create PowerShell runbook using managed identity](https://learn.microsoft.com/en-us/azure/automation/learn/powershell-runbook-managed-identity) | security | 0.70 | Tutorial on using managed identities from runbooks to access Entra-protected resources; involves product-specific authentication and permission configuration patterns. |
+| [Data to Collect when Opening a Case for Microsoft Azure Automation](https://learn.microsoft.com/en-us/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case) | troubleshooting | 0.70 | Describes exact data to gather (logs, job IDs, configuration details) before opening a support case; this is expert, product-specific diagnostic guidance aligned with troubleshooting workflows. |
 | [Deploy AWS VM with Automation runbook](https://learn.microsoft.com/en-us/azure/automation/automation-scenario-aws-deployment) | integrations | 0.70 | Automating AWS VM creation from Azure Automation requires cross-cloud integration details (credentials, tagging parameters, API calls) that are product-specific and fit the integrations category. |
 | [Deploy Resource Manager template with runbook](https://learn.microsoft.com/en-us/azure/automation/automation-deploy-template-runbook) | integrations | 0.70 | Describes using Automation runbooks to deploy ARM templates stored in Azure Storage; this involves specific cmdlets, parameters, and storage/template configuration patterns unique to this integration scenario. |
 | [Enable managed identities - Azure portal](https://learn.microsoft.com/en-us/azure/automation/quickstarts/enable-managed-identity) | security | 0.70 | Focused on enabling managed identities for Automation accounts; likely includes specific identity configuration options and portal settings, which are product-specific security configurations. |

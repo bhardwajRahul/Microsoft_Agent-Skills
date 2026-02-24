@@ -3,7 +3,8 @@ name: azure-api-management
 description: Expert knowledge for Azure Api Management development including troubleshooting, best practices, decision making, architecture & design patterns, limits & quotas, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Api Management applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-11"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Api Management Skill
 
@@ -21,21 +22,20 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L34-L43 | Debugging APIM policies and requests, handling policy errors, diagnosing platform issues (SNAT/timeouts, Key Vault certs), and using Diagnose and Solve for common APIM problems |
-| Best Practices | L44-L55 | Scaling, throttling, security hardening (OWASP), policy best practices, SSE setup, and production/self-hosted gateway and dev portal guidance for Azure API Management |
-| Decision Making | L56-L67 | Guidance on APIM scaling, pricing tiers, cost management, DevOps/CI-CD planning, VNet choices, monetization features, and migrating from Amazon API Gateway |
-| Architecture & Design Patterns | L68-L78 | Architectural patterns for APIM: VNet + App Gateway, AKS microservices, Front Door, policy fragments, shared metadata caching, and sustainability-focused gateway design. |
-| Limits & Quotas | L79-L96 | Policies and limits for API Management: rate/quotas per key, concurrency, Azure OpenAI/LLM token limits, import restrictions, and validating requests/responses against API schemas. |
-| Security | L97-L130 | Securing API Management and its portals: auth (Entra ID/B2C/OAuth/JWT), certificates/TLS/CORS, managed identities, RBAC, DDoS/Defender, compliance, and LLM content safety policies. |
-| Configuration | L131-L230 | Configuring Azure API Management behavior: policies, caching, networking/VNet, domains, logging/metrics, GraphQL/gRPC/OData imports, self-hosted gateways, and workspace/update migrations. |
-| Integrations & Coding Patterns | L231-L264 | Patterns and examples for integrating APIM with LLMs, MCP, SAP, Dapr, Service Bus/Event Hubs/Event Grid, logging/monitoring, portals, and external backends via policies and exports |
-| Deployment | L265-L284 | Deploying APIM across regions and networks, self-hosted gateways (K8s, Docker, Arc, AKS, Container Apps), DR/backup/restore, soft-delete recovery, and developer portal deployment options. |
+| Troubleshooting | L35-L43 | Diagnosing and fixing API Management runtime issues: error handling policies, request tracing/debugging, Key Vault cert/domain problems, SNAT port exhaustion, and using Diagnose and Solve. |
+| Best Practices | L44-L52 | Best practices for scaling, throttling, transforming traffic, production-running the self-hosted gateway on Kubernetes, and testing the self-hosted developer portal in API Management |
+| Decision Making | L53-L64 | Guidance on APIM scaling, pricing tiers, cost management, VNet options, trusted service retirement, monetization features, and migrating from Amazon API Gateway. |
+| Architecture & Design Patterns | L65-L72 | Design patterns for placing APIM behind VNets, Application Gateway, Front Door, or AKS, plus guidance on sustainable, efficient API gateway architectures. |
+| Limits & Quotas | L73-L89 | Configuring API Management limits and validation: rate and quota policies (per key, concurrency, Azure OpenAI/LLM tokens), service quotas, and request/response/header/status code schema validation. |
+| Security | L90-L126 | Securing APIs and APIM: authN/authZ (Entra ID, B2C, OAuth2, JWT, certs, basic), TLS/certs, RBAC, managed identities, CORS, DDoS/Defender, OWASP, LLM safety, and portal/gateway access. |
+| Configuration | L127-L227 | Configuring Azure API Management behavior: policies, caching, networking/VNet, domains, logging/metrics, self-hosted gateways, GraphQL/gRPC/WebSocket, and workspace/update migrations. |
+| Integrations & Coding Patterns | L228-L260 | Patterns and examples for integrating API Management with LLMs, backends, logging/monitoring, portals, MCP, Dapr, and messaging services like Event Hubs and Service Bus. |
+| Deployment | L261-L280 | Deploying and recovering APIM: multi-region, VNet/external, availability zones, soft-delete, backups, and self-hosted gateways (AKS, Arc, Docker, Helm, Container Apps) and dev portal automation. |
 
 ### Troubleshooting
 | Topic | URL |
 |-------|-----|
-| Debug Azure API Management policies in VS Code | https://learn.microsoft.com/en-us/azure/api-management/api-management-debug-policies |
-| Handle errors in Azure API Management policies | https://learn.microsoft.com/en-us/azure/api-management/api-management-error-handling-policies |
+| Handle errors with Azure API Management policies | https://learn.microsoft.com/en-us/azure/api-management/api-management-error-handling-policies |
 | Trace and debug API requests in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-api-inspector |
 | Fix Key Vault certificate errors for custom domains | https://learn.microsoft.com/en-us/azure/api-management/api-management-troubleshoot-cannot-add-custom-domain |
 | Use Diagnose and Solve to troubleshoot API Management issues | https://learn.microsoft.com/en-us/azure/api-management/diagnose-solve-problems |
@@ -45,12 +45,9 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Topic | URL |
 |-------|-----|
 | Configure autoscale rules for Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-autoscale |
-| Implement advanced throttling in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-sample-flexible-throttling |
+| Implement flexible throttling in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-sample-flexible-throttling |
 | Implement testing for self-hosted API Management developer portal | https://learn.microsoft.com/en-us/azure/api-management/developer-portal-testing |
-| Manage context variables in APIM policy fragments safely | https://learn.microsoft.com/en-us/azure/api-management/fragment-variable-management |
 | Run API Management self-hosted gateway on Kubernetes in production | https://learn.microsoft.com/en-us/azure/api-management/how-to-self-hosted-gateway-on-kubernetes-in-production |
-| Configure server-sent events (SSE) APIs in API Management | https://learn.microsoft.com/en-us/azure/api-management/how-to-server-sent-events |
-| Mitigate OWASP API Security Top 10 using Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/mitigate-owasp-api-threats |
 | Apply transformation and throttling policies in API Management | https://learn.microsoft.com/en-us/azure/api-management/transform-api |
 
 ### Decision Making
@@ -58,7 +55,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 |-------|-----|
 | Use API Management capacity metrics to plan scaling | https://learn.microsoft.com/en-us/azure/api-management/api-management-capacity |
 | Compare Azure API Management pricing tiers by features | https://learn.microsoft.com/en-us/azure/api-management/api-management-features |
-| Plan DevOps and CI/CD strategy for Azure API Management APIs | https://learn.microsoft.com/en-us/azure/api-management/devops-api-development-templates |
+| Plan for Azure API Management trusted service retirement | https://learn.microsoft.com/en-us/azure/api-management/breaking-changes/trusted-service-connectivity-retirement-march-2026 |
 | Decide and execute migration from Amazon API Gateway to APIM | https://learn.microsoft.com/en-us/azure/api-management/migrate-amazon-api-gateway-to-api-management |
 | Use API Management features to support monetization | https://learn.microsoft.com/en-us/azure/api-management/monetization-support |
 | Plan and manage Azure API Management costs | https://learn.microsoft.com/en-us/azure/api-management/plan-manage-costs |
@@ -69,10 +66,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Topic | URL |
 |-------|-----|
 | Pattern: APIM in internal VNet with Application Gateway | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-integrate-internal-vnet-appgateway |
-| Use API Management with AKS-based microservices architectures | https://learn.microsoft.com/en-us/azure/api-management/api-management-kubernetes |
-| Implement shared metadata caching across APIM policy fragments | https://learn.microsoft.com/en-us/azure/api-management/fragment-metadata-cache |
-| Design advanced policy fragment execution pipelines in APIM | https://learn.microsoft.com/en-us/azure/api-management/fragment-pipeline-architecture |
-| Coordinate APIM product and API policies with fragments | https://learn.microsoft.com/en-us/azure/api-management/fragment-policy-coordination |
+| Architect Azure API Management with AKS microservices | https://learn.microsoft.com/en-us/azure/api-management/api-management-kubernetes |
 | Front Azure API Management with Azure Front Door | https://learn.microsoft.com/en-us/azure/api-management/front-door-api-management |
 | Apply sustainability-focused gateway features in API Management | https://learn.microsoft.com/en-us/azure/api-management/sustainability |
 
@@ -81,14 +75,13 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 |-------|-----|
 | API format import restrictions and limits in API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-api-import-restrictions |
 | Limit Azure OpenAI token usage with API Management policy | https://learn.microsoft.com/en-us/azure/api-management/azure-openai-token-limit-policy |
-| Unsupported WSDL constructs when importing SOAP APIs | https://learn.microsoft.com/en-us/azure/api-management/import-soap-api |
 | Limit concurrent executions with limit-concurrency policy | https://learn.microsoft.com/en-us/azure/api-management/limit-concurrency-policy |
 | Enforce LLM token rate and quota limits with policy | https://learn.microsoft.com/en-us/azure/api-management/llm-token-limit-policy |
 | Use quota-by-key policy for per-key limits | https://learn.microsoft.com/en-us/azure/api-management/quota-by-key-policy |
 | Configure quota policy limits in API Management | https://learn.microsoft.com/en-us/azure/api-management/quota-policy |
 | Apply rate-limit-by-key policy for APIs | https://learn.microsoft.com/en-us/azure/api-management/rate-limit-by-key-policy |
 | Configure rate-limit policy for API Management | https://learn.microsoft.com/en-us/azure/api-management/rate-limit-policy |
-| Review Azure API Management service limits and quotas | https://learn.microsoft.com/en-us/azure/api-management/service-limits |
+| Azure API Management service limits and quotas | https://learn.microsoft.com/en-us/azure/api-management/service-limits |
 | Validate request and response content in API Management | https://learn.microsoft.com/en-us/azure/api-management/validate-content-policy |
 | Validate response headers against API schema | https://learn.microsoft.com/en-us/azure/api-management/validate-headers-policy |
 | Validate request parameters against API schema | https://learn.microsoft.com/en-us/azure/api-management/validate-parameters-policy |
@@ -100,10 +93,10 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure authentication and authorization to LLM APIs in API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-authenticate-authorize-ai-apis |
 | Enable Entra ID sign-in for API Management portal | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-aad |
 | Use Azure AD B2C for API Management portal access | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-aad-b2c |
-| Manage custom CA certificates in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-ca-certificates |
+| Add and manage custom CA certificates in API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-ca-certificates |
 | Authorize external users via Entra External ID | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-entra-external-id |
 | Configure TLS protocols and cipher suites in API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-manage-protocols-ciphers |
-| Configure client certificate authentication for API Management backends | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-mutual-certificates |
+| Secure API Management backend with client certificates | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-mutual-certificates |
 | Configure client certificate authentication in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-mutual-certificates-for-clients |
 | Configure OAuth 2.0 authorization for API Management test console | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-oauth2 |
 | Protect APIs with OAuth 2.0 and Microsoft Entra in API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad |
@@ -116,13 +109,16 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Update API Management identity providers from ADAL to MSAL | https://learn.microsoft.com/en-us/azure/api-management/breaking-changes/identity-provider-adal-retirement-sep-2025 |
 | Configure CORS policy for Azure API Management APIs | https://learn.microsoft.com/en-us/azure/api-management/cors-policy |
 | Configure basic authentication for API Management portal | https://learn.microsoft.com/en-us/azure/api-management/developer-portal-basic-authentication |
+| Configure CORS policies for API Management custom connectors | https://learn.microsoft.com/en-us/azure/api-management/enable-cors-power-platform |
 | Enforce LLM content safety with Azure API Management policy | https://learn.microsoft.com/en-us/azure/api-management/llm-content-safety-policy |
-| Protect Azure API Management with Azure DDoS Protection | https://learn.microsoft.com/en-us/azure/api-management/protect-with-ddos-protection |
+| Mitigate OWASP API threats with Azure API Management policies | https://learn.microsoft.com/en-us/azure/api-management/mitigate-owasp-api-threats |
+| Configure DDoS protection for Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/protect-with-ddos-protection |
 | Enable Defender for APIs protection in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/protect-with-defender-for-apis |
 | Secure Azure API Management developer portal access | https://learn.microsoft.com/en-us/azure/api-management/secure-developer-portal-access |
 | Secure access to MCP servers managed by Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/secure-mcp-servers |
 | Azure Policy regulatory compliance controls for API Management | https://learn.microsoft.com/en-us/azure/api-management/security-controls-policy |
-| Configure Microsoft Entra auth for self-hosted API gateway | https://learn.microsoft.com/en-us/azure/api-management/self-hosted-gateway-enable-azure-ad |
+| Configure Microsoft Entra authentication for API Management self-hosted gateway | https://learn.microsoft.com/en-us/azure/api-management/self-hosted-gateway-enable-azure-ad |
+| Enable workload identity auth for API Management self-hosted gateway | https://learn.microsoft.com/en-us/azure/api-management/self-hosted-gateway-enable-workload-identity |
 | Secure NSP-protected backends with APIM and managed identity | https://learn.microsoft.com/en-us/azure/api-management/using-network-security-perimeter |
 | Validate Entra ID JWTs in API Management | https://learn.microsoft.com/en-us/azure/api-management/validate-azure-ad-token-policy |
 | Configure client certificate validation in API Management | https://learn.microsoft.com/en-us/azure/api-management/validate-client-certificate-policy |
@@ -145,6 +141,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure semantic caching for LLM APIs in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/azure-openai-enable-semantic-caching |
 | Configure semantic cache lookup for Azure OpenAI in API Management | https://learn.microsoft.com/en-us/azure/api-management/azure-openai-semantic-cache-lookup-policy |
 | Configure semantic cache storage for Azure OpenAI in API Management | https://learn.microsoft.com/en-us/azure/api-management/azure-openai-semantic-cache-store-policy |
+| Configure and reuse backend services in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/backends |
 | Move from built-in API Management analytics dashboard to Azure Monitor | https://learn.microsoft.com/en-us/azure/api-management/breaking-changes/analytics-dashboard-retirement-march-2027 |
 | Update network rules for API Management CAPTCHA endpoint change | https://learn.microsoft.com/en-us/azure/api-management/breaking-changes/captcha-endpoint-change-sep-2025 |
 | Migrate from direct API Management management API to ARM | https://learn.microsoft.com/en-us/azure/api-management/breaking-changes/direct-management-api-retirement-march-2025 |
@@ -155,7 +152,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Migrate Azure API Management preview workspaces to GA | https://learn.microsoft.com/en-us/azure/api-management/breaking-changes/workspaces-breaking-changes-march-2025 |
 | Configure response cache lookup in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/cache-lookup-policy |
 | Configure key-based cache lookup in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/cache-lookup-value-policy |
-| Remove cached values by key in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/cache-remove-value-policy |
+| Configure cache-remove-value policy in API Management | https://learn.microsoft.com/en-us/azure/api-management/cache-remove-value-policy |
 | Configure response cache storage in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/cache-store-policy |
 | Configure key-based cache storage in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/cache-store-value-policy |
 | Enforce HTTP header requirements with API Management policy | https://learn.microsoft.com/en-us/azure/api-management/check-header-policy |
@@ -166,8 +163,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure identity providers in API Management Credential Manager | https://learn.microsoft.com/en-us/azure/api-management/credentials-configure-common-providers |
 | Configure cross-domain policy for legacy browser clients in API Management | https://learn.microsoft.com/en-us/azure/api-management/cross-domain-policy |
 | Emit custom metrics to Application Insights from API Management | https://learn.microsoft.com/en-us/azure/api-management/emit-metric-policy |
-| Configure CORS policies for API Management developer portal testing | https://learn.microsoft.com/en-us/azure/api-management/enable-cors-developer-portal |
-| Configure CORS policies for Power Platform custom connectors | https://learn.microsoft.com/en-us/azure/api-management/enable-cors-power-platform |
+| Configure CORS for Azure API Management developer portal test console | https://learn.microsoft.com/en-us/azure/api-management/enable-cors-developer-portal |
 | Configure find-and-replace policy in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/find-and-replace-policy |
 | Configure forward-request policy for Azure API Management backends | https://learn.microsoft.com/en-us/azure/api-management/forward-request-policy |
 | Use get-authorization-context policy with credential providers | https://learn.microsoft.com/en-us/azure/api-management/get-authorization-context-policy |
@@ -177,8 +173,8 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure cloud metrics and logs for self-hosted gateway | https://learn.microsoft.com/en-us/azure/api-management/how-to-configure-cloud-metrics-logs |
 | Configure local metrics and logs for self-hosted gateway on Kubernetes | https://learn.microsoft.com/en-us/azure/api-management/how-to-configure-local-metrics-logs |
 | Create and configure workspaces in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/how-to-create-workspace |
+| Configure server-sent events in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/how-to-server-sent-events |
 | Configure http-data-source policy for GraphQL resolvers | https://learn.microsoft.com/en-us/azure/api-management/http-data-source-policy |
-| Import OData-compliant services into Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/import-api-from-odata |
 | Import Azure App Service web APIs into API Management | https://learn.microsoft.com/en-us/azure/api-management/import-app-service-as-api |
 | Import Azure Container Apps APIs into API Management | https://learn.microsoft.com/en-us/azure/api-management/import-container-app-with-oas |
 | Import Azure Function Apps into API Management with host keys | https://learn.microsoft.com/en-us/azure/api-management/import-function-app-as-api |
@@ -206,6 +202,8 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Use return-response policy to send custom replies | https://learn.microsoft.com/en-us/azure/api-management/return-response-policy |
 | Configure rewrite-uri policy for backend routing | https://learn.microsoft.com/en-us/azure/api-management/rewrite-uri-policy |
 | Configure Azure Arc settings for self-hosted gateway | https://learn.microsoft.com/en-us/azure/api-management/self-hosted-gateway-arc-reference |
+| Configure authentication options for API Management self-hosted gateway | https://learn.microsoft.com/en-us/azure/api-management/self-hosted-gateway-authentication-options |
+| Set up access token authentication for API Management self-hosted gateway | https://learn.microsoft.com/en-us/azure/api-management/self-hosted-gateway-default-authentication |
 | Configure self-hosted gateway container settings | https://learn.microsoft.com/en-us/azure/api-management/self-hosted-gateway-settings-reference |
 | Configure send-one-way-request policy in API Management | https://learn.microsoft.com/en-us/azure/api-management/send-one-way-request-policy |
 | Configure send-request policy with timeouts | https://learn.microsoft.com/en-us/azure/api-management/send-request-policy |
@@ -226,20 +224,18 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure wait policy for parallel calls in API Management | https://learn.microsoft.com/en-us/azure/api-management/wait-policy |
 | Configure WebSocket APIs in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/websocket-api |
 | Convert XML to JSON with API Management policy | https://learn.microsoft.com/en-us/azure/api-management/xml-to-json-policy |
-| Apply XSLT transforms in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/xsl-transform-policy |
 
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
-| Import and manage A2A agent APIs in API Management | https://learn.microsoft.com/en-us/azure/api-management/agent-to-agent-api |
 | Import Amazon Bedrock LLM APIs as passthrough in API Management | https://learn.microsoft.com/en-us/azure/api-management/amazon-bedrock-passthrough-llm-api |
 | Integrate Azure API Management with Application Insights logging | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-app-insights |
 | Log Azure API Management events to Azure Event Hubs | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-log-event-hubs |
 | Send messages to Azure Service Bus from API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-send-service-bus |
 | Delegate user registration and subscriptions in API portal | https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-setup-delegation |
-| Log API Management traffic to Event Hubs and Moesif | https://learn.microsoft.com/en-us/azure/api-management/api-management-log-to-eventhub-sample |
-| Use policy expressions in Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/api-management-policy-expressions |
-| Call external services from API Management policies | https://learn.microsoft.com/en-us/azure/api-management/api-management-sample-send-request |
+| Log Azure API Management traffic to Event Hubs and Moesif | https://learn.microsoft.com/en-us/azure/api-management/api-management-log-to-eventhub-sample |
+| Use Azure API Management policy expressions in C# | https://learn.microsoft.com/en-us/azure/api-management/api-management-policy-expressions |
+| Call external services from Azure API Management policies | https://learn.microsoft.com/en-us/azure/api-management/api-management-sample-send-request |
 | Import Microsoft Foundry AI APIs into Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/azure-ai-foundry-api |
 | Import Azure OpenAI APIs as REST in API Management | https://learn.microsoft.com/en-us/azure/api-management/azure-openai-api-from-specification |
 | Resolve GraphQL fields from Cosmos DB using API Management policy | https://learn.microsoft.com/en-us/azure/api-management/cosmosdb-data-source-policy |
@@ -275,10 +271,10 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Self-host the Azure API Management developer portal | https://learn.microsoft.com/en-us/azure/api-management/developer-portal-self-host |
 | Enable availability zones for Azure API Management | https://learn.microsoft.com/en-us/azure/api-management/enable-availability-zone-support |
 | Deploy API Management gateway as Azure Arc extension | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-azure-arc |
-| Deploy self-hosted gateway to Azure Kubernetes Service | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-azure-kubernetes-service |
+| Deploy Azure API Management self-hosted gateway to AKS | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-azure-kubernetes-service |
 | Deploy API Management self-hosted gateway to Container Apps | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-container-apps |
 | Deploy self-hosted gateway to Docker environments | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-docker |
-| Deploy self-hosted gateway to Kubernetes with YAML | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-kubernetes |
-| Deploy self-hosted gateway to Kubernetes with Helm | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-kubernetes-helm |
-| Deploy self-hosted gateway with OpenTelemetry on Kubernetes | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-kubernetes-opentelemetry |
+| Deploy Azure API Management self-hosted gateway with Kubernetes YAML | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-kubernetes |
+| Deploy Azure API Management self-hosted gateway with Helm | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-kubernetes-helm |
+| Deploy APIM self-hosted gateway to Kubernetes with OpenTelemetry | https://learn.microsoft.com/en-us/azure/api-management/how-to-deploy-self-hosted-gateway-kubernetes-opentelemetry |
 | Recover deleted Azure API Management instances with soft-delete | https://learn.microsoft.com/en-us/azure/api-management/soft-delete |

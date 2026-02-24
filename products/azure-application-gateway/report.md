@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-11'
+generated_at: '2026-02-24'
 category_descriptions:
   configuration: Configuring Application Gateway components (listeners, routing, probes,
     TLS, headers/URLs, Private Link, AKS ingress, health/monitoring) via portal, PowerShell,
@@ -61,8 +61,8 @@ category_descriptions:
 
 ### Updated Pages
 
-- [Frontend IP address](https://learn.microsoft.com/en-us/azure/application-gateway/configuration-frontend-ip)
-  - Updated: 2024-08-08T05:34:00.000Z → 2026-02-10T23:11:00.000Z
+- [SSL termination and end to end SSL](https://learn.microsoft.com/en-us/azure/application-gateway/ssl-overview)
+  - Updated: 2025-10-09T17:32:00.000Z → 2026-02-16T08:00:00.000Z
 
 ## Classified Pages
 
@@ -170,7 +170,6 @@ category_descriptions:
 | [Ingress Controller add-on for AKS (Brownfield)](https://learn.microsoft.com/en-us/azure/application-gateway/tutorial-ingress-controller-add-on-existing) | 0.35 | Tutorial for enabling AGIC add-on for existing AKS and Application Gateway; mainly step-by-step instructions, not focused on expert-level configuration or limits. |
 | [SSL termination - Azure CLI](https://learn.microsoft.com/en-us/azure/application-gateway/tutorial-ssl-cli) | 0.35 | CLI tutorial for TLS termination; similar to index 11, focused on basic setup rather than deep configuration or troubleshooting details. |
 | [SSL termination - PowerShell](https://learn.microsoft.com/en-us/azure/application-gateway/tutorial-ssl-powershell) | 0.35 | PowerShell tutorial for TLS termination; mainly shows how to attach a certificate and create a gateway, without detailed security roles, config tables, or edge-case handling. |
-| [SSL termination and end to end SSL](https://learn.microsoft.com/en-us/azure/application-gateway/ssl-overview) | 0.35 | End-to-end TLS overview; aside from a deprecation date for older TLS versions, it appears conceptual without detailed config tables or error mappings. |
 | [Autoscaling and zone redundant](https://learn.microsoft.com/en-us/azure/application-gateway/tutorial-autoscale-ps) | 0.30 | Autoscale and zone-redundant tutorial; appears to be a how-to without detailed autoscale thresholds, quotas, or decision matrices. |
 | [Azure portal](https://learn.microsoft.com/en-us/azure/application-gateway/how-to-tcp-tls-proxy) | 0.30 | Primarily a step-by-step portal tutorial for configuring Application Gateway as a TCP/TLS proxy to a SQL VM. It does not focus on detailed configuration parameter tables, limits, error codes, or product-specific best-practice guidance; it mainly walks through creating resources and a basic routing rule. |
 | [Create Application Gateway - Azure CLI](https://learn.microsoft.com/en-us/azure/application-gateway/quick-create-cli) | 0.30 | Quickstart using Azure CLI; focuses on basic creation and testing, not on exhaustive configuration parameters, limits, or decision criteria. |
@@ -208,4 +207,5 @@ category_descriptions:
 | [Overview](https://learn.microsoft.com/en-us/azure/application-gateway/tcp-tls-proxy-overview) | 0.20 | Layer 4 proxy overview; no indication of limits, config matrices, or troubleshooting content. |
 | [Redirect web traffic](https://learn.microsoft.com/en-us/azure/application-gateway/tutorial-url-redirect-cli) | 0.20 | CLI tutorial for URL path-based redirection; focuses on example commands, not deep config options, limits, or troubleshooting mappings. |
 | [Route by URL](https://learn.microsoft.com/en-us/azure/application-gateway/create-url-route-portal) | 0.20 | Tutorial for URL path-based routing via portal; primarily procedural without detailed configuration matrices or limits. |
+| [SSL termination and end to end SSL](https://learn.microsoft.com/en-us/azure/application-gateway/ssl-overview) | 0.20 | Page is an overview of TLS and Application Gateway end-to-end TLS support. The summary does not indicate specific configuration parameters, RBAC roles, limits, or detailed error codes; it appears conceptual and high-level rather than containing product-specific expert details. |
 | [Application Gateway for Containers](https://learn.microsoft.com/en-us/azure/application-gateway/for-containers/overview) | 0.10 | Page is an overview of Application Gateway for Containers features and architecture; no indication of numeric limits, configuration tables, error codes, or decision matrices with quantified trade-offs. |

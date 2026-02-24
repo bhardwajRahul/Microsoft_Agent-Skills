@@ -3,7 +3,8 @@ name: azure-app-configuration
 description: Expert knowledge for Azure App Configuration development including troubleshooting, best practices, decision making, architecture & design patterns, limits & quotas, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure App Configuration applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-11"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure App Configuration Skill
 
@@ -21,15 +22,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L34-L38 | Diagnosing and fixing Azure App Configuration network access issues, including firewall/VNet restrictions, private endpoints, DNS, and connectivity error codes. |
-| Best Practices | L39-L44 | Guidance on efficient Azure App Configuration usage patterns and using synchronization tokens to keep distributed clients’ configuration reads consistent and up to date. |
-| Decision Making | L45-L49 | Guidance for upgrading Spring Boot applications to Azure App Configuration Java library v6, including API changes, migration steps, and compatibility considerations. |
-| Architecture & Design Patterns | L50-L55 | Patterns for resilient, geo-redundant App Configuration setups, disaster recovery strategies, and scaling client config delivery using Azure Front Door. |
-| Limits & Quotas | L56-L64 | Point-in-time key-value reads, preview API lifecycle/deprecation, soft delete and data retention, revision management, and REST API throttling limits for Azure App Configuration |
-| Security | L65-L85 | Securing App Configuration: encryption, keys/HMAC, Entra ID RBAC, REST auth, private endpoints, managed identities, network lockdown, and Azure Policy/compliance settings. |
-| Configuration | L86-L113 | Configuring App Configuration usage: dynamic refresh in various runtimes (AKS, Functions, Go, Spring, JS, Python), feature flags/filters, snapshots, labels, JSON keys, REST versioning, and AI agent settings. |
+| Troubleshooting | L35-L39 | Diagnosing and fixing Azure App Configuration network access issues, including firewall/VNet restrictions, private endpoints, DNS, and connectivity error codes. |
+| Best Practices | L40-L45 | Guidance on efficient Azure App Configuration usage patterns and using synchronization tokens to keep distributed clients’ configuration reads consistent and up to date. |
+| Decision Making | L46-L50 | Guidance for upgrading Spring Boot applications to Azure App Configuration Java library v6, including API changes, migration steps, and compatibility considerations. |
+| Architecture & Design Patterns | L51-L56 | Patterns for resilient, geo-redundant App Configuration setups, disaster recovery strategies, and scaling client config delivery using Azure Front Door. |
+| Limits & Quotas | L57-L65 | Point-in-time key-value reads, preview API lifecycle/deprecation, soft delete and data retention, revision management, and REST API throttling limits for Azure App Configuration |
+| Security | L66-L86 | Securing App Configuration: encryption, keys, RBAC/Entra auth, HMAC, REST auth models, private endpoints, network lockdown, managed identities, and Azure Policy/compliance. |
+| Configuration | L87-L113 | Configuring App Configuration usage: dynamic refresh in various runtimes (AKS, Functions, Go, Spring, JS, Python), feature flags/filters, snapshots, labels, JSON keys, REST versioning, and AI agent settings. |
 | Integrations & Coding Patterns | L114-L184 | Patterns and code samples for integrating Azure App Configuration and feature flags (dynamic config, targeting, filters, telemetry, Key Vault, REST) across .NET, Go, JS/Node, Python, AKS, and Functions |
-| Deployment | L185-L195 | Using App Configuration in deployments: CI/CD integration, Azure Pipelines tasks, GitHub Actions sync, Helm/Kubernetes usage, geo-replication, and region moves. |
+| Deployment | L185-L194 | Using App Configuration in deployments: CI/CD integration, Azure Pipelines tasks, GitHub Actions sync, Helm/Kubernetes usage, geo-replication, and region moves. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -106,7 +107,6 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure soft delete retention and recover App Configuration stores | https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-recover-deleted-stores-in-azure-app-configuration |
 | Configure targeting filters for staged feature rollouts | https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-targetingfilter |
 | Configure time window filters for scheduled features | https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-timewindow-filter |
-| Configure and use variant feature flags in App Configuration | https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-variant-feature-flags |
 | Configure Azure App Configuration Kubernetes Provider properties | https://learn.microsoft.com/en-us/azure/azure-app-configuration/reference-kubernetes-provider |
 | Use Python configuration provider for Azure App Configuration | https://learn.microsoft.com/en-us/azure/azure-app-configuration/reference-python-provider |
 | Use Azure App Configuration REST API versioning correctly | https://learn.microsoft.com/en-us/azure/azure-app-configuration/rest-api-versioning |
@@ -188,7 +188,6 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Export App Configuration settings using Azure Pipelines task | https://learn.microsoft.com/en-us/azure/azure-app-configuration/azure-pipeline-export-task |
 | Import App Configuration settings using Azure Pipelines task | https://learn.microsoft.com/en-us/azure/azure-app-configuration/azure-pipeline-import-task |
 | Create App Configuration snapshots with Azure Pipelines task | https://learn.microsoft.com/en-us/azure/azure-app-configuration/azure-pipeline-snapshot-task |
-| Enable and manage geo-replication for Azure App Configuration | https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-geo-replication |
 | Manually move Azure App Configuration store between regions | https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-move-resource-between-regions |
 | Integrate Azure App Configuration into CI/CD pipelines | https://learn.microsoft.com/en-us/azure/azure-app-configuration/integrate-ci-cd-pipeline |
 | Use Azure App Configuration with Kubernetes Helm deployments | https://learn.microsoft.com/en-us/azure/azure-app-configuration/integrate-kubernetes-deployment-helm |

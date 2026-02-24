@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-09'
+generated_at: '2026-02-24'
 category_descriptions:
   configuration: 'Configuring Azure Data Factory: pipelines, activities, triggers,
     data flows, formats, runtimes (managed, self-hosted, Azure-SSIS), networking,
@@ -35,13 +35,13 @@ category_descriptions:
 - **Total Pages**: 538
 - **Fetched**: 538
 - **Fetch Failed**: 0
-- **Classified**: 435
-- **Unclassified**: 103
+- **Classified**: 434
+- **Unclassified**: 104
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 0
-- **Unchanged**: 538
+- **Updated Pages**: 1
+- **Unchanged**: 537
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-data-factory/azure-data-factory.csv`
 
@@ -54,13 +54,18 @@ category_descriptions:
 | configuration | 128 | 23.8% |
 | decision-making | 29 | 5.4% |
 | deployment | 15 | 2.8% |
-| integrations | 164 | 30.5% |
+| integrations | 163 | 30.3% |
 | limits-quotas | 2 | 0.4% |
 | security | 24 | 4.5% |
 | troubleshooting | 53 | 9.9% |
-| *(Unclassified)* | 103 | 19.1% |
+| *(Unclassified)* | 104 | 19.3% |
 
 ## Changes
+
+### Updated Pages
+
+- [Extract data from PDF source](https://learn.microsoft.com/en-us/azure/data-factory/solution-template-extract-data-from-pdf)
+  - Updated: 2024-10-03T08:00:00.000Z → 2026-02-11T23:10:00.000Z
 
 ## Classified Pages
 
@@ -381,7 +386,6 @@ category_descriptions:
 | [Execute Pipeline activity](https://learn.microsoft.com/en-us/azure/data-factory/control-flow-execute-pipeline-activity) | configuration | 0.70 | Documents Execute Pipeline activity properties (pipeline, parameters, waitOnCompletion, etc.) with schema and configuration details unique to Data Factory/Synapse. |
 | [Execute Power Query activity](https://learn.microsoft.com/en-us/azure/data-factory/control-flow-power-query-activity) | configuration | 0.70 | Describes how to set up and use the Power Query activity, including activity properties and execution settings; these are product-specific configuration details. |
 | [External call](https://learn.microsoft.com/en-us/azure/data-factory/data-flow-external-call) | integrations | 0.70 | External call transformation docs describe how to configure endpoint URLs, request payloads, authentication, and response handling within data flows. These are detailed integration parameters and patterns. |
-| [Extract data from PDF source](https://learn.microsoft.com/en-us/azure/data-factory/solution-template-extract-data-from-pdf) | integrations | 0.70 | Template for extracting data from PDF using ADF and Azure AI Document Intelligence. Involves configuring the Document Intelligence connector, model IDs, and handling outputs—detailed integration and configuration between ADF and this AI service. |
 | [Fail activity](https://learn.microsoft.com/en-us/azure/data-factory/control-flow-fail-activity) | configuration | 0.70 | Describes Fail activity configuration including error code/message fields and how they affect pipeline behavior; product-specific settings and behavior. |
 | [Fault tolerance](https://learn.microsoft.com/en-us/azure/data-factory/copy-activity-fault-tolerance) | configuration | 0.70 | Explains ADF-specific fault tolerance settings (skip rows, error thresholds, logging behavior) and how they affect execution; these are concrete configuration parameters and behaviors. |
 | [Filter activity](https://learn.microsoft.com/en-us/azure/data-factory/control-flow-filter-activity) | configuration | 0.70 | Filter activity reference with property names (items, condition), expression usage, and JSON schema specific to Data Factory/Synapse. |
@@ -591,6 +595,7 @@ category_descriptions:
 | [Create data factory - Bicep](https://learn.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-bicep) | 0.20 | Bicep quickstart for creating a factory and copy pipeline. Example deployment script and steps only; no detailed configuration parameter tables or decision criteria. |
 | [Create data factory - Python](https://learn.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-python) | 0.20 | Python quickstart for creating a factory and copy pipeline. Standard tutorial content; does not emphasize limits, quotas, or detailed configuration references. |
 | [Create data factory - REST](https://learn.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-rest-api) | 0.20 | REST API quickstart for creating a factory and pipeline. Focuses on basic API usage rather than comprehensive configuration options, limits, or troubleshooting mappings. |
+| [Extract data from PDF source](https://learn.microsoft.com/en-us/azure/data-factory/solution-template-extract-data-from-pdf) | 0.20 | Solution template/tutorial for extracting data from PDFs using Azure Data Factory and Azure Document Intelligence; likely focuses on workflow steps rather than limits, configuration tables, error-code mappings, or other product-specific expert details. |
 | [Get started with Azure Data Factory](https://learn.microsoft.com/en-us/azure/data-factory/quickstart-get-started) | 0.20 | Quickstart to create first pipeline; step-by-step tutorial without detailed configuration tables, limits, or troubleshooting mappings. |
 | [Hello World - How to copy data](https://learn.microsoft.com/en-us/azure/data-factory/quickstart-hello-world-copy-data-tool) | 0.20 | Quickstart using Copy Data tool; procedural tutorial without structured expert configuration, limits, or troubleshooting content. |
 | [Incrementally load data](https://learn.microsoft.com/en-us/azure/data-factory/tutorial-incremental-copy-overview) | 0.20 | Overview of incremental copy tutorials; conceptual and navigational, not a detailed configuration, limits, or troubleshooting reference. |

@@ -3,7 +3,8 @@ name: azure-synapse-analytics
 description: Expert knowledge for Azure Synapse Analytics development including troubleshooting, best practices, decision making, architecture & design patterns, limits & quotas, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Synapse Analytics applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-09"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Synapse Analytics Skill
 
@@ -21,15 +22,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L34-L55 | Diagnosing and fixing Synapse workspace, SQL/serverless, Spark, Synapse Link, and Studio connectivity issues, including errors, failover, tenant moves, libraries, and UTF-8 text problems. |
-| Best Practices | L56-L110 | Performance, monitoring, and design best practices for Synapse: Spark and SQL tuning, indexing, caching, workload management, data loading, T‑SQL patterns, and migrating from Netezza/Oracle/Teradata. |
-| Decision Making | L111-L131 | Guidance on planning Synapse adoption, POCs, migrations (Netezza/Teradata/enterprise DW), cost management, data ingestion, table distribution, and historical query analysis. |
-| Architecture & Design Patterns | L132-L147 | Architectural guidance for Synapse workspaces, SQL (dedicated/serverless), Spark, table distribution/partitioning, workload isolation/management, and modern DW design/migration from Netezza/Teradata. |
-| Limits & Quotas | L148-L159 | Limits, quotas, and configuration for Synapse networking, Spark autoscale, SQL pool capacity/concurrency, Delta Lake v1 queries, and Synapse Link (Cosmos DB/SQL) features and restrictions. |
-| Security | L160-L211 | Security, identity, and access control for Synapse: RBAC, Entra auth, MFA, encryption, data exfiltration, private link/VNet, firewalls, policies, and secure connectivity to data sources. |
-| Configuration | L212-L251 | Configuring Synapse workspaces: Spark runtimes, pools, libraries, lake databases, SQL workloads, monitoring/metrics, Synapse Link, AML/SynapseML, and pipeline activities. |
-| Integrations & Coding Patterns | L252-L306 | Patterns and code to integrate Synapse Spark/SQL with ADLS, ML/AI services, Cosmos DB, Delta, external storage, monitoring tools, and to load/query data via COPY, PolyBase, OPENROWSET, CETAS. |
-| Deployment | L307-L317 | Deploying and managing Synapse workspaces and dedicated SQL pools: CI/CD setup, ARM template deployment, environment design (dev/test/prod), region moves, restore points, and recovery. |
+| Troubleshooting | L35-L56 | Diagnosing and fixing Synapse workspace, SQL/serverless, Spark, Synapse Link, and Studio connectivity issues, including errors, failover, tenant moves, libraries, and UTF-8 text problems. |
+| Best Practices | L57-L111 | Performance, monitoring, and design best practices for Synapse: Spark and SQL tuning, indexing, caching, workload management, data loading, T‑SQL patterns, and migrating from Netezza/Oracle/Teradata. |
+| Decision Making | L112-L132 | Guidance on planning Synapse adoption, POCs, migrations (Netezza/Teradata/enterprise DW), cost management, data ingestion, table distribution, and historical query analysis. |
+| Architecture & Design Patterns | L133-L148 | Architectural guidance for Synapse workspaces, SQL (dedicated/serverless), Spark, table distribution/partitioning, workload isolation/management, and modern DW design/migration from Netezza/Teradata. |
+| Limits & Quotas | L149-L160 | Limits, quotas, and configuration for Synapse networking, Spark autoscale, SQL pool capacity/concurrency, Delta Lake v1 queries, and Synapse Link (Cosmos DB/SQL) features and restrictions. |
+| Security | L161-L212 | Securing Synapse workspaces end-to-end: identity/auth (Entra, MFA, RBAC), network (VNets, private link, firewalls), data protection (encryption, ACLs, exfil), and secure connectivity to external systems. |
+| Configuration | L213-L251 | Configuring Synapse workspaces: Spark runtimes, pools, libraries, lake databases, SQL workloads, monitoring/metrics, Synapse Link, AML/SynapseML, and pipeline activities. |
+| Integrations & Coding Patterns | L252-L302 | Patterns and code to integrate Synapse Spark/SQL with ADLS, ML/AI services, Cosmos DB, Delta, external storage, monitoring tools, and to load/query data via COPY, PolyBase, OPENROWSET, CETAS. |
+| Deployment | L303-L313 | Deploying and managing Synapse workspaces and dedicated SQL pools: CI/CD setup, ARM template deployment, environment design (dev/test/prod), region moves, restore points, and recovery. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -168,7 +169,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure network security for Azure Synapse workspaces | https://learn.microsoft.com/en-us/azure/synapse-analytics/guidance/security-white-paper-network-security |
 | Use threat detection and auditing in Azure Synapse | https://learn.microsoft.com/en-us/azure/synapse-analytics/guidance/security-white-paper-threat-protection |
 | Browse ADLS Gen2 folders with ACLs in Synapse | https://learn.microsoft.com/en-us/azure/synapse-analytics/how-to-access-container-with-access-control-lists |
-| Set up secure prerequisites for Azure AI services in Synapse | https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/tutorial-configure-cognitive-services-synapse |
+| Configure secure prerequisites for Foundry Tools in Synapse | https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/tutorial-configure-cognitive-services-synapse |
 | Configure security, access, and operations for Netezza to Synapse | https://learn.microsoft.com/en-us/azure/synapse-analytics/migration-guides/netezza/3-security-access-operations |
 | Configure security, access, and operations for Oracle to Synapse | https://learn.microsoft.com/en-us/azure/synapse-analytics/migration-guides/oracle/3-security-access-operations |
 | Configure security, access, and operations for Teradata to Synapse | https://learn.microsoft.com/en-us/azure/synapse-analytics/migration-guides/teradata/3-security-access-operations |
@@ -216,7 +217,6 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure an empty lake database in Synapse | https://learn.microsoft.com/en-us/azure/synapse-analytics/database-designer/create-empty-lake-database |
 | Create a Synapse lake database from templates | https://learn.microsoft.com/en-us/azure/synapse-analytics/database-designer/create-lake-database-from-lake-database-templates |
 | Link Synapse workspaces with Azure Machine Learning | https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/quickstart-integrate-azure-machine-learning |
-| Configure SynapseML environment for Azure AI services | https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/setup-environment-cognitive-services |
 | Configure and query lake databases via serverless SQL | https://learn.microsoft.com/en-us/azure/synapse-analytics/metadata/database |
 | Use shared metadata tables across Spark and SQL | https://learn.microsoft.com/en-us/azure/synapse-analytics/metadata/table |
 | Reference monitoring metrics and logs for Synapse Analytics | https://learn.microsoft.com/en-us/azure/synapse-analytics/monitor-synapse-analytics-reference |
@@ -254,16 +254,12 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 |-------|-----|
 | Analyze arrays and nested schemas with Synapse Spark and SQL | https://learn.microsoft.com/en-us/azure/synapse-analytics/how-to-analyze-complex-schema |
 | Access Synapse ADLS Gen2 data from Azure Machine Learning | https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/access-data-from-aml |
-| Build machine learning applications with SynapseML on Synapse | https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/tutorial-build-applications-use-mmlspark |
-| Detect anomalies with Azure AI Anomaly Detector in Synapse | https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/tutorial-cognitive-services-anomaly |
-| Use Azure AI Language sentiment analysis in Synapse | https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/tutorial-cognitive-services-sentiment |
 | Analyze images using Azure AI Vision in Synapse | https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/tutorial-computer-vision-use-mmlspark |
 | Process documents with Azure AI Document Intelligence in Synapse | https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/tutorial-form-recognizer-use-mmlspark |
 | Run distributed PyTorch training with Horovod on Synapse Spark | https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/tutorial-horovod-pytorch |
 | Run distributed TensorFlow training with Horovod on Synapse Spark | https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/tutorial-horovod-tensorflow |
 | Score ML models with PREDICT in Synapse Spark pools | https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/tutorial-score-model-predict-spark-pool |
 | Run Text Analytics with SynapseML in Azure Synapse | https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/tutorial-text-analytics-use-mmlspark |
-| Use Azure AI Translator with SynapseML in Synapse | https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/tutorial-translator-use-mmlspark |
 | Connect Azure Data Explorer to Synapse Spark | https://learn.microsoft.com/en-us/azure/synapse-analytics/quickstart-connect-azure-data-explorer |
 | Send Synapse Spark metrics and logs to Azure Log Analytics | https://learn.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-azure-log-analytics |
 | Use Delta Lake tables with Synapse Apache Spark | https://learn.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-delta-lake-overview |

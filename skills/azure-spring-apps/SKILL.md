@@ -4,6 +4,7 @@ description: Expert knowledge for Azure Spring Apps development including troubl
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
   generated_at: "2026-02-10"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Spring Apps Skill
 
@@ -21,15 +22,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L34-L51 | Diagnosing and fixing Azure Spring Apps issues: build failures, OOM/restarts, exit codes, VNet connectivity, debugging (remote/JVM/JFR), memory analysis, and real-time log streaming. |
-| Best Practices | L52-L58 | Best practices for production monitoring and diagnostics in Azure Spring Apps: observability setup, JVM diagnostic tuning, and using Application Live View for real-time monitoring. |
-| Decision Making | L59-L65 | Choosing the right Azure Spring Apps plan, understanding Enterprise licensing/Marketplace offers, and how to migrate from Basic/Standard to Enterprise |
-| Architecture & Design Patterns | L66-L72 | Designing external access to Azure Spring Apps using load balancers, Application Gateway, TLS termination, and secure public internet exposure patterns |
-| Limits & Quotas | L73-L82 | Version support, quotas, storage limits, scaling to hundreds of instances, and guidance for running large CPU/memory workloads on Azure Spring Apps. |
-| Security | L83-L105 | Security and identity for Azure Spring Apps: TLS, custom domains, managed identities, Entra ID SSO/RBAC, Key Vault, Azure SQL, GitHub Actions auth, and Azure Policy compliance. |
-| Configuration | L106-L144 | Configuring Azure Spring Apps networking, ingress/egress, TLS, DNS, scaling, gateways, logging/monitoring, config servers, and enterprise Tanzu tools and APM integrations |
-| Integrations & Coding Patterns | L145-L170 | Monitoring, APM agents, logging, database/Redis bindings, gRPC, API gateway, security (Entra ID), and enterprise integrations (Tanzu, Azure OpenAI) for Azure Spring Apps. |
-| Deployment | L171-L186 | Deploying Azure Spring Apps with zero-downtime/blue‑green strategies, CI/CD (GitHub Actions, Azure Pipelines), VNet integration (ARM/Bicep/CLI/Terraform), and buildpack-based app/static site deployment |
+| Troubleshooting | L35-L52 | Diagnosing and fixing Azure Spring Apps issues: build failures, OOM/restarts, exit codes, VNet connectivity, debugging (remote/JVM/JFR), memory analysis, and real-time log streaming. |
+| Best Practices | L53-L59 | Best practices for production monitoring and diagnostics in Azure Spring Apps: observability setup, JVM diagnostic tuning, and using Application Live View for real-time monitoring. |
+| Decision Making | L60-L66 | Choosing the right Azure Spring Apps plan, understanding Enterprise licensing/Marketplace offers, and how to migrate from Basic/Standard to Enterprise |
+| Architecture & Design Patterns | L67-L73 | Designing external access to Azure Spring Apps using load balancers, Application Gateway, TLS termination, and secure public internet exposure patterns |
+| Limits & Quotas | L74-L83 | Version support, quotas, storage limits, scaling to hundreds of instances, and guidance for running large CPU/memory workloads on Azure Spring Apps. |
+| Security | L84-L106 | Security and identity for Azure Spring Apps: TLS, custom domains, managed identities, Entra ID SSO/RBAC, Key Vault, Azure SQL, GitHub Actions auth, and Azure Policy compliance. |
+| Configuration | L107-L145 | Configuring Azure Spring Apps networking, ingress/egress, TLS, DNS, scaling, gateways, logging/monitoring, config servers, and enterprise Tanzu tools and APM integrations |
+| Integrations & Coding Patterns | L146-L171 | Monitoring, APM agents, logging, database/Redis bindings, gRPC, API gateway, security (Entra ID), and enterprise integrations (Tanzu, Azure OpenAI) for Azure Spring Apps. |
+| Deployment | L172-L187 | Deploying Azure Spring Apps with zero-downtime/blue‑green strategies, CI/CD (GitHub Actions, Azure Pipelines), VNet integration (ARM/Bicep/CLI/Terraform), and buildpack-based app/static site deployment |
 
 ### Troubleshooting
 | Topic | URL |

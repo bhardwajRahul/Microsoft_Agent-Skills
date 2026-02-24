@@ -1,7 +1,7 @@
 # Generation Summary
 
-**Generated**: 2026-02-11 13:40:27
-**Total Duration**: 15m 56s
+**Generated**: 2026-02-24 16:06:03
+**Total Duration**: 27m 19s
 
 ## Product Crawl Summary
 
@@ -9,127 +9,126 @@ Quick overview for reviewers. See individual product reports for details.
 
 | # | Product | Pages | Classified | New | Updated | Deleted | Status |
 |---|---------|-------|------------|-----|---------|---------|--------|
-| 1 | Azure Api Center | 35 | 16 | 0 | 0 | 0 | ✓ |
-| 2 | Azure Api Management | 278 | 216 | 4 | 4 | 0 | ✓ |
+| 1 | Azure Api Center | 35 | 14 | 0 | 6 | 0 | ✓ |
+| 2 | Azure Api Management | 276 | 211 | 34 | 8 | 36 | ✓ |
 | 3 | Azure Avere Vfxt | 20 | 13 | 0 | 0 | 0 | ✓ |
-| 4 | Azure App Configuration | 157 | 127 | 0 | 8 | 0 | ✓ |
-| 5 | Azure App Service | 246 | 149 | 0 | 1 | 0 | ✓ |
+| 4 | Azure App Configuration | 158 | 125 | 1 | 3 | 0 | ✓ |
+| 5 | Azure App Service | 247 | 150 | 1 | 1 | 0 | ✓ |
 | 6 | Azure Static Web Apps | 79 | 55 | 0 | 0 | 0 | ✓ |
 | 7 | Azure Application Gateway | 136 | 83 | 0 | 1 | 0 | ✓ |
-| 8 | Azure Synapse Analytics | 381 | 249 | 0 | 0 | 0 | ✓ |
-| 9 | Azure Automation | 115 | 74 | 0 | 0 | 0 | ✓ |
+| 8 | Azure Synapse Analytics | 381 | 244 | 1 | 9 | 1 | ✓ |
+| 9 | Azure Automation | 115 | 74 | 7 | 0 | 7 | ✓ |
 | 10 | Azure Update Center | 49 | 26 | 0 | 0 | 0 | ✓ |
 | 11 | Azure Internet Peering | 23 | 1 | 0 | 0 | 0 | ✓ |
 | 12 | Azure Business Continuity Center | 20 | 7 | 0 | 0 | 0 | ✓ |
-| 13 | Azure Data Explorer | 197 | 131 | 0 | 1 | 0 | ✓ |
+| 13 | Azure Data Explorer | 197 | 131 | 0 | 12 | 0 | ✓ |
 | 14 | Azure Digital Twins | 66 | 47 | 0 | 0 | 0 | ✓ |
 | 15 | Azure Fluid Relay | 25 | 16 | 0 | 0 | 0 | ✓ |
 | 16 | Azure Hpc Cache | 34 | 30 | 0 | 0 | 0 | ✓ |
-| 17 | Azure Managed Grafana | 42 | 31 | 0 | 0 | 0 | ✓ |
-| 18 | Azure Monitor | 551 | 417 | 1 | 0 | 1 | ✓ |
-| 19 | Azure Functions | 352 | 284 | 0 | 1 | 0 | ✓ |
-| 20 | Azure Government | 39 | 31 | 0 | 0 | 0 | ✓ |
-| 21 | Azure Netapp Files | 224 | 160 | 0 | 1 | 0 | ✓ |
-| 22 | Azure Vmware | 134 | 106 | 0 | 0 | 0 | ✓ |
+| 17 | Azure Managed Grafana | 42 | 31 | 1 | 0 | 1 | ✓ |
+| 18 | Azure Monitor | 552 | 417 | 7 | 13 | 6 | ✓ |
+| 19 | Azure Functions | 354 | 284 | 3 | 5 | 1 | ✓ |
+| 20 | Azure Government | 39 | 31 | 1 | 2 | 1 | ✓ |
+| 21 | Azure Netapp Files | 224 | 160 | 0 | 2 | 0 | ✓ |
+| 22 | Azure Vmware | 134 | 109 | 0 | 31 | 0 | ✓ |
 | 23 | Azure Iot | 40 | 16 | 0 | 0 | 0 | ✓ |
-| 24 | Azure Resource Manager | 501 | 367 | 0 | 0 | 0 | ✓ |
-| 25 | Azure Partner Solutions | 80 | 19 | 0 | 0 | 0 | ✓ |
-| 26 | Azure Signalr | 73 | 56 | 0 | 1 | 0 | ✓ |
+| 24 | Azure Resource Manager | 501 | 367 | 0 | 2 | 0 | ✓ |
+| 25 | Azure Partner Solutions | 81 | 17 | 1 | 20 | 0 | ✓ |
+| 26 | Azure Signalr | 73 | 56 | 0 | 0 | 0 | ✓ |
 | 27 | Azure Baremetal Infrastructure | 8 | 1 | 0 | 0 | 0 | ✓ |
-| 28 | Azure Backup | 393 | 272 | 0 | 8 | 0 | ✓ |
+| 28 | Azure Backup | 393 | 271 | 0 | 71 | 0 | ✓ |
 | 29 | Azure Batch | 114 | 79 | 0 | 0 | 0 | ✓ |
 | 30 | Azure Biztalk Services | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 31 | Azure Bot Service | 190 | 132 | 0 | 0 | 0 | ✓ |
 | 32 | Azure Cache | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 33 | Azure Sap | 202 | 166 | 0 | 4 | 0 | ✓ |
-| 34 | Azure Ai Services | 377 | 254 | 0 | 11 | 1 | ✓ |
-| 35 | Azure Communication Services | 516 | 379 | 0 | 0 | 0 | ✓ |
-| 36 | Azure Container Apps | 193 | 116 | 0 | 0 | 0 | ✓ |
-| 37 | Azure Cyclecloud | 112 | 85 | 0 | 0 | 0 | ✓ |
-| 38 | Azure Storage | 527 | 388 | 0 | 3 | 0 | ✓ |
-| 39 | Azure Data Factory | 538 | 435 | 0 | 0 | 0 | ✓ |
-| 40 | Azure Energy Data Services | 50 | 23 | 0 | 0 | 0 | ✓ |
+| 33 | Azure Sap | 203 | 166 | 1 | 17 | 0 | ✓ |
+| 34 | Azure Ai Services | 376 | 270 | 4 | 109 | 6 | ✓ |
+| 35 | Azure Communication Services | 516 | 380 | 0 | 2 | 0 | ✓ |
+| 36 | Azure Container Apps | 195 | 116 | 4 | 18 | 2 | ✓ |
+| 37 | Azure Cyclecloud | 113 | 85 | 1 | 1 | 0 | ✓ |
+| 38 | Azure Storage | 528 | 399 | 1 | 33 | 0 | ✓ |
+| 39 | Azure Data Factory | 538 | 434 | 0 | 1 | 0 | ✓ |
+| 40 | Azure Energy Data Services | 51 | 24 | 3 | 3 | 2 | ✓ |
 | 41 | Azure Data Manager For Agri | 26 | 12 | 0 | 0 | 0 | ✓ |
-| 42 | Azure Devtest Labs | 98 | 69 | 0 | 0 | 0 | ✓ |
-| 43 | Azure Governance | 212 | 152 | 0 | 0 | 0 | ✓ |
-| 44 | Azure Guidance | 365 | 264 | 0 | 2 | 0 | ✓ |
-| 45 | Azure Hdinsight | 425 | 317 | 0 | 0 | 0 | ✓ |
-| 46 | Azure Healthcare Apis | 210 | 133 | 0 | 1 | 0 | ✓ |
+| 42 | Azure Devtest Labs | 98 | 69 | 0 | 1 | 0 | ✓ |
+| 43 | Azure Governance | 213 | 153 | 1 | 11 | 0 | ✓ |
+| 44 | Azure Guidance | 365 | 262 | 0 | 14 | 0 | ✓ |
+| 45 | Azure Hdinsight | 425 | 317 | 0 | 1 | 0 | ✓ |
+| 46 | Azure Healthcare Apis | 210 | 132 | 0 | 4 | 0 | ✓ |
 | 47 | Azure Jenkins | 13 | 12 | 0 | 0 | 0 | ✓ |
 | 48 | Azure Lab Services | 104 | 66 | 0 | 0 | 0 | ✓ |
 | 49 | Azure Business Process Tracking | 6 | 3 | 0 | 0 | 0 | ✓ |
 | 50 | Azure Integration Environments | 4 | 0 | 0 | 0 | 0 | ✓ |
-| 51 | Azure Logic Apps | 200 | 142 | 0 | 3 | 0 | ✓ |
-| 52 | Azure Machine Learning | 532 | 379 | 0 | 4 | 0 | ✓ |
+| 51 | Azure Logic Apps | 199 | 139 | 9 | 4 | 10 | ✓ |
+| 52 | Azure Machine Learning | 532 | 375 | 0 | 19 | 0 | ✓ |
 | 53 | Azure Messaging Services | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 54 | Azure Migrate | 145 | 87 | 1 | 1 | 0 | ✓ |
+| 54 | Azure Migrate | 149 | 92 | 8 | 5 | 4 | ✓ |
 | 55 | Azure Mobile Services | 0 | 0 | 0 | 0 | 0 | ✓ |
 | 56 | Azure Networking | 22 | 12 | 0 | 0 | 0 | ✓ |
 | 57 | Azure Network Function Manager | 8 | 1 | 0 | 0 | 0 | ✓ |
 | 58 | Azure Notification Hubs | 67 | 51 | 0 | 0 | 0 | ✓ |
 | 59 | Azure Operations Management Suite | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 60 | Azure Private Link | 49 | 17 | 0 | 0 | 0 | ✓ |
+| 60 | Azure Private Link | 49 | 16 | 0 | 6 | 0 | ✓ |
 | 61 | Azure Role Based Access Control | 104 | 95 | 0 | 0 | 0 | ✓ |
-| 62 | Azure Scheduler | 1 | 1 | 0 | 0 | 0 | ✓ |
-| 63 | Azure Security | 111 | 43 | 0 | 0 | 0 | ✓ |
-| 64 | Azure Site Recovery | 202 | 123 | 0 | 17 | 0 | ✓ |
-| 65 | Azure Site Reliability Engineering | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 66 | Azure Sql | 583 | 434 | 0 | 2 | 0 | ✓ |
-| 67 | Azure Sql Server Stretch Database | 583 | 424 | 0 | 2 | 0 | ✓ |
-| 68 | Azure Sre Agent | 25 | 14 | 0 | 1 | 0 | ✓ |
-| 69 | Azure Stream Analytics | 168 | 105 | 0 | 0 | 0 | ✓ |
-| 70 | Azure Virtual Machines | 726 | 575 | 0 | 16 | 0 | ✓ |
-| 71 | Azure Confidential Computing | 69 | 38 | 0 | 0 | 0 | ✓ |
-| 72 | Azure Virtual Desktop | 147 | 114 | 0 | 0 | 0 | ✓ |
-| 73 | Azure Cost Management Billing | 262 | 168 | 0 | 0 | 0 | ✓ |
-| 74 | Azure Devtest | 12 | 3 | 0 | 0 | 0 | ✓ |
-| 75 | Azure Service Connector | 63 | 36 | 0 | 0 | 0 | ✓ |
-| 76 | Azure App Testing | 0 | 0 | 0 | 0 | 0 | ✓ |
-| 77 | Azure Playwright Testing | 22 | 17 | 0 | 0 | 0 | ✓ |
-| 78 | Azure Spring Apps | 152 | 118 | 0 | 0 | 0 | ✓ |
-| 79 | Azure Dev Box | 64 | 43 | 0 | 1 | 1 | ✓ |
-| 80 | Azure Deployment Environments | 32 | 21 | 0 | 0 | 0 | ✓ |
-| 81 | Azure Operator Nexus | 209 | 156 | 0 | 0 | 0 | ✓ |
-| 82 | Azure Operator Service Manager | 47 | 27 | 0 | 0 | 0 | ✓ |
-| 83 | Azure Redis | 58 | 45 | 0 | 0 | 0 | ✓ |
+| 62 | Azure Security | 113 | 45 | 2 | 11 | 0 | ✓ |
+| 63 | Azure Site Recovery | 202 | 118 | 0 | 50 | 0 | ✓ |
+| 64 | Azure Site Reliability Engineering | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 65 | Azure Sql | 583 | 433 | 1 | 23 | 1 | ✓ |
+| 66 | Azure Sql Server Stretch Database | 583 | 427 | 1 | 23 | 1 | ✓ |
+| 67 | Azure Sre Agent | 27 | 15 | 3 | 0 | 1 | ✓ |
+| 68 | Azure Stream Analytics | 168 | 103 | 0 | 8 | 0 | ✓ |
+| 69 | Azure Virtual Machines | 727 | 578 | 1 | 29 | 0 | ✓ |
+| 70 | Azure Confidential Computing | 69 | 38 | 0 | 0 | 0 | ✓ |
+| 71 | Azure Virtual Desktop | 147 | 114 | 0 | 4 | 0 | ✓ |
+| 72 | Azure Cost Management Billing | 264 | 166 | 2 | 8 | 0 | ✓ |
+| 73 | Azure Devtest | 12 | 3 | 0 | 0 | 0 | ✓ |
+| 74 | Azure Service Connector | 63 | 37 | 0 | 7 | 0 | ✓ |
+| 75 | Azure App Testing | 0 | 0 | 0 | 0 | 0 | ✓ |
+| 76 | Azure Playwright Testing | 22 | 17 | 0 | 0 | 0 | ✓ |
+| 77 | Azure Spring Apps | 152 | 118 | 0 | 0 | 0 | ✓ |
+| 78 | Azure Dev Box | 64 | 43 | 0 | 6 | 0 | ✓ |
+| 79 | Azure Deployment Environments | 32 | 21 | 0 | 0 | 0 | ✓ |
+| 80 | Azure Operator Nexus | 212 | 158 | 3 | 3 | 0 | ✓ |
+| 81 | Azure Operator Service Manager | 47 | 27 | 0 | 0 | 0 | ✓ |
+| 82 | Azure Redis | 58 | 45 | 0 | 2 | 0 | ✓ |
 
 ### Totals
 
-- **Products Processed**: 83 success, 0 failed
-- **Total Pages**: 13243
-- **Total Classified**: 9374
-- **Total New Pages**: 6
-- **Total Updated Pages**: 94
-- **Total Deleted Pages**: 3
+- **Products Processed**: 82 success, 0 failed
+- **Total Pages**: 13265
+- **Total Classified**: 9385
+- **Total New Pages**: 102
+- **Total Updated Pages**: 609
+- **Total Deleted Pages**: 80
 
 ### Classification by Type (All Products)
 
 | Type | Count |
 |------|-------|
-| architecture-patterns | 322 |
-| best-practices | 615 |
-| configuration | 2462 |
+| architecture-patterns | 305 |
+| best-practices | 617 |
+| configuration | 2460 |
 | decision-making | 753 |
-| deployment | 540 |
-| integrations | 1802 |
-| limits-quotas | 566 |
-| security | 1462 |
-| troubleshooting | 852 |
+| deployment | 549 |
+| integrations | 1800 |
+| limits-quotas | 574 |
+| security | 1478 |
+| troubleshooting | 849 |
 
 ---
 
 ## Bread TOC Summary
 
-- **Total Products**: 117
-- **Total Crawled Nodes**: 149
-- **Total Skipped Nodes**: 107
-- **Total Sub-TOCs**: 66
+- **Total Products**: 116
+- **Total Crawled Nodes**: 150
+- **Total Skipped Nodes**: 105
+- **Total Sub-TOCs**: 68
 
 ## Products by Status
 
 | Status | Count |
 |--------|-------|
-| active | 75 |
+| active | 74 |
 | archived | 21 |
 | virtual | 8 |
 | cross_system | 5 |
@@ -211,7 +210,7 @@ Quick overview for reviewers. See individual product reports for details.
 | 69 | active | azure-lab-services | Azure Lab Services | https://learn.microsoft.com/en-us/azure/lab-services/toc.json | 0 | 0 |
 | 70 | active | azure-business-process-tracking | Azure Business Process Tracking | https://learn.microsoft.com/en-us/azure/business-process-tracking/toc.json | 0 | 0 |
 | 71 | active | azure-integration-environments | Azure Integration Environments | https://learn.microsoft.com/en-us/azure/integration-environments/toc.json | 0 | 0 |
-| 72 | active | azure-logic-apps | Azure Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/toc.json | 0 | 3 |
+| 72 | active | azure-logic-apps | Azure Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/toc.json | 2 | 1 |
 | 73 | active | azure-machine-learning | Azure Machine Learning | https://learn.microsoft.com/en-us/azure/machine-learning/toc.json?view=azureml-api-2 | 1 | 1 |
 | 74 | deprecated | azure-media-services | Azure Media Services | - | 0 | 1 |
 | 75 | virtual | azure-messaging-services | Azure Messaging Services | - | 0 | 4 |
@@ -230,33 +229,32 @@ Quick overview for reviewers. See individual product reports for details.
 | 88 | archived | azure-private-5g-core | Azure Private 5G Core | https://learn.microsoft.com/en-us/previous-versions/azure/private-5g-core/toc.json | 0 | 1 |
 | 89 | deprecated | azure-remoteapp | Azure Remoteapp | - | 0 | 1 |
 | 90 | active | azure-role-based-access-control | Azure Role Based Access Control | https://learn.microsoft.com/en-us/azure/role-based-access-control/toc.json | 0 | 0 |
-| 91 | active | azure-scheduler | Azure Scheduler | https://learn.microsoft.com/en-us/azure/scheduler/toc.json | 0 | 0 |
-| 92 | virtual | azure-security | Azure Security | - | 2 | 5 |
-| 93 | archived | azure-service-fabric-mesh | Azure Service Fabric Mesh | https://learn.microsoft.com/en-us/previous-versions/azure/service-fabric-mesh/service-fabric-mesh-overview/toc.json | 0 | 1 |
-| 94 | active | azure-site-recovery | Azure Site Recovery | https://learn.microsoft.com/en-us/azure/site-recovery/toc.json | 0 | 0 |
-| 95 | virtual | azure-site-reliability-engineering | Azure Site Reliability Engineering | - | 0 | 0 |
-| 96 | active | azure-sql | Azure Sql | https://learn.microsoft.com/en-us/azure/azure-sql/toc.json?view=azuresql | 5 | 0 |
-| 97 | archived | azure-sql-edge | Azure Sql Edge | https://learn.microsoft.com/en-us/previous-versions/azure/azure-sql-edge/toc.json | 0 | 1 |
-| 98 | active | azure-sql-server-stretch-database | Azure Sql Server Stretch Database | https://learn.microsoft.com/en-us/azure/azure-sql/toc.json?view=azuresql | 0 | 0 |
-| 99 | active | azure-sre-agent | Azure Sre Agent | https://learn.microsoft.com/en-us/azure/sre-agent/toc.json | 0 | 0 |
-| 100 | archived | azure-storsimple | Azure Storsimple | https://learn.microsoft.com/en-us/previous-versions/azure/storsimple/toc.json | 0 | 1 |
-| 101 | active | azure-stream-analytics | Azure Stream Analytics | https://learn.microsoft.com/en-us/azure/stream-analytics/toc.json | 0 | 0 |
-| 102 | active | azure-virtual-machines | Azure Virtual Machines | https://learn.microsoft.com/en-us/azure/virtual-machines/toc.json | 3 | 5 |
-| 103 | active | azure-confidential-computing | Azure Confidential Computing | https://learn.microsoft.com/en-us/azure/confidential-computing/toc.json | 0 | 0 |
-| 104 | active | azure-virtual-desktop | Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/toc.json | 0 | 0 |
-| 105 | active | azure-cost-management-billing | Azure Cost Management Billing | https://learn.microsoft.com/en-us/azure/cost-management-billing/toc.json | 7 | 2 |
-| 106 | cross_system | azure-purview | Azure Purview | - | 0 | 1 |
-| 107 | active | azure-devtest | Azure Devtest | https://learn.microsoft.com/en-us/azure/devtest/offer/toc.json | 0 | 0 |
-| 108 | active | azure-service-connector | Azure Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/toc.json | 0 | 0 |
-| 109 | active | azure-app-testing | Azure App Testing | https://learn.microsoft.com/en-us/azure/app-testing/load-testing/overview-what-is-azure-load-testing/toc.json | 0 | 0 |
-| 110 | active | azure-playwright-testing | Azure Playwright Testing | https://learn.microsoft.com/en-us/azure/playwright-testing/toc.json | 0 | 0 |
-| 111 | virtual | azure-spring-apps | Azure Spring Apps | - | 2 | 0 |
-| 112 | active | azure-dev-box | Azure Dev Box | https://learn.microsoft.com/en-us/azure/dev-box/toc.json | 0 | 0 |
-| 113 | active | azure-deployment-environments | Azure Deployment Environments | https://learn.microsoft.com/en-us/azure/deployment-environments/toc.json | 0 | 0 |
-| 114 | active | azure-operator-nexus | Azure Operator Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/toc.json | 0 | 0 |
-| 115 | active | azure-operator-service-manager | Azure Operator Service Manager | https://learn.microsoft.com/en-us/azure/operator-service-manager/toc.json | 0 | 0 |
-| 116 | external | azure-operator-insights | Azure Operator Insights | - | 0 | 1 |
-| 117 | active | azure-redis | Azure Redis | https://learn.microsoft.com/en-us/azure/redis/toc.json | 0 | 1 |
+| 91 | virtual | azure-security | Azure Security | - | 2 | 5 |
+| 92 | archived | azure-service-fabric-mesh | Azure Service Fabric Mesh | https://learn.microsoft.com/en-us/previous-versions/azure/service-fabric-mesh/service-fabric-mesh-overview/toc.json | 0 | 1 |
+| 93 | active | azure-site-recovery | Azure Site Recovery | https://learn.microsoft.com/en-us/azure/site-recovery/toc.json | 0 | 0 |
+| 94 | virtual | azure-site-reliability-engineering | Azure Site Reliability Engineering | - | 0 | 0 |
+| 95 | active | azure-sql | Azure Sql | https://learn.microsoft.com/en-us/azure/azure-sql/toc.json?view=azuresql | 5 | 0 |
+| 96 | archived | azure-sql-edge | Azure Sql Edge | https://learn.microsoft.com/en-us/previous-versions/azure/azure-sql-edge/toc.json | 0 | 1 |
+| 97 | active | azure-sql-server-stretch-database | Azure Sql Server Stretch Database | https://learn.microsoft.com/en-us/azure/azure-sql/toc.json?view=azuresql | 0 | 0 |
+| 98 | active | azure-sre-agent | Azure Sre Agent | https://learn.microsoft.com/en-us/azure/sre-agent/toc.json | 0 | 0 |
+| 99 | archived | azure-storsimple | Azure Storsimple | https://learn.microsoft.com/en-us/previous-versions/azure/storsimple/toc.json | 0 | 1 |
+| 100 | active | azure-stream-analytics | Azure Stream Analytics | https://learn.microsoft.com/en-us/azure/stream-analytics/toc.json | 0 | 0 |
+| 101 | active | azure-virtual-machines | Azure Virtual Machines | https://learn.microsoft.com/en-us/azure/virtual-machines/toc.json | 3 | 5 |
+| 102 | active | azure-confidential-computing | Azure Confidential Computing | https://learn.microsoft.com/en-us/azure/confidential-computing/toc.json | 0 | 0 |
+| 103 | active | azure-virtual-desktop | Azure Virtual Desktop | https://learn.microsoft.com/en-us/azure/virtual-desktop/toc.json | 0 | 0 |
+| 104 | active | azure-cost-management-billing | Azure Cost Management Billing | https://learn.microsoft.com/en-us/azure/cost-management-billing/toc.json | 7 | 2 |
+| 105 | cross_system | azure-purview | Azure Purview | - | 0 | 1 |
+| 106 | active | azure-devtest | Azure Devtest | https://learn.microsoft.com/en-us/azure/devtest/offer/toc.json | 0 | 0 |
+| 107 | active | azure-service-connector | Azure Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/toc.json | 0 | 0 |
+| 108 | active | azure-app-testing | Azure App Testing | https://learn.microsoft.com/en-us/azure/app-testing/load-testing/overview-what-is-azure-load-testing/toc.json | 0 | 0 |
+| 109 | active | azure-playwright-testing | Azure Playwright Testing | https://learn.microsoft.com/en-us/azure/playwright-testing/toc.json | 0 | 0 |
+| 110 | virtual | azure-spring-apps | Azure Spring Apps | - | 2 | 0 |
+| 111 | active | azure-dev-box | Azure Dev Box | https://learn.microsoft.com/en-us/azure/dev-box/toc.json | 0 | 0 |
+| 112 | active | azure-deployment-environments | Azure Deployment Environments | https://learn.microsoft.com/en-us/azure/deployment-environments/toc.json | 0 | 0 |
+| 113 | active | azure-operator-nexus | Azure Operator Nexus | https://learn.microsoft.com/en-us/azure/operator-nexus/toc.json | 0 | 0 |
+| 114 | active | azure-operator-service-manager | Azure Operator Service Manager | https://learn.microsoft.com/en-us/azure/operator-service-manager/toc.json | 0 | 0 |
+| 115 | external | azure-operator-insights | Azure Operator Insights | - | 0 | 1 |
+| 116 | active | azure-redis | Azure Redis | https://learn.microsoft.com/en-us/azure/redis/toc.json | 0 | 1 |
 
 ## Product Details
 
@@ -756,13 +754,18 @@ Quick overview for reviewers. See individual product reports for details.
 - **Original href**: `/azure/logic-apps/`
 - **TOC URL**: https://learn.microsoft.com/en-us/azure/logic-apps/toc.json
 
+**Sub-TOCs:**
+
+| Name | Depth | Status | Original URL | TOC URL |
+|------|-------|--------|--------------|---------|
+| B2B and EDI | 2 | active | https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-enterprise-integration-overview | https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-enterprise-integration-overview/toc.json |
+| Rules Engine | 2 | active | https://learn.microsoft.com/en-us/azure/logic-apps/rules-engine/rules-engine-overview | https://learn.microsoft.com/en-us/azure/logic-apps/rules-engine/rules-engine-overview/toc.json |
+
 **Skipped Nodes:**
 
 | Name | Depth | Original URL | Reason | Details |
 |------|-------|--------------|--------|---------|
-| Connectors | 2 | https://learn.microsoft.com/en-us/azure/logic-apps/connectors/ | status_cross_system | resolved to /azure/logic-apps/connectors |
-| B2B and EDI | 2 | https://learn.microsoft.com/en-us/azure/logic-apps/enterprise-integration/ | status_virtual | resolved to N/A |
-| Rules Engine | 2 | https://learn.microsoft.com/en-us/azure/logic-apps/rules-engine/ | status_virtual | resolved to N/A |
+| Connectors | 2 | https://learn.microsoft.com/en-us/connectors/connector-reference/connector-reference-logicapps-connectors | not_azure_path | href doesn't start with /azure/ |
 
 ### Azure Machine Learning (`azure-machine-learning`)
 

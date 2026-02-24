@@ -3,7 +3,8 @@ name: azure-resource-manager
 description: Expert knowledge for Azure Resource Manager development including troubleshooting, best practices, decision making, architecture & design patterns, limits & quotas, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Resource Manager applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-10"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Resource Manager Skill
 
@@ -21,15 +22,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L34-L132 | Diagnosing and fixing Bicep/ARM deployment issues: detailed guides for specific BCP/ARM errors, syntax/type/decorator problems, scope/name/quota/SKU failures, and using logging/tools to troubleshoot. |
-| Best Practices | L133-L178 | Best practices for authoring and validating Bicep/ARM templates: linter rules, parameter/variable usage, IDs, locations, API versions, REST custom endpoints, testing with ARM TTK, and migration tagging. |
-| Decision Making | L179-L205 | Guidance on ARM-to-Bicep migration, classic vs Resource Manager, and planning/executing Azure regional relocation for VMs, AKS, networking, databases, backup, and other services |
-| Architecture & Design Patterns | L206-L213 | Bicep template design patterns: structuring parameters, using configuration sets and shared variable files, and generating robust, collision‑free resource names. |
-| Limits & Quotas | L214-L243 | ARM/Bicep limits and quotas: resource, tag, naming, history, and subscription caps; throttling; deployment scopes; and patterns to avoid/resolve “quota/limit exceeded” errors. |
-| Security | L244-L277 | Securing ARM/Bicep deployments: handling secrets (Key Vault, secure params/outputs), RBAC and managed apps, private endpoints/links, locks, TLS, and cross-tenant authentication. |
-| Configuration | L278-L360 | Configuring ARM/Bicep templates and managed apps: environment setup, parameters, tags, functions, UI (createUiDefinition) controls, deployment stacks, policy/monitoring, and networking/registry settings. |
-| Integrations & Coding Patterns | L361-L405 | Bicep functions, operators, loops, and tooling (CLI, PowerShell, Python, REST) for ARM deployments, plus patterns for resource groups, tags, AKS, and custom provider REST endpoints. |
-| Deployment | L406-L435 | Deploying ARM/Bicep templates via pipelines, GitHub, portal/CLI/PowerShell, using what-if/rollback, and moving or relocating Azure resources and data across subscriptions/regions. |
+| Troubleshooting | L35-L133 | Diagnosing and fixing Bicep/ARM deployment issues: detailed guides for specific BCP/ARM errors, syntax/type/decorator problems, scope/name/quota/SKU failures, and using logging/tools to troubleshoot. |
+| Best Practices | L134-L179 | Best practices for authoring and validating Bicep/ARM templates: linter rules, parameter/variable usage, IDs, locations, API versions, REST custom endpoints, testing with ARM TTK, and migration tagging. |
+| Decision Making | L180-L207 | Guidance for planning Azure resource changes: ARM→Bicep, classic→ARM, tagging, and especially cross-region relocation strategies for core services (VMs, AKS, networking, data, backup). |
+| Architecture & Design Patterns | L208-L215 | Bicep template design patterns: structuring parameters, using configuration sets and shared variable files, and generating robust, collision‑free resource names. |
+| Limits & Quotas | L216-L244 | ARM/Bicep limits and quotas: resource, tag, naming, history, and subscription caps; throttling; deployment scopes; and patterns to avoid/resolve “quota/limit exceeded” errors. |
+| Security | L245-L278 | Securing ARM/Bicep deployments: handling secrets (Key Vault, secure params/outputs), RBAC and managed apps, private endpoints/links, locks, TLS, and cross-tenant authentication. |
+| Configuration | L279-L361 | Configuring ARM/Bicep templates and managed apps: environment setup, parameters, tags, functions, UI (createUiDefinition) controls, deployment stacks, policy/monitoring, and networking/registry settings. |
+| Integrations & Coding Patterns | L362-L406 | Bicep functions, operators, loops, and tooling (CLI, PowerShell, Python, REST) for ARM deployments, plus patterns for resource groups, tags, AKS, and custom provider REST endpoints. |
+| Deployment | L407-L436 | Deploying ARM/Bicep templates via pipelines, GitHub, portal/CLI/PowerShell, using what-if/rollback, and moving or relocating Azure resources and data across subscriptions/regions. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -202,6 +203,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Relocate Recovery Services vault and Site Recovery | https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/relocation/relocation-site-recovery |
 | Plan and execute VM scale set region relocation | https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/relocation/relocation-virtual-machine-scale-sets |
 | Relocate Azure virtual networks using ARM templates | https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/relocation/relocation-virtual-network |
+| Determine Azure resources that support cost tags | https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-support |
 
 ### Architecture & Design Patterns
 | Topic | URL |
@@ -232,7 +234,6 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Apply Azure resource naming rules and restrictions | https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-name-rules |
 | Identify Azure resources exempt from 800-per-group limit | https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resources-without-resource-group-limit |
 | Use and understand Azure resource tagging limits | https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources |
-| Check tag support matrix for Azure resource types | https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-support |
 | Deploy ARM templates at subscription scope | https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-to-subscription |
 | View ARM deployment history and understand limits | https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-history |
 | Understand ARM deployment history limits and cleanup | https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-history-deletions |
