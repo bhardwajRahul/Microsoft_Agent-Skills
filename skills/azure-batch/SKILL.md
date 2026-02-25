@@ -4,6 +4,7 @@ description: Expert knowledge for Azure Batch development including troubleshoot
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
   generated_at: "2026-02-09"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Batch Skill
 
@@ -21,15 +22,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L34-L40 | Diagnosing and fixing Azure Batch job, task, pool, and node errors, including common failure patterns, error codes, and strategies to prevent and handle runtime issues. |
-| Best Practices | L41-L53 | Guidance on optimizing Batch jobs for performance, scale, monitoring, security, MPI and concurrent workloads, and persisting task outputs to durable storage. |
-| Decision Making | L54-L66 | Guidance on choosing Batch VM sizes/images, using Spot and ephemeral disks, controlling costs, and migrating pools/images and node communication to newer Azure Batch features. |
-| Architecture & Design Patterns | L67-L72 | Designing Azure Batch render farm burst architectures and choosing storage, caching, and data movement patterns for high-performance rendering workloads |
-| Limits & Quotas | L73-L77 | Batch account limits for cores, pools, nodes, jobs, tasks, and how quotas work, request increases, and plan deployments within Azure Batch service constraints. |
-| Security | L78-L97 | Securing Batch accounts and pools: identity (Entra ID, managed identities, RBAC), keys and certificates, encryption, private endpoints/VNet, NSP, Key Vault access, and Azure Policy controls. |
-| Configuration | L98-L128 | Configuring and managing Azure Batch pools, nodes, tasks, networking, autoscale, images, security, and event/diagnostic schemas using CLI, PowerShell, containers, and app/data deployment. |
-| Integrations & Coding Patterns | L129-L142 | Coding patterns and integrations for Batch: SDK usage (.NET/JS), events, task output to Storage, containers, monitoring, and mounting Azure Files/virtual file systems. |
-| Deployment | L143-L147 | Automating Azure Batch deployments and end-to-end job runs using Azure Pipelines and CLI templates, including configuration, orchestration, and CI/CD workflows. |
+| Troubleshooting | L35-L41 | Diagnosing and fixing Azure Batch job, task, pool, and node errors, including common failure patterns, error codes, and strategies to prevent and handle runtime issues. |
+| Best Practices | L42-L54 | Guidance on optimizing Batch jobs for performance, scale, monitoring, security, MPI and concurrent workloads, and persisting task outputs to durable storage. |
+| Decision Making | L55-L67 | Guidance on choosing Batch VM sizes/images, using Spot and ephemeral disks, controlling costs, and migrating pools/images and node communication to newer Azure Batch features. |
+| Architecture & Design Patterns | L68-L73 | Designing Azure Batch render farm burst architectures and choosing storage, caching, and data movement patterns for high-performance rendering workloads |
+| Limits & Quotas | L74-L78 | Batch account limits for cores, pools, nodes, jobs, tasks, and how quotas work, request increases, and plan deployments within Azure Batch service constraints. |
+| Security | L79-L98 | Securing Batch accounts and pools: identity (Entra ID, managed identities, RBAC), keys and certificates, encryption, private endpoints/VNet, NSP, Key Vault access, and Azure Policy controls. |
+| Configuration | L99-L129 | Configuring and managing Azure Batch pools, nodes, tasks, networking, autoscale, images, security, and event/diagnostic schemas using CLI, PowerShell, containers, and app/data deployment. |
+| Integrations & Coding Patterns | L130-L143 | Coding patterns and integrations for Batch: SDK usage (.NET/JS), events, task output to Storage, containers, monitoring, and mounting Azure Files/virtual file systems. |
+| Deployment | L144-L148 | Automating Azure Batch deployments and end-to-end job runs using Azure Pipelines and CLI templates, including configuration, orchestration, and CI/CD workflows. |
 
 ### Troubleshooting
 | Topic | URL |

@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-11'
+generated_at: '2026-02-24'
 category_descriptions:
   deployment: Guides for deploying and migrating SAP HANA and Oracle on Azure NetApp
     Files, including AVGs, DR/HSR, cross-region replication, AzAcSnap, gov regions,
@@ -41,8 +41,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 1
-- **Unchanged**: 223
+- **Updated Pages**: 2
+- **Unchanged**: 222
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-netapp-files/azure-netapp-files.csv`
 
@@ -65,8 +65,10 @@ category_descriptions:
 
 ### Updated Pages
 
-- [Requirements and considerations for large volumes](https://learn.microsoft.com/en-us/azure/azure-netapp-files/large-volumes-requirements-considerations)
-  - Updated: 2025-11-13T18:15:00.000Z → 2026-02-10T08:00:00.000Z
+- [Delete snapshots](https://learn.microsoft.com/en-us/azure/azure-netapp-files/snapshots-delete)
+  - Updated: 2026-01-29T18:11:00.000Z → 2026-02-24T12:29:00.000Z
+- [Create cross-zone replication](https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-cross-zone-replication)
+  - Updated: 2025-11-17T08:00:00.000Z → 2026-02-12T18:37:00.000Z
 
 ## Classified Pages
 
@@ -238,7 +240,6 @@ category_descriptions:
 | TOC Title | Confidence | Reason |
 |-----------|------------|--------|
 | [Benefits of using Azure NetApp Files for Electronic Design Automation (EDA)](https://learn.microsoft.com/en-us/azure/azure-netapp-files/solutions-benefits-azure-netapp-files-electronic-design-automation) | 0.45 | EDA benefits article appears more like solution/benchmark narrative; summary doesn’t clearly indicate reusable configuration tables or decision matrices. |
-| [Create cross-zone replication](https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-cross-zone-replication) | 0.45 | Focuses on creating and managing cross-zone replication relationships; summary suggests a basic how-to without explicit limits, error mappings, or configuration reference tables. |
 | [Networking FAQs](https://learn.microsoft.com/en-us/azure/azure-netapp-files/faq-networking) | 0.45 | Networking FAQ is likely a mix of conceptual Q&A and general guidance; summary does not indicate detailed error mappings, configuration parameter tables, or numeric limits. |
 | [Re-establish volume replication relationships](https://learn.microsoft.com/en-us/azure/azure-netapp-files/reestablish-deleted-volume-relationships) | 0.45 | Re-establishing replication relationships using last common snapshot is product-specific behavior, but summary lacks detailed parameters, limits, or troubleshooting mappings that would qualify as expert knowledge. |
 | [Restore individual files from a backup](https://learn.microsoft.com/en-us/azure/azure-netapp-files/restore-single-file-backup) | 0.45 | Single-file restore from backup mentions restoring up to eight files, but otherwise appears as a straightforward feature how-to without broader limits, config tables, or troubleshooting content. |
@@ -266,7 +267,6 @@ category_descriptions:
 | [Create a short-term clone](https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-short-term-clone) | 0.30 | Describes creating short-term clone volumes conceptually; summary does not indicate numeric limits, special config parameters, or detailed best-practice guidance. |
 | [Create an Elastic capacity pool](https://learn.microsoft.com/en-us/azure/azure-netapp-files/elastic-capacity-pool-task) | 0.30 | Covers creating a capacity pool for Elastic ZRS; summary mentions quota/throughput conceptually but no explicit numeric limits or configuration tables are indicated. |
 | [Create an on-demand snapshot](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-manage-snapshots) | 0.30 | Task-focused how-to for creating on-demand snapshots; summary shows no numeric limits, configuration tables, error codes, or product-specific parameters beyond basic UI steps. |
-| [Delete snapshots](https://learn.microsoft.com/en-us/azure/azure-netapp-files/snapshots-delete) | 0.30 | Simple procedure for deleting snapshots; summary only notes irreversibility, with no detailed configuration, limits, or troubleshooting information. |
 | [Display health and monitor status of replication relationship](https://learn.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-display-health-status) | 0.30 | Viewing replication health status and setting Azure Monitor alerts; appears to be basic monitoring steps without specific error codes, thresholds, or diagnostic mappings. |
 | [Join a Linux VM to an Active Directory Domain](https://learn.microsoft.com/en-us/azure/azure-netapp-files/join-active-directory-domain) | 0.30 | Joining a Linux VM to Microsoft Entra Domain Services is a general Azure/Entra procedure; the summary does not indicate NetApp-specific configuration parameters or limits. |
 | [Manage snapshot policies](https://learn.microsoft.com/en-us/azure/azure-netapp-files/snapshots-manage-policy) | 0.30 | Describes creating and managing snapshot policies conceptually; summary does not indicate specific configuration parameter tables, limits, or decision matrices—primarily procedural guidance. |
@@ -285,7 +285,9 @@ category_descriptions:
 | [Azure NetApp Files tools](https://learn.microsoft.com/en-us/azure/azure-netapp-files/tools-reference) | 0.20 | This page is a marketing/overview-style description of tools (estimators, monitoring, etc.) rather than detailed configuration, limits, or error handling. It doesn’t appear to list specific parameters, limits, or technical decision matrices. |
 | [Create a NetApp Elastic account](https://learn.microsoft.com/en-us/azure/azure-netapp-files/elastic-account) | 0.20 | Page appears to be a step-by-step creation guide for a NetApp Elastic account and capacity pool, without indication of detailed limits, configuration parameter tables, error codes, or decision matrices. It is primarily procedural/tutorial content rather than expert reference material. |
 | [Create a NetApp account](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-netapp-account) | 0.20 | Step-by-step creation of a NetApp account; no limits, quotas, config tables, or product-specific error/security details. Primarily procedural onboarding, not expert reference content. |
+| [Create cross-zone replication](https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-cross-zone-replication) | 0.20 | From the summary, this appears to be a how-to/tutorial on creating and managing cross-zone replication relationships, without clear indication of numeric limits, configuration parameter tables, error-code-based troubleshooting, or decision matrices. It likely describes steps and concepts rather than product-specific limits, quotas, or detailed configuration references. |
 | [Delegate a subnet to Azure NetApp Files](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-delegate-subnet) | 0.20 | Describes delegating a subnet to Azure NetApp Files in a procedural way; no numeric limits, config parameter tables, or troubleshooting/error mappings. |
+| [Delete snapshots](https://learn.microsoft.com/en-us/azure/azure-netapp-files/snapshots-delete) | 0.20 | Task-focused how-to for deleting Azure NetApp Files snapshots; no specific limits, quotas, configuration parameter tables, error-code-based troubleshooting, or other product-specific expert details beyond basic irreversible deletion behavior. |
 | [Generate user and group quota reports](https://learn.microsoft.com/en-us/azure/azure-netapp-files/generate-user-group-quota-reports) | 0.20 | Page focuses on how to generate quota reports, not on specific numeric limits, configuration tables, or error-code-based troubleshooting. The summary does not indicate presence of exact quota values, tier-specific limits, or detailed configuration parameters, so it doesn't meet the expert-knowledge criteria for any sub-skill type. |
 | [Introduction to AzAcSnap](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azacsnap-introduction) | 0.20 | Introductory overview of AzAcSnap; no detailed limits, configs, or error mappings. |
 | [Register for NetApp Resource Provider](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-register) | 0.20 | Step-by-step registration of the NetApp resource provider via Azure portal/Cloud Shell is generic onboarding/tutorial content; it does not focus on configuration parameter tables, limits, or product-specific troubleshooting mappings. |

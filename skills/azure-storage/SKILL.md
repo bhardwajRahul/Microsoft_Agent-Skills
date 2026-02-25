@@ -3,7 +3,8 @@ name: azure-storage
 description: Expert knowledge for Azure Storage development including troubleshooting, best practices, decision making, architecture & design patterns, limits & quotas, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Storage applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-11"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Storage Skill
 
@@ -21,15 +22,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L34-L41 | Diagnosing and fixing issues with BlobFuse mounts/I/O, lifecycle management policy runs, Azure Container Storage v1, and Azure Elastic SAN performance and reliability. |
-| Best Practices | L42-L86 | Performance, resiliency, and monitoring best practices for Blob, Data Lake, Files, Queues, Tables, and Elastic SAN, including tuning, retries, DR, and workload-specific optimizations. |
-| Decision Making | L87-L129 | Cost, performance, and redundancy decision guides for Blob, Data Lake, Container Storage, Elastic SAN, and Azure Files, including tiering, migration choices, DR, and billing/discount options. |
+| Troubleshooting | L35-L42 | Diagnosing and fixing issues with BlobFuse mounts/I/O, lifecycle management policy runs, Azure Container Storage v1, and Azure Elastic SAN performance and reliability. |
+| Best Practices | L43-L87 | Performance, resiliency, and monitoring best practices for Blob, Data Lake, Files, Queues, Tables, and Elastic SAN, including tuning, retries, DR, and workload-specific optimizations. |
+| Decision Making | L88-L129 | Cost, performance, and redundancy decision guides for Blob, Data Lake, Container Storage, Elastic SAN, and Azure Files, including tiering, reservations, migration options, and disaster recovery choices. |
 | Architecture & Design Patterns | L130-L140 | Designing scalable, query-efficient Azure Table schemas, modeling relationships, handling updates, and using/avoiding key design patterns, plus clustered app access to shared Elastic SAN volumes. |
-| Limits & Quotas | L141-L170 | Limits, quotas, performance targets, and known issues for Azure Storage services (Blobs, Files, Queues, Tables, Data Lake, Elastic SAN), including retention, sizing, and throttling behavior. |
-| Security | L171-L249 | Configuring secure access, encryption, RBAC/ABAC, ACLs, SAS tokens, networking, and auth (Entra ID, VPN, Kerberos, SFTP) for Azure Blob, Data Lake, Files, Queues, Tables, and Elastic SAN. |
-| Configuration | L250-L330 | Configuring Azure Storage services: blob tiers, lifecycle, encryption, networking, monitoring, BlobFuse/BlobFuse2, NFS/SFTP, Azure Files/File Sync, Container Storage, and migration setups. |
-| Integrations & Coding Patterns | L331-L447 | Code samples and patterns for integrating Azure Storage with apps and analytics: mounting, SAS, leases, tiers, encryption, ADLS Gen2, Databricks/Synapse, and full CRUD in .NET/Java/JS/Python/Go/CLI/PowerShell. |
-| Deployment | L448-L456 | Guides for deploying and configuring storage: static website hosting (GitHub Actions, Terraform), checking Blob/Data Lake Gen2 support, and deploying/migrating Azure File Sync. |
+| Limits & Quotas | L141-L169 | Limits, quotas, SLAs, and performance targets for Azure Storage services (Blob, Files, Queues, Tables), including retention rules, versioning, soft delete, and known feature limitations. |
+| Security | L170-L254 | Securing Azure Storage data: auth (Entra ID, RBAC, ABAC, ACLs, SAS), encryption (CMK, CPK, client-side, BlobFuse2), networking/VPN, SFTP/SMB/NFS auth, and security best practices. |
+| Configuration | L255-L341 | Configuring Azure Storage services: blob tiers, lifecycle, encryption, networking, monitoring, BlobFuse, NFS/SFTP, Azure Files/File Sync, Container Storage, and migration/mounting options. |
+| Integrations & Coding Patterns | L342-L458 | Code samples and patterns for integrating Azure Storage with apps and analytics: mounting, SAS, leases, tiers, encryption, ADLS Gen2, Databricks/Synapse, and full CRUD in .NET/Java/JS/Python/Go/CLI/PowerShell. |
+| Deployment | L459-L468 | Guides for deploying and configuring storage: static website hosting on Blob (GitHub Actions, Terraform), enabling Data Lake Gen2, and deploying/migrating Azure File Sync and file shares. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -107,25 +108,24 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Use Blob Storage reserved capacity to reduce costs | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-reserved-capacity |
 | Plan upgrade from Blob Storage to Data Lake Gen2 | https://learn.microsoft.com/en-us/azure/storage/blobs/upgrade-to-data-lake-storage-gen2 |
 | Understand and plan Azure Container Storage billing | https://learn.microsoft.com/en-us/azure/storage/container-storage/container-storage-billing |
-| Choose and enable LRS/ZRS for Azure Container Storage | https://learn.microsoft.com/en-us/azure/storage/container-storage/enable-multi-zone-redundancy |
+| Choose LRS or ZRS for Container Storage | https://learn.microsoft.com/en-us/azure/storage/container-storage/enable-multi-zone-redundancy |
 | Choose Elastic SAN integration option for AKS | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-aks-options |
 | Plan capacity and redundancy for Azure Elastic SAN | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-planning |
-| Choose Azure File Sync cloud tiering policy settings | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-choose-cloud-tiering-policies |
+| Select Azure File Sync cloud tiering policies | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-choose-cloud-tiering-policies |
 | Plan Azure File Sync resource moves and topology changes | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-resource-move |
 | Choose performance tier and create classic Azure file shares | https://learn.microsoft.com/en-us/azure/storage/files/create-classic-file-share |
-| Decide when to use Microsoft.FileShares file shares | https://learn.microsoft.com/en-us/azure/storage/files/create-file-share |
+| Decide and create Azure file shares with Microsoft.FileShares | https://learn.microsoft.com/en-us/azure/storage/files/create-file-share |
 | Estimate Azure Files costs across billing models | https://learn.microsoft.com/en-us/azure/storage/files/file-estimate-cost |
 | Plan disaster recovery and failover for Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/files-disaster-recovery |
-| Choose Azure Files redundancy options for availability and DR | https://learn.microsoft.com/en-us/azure/storage/files/files-redundancy |
-| Use Azure Files Reservations to reduce storage costs | https://learn.microsoft.com/en-us/azure/storage/files/files-reserve-capacity |
+| Choose Azure Files data redundancy options | https://learn.microsoft.com/en-us/azure/storage/files/files-redundancy |
+| Choose and use Azure Files Reservations for cost savings | https://learn.microsoft.com/en-us/azure/storage/files/files-reserve-capacity |
 | Migrate GlusterFS volumes to Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/glusterfs-migration-guide |
 | Choose an application development approach for Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-developer-overview |
-| Migrate Linux file servers to NFS Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-nfs |
+| Select and use Linux copy tools for NFS Azure Files migration | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-nfs |
 | Choose migration approaches for SMB Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-overview |
 | Choose between Azure Files and Azure NetApp Files | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-netapp-comparison |
 | Plan and choose an Azure Files deployment model | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-planning |
 | Choose Azure Files billing and redundancy options | https://learn.microsoft.com/en-us/azure/storage/files/understanding-billing |
-| Decide when to use zonal placement for Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/zonal-placement |
 
 ### Architecture & Design Patterns
 | Topic | URL |
@@ -153,10 +153,9 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Check scalability targets for premium page blob accounts | https://learn.microsoft.com/en-us/azure/storage/blobs/scalability-targets-premium-page-blobs |
 | Review SFTP limitations and known issues in Azure Blob Storage | https://learn.microsoft.com/en-us/azure/storage/blobs/secure-file-transfer-protocol-known-issues |
 | Understand blob soft delete behavior and retention | https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-overview |
-| Understand container soft delete behavior and retention | https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-container-overview |
 | Understand Azure page blob size and usage characteristics | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-pageblob-overview |
 | Understand Azure blob versioning behavior and limits | https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-overview |
-| Resize Azure Container Storage persistent volumes safely | https://learn.microsoft.com/en-us/azure/storage/container-storage/resize-volume |
+| Resize Azure Container Storage persistent volumes | https://learn.microsoft.com/en-us/azure/storage/container-storage/resize-volume |
 | Understand Elastic SAN and VM performance constraints | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-performance |
 | Elastic SAN capacity, IOPS, and throughput limits | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-scale-targets |
 | Scalability and performance targets for Azure File Sync | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-scale-targets |
@@ -214,7 +213,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Create user delegation SAS tokens with Java | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-user-delegation-sas-create-java |
 | Create user delegation SAS for blobs with PowerShell | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-user-delegation-sas-create-powershell |
 | Create user delegation SAS tokens for Azure blobs in Python | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-user-delegation-sas-create-python |
-| Configure CMK-based encryption for Elastic SAN volumes | https://learn.microsoft.com/en-us/azure/storage/container-storage/configure-encryption-for-elastic-san |
+| Configure CMK encryption for Elastic SAN volumes | https://learn.microsoft.com/en-us/azure/storage/container-storage/configure-encryption-for-elastic-san |
 | Configure customer-managed key encryption for Elastic SAN | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-configure-customer-managed-keys |
 | Configure private endpoints for secure Elastic SAN access | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-configure-private-endpoints |
 | Configure service endpoints for Azure Elastic SAN volumes | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-configure-service-endpoints |
@@ -224,13 +223,19 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure firewall and proxy settings for Azure File Sync | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-firewall-and-proxy |
 | Use managed identities to secure Azure File Sync | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-managed-identities |
 | Configure TLS encryption in transit for NFS Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/encryption-in-transit-for-nfs-shares |
+| Configure managed identity access to Azure file shares | https://learn.microsoft.com/en-us/azure/storage/files/files-managed-identities |
+| Configure network security perimeter for Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/files-network-security-perimeter |
 | Disable SMB1 on Linux clients for Azure Files security | https://learn.microsoft.com/en-us/azure/storage/files/files-remove-smb1-linux |
 | Configure SMB Azure file shares and security features | https://learn.microsoft.com/en-us/azure/storage/files/files-smb-protocol |
 | Configure root squash security for NFS Azure file shares | https://learn.microsoft.com/en-us/azure/storage/files/nfs-root-squash |
 | Configure point-to-site VPN on Linux for Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-configure-p2s-vpn-linux |
 | Configure point-to-site VPN on Windows for Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-configure-p2s-vpn-windows |
 | Configure site-to-site VPN for Azure Files access | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-configure-s2s-vpn |
+| Enable AD DS-based SMB authentication for Azure file shares | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable |
+| Configure on-premises AD DS authentication for Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-overview |
 | Configure Microsoft Entra Kerberos authentication for Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-identity-auth-hybrid-identities-enable |
+| Enable Kerberos-based Linux SMB access to Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-identity-auth-linux-kerberos-enable |
+| Use Azure Files SMB authentication across multiple AD forests | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-identity-multiple-forests |
 | Configure public and private endpoints for Azure Files | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-networking-endpoints |
 | Plan networking and security for Azure Files access | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-networking-overview |
 | Assign Azure RBAC roles for Queue Storage data access | https://learn.microsoft.com/en-us/azure/storage/queues/assign-azure-role-data-access |
@@ -288,12 +293,19 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure custom domains for Azure Blob and static sites | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-custom-domain-name |
 | Configure Azurite for automated Blob Storage testing | https://learn.microsoft.com/en-us/azure/storage/blobs/use-azurite-to-run-automated-tests |
 | Enable and manage Azure blob versioning | https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-enable |
+| Install Azure Container Storage v1 on AKS | https://learn.microsoft.com/en-us/azure/storage/container-storage/container-storage-aks-quickstart-version-1 |
 | Configure storage pool parameters for Azure Container Storage v1 | https://learn.microsoft.com/en-us/azure/storage/container-storage/container-storage-storage-pool-parameters |
-| Configure Prometheus-based monitoring for Azure Container Storage | https://learn.microsoft.com/en-us/azure/storage/container-storage/enable-monitoring |
+| Enable Prometheus monitoring for Azure Container Storage | https://learn.microsoft.com/en-us/azure/storage/container-storage/enable-monitoring |
+| Manually install Azure Container Storage v1 with AKS | https://learn.microsoft.com/en-us/azure/storage/container-storage/install-container-storage-aks-version-1 |
+| Install Azure Container Storage v1 with Azure Arc CLI | https://learn.microsoft.com/en-us/azure/storage/container-storage/install-container-storage-azure-arc |
 | Control local CSI driver placement via node affinity | https://learn.microsoft.com/en-us/azure/storage/container-storage/manage-local-container-storage-interface-driver-placement |
-| Configure Azure Container Storage with Azure Elastic SAN | https://learn.microsoft.com/en-us/azure/storage/container-storage/use-container-storage-with-elastic-san |
-| Configure Azure Container Storage with local NVMe on AKS | https://learn.microsoft.com/en-us/azure/storage/container-storage/use-container-storage-with-local-disk |
+| Configure Azure Container Storage with Elastic SAN | https://learn.microsoft.com/en-us/azure/storage/container-storage/use-container-storage-with-elastic-san |
+| Use Container Storage v1 with Azure Elastic SAN | https://learn.microsoft.com/en-us/azure/storage/container-storage/use-container-storage-with-elastic-san-version-1 |
+| Use Container Storage v1 with local NVMe | https://learn.microsoft.com/en-us/azure/storage/container-storage/use-container-storage-with-local-disk-version-1 |
+| Configure Container Storage v1 with NVMe replication | https://learn.microsoft.com/en-us/azure/storage/container-storage/use-container-storage-with-local-nvme-replication |
+| Use Container Storage v1 with Temp SSD | https://learn.microsoft.com/en-us/azure/storage/container-storage/use-container-storage-with-temp-ssd |
 | Use Azure Managed Grafana dashboards for Container Storage | https://learn.microsoft.com/en-us/azure/storage/container-storage/use-grafana-dashboard |
+| Configure volume snapshot and restore for Container Storage | https://learn.microsoft.com/en-us/azure/storage/container-storage/volume-snapshot-restore |
 | Use Azure Elastic SAN metrics for performance monitoring | https://learn.microsoft.com/en-us/azure/storage/elastic-san/elastic-san-metrics |
 | Silently install and configure Azure File Sync agent | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-agent-silent-installation |
 | Configure Azure File Sync cloud tiering policies | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-cloud-tiering-policy |
@@ -311,7 +323,6 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Migrate to Azure Files using Azure Storage Mover | https://learn.microsoft.com/en-us/azure/storage/files/migrate-files-storage-mover |
 | Configure size and performance of Azure file shares | https://learn.microsoft.com/en-us/azure/storage/files/modify-file-share |
 | Mount NFS Azure file shares on Linux | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-how-to-mount-nfs-shares |
-| Migrate Linux file services to Azure File Sync hybrid | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-linux-hybrid |
 | Migrate on-premises NAS to Azure Files with Data Box | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-nas-cloud-databox |
 | Migrate on-premises NAS SMB shares to Azure File Sync | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-nas-hybrid |
 | Migrate NAS to Azure File Sync via Azure Data Box | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-nas-hybrid-databox |
@@ -454,3 +465,4 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Enable Data Lake Gen2 features on Blob Storage via ARM | https://learn.microsoft.com/en-us/azure/storage/blobs/upgrade-to-data-lake-storage-gen2-how-to |
 | Deploy Azure File Sync using portal, PowerShell, or CLI | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-deployment-guide |
 | Migrate data between Azure file shares with File Sync | https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-share-to-share-migration |
+| Migrate Linux file servers to Azure File Sync hybrid | https://learn.microsoft.com/en-us/azure/storage/files/storage-files-migration-linux-hybrid |

@@ -4,6 +4,7 @@ description: Expert knowledge for Azure Playwrighting development including trou
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
   generated_at: "2026-02-04"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Playwrighting Skill
 
@@ -21,12 +22,12 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L31-L36 | Diagnosing and fixing Playwright test run failures in Azure, including portal issues and resolving AADSTS7000112 Azure AD sign-in/auth errors |
-| Best Practices | L37-L43 | Best practices for speeding up Playwright Testing runs, configuring visual regression tests, and reducing latency via optimal regional workspace setup. |
-| Limits & Quotas | L44-L49 | Details on Microsoft Playwright Testing usage limits, free trial quotas, concurrency caps, and configurable limits that affect test runs and scaling |
-| Security | L50-L56 | Managing workspace access tokens, setting up authentication/authorization, and configuring RBAC roles and permissions for Microsoft Playwright Testing workspaces. |
-| Configuration | L57-L65 | Setting up and managing Playwright Testing workspaces, configuring playwright.service.config.ts and service features, and enabling/using monitoring, diagnostics, and telemetry data. |
-| Integrations & Coding Patterns | L66-L70 | Patterns for connecting Azure Playwright Testing to local/private apps and configuring reporting when tests are sharded or split across multiple runs. |
+| Troubleshooting | L32-L37 | Diagnosing and fixing Playwright test run failures in Azure, including portal issues and resolving AADSTS7000112 Azure AD sign-in/auth errors |
+| Best Practices | L38-L44 | Best practices for speeding up Playwright Testing runs, configuring visual regression tests, and reducing latency via optimal regional workspace setup. |
+| Limits & Quotas | L45-L50 | Details on Microsoft Playwright Testing usage limits, free trial quotas, concurrency caps, and configurable limits that affect test runs and scaling |
+| Security | L51-L57 | Managing workspace access tokens, setting up authentication/authorization, and configuring RBAC roles and permissions for Microsoft Playwright Testing workspaces. |
+| Configuration | L58-L66 | Setting up and managing Playwright Testing workspaces, configuring playwright.service.config.ts and service features, and enabling/using monitoring, diagnostics, and telemetry data. |
+| Integrations & Coding Patterns | L67-L71 | Patterns for connecting Azure Playwright Testing to local/private apps and configuring reporting when tests are sharded or split across multiple runs. |
 
 ### Troubleshooting
 | Topic | URL |

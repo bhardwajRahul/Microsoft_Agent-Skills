@@ -3,7 +3,8 @@ name: azure-government
 description: Expert knowledge for Azure Government development including best practices, decision making, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Government applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-09"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Government Skill
 
@@ -21,12 +22,12 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Best Practices | L31-L35 | Guidance on naming Azure resources to avoid leaking sensitive info (e.g., user data, locations, project details) while keeping names consistent, compliant, and manageable. |
-| Decision Making | L36-L49 | Guidance on choosing Azure Government vs other clouds, compliance (FedRAMP, NERC CIP, export control), identity, DoD/public safety workloads, and partner/environment selection. |
-| Security | L50-L60 | Security and compliance for Azure Government: isolation models, DoD IL5, FedRAMP scope, TIC guidance, Entra auth, and Secure Azure Computing Architecture for US gov workloads. |
-| Configuration | L61-L74 | Configuring tools and services for Azure Government: CLI/PowerShell, SSMS, Visual Studio, VM extensions, billing, Marketplace usage/publishing, ASE baseline, and Azure Monitor logs. |
-| Integrations & Coding Patterns | L75-L79 | Using Azure Storage REST/SDK APIs in Azure Government, including endpoint differences, authentication, configuration, and code patterns for gov cloud storage accounts. |
-| Deployment | L80-L85 | Guides for deploying to Azure Government: configuring Azure Pipelines CI/CD, publishing App Service apps, and provisioning VMs in government regions. |
+| Best Practices | L32-L36 | Guidance on naming Azure resources to avoid leaking sensitive info (e.g., user data, locations, project details) while keeping names consistent, compliant, and manageable. |
+| Decision Making | L37-L50 | Guidance on choosing Azure Government vs other clouds, compliance (FedRAMP, NERC CIP, export control), identity, DoD/public safety workloads, and partner/environment selection. |
+| Security | L51-L61 | Securing Azure Government: network isolation, TIC guidance, DoD SACA/IL5 patterns, Entra auth, and secure app development (including Foundry Tools) for regulated workloads. |
+| Configuration | L62-L75 | Configuring tools and services for Azure Government: CLI/PowerShell, SSMS, Visual Studio, VM extensions, billing, Marketplace usage/publishing, ASE baseline, and Azure Monitor logs. |
+| Integrations & Coding Patterns | L76-L80 | Using Azure Storage REST/SDK APIs in Azure Government, including endpoint differences, authentication, configuration, and code patterns for gov cloud storage accounts. |
+| Deployment | L81-L86 | Guides for deploying to Azure Government: configuring Azure Pipelines CI/CD, publishing App Service apps, and provisioning VMs in government regions. |
 
 ### Best Practices
 | Topic | URL |
@@ -51,10 +52,10 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Topic | URL |
 |-------|-----|
 | Implement secure isolation across Azure Government resources | https://learn.microsoft.com/en-us/azure/azure-government/azure-secure-isolation-guidance |
-| Understand FedRAMP and DoD compliance scope for Azure clouds | https://learn.microsoft.com/en-us/azure/azure-government/compliance/azure-services-in-fedramp-auditscope |
 | Configure Azure to meet Trusted Internet Connections guidance | https://learn.microsoft.com/en-us/azure/azure-government/compliance/compliance-tic |
 | Apply Secure Azure Computing Architecture for DoD | https://learn.microsoft.com/en-us/azure/azure-government/compliance/secure-azure-computing-architecture |
 | Configure Entra authentication for Azure Government apps | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-aad-auth-qs |
+| Develop Foundry Tools apps in Azure Government | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-cognitiveservices |
 | Configure Azure Government isolation for DoD IL5 | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-impact-level-5 |
 | Security | https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-plan-security |
 

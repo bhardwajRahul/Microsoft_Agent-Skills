@@ -1,9 +1,9 @@
 ---
-generated_at: '2026-02-04'
+generated_at: '2026-02-24'
 category_descriptions:
-  integrations: How to integrate Azure Managed Grafana with Prometheus, Azure Monitor,
-    Azure Data Explorer, AKS, and Azure AI Foundry, including auth setup and connectivity
-    patterns.
+  integrations: 'Integrating Managed Grafana with Azure services: Prometheus (AKS,
+    Azure Monitor), Azure AI Foundry, and Azure Data Explorer, including auth, private
+    endpoints, and metric ingestion.'
   security: 'Securing Azure Managed Grafana: encryption, auth and SSO, Entra-based
     team sync, RBAC and permissions, private endpoints, data source private access,
     and security best practices.'
@@ -32,10 +32,10 @@ category_descriptions:
 - **Unclassified**: 11
 
 ### Incremental Update
-- **New Pages**: 0
+- **New Pages**: 1
 - **Updated Pages**: 0
-- **Unchanged**: 42
-- **Deleted Pages**: 0
+- **Unchanged**: 41
+- **Deleted Pages**: 1
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-managed-grafana/azure-managed-grafana.csv`
 
 ## Classification Statistics
@@ -52,6 +52,14 @@ category_descriptions:
 | *(Unclassified)* | 11 | 26.2% |
 
 ## Changes
+
+### New Pages
+
+- [Microsoft Foundry dashboard](https://learn.microsoft.com/en-us/azure/managed-grafana/azure-ai-foundry-dashboard)
+
+### Deleted Pages
+
+- ~~Azure AI Foundry dashboard~~ (https://learn.microsoft.com/en-us/azure/managed-grafana/azure-ai-foundry-dashboard)
 
 ## Classified Pages
 
@@ -72,7 +80,6 @@ category_descriptions:
 | [Configure data sources](https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-data-source-plugins-managed-identity) | configuration | 0.75 | Details supported data sources per plan and how to add/manage/remove them; likely includes plan-specific support tables and configuration parameters for data sources. |
 | [Migrate from Essential service tier](https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-migrate-essential-service-tier) | decision-making | 0.75 | Explains retirement of Essential tier, transition timeline, and two migration paths (Standard tier vs Azure Monitor dashboards with Grafana). Provides decision guidance between options with plan-specific implications. |
 | [Service reliability](https://learn.microsoft.com/en-us/azure/managed-grafana/high-availability) | decision-making | 0.75 | Describes reliability options for the Standard plan vs Essential, including dedicated VMs, default of two VMs, and availability zone support. This informs plan selection and capacity/reliability decisions with concrete behavior. |
-| [Azure AI Foundry dashboard](https://learn.microsoft.com/en-us/azure/managed-grafana/azure-ai-foundry-dashboard) | integrations | 0.70 | Guides setup of an Azure AI Foundry metrics dashboard with specific metrics (latency, throughput, token usage, success rates); involves product-specific metric names and dashboard configuration patterns. |
 | [Configure SMTP settings](https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-smtp-settings) | configuration | 0.70 | Covers concrete SMTP configuration for Managed Grafana, including enabling SMTP on existing workspaces via portal/CLI and limitations (not during creation). Likely includes specific setting names and parameters for email notifications, which are product-specific configuration details. |
 | [Connect to a data source privately](https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-connect-to-data-source-privately) | security | 0.70 | Explains using Managed Private Endpoints in a Managed VNet to reach Azure data sources. This is product-specific private connectivity and security configuration, likely with endpoint types and constraints. |
 | [Connect to self-hosted Prometheus through managed private endpoint](https://learn.microsoft.com/en-us/azure/managed-grafana/tutorial-mpe-oss-prometheus) | integrations | 0.70 | End-to-end integration of self-hosted Prometheus on AKS with Azure Managed Grafana using managed private endpoints; likely includes product-specific connection settings and configuration parameters. |
@@ -82,6 +89,7 @@ category_descriptions:
 | [Set up private access](https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-set-up-private-access) | security | 0.70 | Guides disabling public access and configuring private endpoints. This is product-specific network security configuration, likely including specific settings and steps for private endpoints and access control. |
 | [Upgrade to Grafana 11](https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-upgrade-grafana-11) | decision-making | 0.70 | Describes retirement timeline for Grafana 10, automatic upgrade date, and guidance to upgrade by a specific deadline. This is product-specific upgrade/decision guidance with concrete dates and behavior. |
 | [Use deterministic outbound IPs](https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-deterministic-ip) | deployment | 0.70 | Describes deterministic outbound IP support, tied to the Standard plan and firewall rules. This is product-specific deployment/operational behavior with plan constraints and networking requirements. |
+| [Microsoft Foundry dashboard](https://learn.microsoft.com/en-us/azure/managed-grafana/azure-ai-foundry-dashboard) | integrations | 0.68 | The page describes how to configure a Microsoft Foundry metrics dashboard in Azure Managed Grafana, which is a product-specific integration pattern. It focuses on wiring AI workload metrics (latency, throughput, token usage, success rates) into Grafana, likely including specific data source settings, metric names, and dashboard configuration details that go beyond generic Grafana usage. This fits the integrations category better than generic configuration or deployment, as the core value is connecting Azure AI Foundry telemetry into Managed Grafana. |
 | [Enable Grafana Enterprise](https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-grafana-enterprise) | decision-making | 0.65 | Describes activating and updating Grafana Enterprise plans and prerequisites (Standard plan requirement); contains plan-specific conditions and likely comparison details guiding plan selection. |
 | [Use Azure Monitor alerts with Grafana](https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-use-azure-monitor-alerts) | deployment | 0.65 | Describes how Azure Monitor and Grafana alerting interact, including that Grafana alerts are unavailable on the Essential plan and that alert rules share compute and query throttling with dashboards. This is product-specific deployment/operational behavior tied to plans and constraints, useful for production alerting design. |
 | [Use reporting and image rendering](https://learn.microsoft.com/en-us/azure/managed-grafana/how-to-use-reporting-and-image-rendering) | limits-quotas | 0.65 | Describes reporting, PDF export, and image rendering performance and limitations; such pages typically include concrete limits (e.g., max pages, resolution, frequency) and behavior constraints. |

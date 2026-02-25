@@ -3,7 +3,8 @@ name: azure-functions
 description: Expert knowledge for Azure Functions development including troubleshooting, best practices, decision making, architecture & design patterns, limits & quotas, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Functions applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-11"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Functions Skill
 
@@ -21,15 +22,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L34-L61 | Diagnosing and fixing Durable Functions and core runtime issues, AZFD/AZFW/AZF error codes, storage/config problems, and Node.js/Python deployment and execution failures. |
-| Best Practices | L62-L96 | Best practices for Durable and regular Azure Functions: orchestrator/entity patterns, error handling, versioning, testing, performance, scaling, DI, idempotency, and reliable event processing. |
+| Troubleshooting | L35-L62 | Diagnosing and fixing Durable Functions and core runtime issues, AZFD/AZFW/AZF error codes, storage/config problems, and Node.js/Python deployment and execution failures. |
+| Best Practices | L63-L96 | Best practices for Durable and regular Azure Functions: orchestrator/entity patterns, error handling, versioning, testing, performance, scaling, DI, idempotency, and reliable event processing. |
 | Decision Making | L97-L122 | Guidance on choosing Functions hosting/runtime options, costs, networking, Durable Task/Scheduler choices, and migrating apps or plans (versions, Node model, Service Bus, AWS Lambda). |
 | Architecture & Design Patterns | L123-L130 | Patterns for containerized Functions on Linux, Durable Functions performance/DR/geo-distribution, and target-based scaling strategies for resilient, scalable architectures. |
 | Limits & Quotas | L131-L138 | Scaling and performance limits for Functions and Durable Functions, including scheduler throughput, event-driven scaling behavior, concurrency settings, and language/runtime support timelines. |
 | Security | L139-L155 | Securing Azure Functions apps: encryption, keys, managed identity, private endpoints/VNets, identity-based connections (SQL, Storage, Service Bus), Web PubSub, and MCP server security. |
-| Configuration | L156-L199 | Configuring how Functions apps run: app/host settings, storage, scaling, plans, dependencies, Durable Functions options, monitoring/telemetry, networking, runtime versions, and local dev settings. |
-| Integrations & Coding Patterns | L200-L312 | How to connect Functions to external services using triggers/bindings (HTTP, data stores, messaging, OpenAI, Dapr, MCP), plus language-specific patterns and integration configuration. |
-| Deployment | L313-L352 | Deploying and hosting Azure Functions: provisioning resources, CI/CD (GitHub Actions, Pipelines, CLI, Bicep/ARM), containers/Kubernetes/Container Apps, zero‑downtime, and Kafka/RabbitMQ bindings. |
+| Configuration | L156-L202 | Configuring Azure Functions runtime, settings, plans, scaling, Durable Functions, monitoring/telemetry, networking/IPs, storage, dependencies, and tooling (Core Tools, MCP, custom handlers). |
+| Integrations & Coding Patterns | L203-L313 | Configuring Azure Functions triggers/bindings and integration patterns with services (Cosmos DB, SQL, Redis, Event Grid, OpenAI, SignalR, Storage, Dapr, Web PubSub) across languages and tools |
+| Deployment | L314-L353 | Deploying and hosting Azure Functions: provisioning resources, CI/CD (GitHub Actions, Pipelines, CLI, Bicep/ARM), containers/Kubernetes/Container Apps, zero‑downtime, and Kafka/RabbitMQ bindings. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -76,7 +77,6 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Enforce singleton orchestrations in Durable Functions | https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-singletons |
 | Use sub-orchestrations in Durable Functions | https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-sub-orchestrations |
 | Implement durable timers in orchestrator functions | https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-timers |
-| Unit test Azure Durable Functions (in-process) | https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-unit-testing |
 | Unit test Durable Functions in .NET Isolated | https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-unit-testing-dotnet-isolated |
 | Unit test Durable Functions Python orchestrations and entities | https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-unit-testing-python |
 | Apply versioning strategies in Durable Functions | https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-versioning |
@@ -174,6 +174,9 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure Durable Task SDK apps with Durable Task Scheduler | https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-task-scheduler/quickstart-portable-durable-task-sdks |
 | Configure Azure Functions extension bundles for non-.NET apps | https://learn.microsoft.com/en-us/azure/azure-functions/extension-bundles |
 | Configure Azure Functions app settings and variables | https://learn.microsoft.com/en-us/azure/azure-functions/functions-app-settings |
+| Configure MCP bindings for Azure Functions tools | https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-mcp |
+| Configure MCP resource trigger bindings in Azure Functions | https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-mcp-resource-trigger |
+| Configure MCP tool trigger bindings in Azure Functions | https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-mcp-tool-trigger |
 | Register and configure Azure Functions binding extensions | https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-register |
 | Configure timer triggers and schedules in Azure Functions | https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-timer |
 | Use Azure Functions Core Tools CLI commands | https://learn.microsoft.com/en-us/azure/azure-functions/functions-core-tools-reference |
@@ -259,8 +262,6 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure HTTP triggers and bindings for Azure Functions | https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook |
 | Configure HTTP output bindings in Azure Functions | https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-output |
 | Implement Azure Functions HTTP trigger bindings | https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger |
-| Expose Azure Functions as MCP tools via bindings | https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-mcp |
-| Configure MCP tool trigger endpoints in Azure Functions | https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-mcp-trigger |
 | Send push notifications with Notification Hubs bindings | https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-notification-hubs |
 | Configure Azure OpenAI extension for Azure Functions | https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-openai |
 | Use Azure OpenAI assistant trigger in Functions | https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-openai-assistant-trigger |

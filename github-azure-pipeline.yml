@@ -149,6 +149,7 @@ stages:
                   --content-types config/content_types_aac.yaml \
                   --products-dir $PRODUCTS_DIR \
                   --skills-dir $SKILLS_DIR \
+                  --toc-discovery-depth 10 \
                   --summary-prefix aac \
                   $FULL_FLAG
 

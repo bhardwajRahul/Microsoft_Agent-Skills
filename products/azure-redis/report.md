@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-04'
+generated_at: '2026-02-24'
 category_descriptions:
   integrations: How to integrate Azure Redis with apps and services (Functions, ASP.NET
     Core caching) and connect from Go, Node.js/TypeScript, and Python using Entra
@@ -35,8 +35,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 0
-- **Unchanged**: 58
+- **Updated Pages**: 2
+- **Unchanged**: 56
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-redis/azure-redis.csv`
 
@@ -56,17 +56,23 @@ category_descriptions:
 
 ## Changes
 
+### Updated Pages
+
+- [Microsoft Entra ID for authentication](https://learn.microsoft.com/en-us/azure/redis/entra-for-authentication)
+  - Updated: 2025-11-06T12:17:00.000Z → 2026-02-14T06:11:00.000Z
+- [Troubleshoot connectivity issues](https://learn.microsoft.com/en-us/azure/redis/troubleshoot-connectivity)
+  - Updated: 2025-05-18T08:00:00.000Z → 2026-02-14T06:11:00.000Z
+
 ## Classified Pages
 
 | TOC Title | Type | Confidence | Reason |
 |-----------|------|------------|--------|
 | [Troubleshoot Redis server](https://learn.microsoft.com/en-us/azure/redis/troubleshoot-server) | troubleshooting | 0.90 | Server-focused troubleshooting (memory pressure, CPU, long commands, bandwidth) with Redis commands and Azure metrics; clear symptom→diagnosis→mitigation content. |
 | [Troubleshoot client](https://learn.microsoft.com/en-us/azure/redis/troubleshoot-client) | troubleshooting | 0.90 | Focuses on diagnosing client conditions (memory pressure, bursts, CPU, bandwidth, large payloads) with symptom→cause→solution patterns specific to this service. |
-| [Troubleshoot connectivity issues](https://learn.microsoft.com/en-us/azure/redis/troubleshoot-connectivity) | troubleshooting | 0.90 | Explicit troubleshooting guide organized by connectivity symptoms (intermittent vs continuous) with Azure-specific diagnostics and resolutions. |
 | [Troubleshoot data loss](https://learn.microsoft.com/en-us/azure/redis/troubleshoot-data-loss) | troubleshooting | 0.90 | Explains how to diagnose partial/complete key loss and expirations with Redis commands and Azure-specific behaviors; classic troubleshooting mapping. |
 | [Troubleshoot latency and timeouts](https://learn.microsoft.com/en-us/azure/redis/troubleshoot-timeouts) | troubleshooting | 0.90 | Dedicated troubleshooting article for latency/timeout issues, likely mapping specific timeout sources, metrics, and mitigations unique to Azure Managed Redis. |
+| [Troubleshoot connectivity issues](https://learn.microsoft.com/en-us/azure/redis/troubleshoot-connectivity) | troubleshooting | 0.86 | The page is explicitly a troubleshooting guide for Azure Managed Redis connectivity, organized around specific symptoms (intermittent vs continuous connectivity problems) and their causes and resolutions. Such content typically includes product-specific error patterns, diagnostic steps, and resolution guidance that go beyond generic debugging knowledge, fitting the troubleshooting sub-skill definition. |
 | [Configure in Azure portal](https://learn.microsoft.com/en-us/azure/redis/configure) | configuration | 0.85 | The article describes available configurations and default Redis settings for Azure Managed Redis, which implies parameter names, allowed values, and defaults. That is exactly product-specific configuration reference material. |
-| [Microsoft Entra ID for authentication](https://learn.microsoft.com/en-us/azure/redis/entra-for-authentication) | security | 0.85 | The page covers Entra-based authentication, managed identities, and token usage for Azure Managed Redis. It necessarily includes specific RBAC roles/permissions, token scopes, and configuration parameters, which are product-specific security settings. |
 | [Monitoring data reference](https://learn.microsoft.com/en-us/azure/redis/monitor-cache-reference) | configuration | 0.85 | Monitoring reference article with detailed metric names, meanings, and possibly thresholds; these are configuration/observability details specific to the product. |
 | [Security controls by Azure Policy](https://learn.microsoft.com/en-us/azure/redis/security-controls-policy) | security | 0.85 | The page lists specific Azure Policy built-in definitions, compliance domains, and security controls for this service. Those policy names and mappings are concrete, product-specific security/compliance configuration knowledge. |
 | [Configure disk encryption](https://learn.microsoft.com/en-us/azure/redis/how-to-encryption) | security | 0.80 | Disk encryption guidance includes specifics about platform-managed vs. customer-managed keys, supported scenarios, and configuration steps. These are product-specific security and compliance settings, not generic encryption theory. |
@@ -82,6 +88,7 @@ category_descriptions:
 | [Persist your cache with Redis data persistence](https://learn.microsoft.com/en-us/azure/redis/how-to-persistence) | configuration | 0.75 | Covers how to configure Redis persistence on Azure Managed Redis, which typically includes product-specific settings, options, and behaviors that go beyond generic Redis persistence concepts. |
 | [Using Azure Functions to create a write-behind cache](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-cache) | integrations | 0.75 | Explains using Azure Functions triggers/bindings with Azure Managed Redis/Azure Cache for Redis; likely includes binding configuration parameters and patterns specific to this integration. |
 | [Using TLS with a managed cache](https://learn.microsoft.com/en-us/azure/redis/tls-configuration) | security | 0.75 | The article details TLS protocol support (1.2 and 1.3 only) and configuration for secure communication. TLS version support and any related settings are concrete security configuration details unique to this service. |
+| [Microsoft Entra ID for authentication](https://learn.microsoft.com/en-us/azure/redis/entra-for-authentication) | security | 0.74 | The page is a how-to for using Microsoft Entra ID (managed identity and tokens) to authenticate to Azure Managed Redis. It necessarily includes product-specific security configuration details such as which identity types are supported, how tokens are requested and passed to Redis clients, and likely specific RBAC roles/permissions or scopes required for cache access. These are concrete, service-specific security settings rather than generic identity concepts, so it fits the security sub-skill. |
 | [Create Redis cache - ARM template](https://learn.microsoft.com/en-us/azure/redis/redis-cache-arm-provision) | deployment | 0.72 | ARM template articles for Azure Managed Redis contain concrete JSON schema for the cache resource, including resource type, API version, and nested properties for diagnostics and other settings. These are precise deployment definitions and patterns for this product, which qualify as expert deployment knowledge rather than generic how-to content. |
 | [Change the size and tier of a cache](https://learn.microsoft.com/en-us/azure/redis/how-to-scale) | deployment | 0.70 | Scaling guidance across SKUs and tiers generally includes which scaling operations are allowed, constraints, and possibly timing/behavior differences per tier. Those are deployment-related, product-specific constraints rather than generic how-to steps. |
 | [Client libraries best practices](https://learn.microsoft.com/en-us/azure/redis/best-practices-client-libraries) | best-practices | 0.70 | Article explicitly focuses on choosing and using client libraries, handling clustering policies, and avoiding common connection issues. This implies product-specific DO/DON'T guidance and gotchas around client behavior and connection management, which fits the best-practices category. |

@@ -3,7 +3,8 @@ name: azure-logic-apps
 description: Expert knowledge for Azure Logic Apps development including troubleshooting, best practices, decision making, architecture & design patterns, limits & quotas, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Logic Apps applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-11"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Logic Apps Skill
 
@@ -21,15 +22,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L34-L49 | Diagnosing and fixing Logic Apps failures, throttling (429), B2B/EDI acknowledgment and error codes (AS2, EDIFACT, X12), plus using tests, metrics, and run history to debug issues. |
-| Best Practices | L50-L60 | Designing robust Logic Apps: error/exception handling, scopes and control functions, Rules Engine optimization, and generating/testing workflows with unit tests and mock outputs. |
-| Decision Making | L61-L72 | Guidance on choosing Logic Apps vs other Azure integration tools, Standard vs Consumption, migration from BizTalk/Power Automate, and estimating/controlling Logic Apps costs and billing. |
-| Architecture & Design Patterns | L73-L87 | Patterns for AI agent workflows, DR/HA (multi-region, zone-redundant), resource replication, REST API design, and messaging patterns like Service Bus sequential convoys. |
-| Limits & Quotas | L88-L96 | Logic Apps limits on message size, pagination, SQL results/timeouts, inline JavaScript, chunking, and global configuration caps, plus how to work around or configure them. |
-| Security | L97-L113 | Securing Logic Apps: auth (managed identities, Entra, OAuth/OBO, Easy Auth), network isolation (VNets, private endpoints, private storage), certificates, and Azure Policy/compliance controls. |
-| Configuration | L114-L149 | Configuring Logic Apps runtime, connections, B2B/integration accounts, WDL workflows, monitoring/telemetry, on-premises access, and specialized features like AS2/X12/EDIFACT and MCP. |
-| Integrations & Coding Patterns | L150-L194 | Patterns and samples for integrating Logic Apps with AI agents, SAP/B2B/healthcare systems, custom APIs, inline code (C#/PowerShell/.NET/Python), Dataverse, telemetry, and automated testing. |
-| Deployment | L195-L210 | Deploying Logic Apps (Standard & Consumption) using ARM/Bicep, DevOps/Deployment Center, deployment slots, hybrid setups, and moving apps across subscriptions/regions. |
+| Troubleshooting | L35-L50 | Diagnosing and fixing Logic Apps failures, throttling (429), B2B/EDI acknowledgment and error codes (AS2, EDIFACT, X12), plus using tests, metrics, and run history to debug issues. |
+| Best Practices | L51-L61 | Designing robust Logic Apps: error/exception handling, scopes and control functions, Rules Engine optimization, and generating/testing workflows with unit tests and mock outputs. |
+| Decision Making | L62-L72 | Guidance on when and how to migrate from BizTalk/Power Automate, choosing Standard vs Consumption, and estimating, planning, and managing Logic Apps costs and pricing. |
+| Architecture & Design Patterns | L73-L85 | Patterns for resilient Logic Apps: DR and multi-region design, zone redundancy, resource replication, API design, and agent loop/prompt-chaining orchestration with Service Bus. |
+| Limits & Quotas | L86-L94 | Logic Apps limits on message size, pagination, SQL results/timeouts, inline JavaScript, chunking, and global configuration caps, plus how to work around or configure them. |
+| Security | L95-L111 | Securing Logic Apps with identities, auth (Entra, Easy Auth, OAuth OBO), private endpoints/storage, certificates, and Azure Policy controls for access, connectors, and cross-tenant use |
+| Configuration | L112-L147 | Configuring Logic Apps runtime, connections, B2B/integration accounts, WDL workflows, monitoring/telemetry, on-premises access, and specialized features like AS2/X12/EDIFACT and MCP. |
+| Integrations & Coding Patterns | L148-L192 | Patterns and samples for integrating Logic Apps with AI agents, SAP/B2B/healthcare systems, custom APIs, inline code (C#/PowerShell/.NET/Python), Dataverse, telemetry, and automated testing. |
+| Deployment | L193-L208 | Deploying Logic Apps (Standard & Consumption) using ARM/Bicep, DevOps/Deployment Center, deployment slots, hybrid setups, and moving apps across subscriptions/regions. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -61,9 +62,8 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 ### Decision Making
 | Topic | URL |
 |-------|-----|
-| Choose Azure integration services for enterprise scenarios | https://learn.microsoft.com/en-us/azure/logic-apps/azure-integration-services-choose-capabilities |
-| Select migration approaches from BizTalk to Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/biztalk-server-migration-approaches |
-| Plan migration from BizTalk Server to Azure Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/biztalk-server-migration-overview |
+| Choose migration approaches from BizTalk to Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/biztalk-server-migration-approaches |
+| Decide when to migrate BizTalk Server to Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/biztalk-server-migration-overview |
 | Estimate storage costs for Standard Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/estimate-storage-costs |
 | Understand Logic Apps metering, billing, and pricing models | https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-pricing |
 | Plan and manage Azure Logic Apps costs | https://learn.microsoft.com/en-us/azure/logic-apps/plan-manage-costs |
@@ -73,17 +73,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 ### Architecture & Design Patterns
 | Topic | URL |
 |-------|-----|
-| Design autonomous AI agent workflows in Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/create-autonomous-agent-workflows |
-| Design conversational AI agent workflows in Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/create-conversational-agent-workflows |
 | Use Logic Apps to replicate Azure resources | https://learn.microsoft.com/en-us/azure/logic-apps/create-replication-tasks-azure-resources |
 | Design web and REST API patterns for Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-create-api-app |
 | Plan disaster recovery for Logic Apps integration accounts | https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-enterprise-integration-b2b-business-continuity |
 | Design multi-region disaster recovery for Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/multi-region-disaster-recovery |
 | Implement sequential convoy pattern for Service Bus | https://learn.microsoft.com/en-us/azure/logic-apps/send-related-messages-sequential-convoy |
-| Implement handoff multiagent chat workflows in Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/set-up-handoff-agent-workflow |
-| Implement prompt-chaining multiagent workflows in Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/set-up-prompt-chain-agent-workflow |
+| Design handoff agent loop workflows in Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/set-up-handoff-agent-workflow |
+| Implement prompt-chaining agent loops in Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/set-up-prompt-chain-agent-workflow |
 | Design zone-redundant Logic Apps for high availability | https://learn.microsoft.com/en-us/azure/logic-apps/set-up-zone-redundancy-availability-zones |
-| Choose single vs multiple AI agents in Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/single-versus-multiple-agents |
+| Choose single vs multiple agent loops in Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/single-versus-multiple-agents |
 
 ### Limits & Quotas
 | Topic | URL |
@@ -104,12 +102,12 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Enable Security Center logging for Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/healthy-unhealthy-resource |
 | Configure Microsoft Entra auth for Logic Apps custom APIs | https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-custom-api-authentication |
 | Configure certificates to secure Logic Apps B2B messages | https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-enterprise-integration-certificates |
-| Configure security for Azure Logic Apps workflows | https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-securing-a-logic-app |
+| Configure secure access and data protection in Azure Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-securing-a-logic-app |
 | Apply Azure Policy built-ins to Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/policy-reference |
 | Secure Standard Logic Apps with private endpoints and VNets | https://learn.microsoft.com/en-us/azure/logic-apps/secure-single-tenant-workflow-virtual-network-private-endpoint |
 | Apply Azure Policy compliance controls to Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/security-controls-policy |
-| Protect Logic Apps agent workflows with Easy Auth | https://learn.microsoft.com/en-us/azure/logic-apps/set-up-authentication-agent-workflows |
-| Configure OAuth OBO flow for Logic Apps agents | https://learn.microsoft.com/en-us/azure/logic-apps/set-up-on-behalf-of-user-flow |
+| Configure Easy Auth security for Logic Apps agentic workflows | https://learn.microsoft.com/en-us/azure/logic-apps/set-up-authentication-agent-workflows |
+| Configure OAuth OBO delegated access for Logic Apps agent tools | https://learn.microsoft.com/en-us/azure/logic-apps/set-up-on-behalf-of-user-flow |
 
 ### Configuration
 | Topic | URL |
@@ -156,7 +154,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Execute inline PowerShell scripts in Standard Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/add-run-powershell-scripts |
 | Integrate Logic Apps workflows with Azure OpenAI and AI Search | https://learn.microsoft.com/en-us/azure/logic-apps/connectors/azure-ai |
 | Use built-in service provider connectors in Logic Apps Standard | https://learn.microsoft.com/en-us/azure/logic-apps/connectors/built-in/reference/ |
-| Run Python code in Logic Apps agent workflows | https://learn.microsoft.com/en-us/azure/logic-apps/connectors/code-interpreter-python-container-apps-session |
+| Run Python code via Code Interpreter in Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/connectors/code-interpreter-python-container-apps-session |
 | Use Azure OpenAI prompt templates in Logic Apps chat workflows | https://learn.microsoft.com/en-us/azure/logic-apps/connectors/create-chat-completions-prompt-template |
 | Use Microsoft Dataverse connector in Logic Apps workflows | https://learn.microsoft.com/en-us/azure/logic-apps/connectors/dataverse |
 | Connect Logic Apps workflows to IBM Informix databases | https://learn.microsoft.com/en-us/azure/logic-apps/connectors/informix |

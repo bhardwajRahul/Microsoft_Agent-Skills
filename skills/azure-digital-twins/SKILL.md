@@ -4,6 +4,7 @@ description: Expert knowledge for Azure Digital Twins development including trou
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
   generated_at: "2026-02-04"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Digital Twins Skill
 
@@ -21,13 +22,13 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L32-L42 | Diagnosing and fixing Azure Digital Twins errors (403/404, CLI parse, Explorer auth), performance issues, known platform problems, and using Azure Resource Health for service-level troubleshooting |
-| Best Practices | L43-L48 | Designing and extending DTDL ontologies and tagging patterns for Azure Digital Twins models, including model structure, reuse, metadata tagging, and organization strategies. |
-| Decision Making | L49-L53 | Guidance for migrating from older Azure Digital Twins preview control plane APIs to current APIs, including breaking changes, mapping, and update steps. |
-| Limits & Quotas | L54-L59 | Details on Azure Digital Twins service limits, quotas, and how query units (QUs) are consumed, calculated, and constrained when running queries. |
-| Security | L60-L68 | Securing Azure Digital Twins: RBAC and access control, Entra app registration and client auth, private endpoints/Private Link, and handling customer personal data. |
-| Configuration | L69-L75 | Setting up event endpoints, routes, and filters, plus configuring monitoring, metrics, and diagnostic logging for Azure Digital Twins instances and integrations. |
-| Integrations & Coding Patterns | L76-L105 | Using APIs/SDKs, CLI, and query language to manage twins/models/graph, integrate with IoT Hub, Data Explorer, Power Platform, and handle events, history, and DTDL parsing/conversion. |
+| Troubleshooting | L33-L43 | Diagnosing and fixing Azure Digital Twins errors (403/404, CLI parse, Explorer auth), performance issues, known platform problems, and using Azure Resource Health for service-level troubleshooting |
+| Best Practices | L44-L49 | Designing and extending DTDL ontologies and tagging patterns for Azure Digital Twins models, including model structure, reuse, metadata tagging, and organization strategies. |
+| Decision Making | L50-L54 | Guidance for migrating from older Azure Digital Twins preview control plane APIs to current APIs, including breaking changes, mapping, and update steps. |
+| Limits & Quotas | L55-L60 | Details on Azure Digital Twins service limits, quotas, and how query units (QUs) are consumed, calculated, and constrained when running queries. |
+| Security | L61-L69 | Securing Azure Digital Twins: RBAC and access control, Entra app registration and client auth, private endpoints/Private Link, and handling customer personal data. |
+| Configuration | L70-L76 | Setting up event endpoints, routes, and filters, plus configuring monitoring, metrics, and diagnostic logging for Azure Digital Twins instances and integrations. |
+| Integrations & Coding Patterns | L77-L106 | Using APIs/SDKs, CLI, and query language to manage twins/models/graph, integrate with IoT Hub, Data Explorer, Power Platform, and handle events, history, and DTDL parsing/conversion. |
 
 ### Troubleshooting
 | Topic | URL |

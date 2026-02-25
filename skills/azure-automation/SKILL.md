@@ -3,7 +3,8 @@ name: azure-automation
 description: Expert knowledge for Azure Automation development including troubleshooting, best practices, decision making, limits & quotas, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Automation applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-04"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Automation Skill
 
@@ -21,25 +22,25 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L33-L43 | Diagnosing and fixing Azure Automation issues: runbook failures, DSC/State Configuration, Hybrid Runbook Workers, managed identity/auth errors, shared resources, and collecting diagnostics for support. |
-| Best Practices | L44-L57 | Best practices for designing, structuring, and managing Azure Automation runbooks/DSC: modular runbooks, error handling, streams, watcher tasks, DR, compliance remediation, and module management. |
-| Decision Making | L58-L66 | Guidance for planning and executing Azure Automation migrations (SC Orchestrator, Log Analytics agent, Hybrid Workers, Run As to managed identity) and choosing how to start runbooks |
-| Limits & Quotas | L67-L74 | Azure Automation and DSC limits, quotas, version history, and support matrices for features like Change Tracking and Inventory, including per-subscription capacity and configuration constraints. |
-| Security | L75-L93 | Securing Azure Automation: identities (system/user-assigned, Entra ID), RBAC, encryption, private endpoints, STIG/policy compliance, and secure runbook/auth configuration. |
-| Configuration | L94-L120 | Configuring Azure Automation accounts: runbooks, State Configuration/DSC, Hybrid Runbook Workers, networking, logging/monitoring, assets (credentials, certs, variables), schedules, source control, and Python/PowerShell modules |
-| Integrations & Coding Patterns | L121-L133 | Patterns for connecting runbooks to AWS, Azure alerts, ARM, webhooks, email (SendGrid), Office 365, Azure SQL, and using SDKs/managed identity for automated provisioning and management |
-| Deployment | L134-L137 | Using Azure Automation State Configuration with Chocolatey to set up continuous deployment of software and configuration across Windows machines |
+| Troubleshooting | L34-L44 | Diagnosing and fixing Azure Automation issues: runbook failures, DSC/State Configuration, Hybrid Runbook Workers, managed identity errors, shared resources, and collecting diagnostics for support. |
+| Best Practices | L45-L58 | Best practices for designing, structuring, and managing Azure Automation runbooks/DSC: modular runbooks, error handling, streams, watcher tasks, DR, compliance remediation, and module management. |
+| Decision Making | L59-L67 | Guidance for planning and executing Azure Automation migrations (SC Orchestrator, Log Analytics agent, Hybrid Workers, Run As to managed identity) and choosing how to start runbooks |
+| Limits & Quotas | L68-L75 | Azure Automation and DSC limits, quotas, version history, and support matrices for features like Change Tracking and Inventory, including per-subscription capacity and configuration constraints. |
+| Security | L76-L94 | Securing Azure Automation: identities (system/user-assigned, Entra ID), RBAC, encryption, private endpoints, STIG/policy compliance, and secure runbook/auth configuration. |
+| Configuration | L95-L121 | Configuring Azure Automation accounts: runbooks, State Configuration/DSC, Hybrid Runbook Workers, networking, logging/monitoring, assets (credentials, certs, variables), schedules, source control, and Python/PowerShell modules |
+| Integrations & Coding Patterns | L122-L134 | Patterns for connecting runbooks to AWS, Azure alerts, ARM, webhooks, email (SendGrid), Office 365, Azure SQL, and using SDKs/managed identity for automated provisioning and management |
+| Deployment | L135-L138 | Using Azure Automation State Configuration with Chocolatey to set up continuous deployment of software and configuration across Windows machines |
 
 ### Troubleshooting
 | Topic | URL |
 |-------|-----|
 | Collect diagnostic data for Azure Automation support cases | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case |
-| Troubleshoot Azure Automation State Configuration issues | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/desired-state-configuration |
-| Troubleshoot extension-based Hybrid Runbook Worker issues | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/extension-based-hybrid-runbook-worker |
-| Troubleshoot agent-based Hybrid Runbook Worker problems | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/hybrid-runbook-worker |
-| Troubleshoot Azure Automation managed identity failures | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/managed-identity |
-| Diagnose and fix Azure Automation runbook issues | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/runbooks |
-| Troubleshoot Azure Automation shared resource problems | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/shared-resources |
+| Troubleshoot Azure Automation State Configuration problems | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/desired-state-configuration |
+| Fix extension-based Hybrid Runbook Worker issues in Automation | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/extension-based-hybrid-runbook-worker |
+| Fix agent-based Hybrid Runbook Worker issues in Automation | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/hybrid-runbook-worker |
+| Diagnose and fix Azure Automation managed identity errors | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/managed-identity |
+| Troubleshoot Azure Automation runbook execution issues | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/runbooks |
+| Resolve Azure Automation shared resource problems | https://learn.microsoft.com/en-us/azure/automation/troubleshoot/shared-resources |
 
 ### Best Practices
 | Topic | URL |

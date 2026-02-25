@@ -36,8 +36,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 1
-- **Unchanged**: 72
+- **Updated Pages**: 0
+- **Unchanged**: 73
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-signalr/azure-signalr.csv`
 
@@ -56,11 +56,6 @@ category_descriptions:
 | *(Unclassified)* | 17 | 23.3% |
 
 ## Changes
-
-### Updated Pages
-
-- [Single instance](https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-scale-signalr)
-  - Updated: 2023-12-15T05:33:00.000Z → 2026-02-11T12:11:00.000Z
 
 ## Classified Pages
 

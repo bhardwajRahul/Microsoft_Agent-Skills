@@ -3,7 +3,8 @@ name: azure-service-connector
 description: Expert knowledge for Azure Service Connector development including troubleshooting, limits & quotas, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Service Connector applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-04"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Service Connector Skill
 
@@ -21,12 +22,12 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L31-L35 | Diagnosing and resolving Service Connector connection failures, auth/config errors, error codes, and common runtime issues when linking Azure compute to external services. |
-| Limits & Quotas | L36-L40 | Known limitations of Azure Service Connector, unsupported scenarios, and suggested workarounds or alternatives for affected connection types and environments |
-| Security | L41-L47 | Security and access control for Service Connector: required permissions, Entra RBAC roles it assigns, and how to configure authentication methods for connected services. |
-| Configuration | L48-L53 | How to list and use connection settings created by Service Connector, and which Azure CLI parameters to pass when creating or managing those connections |
-| Integrations & Coding Patterns | L54-L84 | How to connect Azure apps to databases, messaging, storage, AI, and external services using Service Connector, including auth setup, config, and language-specific connection patterns. |
-| Deployment | L85-L89 | Info on which regions support Service Connector per compute type, and how to create/manage Service Connector connections using infrastructure-as-code tools like Bicep, ARM, or Terraform. |
+| Troubleshooting | L32-L36 | Diagnosing and resolving Service Connector connection failures, auth/config errors, error codes, and common runtime issues when linking Azure compute to external services. |
+| Limits & Quotas | L37-L41 | Known limitations of Azure Service Connector, unsupported scenarios, and suggested workarounds or alternatives for affected connection types and environments |
+| Security | L42-L48 | Security and access control for Service Connector: required permissions, Entra RBAC roles it assigns, and how to configure authentication methods for connected services. |
+| Configuration | L49-L54 | How to list and use connection settings created by Service Connector, and which Azure CLI parameters to pass when creating or managing those connections |
+| Integrations & Coding Patterns | L55-L86 | How to connect Azure apps to databases, messaging, storage, AI/OpenAI, and third‑party services using Service Connector, including auth options, config, and language-specific connection patterns. |
+| Deployment | L87-L91 | Info on which regions support Service Connector per compute type, and how to create/manage Service Connector connections using infrastructure-as-code tools like Bicep, ARM, or Terraform. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -54,12 +55,12 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
-| Integrate Azure AI services using Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-ai-services |
+| Integrate Azure AI Services via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-ai-services |
 | Connect Azure App Configuration via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-app-configuration |
-| Connect Azure AI Multi-Service via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-cognitive-services |
+| Connect Azure AI multi-service using Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-cognitive-services |
 | Connect Confluent Kafka via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-confluent-kafka |
 | Connect Cosmos DB Cassandra via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-cosmos-cassandra |
-| Connect Cosmos DB MongoDB via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-cosmos-db |
+| Integrate Cosmos DB for MongoDB via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-cosmos-db |
 | Connect Cosmos DB Gremlin via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-cosmos-gremlin |
 | Connect Cosmos DB NoSQL via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-cosmos-sql |
 | Connect Cosmos DB Table via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-cosmos-table |
@@ -69,18 +70,19 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Connect MongoDB Atlas via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-mongodb-atlas |
 | Connect Azure Database for MySQL via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-mysql |
 | Connect Neon Serverless Postgres via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-neon-postgres |
-| Connect Azure OpenAI via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-openai |
+| Integrate Azure OpenAI in Foundry Models via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-openai |
 | Connect Azure Database for PostgreSQL via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-postgres |
 | Use Service Connector with Azure Cache for Redis | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-redis-cache |
 | Connect Azure Service Bus via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-service-bus |
 | Connect Azure SignalR Service via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-signalr |
-| Connect Azure SQL Database via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-sql-database |
-| Integrate Azure Blob Storage with Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-storage-blob |
+| Integrate Azure SQL Database with Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-sql-database |
+| Integrate Azure Blob Storage using Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-storage-blob |
 | Connect Azure Files via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-storage-file |
 | Connect Azure Queue Storage via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-storage-queue |
 | Connect Azure Table Storage via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-storage-table |
 | Connect Azure Web PubSub via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/how-to-integrate-web-pubsub |
 | Connect Azure apps to MongoDB Atlas via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/howto-mongodb-atlas-service-connection |
+| Connect AKS to Azure OpenAI via Service Connector | https://learn.microsoft.com/en-us/azure/service-connector/tutorial-python-aks-openai-workload-identity |
 
 ### Deployment
 | Topic | URL |

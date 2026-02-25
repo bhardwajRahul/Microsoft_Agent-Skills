@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-11'
+generated_at: '2026-02-24'
 category_descriptions:
   decision-making: Guidance on planning and choosing App Service tiers, plans, domains,
     networking, auth, and migration paths (Windows/Linux, .NET/Java/WordPress, Arc,
@@ -7,12 +7,12 @@ category_descriptions:
   best-practices: Best practices for deploying, securing, troubleshooting, and routing
     traffic to Azure App Service apps, including Traffic Manager integration and operational
     guidance.
-  configuration: 'Configuring App Service apps: app settings, auth, networking/VNet/ASE,
-    storage, containers/sidecars, scaling, certificates/domains, language runtimes,
-    logging, health checks, and WebJobs.'
-  security: 'Configuring App Service security: auth (Entra, social, OIDC, MCP), TLS/certs,
-    access restrictions, managed identities, private endpoints, Graph/SQL/Storage
-    access, and secure network patterns.'
+  configuration: 'Configuring App Service apps: runtime settings, networking/VNet/ASE,
+    auth, storage, containers/sidecars, scaling, certificates, diagnostics, and platform-specific
+    app configuration.'
+  security: 'Configuring App Service security: auth providers, Entra and managed identities,
+    TLS/SSL and certs, access restrictions, private endpoints, firewall, Key Vault,
+    and secure data access.'
   deployment: Deploying App Service apps via Git/GitHub Actions/Azure Pipelines/FTP/ZIP,
     using containers and deployment slots, managing credentials, DNS migration, WebJobs,
     and Arc/ARM-based environments
@@ -32,14 +32,14 @@ category_descriptions:
 
 ## Summary
 
-- **Total Pages**: 246
-- **Fetched**: 246
+- **Total Pages**: 247
+- **Fetched**: 247
 - **Fetch Failed**: 0
-- **Classified**: 149
+- **Classified**: 150
 - **Unclassified**: 97
 
 ### Incremental Update
-- **New Pages**: 0
+- **New Pages**: 1
 - **Updated Pages**: 1
 - **Unchanged**: 245
 - **Deleted Pages**: 0
@@ -51,21 +51,25 @@ category_descriptions:
 |------|-------|------------|
 | architecture-patterns | 2 | 0.8% |
 | best-practices | 4 | 1.6% |
-| configuration | 49 | 19.9% |
+| configuration | 49 | 19.8% |
 | decision-making | 18 | 7.3% |
 | deployment | 14 | 5.7% |
 | integrations | 7 | 2.8% |
 | limits-quotas | 2 | 0.8% |
-| security | 52 | 21.1% |
+| security | 53 | 21.5% |
 | troubleshooting | 1 | 0.4% |
-| *(Unclassified)* | 97 | 39.4% |
+| *(Unclassified)* | 97 | 39.3% |
 
 ## Changes
 
+### New Pages
+
+- [Industry-wide certificate changes](https://learn.microsoft.com/en-us/azure/app-service/industry-wide-certificate-changes)
+
 ### Updated Pages
 
-- [Mount Azure Storage](https://learn.microsoft.com/en-us/azure/app-service/configure-connect-to-azure-storage)
-  - Updated: 2025-08-15T17:11:00.000Z → 2026-02-09T08:00:00.000Z
+- [Open SSH session to a web app in a container](https://learn.microsoft.com/en-us/azure/app-service/configure-linux-open-ssh-session)
+  - Updated: 2025-08-15T17:11:00.000Z → 2026-02-20T18:12:00.000Z
 
 ## Classified Pages
 
@@ -128,6 +132,7 @@ category_descriptions:
 | [Mount Azure Storage](https://learn.microsoft.com/en-us/azure/app-service/configure-connect-to-azure-storage) | configuration | 0.74 | The page describes how to mount Azure Files as a network share in Azure App Service, which typically includes App Service–specific configuration fields (e.g., storage account name, share name, access key, mount path) and their required/allowed values. This is product-specific configuration detail that an LLM is unlikely to know exactly from training, and it focuses on concrete settings rather than just conceptual guidance. |
 | [About subdomain takeover](https://learn.microsoft.com/en-us/azure/app-service/reference-dangling-subdomain-prevention) | security | 0.72 | Focuses on mitigating a specific security threat with App Service, likely including concrete DNS and resource configuration steps and possibly policy settings unique to Azure to prevent subdomain takeover. |
 | [Enable built-in authentication quickstart](https://learn.microsoft.com/en-us/azure/app-service/scenario-secure-app-authentication-app-service) | security | 0.72 | Quickstart shows exact steps and settings to turn on App Service Authentication and restrict access to organization users, including specific configuration fields and identity provider settings. This is product-specific security configuration. |
+| [Industry-wide certificate changes](https://learn.microsoft.com/en-us/azure/app-service/industry-wide-certificate-changes) | security | 0.72 | Page describes concrete, time-bound industry TLS certificate changes and how they specifically impact Azure App Service Managed Certificates and App Service Certificates, including required customer actions to avoid service disruption. This is product-specific security/compliance configuration guidance (certificate handling, validation behavior, and timelines) that an LLM is unlikely to know from training and is tightly tied to Azure App Service certificate management. |
 | [Use JavaScript](https://learn.microsoft.com/en-us/azure/app-service/tutorial-connect-msi-key-vault-javascript) | security | 0.72 | Tutorial contains concrete, product-specific security configuration: enabling managed identity on App Service, assigning specific Key Vault access policies/RBAC roles, and using particular SDK/auth configuration patterns to securely retrieve secrets. These are detailed, implementation-focused security steps beyond generic concepts. |
 | [Use PHP](https://learn.microsoft.com/en-us/azure/app-service/tutorial-connect-msi-key-vault-php) | security | 0.72 | Similar to index 0 but for PHP; includes specific steps to configure managed identity, Key Vault permissions, and code/auth patterns unique to App Service + Key Vault integration, which are product-specific security configurations. |
 | [Use Python](https://learn.microsoft.com/en-us/azure/app-service/tutorial-connect-msi-key-vault-python) | security | 0.72 | As with the JS/PHP variants, this tutorial provides concrete configuration of managed identity, Key Vault access, and Python SDK usage to securely handle secrets, which is detailed, product-specific security guidance. |
@@ -169,7 +174,7 @@ category_descriptions:
 | [Migrate Python Windows apps to Linux](https://learn.microsoft.com/en-us/azure/app-service/app-service-migration-windows-linux) | decision-making | 0.70 | Migration considerations between Windows and Linux on App Service are product-specific and include concrete guidance on dependencies, runtime support, and behavior differences that influence migration decisions; this is scenario-focused decision guidance rather than generic concepts. |
 | [Monitoring data reference](https://learn.microsoft.com/en-us/azure/app-service/monitor-app-service-reference) | configuration | 0.70 | Monitoring data reference that likely lists specific metric names, dimensions, and log categories for App Service. These are product-specific configuration/telemetry parameters that qualify as expert reference knowledge. |
 | [Networking features overview](https://learn.microsoft.com/en-us/azure/app-service/networking-features) | decision-making | 0.70 | Article’s purpose is to help select among multiple App Service networking options based on scenarios. It contains product-specific guidance on when to use each feature (access restrictions, VNet integration, private endpoints, etc.) rather than just describing them, which is decision-making guidance beyond generic knowledge. |
-| [Open SSH session to a web app in a container](https://learn.microsoft.com/en-us/azure/app-service/configure-linux-open-ssh-session) | configuration | 0.70 | Page describes product-specific SSH enablement for Linux and Windows containers in App Service, including required Dockerfile/image changes and App Service settings. These are concrete configuration details unique to the product, beyond generic SSH usage. |
+| [Open SSH session to a web app in a container](https://learn.microsoft.com/en-us/azure/app-service/configure-linux-open-ssh-session) | configuration | 0.70 | Page describes product-specific SSH enablement for Linux and Windows containers in Azure App Service, including required image modifications and settings unique to this service. This is concrete configuration guidance rather than generic SSH usage, but it does not focus on limits, security roles, or deployment matrices. |
 | [Overview of TLS/SSL in App Service](https://learn.microsoft.com/en-us/azure/app-service/overview-tls) | security | 0.70 | Explains TLS versions supported, certificate types, bindings, and mutual auth specifics for App Service. Contains product-specific security behavior and supported configurations beyond generic TLS concepts. |
 | [Scale up server capacity](https://learn.microsoft.com/en-us/azure/app-service/manage-scale-up) | limits-quotas | 0.70 | Scale-up article typically includes SKU-specific CPU, memory, storage, and feature matrices with exact numeric capacities per tier. These are concrete limits/quotas that are unlikely to be reliably known from training data. |
 | [Security](https://learn.microsoft.com/en-us/azure/app-service/configure-language-java-security) | security | 0.70 | Article focuses on Java-specific security settings: authentication integration, Key Vault references, Java keystore configuration; likely includes concrete setting names, configuration parameters, and possibly RBAC/Key Vault reference syntax. |

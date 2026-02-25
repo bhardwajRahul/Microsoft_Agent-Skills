@@ -4,6 +4,7 @@ description: Expert knowledge for Azure Network Function Manager development inc
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
   generated_at: "2026-02-04"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Network Function Manager Skill
 
@@ -21,7 +22,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Security | L26-L29 | Setting up managed identities, role assignments, and resource registration needed to securely deploy and operate Network Function Manager resources |
+| Security | L27-L30 | Setting up managed identities, role assignments, and resource registration needed to securely deploy and operate Network Function Manager resources |
 
 ### Security
 | Topic | URL |

@@ -3,7 +3,8 @@ name: azure-data-factory
 description: Expert knowledge for Azure Data Factory development including troubleshooting, best practices, decision making, architecture & design patterns, limits & quotas, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Data Factory applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-09"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Data Factory Skill
 
@@ -21,14 +22,14 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L34-L90 | Diagnosing and fixing ADF failures: connector/format errors, copy and data flow issues, CI/CD and Studio problems, IR/SSIS runtime and trigger/orchestration troubleshooting. |
-| Best Practices | L91-L111 | Performance, reliability, and DataOps best practices for ADF: tuning data flows/copy/IR, metadata‑driven design, SAP CDC, data lake writes, BCDR, SLAs, and iterative debugging. |
-| Decision Making | L112-L144 | Cost modeling, pricing examples, FinOps, runtime/compute selection, connector upgrades, and migration planning (SSIS, HDFS, S3, Netezza, Fabric) for Azure Data Factory. |
-| Architecture & Design Patterns | L145-L151 | Patterns for building efficient ADF solutions: optimizing mapping data flows, reshaping SQL data for Cosmos DB, and deciding when/how to integrate Azure-SSIS IR with VNets. |
-| Limits & Quotas | L152-L157 | Info on Data Factory connector lifecycle (preview/GA, deprecation timelines) and configuring Until activity loop behavior, limits, and timeout settings |
-| Security | L158-L185 | Securing Data Factory with identity, encryption, Key Vault, firewall/VNet/Private Link, policies, and secure access to SQL, Purview, SSIS, and self-hosted/managed integration runtimes. |
-| Configuration | L186-L317 | Configuring Azure Data Factory: pipelines, activities, triggers, data flows, formats, runtimes (managed, self-hosted, Azure-SSIS), networking, logging/monitoring, DevOps, and advanced copy/CDC patterns. |
-| Integrations & Coding Patterns | L318-L485 | Patterns and how-tos for connecting ADF to many data sources, using mapping data flows and functions, integrating with ML/Synapse/Fabric/SSIS, and automating pipelines via SDKs and APIs. |
+| Troubleshooting | L35-L91 | Diagnosing and fixing ADF failures: connector/format errors, copy and data flow issues, CI/CD and Studio problems, IR/SSIS runtime and trigger/orchestration troubleshooting. |
+| Best Practices | L92-L112 | Performance, reliability, and DataOps best practices for ADF: tuning data flows/copy/IR, metadata‑driven design, SAP CDC, data lake writes, BCDR, SLAs, and iterative debugging. |
+| Decision Making | L113-L145 | Cost modeling, pricing examples, FinOps, runtime/compute selection, connector upgrades, and migration planning (SSIS, HDFS, S3, Netezza, Fabric) for Azure Data Factory. |
+| Architecture & Design Patterns | L146-L152 | Patterns for building efficient ADF solutions: optimizing mapping data flows, reshaping SQL data for Cosmos DB, and deciding when/how to integrate Azure-SSIS IR with VNets. |
+| Limits & Quotas | L153-L158 | Info on Data Factory connector lifecycle (preview/GA, deprecation timelines) and configuring Until activity loop behavior, limits, and timeout settings |
+| Security | L159-L186 | Securing Data Factory with identity, encryption, Key Vault, firewall/VNet/Private Link, policies, and secure access to SQL, Purview, SSIS, and self-hosted/managed integration runtimes. |
+| Configuration | L187-L318 | Configuring Azure Data Factory: pipelines, activities, triggers, data flows, formats, runtimes (managed, self-hosted, Azure-SSIS), networking, logging/monitoring, DevOps, and advanced copy/CDC patterns. |
+| Integrations & Coding Patterns | L319-L485 | Patterns and how-tos for connecting ADF to many data sources, using mapping data flows and functions, integrating with ML/Synapse/Fabric/SSIS, and automating pipelines via SDKs and APIs. |
 | Deployment | L486-L503 | CI/CD and deployment for Data Factory: ARM/DevOps pipelines, environment promotion, hotfix flows, pre/post scripts, cloning factories, and deploying/managing SHIR and Azure-SSIS runtimes. |
 
 ### Troubleshooting
@@ -461,7 +462,6 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Use REST APIs for Workflow Orchestration Manager runtime | https://learn.microsoft.com/en-us/azure/data-factory/rest-apis-for-airflow-integrated-runtime |
 | Use Azure Data Factory PowerShell script samples | https://learn.microsoft.com/en-us/azure/data-factory/samples-powershell |
 | Process Azure AutoML model outputs with ADF data flows | https://learn.microsoft.com/en-us/azure/data-factory/scenario-dataflow-process-data-aml-models |
-| Extract structured data from PDFs with ADF and Document Intelligence | https://learn.microsoft.com/en-us/azure/data-factory/solution-template-extract-data-from-pdf |
 | Replicate multiple SAP ODP objects via SAP CDC in ADF | https://learn.microsoft.com/en-us/azure/data-factory/solution-template-replicate-multiple-objects-sap-cdc |
 | Access on-premises and Azure files from SSIS in ADF | https://learn.microsoft.com/en-us/azure/data-factory/ssis-azure-files-file-shares |
 | Execute Azure Machine Learning pipelines from Data Factory | https://learn.microsoft.com/en-us/azure/data-factory/transform-data-machine-learning-service |

@@ -3,7 +3,8 @@ name: azure-container-apps
 description: Expert knowledge for Azure Container Apps development including troubleshooting, best practices, decision making, architecture & design patterns, limits & quotas, security, configuration, integrations & coding patterns, and deployment. Use when building, debugging, or optimizing Azure Container Apps applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-04"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Container Apps Skill
 
@@ -21,15 +22,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L34-L47 | Diagnosing and fixing Container Apps runtime issues: create/start failures, image pulls, probes, ports, storage mounts, OCI errors, Java log levels, and using logs/debug console. |
-| Best Practices | L48-L53 | Guidance on reducing cold starts (scaling, readiness, configuration) and tuning Java memory usage (JVM settings, resource limits) for better performance in Azure Container Apps |
-| Decision Making | L54-L69 | Guidance on choosing Container Apps plans, compute/billing models, environments, GPUs, workflows, and migration/hosting options to match cost, performance, and architecture needs. |
-| Architecture & Design Patterns | L70-L74 | Patterns for blue-green deployments in Azure Container Apps, including traffic splitting, versioning revisions, rollout workflows, and safe rollback strategies. |
-| Limits & Quotas | L75-L79 | Details on Azure Container Apps resource limits and quotas, including app, environment, scaling, networking, and per-subscription constraints. |
-| Security | L80-L109 | Securing Container Apps: auth (Entra, social, OIDC, mTLS, client certs, Dapr tokens), secrets and managed identity, network controls (VNet, NSG, firewall, WAF), and security best practices. |
-| Configuration | L110-L155 | Configuring Container Apps environments and apps: networking, ingress, domains/certs, storage, env vars, health probes, Dapr, Java/metrics/APM, logging/monitoring, routing, sessions, and workload profiles. |
-| Integrations & Coding Patterns | L156-L176 | Patterns and how-tos for integrating Container Apps with Functions, KEDA, Spring components, Front Door, and AI/code-interpreter or MCP-based dynamic session workflows. |
-| Deployment | L177-L184 | Deploying Container Apps with CI/CD (GitHub Actions, Azure Pipelines, CLI-generated workflows), scaling with Dapr+KEDA+Bicep, and creating zone-redundant apps in virtual networks. |
+| Troubleshooting | L35-L48 | Diagnosing and fixing Container Apps runtime issues: create/start failures, image pulls, probes, ports, storage mounts, OCI errors, Java log levels, and using logs/debug console. |
+| Best Practices | L49-L55 | Guidance on reducing cold starts, configuring Dapr resiliency (retries, timeouts, circuit breakers), and tuning Java memory usage for reliable, performant Container Apps. |
+| Decision Making | L56-L71 | Guides for choosing Container Apps plans, compute, GPUs, environments, and deployment options, plus cost modeling and migration decisions (Functions v1→v2, Heroku→Container Apps). |
+| Architecture & Design Patterns | L72-L76 | Patterns for blue-green deployments in Azure Container Apps, including traffic splitting, versioning revisions, rollout workflows, and safe rollback strategies. |
+| Limits & Quotas | L77-L81 | Details on Azure Container Apps resource limits and quotas, including app, environment, scaling, networking, and per-subscription constraints. |
+| Security | L82-L111 | Securing Container Apps: auth (Entra, social, OIDC, cert, Dapr), secrets & managed identity, network controls (VNet, private endpoints, firewall, WAF), and security best practices/policies. |
+| Configuration | L112-L156 | Configuring Container Apps environments and apps: ingress, domains/TLS, networking, Dapr, env vars, health, logging/monitoring, Java features, storage, routing, scaling, sessions, and workload profiles. |
+| Integrations & Coding Patterns | L157-L177 | Patterns and samples for integrating Container Apps with Functions, Spring components, Front Door, and AI/code-interpreter tools (LangChain, LlamaIndex, Semantic Kernel, MCP, Dynamic Sessions). |
+| Deployment | L178-L185 | Deploying Container Apps with CI/CD (GitHub Actions, Azure Pipelines, CLI-generated workflows), scaling with Dapr+KEDA+Bicep, and creating zone-redundant apps in virtual networks. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -49,6 +50,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Topic | URL |
 |-------|-----|
 | Apply cold-start reduction best practices in Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/cold-start |
+| Apply Dapr resiliency policies in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/dapr-component-resiliency |
 | Optimize Java memory usage in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/java-memory-fit |
 
 ### Decision Making
@@ -62,9 +64,9 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Plan and use serverless GPUs in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/gpu-serverless-overview |
 | Choose between T4 and A100 GPUs in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/gpu-types |
 | Decide and migrate from Functions v1 to v2 on Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/migrate-functions |
+| Plan Heroku to Azure Container Apps migration | https://learn.microsoft.com/en-us/azure/container-apps/migrate-heroku-overview |
 | Choose the right Azure Container Apps plan type | https://learn.microsoft.com/en-us/azure/container-apps/plans |
 | Choose compute and billing structures for Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/structure |
-| Choose workflow options for Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/workflows-overview |
 | Choose appropriate workload profiles for Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/workload-profiles-overview |
 
 ### Architecture & Design Patterns
@@ -81,15 +83,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Topic | URL |
 |-------|-----|
 | Configure built-in authentication for Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/authentication |
-| Enable Microsoft Entra authentication in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/authentication-entra |
+| Configure Microsoft Entra authentication for Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/authentication-entra |
 | Configure Facebook authentication for Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/authentication-facebook |
 | Configure GitHub authentication for Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/authentication-github |
 | Configure Google authentication for Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/authentication-google |
 | Use custom OpenID Connect providers with Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/authentication-openid |
 | Configure X (Twitter) authentication for Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/authentication-twitter |
 | Set up client certificate (mTLS) authentication for Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/client-certificate-authorization |
-| Enable and validate Dapr token authentication in Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/dapr-authentication-token |
-| Secure Dapr component connections to Azure and third-party services | https://learn.microsoft.com/en-us/azure/container-apps/dapr-component-connect-services |
+| Enable and use Dapr token authentication in Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/dapr-authentication-token |
+| Secure Dapr component connections with managed identity and Key Vault | https://learn.microsoft.com/en-us/azure/container-apps/dapr-component-connect-services |
 | Harden Container Apps VNets with NSGs and firewall | https://learn.microsoft.com/en-us/azure/container-apps/firewall-integration |
 | Use private endpoints with Azure Container Apps environments | https://learn.microsoft.com/en-us/azure/container-apps/how-to-use-private-endpoint |
 | Configure IP-based ingress restrictions for Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/ip-restrictions |
@@ -113,13 +115,12 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure Azure Container Apps with ARM and YAML templates | https://learn.microsoft.com/en-us/azure/container-apps/azure-resource-manager-api-spec |
 | Configure Docker Compose for agents on Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/compose-agent |
 | Configure CORS settings for Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/cors |
-| Manage custom domains and certificates in Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/custom-domains-certificates |
-| Configure custom domains and managed certificates | https://learn.microsoft.com/en-us/azure/container-apps/custom-domains-managed-certificates |
+| Configure custom domains and TLS for Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/custom-domains-certificates |
+| Configure custom domains and managed certificates for Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/custom-domains-managed-certificates |
 | Configure virtual networks for Azure Container Apps environments | https://learn.microsoft.com/en-us/azure/container-apps/custom-virtual-networks |
-| Create Dapr components via Azure Container Apps portal | https://learn.microsoft.com/en-us/azure/container-apps/dapr-component-connection |
-| Configure Dapr component resiliency in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/dapr-component-resiliency |
-| Configure Dapr components in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/dapr-components |
-| Configure Dapr settings on Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/enable-dapr |
+| Create Dapr components for Azure services in the portal | https://learn.microsoft.com/en-us/azure/container-apps/dapr-component-connection |
+| Configure Dapr components in Azure Container Apps environments | https://learn.microsoft.com/en-us/azure/container-apps/dapr-components |
+| Configure Dapr settings on existing Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/enable-dapr |
 | Configure custom environment DNS suffix and TLS | https://learn.microsoft.com/en-us/azure/container-apps/environment-custom-dns-suffix |
 | Configure environment variables in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/environment-variables |
 | Configure health probes for Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/health-probes |
@@ -143,7 +144,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Configure service discovery resiliency policies in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/service-discovery-resiliency |
 | Configure and manage session pools in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/session-pool |
 | Configure dynamic sessions and pools in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/sessions |
-| Run serverless code interpreter sessions in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/sessions-code-interpreter |
+| Configure serverless code interpreter sessions in Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/sessions-code-interpreter |
 | Run custom container-based sessions in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/sessions-custom-container |
 | Manage and use dynamic sessions in Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/sessions-usage |
 | Configure session affinity for Azure Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/sticky-sessions |
@@ -156,7 +157,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 ### Integrations & Coding Patterns
 | Topic | URL |
 |-------|-----|
-| Use Dapr extension with Azure Functions in Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/dapr-functions-extension |
+| Use the Dapr extension with Azure Functions in Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/dapr-functions-extension |
 | Map Azure Functions triggers to KEDA scaling in Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/functions-keda-mappings |
 | Use CLI commands to manage Functions on Container Apps | https://learn.microsoft.com/en-us/azure/container-apps/functions-manage |
 | Integrate Azure Front Door with Azure Container Apps via Private Link | https://learn.microsoft.com/en-us/azure/container-apps/how-to-integrate-with-azure-front-door |

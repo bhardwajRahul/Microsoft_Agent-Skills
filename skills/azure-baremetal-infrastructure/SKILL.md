@@ -4,6 +4,7 @@ description: Expert knowledge for Azure Baremetal Infrastructure development inc
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
   generated_at: "2026-02-04"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Baremetal Infrastructure Skill
 
@@ -21,7 +22,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Decision Making | L26-L29 | Guidance on selecting NC2 on Azure regions and hardware SKUs, including capacity, performance, and placement considerations for Nutanix Cloud Clusters on Azure. |
+| Decision Making | L27-L30 | Guidance on selecting NC2 on Azure regions and hardware SKUs, including capacity, performance, and placement considerations for Nutanix Cloud Clusters on Azure. |
 
 ### Decision Making
 | Topic | URL |

@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-04'
+generated_at: '2026-02-24'
 category_descriptions:
   configuration: 'Configuring DevTest Labs environments: VM policies (start/stop,
     usage, images, licensing), networks, IPs, resource groups, cost tracking, tags,
@@ -13,9 +13,9 @@ category_descriptions:
   best-practices: Guidance for organizing team-based development of DevTest Labs resources
     (artifacts, formulas, images) using source control, branching, and collaboration
     workflows.
-  security: 'Securing DevTest Labs: identities, RBAC, secrets/Key Vault, disk/storage
-    encryption, network isolation, Bastion/RDP access, Trusted Launch, and Defender
-    alerts.'
+  security: 'Securing DevTest Labs: RBAC and policy permissions, managed identities,
+    Key Vault secrets, encryption, network isolation, Bastion/RDP access, Trusted
+    Launch, and Defender security alerts.'
   decision-making: Guidance on planning and scaling DevTest Labs for enterprises,
     choosing VM/image options and scenarios, and setting governance and resource management
     strategies.
@@ -41,8 +41,8 @@ category_descriptions:
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 0
-- **Unchanged**: 98
+- **Updated Pages**: 1
+- **Unchanged**: 97
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-devtest-labs/azure-devtest-labs.csv`
 
@@ -62,6 +62,11 @@ category_descriptions:
 | *(Unclassified)* | 29 | 29.6% |
 
 ## Changes
+
+### Updated Pages
+
+- [Enable managed identities for lab VMs](https://learn.microsoft.com/en-us/azure/devtest-labs/enable-managed-identities-lab-vms)
+  - Updated: 2023-10-11T05:36:00.000Z → 2026-02-13T12:10:00.000Z
 
 ## Classified Pages
 
@@ -95,7 +100,7 @@ category_descriptions:
 | [Create and manage labs by using ARM templates](https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-use-arm-and-powershell-for-lab-resources) | integrations | 0.70 | Shows how DevTest Labs uses ARM templates for labs, VMs, and environments; includes resource types, properties, and template patterns specific to DevTest Labs. |
 | [Create custom artifacts](https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-artifact-author) | integrations | 0.70 | Describes artifact definition JSON schema and script wiring specific to DevTest Labs, including product-specific parameters and structure that function as integration/config patterns beyond generic knowledge. |
 | [Customize permissions with custom roles](https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-grant-user-permissions-to-specific-lab-policies) | security | 0.70 | Focuses on granting user permissions to individual lab policies, implying detailed RBAC or access configuration specific to DevTest Labs policy objects. |
-| [Enable managed identities for lab VMs](https://learn.microsoft.com/en-us/azure/devtest-labs/enable-managed-identities-lab-vms) | security | 0.70 | Covers enabling user-assigned managed identities on lab VMs, including product-specific identity configuration steps and scope; this is security-focused IAM configuration. |
+| [Enable managed identities for lab VMs](https://learn.microsoft.com/en-us/azure/devtest-labs/enable-managed-identities-lab-vms) | security | 0.70 | The page provides product-specific steps and configuration details for enabling user-assigned managed identities on DevTest Labs VMs, including how lab owners configure identity usage so lab VMs can securely access other Azure resources. This is concrete security configuration guidance tied to this specific service, beyond generic managed identity concepts. |
 | [Manage formulas](https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-manage-formulas) | configuration | 0.70 | Explains formula objects as sets of default VM property values and how to manage them; includes product-specific configuration fields and behaviors for VM provisioning. |
 | [Manage lab storage account](https://learn.microsoft.com/en-us/azure/devtest-labs/encrypt-storage) | security | 0.70 | Discusses encryption, customer-managed keys, and expiration for artifact result storage. These are concrete security and storage configuration details specific to DevTest Labs’ storage accounts. |
 | [Move to new region](https://learn.microsoft.com/en-us/azure/devtest-labs/how-to-move-labs) | deployment | 0.70 | Covers moving labs between regions/resource groups; likely includes constraints, supported scenarios, and required steps specific to DevTest Labs resources and schedules. |

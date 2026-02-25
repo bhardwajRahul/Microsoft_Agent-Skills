@@ -4,6 +4,7 @@ description: Expert knowledge for Azure Devtest development including troublesho
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
   generated_at: "2026-02-04"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Devtest Skill
 
@@ -21,8 +22,8 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L27-L31 | Diagnosing and resolving issues with expired Visual Studio Dev/Test subscriptions, including renewal options, access restoration, and handling impacted Azure resources. |
-| Security | L32-L36 | Securing Dev/Test environments: configuring security/governance policies, managing directory access, roles, permissions, and least-privilege setup for users in Azure Dev/Test. |
+| Troubleshooting | L28-L32 | Diagnosing and resolving issues with expired Visual Studio Dev/Test subscriptions, including renewal options, access restoration, and handling impacted Azure resources. |
+| Security | L33-L37 | Securing Dev/Test environments: configuring security/governance policies, managing directory access, roles, permissions, and least-privilege setup for users in Azure Dev/Test. |
 
 ### Troubleshooting
 | Topic | URL |

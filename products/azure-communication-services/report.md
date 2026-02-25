@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-02-10'
+generated_at: '2026-02-24'
 category_descriptions:
   configuration: Monitoring, logging, metrics, and diagnostics for ACS (calls, chat,
     SMS, email, Rooms, Job Router), plus configuration of calling, routing, Teams
@@ -7,9 +7,9 @@ category_descriptions:
   decision-making: Guidance on ACS-Teams interop, calling/phone/SMS/WhatsApp pricing,
     PSTN and number options, government cloud support, and migration from Twilio Video/Conversations
     to ACS
-  security: 'Securing ACS apps: auth methods (Entra, HMAC, managed identities, SMTP),
-    Teams interop security, sender/caller identity, roles, webhooks, encryption, captions,
-    RTT, and access controls.'
+  security: 'Auth, encryption, and access control for ACS: Entra/SMTP/HMAC auth, managed
+    identities, Teams interop security, telephony identity, webhooks, roles, and compliance
+    (incl. US Gov).'
   best-practices: 'Best practices for ACS calling, SMS, email, and Teams interop:
     call quality, UX, network/AVD tuning, spam/reputation, policy compliance, tokens/auth,
     diagnostics, and virtual appointments.'
@@ -35,13 +35,13 @@ category_descriptions:
 - **Total Pages**: 516
 - **Fetched**: 516
 - **Fetch Failed**: 0
-- **Classified**: 379
-- **Unclassified**: 137
+- **Classified**: 380
+- **Unclassified**: 136
 
 ### Incremental Update
 - **New Pages**: 0
-- **Updated Pages**: 0
-- **Unchanged**: 516
+- **Updated Pages**: 2
+- **Unchanged**: 514
 - **Deleted Pages**: 0
 - **Compared With**: `/home/vsts/work/1/s/Agent-Skills/products/azure-communication-services/azure-communication-services.csv`
 
@@ -56,11 +56,18 @@ category_descriptions:
 | deployment | 2 | 0.4% |
 | integrations | 130 | 25.2% |
 | limits-quotas | 61 | 11.8% |
-| security | 17 | 3.3% |
+| security | 18 | 3.5% |
 | troubleshooting | 64 | 12.4% |
-| *(Unclassified)* | 137 | 26.6% |
+| *(Unclassified)* | 136 | 26.4% |
 
 ## Changes
+
+### Updated Pages
+
+- [Azure Government](https://learn.microsoft.com/en-us/azure/communication-services/concepts/government)
+  - Updated: 2025-04-03T22:05:00.000Z → 2026-02-19T06:12:00.000Z
+- [Call recording overview](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/call-recording)
+  - Updated: 2024-05-21T17:56:00.000Z → 2026-02-17T23:12:00.000Z
 
 ## Classified Pages
 
@@ -223,6 +230,7 @@ category_descriptions:
 | [Advanced Messaging logs](https://learn.microsoft.com/en-us/azure/communication-services/concepts/advanced-messaging/logs) | configuration | 0.70 | Describes how to enable and configure Advanced Messaging diagnostic logs via Azure Monitor, including product-specific logging categories and settings, which are concrete configuration details. |
 | [Authenticate Microsoft Entra ID users](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/identity/microsoft-entra-id-authentication-integration) | security | 0.70 | Shows how to obtain access tokens for Entra ID users; Entra integration quickstarts usually include auth scopes, configuration values, and token acquisition parameters, matching security-focused configuration guidance. |
 | [Automate email resource management](https://learn.microsoft.com/en-us/azure/communication-services/samples/email-resource-management) | integrations | 0.70 | Automation sample for creating ACS and Email resources, managing domains, and DNS via Azure PowerShell; likely includes cmdlet names, parameters, and sequences specific to this product integration. |
+| [Azure Government](https://learn.microsoft.com/en-us/azure/communication-services/concepts/government) | security | 0.70 | Page is specific to Azure Government usage of Azure Communication Services and includes product- and region-specific compliance and accreditation details (for example FedRAMP High within GCC High) that are not generic concepts. This is closest to the security sub-skill because it focuses on regulatory compliance and government cloud constraints rather than general architecture or marketing. |
 | [Benefits of migrating chat from Twilio Conversations Chat to Azure Communication Services](https://learn.microsoft.com/en-us/azure/communication-services/tutorials/migrating-to-azure-communication-services-chat) | decision-making | 0.70 | Tutorial for migrating from Twilio Conversations to ACS Chat; likely contains side-by-side feature and API mapping that informs migration and technology selection decisions. |
 | [Benefits of migrating voice and video from Twilio Video to Azure Communication Services](https://learn.microsoft.com/en-us/azure/communication-services/concepts/migrate-to-azure-communication-services) | decision-making | 0.70 | Conceptual migration article comparing Twilio Programmable Video and ACS Calling SDK; likely includes feature comparison and guidance affecting platform choice and migration decisions, fitting decision-making/migration criteria. |
 | [Build a virtual event platform](https://learn.microsoft.com/en-us/azure/communication-services/tutorials/events-playbook) | decision-making | 0.70 | Document explicitly aims to help decide integration level with Teams Webinars and provides an end-to-end architecture; likely includes comparison/decision guidance for different integration options and trade-offs. |
@@ -495,7 +503,6 @@ category_descriptions:
 | [Apply for a short code](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/sms/apply-for-short-code) | 0.30 | Short code application quickstart is procedural and high-level; summary lacks numeric limits, configuration ranges, or error-code-based troubleshooting. |
 | [Apply for toll-free verification](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/sms/apply-for-toll-free-verification) | 0.30 | Toll-free verification quickstart is a procedural application guide; summary lacks detailed limits, configuration options, or troubleshooting mappings. |
 | [Azure Advisor](https://learn.microsoft.com/en-us/azure/communication-services/concepts/advisor-overview) | 0.30 | Conceptual overview of Azure Advisor recommendations for ACS; does not expose concrete configuration parameters, limits, or decision matrices specific to ACS. |
-| [Azure Government](https://learn.microsoft.com/en-us/azure/communication-services/concepts/government) | 0.30 | Describes Azure Government availability and preview status; mostly regional/preview info, not detailed limits, configs, or troubleshooting. |
 | [Call Automation insights](https://learn.microsoft.com/en-us/azure/communication-services/concepts/analytics/insights/call-automation-insights) | 0.30 | Insights overview for Call Automation; describes dashboards and visualizations, likely without detailed configuration parameters, limits, or troubleshooting mappings. |
 | [Call readiness overview](https://learn.microsoft.com/en-us/azure/communication-services/tutorials/call-readiness/call-readiness-overview) | 0.30 | High-level tutorial overview of a call readiness experience; primarily conceptual and workflow-oriented without clear evidence of detailed configuration tables, limits, or error mappings. |
 | [Call recording insights](https://learn.microsoft.com/en-us/azure/communication-services/concepts/analytics/insights/call-recording-insights) | 0.30 | Insights/workbooks overview pages usually describe available visualizations conceptually rather than listing configuration parameters, limits, or troubleshooting mappings. |
@@ -532,7 +539,6 @@ category_descriptions:
 | [Understanding Simulcast](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/simulcast) | 0.30 | Conceptual overview of simulcast behavior and benefits; summary does not indicate concrete thresholds, configuration parameters, or decision matrices with numbers. |
 | [User privacy](https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/guest/privacy) | 0.30 | High-level privacy responsibilities and behavior (recording/transcription notifications) without concrete configuration parameters, codes, or limits. Conceptual guidance rather than expert, product-specific details. |
 | [WebJS calling SDK](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/known-issues-webjs) | 0.30 | High-level 'known issues' overview for WebJS calling; summary does not indicate structured symptom→cause→solution mappings or specific error codes, more likely a conceptual/issue list. |
-| [Call recording overview](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/call-recording) | 0.25 | Call Recording overview; summary indicates high-level description of capabilities without detailed configuration parameters or limits. |
 | [Configure worker capacity](https://learn.microsoft.com/en-us/azure/communication-services/concepts/router/worker-capacity-concepts) | 0.25 | Worker capacity concepts explain how to think about capacity and cost per job; summary does not indicate concrete numeric limits or detailed configuration parameter references. |
 | [Get audio streams from a call](https://learn.microsoft.com/en-us/azure/communication-services/concepts/call-automation/audio-streaming-concept) | 0.25 | Audio streaming overview; summary suggests conceptual description of capabilities and scenarios, not detailed configuration or limits. |
 | [Get real-time audio insights using transcriptions](https://learn.microsoft.com/en-us/azure/communication-services/concepts/call-automation/real-time-transcription) | 0.25 | Real-time transcription overview; conceptual explanation of capability and benefits without detailed configuration or limits indicated. |
@@ -546,6 +552,7 @@ category_descriptions:
 | [Set Job Router rules](https://learn.microsoft.com/en-us/azure/communication-services/concepts/router/router-rule-concepts) | 0.22 | Job Router rule engines article is conceptual, explaining what rule engines do and why to use them; lacks evidence of specific configuration parameters, numeric thresholds, or troubleshooting mappings. |
 | [Set exception policies](https://learn.microsoft.com/en-us/azure/communication-services/concepts/router/exception-policy) | 0.22 | Exception Policy article defines what exception policies are and how they conceptually work; summary does not show detailed parameter tables, limits, or error-code mappings. |
 | [Answer a call](https://learn.microsoft.com/en-us/azure/communication-services/concepts/call-automation/incoming-call-notification) | 0.20 | Conceptual explanation of IncomingCall notifications; likely describes flow but not detailed configuration tables or error-code troubleshooting. |
+| [Call recording overview](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/call-recording) | 0.20 | Content is an overview of Azure Communication Services call recording capabilities and APIs without detailed limits, configuration tables, error codes, or decision matrices. It describes what the feature does conceptually rather than providing product-specific numeric limits, configuration parameters, or troubleshooting mappings. |
 | [Closed captions](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/closed-captions) | 0.20 | Closed captions overview is conceptual, describing what captions are and scenarios; no indication of detailed configuration parameters, limits, or error codes. |
 | [Connect to Azure AI](https://learn.microsoft.com/en-us/azure/communication-services/concepts/call-automation/azure-communication-services-azure-cognitive-services-integration) | 0.20 | How-to for connecting Azure Communication Services to Foundry Tools; appears to be an integration walkthrough but described at a high level without explicit configuration parameter tables, defaults, or SDK option references that rise to expert-knowledge level. |
 | [Contact center](https://learn.microsoft.com/en-us/azure/communication-services/tutorials/contact-center) | 0.20 | High-level architectural overview for contact center apps; no concrete limits, configs, error codes, or decision matrices. |

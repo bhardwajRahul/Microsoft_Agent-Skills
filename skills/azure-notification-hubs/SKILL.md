@@ -4,6 +4,7 @@ description: Expert knowledge for Azure Notification Hubs development including 
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
   generated_at: "2026-02-04"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Notification Hubs Skill
 
@@ -21,15 +22,15 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L34-L39 | Diagnosing and fixing common Notification Hubs issues, including message drops, delivery failures, platform push errors, and configuration or credential problems. |
-| Best Practices | L40-L44 | Guidance for adapting to iOS 13 push changes: handling APNs token/format updates, notification payload/authorization changes, and required client/server code updates in Notification Hubs. |
-| Decision Making | L45-L49 | Guidance on selecting the right Notification Hubs pricing tier, feature and scale differences between tiers, and how to upgrade or downgrade plans. |
-| Architecture & Design Patterns | L50-L54 | Guidance on designing scalable, multi-tenant, and enterprise-grade push notification architectures using Azure Notification Hubs and related Azure services. |
-| Limits & Quotas | L55-L60 | Managing large-scale registration data via bulk export/import and configuring scheduled or recurring push notifications in Notification Hubs. |
-| Security | L61-L68 | Encryption at rest, EU data residency, access control/roles, and TLS version requirements for securing Azure Notification Hubs. |
-| Configuration | L69-L84 | Configuring Notification Hubs: PNS credentials (APNS, FCM, WNS, Baidu, MPNS), token-based auth, tags/routing, device registration patterns, Private Link, and monitoring/diagnostic logs. |
-| Integrations & Coding Patterns | L85-L113 | Implementing and migrating push integrations with FCM/APNS/WNS, targeting users/devices, templates/localization, and sending notifications from various server-side SDKs and languages |
-| Deployment | L114-L119 | How to provision and deploy Notification Hubs using infrastructure-as-code tools like Bicep, ARM templates, and Terraform, including resource definitions and configuration. |
+| Troubleshooting | L35-L40 | Diagnosing and fixing common Notification Hubs issues, including message drops, delivery failures, platform push errors, and configuration or credential problems. |
+| Best Practices | L41-L45 | Guidance for adapting to iOS 13 push changes: handling APNs token/format updates, notification payload/authorization changes, and required client/server code updates in Notification Hubs. |
+| Decision Making | L46-L50 | Guidance on selecting the right Notification Hubs pricing tier, feature and scale differences between tiers, and how to upgrade or downgrade plans. |
+| Architecture & Design Patterns | L51-L55 | Guidance on designing scalable, multi-tenant, and enterprise-grade push notification architectures using Azure Notification Hubs and related Azure services. |
+| Limits & Quotas | L56-L61 | Managing large-scale registration data via bulk export/import and configuring scheduled or recurring push notifications in Notification Hubs. |
+| Security | L62-L69 | Encryption at rest, EU data residency, access control/roles, and TLS version requirements for securing Azure Notification Hubs. |
+| Configuration | L70-L85 | Configuring Notification Hubs: PNS credentials (APNS, FCM, WNS, Baidu, MPNS), token-based auth, tags/routing, device registration patterns, Private Link, and monitoring/diagnostic logs. |
+| Integrations & Coding Patterns | L86-L114 | Implementing and migrating push integrations with FCM/APNS/WNS, targeting users/devices, templates/localization, and sending notifications from various server-side SDKs and languages |
+| Deployment | L115-L120 | How to provision and deploy Notification Hubs using infrastructure-as-code tools like Bicep, ARM templates, and Terraform, including resource definitions and configuration. |
 
 ### Troubleshooting
 | Topic | URL |

@@ -4,6 +4,7 @@ description: Expert knowledge for Azure Data Manager For Agri development includ
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
   generated_at: "2026-02-04"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Data Manager For Agri Skill
 
@@ -21,10 +22,10 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Limits & Quotas | L29-L33 | Guidance on API throttling behavior, rate limits, quotas, and strategies to plan, monitor, and manage request throttling in Azure Data Manager for Agriculture. |
-| Security | L34-L38 | Configuring Azure Data Manager for Agriculture with Private Link endpoints, including network isolation, secure access patterns, and integration with virtual networks. |
-| Configuration | L39-L44 | Configuring diagnostics and logging for Azure Data Manager for Agriculture and understanding/using its Azure Event Grid event schemas for integrations and monitoring. |
-| Integrations & Coding Patterns | L45-L55 | Patterns and setup for integrating ADMA with farm activity providers, sensors, ISV apps, Event Grid, and storing ag data like plant tissue nutrients. |
+| Limits & Quotas | L30-L34 | Guidance on API throttling behavior, rate limits, quotas, and strategies to plan, monitor, and manage request throttling in Azure Data Manager for Agriculture. |
+| Security | L35-L39 | Configuring Azure Data Manager for Agriculture with Private Link endpoints, including network isolation, secure access patterns, and integration with virtual networks. |
+| Configuration | L40-L45 | Configuring diagnostics and logging for Azure Data Manager for Agriculture and understanding/using its Azure Event Grid event schemas for integrations and monitoring. |
+| Integrations & Coding Patterns | L46-L56 | Patterns and setup for integrating ADMA with farm activity providers, sensors, ISV apps, Event Grid, and storing ag data like plant tissue nutrients. |
 
 ### Limits & Quotas
 | Topic | URL |

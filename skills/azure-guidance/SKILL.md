@@ -3,7 +3,8 @@ name: azure-guidance
 description: Expert knowledge for Azure Guidance development including troubleshooting, best practices, decision making, architecture & design patterns, security, configuration, and deployment. Use when building, debugging, or optimizing Azure Guidance applications.
 compatibility: Requires network access. Uses mcp_microsoftdocs:microsoft_docs_fetch or fetch_webpage to retrieve documentation.
 metadata:
-  generated_at: "2026-02-11"
+  generated_at: "2026-02-24"
+  generator: "docs2skills/1.0.0"
 ---
 # Azure Guidance Skill
 
@@ -21,13 +22,13 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 
 | Category | Lines | Description |
 |----------|-------|-------------|
-| Troubleshooting | L32-L45 | Diagnosing and fixing AKS cluster, node, pod, networking, registry, and admission issues, plus cross-region data platform failures and hybrid VPN gateway connectivity problems. |
-| Best Practices | L46-L76 | Best practices for designing, operating, and hardening Azure workloads (VMs, AKS, SAP, IoT, Event Hubs), including HA/DR, scaling, patching, backup, resilience, and performance. |
-| Decision Making | L77-L139 | Guidance to choose the right Azure services, architectures, and equivalents (AWS/GCP/AKS/Fabric) for workloads, including compute, data, AI, networking, storage, DR, and hybrid/migration options. |
-| Architecture & Design Patterns | L140-L275 | End-to-end Azure solution architectures and patterns for mission-critical, hybrid, data/analytics, IoT, microservices, mainframe migration, SAP, and enterprise workloads, including HA/DR and networking. |
-| Security | L276-L304 | Securing Azure and hybrid workloads: AKS, VMs, SAP, Outlook, identity/IDaaS, Zero Trust, firewalls, WAF, private endpoints, Defender XDR, Sentinel, and Microsoft Entra vs AWS options. |
-| Configuration | L305-L310 | Configuring GitOps for AKS using Flux/Argo CD and setting up Azure Functions monitoring pipelines using Event Hubs for logs and metrics. |
-| Deployment | L311-L322 | Designing and automating Azure deployments: CI/CD for AKS and microservices, APIOps, Terraform/Bicep scripts, landing zone options, and mission‑critical workload rollout and testing. |
+| Troubleshooting | L33-L46 | Diagnosing and fixing AKS cluster, node, pod, networking, registry, and admission issues, plus cross-region data platform failures and hybrid VPN gateway connectivity problems. |
+| Best Practices | L47-L77 | Best practices for designing, operating, and hardening Azure workloads (VMs, AKS, SAP, IoT, Event Hubs), including HA/DR, scaling, patching, backup, resilience, and performance. |
+| Decision Making | L78-L139 | Guides for choosing the right Azure services, compute, data/AI, and networking options, especially when mapping or migrating from AWS/GCP, plus AKS vs EKS decisions and DR/governance choices. |
+| Architecture & Design Patterns | L140-L274 | End-to-end Azure solution architectures and patterns for mission-critical, hybrid, data/analytics, IoT, microservices, mainframe migration, SAP, and enterprise workloads, including HA/DR and networking. |
+| Security | L275-L303 | Securing Azure and hybrid workloads: AKS, VMs, SAP, Outlook, identity/IDaaS, Zero Trust, firewalls, WAF, private endpoints, Defender XDR, Sentinel, and Microsoft Entra vs AWS options. |
+| Configuration | L304-L309 | Configuring GitOps for AKS using Flux/Argo CD and setting up Azure Functions monitoring pipelines using Event Hubs for logs and metrics. |
+| Deployment | L310-L321 | Designing and automating Azure deployments: CI/CD for AKS and microservices, APIOps, Terraform/Bicep scripts, landing zone options, and mission‑critical workload rollout and testing. |
 
 ### Troubleshooting
 | Topic | URL |
@@ -77,7 +78,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 ### Decision Making
 | Topic | URL |
 |-------|-----|
-| Choose the right AI model for your workload | https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/choose-ai-model |
+| Decide which AI model to use for your workload | https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/choose-ai-model |
 | Choose the right Microsoft ML product for your solution | https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/data-science-and-machine-learning |
 | Decide Azure services that correspond to AWS offerings | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/ |
 | Map AWS account structures to Azure subscriptions and roles | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/accounts |
@@ -96,9 +97,9 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Plan Azure regions and zones for AWS-style resiliency | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/regions-zones |
 | Compare Azure and AWS resource management models | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/resources |
 | Select Azure storage services equivalent to AWS storage | https://learn.microsoft.com/en-us/azure/architecture/aws-professional/storage |
-| Choose Azure AI services for video and image processing | https://learn.microsoft.com/en-us/azure/architecture/data-guide/ai-services/image-video-processing |
-| Select Azure speech recognition and generation service | https://learn.microsoft.com/en-us/azure/architecture/data-guide/ai-services/speech-recognition-generation |
-| Choose Azure AI targeted language processing service | https://learn.microsoft.com/en-us/azure/architecture/data-guide/ai-services/targeted-language-processing |
+| Choose Azure AI services for image and video processing | https://learn.microsoft.com/en-us/azure/architecture/data-guide/ai-services/image-video-processing |
+| Select Azure speech recognition and generation services | https://learn.microsoft.com/en-us/azure/architecture/data-guide/ai-services/speech-recognition-generation |
+| Choose Azure targeted language processing services | https://learn.microsoft.com/en-us/azure/architecture/data-guide/ai-services/targeted-language-processing |
 | Plan disaster recovery strategy for Azure data platforms | https://learn.microsoft.com/en-us/azure/architecture/data-guide/disaster-recovery/dr-for-azure-data-platform-overview |
 | Choose an Azure data transfer technology | https://learn.microsoft.com/en-us/azure/architecture/data-guide/scenarios/data-transfer |
 | Select Azure AI services for your solution | https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/ai-services |
@@ -107,7 +108,7 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Choose Azure batch processing technologies | https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/batch-processing |
 | Choose big data storage technology in Azure | https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-storage |
 | Select the right Microsoft Fabric analytical data store | https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/fabric-analytical-data-stores |
-| Select natural language processing technology on Azure | https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/natural-language-processing |
+| Select Azure NLP services for text analytics workloads | https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/natural-language-processing |
 | Select Azure data pipeline orchestration technology | https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/pipeline-orchestration-data-movement |
 | Select an Azure search data store technology | https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/search-options |
 | Choose Azure stream processing technology | https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/stream-processing |
@@ -118,18 +119,17 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Choose the right Azure container service for your workload | https://learn.microsoft.com/en-us/azure/architecture/guide/container-service-general-considerations |
 | Choose PaaS over IaaS for Azure workloads | https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/managed-services |
 | Choose Azure services for Apache Kafka migration | https://learn.microsoft.com/en-us/azure/architecture/guide/hadoop/apache-kafka-migration |
-| Select the right Azure compute service | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree |
+| Select the right Azure compute hosting model | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree |
 | Plan and choose Azure data stores for workloads | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-stores-getting-started |
 | Select appropriate Azure hybrid deployment option | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/hybrid-considerations |
 | Choose the right Azure load balancing service | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview |
-| Select Azure asynchronous messaging services by use case | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/messaging |
 | Assess readiness to adopt microservices on Azure | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/microservices-assessment |
 | Choose the right Azure hosting option for Java apps | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/service-for-java-comparison |
 | Decide which Azure storage service to use | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/storage-options |
-| Use Azure technology comparison resources effectively | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/technology-choices-overview |
-| Choose an Azure vector search service | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/vector-search |
-| Choose Azure compute platforms for microservices | https://learn.microsoft.com/en-us/azure/architecture/microservices/design/compute-options |
-| Choose compute platforms for microservices on Azure | https://learn.microsoft.com/en-us/azure/architecture/microservices/design/compute-options |
+| Use Azure technology comparison matrices for design | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/technology-choices-overview |
+| Select the right Azure service for vector search | https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/vector-search |
+| Select Azure compute options for microservices | https://learn.microsoft.com/en-us/azure/architecture/microservices/design/compute-options |
+| Choose compute platforms for Azure microservices | https://learn.microsoft.com/en-us/azure/architecture/microservices/design/compute-options |
 | Choose Kubernetes edge compute option on Azure | https://learn.microsoft.com/en-us/azure/architecture/operator-guides/aks/choose-kubernetes-edge-compute-option |
 | Choose and run GPU workloads on AKS | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-gpu/gpu-aks |
 | Choose a hybrid connectivity option to Azure VNets | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/ |
@@ -263,7 +263,6 @@ This skill requires **network access**. Use `mcp_microsoftdocs:microsoft_docs_fe
 | Create modern analytics architecture using Azure Databricks | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/azure-databricks-modern-analytics-architecture |
 | Design a DevSecOps IaC pipeline on Azure | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/devsecops-infrastructure-as-code |
 | Build batch and streaming ETL with Databricks and Delta Lake | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/ingest-etl-stream-with-adb |
-| Build IoT analytics with Data Explorer and IoT Hub | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/iot-azure-data-explorer |
 | Replicate and sync mainframe files to Azure storage | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/mainframe-azure-file-replication |
 | Implement Project 15 IoT sustainability architecture | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/project-15-iot-sustainability |
 | Architect SAP S/4HANA large instances with HA and DR on Azure | https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/sap-s4-hana-on-hli-with-ha-and-dr |
