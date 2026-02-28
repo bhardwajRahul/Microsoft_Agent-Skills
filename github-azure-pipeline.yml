@@ -112,6 +112,16 @@ stages:
                 if [ "${{ parameters.fullSync }}" = "True" ]; then
                   FULL_FLAG="--full"
                   echo "Running with --full flag"
+                    # check before delete
+                    if [ -n "$PRODUCTS_DIR" ] && [ -d "$PRODUCTS_DIR" ]; then
+                      rm -rf "$PRODUCTS_DIR"
+                      mkdir -p "$PRODUCTS_DIR"
+                    fi
+                  
+                    if [ -n "$SKILLS_DIR" ] && [ -d "$SKILLS_DIR" ]; then
+                      rm -rf "$SKILLS_DIR"
+                      mkdir -p "$SKILLS_DIR"
+                    fi
                 fi
 
                 echo "========================================"
@@ -121,7 +131,6 @@ stages:
                   --config-type waf \
                   --products-dir $PRODUCTS_DIR \
                   --skills-dir $SKILLS_DIR
-                  $FULL_FLAG
 
                 echo "========================================"
                 echo "Processing Cloud Adoption Framework"
