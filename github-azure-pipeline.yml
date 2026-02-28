@@ -114,44 +114,38 @@ stages:
                   echo "Running with --full flag"
                 fi
 
-                python -m src.docs2skills \
-                  --products-dir $PRODUCTS_DIR \
-                  --skills-dir $SKILLS_DIR \
-                  $FULL_FLAG
-
                 echo "========================================"
                 echo "Processing Well-Architected Framework"
                 echo "========================================"
                 python -m src.docs2skills \
-                  --toc https://learn.microsoft.com/en-us/azure/well-architected/breadcrumb/toc.json \
-                  --content-types config/content_types_waf.yaml \
+                  --config-type waf \
                   --products-dir $PRODUCTS_DIR \
-                  --skills-dir $SKILLS_DIR \
-                  --summary-prefix waf \
+                  --skills-dir $SKILLS_DIR
                   $FULL_FLAG
 
                 echo "========================================"
                 echo "Processing Cloud Adoption Framework"
                 echo "========================================"
                 python -m src.docs2skills \
-                  --toc https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/_bread/toc.json \
-                  --content-types config/content_types_caf.yaml \
+                  --content-types caf \
                   --products-dir $PRODUCTS_DIR \
-                  --skills-dir $SKILLS_DIR \
-                  --summary-prefix caf \
-                  $FULL_FLAG
+                  --skills-dir $SKILLS_DIR
 
                 echo "========================================"
                 echo "Processing Azure Architecture Center"
                 echo "========================================"
                 python -m src.docs2skills \
-                  --toc https://learn.microsoft.com/en-us/azure/architecture/bread/toc.json \
-                  --content-types config/content_types_aac.yaml \
+                  --content-types aaf \
+                  --products-dir $PRODUCTS_DIR \
+                  --skills-dir $SKILLS_DIR
+
+                echo "========================================"
+                echo "Processing Azure Other Products"
+                echo "========================================"
+                python -m src.docs2skills \
                   --products-dir $PRODUCTS_DIR \
                   --skills-dir $SKILLS_DIR \
-                  --toc-discovery-depth 10 \
-                  --summary-prefix aac \
-                  $FULL_FLAG
+
 
                 echo "========================================"
                 echo "Sync completed"
